@@ -993,3 +993,54 @@
 [2023-05-02 01:30:56] INFO root fetch - main [MainThread]: End processing [kubernetes-asyncio]: success
 [2023-05-02 01:31:13] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-02 01:31:13] INFO root fetch - main [MainThread]: Store serial: [17932999]
+[2023-05-02 01:36:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932999]
+[2023-05-02 01:36:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epyk
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildsys-dateversion
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidocr-openvino-gpu
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuron-xlboost
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salamemojify
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graph-retrieval-toolkit
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytheus
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gyrate
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peopledatalabs
+[2023-05-02 01:36:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vinset
+[2023-05-02 01:36:25] WARNING root fetch - processPackages [buildsys-dateversion]: Skipping, unable to determine old version
+[2023-05-02 01:36:25] INFO root fetch - main [MainThread]: End processing [buildsys-dateversion] error
+[2023-05-02 01:36:25] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 01:36:25] WARNING root fetch - processPackages [rapidocr-openvino-gpu]: Skipping, unable to determine old version
+[2023-05-02 01:36:25] INFO root fetch - processPackages [gyrate]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-02 01:36:25] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino-gpu] error
+[2023-05-02 01:36:25] WARNING root fetch - processPackages [salamemojify]: Skipping, unable to determine old version
+[2023-05-02 01:36:25] INFO root fetch - main [MainThread]: End processing [salamemojify] error
+[2023-05-02 01:36:25] WARNING root fetch - processPackages [neuron-xlboost]: Skipping, unable to determine old version
+[2023-05-02 01:36:25] INFO root fetch - main [MainThread]: End processing [neuron-xlboost] error
+[2023-05-02 01:36:26] INFO root fetch - processPackages [peopledatalabs]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-02 01:36:26] WARNING root fetch - processPackages [graph-retrieval-toolkit]: Skipping, unable to determine old version
+[2023-05-02 01:36:26] INFO root fetch - main [MainThread]: End processing [graph-retrieval-toolkit] error
+[2023-05-02 01:36:26] INFO root fetch - processPackages [vinset]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-05-02 01:36:26] INFO root fetch - processPackages [pytheus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 01:36:26] INFO root fetch - processPackages [gyrate]: executing diffoscope
+[2023-05-02 01:36:26] INFO root fetch - processPackages [gyrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyrate-0.0.31.tar.gz tmp/gyrate-0.0.32.tar.gz --markdown 20230502/g/gyrate/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-02 01:36:26] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2023-05-02 01:36:26] INFO root fetch - processPackages [peopledatalabs]: Downloading https://files.pythonhosted.org/packages/fb/74/ab8bedb01e01ff3c77db398b9a403d2851097df185ff6693ae909e0a0ba3/peopledatalabs-1.1.2.tar.gz
+[2023-05-02 01:36:26] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/c0/ec/fcab9cba8ea4a10841041d855651b6a0adcdf491673dd7903103e17a7f7c/vinset-4.1.1.tar.gz
+[2023-05-02 01:36:26] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/44/24/ddb8d3e3971c71fb37193e96548dd63417bd2d1fd9228d2d99a262621966/pytheus-0.0.8.tar.gz
+[2023-05-02 01:36:26] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/2c/66/5311a74038249f206c576d73bfb3f679f82329d8971985f40e0fbdd82bfb/vinset-4.1.2.tar.gz
+[2023-05-02 01:36:26] INFO root fetch - processPackages [peopledatalabs]: Downloading https://files.pythonhosted.org/packages/c6/85/1885bf7a94d7d27c29f74d9a3aa3053310c464a29d2bd1b9a723de0ffb76/peopledatalabs-1.1.3.tar.gz
+[2023-05-02 01:36:26] INFO root fetch - processPackages [vinset]: executing diffoscope
+[2023-05-02 01:36:26] INFO root fetch - processPackages [vinset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinset-4.1.1.tar.gz tmp/vinset-4.1.2.tar.gz --markdown 20230502/v/vinset/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-05-02 01:36:26] INFO root fetch - processPackages [pytheus]: Downloading https://files.pythonhosted.org/packages/81/91/2118822eee94be679af19c9fd9c9bfe2289d5eeb0f18883b2bfbdeeba393/pytheus-0.0.9.tar.gz
+[2023-05-02 01:36:26] INFO root fetch - processPackages [peopledatalabs]: executing diffoscope
+[2023-05-02 01:36:26] INFO root fetch - processPackages [peopledatalabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peopledatalabs-1.1.2.tar.gz tmp/peopledatalabs-1.1.3.tar.gz --markdown 20230502/p/peopledatalabs/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-02 01:36:26] INFO root fetch - processPackages [pytheus]: executing diffoscope
+[2023-05-02 01:36:26] INFO root fetch - processPackages [pytheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus-0.0.8.tar.gz tmp/pytheus-0.0.9.tar.gz --markdown 20230502/p/pytheus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:36:27] INFO root fetch - main [MainThread]: End processing [gyrate]: success
+[2023-05-02 01:36:27] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2023-05-02 01:36:27] INFO root fetch - main [MainThread]: End processing [vinset]: success
+[2023-05-02 01:36:27] INFO root fetch - main [MainThread]: End processing [peopledatalabs]: success
+[2023-05-02 01:36:27] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2023-05-02 01:36:27] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20230502/e/epyk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 01:36:27] INFO root fetch - main [MainThread]: End processing [pytheus]: success
+[2023-05-02 01:36:40] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2023-05-02 01:36:40] INFO root fetch - main [MainThread]: Store serial: [17933040]
