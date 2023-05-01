@@ -938,3 +938,18 @@
 [2023-05-02 01:20:24] INFO root fetch - main [MainThread]: End processing [prompt-wrangler]: success
 [2023-05-02 01:20:29] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-05-02 01:20:29] INFO root fetch - main [MainThread]: Store serial: [17932960]
+[2023-05-02 01:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932960]
+[2023-05-02 01:25:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-02 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-hamilton
+[2023-05-02 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prompt-wrangler
+[2023-05-02 01:25:38] INFO root fetch - processPackages [prompt-wrangler]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-02 01:25:38] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-05-02 01:25:38] INFO root fetch - processPackages [prompt-wrangler]: Downloading https://files.pythonhosted.org/packages/60/ab/2c8b2e1848eab008ba3b341b9f9e7aeca77cf9e398ea14f2d11d6e373fdc/prompt_wrangler-0.3.4.tar.gz
+[2023-05-02 01:25:39] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-05-02 01:25:39] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230502/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-05-02 01:25:39] INFO root fetch - processPackages [prompt-wrangler]: Downloading https://files.pythonhosted.org/packages/1e/04/bfb7ae26bc424f276eb8e8e3c0eee2360cf11a3b8949abdf8e40fbd1f7bc/prompt_wrangler-0.3.5.tar.gz
+[2023-05-02 01:25:39] INFO root fetch - processPackages [prompt-wrangler]: executing diffoscope
+[2023-05-02 01:25:39] INFO root fetch - processPackages [prompt-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_wrangler-0.3.4.tar.gz tmp/prompt_wrangler-0.3.5.tar.gz --markdown 20230502/p/prompt-wrangler/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-02 01:25:40] INFO root fetch - main [MainThread]: End processing [prompt-wrangler]: success
+[2023-05-02 01:25:40] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-05-02 01:25:40] INFO root fetch - main [MainThread]: Store serial: [17932966]
