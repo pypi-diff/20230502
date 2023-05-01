@@ -128,3 +128,74 @@
 [2023-05-02 00:06:43] INFO root fetch - main [MainThread]: End processing [pycryptosat]: success
 [2023-05-02 00:06:43] INFO root fetch - main [MainThread]: End processing [jupyterlab-ui-profiler]: success
 [2023-05-02 00:06:43] INFO root fetch - main [MainThread]: Store serial: [17932367]
+[2023-05-02 00:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932367]
+[2023-05-02 00:11:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyapproxmc
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-all-out
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solar-data-tools
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CmonCrawl
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aind-dispim-processing
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nautobot-welcome-wizard
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dfinance
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DicomRTTool
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typer-config
+[2023-05-02 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-sphinx-hosting
+[2023-05-02 00:11:52] INFO root fetch - processPackages [pyapproxmc]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [fastapi-all-out]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [solar-data-tools]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [aind-dispim-processing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [CmonCrawl]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [typer-config]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [nautobot-welcome-wizard]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-02 00:11:52] WARNING root fetch - processPackages [dfinance]: Skipping, unable to determine old version
+[2023-05-02 00:11:52] INFO root fetch - processPackages [dfinance]: Start processing: se-lib
+[2023-05-02 00:11:52] INFO root fetch - main [MainThread]: End processing [dfinance] error
+[2023-05-02 00:11:52] INFO root fetch - processPackages [django-sphinx-hosting]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [DicomRTTool]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [se-lib]: New version: [0.26.1] Old Version: [0.26]
+[2023-05-02 00:11:52] INFO root fetch - processPackages [aind-dispim-processing]: Downloading https://files.pythonhosted.org/packages/45/9f/2de2b71c86f295408ff17167c2e2015be206c490f9fc94a5a61b2926dd68/aind_dispim_processing-0.0.1.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-02 00:11:52] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.1.0.tar.gz tmp/typer_config-0.1.1a1.tar.gz --markdown 20230502/t/typer-config/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-02 00:11:52] INFO root fetch - processPackages [fastapi-all-out]: Downloading https://files.pythonhosted.org/packages/db/16/f772c863b42325098d9e8beb8b00f8ef414215b3cbfefe2dcf25fb745c65/fastapi_all_out-0.2.8.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [fastapi-all-out]: executing diffoscope
+[2023-05-02 00:11:52] INFO root fetch - processPackages [fastapi-all-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_all_out-0.2.7.tar.gz tmp/fastapi_all_out-0.2.8.tar.gz --markdown 20230502/f/fastapi-all-out/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-02 00:11:52] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/63/2a/a71beb5893608ef95910307cb5938cfd6c9c16beb09679decb1df7921254/CmonCrawl-0.8.0.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [solar-data-tools]: Downloading https://files.pythonhosted.org/packages/d5/83/59590f5939772747bcc8186618396e88dde8430d9d67cc7699c1ae6900bf/solar-data-tools-0.7.0.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [nautobot-welcome-wizard]: Downloading https://files.pythonhosted.org/packages/c4/e8/e8b235c2264436a85400c994e7f9e2217fd13440179c98375ecd43422f9c/nautobot_welcome_wizard-1.1.3.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/7d/71/d174deefdc6ffe0d0f12ada5a9ee17e423650adca9928798bd7df2b03691/django-sphinx-hosting-1.0.0.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [DicomRTTool]: Downloading https://files.pythonhosted.org/packages/08/01/0a1bb863052fb3ad97f4f21e70303db939f891ef5803cc52adc58038f6c9/DicomRTTool-2.0.7.tar.gz
+[2023-05-02 00:11:52] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/a3/d1/ecdee72fddf5c7aa0c30eb5ee741d69d92c432cea41e1abae1f174a2f3bc/se_lib-0.26.1.tar.gz
+[2023-05-02 00:11:52] WARNING root fetch - processPackages [solar-data-tools]: Skipping package: exceeds size limit 76167301>=10485760
+[2023-05-02 00:11:52] INFO root fetch - processPackages [solar-data-tools]: Start processing: shttst
+[2023-05-02 00:11:52] INFO root fetch - main [MainThread]: End processing [solar-data-tools] error
+[2023-05-02 00:11:52] INFO root fetch - processPackages [pyapproxmc]: executing diffoscope
+[2023-05-02 00:11:52] INFO root fetch - processPackages [pyapproxmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapproxmc-4.1.8.tar.gz tmp/pyapproxmc-4.1.9.tar.gz --markdown 20230502/p/pyapproxmc/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-05-02 00:11:52] WARNING root fetch - processPackages [shttst]: Skipping, unable to determine old version
+[2023-05-02 00:11:52] INFO root fetch - main [MainThread]: End processing [shttst] error
+[2023-05-02 00:11:52] INFO root fetch - processPackages [aind-dispim-processing]: Downloading https://files.pythonhosted.org/packages/c6/e9/002de65683bf6843606bcb4dac864fcba5a4907f8b45d94e9295c6ae1936/aind_dispim_processing-0.0.2.tar.gz
+[2023-05-02 00:11:53] INFO root fetch - processPackages [se-lib]: executing diffoscope
+[2023-05-02 00:11:53] INFO root fetch - processPackages [se-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/se_lib-0.26.tar.gz tmp/se_lib-0.26.1.tar.gz --markdown 20230502/s/se-lib/0.26-0.26.1/diff.md --exclude *.pyd
+[2023-05-02 00:11:53] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/8e/f9/90f0b09e47a0a08fc19fb713e4261b2ee579a5c853f044f1b086e1d9422b/django-sphinx-hosting-1.0.1.tar.gz
+[2023-05-02 00:11:53] INFO root fetch - processPackages [aind-dispim-processing]: executing diffoscope
+[2023-05-02 00:11:53] INFO root fetch - processPackages [aind-dispim-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_dispim_processing-0.0.1.tar.gz tmp/aind_dispim_processing-0.0.2.tar.gz --markdown 20230502/a/aind-dispim-processing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 00:11:53] INFO root fetch - processPackages [nautobot-welcome-wizard]: Downloading https://files.pythonhosted.org/packages/30/4b/c9b12ba922337e2f6397e217cc283f6b33218538bf542a3104e08218dc90/nautobot_welcome_wizard-1.1.4.tar.gz
+[2023-05-02 00:11:53] INFO root fetch - processPackages [DicomRTTool]: Downloading https://files.pythonhosted.org/packages/fd/68/778eac11a2991c66bb6e23ff80cf5b91717b125d0d282c016b868640d7cb/DicomRTTool-2.0.8.tar.gz
+[2023-05-02 00:11:53] INFO root fetch - processPackages [django-sphinx-hosting]: executing diffoscope
+[2023-05-02 00:11:53] INFO root fetch - processPackages [django-sphinx-hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sphinx-hosting-1.0.0.tar.gz tmp/django-sphinx-hosting-1.0.1.tar.gz --markdown 20230502/d/django-sphinx-hosting/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 00:11:53] INFO root fetch - processPackages [nautobot-welcome-wizard]: executing diffoscope
+[2023-05-02 00:11:53] INFO root fetch - processPackages [nautobot-welcome-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_welcome_wizard-1.1.3.tar.gz tmp/nautobot_welcome_wizard-1.1.4.tar.gz --markdown 20230502/n/nautobot-welcome-wizard/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-02 00:11:53] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/91/e6/10d32f24a4f05330e87779f1a0d3a1a2e5aef72b48589219a84dc8675c97/CmonCrawl-0.8.1.tar.gz
+[2023-05-02 00:11:53] INFO root fetch - processPackages [DicomRTTool]: executing diffoscope
+[2023-05-02 00:11:53] INFO root fetch - processPackages [DicomRTTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DicomRTTool-2.0.7.tar.gz tmp/DicomRTTool-2.0.8.tar.gz --markdown 20230502/D/DicomRTTool/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-02 00:11:53] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-02 00:11:53] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.8.0.tar.gz tmp/CmonCrawl-0.8.1.tar.gz --markdown 20230502/C/CmonCrawl/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-02 00:11:53] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-02 00:11:54] INFO root fetch - main [MainThread]: End processing [aind-dispim-processing]: success
+[2023-05-02 00:11:54] INFO root fetch - main [MainThread]: End processing [se-lib]: success
+[2023-05-02 00:11:54] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
+[2023-05-02 00:11:54] INFO root fetch - main [MainThread]: End processing [DicomRTTool]: success
+[2023-05-02 00:11:54] INFO root fetch - main [MainThread]: End processing [fastapi-all-out]: success
+[2023-05-02 00:11:55] INFO root fetch - main [MainThread]: End processing [nautobot-welcome-wizard]: success
+[2023-05-02 00:11:58] INFO root fetch - main [MainThread]: End processing [pyapproxmc]: success
+[2023-05-02 00:12:01] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-02 00:12:01] INFO root fetch - main [MainThread]: Store serial: [17932400]
