@@ -734,3 +734,50 @@
 [2023-05-02 01:04:42] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
 [2023-05-02 01:04:42] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
 [2023-05-02 01:04:42] INFO root fetch - main [MainThread]: Store serial: [17932817]
+[2023-05-02 01:09:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932817]
+[2023-05-02 01:09:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompt-wrangler
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylama2codeclimate
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CmonCrawl
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salamemojify
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdx-data-freshness-dbclean
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-toolbox
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsml
+[2023-05-02 01:09:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crackerjack
+[2023-05-02 01:09:51] INFO root fetch - processPackages [prompt-wrangler]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-02 01:09:51] INFO root fetch - processPackages [CmonCrawl]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 01:09:51] WARNING root fetch - processPackages [hdx-data-freshness-dbclean]: Skipping, unable to determine old version
+[2023-05-02 01:09:51] INFO root fetch - main [MainThread]: End processing [hdx-data-freshness-dbclean] error
+[2023-05-02 01:09:51] INFO root fetch - processPackages [pylama2codeclimate]: New version: [1.3] Old Version: [1.2]
+[2023-05-02 01:09:51] INFO root fetch - processPackages [prompt-wrangler]: executing diffoscope
+[2023-05-02 01:09:51] WARNING root fetch - processPackages [salamemojify]: Skipping, unable to determine old version
+[2023-05-02 01:09:51] INFO root fetch - processPackages [prompt-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_wrangler-0.3.1.tar.gz tmp/prompt_wrangler-0.3.2.tar.gz --markdown 20230502/p/prompt-wrangler/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-02 01:09:51] INFO root fetch - main [MainThread]: End processing [salamemojify] error
+[2023-05-02 01:09:51] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-02 01:09:51] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.8.2.tar.gz tmp/CmonCrawl-0.8.3.tar.gz --markdown 20230502/C/CmonCrawl/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 01:09:51] INFO root fetch - processPackages [tsml]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-02 01:09:51] INFO root fetch - processPackages [crackerjack]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 01:09:51] INFO root fetch - processPackages [lightning-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 01:09:51] INFO root fetch - processPackages [pylama2codeclimate]: Downloading https://files.pythonhosted.org/packages/3a/39/d77f66a4ddceb0d133ff4bacff505001cfe595e43d0b9b1d046188d79918/pylama2codeclimate-1.2-py3-none-any.whl
+[2023-05-02 01:09:51] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/b2/86/5779ed31381cb9a2c67c51aef95c5a074c36dba9a62431c8e349fa4bb7d9/crackerjack-0.1.7.tar.gz
+[2023-05-02 01:09:51] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/0e/a2/e33a2f505b9b8fa696b16975fe34a55c42dc96902865f16c6627044aa9b8/lightning_toolbox-0.0.8.tar.gz
+[2023-05-02 01:09:51] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/fd/21/781f3b21ccdfb9ecc33ebc2a5f1e988a1754b0589be38f1e89fb35c470eb/tsml-0.0.7.tar.gz
+[2023-05-02 01:09:52] INFO root fetch - processPackages [pylama2codeclimate]: Downloading https://files.pythonhosted.org/packages/93/4c/0c42ce36f53dd357c11c5ea13ec9652edd8c22cadc4b63d6d238a73167b7/pylama2codeclimate-1.3-py3-none-any.whl
+[2023-05-02 01:09:52] INFO root fetch - processPackages [crackerjack]: Downloading https://files.pythonhosted.org/packages/7a/5a/724339b47a05bafc1e32b27e3ef5f39d352032dd9e82269df945c4d878b7/crackerjack-0.1.8.tar.gz
+[2023-05-02 01:09:52] INFO root fetch - processPackages [pylama2codeclimate]: executing diffoscope
+[2023-05-02 01:09:52] INFO root fetch - processPackages [pylama2codeclimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylama2codeclimate-1.2-py3-none-any.whl.zip tmp/pylama2codeclimate-1.3-py3-none-any.whl.zip --markdown 20230502/p/pylama2codeclimate/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-02 01:09:52] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/88/05/70693c7b05cf3a46b00abf1fee8e3013917955af43b0d4fe1ec4b8d3260f/tsml-0.1.0.tar.gz
+[2023-05-02 01:09:52] INFO root fetch - processPackages [lightning-toolbox]: Downloading https://files.pythonhosted.org/packages/c9/f1/39547b268254026a2f0a4856694ac92d2cb143183580588cfd3696575465/lightning_toolbox-0.0.9.tar.gz
+[2023-05-02 01:09:52] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-05-02 01:09:52] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.1.7.tar.gz tmp/crackerjack-0.1.8.tar.gz --markdown 20230502/c/crackerjack/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 01:09:52] INFO root fetch - processPackages [tsml]: executing diffoscope
+[2023-05-02 01:09:52] INFO root fetch - processPackages [tsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsml-0.0.7.tar.gz tmp/tsml-0.1.0.tar.gz --markdown 20230502/t/tsml/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 01:09:52] INFO root fetch - processPackages [lightning-toolbox]: executing diffoscope
+[2023-05-02 01:09:52] INFO root fetch - processPackages [lightning-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_toolbox-0.0.8.tar.gz tmp/lightning_toolbox-0.0.9.tar.gz --markdown 20230502/l/lightning-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:09:52] INFO root fetch - main [MainThread]: End processing [prompt-wrangler]: success
+[2023-05-02 01:09:53] INFO root fetch - main [MainThread]: End processing [pylama2codeclimate]: success
+[2023-05-02 01:09:53] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-05-02 01:09:53] INFO root fetch - main [MainThread]: End processing [lightning-toolbox]: success
+[2023-05-02 01:09:53] INFO root fetch - main [MainThread]: End processing [tsml]: success
+[2023-05-02 01:09:58] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-02 01:09:58] INFO root fetch - main [MainThread]: Store serial: [17932852]
