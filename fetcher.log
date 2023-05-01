@@ -199,3 +199,67 @@
 [2023-05-02 00:11:58] INFO root fetch - main [MainThread]: End processing [pyapproxmc]: success
 [2023-05-02 00:12:01] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
 [2023-05-02 00:12:01] INFO root fetch - main [MainThread]: Store serial: [17932400]
+[2023-05-02 00:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932400]
+[2023-05-02 00:17:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-filter-autotools
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchling-cli
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalguide
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whacc
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jodAI
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splunk-opentelemetry
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafruit-circuitpython-atecc
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: database-knotinfo
+[2023-05-02 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: se-lib
+[2023-05-02 00:17:09] INFO root fetch - processPackages [django-filter-autotools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [jodAI]: New version: [0.0.91] Old Version: [0.0.9]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [benchling-cli]: New version: [0.8.1a0] Old Version: [0.8.0a0]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [adafruit-circuitpython-atecc]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [whacc]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [se-lib]: New version: [0.26.2] Old Version: [0.26.1]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [splunk-opentelemetry]: New version: [1.9.1] Old Version: [1.8.0]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [database-knotinfo]: New version: [21.7.15] Old Version: [21.7]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 00:17:09] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 00:17:10] INFO root fetch - processPackages [adafruit-circuitpython-atecc]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [adafruit-circuitpython-atecc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-atecc-1.2.8.tar.gz tmp/adafruit-circuitpython-atecc-1.2.9.tar.gz --markdown 20230502/a/adafruit-circuitpython-atecc/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230502/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [whacc]: Downloading https://files.pythonhosted.org/packages/e6/be/07288ad23d4a691d86af2a033624820038b355c92167ef7f9b8f6d6981d2/whacc-1.3.8.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [jodAI]: Downloading https://files.pythonhosted.org/packages/c7/80/91c3a6cc28e4914596f5fe083d41b996450bd694fd84061cc9e3856c3ead/jodAI-0.0.9-py3-none-any.whl
+[2023-05-02 00:17:10] INFO root fetch - processPackages [django-filter-autotools]: Downloading https://files.pythonhosted.org/packages/83/d9/a4424b0789cef0fd131f27c8b950cfad17858cff2cf1ac2ca30158052855/django-filter-autotools-0.0.4.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [splunk-opentelemetry]: Downloading https://files.pythonhosted.org/packages/8b/fd/38e81c13623f302c26ff81c54b7234e2c0a608e2df695bf95faf97914ded/splunk-opentelemetry-1.8.0.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/ed/10/02c95e09f90ea3ca6a6622ba42077bf5e1bb8004d969c78a73d79bc763fc/database_knotinfo-21.7.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/f7/14/8d743a282de5ee604851ad642d75883434ee928354e6bb05275a67094747/se_lib-0.26.2.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [django-filter-autotools]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [django-filter-autotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filter-autotools-0.0.3.tar.gz tmp/django-filter-autotools-0.0.4.tar.gz --markdown 20230502/d/django-filter-autotools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [benchling-cli]: Downloading https://files.pythonhosted.org/packages/c5/64/991bd8139113c0c30da2276bccc83d666e473eb2c90ecd6a2c1f9c2fe9d1/benchling_cli-0.8.1a0.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [se-lib]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [se-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/se_lib-0.26.1.tar.gz tmp/se_lib-0.26.2.tar.gz --markdown 20230502/s/se-lib/0.26.1-0.26.2/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [benchling-cli]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [benchling-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_cli-0.8.0a0.tar.gz tmp/benchling_cli-0.8.1a0.tar.gz --markdown 20230502/b/benchling-cli/0.8.0a0-0.8.1a0/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [jodAI]: Downloading https://files.pythonhosted.org/packages/c4/ba/079f1de8b0ab62eabae96ef23b0b6838ba59e99d38422c1d14dd1ed71791/jodAI-0.0.91.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [jodAI]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [jodAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jodAI-0.0.9-py3-none-any.whl.zip tmp/jodAI-0.0.91.tar.gz --markdown 20230502/j/jodAI/0.0.9-0.0.91/diff.md --exclude *.pyd
+[2023-05-02 00:17:10] INFO root fetch - processPackages [splunk-opentelemetry]: Downloading https://files.pythonhosted.org/packages/49/f6/1ac8f1d6857f92a5d743ff5ebfa40fde85bcfe01a90ccfe83acddfcb1ef5/splunk_opentelemetry-1.9.1.tar.gz
+[2023-05-02 00:17:10] INFO root fetch - processPackages [splunk-opentelemetry]: executing diffoscope
+[2023-05-02 00:17:10] INFO root fetch - processPackages [splunk-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk-opentelemetry-1.8.0.tar.gz tmp/splunk_opentelemetry-1.9.1.tar.gz --markdown 20230502/s/splunk-opentelemetry/1.8.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-02 00:17:11] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-atecc]: success
+[2023-05-02 00:17:11] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/41/30/c317860b531bb854820f45d9dd7f7a377cb7f44dc35a5e3f5d73f0521eda/database_knotinfo-21.7.15.tar.gz
+[2023-05-02 00:17:11] INFO root fetch - main [MainThread]: End processing [django-filter-autotools]: success
+[2023-05-02 00:17:11] INFO root fetch - main [MainThread]: End processing [jodAI]: success
+[2023-05-02 00:17:11] INFO root fetch - processPackages [whacc]: Downloading https://files.pythonhosted.org/packages/27/58/ac00877d3556e557a3070bba0e69cef2444d31dfa72416099d08dbdad781/whacc-1.3.9.tar.gz
+[2023-05-02 00:17:11] INFO root fetch - main [MainThread]: End processing [se-lib]: success
+[2023-05-02 00:17:11] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-02 00:17:11] INFO root fetch - main [MainThread]: End processing [benchling-cli]: success
+[2023-05-02 00:17:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-02 00:17:12] INFO root fetch - processPackages [database-knotinfo]: executing diffoscope
+[2023-05-02 00:17:12] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20230502/d/database-knotinfo/21.7-21.7.15/diff.md --exclude *.pyd
+[2023-05-02 00:17:12] INFO root fetch - processPackages [whacc]: executing diffoscope
+[2023-05-02 00:17:12] INFO root fetch - processPackages [whacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whacc-1.3.8.tar.gz tmp/whacc-1.3.9.tar.gz --markdown 20230502/w/whacc/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-02 00:17:15] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
+[2023-05-02 00:17:17] INFO root fetch - main [MainThread]: End processing [whacc]: success
+[2023-05-02 00:17:36] INFO root fetch - main [MainThread]: End processing [splunk-opentelemetry]: success
+[2023-05-02 00:17:36] INFO root fetch - main [MainThread]: Store serial: [17932429]
