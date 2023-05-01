@@ -781,3 +781,59 @@
 [2023-05-02 01:09:53] INFO root fetch - main [MainThread]: End processing [tsml]: success
 [2023-05-02 01:09:58] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
 [2023-05-02 01:09:58] INFO root fetch - main [MainThread]: Store serial: [17932852]
+[2023-05-02 01:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932852]
+[2023-05-02 01:15:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tecton
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byubit
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-config
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bed-reader
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QualysPy
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safepull
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solarwinds-apm
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typer-config
+[2023-05-02 01:15:07] INFO root fetch - processPackages [byubit]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-02 01:15:07] INFO root fetch - processPackages [QualysPy]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-02 01:15:07] INFO root fetch - processPackages [bed-reader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ovos-config]: New version: [0.0.9a1] Old Version: [0.0.8a5]
+[2023-05-02 01:15:07] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-02 01:15:07] WARNING root fetch - processPackages [safepull]: Skipping, unable to determine old version
+[2023-05-02 01:15:07] INFO root fetch - processPackages [typer-config]: New version: [0.1.1a1] Old Version: [0.1.1]
+[2023-05-02 01:15:07] INFO root fetch - main [MainThread]: End processing [safepull] error
+[2023-05-02 01:15:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.297] Old Version: [0.3.296]
+[2023-05-02 01:15:07] INFO root fetch - processPackages [solarwinds-apm]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-02 01:15:07] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/b8/f0/0f21bef5abe36b4a9699fdae5f8a128c5a443e2ec2a6e7580cca91b92a22/typer_config-0.1.1.tar.gz
+[2023-05-02 01:15:07] INFO root fetch - processPackages [byubit]: Downloading https://files.pythonhosted.org/packages/4e/46/4b30a4afba869cdc4a45a23d9980e83a14de4e44da8fbb56fd785d7f37ba/byubit-0.6.8.tar.gz
+[2023-05-02 01:15:07] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/84/57/4fd14f9beb843182ddb0cfda44802094d8781e9acf532e883025adc8da89/qualyspy-0.3.3.tar.gz
+[2023-05-02 01:15:07] INFO root fetch - processPackages [bed-reader]: Downloading https://files.pythonhosted.org/packages/65/0b/f835dbca4c8301011cc4d36a34d824379afa41394124f1c40b3d276b959f/bed_reader-0.2.8.tar.gz
+[2023-05-02 01:15:07] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/d4/b4/2683a01ff2f25c99eb9dacc3cad175831961490d7d10bcaa57a26aab3381/ovos-config-0.0.8a5.tar.gz
+[2023-05-02 01:15:08] INFO root fetch - processPackages [solarwinds-apm]: Downloading https://files.pythonhosted.org/packages/8b/f2/b9bd933a9c71f95af81d359b5e2dcbdb8a76b5539b69ac061eead49e67cd/solarwinds_apm-0.8.3.tar.gz
+[2023-05-02 01:15:08] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-02 01:15:08] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230502/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-02 01:15:08] WARNING root fetch - processPackages [solarwinds-apm]: Skipping package: exceeds size limit 25160000>=10485760
+[2023-05-02 01:15:08] INFO root fetch - main [MainThread]: End processing [solarwinds-apm] error
+[2023-05-02 01:15:08] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-02 01:15:08] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.1.1.tar.gz tmp/typer_config-0.1.1a1.tar.gz --markdown 20230502/t/typer-config/0.1.1-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-02 01:15:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/35/63/ec9cce7ef77c129a743a4a3f4292d7913b888ecefa2abc0d1281176f399e/pepperize.cdk-ses-smtp-credentials-0.3.297.tar.gz
+[2023-05-02 01:15:08] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/66/55/1bd648244670d9f7a2a8ebf0b12b5d90dcda0cc22f6315c5c29a13fec7a6/qualyspy-0.3.5.tar.gz
+[2023-05-02 01:15:08] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/32/ed/39b5f1eb2cb5bd1bf00e3775047d3e97291d60bcb6caa5ade708c7fc5bd2/ovos-config-0.0.9a1.tar.gz
+[2023-05-02 01:15:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-02 01:15:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.296.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.297.tar.gz --markdown 20230502/p/pepperize.cdk-ses-smtp-credentials/0.3.296-0.3.297/diff.md --exclude *.pyd
+[2023-05-02 01:15:08] INFO root fetch - processPackages [byubit]: Downloading https://files.pythonhosted.org/packages/e9/cc/3f961b37e766c120bf22fcc41a7af126f73bf4386defd9ee968eae1ac4eb/byubit-0.6.9.tar.gz
+[2023-05-02 01:15:08] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-05-02 01:15:08] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.3.tar.gz tmp/qualyspy-0.3.5.tar.gz --markdown 20230502/Q/QualysPy/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-02 01:15:08] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-05-02 01:15:08] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-config-0.0.8a5.tar.gz tmp/ovos-config-0.0.9a1.tar.gz --markdown 20230502/o/ovos-config/0.0.8a5-0.0.9a1/diff.md --exclude *.pyd
+[2023-05-02 01:15:08] INFO root fetch - processPackages [byubit]: executing diffoscope
+[2023-05-02 01:15:08] INFO root fetch - processPackages [byubit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byubit-0.6.8.tar.gz tmp/byubit-0.6.9.tar.gz --markdown 20230502/b/byubit/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-02 01:15:08] INFO root fetch - processPackages [bed-reader]: Downloading https://files.pythonhosted.org/packages/8a/0c/e7cfa50c586c7e7045e1e7770793dfde3030cba6effb34dba3d0f212acdd/bed_reader-0.2.9.tar.gz
+[2023-05-02 01:15:09] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-02 01:15:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-02 01:15:09] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-05-02 01:15:09] INFO root fetch - main [MainThread]: End processing [byubit]: success
+[2023-05-02 01:15:09] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-05-02 01:15:09] INFO root fetch - processPackages [bed-reader]: executing diffoscope
+[2023-05-02 01:15:09] INFO root fetch - processPackages [bed-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bed_reader-0.2.8.tar.gz tmp/bed_reader-0.2.9.tar.gz --markdown 20230502/b/bed-reader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 01:15:11] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
+[2023-05-02 01:15:12] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-02 01:15:12] INFO root fetch - main [MainThread]: Store serial: [17932904]
