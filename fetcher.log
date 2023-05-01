@@ -347,3 +347,44 @@
 [2023-05-02 00:22:50] INFO root fetch - main [MainThread]: End processing [pyunigen]: success
 [2023-05-02 00:23:08] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-02 00:23:08] INFO root fetch - main [MainThread]: Store serial: [17932477]
+[2023-05-02 00:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932477]
+[2023-05-02 00:28:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 00:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre-commit
+[2023-05-02 00:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-macropad
+[2023-05-02 00:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agave-pyclient
+[2023-05-02 00:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongo-link
+[2023-05-02 00:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-02 00:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 00:28:17] INFO root fetch - processPackages [agave-pyclient]: New version: [1.5.0rc1] Old Version: [1.4.1]
+[2023-05-02 00:28:17] INFO root fetch - processPackages [mongo-link]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 00:28:17] INFO root fetch - processPackages [adafruit-circuitpython-macropad]: New version: [2.2.0] Old Version: [2.1.8]
+[2023-05-02 00:28:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 00:28:17] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230501.22.27.419078] Old Version: [20230501.21.46.255783]
+[2023-05-02 00:28:17] INFO root fetch - processPackages [pre-commit]: New version: [3.3.0] Old Version: [3.2.2]
+[2023-05-02 00:28:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-02 00:28:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:28:17] INFO root fetch - processPackages [mongo-link]: Downloading https://files.pythonhosted.org/packages/1d/16/fc562c5edc11eabc3b77f451cf283182fbb9ae146f5a01aeed5705231585/mongo_link-1.0.0.tar.gz
+[2023-05-02 00:28:17] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/88/08/5168ac4033fbae5f3e390ebe861ce5e65c4114a4d94f68b36872d67cb1ac/agave_pyclient-1.4.1.tar.gz
+[2023-05-02 00:28:17] INFO root fetch - processPackages [pre-commit]: Downloading https://files.pythonhosted.org/packages/89/40/0f5b8d53178545f736172c8c2fc4f5eb68fffa828dba5ddad3cc43af878e/pre_commit-3.2.2.tar.gz
+[2023-05-02 00:28:17] INFO root fetch - processPackages [adafruit-circuitpython-macropad]: Downloading https://files.pythonhosted.org/packages/25/93/e48cc988f9d6614a3c5d4eac8c713c6f58ef642fd464cd87d1e6b8ff9ce7/adafruit-circuitpython-macropad-2.1.8.tar.gz
+[2023-05-02 00:28:17] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/40/67/ccbc029aef35f7d22d5e13f00fb9ff637ef9447df7f39b9fa2c6123e9983/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230501.21.46.255783.tar.gz
+[2023-05-02 00:28:17] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38324743>=10485760
+[2023-05-02 00:28:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 00:28:18] INFO root fetch - processPackages [mongo-link]: Downloading https://files.pythonhosted.org/packages/bd/99/4cfabb315e61a06afeac13a5df5b4d68efbe1e9b2fab89eec6e2c6b6c61c/mongo_link-1.0.1.tar.gz
+[2023-05-02 00:28:18] INFO root fetch - processPackages [pre-commit]: Downloading https://files.pythonhosted.org/packages/20/39/b661d2bf936fb24f5bac50f1717d59ef4fe04813f84cac109e9edc0a04c2/pre_commit-3.3.0.tar.gz
+[2023-05-02 00:28:18] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/6f/3c/e38386c895c7e32e85330ffd4118cbb083adb2a969abc77e01711d8d8c01/agave_pyclient-1.5.0rc1.tar.gz
+[2023-05-02 00:28:18] INFO root fetch - processPackages [mongo-link]: executing diffoscope
+[2023-05-02 00:28:18] INFO root fetch - processPackages [mongo-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_link-1.0.0.tar.gz tmp/mongo_link-1.0.1.tar.gz --markdown 20230502/m/mongo-link/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 00:28:18] INFO root fetch - processPackages [adafruit-circuitpython-macropad]: Downloading https://files.pythonhosted.org/packages/fa/28/c9eb453e2062fd3797bfbc40284685ae7531e854b156bbded62595e0f0b6/adafruit-circuitpython-macropad-2.2.0.tar.gz
+[2023-05-02 00:28:18] INFO root fetch - processPackages [pre-commit]: executing diffoscope
+[2023-05-02 00:28:18] INFO root fetch - processPackages [pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit-3.2.2.tar.gz tmp/pre_commit-3.3.0.tar.gz --markdown 20230502/p/pre-commit/3.2.2-3.3.0/diff.md --exclude *.pyd
+[2023-05-02 00:28:18] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2023-05-02 00:28:18] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.4.1.tar.gz tmp/agave_pyclient-1.5.0rc1.tar.gz --markdown 20230502/a/agave-pyclient/1.4.1-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-02 00:28:18] INFO root fetch - processPackages [adafruit-circuitpython-macropad]: executing diffoscope
+[2023-05-02 00:28:18] INFO root fetch - processPackages [adafruit-circuitpython-macropad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-macropad-2.1.8.tar.gz tmp/adafruit-circuitpython-macropad-2.2.0.tar.gz --markdown 20230502/a/adafruit-circuitpython-macropad/2.1.8-2.2.0/diff.md --exclude *.pyd
+[2023-05-02 00:28:19] INFO root fetch - main [MainThread]: End processing [mongo-link]: success
+[2023-05-02 00:28:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-02 00:28:19] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2023-05-02 00:28:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-macropad]: success
+[2023-05-02 00:28:20] INFO root fetch - main [MainThread]: End processing [pre-commit]: success
+[2023-05-02 00:28:20] INFO root fetch - main [MainThread]: Store serial: [17932495]
