@@ -837,3 +837,104 @@
 [2023-05-02 01:15:11] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
 [2023-05-02 01:15:12] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-02 01:15:12] INFO root fetch - main [MainThread]: Store serial: [17932904]
+[2023-05-02 01:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932904]
+[2023-05-02 01:20:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gyrate
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-to-proto
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lotrsdkbybnelson0
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QualysPy
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prom
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-02 01:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rsisa
+[2023-05-02 01:20:21] INFO root fetch - processPackages [py-to-proto]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230501.23.17.45153] Old Version: [20230501.22.27.419078]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [prom]: New version: [4.4.0] Old Version: [4.3.3]
+[2023-05-02 01:20:21] WARNING root fetch - processPackages [lotrsdkbybnelson0]: Skipping, unable to determine old version
+[2023-05-02 01:20:21] INFO root fetch - processPackages [lotrsdkbybnelson0]: Start processing: certora-cli-alpha-master
+[2023-05-02 01:20:21] INFO root fetch - main [MainThread]: End processing [lotrsdkbybnelson0] error
+[2023-05-02 01:20:21] INFO root fetch - processPackages [QualysPy]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-02 01:20:21] WARNING root fetch - processPackages [gyrate]: Skipping, unable to determine old version
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230501.23.17.716] Old Version: [20230501.22.28.942167]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [gyrate]: Start processing: dynamofl
+[2023-05-02 01:20:21] INFO root fetch - main [MainThread]: End processing [gyrate] error
+[2023-05-02 01:20:21] INFO root fetch - processPackages [chalkpy]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [rsisa]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.298] Old Version: [0.3.297]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230501.23.18.816981] Old Version: [20230501.18.13.975]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [dynamofl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/37/14/066e914a42711f3958eb560df7f67a79c85fb27c2f5c35fc493218718e8c/prom-4.3.3.tar.gz
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/23/be/6a7beb2a0dd77062342dd5f967e63a181042819da536e4ccecdcb0be993e/certora-cli-alpha-master-20230501.18.13.975.tar.gz
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/27/6a/133c33adcd44d4e1f936cf03f4ebbbf4768609b509e664d159bc4c4c68c1/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230501.22.27.419078.tar.gz
+[2023-05-02 01:20:21] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38324007>=10485760
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: gyrate
+[2023-05-02 01:20:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-02 01:20:21] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/b8/7c/c0e5917911fa2e06f82490eeb54e7823dd8b37f4dd592c758091c9bb41f4/qualyspy-0.3.6.tar.gz
+[2023-05-02 01:20:21] INFO root fetch - processPackages [rsisa]: Downloading https://files.pythonhosted.org/packages/08/ce/3b7ad740826927c94294d8b9d7510451f39ac027369890240106f50dfc46/rsisa-0.1.0.tar.gz
+[2023-05-02 01:20:21] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/b1/95/1feb82d9e5daad175f9dfe4a55c456a0a2b8fed440cc34567d638c6dd1fb/chalkpy-2.0.2.tar.gz
+[2023-05-02 01:20:21] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38324707>=10485760
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: deepecho
+[2023-05-02 01:20:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 01:20:21] INFO root fetch - processPackages [py-to-proto]: Downloading https://files.pythonhosted.org/packages/f7/40/1e8d53006306ec4452a9a89fe913685639e25b52fba4d0663c1db78f092d/py_to_proto-0.1.2-py39-none-any.whl
+[2023-05-02 01:20:21] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a0/5e/2f36ffad81c0089d846cd916124dea9324b4fee1aec8995a1d5278db6922/pepperize.cdk-ses-smtp-credentials-0.3.298.tar.gz
+[2023-05-02 01:20:21] INFO root fetch - processPackages [gyrate]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/3a/22/a76b5958796fd3431704c0a581d91b6cc984105c1f972a73663710ff18d5/certora-cli-alpha-roy-CERT-1844-usage-20230501.22.28.942167.tar.gz
+[2023-05-02 01:20:21] INFO root fetch - processPackages [dynamofl]: Downloading https://files.pythonhosted.org/packages/7e/ad/6e19c038fe0e22ad1720eedc257a7a09882b133db0176e203c7f9277a5ac/dynamofl-0.0.8.tar.gz
+[2023-05-02 01:20:21] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38325020>=10485760
+[2023-05-02 01:20:21] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: horde-model-reference
+[2023-05-02 01:20:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-02 01:20:21] INFO root fetch - processPackages [horde-model-reference]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 01:20:21] INFO root fetch - processPackages [deepecho]: New version: [0.4.1.dev0] Old Version: [0.4.0.dev0]
+[2023-05-02 01:20:22] INFO root fetch - processPackages [py-to-proto]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [py-to-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_to_proto-0.1.1-py39-none-any.whl.zip tmp/py_to_proto-0.1.2-py39-none-any.whl.zip --markdown 20230502/p/py-to-proto/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/e0/b8/45f2c4a396bd3afcdd82301607157f2ab6177d55d6a0ee9a64bf945136b1/prom-4.4.0.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.5.tar.gz tmp/qualyspy-0.3.6.tar.gz --markdown 20230502/Q/QualysPy/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.297.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.298.tar.gz --markdown 20230502/p/pepperize.cdk-ses-smtp-credentials/0.3.297-0.3.298/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.0.1.tar.gz tmp/chalkpy-2.0.2.tar.gz --markdown 20230502/c/chalkpy/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [gyrate]: Downloading https://files.pythonhosted.org/packages/dc/a4/04282ef26cdefd47e615c455207da71d0bf62c8baf48d15bd8bc8d7ddcd2/gyrate-0.0.31.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [rsisa]: Downloading https://files.pythonhosted.org/packages/76/21/740b5f0d2357dd51587aaefc91433c5c68ced4b199cfdfeee82f1d842040/rsisa-0.1.1.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/39/e0/421dee1eb7dd1b9409d2ec6bbb213d0d2a4e9d53277db1464c6414267af7/horde_model_reference-0.0.1-py3-none-any.whl
+[2023-05-02 01:20:22] INFO root fetch - processPackages [prom]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [prom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prom-4.3.3.tar.gz tmp/prom-4.4.0.tar.gz --markdown 20230502/p/prom/4.3.3-4.4.0/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [deepecho]: Downloading https://files.pythonhosted.org/packages/85/09/aedef8cad283b5c7ff33180eb8360656fb3dadaaf5d5e979e1bc15ac6b8d/deepecho-0.4.0.dev0.tar.gz
+[2023-05-02 01:20:22] WARNING root fetch - processPackages [horde-model-reference]: Skipping package: exceeds size limit 75104044>=10485760
+[2023-05-02 01:20:22] INFO root fetch - processPackages [horde-model-reference]: Start processing: pysignald
+[2023-05-02 01:20:22] INFO root fetch - main [MainThread]: End processing [horde-model-reference] error
+[2023-05-02 01:20:22] INFO root fetch - processPackages [rsisa]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [rsisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsisa-0.1.0.tar.gz tmp/rsisa-0.1.1.tar.gz --markdown 20230502/r/rsisa/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pysignald]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 01:20:22] INFO root fetch - processPackages [gyrate]: Downloading https://files.pythonhosted.org/packages/6b/55/57201b3753d2bd2463c18da8c82b898471df1baf3874c44823f6ab568134/gyrate-0.0.32.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [dynamofl]: Downloading https://files.pythonhosted.org/packages/9e/ef/82e5063a7e7f71da0e7241bdaf20b86fbe864aa2d01701701c5899f3a5e8/dynamofl-0.0.9.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [gyrate]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [gyrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gyrate-0.0.31.tar.gz tmp/gyrate-0.0.32.tar.gz --markdown 20230502/g/gyrate/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pysignald]: Downloading https://files.pythonhosted.org/packages/d3/7f/4d557c122b242b5bd66c9b896359272c0df01f1202268884dc8cd78d769a/pysignald-0.1.0.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [deepecho]: Downloading https://files.pythonhosted.org/packages/b4/ba/e56211a2cbfeb18431f2b0e89d5c91cee3ce9f9700f6067ef88a82836838/deepecho-0.4.1.dev0.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [dynamofl]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [dynamofl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamofl-0.0.8.tar.gz tmp/dynamofl-0.0.9.tar.gz --markdown 20230502/d/dynamofl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [deepecho]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [deepecho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepecho-0.4.0.dev0.tar.gz tmp/deepecho-0.4.1.dev0.tar.gz --markdown 20230502/d/deepecho/0.4.0.dev0-0.4.1.dev0/diff.md --exclude *.pyd
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pysignald]: Downloading https://files.pythonhosted.org/packages/27/3e/bcb66554f48af6bafe64f89f34d4a515d76316927ff2e0f32a6c3a966237/pysignald-0.1.1.tar.gz
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pysignald]: executing diffoscope
+[2023-05-02 01:20:22] INFO root fetch - processPackages [pysignald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysignald-0.1.0.tar.gz tmp/pysignald-0.1.1.tar.gz --markdown 20230502/p/pysignald/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 01:20:23] INFO root fetch - processPackages [py-to-proto]: Start processing: prompt-wrangler
+[2023-05-02 01:20:23] INFO root fetch - main [MainThread]: End processing [py-to-proto]: success
+[2023-05-02 01:20:23] INFO root fetch - processPackages [prompt-wrangler]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 01:20:23] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-05-02 01:20:23] INFO root fetch - processPackages [prompt-wrangler]: Downloading https://files.pythonhosted.org/packages/72/2e/6ee6fd10b088ace33340829dcf9ae65d65a14dfd158fc6ff04fdcad67561/prompt_wrangler-0.3.3.tar.gz
+[2023-05-02 01:20:23] INFO root fetch - processPackages [prompt-wrangler]: executing diffoscope
+[2023-05-02 01:20:23] INFO root fetch - processPackages [prompt-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_wrangler-0.3.2.tar.gz tmp/prompt_wrangler-0.3.3.tar.gz --markdown 20230502/p/prompt-wrangler/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 01:20:23] INFO root fetch - main [MainThread]: End processing [prom]: success
+[2023-05-02 01:20:23] INFO root fetch - main [MainThread]: End processing [gyrate]: success
+[2023-05-02 01:20:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-02 01:20:23] INFO root fetch - main [MainThread]: End processing [dynamofl]: success
+[2023-05-02 01:20:24] INFO root fetch - main [MainThread]: End processing [rsisa]: success
+[2023-05-02 01:20:24] INFO root fetch - main [MainThread]: End processing [pysignald]: success
+[2023-05-02 01:20:24] INFO root fetch - main [MainThread]: End processing [deepecho]: success
+[2023-05-02 01:20:24] INFO root fetch - main [MainThread]: End processing [prompt-wrangler]: success
+[2023-05-02 01:20:29] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-02 01:20:29] INFO root fetch - main [MainThread]: Store serial: [17932960]
