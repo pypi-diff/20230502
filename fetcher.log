@@ -1044,3 +1044,47 @@
 [2023-05-02 01:36:27] INFO root fetch - main [MainThread]: End processing [pytheus]: success
 [2023-05-02 01:36:40] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-05-02 01:36:40] INFO root fetch - main [MainThread]: Store serial: [17933040]
+[2023-05-02 01:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933040]
+[2023-05-02 01:41:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toyota-na-custom
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horde-model-reference
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymican
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformers-gradients
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vecdb
+[2023-05-02 01:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vanoma-api-utils
+[2023-05-02 01:41:49] INFO root fetch - processPackages [horde-model-reference]: New version: [0.0.7] Old Version: [0.0.3]
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vecdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-02 01:41:49] INFO root fetch - processPackages [pymican]: New version: [1.9.2] Old Version: [1.9.1.dev0]
+[2023-05-02 01:41:49] WARNING root fetch - processPackages [toyota-na-custom]: Skipping, unable to determine old version
+[2023-05-02 01:41:49] INFO root fetch - main [MainThread]: End processing [toyota-na-custom] error
+[2023-05-02 01:41:49] INFO root fetch - processPackages [transformers-gradients]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 01:41:49] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.9.0] Old Version: [0.86.0]
+[2023-05-02 01:41:49] INFO root fetch - processPackages [transformers-gradients]: executing diffoscope
+[2023-05-02 01:41:49] INFO root fetch - processPackages [transformers-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_gradients-0.0.8.tar.gz tmp/transformers_gradients-0.0.9.tar.gz --markdown 20230502/t/transformers-gradients/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/5e/53/0ed3126483313e07e31b776bb5b43655a1308c94beef555cd30cd84a2981/vanoma_api_utils-0.86.0.tar.gz
+[2023-05-02 01:41:49] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/56/b4/b1346d26e9cc206f81fc99159a8e88f04b9a53fcfb0710fcb3a56013e401/horde_model_reference-0.0.3-py3-none-any.whl
+[2023-05-02 01:41:49] INFO root fetch - processPackages [pymican]: Downloading https://files.pythonhosted.org/packages/e8/00/e17cea571c8191f30a1881ecbcdb2560e34c07ea796eb5f8b926ff17cc4e/pymican-1.9.1.dev0.tar.gz
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vecdb]: Downloading https://files.pythonhosted.org/packages/77/13/c749e9b357f73066caeb60680c6bddc8b154550570edeebab7e4cf17d0a0/vecdb-0.0.1.tar.gz
+[2023-05-02 01:41:49] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-02 01:41:49] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230502/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 01:41:49] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/db/82/fb8524d5d19b6f8edd3ce6d4a311bca00ad06bd23e6362d53ed11bee4ac2/horde_model_reference-0.0.7-py3-none-any.whl
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/f9/70/ea2044d446f7563ab8a6b170f211b65e39b9b47bcd7014338c73f96d103d/vanoma-api-utils-0.9.0.tar.gz
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vecdb]: Downloading https://files.pythonhosted.org/packages/43/45/19ff1e28ba3062038356627e5ff7f5f117bd608ca6d787aca4b09a03b560/vecdb-0.0.3.tar.gz
+[2023-05-02 01:41:49] INFO root fetch - processPackages [horde-model-reference]: executing diffoscope
+[2023-05-02 01:41:49] INFO root fetch - processPackages [horde-model-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_model_reference-0.0.3-py3-none-any.whl.zip tmp/horde_model_reference-0.0.7-py3-none-any.whl.zip --markdown 20230502/h/horde-model-reference/0.0.3-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vecdb]: executing diffoscope
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vecdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vecdb-0.0.1.tar.gz tmp/vecdb-0.0.3.tar.gz --markdown 20230502/v/vecdb/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 01:41:49] INFO root fetch - processPackages [pymican]: Downloading https://files.pythonhosted.org/packages/67/d7/1a5322ddb8ce446020baf80aa0ea9543ed69986394b6e229b4417cdfb986/pymican-1.9.2.tar.gz
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-05-02 01:41:49] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.86.0.tar.gz tmp/vanoma-api-utils-0.9.0.tar.gz --markdown 20230502/v/vanoma-api-utils/0.86.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 01:41:49] INFO root fetch - processPackages [pymican]: executing diffoscope
+[2023-05-02 01:41:49] INFO root fetch - processPackages [pymican]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymican-1.9.1.dev0.tar.gz tmp/pymican-1.9.2.tar.gz --markdown 20230502/p/pymican/1.9.1.dev0-1.9.2/diff.md --exclude *.pyd
+[2023-05-02 01:41:50] INFO root fetch - main [MainThread]: End processing [transformers-gradients]: success
+[2023-05-02 01:41:50] INFO root fetch - main [MainThread]: End processing [horde-model-reference]: success
+[2023-05-02 01:41:50] INFO root fetch - main [MainThread]: End processing [vecdb]: success
+[2023-05-02 01:41:50] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-05-02 01:41:51] INFO root fetch - main [MainThread]: End processing [pymican]: success
+[2023-05-02 01:41:52] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-02 01:41:52] INFO root fetch - main [MainThread]: Store serial: [17933062]
