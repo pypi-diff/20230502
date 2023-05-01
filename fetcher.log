@@ -388,3 +388,58 @@
 [2023-05-02 00:28:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-macropad]: success
 [2023-05-02 00:28:20] INFO root fetch - main [MainThread]: End processing [pre-commit]: success
 [2023-05-02 00:28:20] INFO root fetch - main [MainThread]: Store serial: [17932495]
+[2023-05-02 00:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932495]
+[2023-05-02 00:33:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sidetrek
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oci
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: augmenty
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamol
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iambic-core
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shelly-deepfixes
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord.py
+[2023-05-02 00:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FlipperNested
+[2023-05-02 00:33:29] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230501.22.28.942167] Old Version: [20230501.21.45.837799]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [datamol]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [discord.py]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [iambic-core]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: New version: [20230501.22.30.717142] Old Version: [20230501.21.53.489243]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [augmenty]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [datamol]: executing diffoscope
+[2023-05-02 00:33:29] INFO root fetch - processPackages [datamol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamol-0.9.7.tar.gz tmp/datamol-0.9.8.tar.gz --markdown 20230502/d/datamol/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-02 00:33:29] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/68/6c/adab5f33c18ba624e716a1eb2a831e0c82ab5e2a21e3b6b46b4fd9f47156/certora-cli-alpha-roy-CERT-1844-usage-20230501.21.45.837799.tar.gz
+[2023-05-02 00:33:29] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38325096>=10485760
+[2023-05-02 00:33:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-02 00:33:29] INFO root fetch - processPackages [discord.py]: Downloading https://files.pythonhosted.org/packages/38/0f/ceea1cd9f27c1a8a457946cfd6b7b33de75e4e43a4a81679ea1ea81f41f5/discord.py-2.2.2.tar.gz
+[2023-05-02 00:33:29] INFO root fetch - processPackages [augmenty]: Downloading https://files.pythonhosted.org/packages/d4/15/1226d26e03bf21fc1757fdbc35dc429c24352d7e3848da7b723d41210988/augmenty-1.3.6.tar.gz
+[2023-05-02 00:33:29] INFO root fetch - processPackages [FlipperNested]: New version: [2.2.2] Old Version: [2.1.2]
+[2023-05-02 00:33:29] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Downloading https://files.pythonhosted.org/packages/b2/58/84979f1d523e8ba2a549855cfb46dd0bdf2af1799f1bd84e4ef021ebdd7e/certora-cli-alpha-shelly-deepfixes-20230501.21.53.489243.tar.gz
+[2023-05-02 00:33:29] INFO root fetch - processPackages [augmenty]: executing diffoscope
+[2023-05-02 00:33:29] INFO root fetch - processPackages [augmenty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmenty-1.3.5.tar.gz tmp/augmenty-1.3.6.tar.gz --markdown 20230502/a/augmenty/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-02 00:33:29] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Skipping package: exceeds size limit 38324881>=10485760
+[2023-05-02 00:33:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deepfixes] error
+[2023-05-02 00:33:29] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/96/dd/3b896db6bd982b807cf3c9102c6b4ea01d3886e212a20d7af545d1c32111/iambic_core-0.3.1.tar.gz
+[2023-05-02 00:33:29] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-02 00:33:29] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230502/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 00:33:29] INFO root fetch - processPackages [discord.py]: Downloading https://files.pythonhosted.org/packages/36/ce/3ad5a63240b504722dada49d880f9f6250ab861baaba5d27df4f4cb3e34a/discord.py-2.2.3.tar.gz
+[2023-05-02 00:33:29] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-05-02 00:33:29] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20230502/o/oci/2.99.0-2.99.1/diff.md --exclude *.pyd
+[2023-05-02 00:33:30] INFO root fetch - processPackages [discord.py]: executing diffoscope
+[2023-05-02 00:33:30] INFO root fetch - processPackages [discord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord.py-2.2.2.tar.gz tmp/discord.py-2.2.3.tar.gz --markdown 20230502/d/discord.py/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-02 00:33:30] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/5b/22/42f8dd8c1c251197c78dea1a8966eeb08da7dcd41dd4e31475cee176973d/iambic_core-0.4.1.tar.gz
+[2023-05-02 00:33:30] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-05-02 00:33:30] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.3.1.tar.gz tmp/iambic_core-0.4.1.tar.gz --markdown 20230502/i/iambic-core/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 00:33:30] INFO root fetch - processPackages [FlipperNested]: Downloading https://files.pythonhosted.org/packages/40/6d/773275ea61d6a54e383751a2425ab1ef0fcf3077a3c41deded42c70dbf24/FlipperNested-2.2.2-cp39-cp39-win_amd64.whl
+[2023-05-02 00:33:30] INFO root fetch - processPackages [FlipperNested]: executing diffoscope
+[2023-05-02 00:33:30] INFO root fetch - processPackages [FlipperNested]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlipperNested-2.1.2.tar.gz tmp/FlipperNested-2.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230502/F/FlipperNested/2.1.2-2.2.2/diff.md --exclude *.pyd
+[2023-05-02 00:33:31] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-02 00:33:31] INFO root fetch - main [MainThread]: End processing [augmenty]: success
+[2023-05-02 00:33:31] INFO root fetch - main [MainThread]: End processing [FlipperNested]: success
+[2023-05-02 00:33:32] INFO root fetch - main [MainThread]: End processing [discord.py]: success
+[2023-05-02 00:33:32] INFO root fetch - main [MainThread]: End processing [datamol]: success
+[2023-05-02 00:33:33] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-05-02 00:36:30] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-05-02 00:36:30] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-05-02 00:36:30] INFO root fetch - main [MainThread]: Store serial: [17932556]
