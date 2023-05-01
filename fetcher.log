@@ -515,3 +515,67 @@
 [2023-05-02 00:41:49] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
 [2023-05-02 00:43:23] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-05-02 00:43:23] INFO root fetch - main [MainThread]: Store serial: [17932603]
+[2023-05-02 00:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932603]
+[2023-05-02 00:48:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nmodl-preprocessor
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parsl
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elektronn3
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betterconfigs
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discord
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: memprocfs
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycoloringpkgsV2
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-planck2018-lite
+[2023-05-02 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyoptimus
+[2023-05-02 00:48:32] INFO root fetch - processPackages [nmodl-preprocessor]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 00:48:32] WARNING root fetch - processPackages [elektronn3]: Skipping, unable to determine old version
+[2023-05-02 00:48:32] INFO root fetch - processPackages [elektronn3]: Start processing: splittr
+[2023-05-02 00:48:32] INFO root fetch - main [MainThread]: End processing [elektronn3] error
+[2023-05-02 00:48:32] INFO root fetch - processPackages [pyoptimus]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2023-05-02 00:48:32] INFO root fetch - processPackages [discord]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-02 00:48:32] INFO root fetch - processPackages [parsl]: New version: [2023.5.1] Old Version: [2023.4.3]
+[2023-05-02 00:48:32] INFO root fetch - processPackages [betterconfigs]: New version: [0.8.1] Old Version: [0.8]
+[2023-05-02 00:48:32] ERROR root fetch - processPackages [pycoloringpkgsV2]: Unable to get metadata: No such project 'pycoloringpkgsV2'
+[2023-05-02 00:48:32] WARNING root fetch - processPackages [torch-planck2018-lite]: Skipping, unable to determine old version
+[2023-05-02 00:48:32] INFO root fetch - main [MainThread]: End processing [pycoloringpkgsV2] error
+[2023-05-02 00:48:32] INFO root fetch - main [MainThread]: End processing [torch-planck2018-lite] error
+[2023-05-02 00:48:32] INFO root fetch - processPackages [memprocfs]: New version: [5.6.0] Old Version: [5.5.1]
+[2023-05-02 00:48:32] INFO root fetch - processPackages [chalkpy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-02 00:48:32] INFO root fetch - processPackages [splittr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 00:48:32] INFO root fetch - processPackages [discord]: Downloading https://files.pythonhosted.org/packages/a6/1c/0c071a52dcee778c667720214bedeea3d3b87ebd21c52618f49191ca4d8e/discord-2.2.2.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [pyoptimus]: Downloading https://files.pythonhosted.org/packages/b8/19/1db46a751752dcb3c0039c3292c90e325e06cd0c84006b64999571866841/pyoptimus-3.0.0b2.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/c1/c9/513cf5a601019666273b8ebb4646cd85bdb88d38f39a98f15f6ba18affb5/chalkpy-2.0.1.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/48/07/e82ba645aadcf464c4afb350ca5aef50cb575097957ede195e3bface7585/memprocfs-5.5.1.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [splittr]: Downloading https://files.pythonhosted.org/packages/07/53/893ba79b52f06c75aac088cc08e3ebb50e403b7b7e023f7f855d0d787473/splittr-0.0.3.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/a3/d6/5959bd1f1f16365c3b292fb42116c65228d9344a4224c1584c7bda75cf36/betterconfigs-0.8.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [nmodl-preprocessor]: Downloading https://files.pythonhosted.org/packages/7d/53/6cba710c4950200666ea578264c54c21df8aee0009e5021a851760b07c67/nmodl_preprocessor-1.0.6.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-02 00:48:32] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.0.0.tar.gz tmp/chalkpy-2.0.1.tar.gz --markdown 20230502/c/chalkpy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-02 00:48:32] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/23/d8/24eda3203a31d1de92cbc7227088c446f5f8b1e74fa8865531f3653cb503/parsl-2023.5.1.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [nmodl-preprocessor]: executing diffoscope
+[2023-05-02 00:48:32] INFO root fetch - processPackages [splittr]: executing diffoscope
+[2023-05-02 00:48:32] INFO root fetch - processPackages [nmodl-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_preprocessor-1.0.5.tar.gz tmp/nmodl_preprocessor-1.0.6.tar.gz --markdown 20230502/n/nmodl-preprocessor/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 00:48:32] INFO root fetch - processPackages [splittr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splittr-0.0.2.tar.gz tmp/splittr-0.0.3.tar.gz --markdown 20230502/s/splittr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 00:48:32] INFO root fetch - processPackages [discord]: Downloading https://files.pythonhosted.org/packages/6f/87/47ed2e622ef978b700b9c444973a99555882d12e1b67ae5d81333aa0f048/discord-2.2.3.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [discord]: executing diffoscope
+[2023-05-02 00:48:32] INFO root fetch - processPackages [discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-2.2.2.tar.gz tmp/discord-2.2.3.tar.gz --markdown 20230502/d/discord/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-02 00:48:32] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/29/10/7d743849b24e2ac5c4cfb0d4786280db1931476281e7e93490c62b4d269c/betterconfigs-0.8.1.tar.gz
+[2023-05-02 00:48:32] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-05-02 00:48:32] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.4.3.tar.gz tmp/parsl-2023.5.1.tar.gz --markdown 20230502/p/parsl/2023.4.3-2023.5.1/diff.md --exclude *.pyd
+[2023-05-02 00:48:33] INFO root fetch - processPackages [pyoptimus]: Downloading https://files.pythonhosted.org/packages/4d/ed/caa82ca78d3d829a57e9192ea236dd2f780242d2326a14bf9928780ae331/pyoptimus-3.0.0b3.tar.gz
+[2023-05-02 00:48:33] INFO root fetch - processPackages [betterconfigs]: executing diffoscope
+[2023-05-02 00:48:33] INFO root fetch - processPackages [betterconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterconfigs-0.8.tar.gz tmp/betterconfigs-0.8.1.tar.gz --markdown 20230502/b/betterconfigs/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-05-02 00:48:33] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/58/57/d217f0c3076a9645a864286f140034fa7a8b4058982e673e463c32a46453/memprocfs-5.6.0.tar.gz
+[2023-05-02 00:48:33] INFO root fetch - processPackages [memprocfs]: executing diffoscope
+[2023-05-02 00:48:33] INFO root fetch - processPackages [memprocfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memprocfs-5.5.1.tar.gz tmp/memprocfs-5.6.0.tar.gz --markdown 20230502/m/memprocfs/5.5.1-5.6.0/diff.md --exclude *.pyd
+[2023-05-02 00:48:33] INFO root fetch - processPackages [pyoptimus]: executing diffoscope
+[2023-05-02 00:48:33] INFO root fetch - processPackages [pyoptimus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptimus-3.0.0b2.tar.gz tmp/pyoptimus-3.0.0b3.tar.gz --markdown 20230502/p/pyoptimus/3.0.0b2-3.0.0b3/diff.md --exclude *.pyd
+[2023-05-02 00:48:34] INFO root fetch - main [MainThread]: End processing [splittr]: success
+[2023-05-02 00:48:34] INFO root fetch - main [MainThread]: End processing [discord]: success
+[2023-05-02 00:48:34] INFO root fetch - main [MainThread]: End processing [nmodl-preprocessor]: success
+[2023-05-02 00:48:34] INFO root fetch - main [MainThread]: End processing [betterconfigs]: success
+[2023-05-02 00:48:35] INFO root fetch - main [MainThread]: End processing [pyoptimus]: success
+[2023-05-02 00:48:37] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-05-02 00:48:38] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-02 00:48:42] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
+[2023-05-02 00:48:42] INFO root fetch - main [MainThread]: Store serial: [17932650]
