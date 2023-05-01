@@ -1143,3 +1143,63 @@
 [2023-05-02 01:47:02] INFO root fetch - main [MainThread]: End processing [neuron-xlboost]: success
 [2023-05-02 01:47:04] INFO root fetch - main [MainThread]: End processing [cebra]: success
 [2023-05-02 01:47:04] INFO root fetch - main [MainThread]: Store serial: [17933107]
+[2023-05-02 01:52:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933107]
+[2023-05-02 01:52:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echostream-node
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buildsys-dateversion
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudone-vsapi
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlmesh
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miniagent
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transformers-gradients
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: embykeeper
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CmonCrawl
+[2023-05-02 01:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fprime-gds
+[2023-05-02 01:52:13] INFO root fetch - processPackages [buildsys-dateversion]: New version: [2023.5.1.23] Old Version: [2023.5.1]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [echostream-node]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [transformers-gradients]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [miniagent]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [embykeeper]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [sqlmesh]: New version: [0.6.4] Old Version: [0.6.3.dev5]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [fprime-gds]: New version: [3.2.1a1] Old Version: [3.2.0]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [CmonCrawl]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-02 01:52:13] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 01:52:13] WARNING root fetch - processPackages [cloudone-vsapi]: Skipping, unable to determine old version
+[2023-05-02 01:52:13] INFO root fetch - main [MainThread]: End processing [cloudone-vsapi] error
+[2023-05-02 01:52:13] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-05-02 01:52:13] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.0.8.tar.gz tmp/embykeeper-2.0.9.tar.gz --markdown 20230502/e/embykeeper/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:52:13] INFO root fetch - processPackages [transformers-gradients]: executing diffoscope
+[2023-05-02 01:52:13] INFO root fetch - processPackages [transformers-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_gradients-0.0.8.tar.gz tmp/transformers_gradients-0.0.9.tar.gz --markdown 20230502/t/transformers-gradients/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:52:13] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-02 01:52:13] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230502/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 01:52:13] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/b2/5e/44ea2b79e5f88a539ad1acc1c2e73e36b1e0aae3046a725aac0293c8d46f/CmonCrawl-0.8.4.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [echostream-node]: Downloading https://files.pythonhosted.org/packages/30/43/0c78de8d8e632745db3692f615fd039076c9fa24d037ba0d09dd39a8996d/echostream-node-0.3.8.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [fprime-gds]: Downloading https://files.pythonhosted.org/packages/86/ac/6474492f64bd16eb900aa4bfb77d092a24735e364571dbc37df5f0425b58/fprime_gds-3.2.0.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [buildsys-dateversion]: Downloading https://files.pythonhosted.org/packages/da/02/9c693290695004e50e53f2dd38cf3788e092feadfb44af8f3e9c19cc041b/buildsys-dateversion-2023.5.1.23.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/f9/ee/8dfee4cf25ac4a4d9033398feda15d81108ba66f6a9edf6d6ffd49f9bab9/sqlmesh-0.6.4.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/8f/a1/99fc3969168be061d3652b06b18d63504a9952e95e1425ee2309cff1a406/miniagent-0.0.6-py3-none-any.whl
+[2023-05-02 01:52:13] INFO root fetch - processPackages [buildsys-dateversion]: executing diffoscope
+[2023-05-02 01:52:13] INFO root fetch - processPackages [buildsys-dateversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildsys-dateversion-2023.5.1.tar.gz tmp/buildsys-dateversion-2023.5.1.23.tar.gz --markdown 20230502/b/buildsys-dateversion/2023.5.1-2023.5.1.23/diff.md --exclude *.pyd
+[2023-05-02 01:52:13] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-05-02 01:52:13] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.6.3.dev5.tar.gz tmp/sqlmesh-0.6.4.tar.gz --markdown 20230502/s/sqlmesh/0.6.3.dev5-0.6.4/diff.md --exclude *.pyd
+[2023-05-02 01:52:13] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-05-02 01:52:13] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.5-py3-none-any.whl.zip tmp/miniagent-0.0.6-py3-none-any.whl.zip --markdown 20230502/m/miniagent/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-02 01:52:13] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/08/34/37e264dcb272172dad4522e3bc223f240033992ccc31dc35ea64bf12efd8/CmonCrawl-0.8.5.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [fprime-gds]: Downloading https://files.pythonhosted.org/packages/29/4d/4351e02b4be21c3573a1b18e0f7228902959a015ee79e93cbfc4a88106cc/fprime_gds-3.2.1a1.tar.gz
+[2023-05-02 01:52:13] INFO root fetch - processPackages [echostream-node]: Downloading https://files.pythonhosted.org/packages/6f/11/5701b60a253c7c8e19523c27d3ee31217e0a53f9d2c5b649fbf30db653f5/echostream-node-0.3.9.tar.gz
+[2023-05-02 01:52:14] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-02 01:52:14] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.8.4.tar.gz tmp/CmonCrawl-0.8.5.tar.gz --markdown 20230502/C/CmonCrawl/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-02 01:52:14] INFO root fetch - processPackages [echostream-node]: executing diffoscope
+[2023-05-02 01:52:14] INFO root fetch - processPackages [echostream-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echostream-node-0.3.8.tar.gz tmp/echostream-node-0.3.9.tar.gz --markdown 20230502/e/echostream-node/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 01:52:14] INFO root fetch - processPackages [fprime-gds]: executing diffoscope
+[2023-05-02 01:52:14] INFO root fetch - processPackages [fprime-gds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fprime_gds-3.2.0.tar.gz tmp/fprime_gds-3.2.1a1.tar.gz --markdown 20230502/f/fprime-gds/3.2.0-3.2.1a1/diff.md --exclude *.pyd
+[2023-05-02 01:52:14] INFO root fetch - main [MainThread]: End processing [transformers-gradients]: success
+[2023-05-02 01:52:15] INFO root fetch - main [MainThread]: End processing [buildsys-dateversion]: success
+[2023-05-02 01:52:15] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-05-02 01:52:15] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-05-02 01:52:16] INFO root fetch - main [MainThread]: End processing [echostream-node]: success
+[2023-05-02 01:52:17] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-02 01:52:19] INFO root fetch - main [MainThread]: End processing [fprime-gds]: success
+[2023-05-02 01:52:23] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-02 01:52:24] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-05-02 01:52:24] INFO root fetch - main [MainThread]: Store serial: [17933138]
