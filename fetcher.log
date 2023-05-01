@@ -1,0 +1,86 @@
+[2023-05-02 00:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932295]
+[2023-05-02 00:01:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-review
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eeggan
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandas-stubs
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytez
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aspreno
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: circuitpython-async-button
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: science-tools
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: able-recipe
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flow-helpers-tps
+[2023-05-02 00:01:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prompt-wrangler
+[2023-05-02 00:01:27] WARNING root fetch - processPackages [science-tools]: Skipping, unable to determine old version
+[2023-05-02 00:01:27] INFO root fetch - processPackages [science-tools]: Start processing: pure-interface
+[2023-05-02 00:01:27] INFO root fetch - main [MainThread]: End processing [science-tools] error
+[2023-05-02 00:01:27] INFO root fetch - processPackages [able-recipe]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pandas-stubs]: New version: [2.0.1.230501] Old Version: [2.0.0.230412]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [prompt-wrangler]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [circuitpython-async-button]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [flow-helpers-tps]: New version: [2023.5.1.2158] Old Version: [2023.5.1.2100]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc261.post1] Old Version: [0.2.3rc260.post1]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [aspreno]: New version: [1.0.0.dev2] Old Version: [1.0.0.dev1]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [eeggan]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pure-interface]: New version: [7.1.0] Old Version: [7.0.2]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pandas-stubs]: Downloading https://files.pythonhosted.org/packages/54/30/5363ddc8fbbcae954b9b774141ca8ea8ca1af183895da876cd1d8bd060c1/pandas_stubs-2.0.0.230412.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [aspreno]: Downloading https://files.pythonhosted.org/packages/1e/f0/27f570f84a50b765e78f1c9bba9bc53e9961f1b00bde179aac222e5ac9d1/aspreno-1.0.0.dev1.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [circuitpython-async-button]: Downloading https://files.pythonhosted.org/packages/50/6c/ea29bc5e51c27564088014d444f7e13d18e4dc112378cc02040b753003ac/circuitpython-async-button-1.2.1.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/4a/98/6bfafe815b01af4570ceac3d22e226f4135c3f28bf76917afad5b17a2378/able_recipe-1.0.8.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/18/fe/cc0f1369e8ce0e6bcc319c31147b5e3771dbc8eca9ba349a6369740f3da5/eeggan-0.1.1.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [prompt-wrangler]: Downloading https://files.pythonhosted.org/packages/b9/91/658375abdb0f31f2521a18b3a33ee251d170e778d61e84be7a99d96d26d6/prompt_wrangler-0.3.2.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [flow-helpers-tps]: Downloading https://files.pythonhosted.org/packages/20/2c/23507e0f10e97a774d710a80eeb59a2817d78c6efb8c9ad2f83a029516f0/flow_helpers_tps-2023.5.1.2158.tar.gz
+[2023-05-02 00:01:27] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 32580088>=10485760
+[2023-05-02 00:01:27] INFO root fetch - processPackages [eeggan]: Start processing: django-filter-autotools
+[2023-05-02 00:01:27] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2023-05-02 00:01:27] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/42/00/a9c0510ac06ad90fc6a15b84d8c282f0d1faa2f41e3a0a5af41a490fb797/gpt-review-0.2.3rc261.post1.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [django-filter-autotools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 00:01:27] INFO root fetch - processPackages [prompt-wrangler]: executing diffoscope
+[2023-05-02 00:01:27] INFO root fetch - processPackages [prompt-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_wrangler-0.3.1.tar.gz tmp/prompt_wrangler-0.3.2.tar.gz --markdown 20230502/p/prompt-wrangler/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-02 00:01:27] INFO root fetch - processPackages [flow-helpers-tps]: executing diffoscope
+[2023-05-02 00:01:27] INFO root fetch - processPackages [flow-helpers-tps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_helpers_tps-2023.5.1.2100.tar.gz tmp/flow_helpers_tps-2023.5.1.2158.tar.gz --markdown 20230502/f/flow-helpers-tps/2023.5.1.2100-2023.5.1.2158/diff.md --exclude *.pyd
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pandas-stubs]: Downloading https://files.pythonhosted.org/packages/4a/0c/64222f3af8de57623ce3750248ab08fff2b68c72f6ab7c914f3221f1f3ae/pandas_stubs-2.0.1.230501.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pure-interface]: Downloading https://files.pythonhosted.org/packages/79/3c/55d630ef2f690ee9db9ae0b0307ea75893fdedc52eb16480f8ca3018e4ae/pure_interface-7.1.0.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [aspreno]: Downloading https://files.pythonhosted.org/packages/f6/a7/f8fbd269dca22cf173b1fd2eb1dfec8e2fb92af1ee69ee96c17b5de9e364/aspreno-1.0.0.dev2.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-02 00:01:27] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230502/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 00:01:27] INFO root fetch - processPackages [circuitpython-async-button]: Downloading https://files.pythonhosted.org/packages/c4/7d/a991a59b1798fc188b2998f93153745090aeac9071660611cb940f681dee/circuitpython-async-button-1.2.2.tar.gz
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pandas-stubs]: executing diffoscope
+[2023-05-02 00:01:27] INFO root fetch - processPackages [pandas-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_stubs-2.0.0.230412.tar.gz tmp/pandas_stubs-2.0.1.230501.tar.gz --markdown 20230502/p/pandas-stubs/2.0.0.230412-2.0.1.230501/diff.md --exclude *.pyd
+[2023-05-02 00:01:28] INFO root fetch - processPackages [pure-interface]: executing diffoscope
+[2023-05-02 00:01:28] INFO root fetch - processPackages [pure-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_interface-7.0.2.tar.gz tmp/pure_interface-7.1.0.tar.gz --markdown 20230502/p/pure-interface/7.0.2-7.1.0/diff.md --exclude *.pyd
+[2023-05-02 00:01:28] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-02 00:01:28] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc260.post1.tar.gz tmp/gpt-review-0.2.3rc261.post1.tar.gz --markdown 20230502/g/gpt-review/0.2.3rc260.post1-0.2.3rc261.post1/diff.md --exclude *.pyd
+[2023-05-02 00:01:28] INFO root fetch - processPackages [aspreno]: executing diffoscope
+[2023-05-02 00:01:28] INFO root fetch - processPackages [aspreno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspreno-1.0.0.dev1.tar.gz tmp/aspreno-1.0.0.dev2.tar.gz --markdown 20230502/a/aspreno/1.0.0.dev1-1.0.0.dev2/diff.md --exclude *.pyd
+[2023-05-02 00:01:28] INFO root fetch - processPackages [django-filter-autotools]: Downloading https://files.pythonhosted.org/packages/6a/29/ef9d9321aa4d4a928b0bc8b29e1184804ff652d4a0cb567f6708e005a025/django-filter-autotools-0.0.3.tar.gz
+[2023-05-02 00:01:28] INFO root fetch - processPackages [circuitpython-async-button]: executing diffoscope
+[2023-05-02 00:01:28] INFO root fetch - processPackages [circuitpython-async-button]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-async-button-1.2.1.tar.gz tmp/circuitpython-async-button-1.2.2.tar.gz --markdown 20230502/c/circuitpython-async-button/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-02 00:01:28] INFO root fetch - processPackages [able-recipe]: Downloading https://files.pythonhosted.org/packages/c6/a2/89fecb575fa9f87f080d1070437fb8570a3acb72faca18cd828c7967b06f/able_recipe-1.0.9.tar.gz
+[2023-05-02 00:01:28] INFO root fetch - processPackages [django-filter-autotools]: executing diffoscope
+[2023-05-02 00:01:28] INFO root fetch - processPackages [django-filter-autotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filter-autotools-0.0.2.tar.gz tmp/django-filter-autotools-0.0.3.tar.gz --markdown 20230502/d/django-filter-autotools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 00:01:28] INFO root fetch - processPackages [able-recipe]: executing diffoscope
+[2023-05-02 00:01:28] INFO root fetch - processPackages [able-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/able_recipe-1.0.8.tar.gz tmp/able_recipe-1.0.9.tar.gz --markdown 20230502/a/able-recipe/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 00:01:30] INFO root fetch - processPackages [aspreno]: Start processing: PyMultiDictionary
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [aspreno]: success
+[2023-05-02 00:01:30] INFO root fetch - processPackages [bytez]: Start processing: digitalguide
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-02 00:01:30] INFO root fetch - processPackages [PyMultiDictionary]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [prompt-wrangler]: success
+[2023-05-02 00:01:30] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [django-filter-autotools]: success
+[2023-05-02 00:01:30] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-02 00:01:30] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230502/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [circuitpython-async-button]: success
+[2023-05-02 00:01:30] INFO root fetch - processPackages [PyMultiDictionary]: Downloading https://files.pythonhosted.org/packages/bf/7c/580722e70d18781f37e8e9400b039ae1fb84d99e1489efd0d82daa2448a5/PyMultiDictionary-1.2.1.tar.gz
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [flow-helpers-tps]: success
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [able-recipe]: success
+[2023-05-02 00:01:30] INFO root fetch - processPackages [PyMultiDictionary]: Downloading https://files.pythonhosted.org/packages/bf/62/0669abbd822f38ab5a54b3d191b763c7177b088eee5202605b0c57335610/PyMultiDictionary-1.2.2.tar.gz
+[2023-05-02 00:01:30] INFO root fetch - processPackages [PyMultiDictionary]: executing diffoscope
+[2023-05-02 00:01:30] INFO root fetch - processPackages [PyMultiDictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMultiDictionary-1.2.1.tar.gz tmp/PyMultiDictionary-1.2.2.tar.gz --markdown 20230502/P/PyMultiDictionary/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-02 00:01:30] INFO root fetch - main [MainThread]: End processing [pure-interface]: success
+[2023-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [pandas-stubs]: success
+[2023-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [PyMultiDictionary]: success
+[2023-05-02 00:01:31] INFO root fetch - main [MainThread]: Store serial: [17932339]
