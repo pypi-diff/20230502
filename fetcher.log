@@ -443,3 +443,75 @@
 [2023-05-02 00:36:30] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-05-02 00:36:30] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-05-02 00:36:30] INFO root fetch - main [MainThread]: Store serial: [17932556]
+[2023-05-02 00:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932556]
+[2023-05-02 00:41:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnmfsns
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchling-api-client
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CmonCrawl
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FakeNewsClassifier
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-core
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langflow
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydetex
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: makeprediction
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CmonCrawl
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalguide
+[2023-05-02 00:41:38] WARNING root fetch - processPackages [cnmfsns]: Skipping, unable to determine old version
+[2023-05-02 00:41:38] INFO root fetch - processPackages [cnmfsns]: Start processing: nmodl-preprocessor
+[2023-05-02 00:41:38] INFO root fetch - main [MainThread]: End processing [cnmfsns] error
+[2023-05-02 00:41:38] INFO root fetch - processPackages [langflow]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [CmonCrawl]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [pydetex]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [makeprediction]: New version: [4.1.0] Old Version: [4.0.2]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ansible-core]: New version: [2.15.0rc2] Old Version: [2.15.0rc1]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [CmonCrawl]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [nmodl-preprocessor]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-02 00:41:38] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-02 00:41:38] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: pyqrack
+[2023-05-02 00:41:38] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-02 00:41:38] INFO root fetch - processPackages [pyqrack]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-02 00:41:38] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-02 00:41:38] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230502/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:41:38] INFO root fetch - processPackages [pydetex]: Downloading https://files.pythonhosted.org/packages/56/af/aa67c288767992d3d99b2c8ad7ac2a23d1859f706b6e4850296253bd9eda/pydetex-0.9.9.tar.gz
+[2023-05-02 00:41:38] INFO root fetch - processPackages [makeprediction]: Downloading https://files.pythonhosted.org/packages/8b/ac/52fa4b1d4a828077746ee4ce42e3f9df4d21a7bc51234a6c3e9895339096/makeprediction-4.0.2-py3-none-any.whl
+[2023-05-02 00:41:38] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/91/7b/ffe2e666b09b360b561144356e37ad72dd2d02f2ae04f16a6de058f8dbe0/langflow-0.0.63.tar.gz
+[2023-05-02 00:41:38] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/0d/34/374ad1619868b6b8b2ff30f71f9cd9f6ff04c24189059fa70ccdc54149b8/CmonCrawl-0.8.2.tar.gz
+[2023-05-02 00:41:38] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/0d/34/374ad1619868b6b8b2ff30f71f9cd9f6ff04c24189059fa70ccdc54149b8/CmonCrawl-0.8.2.tar.gz
+[2023-05-02 00:41:38] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/4a/e6/7863e2a7b655a876ab30cbd350021e127322253a3d4c3e033db50744a675/ansible-core-2.15.0rc1.tar.gz
+[2023-05-02 00:41:38] INFO root fetch - processPackages [nmodl-preprocessor]: Downloading https://files.pythonhosted.org/packages/dc/59/5f6e930d8072e4186f2551855632cdf6cf506bf22a5f3d03df0e29c664b9/nmodl_preprocessor-1.0.4.tar.gz
+[2023-05-02 00:41:39] WARNING root fetch - processPackages [ansible-core]: Skipping package: exceeds size limit 10973235>=10485760
+[2023-05-02 00:41:39] INFO root fetch - main [MainThread]: End processing [ansible-core] error
+[2023-05-02 00:41:39] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230502/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [pydetex]: Downloading https://files.pythonhosted.org/packages/14/25/a34ad1d44f35c6f11fc943579893ab6676b851a00bd62bce116e43b1b9f9/pydetex-1.0.0.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [makeprediction]: Downloading https://files.pythonhosted.org/packages/75/d2/0e608a3df98f0645f72d725c6deeac631a83328848ef09d7352b13c4ef06/makeprediction-4.1.0.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [pydetex]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [pydetex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydetex-0.9.9.tar.gz tmp/pydetex-1.0.0.tar.gz --markdown 20230502/p/pydetex/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/3c/72/abb85b609f127bd03d27b92507cd31126a4e611c69ae3d9d3a3c9b549774/pyqrack-1.7.1.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [nmodl-preprocessor]: Downloading https://files.pythonhosted.org/packages/dc/31/fe18b268f49ffc73918a6f2477f40d0fb4c6bbaec3ed20b66dd8f3c89775/nmodl_preprocessor-1.0.5.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [makeprediction]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [makeprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makeprediction-4.0.2-py3-none-any.whl.zip tmp/makeprediction-4.1.0.tar.gz --markdown 20230502/m/makeprediction/4.0.2-4.1.0/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [nmodl-preprocessor]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [nmodl-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_preprocessor-1.0.4.tar.gz tmp/nmodl_preprocessor-1.0.5.tar.gz --markdown 20230502/n/nmodl-preprocessor/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/2a/17/e5ef95f58f653b3543ccce4da4257a9291170f4969f431c20ca6edb4603f/langflow-0.0.64.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.7.0.tar.gz tmp/pyqrack-1.7.1.tar.gz --markdown 20230502/p/pyqrack/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/f3/45/67a9636a6310d23633e7b5791b534317ec5a72c3c2fe1f512dd6a2554d1a/CmonCrawl-0.8.3.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [CmonCrawl]: Downloading https://files.pythonhosted.org/packages/f3/45/67a9636a6310d23633e7b5791b534317ec5a72c3c2fe1f512dd6a2554d1a/CmonCrawl-0.8.3.tar.gz
+[2023-05-02 00:41:39] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.63.tar.gz tmp/langflow-0.0.64.tar.gz --markdown 20230502/l/langflow/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.8.2.tar.gz tmp/CmonCrawl-0.8.3.tar.gz --markdown 20230502/C/CmonCrawl/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 00:41:39] INFO root fetch - processPackages [CmonCrawl]: executing diffoscope
+[2023-05-02 00:41:39] INFO root fetch - processPackages [CmonCrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CmonCrawl-0.8.2.tar.gz tmp/CmonCrawl-0.8.3.tar.gz --markdown 20230502/C/CmonCrawl/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 00:41:40] INFO root fetch - main [MainThread]: End processing [makeprediction]: success
+[2023-05-02 00:41:40] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-02 00:41:40] INFO root fetch - main [MainThread]: End processing [nmodl-preprocessor]: success
+[2023-05-02 00:41:40] INFO root fetch - main [MainThread]: End processing [pydetex]: success
+[2023-05-02 00:41:40] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-02 00:41:45] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-02 00:41:49] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-02 00:41:49] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
+[2023-05-02 00:43:23] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-02 00:43:23] INFO root fetch - main [MainThread]: Store serial: [17932603]
