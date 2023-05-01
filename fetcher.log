@@ -263,3 +263,87 @@
 [2023-05-02 00:17:17] INFO root fetch - main [MainThread]: End processing [whacc]: success
 [2023-05-02 00:17:36] INFO root fetch - main [MainThread]: End processing [splunk-opentelemetry]: success
 [2023-05-02 00:17:36] INFO root fetch - main [MainThread]: Store serial: [17932429]
+[2023-05-02 00:22:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932429]
+[2023-05-02 00:22:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyleft
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polymers
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jodAI
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VDBforGenAI
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reixs
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapy-incremental
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labcrawler
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasette-sqlite-vss
+[2023-05-02 00:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-vss
+[2023-05-02 00:22:44] INFO root fetch - processPackages [pyleft]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [VDBforGenAI]: New version: [0.22] Old Version: [0.21]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [jodAI]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [reixs]: New version: [0.5.7.1] Old Version: [0.5.7]
+[2023-05-02 00:22:44] WARNING root fetch - processPackages [scrapy-incremental]: Skipping, unable to determine old version
+[2023-05-02 00:22:44] INFO root fetch - processPackages [scrapy-incremental]: Start processing: slapdash
+[2023-05-02 00:22:44] INFO root fetch - processPackages [labcrawler]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 00:22:44] INFO root fetch - main [MainThread]: End processing [scrapy-incremental] error
+[2023-05-02 00:22:44] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [polymers]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [slapdash]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 00:22:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 00:22:45] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [pyleft]: Downloading https://files.pythonhosted.org/packages/83/40/cb4eaa9fcf2ef174080a0e71db0265e43eacab3acc9c7319eabe12009187/pyleft-1.1.4.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/8d/5a/cacc92106f9c5237878aad6cbbe43cc3b30da17986168177310ec727430e/sqlite_vss-0.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-02 00:22:45] INFO root fetch - processPackages [reixs]: Downloading https://files.pythonhosted.org/packages/4e/21/7166e07c72d69c86ca86e6a7be05ea457f8f8d633b108b87fd543263d512/reixs-0.5.7.1.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/3e/17/39aa5771b6dfbbc053213cd3b4a5bbe339902bc8d6d2c6ae994e3b76bf46/datasette_sqlite_vss-0.1.0-py3-none-any.whl
+[2023-05-02 00:22:45] INFO root fetch - processPackages [jodAI]: Downloading https://files.pythonhosted.org/packages/05/79/9c971880f31853bb2278c02c3adfaf35e905a6147eeeec980bd8cedebff6/jodAI-0.0.92.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [labcrawler]: Downloading https://files.pythonhosted.org/packages/84/00/5884ccc0fb67f1a980c56f5ea3f105d9aeab22a3a93b984afb4b049d59e8/labcrawler-1.0.2.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [slapdash]: Downloading https://files.pythonhosted.org/packages/c0/ae/45163ccb4ea5ac74ab5548c0120475eb5f415e99875923ab2cd3f05b7ec9/slapdash-1.0.1.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [reixs]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [reixs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reixs-0.5.7.tar.gz tmp/reixs-0.5.7.1.tar.gz --markdown 20230502/r/reixs/0.5.7-0.5.7.1/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [VDBforGenAI]: Downloading https://files.pythonhosted.org/packages/02/9a/b7e951dc29723253813b14607126523666e8cd2e3dfee6a372adc303a76f/VDBforGenAI-0.22-py3-none-any.whl
+[2023-05-02 00:22:45] INFO root fetch - processPackages [jodAI]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [jodAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jodAI-0.0.91.tar.gz tmp/jodAI-0.0.92.tar.gz --markdown 20230502/j/jodAI/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [polymers]: Downloading https://files.pythonhosted.org/packages/ea/64/e247221785f599e545dd7c44f7ad4e9301caf4fbb47bd2ad4701fde3ed10/polymers-0.3.4-cp39-none-win_amd64.whl
+[2023-05-02 00:22:45] INFO root fetch - processPackages [VDBforGenAI]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [VDBforGenAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VDBforGenAI-0.21-py3-none-any.whl.zip tmp/VDBforGenAI-0.22-py3-none-any.whl.zip --markdown 20230502/V/VDBforGenAI/0.21-0.22/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/1e/61/d776cad409b4a162e7ee5ba5af2c31399b9c8ce3ee49ed085d94f472b710/datasette_sqlite_vss-0.1.0a1-py3-none-any.whl
+[2023-05-02 00:22:45] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/02/fe/ce38b369d68b2ae6e35ef4d258178c53eecf7273b5cbbb3c1694e79ddff0/sqlite_vss-0.1.0a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-02 00:22:45] INFO root fetch - processPackages [labcrawler]: Downloading https://files.pythonhosted.org/packages/e9/9f/2d17f7858758cc418684311b3e924dd827bb260b07af7cce4a65446aea1d/labcrawler-1.0.3.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [pyleft]: Downloading https://files.pythonhosted.org/packages/76/21/c508214bb307ab21c49e6d397ff8ec4fe099444789fcabe949ca87e3e946/pyleft-1.1.5.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [polymers]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [polymers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymers-0.3.3-cp39-none-win_amd64.whl.zip tmp/polymers-0.3.4-cp39-none-win_amd64.whl.zip --markdown 20230502/p/polymers/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.0-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.0a1-py3-none-any.whl.zip --markdown 20230502/d/datasette-sqlite-vss/0.1.0-0.1.0a1/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [labcrawler]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [labcrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labcrawler-1.0.2.tar.gz tmp/labcrawler-1.0.3.tar.gz --markdown 20230502/l/labcrawler/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [pyleft]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [pyleft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleft-1.1.4.tar.gz tmp/pyleft-1.1.5.tar.gz --markdown 20230502/p/pyleft/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [slapdash]: Downloading https://files.pythonhosted.org/packages/cb/47/1b8c6b3ace8666ab97d5c06e280f3f76868b3f3477c306093be0e08ed968/slapdash-1.0.2.tar.gz
+[2023-05-02 00:22:45] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.0a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230502/s/sqlite-vss/0.1.0-0.1.0a1/diff.md --exclude *.pyd
+[2023-05-02 00:22:45] INFO root fetch - processPackages [slapdash]: executing diffoscope
+[2023-05-02 00:22:45] INFO root fetch - processPackages [slapdash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapdash-1.0.1.tar.gz tmp/slapdash-1.0.2.tar.gz --markdown 20230502/s/slapdash/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 00:22:46] INFO root fetch - processPackages [reixs]: Start processing: pz-rail-bpz
+[2023-05-02 00:22:46] INFO root fetch - main [MainThread]: End processing [reixs]: success
+[2023-05-02 00:22:46] INFO root fetch - processPackages [pz-rail-bpz]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 00:22:47] INFO root fetch - processPackages [VDBforGenAI]: Start processing: pyunigen
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [VDBforGenAI]: success
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pz-rail-bpz]: Downloading https://files.pythonhosted.org/packages/5f/e5/82beb648f039c29d69e112be5b2afa092f570de9e999123c293beea0afbc/pz-rail-bpz-0.0.7.tar.gz
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pyunigen]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [jodAI]: success
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [labcrawler]: success
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [polymers]: success
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [pyleft]: success
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pyunigen]: Downloading https://files.pythonhosted.org/packages/69/8e/6b987b9683af9f4fd14ea0416b9c763223bbbdff0ca0f6ebc749a724b491/pyunigen-2.5.3.tar.gz
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pz-rail-bpz]: Downloading https://files.pythonhosted.org/packages/1a/e2/6be89822e4f3eee639e5052bbb398b1c5965fae1b6d7495cdcc10fec3c36/pz-rail-bpz-0.0.8.tar.gz
+[2023-05-02 00:22:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pz-rail-bpz]: executing diffoscope
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pz-rail-bpz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz-rail-bpz-0.0.7.tar.gz tmp/pz-rail-bpz-0.0.8.tar.gz --markdown 20230502/p/pz-rail-bpz/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 00:22:47] INFO root fetch - processPackages [pyunigen]: Downloading https://files.pythonhosted.org/packages/f0/c7/00bd9ea27c64b14e1686e922b3583475e71a0641f54aca1d4ff9050af459/pyunigen-2.5.4.tar.gz
+[2023-05-02 00:22:48] INFO root fetch - processPackages [pyunigen]: executing diffoscope
+[2023-05-02 00:22:48] INFO root fetch - processPackages [pyunigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunigen-2.5.3.tar.gz tmp/pyunigen-2.5.4.tar.gz --markdown 20230502/p/pyunigen/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-02 00:22:48] INFO root fetch - main [MainThread]: End processing [pz-rail-bpz]: success
+[2023-05-02 00:22:49] INFO root fetch - main [MainThread]: End processing [slapdash]: success
+[2023-05-02 00:22:50] INFO root fetch - main [MainThread]: End processing [pyunigen]: success
+[2023-05-02 00:23:08] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-02 00:23:08] INFO root fetch - main [MainThread]: Store serial: [17932477]
