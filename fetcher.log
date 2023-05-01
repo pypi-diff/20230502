@@ -84,3 +84,47 @@
 [2023-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
 [2023-05-02 00:01:31] INFO root fetch - main [MainThread]: End processing [PyMultiDictionary]: success
 [2023-05-02 00:01:31] INFO root fetch - main [MainThread]: Store serial: [17932339]
+[2023-05-02 00:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932339]
+[2023-05-02 00:06:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jordan-test-package-repo
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystorz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-ui-profiler
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycryptosat
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ablerConfig
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FakeNewsClassifier
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klym-telemetry
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: typer-config
+[2023-05-02 00:06:40] WARNING root fetch - processPackages [jordan-test-package-repo]: Skipping, unable to determine old version
+[2023-05-02 00:06:40] INFO root fetch - main [MainThread]: End processing [jordan-test-package-repo] error
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pystorz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 00:06:40] INFO root fetch - processPackages [jupyterlab-ui-profiler]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pycryptosat]: New version: [5.11.9] Old Version: [5.11.8]
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ablerConfig]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 00:06:40] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-02 00:06:40] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-02 00:06:40] ERROR root fetch - processPackages [klym-telemetry]: Unable to get metadata: No such project 'klym-telemetry'
+[2023-05-02 00:06:40] INFO root fetch - main [MainThread]: End processing [klym-telemetry] error
+[2023-05-02 00:06:40] INFO root fetch - processPackages [typer-config]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/c3/3f/5584a2f5af0f5fa4f1816954ead67446ba0c9bf78855deca7e39096eadbc/pystorz-0.1.9.tar.gz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [jupyterlab-ui-profiler]: Downloading https://files.pythonhosted.org/packages/f6/ce/80c10ff035ed15e96f23e25377ac83260248ecac6a8f5c4a18a583125d95/jupyterlab_ui_profiler-0.2.2.tar.gz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pycryptosat]: Downloading https://files.pythonhosted.org/packages/59/36/20b49e6052f77673e73f358128dad447206ee2f83f9c67ae0f1b5af257d0/pycryptosat-5.11.8.tar.gz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.1.8.tar.gz tmp/pystorz-0.1.9.tar.gz --markdown 20230502/p/pystorz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ablerConfig]: Downloading https://files.pythonhosted.org/packages/20/8a/5fba15b6b9746d604325952205b753408569d562d5d808517dfcc850bbb4/ablerConfig-0.1.2.tar.gz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [jupyterlab-ui-profiler]: executing diffoscope
+[2023-05-02 00:06:40] INFO root fetch - processPackages [jupyterlab-ui-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_ui_profiler-0.2.1.tar.gz tmp/jupyterlab_ui_profiler-0.2.2.tar.gz --markdown 20230502/j/jupyterlab-ui-profiler/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 00:06:40] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/9b/06/57a6eba3aa9fbcade3d1a033084b723805e659aebf7da25561c6df8232ce/typer_config-0.1.0.tar.gz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ablerConfig]: executing diffoscope
+[2023-05-02 00:06:40] INFO root fetch - processPackages [ablerConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablerConfig-0.1.1.tar.gz tmp/ablerConfig-0.1.2.tar.gz --markdown 20230502/a/ablerConfig/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 00:06:40] INFO root fetch - processPackages [pycryptosat]: Downloading https://files.pythonhosted.org/packages/32/a9/203e5b3cd3526edc1f2fd66141c2706d391c0dfd4045c33950f2697ef2b3/pycryptosat-5.11.9.tar.gz
+[2023-05-02 00:06:40] INFO root fetch - processPackages [typer-config]: Downloading https://files.pythonhosted.org/packages/48/d8/bcf087f69d0168db544d71e4cdc14ae5cedffca4ed1f01dbb1d0cdde3a10/typer_config-0.1.1a1.tar.gz
+[2023-05-02 00:06:41] INFO root fetch - processPackages [pycryptosat]: executing diffoscope
+[2023-05-02 00:06:41] INFO root fetch - processPackages [pycryptosat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycryptosat-5.11.8.tar.gz tmp/pycryptosat-5.11.9.tar.gz --markdown 20230502/p/pycryptosat/5.11.8-5.11.9/diff.md --exclude *.pyd
+[2023-05-02 00:06:41] INFO root fetch - processPackages [typer-config]: executing diffoscope
+[2023-05-02 00:06:41] INFO root fetch - processPackages [typer-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_config-0.1.0.tar.gz tmp/typer_config-0.1.1a1.tar.gz --markdown 20230502/t/typer-config/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-05-02 00:06:41] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-05-02 00:06:41] INFO root fetch - main [MainThread]: End processing [ablerConfig]: success
+[2023-05-02 00:06:42] INFO root fetch - main [MainThread]: End processing [typer-config]: success
+[2023-05-02 00:06:43] INFO root fetch - main [MainThread]: End processing [pycryptosat]: success
+[2023-05-02 00:06:43] INFO root fetch - main [MainThread]: End processing [jupyterlab-ui-profiler]: success
+[2023-05-02 00:06:43] INFO root fetch - main [MainThread]: Store serial: [17932367]
