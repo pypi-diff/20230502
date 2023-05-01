@@ -618,3 +618,72 @@
 [2023-05-02 00:53:56] INFO root fetch - main [MainThread]: End processing [dynamicfluency]: success
 [2023-05-02 00:53:57] INFO root fetch - main [MainThread]: End processing [nebari-workflow-controller]: success
 [2023-05-02 00:53:57] INFO root fetch - main [MainThread]: Store serial: [17932745]
+[2023-05-02 00:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932745]
+[2023-05-02 00:59:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rule-based-model
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trade-republic-api
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-source-env
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sp-defesacivil-divadmin
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphscope-client
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-apps
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-coordinator
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-engine
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-include
+[2023-05-02 00:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: betterconfigs
+[2023-05-02 00:59:05] INFO root fetch - processPackages [trade-republic-api]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-02 00:59:05] INFO root fetch - processPackages [rule-based-model]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-05-02 00:59:05] INFO root fetch - processPackages [poetry-source-env]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-02 00:59:05] WARNING root fetch - processPackages [sp-defesacivil-divadmin]: Skipping, unable to determine old version
+[2023-05-02 00:59:05] INFO root fetch - processPackages [sp-defesacivil-divadmin]: Start processing: rsisa
+[2023-05-02 00:59:05] INFO root fetch - processPackages [betterconfigs]: New version: [0.8.1] Old Version: [0.8]
+[2023-05-02 00:59:05] INFO root fetch - main [MainThread]: End processing [sp-defesacivil-divadmin] error
+[2023-05-02 00:59:05] INFO root fetch - processPackages [graphscope-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 00:59:06] INFO root fetch - processPackages [betterconfigs]: executing diffoscope
+[2023-05-02 00:59:06] INFO root fetch - processPackages [betterconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterconfigs-0.8.tar.gz tmp/betterconfigs-0.8.1.tar.gz --markdown 20230502/b/betterconfigs/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-apps]: New version: [0.22.0a20230501] Old Version: [0.22.0a20230430]
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-coordinator]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-include]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 00:59:06] WARNING root fetch - processPackages [rsisa]: Skipping, unable to determine old version
+[2023-05-02 00:59:06] INFO root fetch - processPackages [rsisa]: Start processing: langflow
+[2023-05-02 00:59:06] INFO root fetch - main [MainThread]: End processing [rsisa] error
+[2023-05-02 00:59:06] INFO root fetch - processPackages [trade-republic-api]: Downloading https://files.pythonhosted.org/packages/4f/af/91467c6c41a583f78d54f4ddab1079d0395d0fa1872353118c4395bc1c41/trade-republic-api-0.0.0.tar.gz
+[2023-05-02 00:59:06] INFO root fetch - processPackages [langflow]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-05-02 00:59:06] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f7/53/c1ffb245684956bc30883fd2945f3e1677b030e8d69945fbfca28db2b46a/graphscope_client-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 00:59:06] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-02 00:59:06] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.63.tar.gz tmp/langflow-0.0.64.tar.gz --markdown 20230502/l/langflow/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/27/54/69dd366574cfb82f51b0165f1e792c30107bceb42a7f8f1ca26429d1ed3b/gs_apps-0.22.0a20230430-py2.py3-none-macosx_10_9_x86_64.whl
+[2023-05-02 00:59:06] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 48560616>=10485760
+[2023-05-02 00:59:06] INFO root fetch - processPackages [graphscope-client]: Start processing: sp-defesacivil-divadmin
+[2023-05-02 00:59:06] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/bd/b0/b9b1a1a65be3a78a220a726aa90bda0d1e1a17bbc47999c157c784a7320e/gs_engine-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 00:59:06] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 42779207>=10485760
+[2023-05-02 00:59:06] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-05-02 00:59:06] INFO root fetch - processPackages [sp-defesacivil-divadmin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/14/24/6aa7d96461fb18c825639db76c5c3edc7abfca148e3e55cc010cbf4d9a02/gs_include-0.9.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 00:59:06] INFO root fetch - processPackages [rule-based-model]: Downloading https://files.pythonhosted.org/packages/1d/d4/0207f54a382443f94766bf6e5f065a8a3145444a61d1db25b71611ae4c45/rule_based_model-0.0.5.tar.gz
+[2023-05-02 00:59:06] INFO root fetch - processPackages [poetry-source-env]: Downloading https://files.pythonhosted.org/packages/2f/94/69416b9e18932a904f0b6a68acff920c5964a506a9c989d8aa70fd92397c/poetry_source_env-1.1.0.tar.gz
+[2023-05-02 00:59:06] WARNING root fetch - processPackages [gs-engine]: Skipping package: exceeds size limit 88119450>=10485760
+[2023-05-02 00:59:06] INFO root fetch - main [MainThread]: End processing [gs-engine] error
+[2023-05-02 00:59:06] INFO root fetch - processPackages [rule-based-model]: executing diffoscope
+[2023-05-02 00:59:06] INFO root fetch - processPackages [rule-based-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule_based_model-0.0.3.tar.gz tmp/rule_based_model-0.0.5.tar.gz --markdown 20230502/r/rule-based-model/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 00:59:06] INFO root fetch - processPackages [poetry-source-env]: executing diffoscope
+[2023-05-02 00:59:06] INFO root fetch - processPackages [poetry-source-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_source_env-1.0.1.tar.gz tmp/poetry_source_env-1.1.0.tar.gz --markdown 20230502/p/poetry-source-env/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 00:59:06] INFO root fetch - processPackages [sp-defesacivil-divadmin]: Downloading https://files.pythonhosted.org/packages/52/0b/9a4aff68e0159e0472360822a6dcdb180c98d926eb7e4755229892b95fb3/sp_defesacivil_divadmin-0.0.2.tar.gz
+[2023-05-02 00:59:06] INFO root fetch - processPackages [trade-republic-api]: Downloading https://files.pythonhosted.org/packages/04/8c/2d2a384f248c0808b561cf8cdd9f1f49dc18645372a171895278a27c6677/trade-republic-api-0.0.1.tar.gz
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-05-02 00:59:06] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.9.0-py2.py3-none-macosx_10_9_x86_64.whl.zip tmp/gs_coordinator-0.9.1-py2.py3-none-macosx_11_0_arm64.whl.zip --markdown 20230502/g/gs-coordinator/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 00:59:06] INFO root fetch - processPackages [trade-republic-api]: executing diffoscope
+[2023-05-02 00:59:06] INFO root fetch - processPackages [trade-republic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trade-republic-api-0.0.0.tar.gz tmp/trade-republic-api-0.0.1.tar.gz --markdown 20230502/t/trade-republic-api/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-02 00:59:06] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 73794505>=10485760
+[2023-05-02 00:59:06] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-05-02 00:59:06] INFO root fetch - processPackages [sp-defesacivil-divadmin]: Downloading https://files.pythonhosted.org/packages/d0/bb/0830bd4193354eef3a66f8fc86a8eedff7c6c6a8f2b9601ddaf48790e398/sp_defesacivil_divadmin-0.0.3.tar.gz
+[2023-05-02 00:59:06] WARNING root fetch - processPackages [sp-defesacivil-divadmin]: Skipping package: exceeds size limit 11995947>=10485760
+[2023-05-02 00:59:06] INFO root fetch - main [MainThread]: End processing [sp-defesacivil-divadmin] error
+[2023-05-02 00:59:07] INFO root fetch - main [MainThread]: End processing [betterconfigs]: success
+[2023-05-02 00:59:07] INFO root fetch - main [MainThread]: End processing [trade-republic-api]: success
+[2023-05-02 00:59:07] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-05-02 00:59:08] INFO root fetch - main [MainThread]: End processing [rule-based-model]: success
+[2023-05-02 00:59:11] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-02 00:59:30] INFO root fetch - main [MainThread]: End processing [poetry-source-env]: success
+[2023-05-02 00:59:30] INFO root fetch - main [MainThread]: Store serial: [17932787]
