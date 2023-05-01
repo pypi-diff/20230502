@@ -687,3 +687,50 @@
 [2023-05-02 00:59:11] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-05-02 00:59:30] INFO root fetch - main [MainThread]: End processing [poetry-source-env]: success
 [2023-05-02 00:59:30] INFO root fetch - main [MainThread]: Store serial: [17932787]
+[2023-05-02 01:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932787]
+[2023-05-02 01:04:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonsqlitetool
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sidetrek
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalguide
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libid
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt-cu101
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-zana
+[2023-05-02 01:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyqrack
+[2023-05-02 01:04:40] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230430] Old Version: [0.7.0b20230429]
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230430] Old Version: [0.7.0b20230429]
+[2023-05-02 01:04:40] INFO root fetch - processPackages [pyqrack]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-05-02 01:04:40] INFO root fetch - processPackages [openai]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 01:04:40] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 01:04:40] WARNING root fetch - processPackages [pythonsqlitetool]: Skipping, unable to determine old version
+[2023-05-02 01:04:40] INFO root fetch - main [MainThread]: End processing [pythonsqlitetool] error
+[2023-05-02 01:04:40] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230502/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230429.tar.gz tmp/tmnt-0.7.0b20230430.tar.gz --markdown 20230502/t/tmnt/0.7.0b20230429-0.7.0b20230430/diff.md --exclude *.pyd
+[2023-05-02 01:04:40] WARNING root fetch - processPackages [libid]: Skipping, unable to determine old version
+[2023-05-02 01:04:40] INFO root fetch - main [MainThread]: End processing [libid] error
+[2023-05-02 01:04:40] INFO root fetch - processPackages [django-zana]: New version: [0.3.0a1] Old Version: [0.3.0a0]
+[2023-05-02 01:04:40] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230502/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ab/e1/75695fa08093cc2f282613d08fd4ce16afdc33b4b71838e388fee2f574ea/tmnt-cu101-0.7.0b20230430.tar.gz
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230429.tar.gz tmp/tmnt-cu101-0.7.0b20230430.tar.gz --markdown 20230502/t/tmnt-cu101/0.7.0b20230429-0.7.0b20230430/diff.md --exclude *.pyd
+[2023-05-02 01:04:40] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/14/8b/10f751f977e3fedf9505d37f683cf3820d4b8e378f7e987b64368d5e4621/pyqrack-1.8.0.tar.gz
+[2023-05-02 01:04:40] INFO root fetch - processPackages [openai]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-0.9.3.tar.gz tmp/openai-0.9.4.tar.gz --markdown 20230502/o/openai/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 01:04:40] INFO root fetch - processPackages [django-zana]: Downloading https://files.pythonhosted.org/packages/6e/3e/f36009f07e221f66fb224a96b67291d2b2e83cc6be9586586facd3e34b3d/django_zana-0.3.0a1.tar.gz
+[2023-05-02 01:04:40] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.7.1.tar.gz tmp/pyqrack-1.8.0.tar.gz --markdown 20230502/p/pyqrack/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-05-02 01:04:40] INFO root fetch - processPackages [django-zana]: executing diffoscope
+[2023-05-02 01:04:40] INFO root fetch - processPackages [django-zana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_zana-0.3.0a0.tar.gz tmp/django_zana-0.3.0a1.tar.gz --markdown 20230502/d/django-zana/0.3.0a0-0.3.0a1/diff.md --exclude *.pyd
+[2023-05-02 01:04:41] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-02 01:04:41] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-02 01:04:41] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-02 01:04:42] INFO root fetch - main [MainThread]: End processing [django-zana]: success
+[2023-05-02 01:04:42] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2023-05-02 01:04:42] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-02 01:04:42] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-02 01:04:42] INFO root fetch - main [MainThread]: Store serial: [17932817]
