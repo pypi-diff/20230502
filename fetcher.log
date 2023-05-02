@@ -10286,3 +10286,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [climify-api]: success
 [2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
 [2023-05-02 12:06:16] INFO root fetch - main [MainThread]: Store serial: [17938968]
+[2023-05-02 12:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938968]
+[2023-05-02 12:11:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydictable
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-dominik-debug-of-mus-tests
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.target
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extr-ds
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wbpFonttools
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fgo-api-types
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dm-reverb-nightly
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Functions-Main
+[2023-05-02 12:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inference-server
+[2023-05-02 12:11:25] INFO root fetch - processPackages [wbpFonttools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [pydictable]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 12:11:25] WARNING root fetch - processPackages [inference-server]: Skipping, unable to determine old version
+[2023-05-02 12:11:25] INFO root fetch - processPackages [Functions-Main]: New version: [0.2] Old Version: [0.0.1]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [inference-server]: Start processing: multiversx-sdk-core
+[2023-05-02 12:11:25] INFO root fetch - main [MainThread]: End processing [inference-server] error
+[2023-05-02 12:11:25] WARNING root fetch - processPackages [certora-cli-alpha-dominik-debug-of-mus-tests]: Skipping, unable to determine old version
+[2023-05-02 12:11:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dominik-debug-of-mus-tests] error
+[2023-05-02 12:11:25] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.5.2.10.8.13] Old Version: [2023.4.30.0.32.18]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-02 12:11:25] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-02 12:11:25] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230502/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 12:11:25] INFO root fetch - processPackages [pydictable]: Downloading https://files.pythonhosted.org/packages/36/de/52fd049f48c3bd6a4d4ff924379f70597d305d785b20f9ae929c236fcac7/pydictable-1.0.1.tar.gz
+[2023-05-02 12:11:25] INFO root fetch - processPackages [multiversx-sdk-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-02 12:11:25] INFO root fetch - processPackages [wbpFonttools]: Downloading https://files.pythonhosted.org/packages/7a/79/4e00b24157cdc1ae96cd9a78b00a94c77ff71e633c3846a855692991d39f/wbpFonttools-0.1.8.tar.gz
+[2023-05-02 12:11:25] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-02 12:11:25] INFO root fetch - processPackages [Functions-Main]: Downloading https://files.pythonhosted.org/packages/42/e3/328e69bd9d8ad500b1494167fabd96219a4aae6af5ce5dd5482d07b8ee18/Functions_Main-0.0.1.tar.gz
+[2023-05-02 12:11:25] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-02 12:11:25] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-02 12:11:25] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230502/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-02 12:11:25] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/2f/a5/b4e00a1c9d5e853452546cf374785cb1c170aabc95276a4f724ccaa253b0/fgo_api_types-2023.5.2.10.8.13.tar.gz
+[2023-05-02 12:11:26] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/57/b1/d9e96864c64d2558ed844ae80a3c3bf5c266742ac05fec5707bbe0d56a43/multiversx_sdk_core-0.4.2.tar.gz
+[2023-05-02 12:11:26] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-05-02 12:11:26] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.4.30.0.32.18.tar.gz tmp/fgo_api_types-2023.5.2.10.8.13.tar.gz --markdown 20230502/f/fgo-api-types/2023.4.30.0.32.18-2023.5.2.10.8.13/diff.md --exclude *.pyd
+[2023-05-02 12:11:26] INFO root fetch - processPackages [pydictable]: Downloading https://files.pythonhosted.org/packages/84/46/50498560d3f59c6297bb160cd0c42d1241024f68402fb9f7174840c42a92/pydictable-1.0.2.tar.gz
+[2023-05-02 12:11:26] INFO root fetch - processPackages [wbpFonttools]: Downloading https://files.pythonhosted.org/packages/50/04/7100bf92cfaa0360dd395682bf7e7cdb64b18504d63acb97dd17fac5b42e/wbpFonttools-0.1.9.tar.gz
+[2023-05-02 12:11:26] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-02 12:11:26] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230502/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-02 12:11:26] INFO root fetch - processPackages [Functions-Main]: Downloading https://files.pythonhosted.org/packages/03/f4/513b445674c6f8e4a35836a7d0e512abb398842fff2690f197c7fccc4eac/Functions_Main-0.2.tar.gz
+[2023-05-02 12:11:26] INFO root fetch - processPackages [pydictable]: executing diffoscope
+[2023-05-02 12:11:26] INFO root fetch - processPackages [pydictable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydictable-1.0.1.tar.gz tmp/pydictable-1.0.2.tar.gz --markdown 20230502/p/pydictable/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 12:11:26] INFO root fetch - processPackages [wbpFonttools]: executing diffoscope
+[2023-05-02 12:11:26] INFO root fetch - processPackages [wbpFonttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpFonttools-0.1.8.tar.gz tmp/wbpFonttools-0.1.9.tar.gz --markdown 20230502/w/wbpFonttools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 12:11:26] INFO root fetch - processPackages [Functions-Main]: executing diffoscope
+[2023-05-02 12:11:26] INFO root fetch - processPackages [Functions-Main]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Functions_Main-0.0.1.tar.gz tmp/Functions_Main-0.2.tar.gz --markdown 20230502/F/Functions-Main/0.0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 12:11:26] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/75/2e/f54c5a46549bca21b8c4621ccbc0d9f28a16d6a495f3470d1b5061208019/multiversx_sdk_core-0.4.3.tar.gz
+[2023-05-02 12:11:26] INFO root fetch - processPackages [multiversx-sdk-core]: executing diffoscope
+[2023-05-02 12:11:26] INFO root fetch - processPackages [multiversx-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_core-0.4.2.tar.gz tmp/multiversx_sdk_core-0.4.3.tar.gz --markdown 20230502/m/multiversx-sdk-core/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-02 12:11:27] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-02 12:11:27] INFO root fetch - main [MainThread]: End processing [Functions-Main]: success
+[2023-05-02 12:11:27] INFO root fetch - main [MainThread]: End processing [pydictable]: success
+[2023-05-02 12:11:27] INFO root fetch - main [MainThread]: End processing [wbpFonttools]: success
+[2023-05-02 12:11:28] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-core]: success
+[2023-05-02 12:11:28] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-02 12:11:29] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-05-02 12:12:19] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-02 12:12:19] INFO root fetch - main [MainThread]: Store serial: [17939008]
