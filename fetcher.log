@@ -8538,3 +8538,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 10:14:48] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
 [2023-05-02 10:16:05] INFO root fetch - main [MainThread]: End processing [dash-glue42]: success
 [2023-05-02 10:16:05] INFO root fetch - main [MainThread]: Store serial: [17937826]
+[2023-05-02 10:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937826]
+[2023-05-02 10:21:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-editor
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor-dev
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rxn-onmt-models
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SDTcloud
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysui-sdk
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-contributor-assets
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dummynet
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pseudo-labeller
+[2023-05-02 10:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: findmyorder
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [rxn-onmt-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.8.16.36864] Old Version: [20230502.7.9.115330]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [dummynet]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [pysui-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post739] Old Version: [1.0.0.post738]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [findmyorder]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-02 10:21:18] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.8.tar.gz tmp/SDTcloud-0.0.9.tar.gz --markdown 20230502/S/SDTcloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:21:18] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/32/a4/da3abc14b88e5deb444502cf524417f2b0cffec366d1dc62cfc6bf6807d2/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230502.7.9.115330.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [pseudo-labeller]: Downloading https://files.pythonhosted.org/packages/8c/4a/deda1f61f4ea4284f400ec708fd43511df7b353bc1270b616084b02f9230/pseudo_labeller-0.0.6.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [rxn-onmt-models]: Downloading https://files.pythonhosted.org/packages/86/fa/fa7dc9dfc9c54468b2921d2623cf7541345ce65f62ae6cbde942323adde8/rxn-onmt-models-1.0.0.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/f9/6f/ef39a1bb21885b0cc6deb247dc4d5c0242a7f8a35b61c468bbdfde8bc166/pysui-sdk-1.0.1.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [dummynet]: Downloading https://files.pythonhosted.org/packages/83/14/cb4677378facb8bebb1bfb6a4ac11616ca6bd7a6f2484f05e3b156986f63/dummynet-2.1.0-py2.py3-none-any.whl
+[2023-05-02 10:21:18] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38324905>=10485760
+[2023-05-02 10:21:18] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: appeal
+[2023-05-02 10:21:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 10:21:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/3e/89/f45d55e743861e357f07863caab15ea4cb9ed0620b453f93fb05d2e37d5e/nucliadb_contributor_assets-1.0.0.post739-py3-none-any.whl
+[2023-05-02 10:21:18] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/64/38/c47fc0e3b3668a60352ed56e65e7e649d4101b935fa867e00bba152555b3/findmyorder-1.1.1.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [appeal]: New version: [0.5.5] Old Version: [0.5.3]
+[2023-05-02 10:21:18] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-02 10:21:18] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.1.0.tar.gz tmp/findmyorder-1.1.1.tar.gz --markdown 20230502/f/findmyorder/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/7a/67/e35edaec0db873dc6dc3ab4d8bdc7d17d8c1ed7a7e54ef72ca4a8dda3cf3/je_editor-0.0.90.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/6a/73/78bef5f23cb463cd707841d0dcf6a4d8b162a00417b10f17135a2a39256b/je_editor_dev-0.0.90.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 10:21:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post738-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post739-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post738-1.0.0.post739/diff.md --exclude *.pyd
+[2023-05-02 10:21:18] INFO root fetch - processPackages [pseudo-labeller]: Downloading https://files.pythonhosted.org/packages/37/a1/f929a9798b08bbe26d408d4b14c827b5932cab3c4c92d2000cde34da45ab/pseudo_labeller-0.0.7.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/c8/43/5b4ff7fcdbdcd3016498406dfe3126a1662e533d4b9d67b5a77eb3fff6ee/pysui-sdk-1.0.2.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/e7/5f/1f5ceb977904320e176b1e00332274ee7d347d80e277f50a1d4fa847a4cf/appeal-0.5.3.tar.gz
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.9.tar.gz tmp/je_editor-0.0.90.tar.gz --markdown 20230502/j/je-editor/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-02 10:21:18] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.9.tar.gz tmp/je_editor_dev-0.0.90.tar.gz --markdown 20230502/j/je-editor-dev/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-05-02 10:21:19] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-05-02 10:21:19] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.6.tar.gz tmp/pseudo_labeller-0.0.7.tar.gz --markdown 20230502/p/pseudo-labeller/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 10:21:19] INFO root fetch - processPackages [dummynet]: Downloading https://files.pythonhosted.org/packages/81/17/81c18326e11591bf805644cea0524e75b1a49044d66f4aa6fe9bac3b2533/dummynet-2.2.0-py2.py3-none-any.whl
+[2023-05-02 10:21:19] INFO root fetch - processPackages [rxn-onmt-models]: Downloading https://files.pythonhosted.org/packages/18/8d/7813abee53455e94a83c1ba871c787a9473970421dd877d2c26370bbe3a3/rxn-onmt-models-1.0.1.tar.gz
+[2023-05-02 10:21:19] INFO root fetch - processPackages [pysui-sdk]: executing diffoscope
+[2023-05-02 10:21:19] INFO root fetch - processPackages [pysui-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-sdk-1.0.1.tar.gz tmp/pysui-sdk-1.0.2.tar.gz --markdown 20230502/p/pysui-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 10:21:19] INFO root fetch - processPackages [dummynet]: executing diffoscope
+[2023-05-02 10:21:19] INFO root fetch - processPackages [dummynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummynet-2.1.0-py2.py3-none-any.whl.zip tmp/dummynet-2.2.0-py2.py3-none-any.whl.zip --markdown 20230502/d/dummynet/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-02 10:21:19] INFO root fetch - processPackages [rxn-onmt-models]: executing diffoscope
+[2023-05-02 10:21:19] INFO root fetch - processPackages [rxn-onmt-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxn-onmt-models-1.0.0.tar.gz tmp/rxn-onmt-models-1.0.1.tar.gz --markdown 20230502/r/rxn-onmt-models/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 10:21:19] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/3a/ba/b0c1cf3d6d1a8b07700c64bba9ae07a6e64ebd176f4507b3e3e33037f7e4/appeal-0.5.5.tar.gz
+[2023-05-02 10:21:19] INFO root fetch - processPackages [appeal]: executing diffoscope
+[2023-05-02 10:21:19] INFO root fetch - processPackages [appeal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeal-0.5.3.tar.gz tmp/appeal-0.5.5.tar.gz --markdown 20230502/a/appeal/0.5.3-0.5.5/diff.md --exclude *.pyd
+[2023-05-02 10:21:20] INFO root fetch - processPackages [SDTcloud]: Start processing: rtmidi
+[2023-05-02 10:21:20] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-02 10:21:20] INFO root fetch - processPackages [rtmidi]: New version: [2.5.0] Old Version: [2.3.4]
+[2023-05-02 10:21:20] INFO root fetch - processPackages [findmyorder]: Start processing: dissect.target
+[2023-05-02 10:21:20] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-02 10:21:20] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-02 10:21:20] INFO root fetch - processPackages [rtmidi]: Downloading https://files.pythonhosted.org/packages/80/a6/23e6fdbede1914bc1a12e3e5cdc97c3de7fccc1507126a0736dd741f0a81/rtmidi-2.3.4.tar.gz
+[2023-05-02 10:21:20] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-02 10:21:20] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-02 10:21:20] INFO root fetch - processPackages [dissect.target]: Start processing: fugle-trade
+[2023-05-02 10:21:20] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-02 10:21:20] INFO root fetch - processPackages [pseudo-labeller]: Start processing: exorde
+[2023-05-02 10:21:20] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-05-02 10:21:20] INFO root fetch - processPackages [fugle-trade]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-02 10:21:20] INFO root fetch - processPackages [rtmidi]: Downloading https://files.pythonhosted.org/packages/ca/5b/b535626a0e9f7569b2981209bafe77cfa0da1e93920c111adba823184509/rtmidi-2.5.0.tar.gz
+[2023-05-02 10:21:20] INFO root fetch - processPackages [pysui-sdk]: Start processing: py4vasp
+[2023-05-02 10:21:20] INFO root fetch - main [MainThread]: End processing [pysui-sdk]: success
+[2023-05-02 10:21:20] INFO root fetch - processPackages [exorde]: New version: [0.1.0] Old Version: [0.0.1.post0]
+[2023-05-02 10:21:20] INFO root fetch - processPackages [rtmidi]: executing diffoscope
+[2023-05-02 10:21:20] INFO root fetch - processPackages [rtmidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtmidi-2.3.4.tar.gz tmp/rtmidi-2.5.0.tar.gz --markdown 20230502/r/rtmidi/2.3.4-2.5.0/diff.md --exclude *.pyd
+[2023-05-02 10:21:20] INFO root fetch - processPackages [py4vasp]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-02 10:21:20] INFO root fetch - processPackages [fugle-trade]: Downloading https://files.pythonhosted.org/packages/be/0a/7c1035626e2cc0a624c2afa9d6b58d778b25b6857bedd5ab178dc50f2712/fugle-trade-0.5.0.tar.gz
+[2023-05-02 10:21:20] INFO root fetch - processPackages [dummynet]: Start processing: certora-cli-alpha-master
+[2023-05-02 10:21:20] INFO root fetch - main [MainThread]: End processing [dummynet]: success
+[2023-05-02 10:21:20] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230502.7.15.43666] Old Version: [20230502.5.43.594614]
+[2023-05-02 10:21:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/eb/ae/215786b88fbaf839825644ed85426f81c8aced2bee6a52e0836dec9a24e4/certora-cli-alpha-master-20230502.5.43.594614.tar.gz
+[2023-05-02 10:21:21] INFO root fetch - processPackages [exorde]: Downloading https://files.pythonhosted.org/packages/34/d9/1a92a30928a37aaa1d16756db5d6e56fe8914b23057bf8031087ea9a4939/exorde-0.0.1.post0.tar.gz
+[2023-05-02 10:21:21] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38324410>=10485760
+[2023-05-02 10:21:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-02 10:21:21] INFO root fetch - processPackages [py4vasp]: Downloading https://files.pythonhosted.org/packages/3f/94/c7cbec408d4d176563469ca13027b923da4b23879ffcb08ed5ebd063adef/py4vasp-0.7.2.tar.gz
+[2023-05-02 10:21:21] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-02 10:21:21] INFO root fetch - main [MainThread]: End processing [appeal]: success
+[2023-05-02 10:21:21] INFO root fetch - processPackages [fugle-trade]: Downloading https://files.pythonhosted.org/packages/fd/f2/6308c53181122e50babc2fa8cdce65bd1906ce6d8d92a9d159ae474e757d/fugle-trade-0.5.1.tar.gz
+[2023-05-02 10:21:21] INFO root fetch - processPackages [exorde]: Downloading https://files.pythonhosted.org/packages/2e/a7/a832398b9f4cb429bff85c50a3aeb53c87523abe352cdf32af38f32cde31/exorde-0.1.0.tar.gz
+[2023-05-02 10:21:21] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-02 10:21:21] INFO root fetch - processPackages [fugle-trade]: executing diffoscope
+[2023-05-02 10:21:21] INFO root fetch - processPackages [fugle-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugle-trade-0.5.0.tar.gz tmp/fugle-trade-0.5.1.tar.gz --markdown 20230502/f/fugle-trade/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-02 10:21:21] INFO root fetch - processPackages [py4vasp]: Downloading https://files.pythonhosted.org/packages/e6/1c/71488d83f4b53077b44808dfbca1ecc2c17febe12bff2ed3038898d6c9de/py4vasp-0.7.3.tar.gz
+[2023-05-02 10:21:21] INFO root fetch - processPackages [exorde]: executing diffoscope
+[2023-05-02 10:21:21] INFO root fetch - processPackages [exorde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exorde-0.0.1.post0.tar.gz tmp/exorde-0.1.0.tar.gz --markdown 20230502/e/exorde/0.0.1.post0-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 10:21:21] INFO root fetch - main [MainThread]: End processing [rxn-onmt-models]: success
+[2023-05-02 10:21:21] INFO root fetch - processPackages [py4vasp]: executing diffoscope
+[2023-05-02 10:21:21] INFO root fetch - processPackages [py4vasp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4vasp-0.7.2.tar.gz tmp/py4vasp-0.7.3.tar.gz --markdown 20230502/p/py4vasp/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-02 10:21:22] INFO root fetch - main [MainThread]: End processing [rtmidi]: success
+[2023-05-02 10:21:22] INFO root fetch - main [MainThread]: End processing [exorde]: success
+[2023-05-02 10:21:22] INFO root fetch - main [MainThread]: End processing [fugle-trade]: success
+[2023-05-02 10:21:22] INFO root fetch - main [MainThread]: End processing [py4vasp]: success
+[2023-05-02 10:21:33] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 10:21:33] INFO root fetch - main [MainThread]: Store serial: [17937876]
