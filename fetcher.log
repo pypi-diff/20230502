@@ -2180,3 +2180,73 @@
 [2023-05-02 03:06:38] INFO root fetch - main [MainThread]: End processing [luau] error
 [2023-05-02 03:06:39] INFO root fetch - main [MainThread]: End processing [hume]: success
 [2023-05-02 03:06:39] INFO root fetch - main [MainThread]: Store serial: [17933748]
+[2023-05-02 03:11:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933748]
+[2023-05-02 03:11:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyllamacpp
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-confluentcloud
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiofauna
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyTerm-Shell
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-polygon-sdk
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysnptools
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echopype
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bytez
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pomice
+[2023-05-02 03:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-organizations
+[2023-05-02 03:11:47] INFO root fetch - processPackages [PyTerm-Shell]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [echopype]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [async-polygon-sdk]: New version: [1.1] Old Version: [1]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [pyllamacpp]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [pysnptools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [pomice]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-02 03:11:47] INFO root fetch - processPackages [PyTerm-Shell]: Downloading https://files.pythonhosted.org/packages/71/ad/dc82a4158f2c1e265a88ca3899a8578222a2fe2ff75c3efd42b1c3a76f30/PyTerm-Shell-0.1.0.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [async-polygon-sdk]: Downloading https://files.pythonhosted.org/packages/69/a5/67f181dbca40630abcb06fe265ec0f8d80f048d0d9740ef3ae551b0f8393/async-polygon-sdk-1.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [echopype]: Downloading https://files.pythonhosted.org/packages/02/7c/7d2ec757614ead3147c8c92472f4f7efeb6d61cc476ae924a07465d1b64b/echopype-0.7.0.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pomice]: Downloading https://files.pythonhosted.org/packages/6f/54/1114edcb087d408a809f4750eecc2f9245515446dc5129174ded0e2f2c3a/pomice-2.4.1.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-02 03:11:48] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230502/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230502/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [PyTerm-Shell]: Downloading https://files.pythonhosted.org/packages/f0/a3/9211627da23b1f8c1aff86f57f9152e2e81ce35eca4a18ada12ed4c5561f/PyTerm-Shell-0.1.1.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230502/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pomice]: Downloading https://files.pythonhosted.org/packages/82/22/82b7439f2854b9bb4d80b1f8ae1d3fa89072ecbc89dd2bddc51042819c8c/pomice-2.5.0.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [echopype]: Downloading https://files.pythonhosted.org/packages/9a/7b/d2ff5beae15a1e52f3a1e1a82dc841a6e414d6b77bded30ee48728a2f386/echopype-0.7.1.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [async-polygon-sdk]: Downloading https://files.pythonhosted.org/packages/40/aa/d79aa5d6ed9dc85bd9b9b4097b4277a7a02e59cac8785ef27b20f632cc51/async-polygon-sdk-1.1.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pomice]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pomice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pomice-2.4.1.tar.gz tmp/pomice-2.5.0.tar.gz --markdown 20230502/p/pomice/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [echopype]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [echopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echopype-0.7.0.tar.gz tmp/echopype-0.7.1.tar.gz --markdown 20230502/e/echopype/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [PyTerm-Shell]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [PyTerm-Shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTerm-Shell-0.1.0.tar.gz tmp/PyTerm-Shell-0.1.1.tar.gz --markdown 20230502/P/PyTerm-Shell/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [async-polygon-sdk]: executing diffoscope
+[2023-05-02 03:11:48] INFO root fetch - processPackages [async-polygon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-polygon-sdk-1.tar.gz tmp/async-polygon-sdk-1.1.tar.gz --markdown 20230502/a/async-polygon-sdk/1-1.1/diff.md --exclude *.pyd
+[2023-05-02 03:11:48] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/33/26/ccfa0ed1081e053e2c68708d1323e99b64c98ce86b668de1433ed0fba3e3/aiofauna-0.0.8.tar.gz
+[2023-05-02 03:11:48] INFO root fetch - processPackages [pysnptools]: Downloading https://files.pythonhosted.org/packages/17/b0/bc1c6f31051df9fa7f5b40cb6a49fc2f6bc6a069a06320a93b57c59e127e/pysnptools-0.5.8.tar.gz
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/40/02/35a13590fbe55ad8d564080d92720a364c647b2b55cbe7b658cecafaf2ad/pyllamacpp-2.0.0.tar.gz
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pysnptools]: Downloading https://files.pythonhosted.org/packages/1d/dd/63cc496535f242494f710121392c8b4224d9a2fa1acbd4e5c31e379e5ece/pysnptools-0.5.9.tar.gz
+[2023-05-02 03:11:49] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/69/14/730322d8d46afd19bf0948a35ba9fb3947464ec13df9f7d0cdd5f24fcd93/aiofauna-0.0.9.tar.gz
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/df/84/02db61cac4b61e1d3fbeff417c24f62ffbc7b5ff1e4ebbcda552e9b3ae12/pyllamacpp-2.1.0.tar.gz
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pysnptools]: executing diffoscope
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pysnptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnptools-0.5.8.tar.gz tmp/pysnptools-0.5.9.tar.gz --markdown 20230502/p/pysnptools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pyllamacpp]: executing diffoscope
+[2023-05-02 03:11:49] INFO root fetch - processPackages [pyllamacpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllamacpp-2.0.0.tar.gz tmp/pyllamacpp-2.1.0.tar.gz --markdown 20230502/p/pyllamacpp/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-02 03:11:49] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-02 03:11:49] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230502/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 03:11:49] INFO root fetch - processPackages [bytez]: Start processing: sortedness
+[2023-05-02 03:11:49] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-02 03:11:49] WARNING root fetch - processPackages [sortedness]: Skipping, unable to determine old version
+[2023-05-02 03:11:49] INFO root fetch - main [MainThread]: End processing [sortedness] error
+[2023-05-02 03:11:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-02 03:11:49] INFO root fetch - main [MainThread]: End processing [PyTerm-Shell]: success
+[2023-05-02 03:11:50] INFO root fetch - main [MainThread]: End processing [async-polygon-sdk]: success
+[2023-05-02 03:11:50] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-05-02 03:11:50] INFO root fetch - main [MainThread]: End processing [pomice]: success
+[2023-05-02 03:11:50] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-02 03:11:50] INFO root fetch - main [MainThread]: End processing [echopype]: success
+[2023-05-02 03:11:52] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
+[2023-05-02 03:11:53] INFO root fetch - main [MainThread]: End processing [pysnptools]: success
+[2023-05-02 03:11:53] INFO root fetch - main [MainThread]: Store serial: [17933797]
