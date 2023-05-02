@@ -4953,3 +4953,14 @@
 [2023-05-02 04:51:51] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
 [2023-05-02 04:52:27] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-02 04:52:27] INFO root fetch - main [MainThread]: Store serial: [17935466]
+[2023-05-02 04:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935466]
+[2023-05-02 04:57:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-02 04:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonsqlite2mod
+[2023-05-02 04:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-python
+[2023-05-02 04:57:36] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 04:57:36] WARNING root fetch - processPackages [pythonsqlite2mod]: Skipping, unable to determine old version
+[2023-05-02 04:57:36] INFO root fetch - main [MainThread]: End processing [pythonsqlite2mod] error
+[2023-05-02 04:57:36] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-02 04:57:36] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230502/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 04:57:38] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-02 04:57:38] INFO root fetch - main [MainThread]: Store serial: [17935473]
