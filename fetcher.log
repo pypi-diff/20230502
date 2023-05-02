@@ -11897,3 +11897,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:48:40] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-02 13:48:54] INFO root fetch - main [MainThread]: End processing [refinitiv-data]: success
 [2023-05-02 13:48:54] INFO root fetch - main [MainThread]: Store serial: [17939959]
+[2023-05-02 13:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939959]
+[2023-05-02 13:54:08] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: variation-normalizer
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: APIxoo
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magicsoup
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jhub-swarmspawner
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Bigsansar
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyjh
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-dllib
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dl-utils385
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ptal-api
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca
+[2023-05-02 13:54:08] WARNING root fetch - processPackages [APIxoo]: Skipping, unable to determine old version
+[2023-05-02 13:54:08] INFO root fetch - processPackages [APIxoo]: Start processing: cg
+[2023-05-02 13:54:08] INFO root fetch - main [MainThread]: End processing [APIxoo] error
+[2023-05-02 13:54:08] INFO root fetch - processPackages [variation-normalizer]: New version: [0.7.dev0] Old Version: [0.7.0.dev7]
+[2023-05-02 13:54:08] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-02 13:54:08] INFO root fetch - processPackages [Bigsansar]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-02 13:54:08] WARNING root fetch - processPackages [pyjh]: Skipping, unable to determine old version
+[2023-05-02 13:54:08] INFO root fetch - processPackages [pyjh]: Start processing: bigdl-friesian
+[2023-05-02 13:54:08] INFO root fetch - main [MainThread]: End processing [pyjh] error
+[2023-05-02 13:54:08] INFO root fetch - processPackages [magicsoup]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 13:54:08] INFO root fetch - processPackages [jhub-swarmspawner]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-02 13:54:08] INFO root fetch - processPackages [dl-utils385]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:54:08] INFO root fetch - processPackages [ptal-api]: New version: [0.11.5] Old Version: [0.11.4.2]
+[2023-05-02 13:54:08] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-02 13:54:09] INFO root fetch - processPackages [cg]: New version: [29.5.2] Old Version: [29.5.1]
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/48/26/9346a909ce8f23f4bdb5ec93bf7d4572337ed86a1517f4fe978e54b4b3c2/bigdl-dllib-2.4.0b20230501.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [variation-normalizer]: Downloading https://files.pythonhosted.org/packages/f8/ad/e89f731ff8e64763c124e8f725f540e3adbcd03530e8569951a8cff2072b/variation-normalizer-0.7.0.dev7.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/b7/03/02a22704cc0a9870333dd60f70053f07c98536bd1f37474ccb48fdffd3d4/Bigsansar-1.2.7.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/68/3c/0b8cdbb040398ed3827f2174aa227dec4b2049cfc81b5ccac9909bc19b4a/bigdl_orca-2.4.0b20230501-py3-none-manylinux1_x86_64.whl
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/20/74/addf0c935ecf756e982c52fc279d9d2c4a760fe6cfe10d97fc72782ba725/bigdl_friesian-2.4.0b20230501-py3-none-manylinux1_x86_64.whl
+[2023-05-02 13:54:09] INFO root fetch - processPackages [jhub-swarmspawner]: Downloading https://files.pythonhosted.org/packages/2a/30/77b6b4cbe7bc167335ba30e42fd19c3961d45ea7db0c6543bf7a30baeebe/jhub-swarmspawner-0.4.5.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [dl-utils385]: Downloading https://files.pythonhosted.org/packages/21/ba/aeaa6249bb476c72c9e7a7f4d83b8115261c2140f1cb2c81aad5d9edc49e/dl_utils385-0.9.3.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/88/91/dac778cf95965b62293202d8d23c59e5792b6069fc189266832b5b648c2f/cg-29.5.2.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/72/a3/9eef156eb094560fd8e51976567cb24941adc6bf0bbfda80c31be184525d/magicsoup-0.3.9.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [jhub-swarmspawner]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [jhub-swarmspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhub-swarmspawner-0.4.4.tar.gz tmp/jhub-swarmspawner-0.4.5.tar.gz --markdown 20230502/j/jhub-swarmspawner/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.3.8.tar.gz tmp/magicsoup-0.3.9.tar.gz --markdown 20230502/m/magicsoup/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369179>=10485760
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl
+[2023-05-02 13:54:09] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-02 13:54:09] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.5.1.tar.gz tmp/cg-29.5.2.tar.gz --markdown 20230502/c/cg/29.5.1-29.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230501] Old Version: [2.4.0b20230430]
+[2023-05-02 13:54:09] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/5c/8d/4070dc565d5280cb31ea852f902844c649b00dc6b231f348d1fa3c82a9bb/ptal_api-0.11.5.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/ca/23/fa43fbd29995942bc0f852acf418d89bb33193eb44769ebbeb13711d14e1/Bigsansar-1.2.8.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.2.7.tar.gz tmp/Bigsansar-1.2.8.tar.gz --markdown 20230502/B/Bigsansar/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.11.4.2.tar.gz tmp/ptal_api-0.11.5.tar.gz --markdown 20230502/p/ptal-api/0.11.4.2-0.11.5/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] INFO root fetch - processPackages [variation-normalizer]: Downloading https://files.pythonhosted.org/packages/4e/01/d61d3b1fdaf44f7639922d4926ca40945fd6931ff7679b63d0f504e14e96/variation-normalizer-0.7.dev0.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/d2/fc/a0228efb1a3491a060178df342242427182890cce5c66b39856b7c7d29bb/bigdl_friesian-2.4.0b20230502-py3-none-manylinux1_x86_64.whl
+[2023-05-02 13:54:09] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560762>=10485760
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-dllib-spark2
+[2023-05-02 13:54:09] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230501] Old Version: [2.4.0b20230430]
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230501-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230502-py3-none-manylinux1_x86_64.whl.zip --markdown 20230502/b/bigdl-friesian/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/5f/31/6874a466a3c2e727758129f31175567e382d555fc8fad6077d40cf13c0bf/bigdl-2.4.0b20230501-py3-none-manylinux1_x86_64.whl
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/19/ea/c7ddb86b8e02f36a9549aea314835bd3817f602a10b4dc1c6a6a49cb63ec/bigdl-dllib-spark2-2.4.0b20230430.tar.gz
+[2023-05-02 13:54:09] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560002>=10485760
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: ebyte-lora-e220-rpi
+[2023-05-02 13:54:09] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-02 13:54:09] INFO root fetch - processPackages [dl-utils385]: Downloading https://files.pythonhosted.org/packages/31/77/db3a7493d93c8a055b7f6daa89ee0b041b70752b3121751739e96aa7a6be/dl_utils385-0.9.4.tar.gz
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-02 13:54:09] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230430-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230501-py3-none-manylinux1_x86_64.whl.zip --markdown 20230502/b/bigdl/2.4.0b20230430-2.4.0b20230501/diff.md --exclude *.pyd
+[2023-05-02 13:54:09] WARNING root fetch - processPackages [ebyte-lora-e220-rpi]: Skipping, unable to determine old version
+[2023-05-02 13:54:09] INFO root fetch - processPackages [ebyte-lora-e220-rpi]: Start processing: trawler-on-lake
+[2023-05-02 13:54:09] INFO root fetch - main [MainThread]: End processing [ebyte-lora-e220-rpi] error
+[2023-05-02 13:54:10] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 13:54:10] INFO root fetch - processPackages [dl-utils385]: executing diffoscope
+[2023-05-02 13:54:10] INFO root fetch - processPackages [dl-utils385]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_utils385-0.9.3.tar.gz tmp/dl_utils385-0.9.4.tar.gz --markdown 20230502/d/dl-utils385/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:54:10] INFO root fetch - processPackages [variation-normalizer]: executing diffoscope
+[2023-05-02 13:54:10] INFO root fetch - processPackages [variation-normalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variation-normalizer-0.7.0.dev7.tar.gz tmp/variation-normalizer-0.7.dev0.tar.gz --markdown 20230502/v/variation-normalizer/0.7.0.dev7-0.7.dev0/diff.md --exclude *.pyd
+[2023-05-02 13:54:10] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-05-02 13:54:10] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230502/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 13:54:10] INFO root fetch - main [MainThread]: End processing [jhub-swarmspawner]: success
+[2023-05-02 13:54:10] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-05-02 13:54:11] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-02 13:54:11] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-05-02 13:54:11] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-02 13:54:11] INFO root fetch - main [MainThread]: End processing [dl-utils385]: success
+[2023-05-02 13:54:11] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-02 13:54:11] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-05-02 13:54:14] INFO root fetch - main [MainThread]: End processing [variation-normalizer]: success
+[2023-05-02 13:54:21] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-02 13:54:21] INFO root fetch - main [MainThread]: Store serial: [17940011]
