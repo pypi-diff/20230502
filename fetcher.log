@@ -16971,3 +16971,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 18:02:28] INFO root fetch - main [MainThread]: End processing [os-brick]: success
 [2023-05-02 18:03:57] INFO root fetch - main [MainThread]: End processing [cinder]: success
 [2023-05-02 18:03:57] INFO root fetch - main [MainThread]: Store serial: [17943321]
+[2023-05-02 18:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943321]
+[2023-05-02 18:09:07] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docker-sand
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffusers-unchained
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CoLT5-attention
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easypost
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eradiate-mitsuba
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybamm
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wolfssl
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minet
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-identity-sdk
+[2023-05-02 18:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oceano-algos
+[2023-05-02 18:09:07] INFO root fetch - processPackages [diffusers-unchained]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [wolfssl]: New version: [5.6.0.post0] Old Version: [5.5.4.post0]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [easypost]: New version: [7.9.0] Old Version: [7.8.0]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [eradiate-mitsuba]: New version: [0.0.1rc5] Old Version: [0.0.0]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [pybamm]: New version: [23.4.1] Old Version: [23.4]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [docker-sand]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2427]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [docker-sand]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [docker-sand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-sand-0.0.2.tar.gz tmp/docker-sand-0.0.3.tar.gz --markdown 20230502/d/docker-sand/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230502/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/87/90/6e607b0fb71f757077cdf4aad8d1b5e5050b5ca317b0852adf0b426a7b05/finbourne-identity-sdk-0.0.2427.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [easypost]: Downloading https://files.pythonhosted.org/packages/46/d0/b0d44f42b0be2d2d2f81506d1a04905031986926caed7f8c71a21da5e75f/easypost-7.8.0.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [wolfssl]: Downloading https://files.pythonhosted.org/packages/f9/82/f74357cf3ecc40fa4b3c44caf408c4a7487e7597701670177453dee25767/wolfssl-5.5.4.post0.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/67/63/9797f7726a532549338fd6c2572a0b46183c175c64515e01e2350f46d632/CoLT5-attention-0.4.0.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [eradiate-mitsuba]: Downloading https://files.pythonhosted.org/packages/2a/a5/13e9c76ab6566160dccc7ad6b1b25533c1dcdb0a2920229aef49efc9cead/eradiate_mitsuba-0.0.0-cp39-cp39-win_amd64.whl
+[2023-05-02 18:09:07] WARNING root fetch - processPackages [eradiate-mitsuba]: Skipping package: exceeds size limit 22214513>=10485760
+[2023-05-02 18:09:07] INFO root fetch - processPackages [eradiate-mitsuba]: Start processing: pytlab
+[2023-05-02 18:09:07] INFO root fetch - main [MainThread]: End processing [eradiate-mitsuba] error
+[2023-05-02 18:09:07] WARNING root fetch - processPackages [pytlab]: Skipping, unable to determine old version
+[2023-05-02 18:09:07] INFO root fetch - processPackages [pytlab]: Start processing: rewards-api
+[2023-05-02 18:09:07] INFO root fetch - main [MainThread]: End processing [pytlab] error
+[2023-05-02 18:09:07] INFO root fetch - processPackages [rewards-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 18:09:07] INFO root fetch - processPackages [pybamm]: Downloading https://files.pythonhosted.org/packages/da/a3/b3e38c946823e2dd3c6b8f49f60374c707e5cfa9ad756ce6e3ffea9ad656/pybamm-23.4.1.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [diffusers-unchained]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [diffusers-unchained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusers-unchained-0.7.0.tar.gz tmp/diffusers-unchained-0.9.0.tar.gz --markdown 20230502/d/diffusers-unchained/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230502/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [wolfssl]: Downloading https://files.pythonhosted.org/packages/27/be/c88426f8dc4bde54e2b115eb2c43b046e292625ff106c071d129b6c97638/wolfssl-5.6.0.post0.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2427.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230502/f/finbourne-identity-sdk/0.0.2427-0.0.840/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/07/a4/de3e0c5c4d93bc9716345ff7fadaedd4dd3e51eb2ef1219fc89fd7cff975/CoLT5-attention-0.4.1.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [rewards-api]: Downloading https://files.pythonhosted.org/packages/28/36/a3b96e3b5ddeb69703a4822d470c51e8dbd2347e6a2123082f1844bcba4d/rewards_api-0.1.2.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [pybamm]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [pybamm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybamm-23.4.tar.gz tmp/pybamm-23.4.1.tar.gz --markdown 20230502/p/pybamm/23.4-23.4.1/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [wolfssl]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [wolfssl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfssl-5.5.4.post0.tar.gz tmp/wolfssl-5.6.0.post0.tar.gz --markdown 20230502/w/wolfssl/5.5.4.post0-5.6.0.post0/diff.md --exclude *.pyd
+[2023-05-02 18:09:07] INFO root fetch - processPackages [easypost]: Downloading https://files.pythonhosted.org/packages/94/bd/2bc0d4ab02adee39ec57313dd3ab27163a86395eeae1718c0676ccd1f8c2/easypost-7.9.0.tar.gz
+[2023-05-02 18:09:07] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-02 18:09:07] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.0.tar.gz tmp/CoLT5-attention-0.4.1.tar.gz --markdown 20230502/C/CoLT5-attention/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 18:09:08] INFO root fetch - processPackages [rewards-api]: Downloading https://files.pythonhosted.org/packages/02/fa/e7d50cefe1ca3a7016907ed50bfd35fcd020ff18e22ecd924a00d15c3fa3/rewards_api-0.1.3.tar.gz
+[2023-05-02 18:09:08] INFO root fetch - processPackages [easypost]: executing diffoscope
+[2023-05-02 18:09:08] INFO root fetch - processPackages [easypost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypost-7.8.0.tar.gz tmp/easypost-7.9.0.tar.gz --markdown 20230502/e/easypost/7.8.0-7.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:09:08] INFO root fetch - processPackages [rewards-api]: executing diffoscope
+[2023-05-02 18:09:08] INFO root fetch - processPackages [rewards-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewards_api-0.1.2.tar.gz tmp/rewards_api-0.1.3.tar.gz --markdown 20230502/r/rewards-api/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 18:09:08] INFO root fetch - processPackages [docker-sand]: Start processing: ruff-lsp
+[2023-05-02 18:09:08] INFO root fetch - main [MainThread]: End processing [docker-sand]: success
+[2023-05-02 18:09:08] INFO root fetch - processPackages [ruff-lsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 18:09:08] INFO root fetch - processPackages [oceano-algos]: Start processing: notification-service-nightly
+[2023-05-02 18:09:08] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-02 18:09:08] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/48/64/90652b282a0d554a2483ebfdd37a317091e73d1b5caa0303f9a61bd27f78/ruff-lsp-0.0.8.tar.gz
+[2023-05-02 18:09:08] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.5.1] Old Version: [2023.4.9]
+[2023-05-02 18:09:09] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/a2/64/d4b18caf66222ed23f4bb7a5e2c010ecc24faf69af9c40976efe7dff3aff/notification_service_nightly-2023.5.1.tar.gz
+[2023-05-02 18:09:09] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-05-02 18:09:09] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.4.9.tar.gz tmp/notification_service_nightly-2023.5.1.tar.gz --markdown 20230502/n/notification-service-nightly/2023.4.9-2023.5.1/diff.md --exclude *.pyd
+[2023-05-02 18:09:09] INFO root fetch - processPackages [CoLT5-attention]: Start processing: ai-flow-nightly
+[2023-05-02 18:09:09] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ruff-lsp]: Downloading https://files.pythonhosted.org/packages/33/19/dc8533de6945cbfa428f42fe750158bfebd5cc496e0ae9834c44180dc185/ruff-lsp-0.0.9.tar.gz
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.5.1] Old Version: [2023.4.9]
+[2023-05-02 18:09:09] INFO root fetch - processPackages [rewards-api]: Start processing: lusid-notifications-sdk-preview
+[2023-05-02 18:09:09] INFO root fetch - main [MainThread]: End processing [rewards-api]: success
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ruff-lsp]: executing diffoscope
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ruff-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-lsp-0.0.8.tar.gz tmp/ruff-lsp-0.0.9.tar.gz --markdown 20230502/r/ruff-lsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/1b/39/8dc96f8e58f0d3c45234122538a592faf03ec72b804aa5b60aa24b8b1186/ai_flow_nightly-2023.5.1.tar.gz
+[2023-05-02 18:09:09] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.658] Old Version: [0.1.657]
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-05-02 18:09:09] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.4.9.tar.gz tmp/ai_flow_nightly-2023.5.1.tar.gz --markdown 20230502/a/ai-flow-nightly/2023.4.9-2023.5.1/diff.md --exclude *.pyd
+[2023-05-02 18:09:09] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a9/c7/bfbe7160eb073300e15d49112233972db11f9b5b34227fec98eebfce4bf7/lusid-notifications-sdk-preview-0.1.658.tar.gz
+[2023-05-02 18:09:10] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-05-02 18:09:10] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.657.tar.gz tmp/lusid-notifications-sdk-preview-0.1.658.tar.gz --markdown 20230502/l/lusid-notifications-sdk-preview/0.1.657-0.1.658/diff.md --exclude *.pyd
+[2023-05-02 18:09:10] INFO root fetch - processPackages [wolfssl]: Start processing: nautobot-ssot
+[2023-05-02 18:09:10] INFO root fetch - main [MainThread]: End processing [wolfssl]: success
+[2023-05-02 18:09:10] INFO root fetch - processPackages [nautobot-ssot]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-02 18:09:10] INFO root fetch - processPackages [minet]: Start processing: coiled
+[2023-05-02 18:09:10] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-05-02 18:09:10] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-02 18:09:10] INFO root fetch - processPackages [easypost]: Start processing: utilspggmdatalab
+[2023-05-02 18:09:10] INFO root fetch - main [MainThread]: End processing [easypost]: success
+[2023-05-02 18:09:10] INFO root fetch - processPackages [notification-service-nightly]: Start processing: pepperize.cdk-vpc
+[2023-05-02 18:09:10] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-05-02 18:09:10] WARNING root fetch - processPackages [utilspggmdatalab]: Skipping, unable to determine old version
+[2023-05-02 18:09:10] INFO root fetch - main [MainThread]: End processing [utilspggmdatalab] error
+[2023-05-02 18:09:10] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 18:09:10] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-02 18:09:10] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230502/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-02 18:09:10] INFO root fetch - processPackages [nautobot-ssot]: Downloading https://files.pythonhosted.org/packages/f8/df/1da2b7b269a612cf555d86c2478ce7c424826502e0f0a1b372c4fc0ddb68/nautobot-ssot-1.2.0.tar.gz
+[2023-05-02 18:09:10] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-02 18:09:10] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 18:09:10] INFO root fetch - main [MainThread]: End processing [ruff-lsp]: success
+[2023-05-02 18:09:11] INFO root fetch - processPackages [nautobot-ssot]: Downloading https://files.pythonhosted.org/packages/4a/27/3d02d2ca5f766b25135c3f1a8a4781fe673508cf91d55b69a164e855c454/nautobot_ssot-1.3.0.tar.gz
+[2023-05-02 18:09:11] INFO root fetch - processPackages [nautobot-ssot]: executing diffoscope
+[2023-05-02 18:09:11] INFO root fetch - processPackages [nautobot-ssot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot-ssot-1.2.0.tar.gz tmp/nautobot_ssot-1.3.0.tar.gz --markdown 20230502/n/nautobot-ssot/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 18:09:11] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-05-02 18:09:11] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-02 18:09:12] INFO root fetch - main [MainThread]: End processing [pybamm]: success
+[2023-05-02 18:09:12] INFO root fetch - main [MainThread]: End processing [nautobot-ssot]: success
+[2023-05-02 18:09:13] INFO root fetch - main [MainThread]: End processing [diffusers-unchained]: success
+[2023-05-02 18:09:14] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-02 18:09:15] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-05-02 18:09:38] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-05-02 18:09:38] INFO root fetch - main [MainThread]: Store serial: [17943400]
