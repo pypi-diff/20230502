@@ -14664,3 +14664,165 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 16:18:27] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
 [2023-05-02 16:18:27] INFO root fetch - main [MainThread]: End processing [wagtail] error
 [2023-05-02 16:18:27] INFO root fetch - main [MainThread]: Store serial: [17941756]
+[2023-05-02 16:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941756]
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aim
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-otakar-single-race-mode2
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MNIST-dir
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zillion
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysdl2-dll
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nexus-utilities
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gad-common-utils
+[2023-05-02 16:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dia-adfpro
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.8.49.893354] Old Version: [20230502.8.16.36864]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: New version: [20230502.9.31.693497] Old Version: [20230502.14.15.51832]
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [MNIST-dir]: Skipping, unable to determine old version
+[2023-05-02 16:23:37] INFO root fetch - processPackages [MNIST-dir]: Start processing: oloren
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [MNIST-dir] error
+[2023-05-02 16:23:37] INFO root fetch - processPackages [pysdl2-dll]: New version: [2.26.5] Old Version: [2.26.2]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [nexus-utilities]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [gad-common-utils]: New version: [0.20] Old Version: [0.2]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [dia-adfpro]: New version: [1.6.2] Old Version: [0.0.2]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230502.8.50.797734] Old Version: [20230502.8.13.343856]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [zillion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [oloren]: Skipping, unable to determine old version
+[2023-05-02 16:23:37] INFO root fetch - processPackages [oloren]: Start processing: wiskey
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [oloren] error
+[2023-05-02 16:23:37] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [wiskey]: Skipping, unable to determine old version
+[2023-05-02 16:23:37] INFO root fetch - processPackages [wiskey]: Start processing: scw-gateway
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [wiskey] error
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [scw-gateway]: Skipping, unable to determine old version
+[2023-05-02 16:23:37] INFO root fetch - processPackages [scw-gateway]: Start processing: slcl1butils
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [scw-gateway] error
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Downloading https://files.pythonhosted.org/packages/52/65/a66abf7b301e7830bad1616beaa3f257a89b1e3d0a649267f41b46a343c0/certora-cli-alpha-otakar-single_race_mode2-20230502.14.15.51832.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/ac/fc/3e9171d730e94a51be983bf66ff94d8118dd9738c09c19ff6b2dd28f6f03/nexus_utilities-0.1.4.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/d0/26/afa44fac38ad442755926ee3f7e83f8aa8e723bafb4ec1639659666b129a/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230502.8.16.36864.tar.gz
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [slcl1butils]: Skipping, unable to determine old version
+[2023-05-02 16:23:37] INFO root fetch - processPackages [slcl1butils]: Start processing: psycopg
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [slcl1butils] error
+[2023-05-02 16:23:37] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/d5/b5/2c0b0a9e716b40718abe83d355e751812776020acdef3e8707694052107b/gad_common_utils-0.2.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Skipping package: exceeds size limit 38365493>=10485760
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-otakar-single-race-mode2]: Start processing: psycopg-binary
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-otakar-single-race-mode2] error
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38365099>=10485760
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/81/2e/c670e2321bd16cb28fc43dc45280c621fece12632eed1bb5b1a2539fdb5b/certora-cli-alpha-roy-CERT-1844-usage-20230502.8.13.343856.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: mwrpy
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 16:23:37] INFO root fetch - processPackages [pysdl2-dll]: Downloading https://files.pythonhosted.org/packages/30/25/d0d91dedab3c4825e4ef1a383f5ce9fb10a4546a4db16ad70b26fd34da10/pysdl2-dll-2.26.2.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg]: Downloading https://files.pythonhosted.org/packages/ef/52/bfc1d7d82467594a45d46cf5ecae1cd5e6009ec851f4cff1f239d0f32730/psycopg-3.1.8.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg-binary]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [mwrpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 16:23:37] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38368260>=10485760
+[2023-05-02 16:23:37] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: tfilterpy
+[2023-05-02 16:23:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg-binary]: Downloading https://files.pythonhosted.org/packages/56/01/43669ee809662be9967ef54520b89bbbb76a0a8d03cc3d7368521fcd7f24/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl
+[2023-05-02 16:23:37] INFO root fetch - processPackages [tfilterpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 16:23:37] INFO root fetch - processPackages [dia-adfpro]: Downloading https://files.pythonhosted.org/packages/84/35/0f5dda7bf6b53f7eae3f01311fedcefff8365990aad103219832fe6e5569/dia-adfpro-1.6.2.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/d5/5a/345ff02be7a1e0b16bae88e968463a76d165c5d841a218d3e19c56495c74/mwrpy-0.1.1.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/9a/cb/5368dd7ae645909d2758eee2d9e8ecf9a65554d4a4a48c04c770ab2d95b2/nexus-utilities-0.1.5.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [dia-adfpro]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [dia-adfpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-adfpro-0.0.2.tar.gz tmp/dia-adfpro-1.6.2.tar.gz --markdown 20230502/d/dia-adfpro/0.0.2-1.6.2/diff.md --exclude *.pyd
+[2023-05-02 16:23:37] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230502/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-02 16:23:37] INFO root fetch - processPackages [tfilterpy]: Downloading https://files.pythonhosted.org/packages/09/66/72f31c7e0c6953c171c43bb05e23e1da43757507f1032fd3893332719040/tfilterpy-0.0.2.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/d5/f0/7e38313b4026107ff850df0622aaad890e8c1e4ed52f3b6348adf6c0413c/gad_common_utils-0.20.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [zillion]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [zillion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillion-0.9.8.tar.gz tmp/zillion-0.9.9.tar.gz --markdown 20230502/z/zillion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 16:23:37] INFO root fetch - processPackages [nexus-utilities]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [nexus-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_utilities-0.1.4.tar.gz tmp/nexus-utilities-0.1.5.tar.gz --markdown 20230502/n/nexus-utilities/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg]: Downloading https://files.pythonhosted.org/packages/c6/53/729709c14684fa8e53b6a95ac75d35c3928b142a9091b78382609fabf2b2/psycopg-3.1.9-py3-none-any.whl
+[2023-05-02 16:23:37] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.2.tar.gz tmp/gad_common_utils-0.20.tar.gz --markdown 20230502/g/gad-common-utils/0.2-0.20/diff.md --exclude *.pyd
+[2023-05-02 16:23:37] INFO root fetch - processPackages [pysdl2-dll]: Downloading https://files.pythonhosted.org/packages/0f/24/b1c4ba6630095bde6bd21017a677214c6f44fe52af98ac65a4d5df6140e5/pysdl2-dll-2.26.5.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg-binary]: Downloading https://files.pythonhosted.org/packages/2f/1e/ad9f88d1c733631444c52d74e6eab1872377903dbe7ba35587b03216c276/psycopg_binary-3.1.9-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-05-02 16:23:37] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/d3/37/7c5bebf0eb1a2d578be3f0cbb097724efcac74f4f48809fcb6391ee4c7c9/mwrpy-0.1.2.tar.gz
+[2023-05-02 16:23:37] INFO root fetch - processPackages [pysdl2-dll]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [pysdl2-dll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdl2-dll-2.26.2.tar.gz tmp/pysdl2-dll-2.26.5.tar.gz --markdown 20230502/p/pysdl2-dll/2.26.2-2.26.5/diff.md --exclude *.pyd
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg]: executing diffoscope
+[2023-05-02 16:23:37] INFO root fetch - processPackages [psycopg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg-3.1.8.tar.gz tmp/psycopg-3.1.9-py3-none-any.whl.zip --markdown 20230502/p/psycopg/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-02 16:23:38] INFO root fetch - processPackages [tfilterpy]: Downloading https://files.pythonhosted.org/packages/bf/0a/08460eccbd2f7151c438d071116d1266b82bac37e5d4d4259c281f5c56ab/tfilterpy-0.0.3-py3-none-any.whl
+[2023-05-02 16:23:38] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2023-05-02 16:23:38] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.1.1.tar.gz tmp/mwrpy-0.1.2.tar.gz --markdown 20230502/m/mwrpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 16:23:38] INFO root fetch - processPackages [tfilterpy]: executing diffoscope
+[2023-05-02 16:23:38] INFO root fetch - processPackages [tfilterpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfilterpy-0.0.2.tar.gz tmp/tfilterpy-0.0.3-py3-none-any.whl.zip --markdown 20230502/t/tfilterpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 16:23:38] INFO root fetch - processPackages [psycopg-binary]: executing diffoscope
+[2023-05-02 16:23:38] INFO root fetch - processPackages [psycopg-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl.zip tmp/psycopg_binary-3.1.9-cp38-cp38-macosx_10_9_x86_64.whl.zip --markdown 20230502/p/psycopg-binary/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-05-02 16:23:39] INFO root fetch - processPackages [nexus-utilities]: Start processing: py3a2
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [nexus-utilities]: success
+[2023-05-02 16:23:39] INFO root fetch - processPackages [py3a2]: New version: [0.1.4] Old Version: [0.1.0]
+[2023-05-02 16:23:39] INFO root fetch - processPackages [py3a2]: executing diffoscope
+[2023-05-02 16:23:39] INFO root fetch - processPackages [py3a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3a2-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/py3a2-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/p/py3a2/0.1.0-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 16:23:39] INFO root fetch - processPackages [dia-adfpro]: Start processing: flams
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [dia-adfpro]: success
+[2023-05-02 16:23:39] INFO root fetch - processPackages [gad-common-utils]: Start processing: maus
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-05-02 16:23:39] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 16:23:39] WARNING root fetch - processPackages [flams]: Skipping, unable to determine old version
+[2023-05-02 16:23:39] INFO root fetch - processPackages [flams]: Start processing: cryodrgn
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [flams] error
+[2023-05-02 16:23:39] INFO root fetch - processPackages [zillion]: Start processing: phylo-matt
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [zillion]: success
+[2023-05-02 16:23:39] INFO root fetch - processPackages [phylo-matt]: New version: [1.3.1] Old Version: [1.3]
+[2023-05-02 16:23:39] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 16:23:39] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 16:23:39] INFO root fetch - processPackages [tfilterpy]: Start processing: spanishconjugator
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [tfilterpy]: success
+[2023-05-02 16:23:39] INFO root fetch - processPackages [phylo-matt]: Downloading https://files.pythonhosted.org/packages/98/a9/1c100b9200a4de24b54ac8bc8a1e6309db4376400da410a2db808e606916/phylo-matt-1.3.tar.gz
+[2023-05-02 16:23:39] INFO root fetch - processPackages [cryodrgn]: New version: [2.3.0] Old Version: [2.2.0b0]
+[2023-05-02 16:23:39] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-02 16:23:39] INFO root fetch - processPackages [pysdl2-dll]: Start processing: SqlUts
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [pysdl2-dll]: success
+[2023-05-02 16:23:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-02 16:23:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230502/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-02 16:23:39] INFO root fetch - processPackages [cryodrgn]: Downloading https://files.pythonhosted.org/packages/6f/19/b950e5eb7a6d3c8d122bec56e59c447d3585a660a7605112a5346816014e/cryodrgn-2.2.0b0.tar.gz
+[2023-05-02 16:23:39] WARNING root fetch - processPackages [phylo-matt]: Skipping package: exceeds size limit 13132952>=10485760
+[2023-05-02 16:23:39] INFO root fetch - processPackages [phylo-matt]: Start processing: streamlit-component-DragDrop
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [phylo-matt] error
+[2023-05-02 16:23:39] INFO root fetch - processPackages [SqlUts]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 16:23:39] WARNING root fetch - processPackages [streamlit-component-DragDrop]: Skipping, unable to determine old version
+[2023-05-02 16:23:39] INFO root fetch - processPackages [streamlit-component-DragDrop]: Start processing: git-machete
+[2023-05-02 16:23:39] INFO root fetch - main [MainThread]: End processing [streamlit-component-DragDrop] error
+[2023-05-02 16:23:39] INFO root fetch - processPackages [SqlUts]: Downloading https://files.pythonhosted.org/packages/a4/ee/7a012ab721964087439b0f07fb581d7c42ed3f83f76e5a9a99e159ba8b24/SqlUts-0.1.1.tar.gz
+[2023-05-02 16:23:39] INFO root fetch - processPackages [git-machete]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-02 16:23:40] INFO root fetch - processPackages [git-machete]: Downloading https://files.pythonhosted.org/packages/00/41/ea9df2709ca5d1f69fef14e74d8c77f7c8575eeb2ba426a3d3ff4691095c/git-machete-3.9.0.tar.gz
+[2023-05-02 16:23:40] INFO root fetch - processPackages [SqlUts]: Downloading https://files.pythonhosted.org/packages/22/5a/0fa3237c506385c0d59323bb8cb090f69686f3ba7dd0b37151d72576bbc3/SqlUts-0.1.2.tar.gz
+[2023-05-02 16:23:40] INFO root fetch - processPackages [SqlUts]: executing diffoscope
+[2023-05-02 16:23:40] INFO root fetch - processPackages [SqlUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqlUts-0.1.1.tar.gz tmp/SqlUts-0.1.2.tar.gz --markdown 20230502/S/SqlUts/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 16:23:40] WARNING root fetch - processPackages [cryodrgn]: Skipping package: exceeds size limit 31429866>=10485760
+[2023-05-02 16:23:40] INFO root fetch - processPackages [cryodrgn]: Start processing: regex
+[2023-05-02 16:23:40] INFO root fetch - main [MainThread]: End processing [cryodrgn] error
+[2023-05-02 16:23:40] INFO root fetch - processPackages [psycopg-binary]: Start processing: spanishconjugator
+[2023-05-02 16:23:40] INFO root fetch - main [MainThread]: End processing [psycopg-binary]: success
+[2023-05-02 16:23:40] INFO root fetch - processPackages [regex]: New version: [2023.5.2] Old Version: [2023.3.23]
+[2023-05-02 16:23:40] INFO root fetch - processPackages [psycopg]: Start processing: causallib
+[2023-05-02 16:23:40] INFO root fetch - main [MainThread]: End processing [psycopg]: success
+[2023-05-02 16:23:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-02 16:23:40] INFO root fetch - processPackages [regex]: Downloading https://files.pythonhosted.org/packages/d8/29/bd8de07107bc952e0e2783243024e1c125e787fd685725a622e4ac7aeb3c/regex-2023.3.23.tar.gz
+[2023-05-02 16:23:40] INFO root fetch - processPackages [causallib]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 16:23:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-02 16:23:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-02 16:23:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230502/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-02 16:23:41] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 16:23:41] INFO root fetch - processPackages [git-machete]: Downloading https://files.pythonhosted.org/packages/c7/58/a2beb1e31a481442ac88f436b83c2277a5a58484492ca445e76b0c229e1f/git-machete-3.9.1.tar.gz
+[2023-05-02 16:23:41] INFO root fetch - processPackages [regex]: Downloading https://files.pythonhosted.org/packages/52/00/65744e59445996ed1afc81de03fb7cbac5796663a68e502d0fb5c8048fce/regex-2023.5.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-05-02 16:23:41] INFO root fetch - processPackages [git-machete]: executing diffoscope
+[2023-05-02 16:23:41] INFO root fetch - processPackages [git-machete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-machete-3.9.0.tar.gz tmp/git-machete-3.9.1.tar.gz --markdown 20230502/g/git-machete/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 16:23:41] INFO root fetch - processPackages [causallib]: Downloading https://files.pythonhosted.org/packages/3a/7d/931ef8984277e01dfac275b4d2b5a398d21c649ee1f73eee5786be08e86f/causallib-0.9.3.tar.gz
+[2023-05-02 16:23:41] INFO root fetch - processPackages [regex]: executing diffoscope
+[2023-05-02 16:23:41] INFO root fetch - processPackages [regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regex-2023.3.23.tar.gz tmp/regex-2023.5.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230502/r/regex/2023.3.23-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 16:23:41] INFO root fetch - processPackages [causallib]: Downloading https://files.pythonhosted.org/packages/cd/f8/60b1e6e183d2ffb08c404ab4be6a8ce891e37d17515f68475ca0ddba7510/causallib-0.9.4.tar.gz
+[2023-05-02 16:23:41] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2023-05-02 16:23:41] INFO root fetch - main [MainThread]: End processing [SqlUts]: success
+[2023-05-02 16:23:42] INFO root fetch - processPackages [causallib]: executing diffoscope
+[2023-05-02 16:23:42] INFO root fetch - processPackages [causallib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causallib-0.9.3.tar.gz tmp/causallib-0.9.4.tar.gz --markdown 20230502/c/causallib/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 16:23:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-02 16:23:42] INFO root fetch - main [MainThread]: End processing [regex]: success
+[2023-05-02 16:23:43] INFO root fetch - main [MainThread]: End processing [git-machete]: success
+[2023-05-02 16:23:44] INFO root fetch - main [MainThread]: End processing [causallib]: success
+[2023-05-02 16:23:47] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-02 16:24:24] INFO root fetch - main [MainThread]: End processing [py3a2]: success
+[2023-05-02 16:24:24] INFO root fetch - main [MainThread]: Store serial: [17941909]
