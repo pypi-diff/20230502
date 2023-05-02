@@ -5099,3 +5099,63 @@
 [2023-05-02 05:13:16] INFO root fetch - main [MainThread]: End processing [module-utilities]: success
 [2023-05-02 05:13:18] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-05-02 05:13:18] INFO root fetch - main [MainThread]: Store serial: [17935552]
+[2023-05-02 05:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935552]
+[2023-05-02 05:18:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: organage
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biobookshelf
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zwutils
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rattail
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrubrum-continued
+[2023-05-02 05:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyCOREPOS
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pyrubrum-continued]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pyrubrum-continued]: executing diffoscope
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pyrubrum-continued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubrum-continued-0.2.19.tar.gz tmp/pyrubrum-continued-0.2.20.tar.gz --markdown 20230502/p/pyrubrum-continued/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-05-02 05:18:27] INFO root fetch - processPackages [organage]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [zwutils]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [biobookshelf]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230502/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pyCOREPOS]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev2740] Old Version: [0.7.2.dev2706]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-02 05:18:27] INFO root fetch - processPackages [organage]: Downloading https://files.pythonhosted.org/packages/29/fa/3441f0c3fd47e4871b5630757b6e7434f5cfce222557a37ddb9ac682ed34/organage-0.4.0.tar.gz
+[2023-05-02 05:18:27] INFO root fetch - processPackages [biobookshelf]: Downloading https://files.pythonhosted.org/packages/4b/3d/24fb0802c4ed279696587517279c91f7f021da197819ac3c46add6c42e21/biobookshelf-0.2.2.tar.gz
+[2023-05-02 05:18:27] INFO root fetch - processPackages [pyCOREPOS]: Downloading https://files.pythonhosted.org/packages/68/57/3fe90edbff8163ed5d06c1cf57abf23874c5f61dc48f56c78798272b2134/pyCOREPOS-0.1.8.tar.gz
+[2023-05-02 05:18:27] INFO root fetch - processPackages [zwutils]: Downloading https://files.pythonhosted.org/packages/3e/07/747e00d904972cb937023bc887e7b9ae9fd8fcc3e3a0001c6c8549d4f52c/zwutils-0.2.6-py3-none-any.whl
+[2023-05-02 05:18:27] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/67/73/eb185b736ddbeca06c7a8e21e3897f688d8d9f1d5df126692ae91ca9d296/duckdb-0.7.2.dev2706.tar.gz
+[2023-05-02 05:18:28] INFO root fetch - processPackages [pyCOREPOS]: Downloading https://files.pythonhosted.org/packages/62/9d/965b1e532308af2bac5109fbb37d483a41c47a37ba389560fe8d63092bb4/pyCOREPOS-0.1.9.tar.gz
+[2023-05-02 05:18:28] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-02 05:18:28] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230502/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-02 05:18:28] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-05-02 05:18:28] INFO root fetch - processPackages [biobookshelf]: Downloading https://files.pythonhosted.org/packages/49/d9/b2497098f96538e6bbf2d2ff4fcd2e39ed71bfae4277ba9d7267e6631ff5/biobookshelf-0.2.3.tar.gz
+[2023-05-02 05:18:28] INFO root fetch - processPackages [zwutils]: Downloading https://files.pythonhosted.org/packages/ff/29/2e96abc7fcb70d7a59836c92bf3297dae7b07c7dfa5483cf096a2ea07c8a/zwutils-0.2.7-py3-none-any.whl
+[2023-05-02 05:18:28] INFO root fetch - processPackages [pyCOREPOS]: executing diffoscope
+[2023-05-02 05:18:28] INFO root fetch - processPackages [pyCOREPOS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCOREPOS-0.1.8.tar.gz tmp/pyCOREPOS-0.1.9.tar.gz --markdown 20230502/p/pyCOREPOS/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 05:18:28] INFO root fetch - processPackages [zwutils]: executing diffoscope
+[2023-05-02 05:18:28] INFO root fetch - processPackages [zwutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwutils-0.2.6-py3-none-any.whl.zip tmp/zwutils-0.2.7-py3-none-any.whl.zip --markdown 20230502/z/zwutils/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-02 05:18:28] INFO root fetch - processPackages [biobookshelf]: executing diffoscope
+[2023-05-02 05:18:28] INFO root fetch - processPackages [biobookshelf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobookshelf-0.2.2.tar.gz tmp/biobookshelf-0.2.3.tar.gz --markdown 20230502/b/biobookshelf/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-02 05:18:28] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-05-02 05:18:28] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/72/3e/0d567b9b0e904e20337ce663b7064df21f45bd19778fa9f054d910e899e8/duckdb-0.7.2.dev2740-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-05-02 05:18:28] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14430193>=10485760
+[2023-05-02 05:18:28] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-05-02 05:18:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-02 05:18:29] INFO root fetch - processPackages [organage]: Downloading https://files.pythonhosted.org/packages/c2/b2/e7a91655c1043ee0ca634140aaa34dffd2b20b1eda68eded3567faf36707/organage-0.4.1.tar.gz
+[2023-05-02 05:18:29] INFO root fetch - processPackages [organage]: executing diffoscope
+[2023-05-02 05:18:29] INFO root fetch - processPackages [organage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organage-0.4.0.tar.gz tmp/organage-0.4.1.tar.gz --markdown 20230502/o/organage/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 05:18:29] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-02 05:18:29] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-02 05:18:29] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230502/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-02 05:18:29] INFO root fetch - main [MainThread]: End processing [pyrubrum-continued]: success
+[2023-05-02 05:18:29] INFO root fetch - main [MainThread]: End processing [zwutils]: success
+[2023-05-02 05:18:29] INFO root fetch - main [MainThread]: End processing [biobookshelf]: success
+[2023-05-02 05:18:30] INFO root fetch - main [MainThread]: End processing [pyCOREPOS]: success
+[2023-05-02 05:18:33] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-02 05:21:29] ERROR root fetch - processPackages [organage]: Timeout during execution of pkgdiff
+[2023-05-02 05:21:29] INFO root fetch - main [MainThread]: End processing [organage] error
+[2023-05-02 05:21:29] INFO root fetch - main [MainThread]: Store serial: [17935586]
