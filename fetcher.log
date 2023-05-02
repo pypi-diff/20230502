@@ -5689,3 +5689,60 @@
 [2023-05-02 06:24:52] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
 [2023-05-02 06:24:57] INFO root fetch - main [MainThread]: End processing [utilmy]: success
 [2023-05-02 06:24:57] INFO root fetch - main [MainThread]: Store serial: [17936050]
+[2023-05-02 06:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936050]
+[2023-05-02 06:30:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentencepiece
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynecone
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchradio
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: treelite
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-starrail-calendar
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: treelite-runtime
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flippers
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: waveforms
+[2023-05-02 06:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vue2img
+[2023-05-02 06:30:06] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 06:30:06] INFO root fetch - processPackages [sentencepiece]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 06:30:06] WARNING root fetch - processPackages [torchradio]: Skipping, unable to determine old version
+[2023-05-02 06:30:06] INFO root fetch - processPackages [flippers]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2023-05-02 06:30:06] INFO root fetch - processPackages [vue2img]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 06:30:06] INFO root fetch - main [MainThread]: End processing [torchradio] error
+[2023-05-02 06:30:06] INFO root fetch - processPackages [treelite-runtime]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-02 06:30:06] INFO root fetch - processPackages [pynecone]: New version: [0.1.28a2] Old Version: [0.1.28a1]
+[2023-05-02 06:30:06] INFO root fetch - processPackages [waveforms]: New version: [1.5.94] Old Version: [1.5.93]
+[2023-05-02 06:30:06] INFO root fetch - processPackages [treelite]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-05-02 06:30:06] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Downloading https://files.pythonhosted.org/packages/4f/ad/510689a1882db03863b29e214b63fd369717ffa1faef9e5e5f34844ffc57/nonebot_plugin_starrail_calendar-1.0.2.tar.gz
+[2023-05-02 06:30:06] INFO root fetch - processPackages [flippers]: Downloading https://files.pythonhosted.org/packages/07/cc/75c46bea2b5f39f59307f014a2143a458ef540cc39e09ef1a8ee6d8995ba/flippers-0.0.1b2.tar.gz
+[2023-05-02 06:30:06] INFO root fetch - processPackages [vue2img]: Downloading https://files.pythonhosted.org/packages/a6/15/edaf3f1589f2376b9ce0da1eea05ad41635d8dbc10f39ff26d545f0d4ddc/vue2img-0.0.4.tar.gz
+[2023-05-02 06:30:06] INFO root fetch - processPackages [sentencepiece]: Downloading https://files.pythonhosted.org/packages/30/ea/b6cc06f178c4ad88f265011d7a2649a7d5278a88a7afa63cda9344513ea6/sentencepiece-0.1.98.tar.gz
+[2023-05-02 06:30:07] INFO root fetch - processPackages [treelite-runtime]: Downloading https://files.pythonhosted.org/packages/46/a6/e63fc00b5fb4a1e822c305fd9b256093de62071fba5b5a1e15f71703f032/treelite_runtime-3.4.0.tar.gz
+[2023-05-02 06:30:07] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/b1/8b/c02eb792b1c848e53f26d0e2ad6102bcbcbf53786524e82b9bb87bc134e5/pynecone-0.1.28a2.tar.gz
+[2023-05-02 06:30:07] INFO root fetch - processPackages [treelite]: Downloading https://files.pythonhosted.org/packages/02/72/bc97138e9513b72a2d52f7c3c8950a7772c12ca3109b4f296f91112640cf/treelite-3.4.0.tar.gz
+[2023-05-02 06:30:07] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/f6/ea/d5b8f8a667d695aef04d9fbc1f0ccb9dabc1a45f6aaa7fd26e9f44b443b0/waveforms-1.5.94.tar.gz
+[2023-05-02 06:30:07] INFO root fetch - processPackages [treelite-runtime]: executing diffoscope
+[2023-05-02 06:30:07] INFO root fetch - processPackages [treelite-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treelite_runtime-3.3.0.tar.gz tmp/treelite_runtime-3.4.0.tar.gz --markdown 20230502/t/treelite-runtime/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [treelite]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.93.tar.gz tmp/waveforms-1.5.94.tar.gz --markdown 20230502/w/waveforms/1.5.93-1.5.94/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-starrail-calendar-1.0.1.tar.gz tmp/nonebot_plugin_starrail_calendar-1.0.2.tar.gz --markdown 20230502/n/nonebot-plugin-starrail-calendar/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [treelite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treelite-3.3.0.tar.gz tmp/treelite-3.4.0.tar.gz --markdown 20230502/t/treelite/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.28a1.tar.gz tmp/pynecone-0.1.28a2.tar.gz --markdown 20230502/p/pynecone/0.1.28a1-0.1.28a2/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [vue2img]: Downloading https://files.pythonhosted.org/packages/82/26/345235f92e39b156a96d888c74e44be06b957d24c5a120cdf45821f4fb40/vue2img-0.0.5.tar.gz
+[2023-05-02 06:30:08] INFO root fetch - processPackages [flippers]: Downloading https://files.pythonhosted.org/packages/ed/06/b2b5ea2e2a017eb6cbe38f99f07ad6cf613512725e5245c023c173f9a5ef/flippers-0.0.1b3.tar.gz
+[2023-05-02 06:30:08] INFO root fetch - processPackages [vue2img]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [vue2img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vue2img-0.0.4.tar.gz tmp/vue2img-0.0.5.tar.gz --markdown 20230502/v/vue2img/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [flippers]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [flippers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flippers-0.0.1b2.tar.gz tmp/flippers-0.0.1b3.tar.gz --markdown 20230502/f/flippers/0.0.1b2-0.0.1b3/diff.md --exclude *.pyd
+[2023-05-02 06:30:08] INFO root fetch - processPackages [sentencepiece]: Downloading https://files.pythonhosted.org/packages/d8/87/b37ebc960d0a85e10785a1a92d796edbd975840bee150a9ae3ba5d7a0250/sentencepiece-0.1.99.tar.gz
+[2023-05-02 06:30:08] INFO root fetch - processPackages [sentencepiece]: executing diffoscope
+[2023-05-02 06:30:08] INFO root fetch - processPackages [sentencepiece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentencepiece-0.1.98.tar.gz tmp/sentencepiece-0.1.99.tar.gz --markdown 20230502/s/sentencepiece/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 06:30:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-starrail-calendar]: success
+[2023-05-02 06:30:09] INFO root fetch - main [MainThread]: End processing [vue2img]: success
+[2023-05-02 06:30:09] INFO root fetch - main [MainThread]: End processing [flippers]: success
+[2023-05-02 06:30:09] INFO root fetch - main [MainThread]: End processing [treelite-runtime]: success
+[2023-05-02 06:30:10] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-02 06:30:10] INFO root fetch - main [MainThread]: End processing [treelite]: success
+[2023-05-02 06:30:10] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-05-02 06:30:12] INFO root fetch - main [MainThread]: End processing [sentencepiece]: success
+[2023-05-02 06:30:12] INFO root fetch - main [MainThread]: Store serial: [17936140]
