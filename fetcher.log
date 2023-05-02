@@ -18098,3 +18098,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 19:01:27] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
 [2023-05-02 19:01:27] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-02 19:01:28] INFO root fetch - main [MainThread]: Store serial: [17944087]
+[2023-05-02 19:06:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944087]
+[2023-05-02 19:06:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: courlan
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paramaterial
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesscode-tool
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OctoBot-Commons
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ConcurrentDatabase
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: census
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-ssd1675
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-id-python
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-organization-python
+[2023-05-02 19:06:37] INFO root fetch - processPackages [courlan]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ConcurrentDatabase]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [paramaterial]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [census]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc299.post1] Old Version: [0.2.3rc296.post1]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ConcurrentDatabase]: Downloading https://files.pythonhosted.org/packages/4a/fd/b5d5cc76f08efd14c4780d533b24132090aec1dfd9142937f1dcfef1d884/ConcurrentDatabase-0.0.2.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/e1/d6/1ab752488b635c7b5e374e8658fd4a563afe301f9aa4e677b47e418176a3/gpt-review-0.2.3rc296.post1.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [paramaterial]: Downloading https://files.pythonhosted.org/packages/5f/41/1f1943b787031638c6de15b72cd02b2b2043f8a30d4cb6026b98538cb0ca/paramaterial-0.0.8.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: Downloading https://files.pythonhosted.org/packages/96/4b/71e3f08fd4a4cd70f77a55fba096087fc6a18c4053310175b60b3f16be72/adafruit-circuitpython-ssd1675-1.1.9.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [census]: Downloading https://files.pythonhosted.org/packages/a8/01/67aedf07ccf1fa9b4545bc526e6cb984bf46e664b3ea17c2bc55eeaa4245/census-0.8.8.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/83/8e/9b1bc95801c2e74b0b218a17ac66b0fb48baf971116bacfcfd65d2f06d0b/lesscode_tool-0.0.5.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/55/2e/674d6de8fcbc31e18bea90baf3da65988103711aa7b520787172a648b670/OctoBot-Commons-1.9.1.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.4.tar.gz tmp/lesscode_tool-0.0.5.tar.gz --markdown 20230502/l/lesscode-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.9.0.tar.gz tmp/OctoBot-Commons-1.9.1.tar.gz --markdown 20230502/O/OctoBot-Commons/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [courlan]: Downloading https://files.pythonhosted.org/packages/6f/b3/8e9fa5d8a8ee97b1f3011e9a23f64f62c48cfa481c21cc73074a280f9e6b/courlan-0.9.2.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ConcurrentDatabase]: Downloading https://files.pythonhosted.org/packages/f1/49/3a48fc937985e31f54d66711bd3392ba834153c30b3cbdf5ffc407dc653f/ConcurrentDatabase-0.0.3.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ConcurrentDatabase]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [ConcurrentDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConcurrentDatabase-0.0.2.tar.gz tmp/ConcurrentDatabase-0.0.3.tar.gz --markdown 20230502/C/ConcurrentDatabase/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [courlan]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [courlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/courlan-0.9.1.tar.gz tmp/courlan-0.9.2.tar.gz --markdown 20230502/c/courlan/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/3f/97/3111e5446158c32191e57f0d5bf122ee5a190b610ce6dd87a2e2ca5a3d9f/gpt-review-0.2.3rc299.post1.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [census]: Downloading https://files.pythonhosted.org/packages/1f/31/73b25a1d8ed69796d94c82ace593d93f4c18eea5267910dfc7a074b8bdbb/census-0.8.9.tar.gz
+[2023-05-02 19:06:37] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-02 19:06:37] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc296.post1.tar.gz tmp/gpt-review-0.2.3rc299.post1.tar.gz --markdown 20230502/g/gpt-review/0.2.3rc296.post1-0.2.3rc299.post1/diff.md --exclude *.pyd
+[2023-05-02 19:06:37] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: Downloading https://files.pythonhosted.org/packages/78/5d/0d58c6d81192536f218b4df7b170a1b1c902977f6ba76f12a4ec3da3f1d8/adafruit-circuitpython-ssd1675-1.2.0.tar.gz
+[2023-05-02 19:06:38] INFO root fetch - processPackages [census]: executing diffoscope
+[2023-05-02 19:06:38] INFO root fetch - processPackages [census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/census-0.8.8.tar.gz tmp/census-0.8.9.tar.gz --markdown 20230502/c/census/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-02 19:06:38] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: executing diffoscope
+[2023-05-02 19:06:38] INFO root fetch - processPackages [adafruit-circuitpython-ssd1675]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1675-1.1.9.tar.gz tmp/adafruit-circuitpython-ssd1675-1.2.0.tar.gz --markdown 20230502/a/adafruit-circuitpython-ssd1675/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 19:06:38] INFO root fetch - processPackages [paramaterial]: Downloading https://files.pythonhosted.org/packages/08/1b/0bd560c149853497307aaaea1e04b632e1a1b61cfe2139f6e51a6cf2b359/paramaterial-0.0.9.tar.gz
+[2023-05-02 19:06:38] INFO root fetch - processPackages [paramaterial]: executing diffoscope
+[2023-05-02 19:06:38] INFO root fetch - processPackages [paramaterial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paramaterial-0.0.8.tar.gz tmp/paramaterial-0.0.9.tar.gz --markdown 20230502/p/paramaterial/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 19:06:38] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-02 19:06:38] INFO root fetch - main [MainThread]: End processing [ConcurrentDatabase]: success
+[2023-05-02 19:06:39] INFO root fetch - main [MainThread]: End processing [census]: success
+[2023-05-02 19:06:39] INFO root fetch - main [MainThread]: End processing [paramaterial]: success
+[2023-05-02 19:06:39] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1675]: success
+[2023-05-02 19:06:39] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-02 19:06:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-02 19:06:40] INFO root fetch - main [MainThread]: End processing [courlan]: success
+[2023-05-02 19:06:40] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-02 19:06:41] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-05-02 19:06:41] INFO root fetch - main [MainThread]: Store serial: [17944118]
