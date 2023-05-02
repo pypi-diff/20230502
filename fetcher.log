@@ -2250,3 +2250,36 @@
 [2023-05-02 03:11:52] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
 [2023-05-02 03:11:53] INFO root fetch - main [MainThread]: End processing [pysnptools]: success
 [2023-05-02 03:11:53] INFO root fetch - main [MainThread]: Store serial: [17933797]
+[2023-05-02 03:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933797]
+[2023-05-02 03:17:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 03:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systemID
+[2023-05-02 03:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-05-02 03:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-subminute
+[2023-05-02 03:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-lookoutequipment
+[2023-05-02 03:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-kendra-ranking
+[2023-05-02 03:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-personalize-runtime
+[2023-05-02 03:17:03] INFO root fetch - processPackages [systemID]: New version: [24.9] Old Version: [24.8]
+[2023-05-02 03:17:03] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-02 03:17:03] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-02 03:17:03] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-05-02 03:17:03] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230502/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:17:03] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-02 03:17:03] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230502/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-02 03:17:03] INFO root fetch - processPackages [systemID]: executing diffoscope
+[2023-05-02 03:17:03] INFO root fetch - processPackages [systemID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemID-24.8.tar.gz tmp/systemID-24.9.tar.gz --markdown 20230502/s/systemID/24.8-24.9/diff.md --exclude *.pyd
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: executing diffoscope
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-lookoutequipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lookoutequipment-1.29.98.tar.gz tmp/botocore-a-la-carte-lookoutequipment-1.29.99.tar.gz --markdown 20230502/b/botocore-a-la-carte-lookoutequipment/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: executing diffoscope
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-runtime-1.29.98.tar.gz tmp/botocore-a-la-carte-personalize-runtime-1.29.99.tar.gz --markdown 20230502/b/botocore-a-la-carte-personalize-runtime/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: executing diffoscope
+[2023-05-02 03:17:03] INFO root fetch - processPackages [botocore-a-la-carte-kendra-ranking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kendra-ranking-1.29.98.tar.gz tmp/botocore-a-la-carte-kendra-ranking-1.29.99.tar.gz --markdown 20230502/b/botocore-a-la-carte-kendra-ranking/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-02 03:17:04] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-05-02 03:17:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lookoutequipment]: success
+[2023-05-02 03:17:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kendra-ranking]: success
+[2023-05-02 03:17:04] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize-runtime]: success
+[2023-05-02 03:17:04] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-02 03:17:05] INFO root fetch - main [MainThread]: End processing [systemID]: success
+[2023-05-02 03:17:05] INFO root fetch - main [MainThread]: Store serial: [17933830]
