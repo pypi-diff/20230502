@@ -21704,3 +21704,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 21:55:46] INFO root fetch - main [MainThread]: End processing [tensorboard]: success
 [2023-05-02 21:55:49] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2023-05-02 21:55:49] INFO root fetch - main [MainThread]: Store serial: [17946465]
+[2023-05-02 22:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946465]
+[2023-05-02 22:00:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pharus
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manimcs
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hpy
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pymem
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: regpredict
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secure-pickle
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junsjdeuszjunfaresd
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ParMan
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dj-accounts
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jamstats-nogui
+[2023-05-02 22:00:59] INFO root fetch - processPackages [pharus]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [Pymem]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [manimcs]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [jamstats-nogui]: New version: [1.2.1.4] Old Version: [1.2.1.3]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [secure-pickle]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [dj-accounts]: New version: [3.0.8] Old Version: [3.0.7]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [junsjdeuszjunfaresd]: New version: [0.2] Old Version: [0.1]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [hpy]: New version: [0.9.0rc1] Old Version: [0.0.4]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 22:00:59] WARNING root fetch - processPackages [ParMan]: Skipping, unable to determine old version
+[2023-05-02 22:00:59] INFO root fetch - processPackages [ParMan]: Start processing: python-bring-api
+[2023-05-02 22:00:59] INFO root fetch - main [MainThread]: End processing [ParMan] error
+[2023-05-02 22:00:59] INFO root fetch - processPackages [python-bring-api]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-02 22:00:59] INFO root fetch - processPackages [jamstats-nogui]: Downloading https://files.pythonhosted.org/packages/1b/a7/79bd60b697b78fb8f64edaec39553da7bfde9912ad5768c94b79979bed33/jamstats-nogui-1.2.1.4.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [dj-accounts]: Downloading https://files.pythonhosted.org/packages/b7/a2/5526a7a93d8f46d0cd22efcf493909aa9758f0a79b7329a6523ef39b7cc8/dj-accounts-3.0.7.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [manimcs]: Downloading https://files.pythonhosted.org/packages/09/47/c38ca0db09526a439dc3f963a13b4c0ce2520318e0f58d67bde6ceb99cef/manimcs-0.4.3.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [hpy]: Downloading https://files.pythonhosted.org/packages/22/60/02857d0e858b6f59f98a77f0cbb45806ecc39925dc4235a7055079043b71/hpy-0.0.4.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [junsjdeuszjunfaresd]: Downloading https://files.pythonhosted.org/packages/6e/f9/29cf7b0d567304058261602cf3e0849dbfba2beccac3e58627cca0139c17/junsjdeuszjunfaresd-0.1-py3-none-any.whl
+[2023-05-02 22:00:59] INFO root fetch - processPackages [secure-pickle]: Downloading https://files.pythonhosted.org/packages/31/02/0e99e66a71edf5ae24983c153d531b6c5fc11d7897aa935135eacf66fc75/secure_pickle-0.0.9.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [python-bring-api]: Downloading https://files.pythonhosted.org/packages/f7/ef/fcbe5a4c69793520c802ee4604035560d8dd740db54dddf3bb5be8b130a9/python-bring-api-1.0.2.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [manimcs]: executing diffoscope
+[2023-05-02 22:00:59] INFO root fetch - processPackages [manimcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manimcs-0.4.2.tar.gz tmp/manimcs-0.4.3.tar.gz --markdown 20230502/m/manimcs/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-02 22:00:59] INFO root fetch - processPackages [Pymem]: executing diffoscope
+[2023-05-02 22:00:59] INFO root fetch - processPackages [Pymem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pymem-1.9.0.tar.gz tmp/Pymem-1.9.1.tar.gz --markdown 20230502/P/Pymem/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-02 22:00:59] INFO root fetch - processPackages [jamstats-nogui]: executing diffoscope
+[2023-05-02 22:00:59] INFO root fetch - processPackages [jamstats-nogui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamstats-nogui-1.2.1.3.tar.gz tmp/jamstats-nogui-1.2.1.4.tar.gz --markdown 20230502/j/jamstats-nogui/1.2.1.3-1.2.1.4/diff.md --exclude *.pyd
+[2023-05-02 22:00:59] INFO root fetch - processPackages [pharus]: Downloading https://files.pythonhosted.org/packages/9e/4c/733e4924228e3aa31704b8996ac46303d64a9a2c6945c8e5a007083f5422/pharus-0.8.6.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [secure-pickle]: executing diffoscope
+[2023-05-02 22:00:59] INFO root fetch - processPackages [secure-pickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_pickle-0.0.8.tar.gz tmp/secure_pickle-0.0.9.tar.gz --markdown 20230502/s/secure-pickle/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 22:00:59] INFO root fetch - processPackages [pharus]: executing diffoscope
+[2023-05-02 22:00:59] INFO root fetch - processPackages [pharus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharus-0.8.5.tar.gz tmp/pharus-0.8.6.tar.gz --markdown 20230502/p/pharus/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-05-02 22:00:59] INFO root fetch - processPackages [hpy]: Downloading https://files.pythonhosted.org/packages/40/32/2a1fbaa081b22725102777d3f1e7f3be62c329ed8e6a06d7aee04e69db44/hpy-0.9.0rc1.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [python-bring-api]: Downloading https://files.pythonhosted.org/packages/73/ad/0813012f5515069e0511fa3970f2e8a5a0d3490d7230ca0519ee1aa7f962/python-bring-api-1.1.0.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [junsjdeuszjunfaresd]: Downloading https://files.pythonhosted.org/packages/69/ad/511809f4dec53756d3ae2a986007a2932874b68f0b8e4eb9f8a4bdd6ca38/junsjdeuszjunfaresd-0.2.tar.gz
+[2023-05-02 22:00:59] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-05-02 22:00:59] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230502/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 22:01:00] INFO root fetch - processPackages [dj-accounts]: Downloading https://files.pythonhosted.org/packages/b1/93/fcc1cd8e925baf98d829dd023c632a4ff912e693891862515bd4bdf78005/dj-accounts-3.0.8.tar.gz
+[2023-05-02 22:01:00] INFO root fetch - processPackages [dj-accounts]: executing diffoscope
+[2023-05-02 22:01:00] INFO root fetch - processPackages [dj-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-accounts-3.0.7.tar.gz tmp/dj-accounts-3.0.8.tar.gz --markdown 20230502/d/dj-accounts/3.0.7-3.0.8/diff.md --exclude *.pyd
+[2023-05-02 22:01:00] INFO root fetch - processPackages [python-bring-api]: executing diffoscope
+[2023-05-02 22:01:00] INFO root fetch - processPackages [python-bring-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bring-api-1.0.2.tar.gz tmp/python-bring-api-1.1.0.tar.gz --markdown 20230502/p/python-bring-api/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 22:01:00] INFO root fetch - processPackages [junsjdeuszjunfaresd]: executing diffoscope
+[2023-05-02 22:01:00] INFO root fetch - processPackages [junsjdeuszjunfaresd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junsjdeuszjunfaresd-0.1-py3-none-any.whl.zip tmp/junsjdeuszjunfaresd-0.2.tar.gz --markdown 20230502/j/junsjdeuszjunfaresd/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 22:01:00] INFO root fetch - processPackages [hpy]: executing diffoscope
+[2023-05-02 22:01:00] INFO root fetch - processPackages [hpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpy-0.0.4.tar.gz tmp/hpy-0.9.0rc1.tar.gz --markdown 20230502/h/hpy/0.0.4-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-02 22:01:01] INFO root fetch - processPackages [Pymem]: Start processing: dbt-rpc
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [Pymem]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [dbt-rpc]: New version: [0.4.0rc1] Old Version: [0.4.0b1]
+[2023-05-02 22:01:01] INFO root fetch - processPackages [jamstats-nogui]: Start processing: Turk-game
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [jamstats-nogui]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [Turk-game]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-02 22:01:01] INFO root fetch - processPackages [pharus]: Start processing: oaklib
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [pharus]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [manimcs]: Start processing: setuptools-dso
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [manimcs]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [setuptools-dso]: New version: [2.8a1] Old Version: [2.7a1]
+[2023-05-02 22:01:01] INFO root fetch - processPackages [oaklib]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-02 22:01:01] INFO root fetch - processPackages [dbt-rpc]: Downloading https://files.pythonhosted.org/packages/09/45/c36b563183c6af9d30f51855028df69d69ba17e6284b4c62e4e849271b08/dbt-rpc-0.4.0b1.tar.gz
+[2023-05-02 22:01:01] INFO root fetch - processPackages [junsjdeuszjunfaresd]: Start processing: bcipy
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [junsjdeuszjunfaresd]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [bcipy]: New version: [2.0.1rc3] Old Version: [2.0.1rc2]
+[2023-05-02 22:01:01] INFO root fetch - processPackages [setuptools-dso]: Downloading https://files.pythonhosted.org/packages/0c/52/b11d5aff03352858cef85292794f69b2ff69a0470b154355bc35a4b541b8/setuptools_dso-2.7a1.tar.gz
+[2023-05-02 22:01:01] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/a9/53/99f7f01f2265de4f0838589ea70953a8dc34585510293c37f5950ef44d44/oaklib-0.5.3.tar.gz
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [python-bring-api]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [Turk-game]: Downloading https://files.pythonhosted.org/packages/91/d6/f3a3aebdf806636abc2690b50f74bb4e027448eff886603347fb7ee0291f/Turk_game-1.1.0.tar.gz
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-05-02 22:01:01] INFO root fetch - main [MainThread]: End processing [secure-pickle]: success
+[2023-05-02 22:01:01] INFO root fetch - processPackages [Turk-game]: executing diffoscope
+[2023-05-02 22:01:01] INFO root fetch - processPackages [Turk-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turk_game-1.0.5.tar.gz tmp/Turk_game-1.1.0.tar.gz --markdown 20230502/T/Turk-game/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 22:01:02] INFO root fetch - processPackages [bcipy]: Downloading https://files.pythonhosted.org/packages/95/65/6ae7ca00e5df27f1a1a92971dfd7fd1ae3fe796d87c2dd1be8ef9565a320/bcipy-2.0.1rc3-py2.py3-none-any.whl
+[2023-05-02 22:01:02] INFO root fetch - processPackages [dbt-rpc]: Downloading https://files.pythonhosted.org/packages/3b/23/33e45561e265d9847f0ff4ed60eb7cc0abcbf6903e41cfcdbd68f410107a/dbt-rpc-0.4.0rc1.tar.gz
+[2023-05-02 22:01:02] INFO root fetch - main [MainThread]: End processing [dj-accounts]: success
+[2023-05-02 22:01:02] INFO root fetch - processPackages [setuptools-dso]: Downloading https://files.pythonhosted.org/packages/89/15/e0028bf7fdc0c74c477bb945e553c8b1e0acaa41883c9bfffe95b4742f52/setuptools_dso-2.8a1.tar.gz
+[2023-05-02 22:01:02] INFO root fetch - processPackages [bcipy]: executing diffoscope
+[2023-05-02 22:01:02] INFO root fetch - processPackages [bcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcipy-2.0.1rc2.tar.gz tmp/bcipy-2.0.1rc3-py2.py3-none-any.whl.zip --markdown 20230502/b/bcipy/2.0.1rc2-2.0.1rc3/diff.md --exclude *.pyd
+[2023-05-02 22:01:02] INFO root fetch - processPackages [setuptools-dso]: executing diffoscope
+[2023-05-02 22:01:02] INFO root fetch - processPackages [setuptools-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools_dso-2.7a1.tar.gz tmp/setuptools_dso-2.8a1.tar.gz --markdown 20230502/s/setuptools-dso/2.7a1-2.8a1/diff.md --exclude *.pyd
+[2023-05-02 22:01:02] INFO root fetch - processPackages [dbt-rpc]: executing diffoscope
+[2023-05-02 22:01:02] INFO root fetch - processPackages [dbt-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-rpc-0.4.0b1.tar.gz tmp/dbt-rpc-0.4.0rc1.tar.gz --markdown 20230502/d/dbt-rpc/0.4.0b1-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-02 22:01:02] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/9e/8f/ceb2b5ac6a3a483e8f8a621c81d9c5d9d4c54dff790775275ad39ad24ab8/oaklib-0.5.4.tar.gz
+[2023-05-02 22:01:02] INFO root fetch - main [MainThread]: End processing [Turk-game]: success
+[2023-05-02 22:01:03] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2023-05-02 22:01:03] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.5.3.tar.gz tmp/oaklib-0.5.4.tar.gz --markdown 20230502/o/oaklib/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-02 22:01:03] INFO root fetch - main [MainThread]: End processing [setuptools-dso]: success
+[2023-05-02 22:01:03] INFO root fetch - main [MainThread]: End processing [dbt-rpc]: success
+[2023-05-02 22:01:03] INFO root fetch - main [MainThread]: End processing [bcipy]: success
+[2023-05-02 22:01:06] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2023-05-02 22:01:06] INFO root fetch - main [MainThread]: End processing [hpy]: success
+[2023-05-02 22:01:06] INFO root fetch - main [MainThread]: Store serial: [17946525]
