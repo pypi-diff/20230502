@@ -5414,3 +5414,65 @@
 [2023-05-02 05:53:02] INFO root fetch - main [MainThread]: End processing [cellmap]: success
 [2023-05-02 05:53:03] INFO root fetch - main [MainThread]: End processing [npf-web-extension]: success
 [2023-05-02 05:53:03] INFO root fetch - main [MainThread]: Store serial: [17935792]
+[2023-05-02 05:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935792]
+[2023-05-02 05:58:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: katalytic-maths
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymavlink
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iwx-manifest-builder
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsai-shared-funcs
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-file-split
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geopix
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvat-manifest-builder
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recursive-validator
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awpr
+[2023-05-02 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fsai-grpc-api
+[2023-05-02 05:58:12] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230502/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] WARNING root fetch - processPackages [katalytic-maths]: Skipping, unable to determine old version
+[2023-05-02 05:58:12] INFO root fetch - processPackages [katalytic-maths]: Start processing: nonebot-plugin-starrail-calendar
+[2023-05-02 05:58:12] INFO root fetch - main [MainThread]: End processing [katalytic-maths] error
+[2023-05-02 05:58:12] INFO root fetch - processPackages [pymavlink]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-02 05:58:12] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230502/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230502/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230502/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] WARNING root fetch - processPackages [nonebot-plugin-starrail-calendar]: Skipping, unable to determine old version
+[2023-05-02 05:58:12] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Start processing: rms-fpzip
+[2023-05-02 05:58:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-starrail-calendar] error
+[2023-05-02 05:58:12] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230502/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230502/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230502/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] INFO root fetch - processPackages [pymavlink]: Downloading https://files.pythonhosted.org/packages/cd/6a/3a068f16c5549e500a9cdeae738b5a92214174446e5a5ad9d1f6bd51a98b/pymavlink-2.4.8.tar.gz
+[2023-05-02 05:58:12] WARNING root fetch - processPackages [rms-fpzip]: Skipping, unable to determine old version
+[2023-05-02 05:58:12] INFO root fetch - processPackages [rms-fpzip]: Start processing: eyes-soatra
+[2023-05-02 05:58:12] INFO root fetch - main [MainThread]: End processing [rms-fpzip] error
+[2023-05-02 05:58:12] WARNING root fetch - processPackages [eyes-soatra]: Skipping, unable to determine old version
+[2023-05-02 05:58:12] INFO root fetch - main [MainThread]: End processing [eyes-soatra] error
+[2023-05-02 05:58:12] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-05-02 05:58:12] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230502/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 05:58:12] INFO root fetch - processPackages [pymavlink]: Downloading https://files.pythonhosted.org/packages/77/6b/502081988b0a0a0b0a41716653817bb924260bbfdd349ca2f8b78c27ddcd/pymavlink-2.4.9.tar.gz
+[2023-05-02 05:58:13] INFO root fetch - processPackages [pymavlink]: executing diffoscope
+[2023-05-02 05:58:13] INFO root fetch - processPackages [pymavlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymavlink-2.4.8.tar.gz tmp/pymavlink-2.4.9.tar.gz --markdown 20230502/p/pymavlink/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-02 05:58:13] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-05-02 05:58:13] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-05-02 05:58:13] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-05-02 05:58:13] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-05-02 05:58:13] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-05-02 05:58:14] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-05-02 05:58:14] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-05-02 05:58:14] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-05-02 05:58:18] INFO root fetch - main [MainThread]: End processing [pymavlink]: success
+[2023-05-02 05:58:18] INFO root fetch - main [MainThread]: Store serial: [17935871]
