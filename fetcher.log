@@ -14107,3 +14107,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:47:16] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
 [2023-05-02 15:47:16] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
 [2023-05-02 15:47:16] INFO root fetch - main [MainThread]: Store serial: [17941366]
+[2023-05-02 15:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941366]
+[2023-05-02 15:52:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openvds
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BTrees
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-alex-int-to-skey
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AICreator
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdt-extract
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: handyscope
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-DragDropList
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fl-studio-api-stubs
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-fao-fishing
+[2023-05-02 15:52:26] INFO root fetch - processPackages [BTrees]: New version: [5.0] Old Version: [4.9.2]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [openvds]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-02 15:52:26] WARNING root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Skipping, unable to determine old version
+[2023-05-02 15:52:26] WARNING root fetch - processPackages [handyscope]: Skipping, unable to determine old version
+[2023-05-02 15:52:26] INFO root fetch - processPackages [certora-cli-alpha-alex-int-to-skey]: Start processing: catnapmodule
+[2023-05-02 15:52:26] INFO root fetch - processPackages [handyscope]: Start processing: AICreator
+[2023-05-02 15:52:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-int-to-skey] error
+[2023-05-02 15:52:26] INFO root fetch - processPackages [AICreator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [pdt-extract]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 15:52:26] INFO root fetch - main [MainThread]: End processing [handyscope] error
+[2023-05-02 15:52:26] WARNING root fetch - processPackages [streamlit-DragDropList]: Skipping, unable to determine old version
+[2023-05-02 15:52:26] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [streamlit-DragDropList]: Start processing: leadguru-data
+[2023-05-02 15:52:26] INFO root fetch - main [MainThread]: End processing [streamlit-DragDropList] error
+[2023-05-02 15:52:26] INFO root fetch - processPackages [fl-studio-api-stubs]: New version: [28.2.0] Old Version: [28.1.0]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [AICreator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [catnapmodule]: New version: [1.3] Old Version: [1.2]
+[2023-05-02 15:52:26] INFO root fetch - processPackages [openvds]: Downloading https://files.pythonhosted.org/packages/b4/94/fd2a2df8eb1722df60dddeeddc09a9ed1f56ee010d232e236935674c2192/openvds-3.2.3-cp39-cp39-win_amd64.whl
+[2023-05-02 15:52:26] INFO root fetch - processPackages [BTrees]: Downloading https://files.pythonhosted.org/packages/7b/8a/f2d88402585fa6676dfa0ec5a21c5c3e38e7926e72094d73672b420a78b8/BTrees-4.9.2.tar.gz
+[2023-05-02 15:52:26] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/3f/76/36bdb4fa8694d8579582104c91641212b6b4cecafb8ed9ddf0cc03321ac3/AICreator-0.0.1.tar.gz
+[2023-05-02 15:52:26] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/3f/76/36bdb4fa8694d8579582104c91641212b6b4cecafb8ed9ddf0cc03321ac3/AICreator-0.0.1.tar.gz
+[2023-05-02 15:52:26] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Downloading https://files.pythonhosted.org/packages/64/50/9fa1cef38cfbd7667d9e1a4322d3332f31c8640623ca6535aec5748b4405/odoo_addon_product_fao_fishing-15.0.1.0.0.5-py3-none-any.whl
+[2023-05-02 15:52:26] INFO root fetch - processPackages [fl-studio-api-stubs]: Downloading https://files.pythonhosted.org/packages/6f/9d/d9b4893bdce116fff00458ec99e599c50c8a6fb05153c14c10335562604b/fl_studio_api_stubs-28.1.0.tar.gz
+[2023-05-02 15:52:27] INFO root fetch - processPackages [pdt-extract]: Downloading https://files.pythonhosted.org/packages/6c/28/8d294cfe9a48f64c7b20db4423ebb90dc9759df554cef9260c35a26fbf04/pdt_extract-0.1.5-py3-none-any.whl
+[2023-05-02 15:52:27] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230502/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230502/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [catnapmodule]: Downloading https://files.pythonhosted.org/packages/26/10/d29c3eb5f872d4730c80ab46bcaf334443282030489afa754b141030f9b3/catnapmodule-1.3.tar.gz
+[2023-05-02 15:52:27] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/78/ed/998ca71a30212cfc15db91f084c90a705e9fbdf77731f5681d8574a83b98/AICreator-0.0.2.tar.gz
+[2023-05-02 15:52:27] INFO root fetch - processPackages [pdt-extract]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [pdt-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdt_extract-0.1.4-py3-none-any.whl.zip tmp/pdt_extract-0.1.5-py3-none-any.whl.zip --markdown 20230502/p/pdt-extract/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [AICreator]: Downloading https://files.pythonhosted.org/packages/78/ed/998ca71a30212cfc15db91f084c90a705e9fbdf77731f5681d8574a83b98/AICreator-0.0.2.tar.gz
+[2023-05-02 15:52:27] INFO root fetch - processPackages [BTrees]: Downloading https://files.pythonhosted.org/packages/a6/da/c222526a5c1effff5557ebb44dfd24a01f58e52fe244e0af21a248464f18/BTrees-5.0.tar.gz
+[2023-05-02 15:52:27] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.0.1.tar.gz tmp/AICreator-0.0.2.tar.gz --markdown 20230502/A/AICreator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [catnapmodule]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [catnapmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnapmodule-1.2.tar.gz tmp/catnapmodule-1.3.tar.gz --markdown 20230502/c/catnapmodule/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [AICreator]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [AICreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AICreator-0.0.1.tar.gz tmp/AICreator-0.0.2.tar.gz --markdown 20230502/A/AICreator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: Downloading https://files.pythonhosted.org/packages/19/f2/9e176275a60cefe0e80041a9f09f9218aa6d40553d3902729f933cb1a5a0/odoo_addon_product_fao_fishing-15.0.1.0.1-py3-none-any.whl
+[2023-05-02 15:52:27] INFO root fetch - processPackages [fl-studio-api-stubs]: Downloading https://files.pythonhosted.org/packages/5b/27/be2a45927bbcf9fab546798bb7d72055ac882aa415503ac9114b594ab6dd/fl_studio_api_stubs-28.2.0.tar.gz
+[2023-05-02 15:52:27] INFO root fetch - processPackages [BTrees]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [BTrees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTrees-4.9.2.tar.gz tmp/BTrees-5.0.tar.gz --markdown 20230502/B/BTrees/4.9.2-5.0/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [odoo-addon-product-fao-fishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_fao_fishing-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_fao_fishing-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230502/o/odoo-addon-product-fao-fishing/15.0.1.0.0.5-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-02 15:52:27] INFO root fetch - processPackages [fl-studio-api-stubs]: executing diffoscope
+[2023-05-02 15:52:27] INFO root fetch - processPackages [fl-studio-api-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fl_studio_api_stubs-28.1.0.tar.gz tmp/fl_studio_api_stubs-28.2.0.tar.gz --markdown 20230502/f/fl-studio-api-stubs/28.1.0-28.2.0/diff.md --exclude *.pyd
+[2023-05-02 15:52:28] INFO root fetch - processPackages [pdt-extract]: Start processing: leadguru-common
+[2023-05-02 15:52:28] INFO root fetch - main [MainThread]: End processing [pdt-extract]: success
+[2023-05-02 15:52:28] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-02 15:52:28] INFO root fetch - processPackages [leadguru-data]: Start processing: mongoclasses
+[2023-05-02 15:52:28] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-02 15:52:28] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-02 15:52:28] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230502/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-02 15:52:28] INFO root fetch - processPackages [AICreator]: Start processing: yaw-sweep-sg-cali
+[2023-05-02 15:52:28] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-02 15:52:28] INFO root fetch - processPackages [yaw-sweep-sg-cali]: New version: [3.2] Old Version: [3.1]
+[2023-05-02 15:52:28] WARNING root fetch - processPackages [mongoclasses]: Skipping, unable to determine old version
+[2023-05-02 15:52:28] INFO root fetch - main [MainThread]: End processing [mongoclasses] error
+[2023-05-02 15:52:28] INFO root fetch - main [MainThread]: End processing [AICreator]: success
+[2023-05-02 15:52:28] INFO root fetch - main [MainThread]: End processing [catnapmodule]: success
+[2023-05-02 15:52:29] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-02 15:52:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-fao-fishing]: success
+[2023-05-02 15:52:29] INFO root fetch - processPackages [yaw-sweep-sg-cali]: Downloading https://files.pythonhosted.org/packages/6e/45/5e8b187a06c7eb45feaac31fea99c4eff6a45e160b4d1a93618a30655e2b/yaw_sweep_sg_cali-3.2.tar.gz
+[2023-05-02 15:52:29] INFO root fetch - processPackages [yaw-sweep-sg-cali]: executing diffoscope
+[2023-05-02 15:52:29] INFO root fetch - processPackages [yaw-sweep-sg-cali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaw_sweep_sg_cali-3.1.tar.gz tmp/yaw_sweep_sg_cali-3.2.tar.gz --markdown 20230502/y/yaw-sweep-sg-cali/3.1-3.2/diff.md --exclude *.pyd
+[2023-05-02 15:52:29] INFO root fetch - main [MainThread]: End processing [fl-studio-api-stubs]: success
+[2023-05-02 15:52:29] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-02 15:52:29] INFO root fetch - main [MainThread]: End processing [BTrees]: success
+[2023-05-02 15:52:30] INFO root fetch - main [MainThread]: End processing [yaw-sweep-sg-cali]: success
+[2023-05-02 15:52:32] INFO root fetch - processPackages [openvds]: Downloading https://files.pythonhosted.org/packages/da/d2/9e12bc3602cd7fee227f07fa6d59545166249695835537f6c591af4fc854/openvds-3.2.4-cp39-cp39-win_amd64.whl
+[2023-05-02 15:52:32] INFO root fetch - processPackages [openvds]: executing diffoscope
+[2023-05-02 15:52:32] INFO root fetch - processPackages [openvds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvds-3.2.3-cp39-cp39-win_amd64.whl.zip tmp/openvds-3.2.4-cp39-cp39-win_amd64.whl.zip --markdown 20230502/o/openvds/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-02 15:54:11] INFO root fetch - main [MainThread]: End processing [openvds]: success
+[2023-05-02 15:54:11] INFO root fetch - main [MainThread]: Store serial: [17941443]
