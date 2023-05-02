@@ -7715,3 +7715,94 @@
 [2023-05-02 09:23:34] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-05-02 09:23:41] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-02 09:23:41] INFO root fetch - main [MainThread]: Store serial: [17937395]
+[2023-05-02 09:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937395]
+[2023-05-02 09:28:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magnum
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: milankalkenings
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbrokerapi
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coupml
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Products.MeetingLalouviere
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GptCode
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: maharashtra-forts
+[2023-05-02 09:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-governance
+[2023-05-02 09:28:51] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [openbrokerapi]: New version: [4.5.5] Old Version: [4.5.1]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [magnum]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [maharashtra-forts]: New version: [0.2] Old Version: [0.1]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [GptCode]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [Products.MeetingLalouviere]: New version: [4.2.0rc4] Old Version: [4.2.0rc3]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [coupml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.93] Old Version: [1.1.92]
+[2023-05-02 09:28:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [maharashtra-forts]: Downloading https://files.pythonhosted.org/packages/c7/43/d9debd36311cf608caee989ab360602d41c7563825317da52b3c026f35c6/maharashtra_forts-0.1.macosx-10.9-x86_64.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230502/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [magnum]: Downloading https://files.pythonhosted.org/packages/73/16/22df4a3af2af8541bf23ba32c0048fed24df27eb179302fb0383a0470746/magnum-9.4.0.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [coupml]: Downloading https://files.pythonhosted.org/packages/0a/8e/688f4e161b96db4e624527ccd6107d2c249df6ecaba31c5ccc20317e6778/coupml-0.1.0.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/98/76/a348ad3b6f6deb05a6e7ae52a2707a8511e08b737bed0f09a56307263fe7/GptCode-1.0.4.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.3.tar.gz tmp/GptCode-1.0.4.tar.gz --markdown 20230502/G/GptCode/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230502/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/b9/e4/5ee09bd27e5093e5e38ac81767d8b7abc3a3f62feba9bb333b55ed79a416/Products.MeetingLalouviere-4.2.0rc3.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [openbrokerapi]: Downloading https://files.pythonhosted.org/packages/52/5e/3c0fe794eac1d9e0c059072a4ff28917f78ccd33f72d8da931ab482001a9/openbrokerapi-4.5.5.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [maharashtra-forts]: Downloading https://files.pythonhosted.org/packages/c9/fd/9d2e0648853a8155563963e934626a713861bac139e1c9f0558305a6d2d4/maharashtra_forts-0.2.macosx-10.9-x86_64.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [openbrokerapi]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [openbrokerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbrokerapi-4.5.1.tar.gz tmp/openbrokerapi-4.5.5.tar.gz --markdown 20230502/o/openbrokerapi/4.5.1-4.5.5/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [maharashtra-forts]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [maharashtra-forts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maharashtra_forts-0.1.macosx-10.9-x86_64.tar.gz tmp/maharashtra_forts-0.2.macosx-10.9-x86_64.tar.gz --markdown 20230502/m/maharashtra-forts/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/e4/b8/242b6116cf81313d4dbcc15622c55ebbdcc5c7f4e7fd9901fe4b0fdd38bd/cloud-governance-1.1.93.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [coupml]: Downloading https://files.pythonhosted.org/packages/e2/94/2092c7e30ed69e9a8b404b6231f4279aaa770307ff2924d2b178a25f2a25/coupml-0.1.1.tar.gz
+[2023-05-02 09:28:51] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.92.tar.gz tmp/cloud-governance-1.1.93.tar.gz --markdown 20230502/c/cloud-governance/1.1.92-1.1.93/diff.md --exclude *.pyd
+[2023-05-02 09:28:51] INFO root fetch - processPackages [coupml]: executing diffoscope
+[2023-05-02 09:28:51] INFO root fetch - processPackages [coupml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coupml-0.1.0.tar.gz tmp/coupml-0.1.1.tar.gz --markdown 20230502/c/coupml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 09:28:52] INFO root fetch - processPackages [magnum]: Downloading https://files.pythonhosted.org/packages/1f/2b/a478c0c44604c35bfc29788c5ba7ad91b9b93449ce182566fb022e532712/magnum-9.4.1.tar.gz
+[2023-05-02 09:28:52] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/bc/95/f0ca1fd4e6f7d4dd113a5f61b67ca3f426521c4af48f736f3583a0e831be/Products.MeetingLalouviere-4.2.0rc4.tar.gz
+[2023-05-02 09:28:52] INFO root fetch - processPackages [magnum]: executing diffoscope
+[2023-05-02 09:28:52] INFO root fetch - processPackages [magnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum-9.4.0.tar.gz tmp/magnum-9.4.1.tar.gz --markdown 20230502/m/magnum/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-05-02 09:28:52] INFO root fetch - processPackages [Products.MeetingLalouviere]: executing diffoscope
+[2023-05-02 09:28:52] INFO root fetch - processPackages [Products.MeetingLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingLalouviere-4.2.0rc3.tar.gz tmp/Products.MeetingLalouviere-4.2.0rc4.tar.gz --markdown 20230502/P/Products.MeetingLalouviere/4.2.0rc3-4.2.0rc4/diff.md --exclude *.pyd
+[2023-05-02 09:28:53] INFO root fetch - processPackages [GptCode]: Start processing: EverLoguru
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-02 09:28:53] INFO root fetch - processPackages [EverLoguru]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-02 09:28:53] INFO root fetch - processPackages [milankalkenings]: Start processing: pyrsm
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pyrsm]: New version: [0.7.9.2] Old Version: [0.7.9.1]
+[2023-05-02 09:28:53] INFO root fetch - processPackages [QuNet]: Start processing: ironic
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-02 09:28:53] INFO root fetch - processPackages [ironic]: New version: [9.1.7] Old Version: [9.1.6]
+[2023-05-02 09:28:53] INFO root fetch - processPackages [maharashtra-forts]: Start processing: pkcs1
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [maharashtra-forts]: success
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pkcs1]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/e2/52/230412b03f26c1e21cd2e6bf03da367cd3185c9f187a45084207fc836aaa/pyrsm-0.7.9.1.tar.gz
+[2023-05-02 09:28:53] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/e7/3d/0a26deb594a2bb7892c725d292e6e5e0e191de39b978005c6d50895e938c/EverLoguru-1.1.1.tar.gz
+[2023-05-02 09:28:53] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-02 09:28:53] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.1.0.tar.gz tmp/EverLoguru-1.1.1.tar.gz --markdown 20230502/E/EverLoguru/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [openbrokerapi]: success
+[2023-05-02 09:28:53] INFO root fetch - processPackages [ironic]: Downloading https://files.pythonhosted.org/packages/2f/88/2a3768b7c2b45ce67cc1f858f9600c72dac3a4abe7d2c3189c79c3059309/ironic-9.1.6.tar.gz
+[2023-05-02 09:28:53] INFO root fetch - main [MainThread]: End processing [coupml]: success
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pkcs1]: Downloading https://files.pythonhosted.org/packages/9b/5b/1b712194fb29d2a8f4696197c23ec5d7f2be9a3d7f47e5b2ba626fa27eaf/pkcs1-0.9.6.tar.gz
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/9d/d8/fde403dbed86d30d7455cd83d3836489c381dccaa8425b23d8b9ad8b86a1/pyrsm-0.7.9.2.tar.gz
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.7.9.1.tar.gz tmp/pyrsm-0.7.9.2.tar.gz --markdown 20230502/p/pyrsm/0.7.9.1-0.7.9.2/diff.md --exclude *.pyd
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pkcs1]: Downloading https://files.pythonhosted.org/packages/8c/e9/6759c8ba5f53a6c97d1865df07c30d98864a8f8b4f2e19074f76bb93536e/pkcs1-0.9.7.tar.gz
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pkcs1]: executing diffoscope
+[2023-05-02 09:28:53] INFO root fetch - processPackages [pkcs1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkcs1-0.9.6.tar.gz tmp/pkcs1-0.9.7.tar.gz --markdown 20230502/p/pkcs1/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-02 09:28:54] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-02 09:28:54] INFO root fetch - processPackages [ironic]: Downloading https://files.pythonhosted.org/packages/88/68/bd7861aad5bfd401f4424a760169d5ed3b6d54c05b9b3458ea48f5b274d9/ironic-9.1.7.tar.gz
+[2023-05-02 09:28:55] INFO root fetch - processPackages [ironic]: executing diffoscope
+[2023-05-02 09:28:55] INFO root fetch - processPackages [ironic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironic-9.1.6.tar.gz tmp/ironic-9.1.7.tar.gz --markdown 20230502/i/ironic/9.1.6-9.1.7/diff.md --exclude *.pyd
+[2023-05-02 09:28:55] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-05-02 09:28:56] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-02 09:28:57] INFO root fetch - main [MainThread]: End processing [Products.MeetingLalouviere]: success
+[2023-05-02 09:29:08] INFO root fetch - main [MainThread]: End processing [magnum]: success
+[2023-05-02 09:29:10] INFO root fetch - main [MainThread]: End processing [ironic]: success
+[2023-05-02 09:29:13] INFO root fetch - main [MainThread]: End processing [pkcs1]: success
+[2023-05-02 09:29:13] INFO root fetch - main [MainThread]: Store serial: [17937436]
