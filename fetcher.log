@@ -4112,3 +4112,95 @@
 [2023-05-02 03:29:02] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-05-02 03:30:37] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-02 03:30:37] INFO root fetch - main [MainThread]: Store serial: [17934600]
+[2023-05-02 03:35:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17934600]
+[2023-05-02 03:35:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-eks-blueprint
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpservice
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuned-lens
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bytez
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuralprophet
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bytez
+[2023-05-02 03:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-stdlib
+[2023-05-02 03:35:48] INFO root fetch - processPackages [cdk-eks-blueprint]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [neuralprophet]: New version: [1.0.0rc1] Old Version: [0.6.0rc1]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [tuned-lens]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [chalkpy]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-02 03:35:48] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:35:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230502/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230502/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [tuned-lens]: Downloading https://files.pythonhosted.org/packages/cc/0e/a6c8f774083a86269460828cd35017f97a2660fa0555770552cf14439602/tuned-lens-0.0.5.tar.gz
+[2023-05-02 03:35:49] INFO root fetch - processPackages [cdk-eks-blueprint]: Downloading https://files.pythonhosted.org/packages/c2/be/87fb93cbec248bbb0a15e4a9d7721a1450204d8d65c60fe036fa4e70f2b2/cdk-eks-blueprint-0.0.6.tar.gz
+[2023-05-02 03:35:49] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/28/18/e6dcb9b716b6276d256f1b88b3120bca3ad80556f0764c1f4537b9e4af7f/chalkpy-2.0.3.tar.gz
+[2023-05-02 03:35:49] INFO root fetch - processPackages [cdk-eks-blueprint]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [cdk-eks-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-blueprint-0.0.5.tar.gz tmp/cdk-eks-blueprint-0.0.6.tar.gz --markdown 20230502/c/cdk-eks-blueprint/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [neuralprophet]: Downloading https://files.pythonhosted.org/packages/72/e4/d977308f1acbedbe2ee0e42be9e186d046292ebb0843c0aefbd35121caeb/neuralprophet-1.0.0rc1.tar.gz
+[2023-05-02 03:35:49] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230502/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.0.2.tar.gz tmp/chalkpy-2.0.3.tar.gz --markdown 20230502/c/chalkpy/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230502/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230502/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230502/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [neuralprophet]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [neuralprophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralprophet-0.6.0rc1.tar.gz tmp/neuralprophet-1.0.0rc1.tar.gz --markdown 20230502/n/neuralprophet/0.6.0rc1-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-02 03:35:49] INFO root fetch - processPackages [tuned-lens]: Downloading https://files.pythonhosted.org/packages/30/a8/a4393ac895f67803394e6418c66df78eaf509a08686609f602ad75214f04/tuned-lens-0.1.0.tar.gz
+[2023-05-02 03:35:49] INFO root fetch - processPackages [tuned-lens]: executing diffoscope
+[2023-05-02 03:35:49] INFO root fetch - processPackages [tuned-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuned-lens-0.0.5.tar.gz tmp/tuned-lens-0.1.0.tar.gz --markdown 20230502/t/tuned-lens/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 03:35:50] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: mppsolar
+[2023-05-02 03:35:50] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-02 03:35:50] INFO root fetch - processPackages [mppsolar]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-05-02 03:35:50] INFO root fetch - processPackages [cdk-eks-blueprint]: Start processing: bytez
+[2023-05-02 03:35:50] INFO root fetch - main [MainThread]: End processing [cdk-eks-blueprint]: success
+[2023-05-02 03:35:50] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 03:35:50] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/6b/31/e960cd826fccc8ffb069d4605d995c555846f8fce9f86e5e121ccedcad86/mppsolar-0.9.1.tar.gz
+[2023-05-02 03:35:50] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-02 03:35:50] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230502/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 03:35:50] INFO root fetch - processPackages [mpservice]: Start processing: cdk-lambda-layer-wget
+[2023-05-02 03:35:50] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-02 03:35:50] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-02 03:35:50] INFO root fetch - processPackages [bytez]: Start processing: bytez
+[2023-05-02 03:35:50] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-02 03:35:50] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 03:35:50] INFO root fetch - processPackages [bytez]: Start processing: proceso
+[2023-05-02 03:35:50] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-02 03:35:50] INFO root fetch - processPackages [proceso]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 03:35:50] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-02 03:35:50] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230502/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:35:51] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-02 03:35:51] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230502/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 03:35:51] INFO root fetch - processPackages [cdk-wordpress]: Start processing: nbdev-numpy
+[2023-05-02 03:35:51] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-02 03:35:51] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:35:51] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/2f/60/32f1a9c59f1db3687fe043f2d94689ba0688ac138e52006049e1b21b28df/proceso-0.0.2.tar.gz
+[2023-05-02 03:35:51] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/fd/87/29296f7b83112ba52d957ad9bd045e73b688905ea29ddda5f44e092a22bc/mppsolar-0.9.12.tar.gz
+[2023-05-02 03:35:51] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-02 03:35:51] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230502/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:35:51] INFO root fetch - main [MainThread]: End processing [tuned-lens]: success
+[2023-05-02 03:35:51] INFO root fetch - processPackages [mppsolar]: executing diffoscope
+[2023-05-02 03:35:51] INFO root fetch - processPackages [mppsolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppsolar-0.9.1.tar.gz tmp/mppsolar-0.9.12.tar.gz --markdown 20230502/m/mppsolar/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-05-02 03:35:51] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/9a/93/4b864fab1360971b7e9ac6a0578f6562f907d1ecb7deabe93374c2b6937c/proceso-0.0.3.tar.gz
+[2023-05-02 03:35:51] INFO root fetch - processPackages [proceso]: executing diffoscope
+[2023-05-02 03:35:51] INFO root fetch - processPackages [proceso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proceso-0.0.2.tar.gz tmp/proceso-0.0.3.tar.gz --markdown 20230502/p/proceso/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 03:35:51] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [proceso]: success
+[2023-05-02 03:35:52] INFO root fetch - main [MainThread]: End processing [neuralprophet]: success
+[2023-05-02 03:35:58] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-02 03:35:58] INFO root fetch - main [MainThread]: Store serial: [17934958]
