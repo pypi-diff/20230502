@@ -13640,3 +13640,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:22:45] INFO root fetch - main [MainThread]: End processing [WhooshSms]: success
 [2023-05-02 15:23:03] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-02 15:23:03] INFO root fetch - main [MainThread]: Store serial: [17941088]
+[2023-05-02 15:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941088]
+[2023-05-02 15:28:15] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysnid
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azure-native
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysui-sdk
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TuoTuo
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-base
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freyja-plot
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sageworks
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: klym-telemetry
+[2023-05-02 15:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyridy
+[2023-05-02 15:28:15] INFO root fetch - processPackages [TuoTuo]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [klym-telemetry]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysui-sdk]: New version: [1.0.7] Old Version: [1.0.4]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysnid]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [sageworks]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pyridy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-05-02 15:28:15] WARNING root fetch - processPackages [freyja-plot]: Skipping, unable to determine old version
+[2023-05-02 15:28:15] INFO root fetch - processPackages [freyja-plot]: Start processing: aheadworks-deploy-manager
+[2023-05-02 15:28:15] INFO root fetch - main [MainThread]: End processing [freyja-plot] error
+[2023-05-02 15:28:15] INFO root fetch - processPackages [klym-telemetry]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [klym-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klym-telemetry-0.1.1.tar.gz tmp/klym-telemetry-0.1.2.tar.gz --markdown 20230502/k/klym-telemetry/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 15:28:15] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/4e/d8/3e557aab2234aa417c02350b1573969b695e72534e209486b67b87c687c7/pysui-sdk-1.0.4.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/63/8e/10896b9aecff02df2cc2ef67baac32c9ed1a3f9dbc74225268118b0746cc/TuoTuo-0.1.5.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysnid]: Downloading https://files.pythonhosted.org/packages/45/d4/28979e8394d15933e70e23b26b7d097fc18b82236ab58198367efb92a66d/pysnid-0.4.4.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/36/c4/a2817c2fa4f73ff0602178a33c40df5a730c22d790110969f8580a45d00c/sageworks-0.1.4.1.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.1.4.tar.gz tmp/TuoTuo-0.1.5.tar.gz --markdown 20230502/T/TuoTuo/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 15:28:15] INFO root fetch - processPackages [invenio-base]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/eb/23/2452e6f32f5c8066ecac5f02e4af50c4ddb2adc7f89bec756b2220f6545d/pyridy-1.0.0.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230502/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/b5/ad/69044ad844dec1aaa57606479e314b826697c7fdb917feca76eb2e240554/pysui-sdk-1.0.7.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysnid]: Downloading https://files.pythonhosted.org/packages/be/82/697cdf15370cb083b19d99112feb716ca1881e0dce04bc77cfe4767c4a16/pysnid-0.5.0.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysnid]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysnid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnid-0.4.4.tar.gz tmp/pysnid-0.5.0.tar.gz --markdown 20230502/p/pysnid/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysui-sdk]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pysui-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-sdk-1.0.4.tar.gz tmp/pysui-sdk-1.0.7.tar.gz --markdown 20230502/p/pysui-sdk/1.0.4-1.0.7/diff.md --exclude *.pyd
+[2023-05-02 15:28:15] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-05-02 15:28:15] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: qontract-reconcile
+[2023-05-02 15:28:15] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-05-02 15:28:15] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-02 15:28:15] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-02 15:28:15] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-02 15:28:16] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/4b/2b/6c5ef036cd96d1878e45fc47a596c4e072449b109c53b3230a0274f6d446/pyridy-1.0.1.tar.gz
+[2023-05-02 15:28:16] INFO root fetch - processPackages [pyridy]: executing diffoscope
+[2023-05-02 15:28:16] INFO root fetch - processPackages [pyridy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyridy-1.0.0.tar.gz tmp/pyridy-1.0.1.tar.gz --markdown 20230502/p/pyridy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 15:28:16] INFO root fetch - processPackages [klym-telemetry]: Start processing: ralf-jhuapl
+[2023-05-02 15:28:16] INFO root fetch - main [MainThread]: End processing [klym-telemetry]: success
+[2023-05-02 15:28:16] WARNING root fetch - processPackages [ralf-jhuapl]: Skipping, unable to determine old version
+[2023-05-02 15:28:16] INFO root fetch - processPackages [ralf-jhuapl]: Start processing: logicgate
+[2023-05-02 15:28:16] INFO root fetch - main [MainThread]: End processing [ralf-jhuapl] error
+[2023-05-02 15:28:16] INFO root fetch - processPackages [invenio-base]: executing diffoscope
+[2023-05-02 15:28:16] INFO root fetch - processPackages [invenio-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-base-1.2.8.tar.gz tmp/invenio-base-1.2.9.tar.gz --markdown 20230502/i/invenio-base/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 15:28:16] INFO root fetch - processPackages [logicgate]: New version: [0.2.5] Old Version: [0.2.1]
+[2023-05-02 15:28:16] INFO root fetch - processPackages [pysui-sdk]: Start processing: mypack1
+[2023-05-02 15:28:16] INFO root fetch - main [MainThread]: End processing [pysui-sdk]: success
+[2023-05-02 15:28:16] INFO root fetch - processPackages [pysnid]: Start processing: votable-cli
+[2023-05-02 15:28:16] INFO root fetch - main [MainThread]: End processing [pysnid]: success
+[2023-05-02 15:28:17] INFO root fetch - processPackages [votable-cli]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-05-02 15:28:17] WARNING root fetch - processPackages [mypack1]: Skipping, unable to determine old version
+[2023-05-02 15:28:17] INFO root fetch - processPackages [mypack1]: Start processing: mwrpy
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [mypack1] error
+[2023-05-02 15:28:17] INFO root fetch - processPackages [logicgate]: Downloading https://files.pythonhosted.org/packages/38/7b/c246c03cec40aa97439578cf02d967cf344688b6424d9aef502aa3ba1b4f/LogicGate-0.2.5.tar.gz
+[2023-05-02 15:28:17] INFO root fetch - processPackages [logicgate]: executing diffoscope
+[2023-05-02 15:28:17] INFO root fetch - processPackages [logicgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogicGate-0.2.1.tar.gz tmp/LogicGate-0.2.5.tar.gz --markdown 20230502/l/logicgate/0.2.1-0.2.5/diff.md --exclude *.pyd
+[2023-05-02 15:28:17] WARNING root fetch - processPackages [mwrpy]: Skipping, unable to determine old version
+[2023-05-02 15:28:17] INFO root fetch - processPackages [mwrpy]: Start processing: core-braincube-dev
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [mwrpy] error
+[2023-05-02 15:28:17] INFO root fetch - processPackages [aheadworks-deploy-manager]: Start processing: q-random-number-generator
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-05-02 15:28:17] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 15:28:17] INFO root fetch - processPackages [q-random-number-generator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 15:28:17] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 15:28:17] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.8.tar.gz tmp/core-braincube-dev-0.0.9.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 15:28:17] INFO root fetch - processPackages [q-random-number-generator]: executing diffoscope
+[2023-05-02 15:28:17] INFO root fetch - processPackages [q-random-number-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q_random_number_generator-0.0.2.tar.gz tmp/q_random_number_generator-0.0.3.tar.gz --markdown 20230502/q/q-random-number-generator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 15:28:17] INFO root fetch - processPackages [votable-cli]: Downloading https://files.pythonhosted.org/packages/10/46/17cdc7848c7ee75c3e2a3c1f19f85f6d3707acc7265fe8772e59282ac54d/votable_cli-0.2.0.tar.gz
+[2023-05-02 15:28:17] INFO root fetch - processPackages [pyridy]: Start processing: LbReleaseDoxy
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [pyridy]: success
+[2023-05-02 15:28:17] WARNING root fetch - processPackages [LbReleaseDoxy]: Skipping, unable to determine old version
+[2023-05-02 15:28:17] INFO root fetch - processPackages [LbReleaseDoxy]: Start processing: streamlit-DragDrop-list
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [LbReleaseDoxy] error
+[2023-05-02 15:28:17] INFO root fetch - processPackages [invenio-base]: Start processing: ghastoolkit
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [invenio-base]: success
+[2023-05-02 15:28:17] WARNING root fetch - processPackages [streamlit-DragDrop-list]: Skipping, unable to determine old version
+[2023-05-02 15:28:17] INFO root fetch - processPackages [streamlit-DragDrop-list]: Start processing: mylib06
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [streamlit-DragDrop-list] error
+[2023-05-02 15:28:17] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Start processing: nucliadb-contributor-assets
+[2023-05-02 15:28:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-02 15:28:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post741] Old Version: [1.0.0.post740]
+[2023-05-02 15:28:18] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 15:28:18] WARNING root fetch - processPackages [mylib06]: Skipping, unable to determine old version
+[2023-05-02 15:28:18] INFO root fetch - processPackages [mylib06]: Start processing: flux-python
+[2023-05-02 15:28:18] INFO root fetch - main [MainThread]: End processing [mylib06] error
+[2023-05-02 15:28:18] WARNING root fetch - processPackages [flux-python]: Skipping, unable to determine old version
+[2023-05-02 15:28:18] INFO root fetch - processPackages [flux-python]: Start processing: nucliadb-contributor-assets
+[2023-05-02 15:28:18] INFO root fetch - main [MainThread]: End processing [flux-python] error
+[2023-05-02 15:28:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post741] Old Version: [1.0.0.post740]
+[2023-05-02 15:28:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 15:28:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post740-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post741-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post740-1.0.0.post741/diff.md --exclude *.pyd
+[2023-05-02 15:28:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 15:28:18] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post740-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post741-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post740-1.0.0.post741/diff.md --exclude *.pyd
+[2023-05-02 15:28:18] INFO root fetch - processPackages [votable-cli]: Downloading https://files.pythonhosted.org/packages/9b/51/c17c207cc69951f46a37ddf94175c0c676a53b7877ca42c95321fe08f368/votable_cli-0.2.3.tar.gz
+[2023-05-02 15:28:18] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-02 15:28:18] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.8.tar.gz tmp/ghastoolkit-0.1.9.tar.gz --markdown 20230502/g/ghastoolkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 15:28:18] INFO root fetch - processPackages [votable-cli]: executing diffoscope
+[2023-05-02 15:28:18] INFO root fetch - processPackages [votable-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/votable_cli-0.2.0.tar.gz tmp/votable_cli-0.2.3.tar.gz --markdown 20230502/v/votable-cli/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-05-02 15:28:18] INFO root fetch - main [MainThread]: End processing [logicgate]: success
+[2023-05-02 15:28:18] INFO root fetch - main [MainThread]: End processing [q-random-number-generator]: success
+[2023-05-02 15:28:18] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 15:28:19] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-02 15:28:19] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 15:28:20] INFO root fetch - main [MainThread]: End processing [votable-cli]: success
+[2023-05-02 15:28:20] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/2a/2e/4091707955eb78ee37b7c9bac990bbbbf0c32acf48bd1543bd9a88a18d40/sageworks-0.1.4.2.tar.gz
+[2023-05-02 15:28:21] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-02 15:28:22] INFO root fetch - processPackages [sageworks]: executing diffoscope
+[2023-05-02 15:28:22] INFO root fetch - processPackages [sageworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageworks-0.1.4.1.tar.gz tmp/sageworks-0.1.4.2.tar.gz --markdown 20230502/s/sageworks/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-05-02 15:28:25] INFO root fetch - main [MainThread]: End processing [sageworks]: success
+[2023-05-02 15:28:32] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 15:28:35] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 15:28:35] INFO root fetch - main [MainThread]: Store serial: [17941173]
