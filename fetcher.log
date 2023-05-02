@@ -7879,3 +7879,76 @@
 [2023-05-02 09:34:26] INFO root fetch - main [MainThread]: End processing [shioaji]: success
 [2023-05-02 09:34:27] INFO root fetch - main [MainThread]: End processing [gget]: success
 [2023-05-02 09:34:27] INFO root fetch - main [MainThread]: Store serial: [17937487]
+[2023-05-02 09:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937487]
+[2023-05-02 09:39:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuotuo
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eyes-soatra
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RRD
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-contributor-assets
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyes-soatra
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redbrick-sdk
+[2023-05-02 09:39:37] INFO root fetch - processPackages [tuotuo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 09:39:37] WARNING root fetch - processPackages [eyes-soatra]: Skipping, unable to determine old version
+[2023-05-02 09:39:37] INFO root fetch - processPackages [eyes-soatra]: Start processing: EdgeGPT
+[2023-05-02 09:39:37] INFO root fetch - main [MainThread]: End processing [eyes-soatra] error
+[2023-05-02 09:39:37] WARNING root fetch - processPackages [eyes-soatra]: Skipping, unable to determine old version
+[2023-05-02 09:39:37] INFO root fetch - processPackages [eyes-soatra]: Start processing: stripe-integrations
+[2023-05-02 09:39:37] INFO root fetch - main [MainThread]: End processing [eyes-soatra] error
+[2023-05-02 09:39:37] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230502071002] Old Version: [2.0.3.dev20230428065621]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [EdgeGPT]: New version: [0.3.4.1] Old Version: [0.3.4]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-02 09:39:37] WARNING root fetch - processPackages [RRD]: Skipping, unable to determine old version
+[2023-05-02 09:39:37] INFO root fetch - processPackages [RRD]: Start processing: ddataflow
+[2023-05-02 09:39:37] INFO root fetch - main [MainThread]: End processing [RRD] error
+[2023-05-02 09:39:37] INFO root fetch - processPackages [qwak-core]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post738] Old Version: [1.0.0.post736]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-02 09:39:37] WARNING root fetch - processPackages [stripe-integrations]: Skipping, unable to determine old version
+[2023-05-02 09:39:37] INFO root fetch - processPackages [stripe-integrations]: Start processing: tcsctl
+[2023-05-02 09:39:37] INFO root fetch - main [MainThread]: End processing [stripe-integrations] error
+[2023-05-02 09:39:37] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 09:39:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-02 09:39:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230428065621.tar.gz tmp/localstack-core-2.0.3.dev20230502071002.tar.gz --markdown 20230502/l/localstack-core/2.0.3.dev20230428065621-2.0.3.dev20230502071002/diff.md --exclude *.pyd
+[2023-05-02 09:39:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-02 09:39:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 09:39:37] ERROR root fetch - processPackages [tuotuo]: Unable to fetch info: No such project/version 'tuotuo' 0.0.4
+[2023-05-02 09:39:37] INFO root fetch - main [MainThread]: End processing [tuotuo] error
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ddataflow]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [tcsctl]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-05-02 09:39:37] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/99/39/5c8acc42630e7b5700c829dc02a60faddf758b742f06933f3aa973f85b21/EdgeGPT-0.3.4.1.tar.gz
+[2023-05-02 09:39:37] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/f0/11/e3087adea3ea667b7fa13d35e01ec77644f75d6996a66582b6df35b8d34f/nucliadb_contributor_assets-1.0.0.post736-py3-none-any.whl
+[2023-05-02 09:39:37] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-02 09:39:37] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.3.4.tar.gz tmp/EdgeGPT-0.3.4.1.tar.gz --markdown 20230502/E/EdgeGPT/0.3.4-0.3.4.1/diff.md --exclude *.pyd
+[2023-05-02 09:39:37] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2023-05-02 09:39:37] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/e8/93/6a22dc6ccefdc2c3fe9c0ea9eb6cd9146b95645ac5a04aa362516afe5f9b/qwak_core-0.0.39.tar.gz
+[2023-05-02 09:39:37] INFO root fetch - processPackages [ddataflow]: Downloading https://files.pythonhosted.org/packages/76/a3/bd90b90073526ccee052cf68a0af081e450d008970ea49f60c7a32b642ee/ddataflow-1.1.8.tar.gz
+[2023-05-02 09:39:38] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-02 09:39:38] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.38.tar.gz tmp/qwak_core-0.0.39.tar.gz --markdown 20230502/q/qwak-core/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-05-02 09:39:38] INFO root fetch - processPackages [tcsctl]: Downloading https://files.pythonhosted.org/packages/a3/49/4d087b507cfcdd1b52bf6bab01c561fd1fe63fa0f28596fadb711136724d/tcsctl-0.2.0.tar.gz
+[2023-05-02 09:39:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/85/53/4dfd888c3a5af523fb718d276e7cc530548b27602fc47e3a79456ee9d4bc/nucliadb_contributor_assets-1.0.0.post738-py3-none-any.whl
+[2023-05-02 09:39:38] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2023-05-02 09:39:38] INFO root fetch - processPackages [ddataflow]: Downloading https://files.pythonhosted.org/packages/d0/69/1fde42808e60aa217b231413d730ad88f411a92282d507f2063b70b55427/ddataflow-1.1.9.tar.gz
+[2023-05-02 09:39:38] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-02 09:39:38] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-02 09:39:38] INFO root fetch - processPackages [tcsctl]: executing diffoscope
+[2023-05-02 09:39:38] INFO root fetch - processPackages [tcsctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcsctl-0.1.7.tar.gz tmp/tcsctl-0.2.0.tar.gz --markdown 20230502/t/tcsctl/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 09:39:38] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2023-05-02 09:39:38] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20230502/r/redbrick-sdk/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-02 09:39:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 09:39:38] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post736-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post738-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post736-1.0.0.post738/diff.md --exclude *.pyd
+[2023-05-02 09:39:38] INFO root fetch - processPackages [ddataflow]: executing diffoscope
+[2023-05-02 09:39:38] INFO root fetch - processPackages [ddataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddataflow-1.1.8.tar.gz tmp/ddataflow-1.1.9.tar.gz --markdown 20230502/d/ddataflow/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 09:39:39] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-02 09:39:39] INFO root fetch - main [MainThread]: End processing [tcsctl]: success
+[2023-05-02 09:39:39] INFO root fetch - main [MainThread]: End processing [ddataflow]: success
+[2023-05-02 09:39:39] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2023-05-02 09:39:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-02 09:39:44] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-02 09:39:44] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-02 09:39:52] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 09:39:52] INFO root fetch - main [MainThread]: Store serial: [17937553]
