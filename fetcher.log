@@ -10404,3 +10404,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:17:37] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
 [2023-05-02 12:17:37] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-02 12:17:37] INFO root fetch - main [MainThread]: Store serial: [17939041]
+[2023-05-02 12:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939041]
+[2023-05-02 12:22:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulsar-app
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulsar-galaxy-lib
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ubyte
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netswift-cli
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peaqevcore
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enstat
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: electricalclientv4
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spectralib
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extr-ds
+[2023-05-02 12:22:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post740] Old Version: [1.0.0.post739]
+[2023-05-02 12:22:46] WARNING root fetch - processPackages [ubyte]: Skipping, unable to determine old version
+[2023-05-02 12:22:46] INFO root fetch - processPackages [ubyte]: Start processing: my-extension
+[2023-05-02 12:22:46] INFO root fetch - main [MainThread]: End processing [ubyte] error
+[2023-05-02 12:22:46] INFO root fetch - processPackages [enstat]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pulsar-galaxy-lib]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 12:22:46] WARNING root fetch - processPackages [electricalclientv4]: Skipping, unable to determine old version
+[2023-05-02 12:22:46] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 12:22:46] INFO root fetch - processPackages [netswift-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pulsar-app]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 12:22:46] INFO root fetch - processPackages [electricalclientv4]: Start processing: pytorch-optimem
+[2023-05-02 12:22:46] INFO root fetch - main [MainThread]: End processing [electricalclientv4] error
+[2023-05-02 12:22:46] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 12:22:46] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-02 12:22:46] WARNING root fetch - processPackages [pytorch-optimem]: Skipping, unable to determine old version
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pytorch-optimem]: Start processing: pylibfont
+[2023-05-02 12:22:46] INFO root fetch - main [MainThread]: End processing [pytorch-optimem] error
+[2023-05-02 12:22:46] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230502/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] WARNING root fetch - processPackages [my-extension]: Skipping, unable to determine old version
+[2023-05-02 12:22:46] INFO root fetch - processPackages [my-extension]: Start processing: QPUIQ
+[2023-05-02 12:22:46] INFO root fetch - main [MainThread]: End processing [my-extension] error
+[2023-05-02 12:22:46] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230502/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230502/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 12:22:46] WARNING root fetch - processPackages [pylibfont]: Skipping, unable to determine old version
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pylibfont]: Start processing: python-fontbro
+[2023-05-02 12:22:46] INFO root fetch - main [MainThread]: End processing [pylibfont] error
+[2023-05-02 12:22:46] INFO root fetch - processPackages [python-fontbro]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 12:22:46] INFO root fetch - processPackages [netswift-cli]: Downloading https://files.pythonhosted.org/packages/e5/3a/2737e8fa9bc93c84abc083f9a054c8eb03dea4e4da27a26ee70adf5287b4/netswift_cli-0.1.0.tar.gz
+[2023-05-02 12:22:46] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.8.tar.gz tmp/QPUIQ-0.1.9.tar.gz --markdown 20230502/Q/QPUIQ/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [python-fontbro]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [python-fontbro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-fontbro-0.9.0.tar.gz tmp/python-fontbro-0.9.1.tar.gz --markdown 20230502/p/python-fontbro/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/ab/bb/92ddcafd6a9149aeb33ce19a39d88515d0fd2c4927ea3294cbb7b645f87d/nucliadb_contributor_assets-1.0.0.post740-py3-none-any.whl
+[2023-05-02 12:22:46] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/f2/8c/1ecc4686124e11fb716dfb4c92fad85c43d2b0c0a1484fcbf65c88274e78/enstat-0.9.2.tar.gz
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pulsar-app]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pulsar-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsar-app-0.9.0.tar.gz tmp/pulsar-app-0.9.1.tar.gz --markdown 20230502/p/pulsar-app/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pulsar-galaxy-lib]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [pulsar-galaxy-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsar-galaxy-lib-0.9.0.tar.gz tmp/pulsar-galaxy-lib-0.9.1.tar.gz --markdown 20230502/p/pulsar-galaxy-lib/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [enstat]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [enstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstat-0.9.1.tar.gz tmp/enstat-0.9.2.tar.gz --markdown 20230502/e/enstat/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 12:22:46] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post739-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post740-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post739-1.0.0.post740/diff.md --exclude *.pyd
+[2023-05-02 12:22:46] INFO root fetch - processPackages [netswift-cli]: Downloading https://files.pythonhosted.org/packages/0a/fe/bc03e7dca1152291e20b550afb34c48fd048b007e042c855ffff3ba1e46d/netswift_cli-0.1.1.tar.gz
+[2023-05-02 12:22:47] INFO root fetch - processPackages [netswift-cli]: executing diffoscope
+[2023-05-02 12:22:47] INFO root fetch - processPackages [netswift-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netswift_cli-0.1.0.tar.gz tmp/netswift_cli-0.1.1.tar.gz --markdown 20230502/n/netswift-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 12:22:48] INFO root fetch - processPackages [extr-ds]: Start processing: netswift-cli
+[2023-05-02 12:22:48] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-02 12:22:48] INFO root fetch - processPackages [spectralib]: Start processing: djangocms-simple-admin-style
+[2023-05-02 12:22:48] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-05-02 12:22:48] INFO root fetch - processPackages [netswift-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 12:22:48] INFO root fetch - processPackages [djangocms-simple-admin-style]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 12:22:48] INFO root fetch - processPackages [netswift-cli]: Downloading https://files.pythonhosted.org/packages/ae/9b/b9190f14a2d282e7e69643db8cf172a242ab5ef6c9db421b4bc999630e65/netswift_cli-0.1.2.tar.gz
+[2023-05-02 12:22:48] INFO root fetch - main [MainThread]: End processing [enstat]: success
+[2023-05-02 12:22:48] INFO root fetch - main [MainThread]: End processing [netswift-cli]: success
+[2023-05-02 12:22:48] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-05-02 12:22:48] INFO root fetch - processPackages [netswift-cli]: executing diffoscope
+[2023-05-02 12:22:48] INFO root fetch - processPackages [netswift-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netswift_cli-0.1.1.tar.gz tmp/netswift_cli-0.1.2.tar.gz --markdown 20230502/n/netswift-cli/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 12:22:48] INFO root fetch - main [MainThread]: End processing [python-fontbro]: success
+[2023-05-02 12:22:48] INFO root fetch - processPackages [djangocms-simple-admin-style]: executing diffoscope
+[2023-05-02 12:22:48] INFO root fetch - processPackages [djangocms-simple-admin-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-simple-admin-style-0.2.0.tar.gz tmp/djangocms-simple-admin-style-0.2.1.tar.gz --markdown 20230502/d/djangocms-simple-admin-style/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 12:22:49] INFO root fetch - main [MainThread]: End processing [pulsar-app]: success
+[2023-05-02 12:22:49] INFO root fetch - main [MainThread]: End processing [pulsar-galaxy-lib]: success
+[2023-05-02 12:22:49] INFO root fetch - main [MainThread]: End processing [netswift-cli]: success
+[2023-05-02 12:22:49] INFO root fetch - main [MainThread]: End processing [djangocms-simple-admin-style]: success
+[2023-05-02 12:22:50] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-02 12:23:01] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 12:23:01] INFO root fetch - main [MainThread]: Store serial: [17939105]
