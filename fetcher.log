@@ -7189,3 +7189,72 @@
 [2023-05-02 08:35:47] INFO root fetch - main [MainThread]: End processing [pyqt5-auto-translate]: success
 [2023-05-02 08:35:47] INFO root fetch - main [MainThread]: End processing [dxsp]: success
 [2023-05-02 08:35:47] INFO root fetch - main [MainThread]: Store serial: [17937039]
+[2023-05-02 08:40:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937039]
+[2023-05-02 08:40:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylib034
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfctools
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ape-ai
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-macos
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netdoc
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangocms-simple-admin-style
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mylib-012
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdxbasics
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mylib1-036
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mylib-031
+[2023-05-02 08:40:57] WARNING root fetch - processPackages [mylib034]: Skipping, unable to determine old version
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ape-ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 08:40:57] INFO root fetch - processPackages [mylib034]: Start processing: mrx-link-core
+[2023-05-02 08:40:57] INFO root fetch - processPackages [netdoc]: New version: [0.9.60] Old Version: [0.9.59]
+[2023-05-02 08:40:57] INFO root fetch - main [MainThread]: End processing [mylib034] error
+[2023-05-02 08:40:57] INFO root fetch - processPackages [djangocms-simple-admin-style]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 08:40:57] WARNING root fetch - processPackages [mylib-012]: Skipping, unable to determine old version
+[2023-05-02 08:40:57] INFO root fetch - processPackages [mylib-012]: Start processing: je-web-runner
+[2023-05-02 08:40:57] INFO root fetch - main [MainThread]: End processing [mylib-012] error
+[2023-05-02 08:40:57] INFO root fetch - processPackages [sfctools]: New version: [1.0.5.4] Old Version: [1.0.5.3]
+[2023-05-02 08:40:57] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 08:40:57] WARNING root fetch - processPackages [mylib1-036]: Skipping, unable to determine old version
+[2023-05-02 08:40:57] INFO root fetch - processPackages [mylib1-036]: Start processing: pysui-sdk
+[2023-05-02 08:40:57] INFO root fetch - main [MainThread]: End processing [mylib1-036] error
+[2023-05-02 08:40:57] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230502] Old Version: [2.13.0.dev20230501]
+[2023-05-02 08:40:57] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-05-02 08:40:57] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/76/97/be29914af312767f1a598440418483404c5f4795d9ef22d11a6e9b45959c/djangocms-simple-admin-style-0.2.0.tar.gz
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ape-ai]: Downloading https://files.pythonhosted.org/packages/2f/b5/1af0b355ebd19205faec6909bf2c23cdfd1b526ae14d56ee8b107f4cc2bb/ape-ai-0.1.3.tar.gz
+[2023-05-02 08:40:57] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/0a/b3/cc1a5d33c4767d15890cca2583cc402f0e684f404711ea617c710c75544d/sfctools-1.0.5.4.tar.gz
+[2023-05-02 08:40:57] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-05-02 08:40:57] INFO root fetch - processPackages [pysui-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 08:40:57] WARNING root fetch - processPackages [mylib-031]: Skipping, unable to determine old version
+[2023-05-02 08:40:57] INFO root fetch - main [MainThread]: End processing [mylib-031] error
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ape-ai]: executing diffoscope
+[2023-05-02 08:40:57] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/5d/28/803baf761f124ae84c59485f2f87f46d415f03c875eca7864495dd5c8e13/tf_nightly_macos-2.13.0.dev20230501-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-02 08:40:57] INFO root fetch - processPackages [ape-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-ai-0.1.2.tar.gz tmp/ape-ai-0.1.3.tar.gz --markdown 20230502/a/ape-ai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.5.3.tar.gz tmp/sfctools-1.0.5.4.tar.gz --markdown 20230502/s/sfctools/1.0.5.3-1.0.5.4/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/88/57/bb502d2e898820c8e8ec58a0530401c292982ddc37c03f2b9e2e7a1c34cc/netdoc-0.9.60.tar.gz
+[2023-05-02 08:40:58] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/0a/b4/0a7c9d634b66b8ea535214f5e2fc5f9f33cd45a5bb7e9a0ccd53ecd25ddc/djangocms-simple-admin-style-0.2.1.tar.gz
+[2023-05-02 08:40:58] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189278857>=10485760
+[2023-05-02 08:40:58] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-02 08:40:58] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.59.tar.gz tmp/netdoc-0.9.60.tar.gz --markdown 20230502/n/netdoc/0.9.59-0.9.60/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [djangocms-simple-admin-style]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [djangocms-simple-admin-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-simple-admin-style-0.2.0.tar.gz tmp/djangocms-simple-admin-style-0.2.1.tar.gz --markdown 20230502/d/djangocms-simple-admin-style/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/67/43/33dc6f17993d5326fdbe62f330b0bbc797846f6a8ed3313f13ed2cd69790/pysui_sdk-1.0.0.tar.gz
+[2023-05-02 08:40:58] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230502/m/mrx-link-core/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-05-02 08:40:58] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:40:58] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/3f/0c/02a93d48d3fd4f5059e5935702a3874b177dc2b26323b8cc228ceefcc83e/pysui_sdk-1.0.1-py3-none-any.whl
+[2023-05-02 08:40:58] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230502/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [pysui-sdk]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [pysui-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui_sdk-1.0.0.tar.gz tmp/pysui_sdk-1.0.1-py3-none-any.whl.zip --markdown 20230502/p/pysui-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 08:40:58] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-05-02 08:40:58] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230502/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:40:59] INFO root fetch - main [MainThread]: End processing [ape-ai]: success
+[2023-05-02 08:40:59] INFO root fetch - main [MainThread]: End processing [djangocms-simple-admin-style]: success
+[2023-05-02 08:41:00] INFO root fetch - main [MainThread]: End processing [pysui-sdk]: success
+[2023-05-02 08:41:00] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-05-02 08:41:00] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-05-02 08:41:01] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-05-02 08:41:02] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-05-02 08:41:03] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-02 08:41:03] INFO root fetch - main [MainThread]: Store serial: [17937082]
