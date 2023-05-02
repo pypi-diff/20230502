@@ -7952,3 +7952,49 @@
 [2023-05-02 09:39:44] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-02 09:39:52] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-02 09:39:52] INFO root fetch - main [MainThread]: Store serial: [17937553]
+[2023-05-02 09:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937553]
+[2023-05-02 09:45:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-eyalf-diagnosability-codeowners-missing-files
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EverLoguru
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lockss-debugpanel
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visiongraph
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maharashtra-forts
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tomoscan
+[2023-05-02 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-SPODES
+[2023-05-02 09:45:01] INFO root fetch - processPackages [maharashtra-forts]: New version: [0.3] Old Version: [0.2]
+[2023-05-02 09:45:01] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230501.17.40.69341] Old Version: [20230501.16.21.151471]
+[2023-05-02 09:45:01] INFO root fetch - processPackages [EverLoguru]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-02 09:45:01] INFO root fetch - processPackages [maharashtra-forts]: executing diffoscope
+[2023-05-02 09:45:01] INFO root fetch - processPackages [maharashtra-forts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maharashtra_forts-0.2.macosx-10.9-x86_64.tar.gz tmp/maharashtra_forts-0.3.macosx-10.9-x86_64.tar.gz --markdown 20230502/m/maharashtra-forts/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-02 09:45:01] INFO root fetch - processPackages [lockss-debugpanel]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-02 09:45:01] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-02 09:45:01] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.1.0.tar.gz tmp/EverLoguru-1.1.1.tar.gz --markdown 20230502/E/EverLoguru/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-02 09:45:01] INFO root fetch - processPackages [visiongraph]: New version: [0.1.44.4] Old Version: [0.1.44.3]
+[2023-05-02 09:45:01] INFO root fetch - processPackages [tomoscan]: New version: [1.3.0a0] Old Version: [1.2.1]
+[2023-05-02 09:45:01] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-02 09:45:01] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-diagnosability-codeowners-missing-files]: Skipping, unable to determine old version
+[2023-05-02 09:45:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-diagnosability-codeowners-missing-files] error
+[2023-05-02 09:45:01] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/65/dd/f96414b27f0e1e65308fd8427737f3590e21f798c57ebd5c52b54839406e/certora-cli-alpha-uri-eradicate_certora_dir-20230501.16.21.151471.tar.gz
+[2023-05-02 09:45:01] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38324332>=10485760
+[2023-05-02 09:45:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-02 09:45:01] INFO root fetch - processPackages [tomoscan]: Downloading https://files.pythonhosted.org/packages/0d/0a/faee6ecc71857266ca5ce0dc441d8ae698812ab63afa56b16292f1ac99b9/tomoscan-1.2.1.tar.gz
+[2023-05-02 09:45:01] INFO root fetch - processPackages [lockss-debugpanel]: Downloading https://files.pythonhosted.org/packages/76/06/a97add1f6e832d877f7e5476a72c7fe8bcf2eed7c56b0df7de115c82b989/lockss_debugpanel-0.6.1.tar.gz
+[2023-05-02 09:45:02] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/51/09/d3172226cecabb1bf048f0b2194bd6ce499adf678304594709872db64d9d/visiongraph-0.1.44.4-py3-none-any.whl
+[2023-05-02 09:45:02] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-02 09:45:02] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230502/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 09:45:02] INFO root fetch - processPackages [lockss-debugpanel]: Downloading https://files.pythonhosted.org/packages/8a/ab/0892dc325f6af1d71e11457462329d18e8cfa7ffd382b2b0c9d274fef70f/lockss_debugpanel-0.7.0.tar.gz
+[2023-05-02 09:45:02] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-05-02 09:45:02] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.44.3-py3-none-any.whl.zip tmp/visiongraph-0.1.44.4-py3-none-any.whl.zip --markdown 20230502/v/visiongraph/0.1.44.3-0.1.44.4/diff.md --exclude *.pyd
+[2023-05-02 09:45:02] INFO root fetch - processPackages [lockss-debugpanel]: executing diffoscope
+[2023-05-02 09:45:02] INFO root fetch - processPackages [lockss-debugpanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_debugpanel-0.6.1.tar.gz tmp/lockss_debugpanel-0.7.0.tar.gz --markdown 20230502/l/lockss-debugpanel/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 09:45:02] INFO root fetch - processPackages [tomoscan]: Downloading https://files.pythonhosted.org/packages/ab/95/a92cd6ad48ed0180aca3b634b6cd60dd0eeb3a94177f9c059432783daec7/tomoscan-1.3.0a0.tar.gz
+[2023-05-02 09:45:02] INFO root fetch - processPackages [tomoscan]: executing diffoscope
+[2023-05-02 09:45:02] INFO root fetch - processPackages [tomoscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomoscan-1.2.1.tar.gz tmp/tomoscan-1.3.0a0.tar.gz --markdown 20230502/t/tomoscan/1.2.1-1.3.0a0/diff.md --exclude *.pyd
+[2023-05-02 09:45:02] INFO root fetch - main [MainThread]: End processing [maharashtra-forts]: success
+[2023-05-02 09:45:02] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-02 09:45:03] INFO root fetch - main [MainThread]: End processing [lockss-debugpanel]: success
+[2023-05-02 09:45:03] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-02 09:45:04] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-05-02 09:45:04] INFO root fetch - main [MainThread]: End processing [tomoscan]: success
+[2023-05-02 09:45:04] INFO root fetch - main [MainThread]: Store serial: [17937581]
