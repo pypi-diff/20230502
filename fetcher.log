@@ -5365,3 +5365,19 @@
 [2023-05-02 05:42:40] INFO root fetch - main [MainThread]: End processing [easy-reed]: success
 [2023-05-02 05:42:41] INFO root fetch - main [MainThread]: End processing [pynecone]: success
 [2023-05-02 05:42:41] INFO root fetch - main [MainThread]: Store serial: [17935746]
+[2023-05-02 05:47:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935746]
+[2023-05-02 05:47:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-02 05:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lampo-py
+[2023-05-02 05:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soatra-eyes
+[2023-05-02 05:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BDXConverter
+[2023-05-02 05:47:49] WARNING root fetch - processPackages [lampo-py]: Skipping, unable to determine old version
+[2023-05-02 05:47:49] INFO root fetch - main [MainThread]: End processing [lampo-py] error
+[2023-05-02 05:47:49] INFO root fetch - processPackages [BDXConverter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 05:47:49] WARNING root fetch - processPackages [soatra-eyes]: Skipping, unable to determine old version
+[2023-05-02 05:47:49] INFO root fetch - main [MainThread]: End processing [soatra-eyes] error
+[2023-05-02 05:47:50] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/02/40/b441684229fcf2e4662643b75eafa5a8c25ac2baff023a1f2661311bb734/BDXConverter-1.0.2.tar.gz
+[2023-05-02 05:47:50] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/bf/c7/5e518817ea5f8e88c5988a5c02d4a26b532f7648e22e50831c0317ed0da2/BDXConverter-1.0.3.tar.gz
+[2023-05-02 05:47:50] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-02 05:47:50] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.0.2.tar.gz tmp/BDXConverter-1.0.3.tar.gz --markdown 20230502/B/BDXConverter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 05:47:51] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-02 05:47:51] INFO root fetch - main [MainThread]: Store serial: [17935756]
