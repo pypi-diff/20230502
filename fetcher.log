@@ -4994,3 +4994,57 @@
 [2023-05-02 05:02:49] INFO root fetch - main [MainThread]: End processing [pyrubrum-continued]: success
 [2023-05-02 05:02:53] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-02 05:02:53] INFO root fetch - main [MainThread]: Store serial: [17935499]
+[2023-05-02 05:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935499]
+[2023-05-02 05:08:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amdgpu-stats
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumibot
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safe-exit
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai2
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turing-sdk
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addons-oca-account-payment
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-account-payment
+[2023-05-02 05:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addons-oca-account-payment
+[2023-05-02 05:08:02] INFO root fetch - processPackages [safe-exit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: New version: [16.0.20230418.0] Old Version: [16.0.20230309.0]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [amdgpu-stats]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: New version: [13.0.20230501.0] Old Version: [13.0.20230224.0]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [openai2]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [odoo14-addons-oca-account-payment]: New version: [14.0.20230501.0] Old Version: [14.0.20221020.0]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [lumibot]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-02 05:08:02] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/30/9a/d5cf04385c70bfeb2c8bd8ca23cd080df185c925da3bb42486c8c1ed1918/turing-sdk-0.9.0.tar.gz
+[2023-05-02 05:08:02] INFO root fetch - processPackages [safe-exit]: Downloading https://files.pythonhosted.org/packages/11/18/d7d8f26b5aada12d6459c049322a7326c5a7c143ec7786fdb24d627beab2/safe-exit-0.1.1.tar.gz
+[2023-05-02 05:08:02] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/7f/ff/a17c49e2139bb4055b6162e2fd5b1ebdd41e6ae40530a941d18b4e7561a9/odoo_addons_oca_account_payment-16.0.20230309.0-py3-none-any.whl
+[2023-05-02 05:08:02] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/3a/9e/832791be10e746c7884ef5d121d4b811ceaa6cd8d7e5aa2394d9588f0e12/lumibot-2.5.8.tar.gz
+[2023-05-02 05:08:02] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/e4/9f/0c17d734a86471c06ab3a6c2a9a2532877f073510bafb81ea0a402f89e9f/odoo13_addons_oca_account_payment-13.0.20230224.0-py3-none-any.whl
+[2023-05-02 05:08:02] INFO root fetch - processPackages [odoo14-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/a5/6e/dc3f7e5c3e65ef89aaeee60a0427c067284e4abe5848712ba2deb9c2b5f5/odoo14_addons_oca_account_payment-14.0.20221020.0-py3-none-any.whl
+[2023-05-02 05:08:02] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/da/c3/1d183292d2a4f2819cdb76ee48406c5b5ca1751550b0531c0a55f9449d1b/openai2-1.5.4.tar.gz
+[2023-05-02 05:08:02] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23647378>=10485760
+[2023-05-02 05:08:02] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-05-02 05:08:02] INFO root fetch - processPackages [openai2]: executing diffoscope
+[2023-05-02 05:08:02] INFO root fetch - processPackages [openai2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai2-1.5.3.tar.gz tmp/openai2-1.5.4.tar.gz --markdown 20230502/o/openai2/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-02 05:08:02] INFO root fetch - processPackages [amdgpu-stats]: executing diffoscope
+[2023-05-02 05:08:02] INFO root fetch - processPackages [amdgpu-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdgpu_stats-0.1.8.tar.gz tmp/amdgpu_stats-0.1.9.tar.gz --markdown 20230502/a/amdgpu-stats/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 05:08:02] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-05-02 05:08:02] INFO root fetch - processPackages [safe-exit]: Downloading https://files.pythonhosted.org/packages/5d/ca/d071c346f3f44658ce5da6c91e597e5c19c0c527f519addb07ddbe7cda26/safe-exit-0.1.2.tar.gz
+[2023-05-02 05:08:02] INFO root fetch - processPackages [safe-exit]: executing diffoscope
+[2023-05-02 05:08:02] INFO root fetch - processPackages [safe-exit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-exit-0.1.1.tar.gz tmp/safe-exit-0.1.2.tar.gz --markdown 20230502/s/safe-exit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/04/16/9b52f1bf6b11713bc1aa35cdb6abffd4ee0d81b7d9a3caeebf234e06bb09/odoo13_addons_oca_account_payment-13.0.20230501.0-py3-none-any.whl
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/06/6d/60f5a83670c71dbd6ed33b27aaf2ba4f103e90ac3fa6f033c837ffd7bce1/odoo_addons_oca_account_payment-16.0.20230418.0-py3-none-any.whl
+[2023-05-02 05:08:03] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-05-02 05:08:03] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0.tar.gz tmp/turing-sdk-0.9.0rc1.tar.gz --markdown 20230502/t/turing-sdk/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: executing diffoscope
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_account_payment-13.0.20230224.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_account_payment-13.0.20230501.0-py3-none-any.whl.zip --markdown 20230502/o/odoo13-addons-oca-account-payment/13.0.20230224.0-13.0.20230501.0/diff.md --exclude *.pyd
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: executing diffoscope
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_payment-16.0.20230309.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_payment-16.0.20230418.0-py3-none-any.whl.zip --markdown 20230502/o/odoo-addons-oca-account-payment/16.0.20230309.0-16.0.20230418.0/diff.md --exclude *.pyd
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo14-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/4f/4c/3d66220379c1b1d348b535a66cd7d23e2924fa0305c3aa0a5a5e75e70031/odoo14_addons_oca_account_payment-14.0.20230501.0-py3-none-any.whl
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo14-addons-oca-account-payment]: executing diffoscope
+[2023-05-02 05:08:03] INFO root fetch - processPackages [odoo14-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_account_payment-14.0.20221020.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_account_payment-14.0.20230501.0-py3-none-any.whl.zip --markdown 20230502/o/odoo14-addons-oca-account-payment/14.0.20221020.0-14.0.20230501.0/diff.md --exclude *.pyd
+[2023-05-02 05:08:03] INFO root fetch - main [MainThread]: End processing [openai2]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [amdgpu-stats]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [safe-exit]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-account-payment]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-payment]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-payment]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-05-02 05:08:04] INFO root fetch - main [MainThread]: Store serial: [17935524]
