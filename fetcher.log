@@ -22760,3 +22760,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 23:02:52] INFO root fetch - main [MainThread]: End processing [jaco2]: success
 [2023-05-02 23:02:54] INFO root fetch - main [MainThread]: End processing [pydoctor]: success
 [2023-05-02 23:02:54] INFO root fetch - main [MainThread]: Store serial: [17947047]
+[2023-05-02 23:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947047]
+[2023-05-02 23:08:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kapitan
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matadi
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dreamai-dl
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdynamo
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scikit-base
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maisaedu-utilities-prefect
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maisaedu-poormans-dms
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kelvin-sdk-client
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphdisplay
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ewms-pilot
+[2023-05-02 23:08:04] INFO root fetch - processPackages [xdynamo]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [matadi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [kapitan]: New version: [0.32.0rc0] Old Version: [0.31.1rc3]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [dreamai-dl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [scikit-base]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [kelvin-sdk-client]: New version: [7.9.0] Old Version: [7.8.1]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [graphdisplay]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 23:08:04] INFO root fetch - processPackages [xdynamo]: Downloading https://files.pythonhosted.org/packages/9a/8a/b246a59132bdaa3af360fe9f60bf9d3d1ba5808d3804634ddbf71e76ecc0/xdynamo-0.2.0.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [dreamai-dl]: Downloading https://files.pythonhosted.org/packages/3f/88/f790232fd6fbb765c266ca37a1cb96582b014c9df14dff3d916e69883bf8/dreamai_dl-0.0.2.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/49/2f/c787144923b581ce219b5c59210a2d7043807b47f6881c7deb052cab5190/graphdisplay-0.1.2.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [kapitan]: Downloading https://files.pythonhosted.org/packages/b2/8e/a8d496022424a316fe5448d0db97898c975284aa2dfac2a09d701a29ea0f/kapitan-0.31.1rc3.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [kelvin-sdk-client]: Downloading https://files.pythonhosted.org/packages/2e/6d/83535292481efaeff938f31e1ed599c1f19f5e3e6f516da1492f7f2df2ae/kelvin_sdk_client-7.8.1-py3-none-any.whl
+[2023-05-02 23:08:04] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-05-02 23:08:04] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.1.1.tar.gz tmp/graphdisplay-0.1.2.tar.gz --markdown 20230502/g/graphdisplay/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 23:08:04] INFO root fetch - processPackages [scikit-base]: Downloading https://files.pythonhosted.org/packages/c9/ee/7356ed1e0d3aa7960b44840316bc577986db273828917d41e3cecf2a7ca8/scikit-base-0.4.2.tar.gz
+[2023-05-02 23:08:04] INFO root fetch - processPackages [scikit-base]: executing diffoscope
+[2023-05-02 23:08:04] INFO root fetch - processPackages [scikit-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-base-0.4.1.tar.gz tmp/scikit-base-0.4.2.tar.gz --markdown 20230502/s/scikit-base/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-05-02 23:08:04] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.9.0.tar.gz tmp/ewms-pilot-0.9.1.tar.gz --markdown 20230502/e/ewms-pilot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [xdynamo]: Downloading https://files.pythonhosted.org/packages/94/1d/5b2fb9ccbd8ddb609e7bbd8c6976b2b87ec68b224bfffc530d1b02cc6897/xdynamo-0.3.0.tar.gz
+[2023-05-02 23:08:05] INFO root fetch - processPackages [xdynamo]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [xdynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdynamo-0.2.0.tar.gz tmp/xdynamo-0.3.0.tar.gz --markdown 20230502/x/xdynamo/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [matadi]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [matadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matadi-0.1.8.tar.gz tmp/matadi-0.1.9.tar.gz --markdown 20230502/m/matadi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [dreamai-dl]: Downloading https://files.pythonhosted.org/packages/1c/fd/41811aeab3a2dce84d3d25bae9107e5cd717e25335ed22c89ca2610b9173/dreamai_dl-0.0.3.tar.gz
+[2023-05-02 23:08:05] INFO root fetch - processPackages [kapitan]: Downloading https://files.pythonhosted.org/packages/76/f6/0cd6d79e2e4493d22df1c4718912817d070d451526e08b28663e1725a570/kapitan-0.32.0rc0.tar.gz
+[2023-05-02 23:08:05] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-05-02 23:08:05] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-05-02 23:08:05] INFO root fetch - processPackages [kelvin-sdk-client]: Downloading https://files.pythonhosted.org/packages/db/f8/9c2f2fecd871df50d9440aaea2e22c71a1dc0f2cf15be39a2708156eed04/kelvin_sdk_client-7.9.0-py3-none-any.whl
+[2023-05-02 23:08:05] INFO root fetch - processPackages [dreamai-dl]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [dreamai-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai_dl-0.0.2.tar.gz tmp/dreamai_dl-0.0.3.tar.gz --markdown 20230502/d/dreamai-dl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [kapitan]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [kapitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kapitan-0.31.1rc3.tar.gz tmp/kapitan-0.32.0rc0.tar.gz --markdown 20230502/k/kapitan/0.31.1rc3-0.32.0rc0/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230502/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230502/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:08:05] INFO root fetch - processPackages [kelvin-sdk-client]: executing diffoscope
+[2023-05-02 23:08:05] INFO root fetch - processPackages [kelvin-sdk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk_client-7.8.1-py3-none-any.whl.zip tmp/kelvin_sdk_client-7.9.0-py3-none-any.whl.zip --markdown 20230502/k/kelvin-sdk-client/7.8.1-7.9.0/diff.md --exclude *.pyd
+[2023-05-02 23:08:06] INFO root fetch - processPackages [graphdisplay]: Start processing: tsx
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-05-02 23:08:06] INFO root fetch - processPackages [tsx]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 23:08:06] INFO root fetch - processPackages [tsx]: Downloading https://files.pythonhosted.org/packages/2a/d9/f54cd0504178af92a84f1d41e7b51eaf31fdb6e6e0222be6f96ebb3cc0cc/tsx-0.1.1-py3-none-any.whl
+[2023-05-02 23:08:06] INFO root fetch - processPackages [ewms-pilot]: Start processing: clarifai-grpc
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-05-02 23:08:06] INFO root fetch - processPackages [clarifai-grpc]: New version: [9.4.0] Old Version: [9.3.0]
+[2023-05-02 23:08:06] INFO root fetch - processPackages [xdynamo]: Start processing: expiringsqlitedict
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [xdynamo]: success
+[2023-05-02 23:08:06] INFO root fetch - processPackages [expiringsqlitedict]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-05-02 23:08:06] INFO root fetch - processPackages [tsx]: Downloading https://files.pythonhosted.org/packages/8c/a7/4953def597a6dc44dc4a77b68a5f99a2be13d4049a8e741a31149f8542ae/tsx-0.1.2-py3-none-any.whl
+[2023-05-02 23:08:06] INFO root fetch - processPackages [matadi]: Start processing: airadar
+[2023-05-02 23:08:06] INFO root fetch - processPackages [tsx]: executing diffoscope
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [matadi]: success
+[2023-05-02 23:08:06] INFO root fetch - processPackages [clarifai-grpc]: Downloading https://files.pythonhosted.org/packages/f8/8d/92dcdd0a921f5d56c0a589edf175bd86b109a6f1d50716a32ca60119a618/clarifai-grpc-9.3.0.tar.gz
+[2023-05-02 23:08:06] INFO root fetch - processPackages [tsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsx-0.1.1-py3-none-any.whl.zip tmp/tsx-0.1.2-py3-none-any.whl.zip --markdown 20230502/t/tsx/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 23:08:06] WARNING root fetch - processPackages [airadar]: Skipping, unable to determine old version
+[2023-05-02 23:08:06] INFO root fetch - processPackages [airadar]: Start processing: preemo-worker-sdk
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [airadar] error
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-05-02 23:08:06] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/88/18/2c918187b2a09271d67742bb7a325109183aeefb0d06125ff817240268b1/expiringsqlitedict-5.0.2.tar.gz
+[2023-05-02 23:08:06] INFO root fetch - main [MainThread]: End processing [dreamai-dl]: success
+[2023-05-02 23:08:07] INFO root fetch - processPackages [preemo-worker-sdk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-02 23:08:07] INFO root fetch - processPackages [expiringsqlitedict]: executing diffoscope
+[2023-05-02 23:08:07] INFO root fetch - processPackages [expiringsqlitedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expiringsqlitedict-5.0.1.tar.gz tmp/expiringsqlitedict-5.0.2.tar.gz --markdown 20230502/e/expiringsqlitedict/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-05-02 23:08:07] INFO root fetch - main [MainThread]: End processing [scikit-base]: success
+[2023-05-02 23:08:07] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-05-02 23:08:07] INFO root fetch - processPackages [clarifai-grpc]: Downloading https://files.pythonhosted.org/packages/2e/63/88406364024d7bd3617cb1630a29aeb6a479fdd4784cd60862e619014fb3/clarifai-grpc-9.4.0.tar.gz
+[2023-05-02 23:08:07] INFO root fetch - processPackages [clarifai-grpc]: executing diffoscope
+[2023-05-02 23:08:07] INFO root fetch - processPackages [clarifai-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-grpc-9.3.0.tar.gz tmp/clarifai-grpc-9.4.0.tar.gz --markdown 20230502/c/clarifai-grpc/9.3.0-9.4.0/diff.md --exclude *.pyd
+[2023-05-02 23:08:07] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/64/bc/36bbe985738203c486614df5e78082f53c800acf2678b658830ba3d0ccc1/preemo_worker_sdk-0.5.2.tar.gz
+[2023-05-02 23:08:07] INFO root fetch - processPackages [preemo-worker-sdk]: executing diffoscope
+[2023-05-02 23:08:07] INFO root fetch - processPackages [preemo-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preemo_worker_sdk-0.5.1.tar.gz tmp/preemo_worker_sdk-0.5.2.tar.gz --markdown 20230502/p/preemo-worker-sdk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-02 23:08:07] INFO root fetch - main [MainThread]: End processing [tsx]: success
+[2023-05-02 23:08:08] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
+[2023-05-02 23:08:08] INFO root fetch - main [MainThread]: End processing [kapitan]: success
+[2023-05-02 23:08:08] INFO root fetch - main [MainThread]: End processing [kelvin-sdk-client]: success
+[2023-05-02 23:08:08] INFO root fetch - main [MainThread]: End processing [preemo-worker-sdk]: success
+[2023-05-02 23:08:11] INFO root fetch - main [MainThread]: End processing [clarifai-grpc]: success
+[2023-05-02 23:08:11] INFO root fetch - main [MainThread]: Store serial: [17947102]
