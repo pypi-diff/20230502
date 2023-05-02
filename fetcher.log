@@ -5476,3 +5476,32 @@
 [2023-05-02 05:58:14] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
 [2023-05-02 05:58:18] INFO root fetch - main [MainThread]: End processing [pymavlink]: success
 [2023-05-02 05:58:18] INFO root fetch - main [MainThread]: Store serial: [17935871]
+[2023-05-02 06:03:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935871]
+[2023-05-02 06:03:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-02 06:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpy-cross
+[2023-05-02 06:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dongwha-datalab
+[2023-05-02 06:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algokit-utils
+[2023-05-02 06:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phasetorch
+[2023-05-02 06:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rime-sdk
+[2023-05-02 06:03:27] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.0b4] Old Version: [1.1.0b3]
+[2023-05-02 06:03:27] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-05-02 06:03:27] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-02 06:03:27] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.0b3-py3-none-any.whl.zip tmp/algokit_utils-1.1.0b4-py3-none-any.whl.zip --markdown 20230502/a/algokit-utils/1.1.0b3-1.1.0b4/diff.md --exclude *.pyd
+[2023-05-02 06:03:27] WARNING root fetch - processPackages [phasetorch]: Skipping, unable to determine old version
+[2023-05-02 06:03:27] INFO root fetch - main [MainThread]: End processing [phasetorch] error
+[2023-05-02 06:03:27] INFO root fetch - processPackages [mpy-cross]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-02 06:03:27] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-05-02 06:03:27] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.2-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.3-py3-none-any.whl.zip --markdown 20230502/d/dongwha-datalab/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-05-02 06:03:27] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc0] Old Version: [2.0.2]
+[2023-05-02 06:03:27] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/e3/20/94d9f515d5add1f9b0f7a348f4f8bb6e6d6c37def237cc9ea667c44e1605/rime_sdk-2.0.2.tar.gz
+[2023-05-02 06:03:27] INFO root fetch - processPackages [mpy-cross]: Downloading https://files.pythonhosted.org/packages/be/89/c3c6850b0f6f1795065808dcafc2a21d6e3c49b6cd8d8ffc0c4f060a9a61/mpy_cross-1.9.3-py2.py3-none-win_amd64.whl
+[2023-05-02 06:03:28] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-02 06:03:28] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.2.tar.gz tmp/rime_sdk-2.1.0rc0.tar.gz --markdown 20230502/r/rime-sdk/2.0.2-2.1.0rc0/diff.md --exclude *.pyd
+[2023-05-02 06:03:28] INFO root fetch - processPackages [mpy-cross]: Downloading https://files.pythonhosted.org/packages/dd/07/c54049c5a7a3944b69a8da007d730d914ba0987d320e389afb129208d43c/mpy_cross-1.9.4-py2.py3-none-win_amd64.whl
+[2023-05-02 06:03:28] INFO root fetch - processPackages [mpy-cross]: executing diffoscope
+[2023-05-02 06:03:28] INFO root fetch - processPackages [mpy-cross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpy_cross-1.9.3-py2.py3-none-win_amd64.whl.zip tmp/mpy_cross-1.9.4-py2.py3-none-win_amd64.whl.zip --markdown 20230502/m/mpy-cross/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-02 06:03:28] INFO root fetch - main [MainThread]: End processing [dongwha-datalab]: success
+[2023-05-02 06:03:28] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-02 06:03:30] INFO root fetch - main [MainThread]: End processing [mpy-cross]: success
+[2023-05-02 06:03:32] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-02 06:03:32] INFO root fetch - main [MainThread]: Store serial: [17935897]
