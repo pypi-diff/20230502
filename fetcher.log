@@ -4491,3 +4491,63 @@
 [2023-05-02 04:06:28] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Timeout during execution of pkgdiff
 [2023-05-02 04:06:28] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.2] error
 [2023-05-02 04:06:28] INFO root fetch - main [MainThread]: Store serial: [17935143]
+[2023-05-02 04:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935143]
+[2023-05-02 04:11:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidocr-openvino-gpu
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbra
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formant
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: download-esm
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtex
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h2o-pysparkling-3.0
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h2o-pysparkling-scoring-3.0
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-oar
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: regenbib
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-star-rail-calendar
+[2023-05-02 04:11:37] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 04:11:37] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a98]
+[2023-05-02 04:11:37] INFO root fetch - processPackages [rapidocr-openvino-gpu]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-05-02 04:11:37] WARNING root fetch - processPackages [qtex]: Skipping, unable to determine old version
+[2023-05-02 04:11:37] WARNING root fetch - processPackages [regenbib]: Skipping, unable to determine old version
+[2023-05-02 04:11:37] INFO root fetch - processPackages [qtex]: Start processing: ragged-buffer
+[2023-05-02 04:11:37] WARNING root fetch - processPackages [download-esm]: Skipping, unable to determine old version
+[2023-05-02 04:11:37] INFO root fetch - main [MainThread]: End processing [qtex] error
+[2023-05-02 04:11:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: New version: [3.40.0.3.post1] Old Version: [3.40.0.2.post1]
+[2023-05-02 04:11:37] INFO root fetch - processPackages [pytest-oar]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-02 04:11:37] INFO root fetch - processPackages [h2o-pysparkling-3.0]: New version: [3.40.0.3.post1] Old Version: [3.40.0.2.post1]
+[2023-05-02 04:11:37] INFO root fetch - main [MainThread]: End processing [regenbib] error
+[2023-05-02 04:11:37] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2023-05-02 04:11:37] INFO root fetch - main [MainThread]: End processing [download-esm] error
+[2023-05-02 04:11:37] ERROR root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Unable to fetch info: No such project/version 'nonebot-plugin-star-rail-calendar' 1.0.2
+[2023-05-02 04:11:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-star-rail-calendar] error
+[2023-05-02 04:11:37] INFO root fetch - processPackages [rapidocr-openvino-gpu]: Downloading https://files.pythonhosted.org/packages/95/38/d268fa0184631ca5cd9e0e6c42b6d4a54e0f11a8a5e0fb67fe6f32da507f/rapidocr_openvino_gpu-1.0.0.tar.gz
+[2023-05-02 04:11:37] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/57/19/dee8b8cc8df0fcdd216f1b577aa9bdc532b721c184fa06ae9fc997f5797a/cbra-2.0.0a98.tar.gz
+[2023-05-02 04:11:37] INFO root fetch - processPackages [pytest-oar]: Downloading https://files.pythonhosted.org/packages/e3/7d/d0f5fdd559e377d7e6b01c506a67b2bb53320d627b34b56a98e8e50a8d05/pytest_oar-2.0.1.tar.gz
+[2023-05-02 04:11:37] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Downloading https://files.pythonhosted.org/packages/6d/c5/781075281632337a06db7ffe6376ad133a1003d258f8286dc6fa639c2407/h2o_pysparkling_scoring_3.0-3.40.0.2-1.tar.gz
+[2023-05-02 04:11:37] INFO root fetch - processPackages [h2o-pysparkling-3.0]: Downloading https://files.pythonhosted.org/packages/0c/af/296bc18f9269926951eb828dcfc4b4d92079cec6f5d1cb08e62f7910b5a9/h2o_pysparkling_3.0-3.40.0.2-1.tar.gz
+[2023-05-02 04:11:37] INFO root fetch - processPackages [ragged-buffer]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-02 04:11:38] INFO root fetch - processPackages [rapidocr-openvino-gpu]: Downloading https://files.pythonhosted.org/packages/37/01/93c146382e130856cebe756c52656e5b299010c1520bd466923326a02a9c/rapidocr_openvino_gpu-1.0.3.tar.gz
+[2023-05-02 04:11:38] WARNING root fetch - processPackages [h2o-pysparkling-3.0]: Skipping package: exceeds size limit 162215769>=10485760
+[2023-05-02 04:11:38] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.0] error
+[2023-05-02 04:11:38] INFO root fetch - processPackages [pytest-oar]: Downloading https://files.pythonhosted.org/packages/96/03/b5a6c79df6f0e18098d4182a43d847694e47772aac3cb2c075d5af801723/pytest_oar-2.0.2.tar.gz
+[2023-05-02 04:11:38] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-02 04:11:38] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a98.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230502/c/cbra/2.0.0a98-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-02 04:11:38] INFO root fetch - processPackages [rapidocr-openvino-gpu]: executing diffoscope
+[2023-05-02 04:11:38] INFO root fetch - processPackages [rapidocr-openvino-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_openvino_gpu-1.0.0.tar.gz tmp/rapidocr_openvino_gpu-1.0.3.tar.gz --markdown 20230502/r/rapidocr-openvino-gpu/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 04:11:38] INFO root fetch - processPackages [formant]: executing diffoscope
+[2023-05-02 04:11:38] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20230502/f/formant/1.99.10-1.99.25/diff.md --exclude *.pyd
+[2023-05-02 04:11:38] INFO root fetch - processPackages [pytest-oar]: executing diffoscope
+[2023-05-02 04:11:38] INFO root fetch - processPackages [pytest-oar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_oar-2.0.1.tar.gz tmp/pytest_oar-2.0.2.tar.gz --markdown 20230502/p/pytest-oar/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-02 04:11:38] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Downloading https://files.pythonhosted.org/packages/43/bf/e303015f0ff06724a8e7ebb08606e8908faf590d2fd39de7958c5f7356d0/h2o_pysparkling_scoring_3.0-3.40.0.3-1.tar.gz
+[2023-05-02 04:11:38] INFO root fetch - processPackages [ragged-buffer]: Downloading https://files.pythonhosted.org/packages/28/ad/1b74e66f11e4d18c799ca7b6bd1c1bd5cbef8334dd3159f68f414e1416cd/ragged_buffer-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 04:11:38] INFO root fetch - processPackages [ragged-buffer]: executing diffoscope
+[2023-05-02 04:11:38] INFO root fetch - processPackages [ragged-buffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragged_buffer-0.4.7.tar.gz tmp/ragged_buffer-0.4.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/r/ragged-buffer/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-02 04:11:39] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: executing diffoscope
+[2023-05-02 04:11:39] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.0-3.40.0.2-1.tar.gz tmp/h2o_pysparkling_scoring_3.0-3.40.0.3-1.tar.gz --markdown 20230502/h/h2o-pysparkling-scoring-3.0/3.40.0.2.post1-3.40.0.3.post1/diff.md --exclude *.pyd
+[2023-05-02 04:11:39] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino-gpu]: success
+[2023-05-02 04:11:39] INFO root fetch - main [MainThread]: End processing [pytest-oar]: success
+[2023-05-02 04:11:39] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2023-05-02 04:11:40] INFO root fetch - main [MainThread]: End processing [ragged-buffer]: success
+[2023-05-02 04:11:42] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-02 04:14:39] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Timeout during execution of pkgdiff
+[2023-05-02 04:14:39] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.0] error
+[2023-05-02 04:14:39] INFO root fetch - main [MainThread]: Store serial: [17935181]
