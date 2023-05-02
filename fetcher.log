@@ -6219,3 +6219,71 @@
 [2023-05-02 07:15:52] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
 [2023-05-02 07:15:53] INFO root fetch - main [MainThread]: End processing [vessel-manoeuvring-models]: success
 [2023-05-02 07:15:53] INFO root fetch - main [MainThread]: Store serial: [17936426]
+[2023-05-02 07:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936426]
+[2023-05-02 07:21:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vue2img
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgdiscovery
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sesg
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BDXConverter
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SDTcloud
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: werpy
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyNyaaTa
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: handycsv
+[2023-05-02 07:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythran
+[2023-05-02 07:21:02] WARNING root fetch - processPackages [bgdiscovery]: Skipping, unable to determine old version
+[2023-05-02 07:21:02] INFO root fetch - processPackages [bgdiscovery]: Start processing: typer
+[2023-05-02 07:21:02] INFO root fetch - main [MainThread]: End processing [bgdiscovery] error
+[2023-05-02 07:21:02] INFO root fetch - processPackages [vue2img]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [werpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [BDXConverter]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [handycsv]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230502] Old Version: [0.2.2.dev20230501]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [typer]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [PyNyaaTa]: New version: [202305020519] Old Version: [202304280733]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [pythran]: New version: [0.9.9] Old Version: [0.9.8.post2]
+[2023-05-02 07:21:02] INFO root fetch - processPackages [handycsv]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [handycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handycsv-4.0.0.tar.gz tmp/handycsv-4.1.0.tar.gz --markdown 20230502/h/handycsv/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-02 07:21:02] INFO root fetch - processPackages [typer]: Downloading https://files.pythonhosted.org/packages/6e/f0/d327e0c7fe5608d668f7dbfffd90ddc8484c7c4b1c93795f83257e50aa0b/typer-0.8.0.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/17/29/3c4e6fd50d38c0921f6a81cc2612e3816d840159b3671348dd7b2cb4afc0/SDTcloud-0.0.6.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/44/42/e8a53e9262d86b8e791aae6455763a405c99d6ca78b9374abef6e347f8d5/BDXConverter-1.0.6.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/a6/74/a9f9c01f6c8904d0d59b6fa79f2f51c84a8b641e26c39c7612e7605a0296/rapidpe_rift_pipe-0.2.2.dev20230502.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [werpy]: Downloading https://files.pythonhosted.org/packages/d4/6d/076e1724ea8a39c08581f2bf33f7f9581bb7f638d0a434ab133ddc63376e/werpy-0.0.3.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/cb/b6/eb27afaf9a7073c8bdad98b4763f0a66ad81055f539ebaf2232987b98c59/PyNyaaTa-202304280733.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [typer]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer-0.7.0.tar.gz tmp/typer-0.8.0.tar.gz --markdown 20230502/t/typer/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-02 07:21:02] INFO root fetch - processPackages [vue2img]: Downloading https://files.pythonhosted.org/packages/30/a7/ec1bd9c8b0cb02d290bd63fa2064e1f0c29d02c49622705f6c4e8a139e0f/vue2img-0.0.7.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [pythran]: Downloading https://files.pythonhosted.org/packages/59/ba/5be012116a5f39413c49b9498c892ee6da38e537f0bc57dfa7a12b832224/pythran-0.9.8.post2.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [vue2img]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [vue2img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vue2img-0.0.6.tar.gz tmp/vue2img-0.0.7.tar.gz --markdown 20230502/v/vue2img/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 07:21:02] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.0.5.tar.gz tmp/BDXConverter-1.0.6.tar.gz --markdown 20230502/B/BDXConverter/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 07:21:02] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/58/37/d9a23f5c9db07f08941eb35554414e7738c70dea4f91b81a94bf0a9ff0a8/SDTcloud-0.0.7.tar.gz
+[2023-05-02 07:21:02] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230502/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 07:21:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230501.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230502.tar.gz --markdown 20230502/r/rapidpe-rift-pipe/0.2.2.dev20230501-0.2.2.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 07:21:02] INFO root fetch - processPackages [werpy]: executing diffoscope
+[2023-05-02 07:21:02] INFO root fetch - processPackages [werpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werpy-0.0.2.tar.gz tmp/werpy-0.0.3.tar.gz --markdown 20230502/w/werpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 07:21:03] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-02 07:21:03] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.6.tar.gz tmp/SDTcloud-0.0.7.tar.gz --markdown 20230502/S/SDTcloud/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 07:21:03] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/d5/ac/59ef8e4f4b59180be3eef14333000c62557baf8951a112cf790242d06272/PyNyaaTa-202305020519.tar.gz
+[2023-05-02 07:21:03] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-05-02 07:21:03] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202304280733.tar.gz tmp/PyNyaaTa-202305020519.tar.gz --markdown 20230502/P/PyNyaaTa/202304280733-202305020519/diff.md --exclude *.pyd
+[2023-05-02 07:21:03] INFO root fetch - processPackages [pythran]: Downloading https://files.pythonhosted.org/packages/0b/59/f7ee94aa7d71721ab2ab23fb3cdaba8b384bb385b25ca8702aab9631892c/pythran-0.9.9.tar.gz
+[2023-05-02 07:21:04] INFO root fetch - main [MainThread]: End processing [vue2img]: success
+[2023-05-02 07:21:04] INFO root fetch - main [MainThread]: End processing [handycsv]: success
+[2023-05-02 07:21:04] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-05-02 07:21:04] INFO root fetch - processPackages [pythran]: executing diffoscope
+[2023-05-02 07:21:04] INFO root fetch - processPackages [pythran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythran-0.9.8.post2.tar.gz tmp/pythran-0.9.9.tar.gz --markdown 20230502/p/pythran/0.9.8.post2-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 07:21:04] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-02 07:21:04] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-02 07:21:04] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-02 07:21:05] INFO root fetch - main [MainThread]: End processing [werpy]: success
+[2023-05-02 07:21:07] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-05-02 07:21:08] INFO root fetch - main [MainThread]: End processing [typer]: success
+[2023-05-02 07:24:04] ERROR root fetch - processPackages [pythran]: Timeout during execution of pkgdiff
+[2023-05-02 07:24:04] INFO root fetch - main [MainThread]: End processing [pythran] error
+[2023-05-02 07:24:04] INFO root fetch - main [MainThread]: Store serial: [17936457]
