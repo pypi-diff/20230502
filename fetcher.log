@@ -5562,3 +5562,64 @@
 [2023-05-02 06:08:44] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
 [2023-05-02 06:08:47] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-05-02 06:08:47] INFO root fetch - main [MainThread]: Store serial: [17935935]
+[2023-05-02 06:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935935]
+[2023-05-02 06:13:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: log10-io
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: latex-input
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eyes-soatra
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algokit-utils
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyllamacpp
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-plugins
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lanplaypy
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-poe-chat
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: envname
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: charmonium-cache
+[2023-05-02 06:13:56] WARNING root fetch - processPackages [envname]: Skipping, unable to determine old version
+[2023-05-02 06:13:56] INFO root fetch - processPackages [envname]: Start processing: latex-input
+[2023-05-02 06:13:56] INFO root fetch - main [MainThread]: End processing [envname] error
+[2023-05-02 06:13:56] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.0b5] Old Version: [1.1.0b4]
+[2023-05-02 06:13:56] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-02 06:13:56] INFO root fetch - processPackages [pyllamacpp]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-02 06:13:56] WARNING root fetch - processPackages [lanplaypy]: Skipping, unable to determine old version
+[2023-05-02 06:13:56] INFO root fetch - main [MainThread]: End processing [lanplaypy] error
+[2023-05-02 06:13:56] INFO root fetch - processPackages [latex-input]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 06:13:56] INFO root fetch - processPackages [log10-io]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 06:13:56] INFO root fetch - processPackages [latex-input]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 06:13:56] WARNING root fetch - processPackages [eyes-soatra]: Skipping, unable to determine old version
+[2023-05-02 06:13:56] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 06:13:56] INFO root fetch - main [MainThread]: End processing [eyes-soatra] error
+[2023-05-02 06:13:56] INFO root fetch - processPackages [charmonium-cache]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-02 06:13:56] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/38/f6/ecb35f8cd54a5fcaaa097ba80b61ec2ab92539878dfb4d5c70b58995d93c/nonebot_poe_chat-1.1.5.tar.gz
+[2023-05-02 06:13:56] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/6c/30/3aecb416a68fe83865b4c9778e8e87397b07a4396715636e2e95ba72f56c/algokit_utils-1.1.0b5-py3-none-any.whl
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: Downloading https://files.pythonhosted.org/packages/87/6d/a9b401c84571045849d098019f45c377fa9de84132ec85f26f9f19b4062e/latex_input-0.3.0.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.0b4-py3-none-any.whl.zip tmp/algokit_utils-1.1.0b5-py3-none-any.whl.zip --markdown 20230502/a/algokit-utils/1.1.0b4-1.1.0b5/diff.md --exclude *.pyd
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: Downloading https://files.pythonhosted.org/packages/87/6d/a9b401c84571045849d098019f45c377fa9de84132ec85f26f9f19b4062e/latex_input-0.3.0.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/8d/5c/d1b7c6f5a1a6cd777dac70d07efd117a8849579da78c5ed441b61f9f993f/ml_plugins-0.0.8.tar.gz
+[2023-05-02 06:13:57] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13495755>=10485760
+[2023-05-02 06:13:57] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-05-02 06:13:57] INFO root fetch - processPackages [charmonium-cache]: Downloading https://files.pythonhosted.org/packages/4a/e4/75ad7fe141ed694d17ab813619f046e56e23a6e444d02fdfc087f83e2c08/charmonium_cache-1.3.0.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.7.tar.gz tmp/ml_plugins-0.0.8.tar.gz --markdown 20230502/m/ml-plugins/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 06:13:57] INFO root fetch - processPackages [pyllamacpp]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [pyllamacpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllamacpp-2.0.0.tar.gz tmp/pyllamacpp-2.1.0.tar.gz --markdown 20230502/p/pyllamacpp/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-02 06:13:57] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/0b/f8/38ac8f980aaa9bc72f0b6e3057d9d0f47b8e6bad2550a66e0afae273f71d/log10_io-0.0.5.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: Downloading https://files.pythonhosted.org/packages/30/63/affcf713ec0528e65b37f7acc07c3f78d508e1b8914e360f4ad8a3d4b464/latex_input-0.3.1.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: Downloading https://files.pythonhosted.org/packages/30/63/affcf713ec0528e65b37f7acc07c3f78d508e1b8914e360f4ad8a3d4b464/latex_input-0.3.1.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.0.4.tar.gz tmp/log10_io-0.0.5.tar.gz --markdown 20230502/l/log10-io/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 06:13:57] INFO root fetch - processPackages [charmonium-cache]: Downloading https://files.pythonhosted.org/packages/bc/1a/b04e59dfda4900972661c034d8cfa979be5592cf3533c628beeb1974cfcc/charmonium_cache-1.4.0.tar.gz
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_input-0.3.0.tar.gz tmp/latex_input-0.3.1.tar.gz --markdown 20230502/l/latex-input/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [latex-input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex_input-0.3.0.tar.gz tmp/latex_input-0.3.1.tar.gz --markdown 20230502/l/latex-input/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 06:13:57] INFO root fetch - processPackages [charmonium-cache]: executing diffoscope
+[2023-05-02 06:13:57] INFO root fetch - processPackages [charmonium-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmonium_cache-1.3.0.tar.gz tmp/charmonium_cache-1.4.0.tar.gz --markdown 20230502/c/charmonium-cache/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [latex-input]: success
+[2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [charmonium-cache]: success
+[2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [latex-input]: success
+[2023-05-02 06:14:00] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
+[2023-05-02 06:14:00] INFO root fetch - main [MainThread]: Store serial: [17935994]
