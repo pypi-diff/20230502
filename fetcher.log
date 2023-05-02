@@ -7322,3 +7322,52 @@
 [2023-05-02 08:46:15] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
 [2023-05-02 08:46:16] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
 [2023-05-02 08:46:16] INFO root fetch - main [MainThread]: Store serial: [17937151]
+[2023-05-02 08:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937151]
+[2023-05-02 08:51:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdriver
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skynamo
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: read-rapidpe
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysiml
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stream-connect
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: interactive-cli
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-onnx-processing-tools
+[2023-05-02 08:51:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: audoma
+[2023-05-02 08:51:26] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202305020647] Old Version: [0.2.8.dev202304200913]
+[2023-05-02 08:51:26] INFO root fetch - processPackages [read-rapidpe]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-02 08:51:26] INFO root fetch - processPackages [stream-connect]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-02 08:51:26] INFO root fetch - processPackages [skynamo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:51:26] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 08:51:26] INFO root fetch - processPackages [audoma]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-02 08:51:26] WARNING root fetch - processPackages [interactive-cli]: Skipping, unable to determine old version
+[2023-05-02 08:51:26] INFO root fetch - main [MainThread]: End processing [interactive-cli] error
+[2023-05-02 08:51:26] INFO root fetch - processPackages [simple-onnx-processing-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 08:51:27] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/24/f6/fdc2212417294ea8693d8f2d6b7dc8385a0b492d2ba0c850ecf9fed88e7f/pysiml-0.2.8.dev202304200913-py3-none-any.whl
+[2023-05-02 08:51:27] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230502/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 08:51:27] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/4e/d6/f354bed91d9859ab502eeb79b304f43a639ff01d41339776a7dc22e43274/read_rapidpe-0.1.3.tar.gz
+[2023-05-02 08:51:27] INFO root fetch - processPackages [stream-connect]: Downloading https://files.pythonhosted.org/packages/08/90/886b40a8bb6d6fff66f3ea1a4583b7e996536d005a6bc4cb2d563ada3e1e/stream-connect-1.0.7.tar.gz
+[2023-05-02 08:51:27] INFO root fetch - processPackages [audoma]: Downloading https://files.pythonhosted.org/packages/3c/56/90e4bb50ffab929e613704e9bdcc7d56e0ef508c49bf5662c7a773357eb4/audoma-0.6.0.tar.gz
+[2023-05-02 08:51:27] INFO root fetch - processPackages [skynamo]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [skynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skynamo-0.0.8.tar.gz tmp/skynamo-0.0.9.tar.gz --markdown 20230502/s/skynamo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:51:27] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/ce/67/cd4155b477edde4de2e2362a9a05303f38286f266c5537324fbd321c1958/pysiml-0.2.9.dev202305020647-py3-none-any.whl
+[2023-05-02 08:51:27] INFO root fetch - processPackages [simple-onnx-processing-tools]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [simple-onnx-processing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_onnx_processing_tools-1.1.8.tar.gz tmp/simple_onnx_processing_tools-1.1.9.tar.gz --markdown 20230502/s/simple-onnx-processing-tools/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 08:51:27] INFO root fetch - processPackages [read-rapidpe]: Downloading https://files.pythonhosted.org/packages/bd/79/2c582862545313ba12b4b15d5aa8673e46efb2cc7d55b9db98c782fdbbbc/read_rapidpe-0.2.0.tar.gz
+[2023-05-02 08:51:27] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.8.dev202304200913-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202305020647-py3-none-any.whl.zip --markdown 20230502/p/pysiml/0.2.8.dev202304200913-0.2.9.dev202305020647/diff.md --exclude *.pyd
+[2023-05-02 08:51:27] INFO root fetch - processPackages [stream-connect]: Downloading https://files.pythonhosted.org/packages/27/3d/d611375c070a31b1ac0d849b828484cb79e83f90a000d410903f3738e2c6/stream-connect-1.0.8.tar.gz
+[2023-05-02 08:51:27] INFO root fetch - processPackages [read-rapidpe]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [read-rapidpe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/read_rapidpe-0.1.3.tar.gz tmp/read_rapidpe-0.2.0.tar.gz --markdown 20230502/r/read-rapidpe/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 08:51:27] INFO root fetch - processPackages [audoma]: Downloading https://files.pythonhosted.org/packages/12/8b/539bc82391ea23ce3b4ce9144389c239f325197f47e4cee0e45b97cf7a2a/audoma-0.6.1.tar.gz
+[2023-05-02 08:51:27] INFO root fetch - processPackages [stream-connect]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [stream-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-connect-1.0.7.tar.gz tmp/stream-connect-1.0.8.tar.gz --markdown 20230502/s/stream-connect/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-02 08:51:27] INFO root fetch - processPackages [audoma]: executing diffoscope
+[2023-05-02 08:51:27] INFO root fetch - processPackages [audoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audoma-0.6.0.tar.gz tmp/audoma-0.6.1.tar.gz --markdown 20230502/a/audoma/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-02 08:51:28] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-05-02 08:51:28] INFO root fetch - main [MainThread]: End processing [skynamo]: success
+[2023-05-02 08:51:28] INFO root fetch - main [MainThread]: End processing [simple-onnx-processing-tools]: success
+[2023-05-02 08:51:28] INFO root fetch - main [MainThread]: End processing [stream-connect]: success
+[2023-05-02 08:51:28] INFO root fetch - main [MainThread]: End processing [read-rapidpe]: success
+[2023-05-02 08:51:29] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-05-02 08:51:30] INFO root fetch - main [MainThread]: End processing [audoma]: success
+[2023-05-02 08:51:30] INFO root fetch - main [MainThread]: Store serial: [17937175]
