@@ -1255,3 +1255,41 @@
 [2023-05-02 01:57:36] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
 [2023-05-02 01:57:38] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-02 01:57:38] INFO root fetch - main [MainThread]: Store serial: [17933181]
+[2023-05-02 02:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933181]
+[2023-05-02 02:02:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savic
+[2023-05-02 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdatasets
+[2023-05-02 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-zana
+[2023-05-02 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jinjat
+[2023-05-02 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyp8s
+[2023-05-02 02:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FreeClimb
+[2023-05-02 02:02:48] INFO root fetch - processPackages [pyp8s]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-05-02 02:02:48] INFO root fetch - processPackages [django-zana]: New version: [0.3.0a2] Old Version: [0.3.0a1]
+[2023-05-02 02:02:48] WARNING root fetch - processPackages [savic]: Skipping, unable to determine old version
+[2023-05-02 02:02:48] INFO root fetch - main [MainThread]: End processing [savic] error
+[2023-05-02 02:02:48] INFO root fetch - processPackages [FreeClimb]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-05-02 02:02:48] INFO root fetch - processPackages [jinjat]: New version: [0.4] Old Version: [0.3]
+[2023-05-02 02:02:48] INFO root fetch - processPackages [xdatasets]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-02 02:02:48] INFO root fetch - processPackages [pyp8s]: Downloading https://files.pythonhosted.org/packages/4d/ab/7268f2dce926a55b84ae443c47b5bb20380e6f9caaea5dd05cf65cfd9d2d/pyp8s-3.0.0-py3-none-any.whl
+[2023-05-02 02:02:48] INFO root fetch - processPackages [xdatasets]: Downloading https://files.pythonhosted.org/packages/a9/7b/c03aeeff2ef9701c4ca50eaf2b2882ba560f2a27006f4ef7227b05351207/xdatasets-0.2.0.tar.gz
+[2023-05-02 02:02:48] INFO root fetch - processPackages [jinjat]: Downloading https://files.pythonhosted.org/packages/7b/74/f64e809b073bfbff9902f063fc39cf7d3aa6e7f4895823ed12da51e6d2e1/jinjat-0.4.tar.gz
+[2023-05-02 02:02:48] INFO root fetch - processPackages [django-zana]: Downloading https://files.pythonhosted.org/packages/ba/b0/8bb50924009c0bbdd973fd0fcbeed84bb667c262d9014a5eec3bf925aeb7/django_zana-0.3.0a2.tar.gz
+[2023-05-02 02:02:48] INFO root fetch - processPackages [FreeClimb]: Downloading https://files.pythonhosted.org/packages/fd/8f/7fd80c07811a9ca9847beda9935f7de9e590f6a483ac6853c232d24568f1/FreeClimb-4.3.0.tar.gz
+[2023-05-02 02:02:48] INFO root fetch - processPackages [jinjat]: executing diffoscope
+[2023-05-02 02:02:48] INFO root fetch - processPackages [jinjat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjat-0.3.tar.gz tmp/jinjat-0.4.tar.gz --markdown 20230502/j/jinjat/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-02 02:02:48] INFO root fetch - processPackages [pyp8s]: Downloading https://files.pythonhosted.org/packages/f4/20/91749bba3ce0abe35f5d3bc9ca709804faf49b8f37c0e7710d317792e7d3/pyp8s-3.1.0-py3-none-any.whl
+[2023-05-02 02:02:48] INFO root fetch - processPackages [django-zana]: executing diffoscope
+[2023-05-02 02:02:48] INFO root fetch - processPackages [django-zana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_zana-0.3.0a1.tar.gz tmp/django_zana-0.3.0a2.tar.gz --markdown 20230502/d/django-zana/0.3.0a1-0.3.0a2/diff.md --exclude *.pyd
+[2023-05-02 02:02:48] INFO root fetch - processPackages [FreeClimb]: executing diffoscope
+[2023-05-02 02:02:48] INFO root fetch - processPackages [FreeClimb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeClimb-4.2.1.tar.gz tmp/FreeClimb-4.3.0.tar.gz --markdown 20230502/F/FreeClimb/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-05-02 02:02:48] INFO root fetch - processPackages [pyp8s]: executing diffoscope
+[2023-05-02 02:02:48] INFO root fetch - processPackages [pyp8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp8s-3.0.0-py3-none-any.whl.zip tmp/pyp8s-3.1.0-py3-none-any.whl.zip --markdown 20230502/p/pyp8s/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-02 02:02:48] INFO root fetch - processPackages [xdatasets]: Downloading https://files.pythonhosted.org/packages/3e/cc/4cab7eb105e4bc9b07fa40b595e4b5581589a4014a5a3d06b0eec6bca4b0/xdatasets-0.2.2.tar.gz
+[2023-05-02 02:02:48] INFO root fetch - processPackages [xdatasets]: executing diffoscope
+[2023-05-02 02:02:48] INFO root fetch - processPackages [xdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdatasets-0.2.0.tar.gz tmp/xdatasets-0.2.2.tar.gz --markdown 20230502/x/xdatasets/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 02:02:49] INFO root fetch - main [MainThread]: End processing [django-zana]: success
+[2023-05-02 02:02:49] INFO root fetch - main [MainThread]: End processing [pyp8s]: success
+[2023-05-02 02:02:49] INFO root fetch - main [MainThread]: End processing [jinjat]: success
+[2023-05-02 02:02:50] INFO root fetch - main [MainThread]: End processing [xdatasets]: success
+[2023-05-02 02:02:51] INFO root fetch - main [MainThread]: End processing [FreeClimb]: success
+[2023-05-02 02:02:51] INFO root fetch - main [MainThread]: Store serial: [17933200]
