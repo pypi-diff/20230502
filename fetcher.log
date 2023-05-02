@@ -21282,3 +21282,344 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 21:44:02] INFO root fetch - main [MainThread]: End processing [core-main-app]: success
 [2023-05-02 21:44:32] INFO root fetch - main [MainThread]: End processing [celltypist]: success
 [2023-05-02 21:44:32] INFO root fetch - main [MainThread]: Store serial: [17946291]
+[2023-05-02 21:50:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946291]
+[2023-05-02 21:50:07] INFO root fetch - main [MainThread]: Found 53 changed packages
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-module-advanced-blob-host-app
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-index
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sw-mc-lib
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h-transport-materials
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphdisplay
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: core-module-chemical-composition-simple-app
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opensesame-core
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manimcs
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: overloaded-iterables
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ob-dj-store
+[2023-05-02 21:50:07] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [sw-mc-lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [graphdisplay]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.32] Old Version: [0.7.30]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a30]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [manimcs]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [h-transport-materials]: New version: [0.9] Old Version: [0.8.1]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [gpt-index]: New version: [0.6.0a7] Old Version: [0.6.0a6]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ob-dj-store]: New version: [0.0.9.8] Old Version: [0.0.9.7]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/1c/9d/a0c1823089041b81e2c038bf185dc885df34dd11a864a4d9549af32fcd1c/graphdisplay-0.0.3.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [h-transport-materials]: executing diffoscope
+[2023-05-02 21:50:07] INFO root fetch - processPackages [h-transport-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h_transport_materials-0.8.1.tar.gz tmp/h_transport_materials-0.9.tar.gz --markdown 20230502/h/h-transport-materials/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-05-02 21:50:07] INFO root fetch - processPackages [manimcs]: Downloading https://files.pythonhosted.org/packages/09/2f/9f00b9549e6d7c5a43b05779e66a3163fb677cc21f1a20541da94db76ab0/manimcs-0.4-py3-none-any.whl
+[2023-05-02 21:50:07] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Downloading https://files.pythonhosted.org/packages/4f/1a/063acce6925e4601740f0fa00a8b9a4f016854302fe08bd624e5571fee81/core_module_advanced_blob_host_app-2.2.0.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Downloading https://files.pythonhosted.org/packages/c2/d0/395c959c5595b118cace461f993e9cdc7bf4b0148bf9dcc0651ec4b02b73/core_module_chemical_composition_simple_app-2.2.0.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/ee/e5/999742e60520e876383bab842913c0140d6702c5b27065a1cf588dda5552/opensesame_core-4.0.0a30.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/35/59/1b0441c1a9b4896784d3d92ff3d61896bc4502212f37564ad13f8db7beea/gpt_index-0.6.0a7-py3-none-any.whl
+[2023-05-02 21:50:07] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/0c/a8/fd8fc20d9e25ffdfa38a5915686c016f42b533aaa82d359ff30484814ada/ob-dj-store-0.0.9.7.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [sw-mc-lib]: Downloading https://files.pythonhosted.org/packages/39/69/bb5689a651b9f515d8f6b19834cc369acd1d07895225bfce4a072993f6cd/sw_mc_lib-0.2.1.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/e3/5a/df1b1aa45d36ffcbceac3f14076656e8cd3bb11adb8171014f6a2e1b00a1/overloaded-iterables-0.7.32.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [sw-mc-lib]: executing diffoscope
+[2023-05-02 21:50:07] INFO root fetch - processPackages [sw-mc-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sw_mc_lib-0.2.0.tar.gz tmp/sw_mc_lib-0.2.1.tar.gz --markdown 20230502/s/sw-mc-lib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 21:50:07] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-02 21:50:07] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.0a6.tar.gz tmp/gpt_index-0.6.0a7-py3-none-any.whl.zip --markdown 20230502/g/gpt-index/0.6.0a6-0.6.0a7/diff.md --exclude *.pyd
+[2023-05-02 21:50:07] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-02 21:50:07] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.30.tar.gz tmp/overloaded-iterables-0.7.32.tar.gz --markdown 20230502/o/overloaded-iterables/0.7.30-0.7.32/diff.md --exclude *.pyd
+[2023-05-02 21:50:07] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18923496>=10485760
+[2023-05-02 21:50:07] INFO root fetch - processPackages [opensesame-core]: Start processing: core-module-blob-host-app
+[2023-05-02 21:50:07] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-05-02 21:50:07] INFO root fetch - processPackages [core-module-blob-host-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:07] INFO root fetch - processPackages [manimcs]: Downloading https://files.pythonhosted.org/packages/02/b1/0a936f12402d04d0c9368151cf7d23ddbc0790532b3a362b70d5024d0c4e/manimcs-0.4.1.tar.gz
+[2023-05-02 21:50:07] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/e5/8e/9f8ea7b8d2cb601e906867d9db4c9f29e5a1da86e788c83bff0352590632/graphdisplay-0.1.1.tar.gz
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Downloading https://files.pythonhosted.org/packages/23/fe/81d2c28c178c1791637448f3663c4dfc67e05ae7f009933d5bf918234d23/core_module_advanced_blob_host_app-2.3.0.tar.gz
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Downloading https://files.pythonhosted.org/packages/94/b0/9f2c8a27056279665465310d936e6b6f124ab518b00e881ff25314a4f959/core_module_chemical_composition_simple_app-2.3.0.tar.gz
+[2023-05-02 21:50:08] INFO root fetch - processPackages [manimcs]: executing diffoscope
+[2023-05-02 21:50:08] INFO root fetch - processPackages [manimcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manimcs-0.4-py3-none-any.whl.zip tmp/manimcs-0.4.1.tar.gz --markdown 20230502/m/manimcs/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 21:50:08] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-05-02 21:50:08] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.0.3.tar.gz tmp/graphdisplay-0.1.1.tar.gz --markdown 20230502/g/graphdisplay/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 21:50:08] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/10/95/20bbd86eb725e4c9efaf8686a43df4977f38c591c117280967801b2d331f/ob-dj-store-0.0.9.8.tar.gz
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: executing diffoscope
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_advanced_blob_host_app-2.2.0.tar.gz tmp/core_module_advanced_blob_host_app-2.3.0.tar.gz --markdown 20230502/c/core-module-advanced-blob-host-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: executing diffoscope
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_chemical_composition_simple_app-2.2.0.tar.gz tmp/core_module_chemical_composition_simple_app-2.3.0.tar.gz --markdown 20230502/c/core-module-chemical-composition-simple-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-blob-host-app]: Downloading https://files.pythonhosted.org/packages/83/72/8a31d8d681769ebe843e1ddfc251bf6073735786f148346e835a138c5d95/core_module_blob_host_app-2.2.0.tar.gz
+[2023-05-02 21:50:08] INFO root fetch - processPackages [ob-dj-store]: executing diffoscope
+[2023-05-02 21:50:08] INFO root fetch - processPackages [ob-dj-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-store-0.0.9.7.tar.gz tmp/ob-dj-store-0.0.9.8.tar.gz --markdown 20230502/o/ob-dj-store/0.0.9.7-0.0.9.8/diff.md --exclude *.pyd
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-blob-host-app]: Downloading https://files.pythonhosted.org/packages/12/15/0fe388e08c1680c777c1ac4bf4cdfc2176e88b4ba599a6db415c50f152fb/core_module_blob_host_app-2.3.0.tar.gz
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-blob-host-app]: executing diffoscope
+[2023-05-02 21:50:08] INFO root fetch - processPackages [core-module-blob-host-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_blob_host_app-2.2.0.tar.gz tmp/core_module_blob_host_app-2.3.0.tar.gz --markdown 20230502/c/core-module-blob-host-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:09] INFO root fetch - processPackages [overloaded-iterables]: Start processing: lsst-pipe-base
+[2023-05-02 21:50:09] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-02 21:50:09] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-02 21:50:09] INFO root fetch - processPackages [manimcs]: Start processing: core-module-excel-uploader-app
+[2023-05-02 21:50:09] INFO root fetch - main [MainThread]: End processing [manimcs]: success
+[2023-05-02 21:50:09] INFO root fetch - processPackages [core-module-excel-uploader-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:09] INFO root fetch - processPackages [graphdisplay]: Start processing: lsst-utils
+[2023-05-02 21:50:09] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-05-02 21:50:09] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-02 21:50:09] INFO root fetch - processPackages [core-module-excel-uploader-app]: Downloading https://files.pythonhosted.org/packages/d7/a1/04bb06a9e6c7988c1e55a61ed7d2671c2de95aaa3bfb9c5e41d28df8ab62/core_module_excel_uploader_app-2.2.0.tar.gz
+[2023-05-02 21:50:09] INFO root fetch - processPackages [gpt-index]: Start processing: nucliadb
+[2023-05-02 21:50:09] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-02 21:50:09] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:09] INFO root fetch - processPackages [core-module-chemical-composition-simple-app]: Start processing: nucliadb-client
+[2023-05-02 21:50:09] INFO root fetch - main [MainThread]: End processing [core-module-chemical-composition-simple-app]: success
+[2023-05-02 21:50:09] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-05-02 21:50:09] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230502/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-02 21:50:09] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:09] INFO root fetch - processPackages [core-module-excel-uploader-app]: Downloading https://files.pythonhosted.org/packages/2a/b6/f217ad50208e2ea1e4d3da9bc33a1f2b75aec9a4a2567ff86db5cc949dab/core_module_excel_uploader_app-2.3.0.tar.gz
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/c8/69/385ecd19c0c99d60137335611c491e33785650aa0a00bb9dffebc5928501/nucliadb_client-2.8.5.post236-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-advanced-blob-host-app]: Start processing: nucliadb-dataset
+[2023-05-02 21:50:10] INFO root fetch - main [MainThread]: End processing [core-module-advanced-blob-host-app]: success
+[2023-05-02 21:50:10] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-05-02 21:50:10] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230502/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/29/f8/55257b88647d64df7f92675f1931914e9ba45faeb41113a7eb9ed572f423/nucliadb-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: executing diffoscope
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-excel-uploader-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_excel_uploader_app-2.2.0.tar.gz tmp/core_module_excel_uploader_app-2.3.0.tar.gz --markdown 20230502/c/core-module-excel-uploader-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ee/73/c290b5f1da168e819531e24f352498c36711aff732eb8c6ef4e83476dd10/nucliadb_dataset-2.8.5.post236-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-blob-host-app]: Start processing: nucliadb-models
+[2023-05-02 21:50:10] INFO root fetch - main [MainThread]: End processing [core-module-blob-host-app]: success
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/cd/4f/70f0da4b54ce2534af998625a94cc5434822cefc77417eadad2645d8ef3d/nucliadb_client-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [sw-mc-lib]: Start processing: core-module-fancy-tree-registry-app
+[2023-05-02 21:50:10] INFO root fetch - main [MainThread]: End processing [sw-mc-lib]: success
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/f3/45/caf278446089f4e341a3a74ed04641305418423f89abf489c0d12b1ca954/nucliadb_models-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-client/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/8c/cb/92a8d9ff4b8e56e7c2951bd99f7eaefd8ad1317c27a4214cc82db74cab85/nucliadb_dataset-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [h-transport-materials]: Start processing: nucliadb-protos
+[2023-05-02 21:50:10] INFO root fetch - main [MainThread]: End processing [h-transport-materials]: success
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-models/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-dataset/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Downloading https://files.pythonhosted.org/packages/94/2b/12173fa98241ae54683de2c4e3babb15cddf6818bff7f23bf7b045b294ae/core_module_fancy_tree_registry_app-2.2.0.tar.gz
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/f5/78/6f08e70904de877506428634c9c8b6601abb076521a35599c113dcb1520b/nucliadb_protos-2.8.5.post236-py3-none-any.whl
+[2023-05-02 21:50:10] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Downloading https://files.pythonhosted.org/packages/bc/3c/833ece71084390b3a4fda446a76134fc0beb8f5b3fa23e9fabeb50f278d8/core_module_fancy_tree_registry_app-2.3.0.tar.gz
+[2023-05-02 21:50:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/83/fe/ceefae0b323fa686d0907d7c1d62b776d38c917b412ef6802db356ffc811/nucliadb_protos-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:11] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: executing diffoscope
+[2023-05-02 21:50:11] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_fancy_tree_registry_app-2.2.0.tar.gz tmp/core_module_fancy_tree_registry_app-2.3.0.tar.gz --markdown 20230502/c/core-module-fancy-tree-registry-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-protos/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:11] INFO root fetch - processPackages [lsst-utils]: Start processing: nucliadb-sdk
+[2023-05-02 21:50:11] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:11] INFO root fetch - processPackages [core-module-excel-uploader-app]: Start processing: nucliadb-utils
+[2023-05-02 21:50:11] INFO root fetch - main [MainThread]: End processing [core-module-excel-uploader-app]: success
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post237] Old Version: [2.8.5.post236]
+[2023-05-02 21:50:11] INFO root fetch - processPackages [ob-dj-store]: Start processing: core-module-local-id-registry-app
+[2023-05-02 21:50:11] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/98/83/4a8d95e333c0b1389b720f7191596313d6af768ccdd0dcb36a865c0a8225/nucliadb_sdk-2.8.5.post236-py3-none-any.whl
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d9/18/f02b9aa6834633a17669181901c3c18192094c5bc9fad54b0fb9ed40ab4c/nucliadb_utils-2.8.5.post236-py3-none-any.whl
+[2023-05-02 21:50:11] INFO root fetch - processPackages [core-module-local-id-registry-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:11] INFO root fetch - processPackages [nucliadb-client]: Start processing: core-module-periodic-table-app
+[2023-05-02 21:50:11] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-02 21:50:11] INFO root fetch - processPackages [core-module-periodic-table-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:11] INFO root fetch - processPackages [core-module-local-id-registry-app]: Downloading https://files.pythonhosted.org/packages/61/54/d7d7c1b556ab7fd15017591118abaaf8612fd917b5b6db1e24cbab05f748/core_module_local_id_registry_app-2.2.0.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-models]: Start processing: merqube-client-lib
+[2023-05-02 21:50:12] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-02 21:50:12] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-periodic-table-app]: Downloading https://files.pythonhosted.org/packages/36/2d/e75b7fe9c6ed5764ebeef4bd596d8ed3ea316830fcb6471e1d5d1e96a089/core_module_periodic_table_app-2.2.0.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/4b/1b/7d8b506bd93100928c62bedd0678209fa0abe25f184a11f3ad90a87c7b91/nucliadb_sdk-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/96/bf/72c303570c8a0ea81abe3c664e3b33ea44d4bc72a457f9574b7b56db18da/nucliadb_utils-2.8.5.post237-py3-none-any.whl
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: core-module-raw-xml-app
+[2023-05-02 21:50:12] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-raw-xml-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-sdk/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post236-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post237-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-utils/2.8.5.post236-2.8.5.post237/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/1a/f3/e008977dd3655f3d8884f068f12f8071394dab44145fe49717ad55a56ee6/merqube_client_lib-0.2.2.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-local-id-registry-app]: Downloading https://files.pythonhosted.org/packages/30/f5/7bf22b5ad4b4a48e8002dd8bacd527dd8a0f774b07a84105ce3202d880a4/core_module_local_id_registry_app-2.3.0.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-raw-xml-app]: Downloading https://files.pythonhosted.org/packages/e3/ba/f158d4e0b2b2f846bd6f866e4debe0ede38f32dfeb9884ade98f7a679fee/core_module_raw_xml_app-2.2.0.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-periodic-table-app]: Downloading https://files.pythonhosted.org/packages/4a/26/d94ca8e7388dfead875d98450c39d533ffac41685f45f331887bae46ba7f/core_module_periodic_table_app-2.3.0.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.2.1.tar.gz tmp/merqube_client_lib-0.2.2.tar.gz --markdown 20230502/m/merqube-client-lib/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-local-id-registry-app]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-local-id-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_local_id_registry_app-2.2.0.tar.gz tmp/core_module_local_id_registry_app-2.3.0.tar.gz --markdown 20230502/c/core-module-local-id-registry-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-fancy-tree-registry-app]: Start processing: opensesame-extension-osweb
+[2023-05-02 21:50:12] INFO root fetch - main [MainThread]: End processing [core-module-fancy-tree-registry-app]: success
+[2023-05-02 21:50:12] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-periodic-table-app]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-periodic-table-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_periodic_table_app-2.2.0.tar.gz tmp/core_module_periodic_table_app-2.3.0.tar.gz --markdown 20230502/c/core-module-periodic-table-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230502/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-raw-xml-app]: Downloading https://files.pythonhosted.org/packages/d7/4d/f27ec86a36823ebce51e82520e3d4cb0f1cf89ce7ad26506b5eb3f3e88f7/core_module_raw_xml_app-2.3.0.tar.gz
+[2023-05-02 21:50:12] INFO root fetch - processPackages [nucliadb-protos]: Start processing: core-module-remote-blob-host-app
+[2023-05-02 21:50:12] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-raw-xml-app]: executing diffoscope
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-raw-xml-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_raw_xml_app-2.2.0.tar.gz tmp/core_module_raw_xml_app-2.3.0.tar.gz --markdown 20230502/c/core-module-raw-xml-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:12] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Downloading https://files.pythonhosted.org/packages/6b/42/585dcc6b2993a2089bd503336fc9f113b29886dab70cbc01ec2460e4c434/core_module_remote_blob_host_app-2.2.0.tar.gz
+[2023-05-02 21:50:13] INFO root fetch - processPackages [core-module-remote-blob-host-app]: Downloading https://files.pythonhosted.org/packages/4c/2b/8271285593334f05be6f665011cdd57fc1ecbf8b6f834d34cb5d6e30998b/core_module_remote_blob_host_app-2.3.0.tar.gz
+[2023-05-02 21:50:13] INFO root fetch - processPackages [core-module-remote-blob-host-app]: executing diffoscope
+[2023-05-02 21:50:13] INFO root fetch - processPackages [core-module-remote-blob-host-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_remote_blob_host_app-2.2.0.tar.gz tmp/core_module_remote_blob_host_app-2.3.0.tar.gz --markdown 20230502/c/core-module-remote-blob-host-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:13] INFO root fetch - processPackages [lsst-pipe-base]: Start processing: e3nn-jax
+[2023-05-02 21:50:13] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-05-02 21:50:13] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: core-module-status-registry-app
+[2023-05-02 21:50:13] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-02 21:50:13] INFO root fetch - processPackages [e3nn-jax]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-02 21:50:13] INFO root fetch - processPackages [core-module-status-registry-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:13] INFO root fetch - processPackages [merqube-client-lib]: Start processing: core-module-text-area-app
+[2023-05-02 21:50:13] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-05-02 21:50:13] INFO root fetch - processPackages [core-module-text-area-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:13] INFO root fetch - processPackages [core-module-status-registry-app]: Downloading https://files.pythonhosted.org/packages/a1/7c/2c2146736b06388d0f5ec8e24063c4bfd9d1ca929c8865ccbbee1fec1fb5/core_module_status_registry_app-2.2.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-periodic-table-app]: Start processing: core-oaipmh-common-app
+[2023-05-02 21:50:14] INFO root fetch - main [MainThread]: End processing [core-module-periodic-table-app]: success
+[2023-05-02 21:50:14] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/13/4d/d1fc4ae9b7b5ba2731634f562a7749df0efdaf4f4aebdef6d703b0a56a67/e3nn_jax-0.9.1.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-common-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:14] INFO root fetch - processPackages [nucliadb-utils]: Start processing: core-oaipmh-harvester-app
+[2023-05-02 21:50:14] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-text-area-app]: Downloading https://files.pythonhosted.org/packages/25/30/5ebca56956bf900aaf9bc08cd0ea892a3857c1523bd4c5ea0ffe6a2833ac/core_module_text_area_app-2.2.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-raw-xml-app]: Start processing: xicsrt
+[2023-05-02 21:50:14] INFO root fetch - main [MainThread]: End processing [core-module-raw-xml-app]: success
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-common-app]: Downloading https://files.pythonhosted.org/packages/d8/57/62452119637bad56f0d058164b24b42ad588417eb6474f001f88e0c6c553/core_oaipmh_common_app-2.2.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [xicsrt]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-status-registry-app]: Downloading https://files.pythonhosted.org/packages/27/ee/8934a7a615b0b28b12ab24f3fa5805a808412e5fea2ab46e7534c5f585e1/core_module_status_registry_app-2.3.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Downloading https://files.pythonhosted.org/packages/3c/d0/781469fff5ef0ec1a91d2c1684a00646bbc999a1d8725f51d30e0e0f0ff1/core_oaipmh_harvester_app-2.2.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/dd/2b/f088a9fd1f6290d72497c0e1f822eff10efb1cc31d30c99f8264b09c3a01/e3nn_jax-0.9.2.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-local-id-registry-app]: Start processing: earthmover
+[2023-05-02 21:50:14] INFO root fetch - main [MainThread]: End processing [core-module-local-id-registry-app]: success
+[2023-05-02 21:50:14] INFO root fetch - processPackages [earthmover]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 21:50:14] INFO root fetch - processPackages [nucliadb]: Start processing: core-oaipmh-provider-app
+[2023-05-02 21:50:14] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-02 21:50:14] INFO root fetch - processPackages [xicsrt]: Downloading https://files.pythonhosted.org/packages/04/a9/78cb22ce10a98caf21c9d85adf76507a05c84dc88a63286a22962c009c2e/xicsrt-0.8.7.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-status-registry-app]: executing diffoscope
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-status-registry-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_status_registry_app-2.2.0.tar.gz tmp/core_module_status_registry_app-2.3.0.tar.gz --markdown 20230502/c/core-module-status-registry-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-text-area-app]: Downloading https://files.pythonhosted.org/packages/30/f5/444f82fca1e587ebd2b9cfb9df9b9e8dd9a8dcf69a499b719ed1ced2f32f/core_module_text_area_app-2.3.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-provider-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-common-app]: Downloading https://files.pythonhosted.org/packages/14/db/e09ef894d1d9d07026a1c5c3cf7d30fa211d2fbdc8985cd8c574f67fe2bc/core_oaipmh_common_app-2.3.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [e3nn-jax]: executing diffoscope
+[2023-05-02 21:50:14] INFO root fetch - processPackages [e3nn-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e3nn_jax-0.9.1.tar.gz tmp/e3nn_jax-0.9.2.tar.gz --markdown 20230502/e/e3nn-jax/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-text-area-app]: executing diffoscope
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-module-text-area-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_module_text_area_app-2.2.0.tar.gz tmp/core_module_text_area_app-2.3.0.tar.gz --markdown 20230502/c/core-module-text-area-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:14] INFO root fetch - processPackages [earthmover]: Downloading https://files.pythonhosted.org/packages/7d/b1/3f9983e796785dbfe08e42546801e70ea2cd31c3fa20259a412c597d4acc/earthmover-0.1.1-py3-none-any.whl
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-provider-app]: Downloading https://files.pythonhosted.org/packages/30/5f/f14cc57918176e2dedb53da445563c7bbb8243dd161cdde87424ce47d1d4/core_oaipmh_provider_app-2.2.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Downloading https://files.pythonhosted.org/packages/4a/0a/a42068a6895b754a70910bb453b678cec1f92ebaab059f32f323f0bfbc6e/core_oaipmh_harvester_app-2.3.0.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-common-app]: executing diffoscope
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-common-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_oaipmh_common_app-2.2.0.tar.gz tmp/core_oaipmh_common_app-2.3.0.tar.gz --markdown 20230502/c/core-oaipmh-common-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:14] INFO root fetch - processPackages [xicsrt]: Downloading https://files.pythonhosted.org/packages/1c/c1/6c6963b000308a206bf71241e23f6aeb7156106aed3774de4694f3337fb9/xicsrt-0.8.8.tar.gz
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: executing diffoscope
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-harvester-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_oaipmh_harvester_app-2.2.0.tar.gz tmp/core_oaipmh_harvester_app-2.3.0.tar.gz --markdown 20230502/c/core-oaipmh-harvester-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:14] INFO root fetch - processPackages [xicsrt]: executing diffoscope
+[2023-05-02 21:50:14] INFO root fetch - processPackages [xicsrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xicsrt-0.8.7.tar.gz tmp/xicsrt-0.8.8.tar.gz --markdown 20230502/x/xicsrt/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-02 21:50:14] INFO root fetch - processPackages [earthmover]: Downloading https://files.pythonhosted.org/packages/ec/68/dfbc7c63481304b6bf8e021b41722dbaa9219e4fd195c3730ac289677f09/earthmover-0.1.2-py3-none-any.whl
+[2023-05-02 21:50:14] INFO root fetch - processPackages [core-oaipmh-provider-app]: Downloading https://files.pythonhosted.org/packages/5e/69/95827d90f75e05f0e1ad2faea4ac6f4f1d3934be0cacde7fa5c4aa39208c/core_oaipmh_provider_app-2.3.0.tar.gz
+[2023-05-02 21:50:15] INFO root fetch - processPackages [earthmover]: executing diffoscope
+[2023-05-02 21:50:15] INFO root fetch - processPackages [earthmover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthmover-0.1.1-py3-none-any.whl.zip tmp/earthmover-0.1.2-py3-none-any.whl.zip --markdown 20230502/e/earthmover/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 21:50:15] INFO root fetch - processPackages [core-oaipmh-provider-app]: executing diffoscope
+[2023-05-02 21:50:15] INFO root fetch - processPackages [core-oaipmh-provider-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_oaipmh_provider_app-2.2.0.tar.gz tmp/core_oaipmh_provider_app-2.3.0.tar.gz --markdown 20230502/c/core-oaipmh-provider-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:15] INFO root fetch - processPackages [core-module-status-registry-app]: Start processing: proceso
+[2023-05-02 21:50:15] INFO root fetch - main [MainThread]: End processing [core-module-status-registry-app]: success
+[2023-05-02 21:50:15] INFO root fetch - processPackages [proceso]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-05-02 21:50:16] INFO root fetch - processPackages [core-module-text-area-app]: Start processing: mypy-boto3-kendra
+[2023-05-02 21:50:16] INFO root fetch - main [MainThread]: End processing [core-module-text-area-app]: success
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-kendra]: New version: [1.26.48] Old Version: [1.26.17]
+[2023-05-02 21:50:16] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/c3/8b/5d94cab43806cfe05c209a9d805cd4cd4c6fdf3cde78c0f8f5d2978cb6c0/proceso-0.0.6.tar.gz
+[2023-05-02 21:50:16] INFO root fetch - processPackages [core-oaipmh-common-app]: Start processing: mypy-boto3-connect
+[2023-05-02 21:50:16] INFO root fetch - main [MainThread]: End processing [core-oaipmh-common-app]: success
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-connect]: New version: [1.26.88] Old Version: [1.26.79]
+[2023-05-02 21:50:16] INFO root fetch - processPackages [proceso]: executing diffoscope
+[2023-05-02 21:50:16] INFO root fetch - processPackages [proceso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proceso-0.0.4.tar.gz tmp/proceso-0.0.6.tar.gz --markdown 20230502/p/proceso/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-kendra]: Downloading https://files.pythonhosted.org/packages/48/8c/bf14b510c8ed42b23cc110fe53d53a877c65db938afaa18d74a243445566/mypy-boto3-kendra-1.26.17.tar.gz
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-connect]: executing diffoscope
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-connect-1.26.79.tar.gz tmp/mypy-boto3-connect-1.26.88.tar.gz --markdown 20230502/m/mypy-boto3-connect/1.26.79-1.26.88/diff.md --exclude *.pyd
+[2023-05-02 21:50:16] INFO root fetch - processPackages [earthmover]: Start processing: mypy-boto3-appflow
+[2023-05-02 21:50:16] INFO root fetch - main [MainThread]: End processing [earthmover]: success
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-appflow]: New version: [1.26.78] Old Version: [1.26.53]
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-kendra]: Downloading https://files.pythonhosted.org/packages/bb/c4/ea6bfddffa0775b16dcd7fa759c08772b1061d4aabe8790d07512a32b676/mypy-boto3-kendra-1.26.48.tar.gz
+[2023-05-02 21:50:16] INFO root fetch - processPackages [xicsrt]: Start processing: mypy-boto3-resiliencehub
+[2023-05-02 21:50:16] INFO root fetch - main [MainThread]: End processing [xicsrt]: success
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-resiliencehub]: New version: [1.26.97] Old Version: [1.26.76]
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-kendra]: executing diffoscope
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-kendra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-kendra-1.26.17.tar.gz tmp/mypy-boto3-kendra-1.26.48.tar.gz --markdown 20230502/m/mypy-boto3-kendra/1.26.17-1.26.48/diff.md --exclude *.pyd
+[2023-05-02 21:50:16] INFO root fetch - processPackages [mypy-boto3-resiliencehub]: Downloading https://files.pythonhosted.org/packages/6d/97/80907a0689081b79f38279e00b30c00b499dbeceba4b385ea3ebb581f5c1/mypy-boto3-resiliencehub-1.26.76.tar.gz
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-appflow]: executing diffoscope
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-appflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-appflow-1.26.53.tar.gz tmp/mypy-boto3-appflow-1.26.78.tar.gz --markdown 20230502/m/mypy-boto3-appflow/1.26.53-1.26.78/diff.md --exclude *.pyd
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-resiliencehub]: Downloading https://files.pythonhosted.org/packages/6e/a7/6e66eba8658b6467dc789361c8a1ba0150fbbde6cd6b336a3ec30e277ecd/mypy-boto3-resiliencehub-1.26.97.tar.gz
+[2023-05-02 21:50:17] INFO root fetch - processPackages [core-oaipmh-provider-app]: Start processing: manimcs
+[2023-05-02 21:50:17] INFO root fetch - main [MainThread]: End processing [core-oaipmh-provider-app]: success
+[2023-05-02 21:50:17] INFO root fetch - processPackages [manimcs]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-02 21:50:17] INFO root fetch - processPackages [e3nn-jax]: Start processing: mypy-boto3-ecs
+[2023-05-02 21:50:17] INFO root fetch - main [MainThread]: End processing [e3nn-jax]: success
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-ecs]: New version: [1.26.78] Old Version: [1.26.7]
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-resiliencehub]: executing diffoscope
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-resiliencehub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-resiliencehub-1.26.76.tar.gz tmp/mypy-boto3-resiliencehub-1.26.97.tar.gz --markdown 20230502/m/mypy-boto3-resiliencehub/1.26.76-1.26.97/diff.md --exclude *.pyd
+[2023-05-02 21:50:17] INFO root fetch - processPackages [manimcs]: executing diffoscope
+[2023-05-02 21:50:17] INFO root fetch - processPackages [manimcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manimcs-0.4-py3-none-any.whl.zip tmp/manimcs-0.4.1.tar.gz --markdown 20230502/m/manimcs/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-ecs]: Downloading https://files.pythonhosted.org/packages/17/92/bf72050d290812f56c8ce87d9c9d3d8546d7f8f36666eac0adabd96870e6/mypy-boto3-ecs-1.26.7.tar.gz
+[2023-05-02 21:50:17] INFO root fetch - processPackages [mypy-boto3-ecs]: Downloading https://files.pythonhosted.org/packages/29/91/1bdba601de164e31c67323cce4baf25d287d31817908299261a503fa46f4/mypy-boto3-ecs-1.26.78.tar.gz
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-ecs]: executing diffoscope
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-ecs-1.26.7.tar.gz tmp/mypy-boto3-ecs-1.26.78.tar.gz --markdown 20230502/m/mypy-boto3-ecs/1.26.7-1.26.78/diff.md --exclude *.pyd
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-kendra]: Start processing: core-parser-app
+[2023-05-02 21:50:18] INFO root fetch - main [MainThread]: End processing [mypy-boto3-kendra]: success
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-parser-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-parser-app]: Downloading https://files.pythonhosted.org/packages/f3/99/4741f83f7d7a1b9a4c98ce8135f36b605074879dcd8721059f03c757deae/core_parser_app-2.2.0.tar.gz
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-connect]: Start processing: mypy-boto3-sagemaker
+[2023-05-02 21:50:18] INFO root fetch - main [MainThread]: End processing [mypy-boto3-connect]: success
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-sagemaker]: New version: [1.26.98] Old Version: [1.26.88]
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-appflow]: Start processing: mypy-boto3
+[2023-05-02 21:50:18] INFO root fetch - main [MainThread]: End processing [mypy-boto3-appflow]: success
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.26.98.tar.gz tmp/mypy-boto3-1.26.99.tar.gz --markdown 20230502/m/mypy-boto3/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-02 21:50:18] INFO root fetch - processPackages [manimcs]: Start processing: core-user-registration-app
+[2023-05-02 21:50:18] INFO root fetch - main [MainThread]: End processing [manimcs]: success
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-user-registration-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-parser-app]: Downloading https://files.pythonhosted.org/packages/21/f2/f3e053db995ff59438a3948fe9d77483df57be4691202add00924e3014b2/core_parser_app-2.3.0.tar.gz
+[2023-05-02 21:50:18] INFO root fetch - processPackages [opensesame-extension-osweb]: Start processing: secure-pickle
+[2023-05-02 21:50:18] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-02 21:50:18] INFO root fetch - processPackages [secure-pickle]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-parser-app]: executing diffoscope
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-parser-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_parser_app-2.2.0.tar.gz tmp/core_parser_app-2.3.0.tar.gz --markdown 20230502/c/core-parser-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-sagemaker]: executing diffoscope
+[2023-05-02 21:50:18] INFO root fetch - processPackages [mypy-boto3-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sagemaker-1.26.88.tar.gz tmp/mypy-boto3-sagemaker-1.26.98.tar.gz --markdown 20230502/m/mypy-boto3-sagemaker/1.26.88-1.26.98/diff.md --exclude *.pyd
+[2023-05-02 21:50:18] INFO root fetch - processPackages [core-user-registration-app]: Downloading https://files.pythonhosted.org/packages/dc/f9/5b203a972c6df182c57e1131f3b74b9fb7f81952c24ec8ae40dc7dd20767/core_user_registration_app-2.2.0.tar.gz
+[2023-05-02 21:50:19] INFO root fetch - processPackages [secure-pickle]: Downloading https://files.pythonhosted.org/packages/88/8b/880f17910b5119b14b2fbb06528eb5223d0b8ee0fd35f478f2037f0014ac/secure_pickle-0.0.6.tar.gz
+[2023-05-02 21:50:19] INFO root fetch - processPackages [core-oaipmh-harvester-app]: Start processing: boto3-stubs
+[2023-05-02 21:50:19] INFO root fetch - main [MainThread]: End processing [core-oaipmh-harvester-app]: success
+[2023-05-02 21:50:19] INFO root fetch - processPackages [boto3-stubs]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-02 21:50:19] INFO root fetch - processPackages [core-user-registration-app]: Downloading https://files.pythonhosted.org/packages/05/cc/f20d73545cd6d176d0789746d9920648c21c6e21dc269a65f07a26460c98/core_user_registration_app-2.3.0.tar.gz
+[2023-05-02 21:50:19] INFO root fetch - processPackages [secure-pickle]: executing diffoscope
+[2023-05-02 21:50:19] INFO root fetch - processPackages [secure-pickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_pickle-0.0.5.tar.gz tmp/secure_pickle-0.0.6.tar.gz --markdown 20230502/s/secure-pickle/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-02 21:50:19] INFO root fetch - processPackages [core-user-registration-app]: executing diffoscope
+[2023-05-02 21:50:19] INFO root fetch - processPackages [core-user-registration-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_user_registration_app-2.2.0.tar.gz tmp/core_user_registration_app-2.3.0.tar.gz --markdown 20230502/c/core-user-registration-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:19] INFO root fetch - processPackages [proceso]: Start processing: boto3-stubs-lite
+[2023-05-02 21:50:19] INFO root fetch - main [MainThread]: End processing [proceso]: success
+[2023-05-02 21:50:19] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.26.99] Old Version: [1.26.98]
+[2023-05-02 21:50:19] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2023-05-02 21:50:19] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.26.98.tar.gz tmp/boto3-stubs-lite-1.26.99.tar.gz --markdown 20230502/b/boto3-stubs-lite/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-02 21:50:19] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2023-05-02 21:50:19] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.26.98.tar.gz tmp/boto3-stubs-1.26.99.tar.gz --markdown 20230502/b/boto3-stubs/1.26.98-1.26.99/diff.md --exclude *.pyd
+[2023-05-02 21:50:19] INFO root fetch - processPackages [mypy-boto3-resiliencehub]: Start processing: core-website-app
+[2023-05-02 21:50:19] INFO root fetch - main [MainThread]: End processing [mypy-boto3-resiliencehub]: success
+[2023-05-02 21:50:19] INFO root fetch - processPackages [core-website-app]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 21:50:20] INFO root fetch - processPackages [mypy-boto3-ecs]: Start processing: local-migrator
+[2023-05-02 21:50:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3-ecs]: success
+[2023-05-02 21:50:20] INFO root fetch - processPackages [core-website-app]: Downloading https://files.pythonhosted.org/packages/06/4f/0ca5aaf2017d43b095b98b57b4fb02a0762cb790f2cf724ed5d88a59f30b/core_website_app-2.2.0.tar.gz
+[2023-05-02 21:50:20] INFO root fetch - processPackages [local-migrator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 21:50:20] INFO root fetch - processPackages [local-migrator]: Downloading https://files.pythonhosted.org/packages/33/d2/35ee1b96ae3c3aca5d96921b4632e565be60e14dd66e1d2ff25341ea8b02/local_migrator-0.1.7.tar.gz
+[2023-05-02 21:50:20] INFO root fetch - processPackages [core-website-app]: Downloading https://files.pythonhosted.org/packages/9f/68/c3325670e9dc1a77d49c495db47f4f518556a3910e15d83f97df85026522/core_website_app-2.3.0.tar.gz
+[2023-05-02 21:50:20] INFO root fetch - processPackages [mypy-boto3]: Start processing: secure-pickle
+[2023-05-02 21:50:20] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2023-05-02 21:50:20] INFO root fetch - processPackages [secure-pickle]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 21:50:20] INFO root fetch - processPackages [core-website-app]: executing diffoscope
+[2023-05-02 21:50:20] INFO root fetch - processPackages [core-website-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_website_app-2.2.0.tar.gz tmp/core_website_app-2.3.0.tar.gz --markdown 20230502/c/core-website-app/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:50:20] INFO root fetch - processPackages [local-migrator]: Downloading https://files.pythonhosted.org/packages/97/b0/262a96c257b04087273d1a11f261b6c4203bc16e5584abff7aa8ab49bf66/local_migrator-0.1.8.tar.gz
+[2023-05-02 21:50:20] INFO root fetch - processPackages [secure-pickle]: Downloading https://files.pythonhosted.org/packages/d1/be/69be56fe2196aaefbead76c626364f1636758a6bc4579506ae2c589f7152/secure_pickle-0.0.7.tar.gz
+[2023-05-02 21:50:20] INFO root fetch - processPackages [local-migrator]: executing diffoscope
+[2023-05-02 21:50:20] INFO root fetch - processPackages [local-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_migrator-0.1.7.tar.gz tmp/local_migrator-0.1.8.tar.gz --markdown 20230502/l/local-migrator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 21:50:21] INFO root fetch - processPackages [secure-pickle]: executing diffoscope
+[2023-05-02 21:50:21] INFO root fetch - processPackages [secure-pickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_pickle-0.0.6.tar.gz tmp/secure_pickle-0.0.7.tar.gz --markdown 20230502/s/secure-pickle/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 21:50:21] INFO root fetch - main [MainThread]: End processing [secure-pickle]: success
+[2023-05-02 21:50:21] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sagemaker]: success
+[2023-05-02 21:50:21] INFO root fetch - main [MainThread]: End processing [core-user-registration-app]: success
+[2023-05-02 21:50:22] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2023-05-02 21:50:22] INFO root fetch - main [MainThread]: End processing [local-migrator]: success
+[2023-05-02 21:50:22] INFO root fetch - main [MainThread]: End processing [core-parser-app]: success
+[2023-05-02 21:50:22] INFO root fetch - main [MainThread]: End processing [core-website-app]: success
+[2023-05-02 21:50:23] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2023-05-02 21:50:25] INFO root fetch - main [MainThread]: End processing [secure-pickle]: success
+[2023-05-02 21:50:30] INFO root fetch - main [MainThread]: End processing [core-module-remote-blob-host-app]: success
+[2023-05-02 21:50:30] INFO root fetch - main [MainThread]: Store serial: [17946420]
