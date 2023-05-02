@@ -16636,3 +16636,135 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 17:45:06] INFO root fetch - main [MainThread]: End processing [starlite]: success
 [2023-05-02 17:45:06] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
 [2023-05-02 17:45:06] INFO root fetch - main [MainThread]: Store serial: [17943135]
+[2023-05-02 17:50:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943135]
+[2023-05-02 17:50:15] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mx-platform-python
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaco2
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure-native
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygame-menu
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-core
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glue-helper-lib
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moleculekit
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-eric-autoDetekt
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygame-menu-ce
+[2023-05-02 17:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cozo-embedded
+[2023-05-02 17:50:16] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [jaco2]: New version: [2.0] Old Version: [1.9]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [mx-platform-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pygame-menu-ce]: New version: [4.4.3] Old Version: [4.4.2]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [cozo-embedded]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pygame-menu]: New version: [4.4.3] Old Version: [4.4.2]
+[2023-05-02 17:50:16] WARNING root fetch - processPackages [certora-cli-alpha-eric-autoDetekt]: Skipping, unable to determine old version
+[2023-05-02 17:50:16] INFO root fetch - processPackages [certora-cli-alpha-eric-autoDetekt]: Start processing: openneurofirstlevel
+[2023-05-02 17:50:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-autoDetekt] error
+[2023-05-02 17:50:16] INFO root fetch - processPackages [moleculekit]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-05-02 17:50:16] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.3.0.tar.gz tmp/glue_helper_lib-0.3.1.tar.gz --markdown 20230502/g/glue-helper-lib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 17:50:16] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: docker-composer-v2
+[2023-05-02 17:50:16] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-05-02 17:50:16] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/ec/eb/6f482dbc6010fd3403e6bf5ff85accc748c631d111b36f9d0d3b22f7b258/jaco2-1.9.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [mx-platform-python]: Downloading https://files.pythonhosted.org/packages/b9/2a/d1f30f6f73fc3b0849ae6677faf2c5ce5dafd3cdc1887df0ac37ac66511e/mx-platform-python-0.9.1.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [openneurofirstlevel]: New version: [0.2] Old Version: [0.1]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [cozo-embedded]: Downloading https://files.pythonhosted.org/packages/d3/17/6684c89d509efc6efee5107421baba32b3e2a607787124beec168524980b/cozo_embedded-0.6.0-cp37-abi3-win_amd64.whl
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pygame-menu-ce]: Downloading https://files.pythonhosted.org/packages/c8/c5/1403281ca6717d3b0b9b9cfc99d767062263406588076f6588907c2470e6/pygame-menu-ce-4.4.2.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pygame-menu]: Downloading https://files.pythonhosted.org/packages/e0/7a/588d2c5e353fef03d692ac923ee7242f53f80df784b20d573a0fa9fa1efa/pygame-menu-4.4.2.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/01/31/1debf4b7c89e0060dc1f7d19ab348e627b9183890a8e443c1ee54ee3bd6c/moleculekit-1.6.4.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-05-02 17:50:16] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230502/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-05-02 17:50:16] INFO root fetch - processPackages [docker-composer-v2]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-02 17:50:16] INFO root fetch - processPackages [openneurofirstlevel]: Downloading https://files.pythonhosted.org/packages/7d/e4/52c54f22b0be2ac4d32fa563246f3c87c19dd44ab19c7eb72b24fac94974/openneurofirstlevel-0.1.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/f1/62/fbeb59d479cfa04f727def3ce37cfa18a498f1c17cadd4c8e9d045b522e9/jaco2-2.0.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [docker-composer-v2]: Downloading https://files.pythonhosted.org/packages/c4/b8/5b068f4426c2f87a31438f96db21c3041526499d15d5352cd86560b58fdb/docker_composer_v2-0.8.7.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [mx-platform-python]: Downloading https://files.pythonhosted.org/packages/17/82/b60fc7f40b00df6261b3a97dd00561b549791e4695995d5a86892fa1d888/mx-platform-python-0.9.2.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 17:50:16] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-1.9.tar.gz tmp/jaco2-2.0.tar.gz --markdown 20230502/j/jaco2/1.9-2.0/diff.md --exclude *.pyd
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pygame-menu-ce]: Downloading https://files.pythonhosted.org/packages/cf/dd/f4d4323e35ef6a0a07a33548cd9233a92a98a9d87e0bf302054ab1712654/pygame-menu-ce-4.4.3.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [pygame-menu]: Downloading https://files.pythonhosted.org/packages/8c/e1/1a08661c422df56622f9618be268c671a9a9fde7ee532a9f8d2e2e1da13b/pygame-menu-4.4.3.tar.gz
+[2023-05-02 17:50:16] INFO root fetch - processPackages [mx-platform-python]: executing diffoscope
+[2023-05-02 17:50:16] INFO root fetch - processPackages [mx-platform-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mx-platform-python-0.9.1.tar.gz tmp/mx-platform-python-0.9.2.tar.gz --markdown 20230502/m/mx-platform-python/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-02 17:50:16] INFO root fetch - processPackages [docker-composer-v2]: Downloading https://files.pythonhosted.org/packages/eb/f1/17815094a6c2b379b3d470992ab7648db4a3c5a0f4c25f2f1dc412f3a0ee/docker_composer_v2-0.8.8.tar.gz
+[2023-05-02 17:50:17] INFO root fetch - processPackages [pygame-menu-ce]: executing diffoscope
+[2023-05-02 17:50:17] INFO root fetch - processPackages [pygame-menu-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame-menu-ce-4.4.2.tar.gz tmp/pygame-menu-ce-4.4.3.tar.gz --markdown 20230502/p/pygame-menu-ce/4.4.2-4.4.3/diff.md --exclude *.pyd
+[2023-05-02 17:50:17] INFO root fetch - processPackages [pygame-menu]: executing diffoscope
+[2023-05-02 17:50:17] INFO root fetch - processPackages [pygame-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame-menu-4.4.2.tar.gz tmp/pygame-menu-4.4.3.tar.gz --markdown 20230502/p/pygame-menu/4.4.2-4.4.3/diff.md --exclude *.pyd
+[2023-05-02 17:50:17] INFO root fetch - processPackages [docker-composer-v2]: executing diffoscope
+[2023-05-02 17:50:17] INFO root fetch - processPackages [docker-composer-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_composer_v2-0.8.7.tar.gz tmp/docker_composer_v2-0.8.8.tar.gz --markdown 20230502/d/docker-composer-v2/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-02 17:50:17] INFO root fetch - processPackages [glue-helper-lib]: Start processing: MediaLib
+[2023-05-02 17:50:17] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-05-02 17:50:17] INFO root fetch - processPackages [cozo-embedded]: Downloading https://files.pythonhosted.org/packages/f6/49/6ab54491a5b22c21e6bdbbbb4a2d827f7e6b4f3061085c060311c9ab36af/cozo_embedded-0.7.0-cp37-abi3-win_amd64.whl
+[2023-05-02 17:50:17] INFO root fetch - processPackages [MediaLib]: New version: [3.0.1.5] Old Version: [3.0.1.4]
+[2023-05-02 17:50:17] INFO root fetch - processPackages [openneurofirstlevel]: Downloading https://files.pythonhosted.org/packages/fa/c9/5de562b93b4ec3398889efef81d192bb7923ec21a0f70530493471e9c7ba/openneurofirstlevel-0.2.tar.gz
+[2023-05-02 17:50:17] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/d6/3a/77427acaba2c2b4670a4b94ce5cd161b60ac547e812a6337374265f3272d/moleculekit-1.6.5.tar.gz
+[2023-05-02 17:50:17] INFO root fetch - processPackages [MediaLib]: Downloading https://files.pythonhosted.org/packages/fd/67/c2b4dab9b348f8906e2e3eaf0f4f54bca257b64086916f124dd5301cdab9/MediaLib-3.0.1.4.tar.gz
+[2023-05-02 17:50:17] INFO root fetch - processPackages [openneurofirstlevel]: executing diffoscope
+[2023-05-02 17:50:17] INFO root fetch - processPackages [openneurofirstlevel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openneurofirstlevel-0.1.tar.gz tmp/openneurofirstlevel-0.2.tar.gz --markdown 20230502/o/openneurofirstlevel/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 17:50:17] INFO root fetch - processPackages [MediaLib]: Downloading https://files.pythonhosted.org/packages/eb/a6/065c7e85a46675308967e25f4e3ea5816a880b98bb91087ba2a4a3c6406a/MediaLib-3.0.1.5.tar.gz
+[2023-05-02 17:50:17] INFO root fetch - processPackages [jaco2]: Start processing: pycryptographymodule
+[2023-05-02 17:50:17] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 17:50:18] WARNING root fetch - processPackages [pycryptographymodule]: Skipping, unable to determine old version
+[2023-05-02 17:50:18] INFO root fetch - processPackages [pycryptographymodule]: Start processing: cybrid-api-id-python
+[2023-05-02 17:50:18] INFO root fetch - main [MainThread]: End processing [pycryptographymodule] error
+[2023-05-02 17:50:18] INFO root fetch - processPackages [MediaLib]: executing diffoscope
+[2023-05-02 17:50:18] INFO root fetch - processPackages [MediaLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MediaLib-3.0.1.4.tar.gz tmp/MediaLib-3.0.1.5.tar.gz --markdown 20230502/M/MediaLib/3.0.1.4-3.0.1.5/diff.md --exclude *.pyd
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 17:50:18] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2023-05-02 17:50:18] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.6.4.tar.gz tmp/moleculekit-1.6.5.tar.gz --markdown 20230502/m/moleculekit/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-02 17:50:18] INFO root fetch - processPackages [openneurofirstlevel]: Start processing: cybrid-api-organization-python
+[2023-05-02 17:50:18] INFO root fetch - main [MainThread]: End processing [openneurofirstlevel]: success
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 17:50:18] INFO root fetch - processPackages [docker-composer-v2]: Start processing: cybrid-api-bank-python
+[2023-05-02 17:50:18] INFO root fetch - main [MainThread]: End processing [docker-composer-v2]: success
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cozo-embedded]: executing diffoscope
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cozo-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_embedded-0.6.0-cp37-abi3-win_amd64.whl.zip tmp/cozo_embedded-0.7.0-cp37-abi3-win_amd64.whl.zip --markdown 20230502/c/cozo-embedded/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 17:50:18] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 17:50:19] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-02 17:50:19] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 17:50:19] INFO root fetch - processPackages [MediaLib]: Start processing: cinder
+[2023-05-02 17:50:19] INFO root fetch - main [MainThread]: End processing [MediaLib]: success
+[2023-05-02 17:50:19] INFO root fetch - processPackages [cinder]: New version: [22.0.0.0rc2] Old Version: [22.0.0.0rc1]
+[2023-05-02 17:50:19] INFO root fetch - processPackages [pygame-menu-ce]: Start processing: pycozo
+[2023-05-02 17:50:19] INFO root fetch - main [MainThread]: End processing [pygame-menu-ce]: success
+[2023-05-02 17:50:19] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2023-05-02 17:50:19] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-22.0.0.0rc1.tar.gz tmp/cinder-22.0.0.0rc2.tar.gz --markdown 20230502/c/cinder/22.0.0.0rc1-22.0.0.0rc2/diff.md --exclude *.pyd
+[2023-05-02 17:50:19] INFO root fetch - processPackages [pycozo]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-02 17:50:19] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: nexus-utilities
+[2023-05-02 17:50:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-02 17:50:19] INFO root fetch - processPackages [nexus-utilities]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-02 17:50:20] INFO root fetch - processPackages [pycozo]: Downloading https://files.pythonhosted.org/packages/e7/f5/b35f28282ccc0451889239d6b25f18ca7c3e2dbd8c29e6b7860059a26f16/pycozo-0.6.0.tar.gz
+[2023-05-02 17:50:20] INFO root fetch - processPackages [cozo-embedded]: Start processing: python-cinderclient
+[2023-05-02 17:50:20] INFO root fetch - main [MainThread]: End processing [cozo-embedded]: success
+[2023-05-02 17:50:20] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/da/67/6f21308dee47ca1981a272050e406f266d2fdaeec04614268afa8acc5288/nexus-utilities-0.1.7.tar.gz
+[2023-05-02 17:50:20] INFO root fetch - processPackages [python-cinderclient]: New version: [9.3.0] Old Version: [9.2.0]
+[2023-05-02 17:50:20] INFO root fetch - processPackages [nexus-utilities]: executing diffoscope
+[2023-05-02 17:50:20] INFO root fetch - processPackages [nexus-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus-utilities-0.1.6.tar.gz tmp/nexus-utilities-0.1.7.tar.gz --markdown 20230502/n/nexus-utilities/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-02 17:50:20] INFO root fetch - processPackages [pycozo]: Downloading https://files.pythonhosted.org/packages/26/2e/5ec4f9fcbc4db8715bae0c77aa86b0dcbe79ecc83e1cdea3c94f640bc1d4/pycozo-0.7.0.tar.gz
+[2023-05-02 17:50:20] INFO root fetch - processPackages [python-cinderclient]: Downloading https://files.pythonhosted.org/packages/9d/f6/b32f1ff535052aa763ea05f87ad4df2d4b55b8ba84b3ba03bfa0f73bef18/python-cinderclient-9.2.0.tar.gz
+[2023-05-02 17:50:20] INFO root fetch - processPackages [mx-platform-python]: Start processing: MediaLib
+[2023-05-02 17:50:20] INFO root fetch - main [MainThread]: End processing [mx-platform-python]: success
+[2023-05-02 17:50:20] INFO root fetch - processPackages [MediaLib]: New version: [3.0.1.5] Old Version: [3.0.1.4]
+[2023-05-02 17:50:20] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-02 17:50:20] INFO root fetch - processPackages [pycozo]: executing diffoscope
+[2023-05-02 17:50:20] INFO root fetch - processPackages [pycozo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycozo-0.6.0.tar.gz tmp/pycozo-0.7.0.tar.gz --markdown 20230502/p/pycozo/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 17:50:20] INFO root fetch - processPackages [MediaLib]: executing diffoscope
+[2023-05-02 17:50:20] INFO root fetch - processPackages [MediaLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MediaLib-3.0.1.4.tar.gz tmp/MediaLib-3.0.1.5.tar.gz --markdown 20230502/M/MediaLib/3.0.1.4-3.0.1.5/diff.md --exclude *.pyd
+[2023-05-02 17:50:20] INFO root fetch - processPackages [python-cinderclient]: Downloading https://files.pythonhosted.org/packages/65/9e/00a4c9687423ebfc7d1dc1ae9cf3f77a431528d9cc183a2c5ba898c9bff7/python-cinderclient-9.3.0.tar.gz
+[2023-05-02 17:50:21] INFO root fetch - processPackages [python-cinderclient]: executing diffoscope
+[2023-05-02 17:50:21] INFO root fetch - processPackages [python-cinderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cinderclient-9.2.0.tar.gz tmp/python-cinderclient-9.3.0.tar.gz --markdown 20230502/p/python-cinderclient/9.2.0-9.3.0/diff.md --exclude *.pyd
+[2023-05-02 17:50:21] INFO root fetch - main [MainThread]: End processing [nexus-utilities]: success
+[2023-05-02 17:50:21] INFO root fetch - main [MainThread]: End processing [pycozo]: success
+[2023-05-02 17:50:21] INFO root fetch - main [MainThread]: End processing [pygame-menu]: success
+[2023-05-02 17:50:21] INFO root fetch - main [MainThread]: End processing [MediaLib]: success
+[2023-05-02 17:50:22] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-02 17:50:23] INFO root fetch - main [MainThread]: End processing [python-cinderclient]: success
+[2023-05-02 17:50:28] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-05-02 17:50:29] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2023-05-02 17:51:53] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2023-05-02 17:51:53] INFO root fetch - main [MainThread]: Store serial: [17943201]
