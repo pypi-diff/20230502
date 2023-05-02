@@ -17296,3 +17296,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 18:20:34] INFO root fetch - main [MainThread]: End processing [flask-useful]: success
 [2023-05-02 18:20:42] INFO root fetch - main [MainThread]: End processing [roadrecon]: success
 [2023-05-02 18:20:42] INFO root fetch - main [MainThread]: Store serial: [17943522]
+[2023-05-02 18:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943522]
+[2023-05-02 18:25:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geode-ml
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolibs
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-c
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-manga-translator
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scooby
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda110
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-tools
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aafragpy
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cs-models
+[2023-05-02 18:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaco2
+[2023-05-02 18:25:52] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [scooby]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [dolibs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: New version: [20230502.16.21.634845] Old Version: [20230501.8.14.736617]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [geode-ml]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [np-tools]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [aafragpy]: New version: [1.14.4] Old Version: [1.14.3]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [jaco2]: New version: [2.2] Old Version: [2.1]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-05-02 18:25:52] WARNING root fetch - processPackages [nvidia-dali-nightly-cuda110]: Skipping, unable to determine old version
+[2023-05-02 18:25:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: lesscode-tool
+[2023-05-02 18:25:52] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110] error
+[2023-05-02 18:25:52] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/2e/6b/51acc5405a50371256ffa5a379163fab3bddede39b9ea8184033915921ba/dolibs-0.1.1.tar.gz
+[2023-05-02 18:25:52] INFO root fetch - processPackages [scooby]: Downloading https://files.pythonhosted.org/packages/63/4c/ea84bedc376e4ca0b360f2706a4b98ec01dcef14946dd8be21e43009f9b4/scooby-0.7.1.tar.gz
+[2023-05-02 18:25:52] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Downloading https://files.pythonhosted.org/packages/99/a0/bd4074eb0b58c995f812a34d9acc37dce6cbe29b3118cd37aa33cf4b0456/certora-cli-alpha-roy-CERT-1891-allocId-c-20230501.8.14.736617.tar.gz
+[2023-05-02 18:25:52] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/5b/eb/a007d6ed82a8df24c64663e378ebc797afcba760f8a56a8c744e905d3b6f/np_tools-0.1.4.tar.gz
+[2023-05-02 18:25:52] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: Downloading https://files.pythonhosted.org/packages/98/71/aa5ae21abaf12aba0e1aace435fcd898043fe8647367bb9eaab84e64a480/nonebot_plugin_manga_translator-0.1.2.tar.gz
+[2023-05-02 18:25:52] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/4a/32/4f5f284a4f5533cc56cd9cce09ea77f32069d50a3f313bc8125cb1bc3c43/jaco2-2.2.tar.gz
+[2023-05-02 18:25:52] WARNING root fetch - processPackages [lesscode-tool]: Skipping, unable to determine old version
+[2023-05-02 18:25:52] INFO root fetch - processPackages [lesscode-tool]: Start processing: proteus-runtime
+[2023-05-02 18:25:52] INFO root fetch - main [MainThread]: End processing [lesscode-tool] error
+[2023-05-02 18:25:52] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Skipping package: exceeds size limit 38306033>=10485760
+[2023-05-02 18:25:52] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Start processing: PlotSpectrumNiceAndEasy
+[2023-05-02 18:25:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-c] error
+[2023-05-02 18:25:52] INFO root fetch - processPackages [aafragpy]: Downloading https://files.pythonhosted.org/packages/f2/18/6aff57d2304ac35c432d61424397ae63c1da95359b2fd25e5e088d682fbe/aafragpy-1.14.3.tar.gz
+[2023-05-02 18:25:52] WARNING root fetch - processPackages [aafragpy]: Skipping package: exceeds size limit 36036271>=10485760
+[2023-05-02 18:25:52] INFO root fetch - processPackages [aafragpy]: Start processing: pore-c-py
+[2023-05-02 18:25:52] INFO root fetch - main [MainThread]: End processing [aafragpy] error
+[2023-05-02 18:25:52] WARNING root fetch - processPackages [PlotSpectrumNiceAndEasy]: Skipping, unable to determine old version
+[2023-05-02 18:25:52] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: Start processing: bifrost-bsx-tools
+[2023-05-02 18:25:52] INFO root fetch - main [MainThread]: End processing [PlotSpectrumNiceAndEasy] error
+[2023-05-02 18:25:52] INFO root fetch - processPackages [proteus-runtime]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 18:25:52] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: executing diffoscope
+[2023-05-02 18:25:52] INFO root fetch - processPackages [nonebot-plugin-manga-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_manga_translator-0.1.1.tar.gz tmp/nonebot_plugin_manga_translator-0.1.2.tar.gz --markdown 20230502/n/nonebot-plugin-manga-translator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 18:25:52] INFO root fetch - processPackages [geode-ml]: Downloading https://files.pythonhosted.org/packages/b5/da/53257e0936575790c586f1d8d1aa0d83b8ccafa2e169def354904050fee8/geode-ml-2.6.9.tar.gz
+[2023-05-02 18:25:52] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 18:25:52] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.1.tar.gz tmp/jaco2-2.2.tar.gz --markdown 20230502/j/jaco2/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-02 18:25:52] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-05-02 18:25:52] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230502/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [bifrost-bsx-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 18:25:53] INFO root fetch - processPackages [pore-c-py]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-02 18:25:53] INFO root fetch - processPackages [dolibs]: Downloading https://files.pythonhosted.org/packages/1e/f8/d9dc10aae27b767602502bd16dd4eb5970b311114cd0bba47c3466273b66/dolibs-0.1.2.tar.gz
+[2023-05-02 18:25:53] INFO root fetch - processPackages [geode-ml]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [geode-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geode-ml-2.6.8.tar.gz tmp/geode-ml-2.6.9.tar.gz --markdown 20230502/g/geode-ml/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/c7/92/8224707c2552157ecd45ecf6395ae21132d42f4480fd245e3143e49d9750/np_tools-0.1.6.tar.gz
+[2023-05-02 18:25:53] INFO root fetch - processPackages [scooby]: Downloading https://files.pythonhosted.org/packages/cf/09/b0cb2e79e9e140f3bd113612be2dadde9e0fa66f8914b49ae20e3d41e38f/scooby-0.7.2.tar.gz
+[2023-05-02 18:25:53] INFO root fetch - processPackages [dolibs]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [dolibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolibs-0.1.1.tar.gz tmp/dolibs-0.1.2.tar.gz --markdown 20230502/d/dolibs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [pore-c-py]: Downloading https://files.pythonhosted.org/packages/37/87/640ee0f1f776e1395296cabd1f57d6e0783fbebceeadb00771500c81ac0a/pore-c-py-2.0.3.tar.gz
+[2023-05-02 18:25:53] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [scooby]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.4.tar.gz tmp/np_tools-0.1.6.tar.gz --markdown 20230502/n/np-tools/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [scooby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scooby-0.7.1.tar.gz tmp/scooby-0.7.2.tar.gz --markdown 20230502/s/scooby/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [bifrost-bsx-tools]: Downloading https://files.pythonhosted.org/packages/42/6c/575e6525ec6f1c31f074ec7cb9cff8d44a2cec2798eec9ee5187061ade83/bifrost_bsx_tools-0.0.4.tar.gz
+[2023-05-02 18:25:53] INFO root fetch - processPackages [proteus-runtime]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [proteus-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_runtime-0.2.8.tar.gz tmp/proteus_runtime-0.2.9.tar.gz --markdown 20230502/p/proteus-runtime/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [bifrost-bsx-tools]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [bifrost-bsx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bifrost_bsx_tools-0.0.3.tar.gz tmp/bifrost_bsx_tools-0.0.4.tar.gz --markdown 20230502/b/bifrost-bsx-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 18:25:53] INFO root fetch - processPackages [pore-c-py]: Downloading https://files.pythonhosted.org/packages/c0/80/ae28fb5bcf65c145c815292a052cd7c7c795551ce21398c60dc76878b852/pore-c-py-2.0.4.tar.gz
+[2023-05-02 18:25:53] INFO root fetch - processPackages [pore-c-py]: executing diffoscope
+[2023-05-02 18:25:53] INFO root fetch - processPackages [pore-c-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pore-c-py-2.0.3.tar.gz tmp/pore-c-py-2.0.4.tar.gz --markdown 20230502/p/pore-c-py/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-manga-translator]: success
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [dolibs]: success
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [bifrost-bsx-tools]: success
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [geode-ml]: success
+[2023-05-02 18:25:54] INFO root fetch - main [MainThread]: End processing [proteus-runtime]: success
+[2023-05-02 18:25:55] INFO root fetch - main [MainThread]: End processing [pore-c-py]: success
+[2023-05-02 18:25:55] INFO root fetch - main [MainThread]: End processing [scooby]: success
+[2023-05-02 18:25:55] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-05-02 18:25:55] INFO root fetch - main [MainThread]: Store serial: [17943575]
