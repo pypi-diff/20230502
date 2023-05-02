@@ -13228,3 +13228,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 14:57:29] INFO root fetch - main [MainThread]: End processing [myeia]: success
 [2023-05-02 14:57:31] INFO root fetch - main [MainThread]: End processing [clickhouse-driver]: success
 [2023-05-02 14:57:31] INFO root fetch - main [MainThread]: Store serial: [17940790]
+[2023-05-02 15:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940790]
+[2023-05-02 15:02:40] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydmt
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappadata
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwiszenko-med
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaco2
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peppyproject
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aa-package-monitor
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TuoTuo
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaaql-middleware-python
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ibllib
+[2023-05-02 15:02:40] INFO root fetch - processPackages [pydmt]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: New version: [20230502.9.51.50645] Old Version: [20230501.13.46.98174]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [TuoTuo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Downloading https://files.pythonhosted.org/packages/df/c1/a1dddf38a599c498e3783b07b2cbe349be4e59819b46e14ddaf09ec32089/certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support-20230501.13.46.98174.tar.gz
+[2023-05-02 15:02:40] WARNING root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Skipping package: exceeds size limit 38298086>=10485760
+[2023-05-02 15:02:40] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Start processing: golfir
+[2023-05-02 15:02:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support] error
+[2023-05-02 15:02:40] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-05-02 15:02:40] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.90.tar.gz tmp/pydmt-0.1.91.tar.gz --markdown 20230502/p/pydmt/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-02 15:02:40] WARNING root fetch - processPackages [jaco2]: Skipping, unable to determine old version
+[2023-05-02 15:02:40] INFO root fetch - processPackages [jaco2]: Start processing: sqlalchemy-iris
+[2023-05-02 15:02:40] INFO root fetch - main [MainThread]: End processing [jaco2] error
+[2023-05-02 15:02:40] WARNING root fetch - processPackages [mwiszenko-med]: Skipping, unable to determine old version
+[2023-05-02 15:02:40] INFO root fetch - processPackages [mwiszenko-med]: Start processing: datarobot-drum
+[2023-05-02 15:02:40] INFO root fetch - main [MainThread]: End processing [mwiszenko-med] error
+[2023-05-02 15:02:40] INFO root fetch - processPackages [aa-package-monitor]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-02 15:02:40] WARNING root fetch - processPackages [golfir]: Skipping, unable to determine old version
+[2023-05-02 15:02:40] INFO root fetch - processPackages [peppyproject]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [golfir]: Start processing: dipex
+[2023-05-02 15:02:40] INFO root fetch - main [MainThread]: End processing [golfir] error
+[2023-05-02 15:02:40] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.7.2] Old Version: [4.6.6]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [ibllib]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-05-02 15:02:40] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20230502/s/sqlalchemy-iris/0.8.1b1-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 15:02:40] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/39/50/15cf643526011dcb116ca1bef02aa9919f77a1ba91ae5ea0363d55b6ace9/TuoTuo-0.1.1.tar.gz
+[2023-05-02 15:02:40] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-05-02 15:02:40] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-02 15:02:40] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230502/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-02 15:02:41] INFO root fetch - processPackages [peppyproject]: Downloading https://files.pythonhosted.org/packages/b3/a1/ded540e5b08733e6150ef050e12e4010df809823a84af3d337d1544a7bb7/peppyproject-1.0.0.tar.gz
+[2023-05-02 15:02:41] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/ab/89/44c95a037d76b6889d7b1fff4e582da5f6dd09e65a3587c657816840b22a/ibllib-2.9.0.tar.gz
+[2023-05-02 15:02:41] INFO root fetch - processPackages [aa-package-monitor]: Downloading https://files.pythonhosted.org/packages/fc/f7/2e10da76ebb5c138616d42e05f0867bd1b7e4d48775ebf1b4a52c50d4f2a/aa_package_monitor-1.9.2.tar.gz
+[2023-05-02 15:02:41] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/11/9f/c3ec4fee54b187642be91b2a0182ff75df96f918e8736cfd1c4bf932241e/jaaql-middleware-python-4.7.2.tar.gz
+[2023-05-02 15:02:41] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-05-02 15:02:41] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230502/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 15:02:41] INFO root fetch - processPackages [peppyproject]: Downloading https://files.pythonhosted.org/packages/fe/12/6e482fa39a7cc3bce27ec9cf238a08c392aa0f2ebc8741443211550653ea/peppyproject-1.0.1.tar.gz
+[2023-05-02 15:02:41] INFO root fetch - processPackages [aa-package-monitor]: executing diffoscope
+[2023-05-02 15:02:41] INFO root fetch - processPackages [aa-package-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_package_monitor-1.9.1.tar.gz tmp/aa_package_monitor-1.9.2.tar.gz --markdown 20230502/a/aa-package-monitor/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-02 15:02:41] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 15:02:41] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.6.6.tar.gz tmp/jaaql-middleware-python-4.7.2.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.6.6-4.7.2/diff.md --exclude *.pyd
+[2023-05-02 15:02:41] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 15:02:41] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.1.0.tar.gz tmp/TuoTuo-0.1.1.tar.gz --markdown 20230502/T/TuoTuo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 15:02:41] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-05-02 15:02:41] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230502/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-05-02 15:02:41] INFO root fetch - processPackages [peppyproject]: executing diffoscope
+[2023-05-02 15:02:41] INFO root fetch - processPackages [peppyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peppyproject-1.0.0.tar.gz tmp/peppyproject-1.0.1.tar.gz --markdown 20230502/p/peppyproject/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 15:02:42] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/c5/45/5d61840e022b5979571f2e5f0e06601d558f19541bda74d82e3389bf7968/ibllib-2.9.1.tar.gz
+[2023-05-02 15:02:43] INFO root fetch - processPackages [TuoTuo]: Start processing: ethereum-etl
+[2023-05-02 15:02:43] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 15:02:43] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-05-02 15:02:43] INFO root fetch - main [MainThread]: End processing [peppyproject]: success
+[2023-05-02 15:02:43] INFO root fetch - processPackages [ethereum-etl]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-02 15:02:43] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 15:02:43] INFO root fetch - processPackages [ethereum-etl]: Downloading https://files.pythonhosted.org/packages/e3/50/5e8c40642a405c2b35a456ea3e7b7c7f7ac86777c744bdd17f98c8c5c10c/ethereum-etl-2.2.0.tar.gz
+[2023-05-02 15:02:43] INFO root fetch - main [MainThread]: End processing [aa-package-monitor]: success
+[2023-05-02 15:02:43] INFO root fetch - processPackages [ethereum-etl]: Downloading https://files.pythonhosted.org/packages/b6/31/b6f7825e28aa41901209e945a2da22d8d67933466317ddc9a4fa33a9ba0e/ethereum-etl-2.2.1.tar.gz
+[2023-05-02 15:02:43] INFO root fetch - processPackages [ethereum-etl]: executing diffoscope
+[2023-05-02 15:02:43] INFO root fetch - processPackages [ethereum-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethereum-etl-2.2.0.tar.gz tmp/ethereum-etl-2.2.1.tar.gz --markdown 20230502/e/ethereum-etl/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-02 15:02:44] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-05-02 15:02:44] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-05-02 15:02:44] INFO root fetch - processPackages [ibllib]: executing diffoscope
+[2023-05-02 15:02:44] INFO root fetch - processPackages [ibllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibllib-2.9.0.tar.gz tmp/ibllib-2.9.1.tar.gz --markdown 20230502/i/ibllib/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-02 15:02:45] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-02 15:02:45] INFO root fetch - main [MainThread]: End processing [ethereum-etl]: success
+[2023-05-02 15:02:49] INFO root fetch - main [MainThread]: End processing [ibllib]: success
+[2023-05-02 15:05:41] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
+[2023-05-02 15:05:41] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
+[2023-05-02 15:05:41] INFO root fetch - main [MainThread]: Store serial: [17940903]
