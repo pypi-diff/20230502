@@ -7160,3 +7160,32 @@
 [2023-05-02 08:30:15] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
 [2023-05-02 08:30:37] INFO root fetch - main [MainThread]: End processing [pyssg]: success
 [2023-05-02 08:30:37] INFO root fetch - main [MainThread]: Store serial: [17937011]
+[2023-05-02 08:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937011]
+[2023-05-02 08:35:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqt5-auto-translate
+[2023-05-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylib019
+[2023-05-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxsp
+[2023-05-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mylib-004
+[2023-05-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: painter-coronary-arteries
+[2023-05-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mylib-051
+[2023-05-02 08:35:46] INFO root fetch - processPackages [pyqt5-auto-translate]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 08:35:46] WARNING root fetch - processPackages [painter-coronary-arteries]: Skipping, unable to determine old version
+[2023-05-02 08:35:46] INFO root fetch - main [MainThread]: End processing [painter-coronary-arteries] error
+[2023-05-02 08:35:46] INFO root fetch - processPackages [dxsp]: New version: [1.6.0] Old Version: [1.5.4]
+[2023-05-02 08:35:46] WARNING root fetch - processPackages [mylib019]: Skipping, unable to determine old version
+[2023-05-02 08:35:46] INFO root fetch - main [MainThread]: End processing [mylib019] error
+[2023-05-02 08:35:46] WARNING root fetch - processPackages [mylib-051]: Skipping, unable to determine old version
+[2023-05-02 08:35:46] INFO root fetch - main [MainThread]: End processing [mylib-051] error
+[2023-05-02 08:35:46] WARNING root fetch - processPackages [mylib-004]: Skipping, unable to determine old version
+[2023-05-02 08:35:46] INFO root fetch - main [MainThread]: End processing [mylib-004] error
+[2023-05-02 08:35:46] INFO root fetch - processPackages [pyqt5-auto-translate]: Downloading https://files.pythonhosted.org/packages/3b/ae/5d011aa98b70d8da2f18485f066a1a54d68e8f4a255a38a150b9b2e90ae4/pyqt5_auto_translate-0.1.0.tar.gz
+[2023-05-02 08:35:46] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a8/09/6f182e5180383306a6fbd4792d9891bf24d663659c2e7425e9a440a3cbb7/dxsp-1.5.4.tar.gz
+[2023-05-02 08:35:46] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/68/2a/cfbce40e6404ffcaf10b8e39181939887794db055916d2ff4c28e34d4ec7/dxsp-1.6.0.tar.gz
+[2023-05-02 08:35:46] INFO root fetch - processPackages [pyqt5-auto-translate]: Downloading https://files.pythonhosted.org/packages/e3/b4/af1ca101013c47d4f9e8898b490f98262e38cd57d6609b888bc33f03f5d4/pyqt5_auto_translate-0.1.1.tar.gz
+[2023-05-02 08:35:46] INFO root fetch - processPackages [pyqt5-auto-translate]: executing diffoscope
+[2023-05-02 08:35:46] INFO root fetch - processPackages [pyqt5-auto-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt5_auto_translate-0.1.0.tar.gz tmp/pyqt5_auto_translate-0.1.1.tar.gz --markdown 20230502/p/pyqt5-auto-translate/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 08:35:47] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-02 08:35:47] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.5.4.tar.gz tmp/dxsp-1.6.0.tar.gz --markdown 20230502/d/dxsp/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2023-05-02 08:35:47] INFO root fetch - main [MainThread]: End processing [pyqt5-auto-translate]: success
+[2023-05-02 08:35:47] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-02 08:35:47] INFO root fetch - main [MainThread]: Store serial: [17937039]
