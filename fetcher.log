@@ -4551,3 +4551,55 @@
 [2023-05-02 04:14:39] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.0]: Timeout during execution of pkgdiff
 [2023-05-02 04:14:39] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.0] error
 [2023-05-02 04:14:39] INFO root fetch - main [MainThread]: Store serial: [17935181]
+[2023-05-02 04:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935181]
+[2023-05-02 04:19:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-rapids-ml
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cbra
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdev-py
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invoke
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: megadata
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coco-loader
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtex
+[2023-05-02 04:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: os2mo-data-import
+[2023-05-02 04:19:48] WARNING root fetch - processPackages [qtex]: Skipping, unable to determine old version
+[2023-05-02 04:19:48] INFO root fetch - main [MainThread]: End processing [qtex] error
+[2023-05-02 04:19:48] INFO root fetch - processPackages [coco-loader]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [os2mo-data-import]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [fastdev-py]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [spark-rapids-ml]: New version: [23.4.0] Old Version: [23.2.0]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [invoke]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [coco-loader]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [coco-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_loader-0.0.3.tar.gz tmp/coco_loader-0.0.4.tar.gz --markdown 20230502/c/coco-loader/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [chalkpy]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-02 04:19:48] INFO root fetch - processPackages [os2mo-data-import]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [os2mo-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2mo_data_import-5.3.2.tar.gz tmp/os2mo_data_import-5.3.3.tar.gz --markdown 20230502/o/os2mo-data-import/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-05-02 04:19:48] INFO root fetch - processPackages [spark-rapids-ml]: Downloading https://files.pythonhosted.org/packages/24/fb/ffe1e995cd75e4aa247765caa783fa61fc9b4ef0ecb420b00e013d02a406/spark_rapids_ml-23.2.0-11_ab575bc-py3-none-any.whl
+[2023-05-02 04:19:48] INFO root fetch - processPackages [fastdev-py]: Downloading https://files.pythonhosted.org/packages/48/f6/2e97f30ffb2dee476030367ffab3887257f3e31f13226df56d9e6c28b8a7/fastdev-py-0.3.0.tar.gz
+[2023-05-02 04:19:48] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/be/88/bb98c2c3ea09fade5f0f2db16b28e64a3da78731d9b9bfb9015c54b55b83/chalkpy-2.0.4.tar.gz
+[2023-05-02 04:19:48] INFO root fetch - processPackages [fastdev-py]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [fastdev-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdev-py-0.2.2.tar.gz tmp/fastdev-py-0.3.0.tar.gz --markdown 20230502/f/fastdev-py/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [invoke]: Downloading https://files.pythonhosted.org/packages/fc/ed/75616c70c3e96bdfec93f6a171e87f0463d9da21b061ff8af8ae7ecda17e/invoke-2.1.1.tar.gz
+[2023-05-02 04:19:48] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230502/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.0.3.tar.gz tmp/chalkpy-2.0.4.tar.gz --markdown 20230502/c/chalkpy/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230502/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [invoke]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-2.1.0.tar.gz tmp/invoke-2.1.1.tar.gz --markdown 20230502/i/invoke/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-05-02 04:19:48] INFO root fetch - processPackages [spark-rapids-ml]: Downloading https://files.pythonhosted.org/packages/33/8f/ba32514d75cba3474dbebfccf3c6d0dec0f01492a193427cde1246678db1/spark_rapids_ml-23.4.0-38_b251734-py3-none-any.whl
+[2023-05-02 04:19:48] INFO root fetch - processPackages [spark-rapids-ml]: executing diffoscope
+[2023-05-02 04:19:48] INFO root fetch - processPackages [spark-rapids-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_rapids_ml-23.2.0-11_ab575bc-py3-none-any.whl.zip tmp/spark_rapids_ml-23.4.0-38_b251734-py3-none-any.whl.zip --markdown 20230502/s/spark-rapids-ml/23.2.0-23.4.0/diff.md --exclude *.pyd
+[2023-05-02 04:19:49] INFO root fetch - main [MainThread]: End processing [coco-loader]: success
+[2023-05-02 04:19:49] INFO root fetch - main [MainThread]: End processing [fastdev-py]: success
+[2023-05-02 04:19:50] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-05-02 04:19:50] INFO root fetch - main [MainThread]: End processing [os2mo-data-import]: success
+[2023-05-02 04:19:53] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-02 04:19:55] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-02 04:20:12] INFO root fetch - main [MainThread]: End processing [spark-rapids-ml]: success
+[2023-05-02 04:20:13] INFO root fetch - main [MainThread]: End processing [invoke]: success
+[2023-05-02 04:20:13] INFO root fetch - main [MainThread]: Store serial: [17935222]
