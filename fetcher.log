@@ -11351,3 +11351,168 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:19:02] INFO root fetch - main [MainThread]: End processing [sgkit]: success
 [2023-05-02 13:19:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
 [2023-05-02 13:19:02] INFO root fetch - main [MainThread]: Store serial: [17939615]
+[2023-05-02 13:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939615]
+[2023-05-02 13:24:11] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moneykit
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.pipeline
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.static-website
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpopt-lulav
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wbpWidgetinspector
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-05-02 13:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: murfey
+[2023-05-02 13:24:11] INFO root fetch - processPackages [moneykit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [mpopt-lulav]: New version: [0.2] Old Version: [0.1]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [wbpWidgetinspector]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.17.5] Old Version: [0.17.4]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:24:11] INFO root fetch - processPackages [moneykit]: executing diffoscope
+[2023-05-02 13:24:11] INFO root fetch - processPackages [moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneykit-0.0.8.tar.gz tmp/moneykit-0.0.9.tar.gz --markdown 20230502/m/moneykit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 13:24:11] INFO root fetch - processPackages [mpopt-lulav]: Downloading https://files.pythonhosted.org/packages/3e/ca/8c4c02bd6b37b168fbb89bfda6b2e5c66557f05c1bc9a6de2524521b49b9/mpopt_lulav-0.1.tar.gz
+[2023-05-02 13:24:11] INFO root fetch - processPackages [wbpWidgetinspector]: Downloading https://files.pythonhosted.org/packages/5f/43/272e25b0d08d551753b924efc952c2fda407c8eefc45c6f002d194350d47/wbpWidgetinspector-0.1.7.tar.gz
+[2023-05-02 13:24:11] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/92/c9/2c53effde9e0748b32cae30a3a2edb504c30cb8ba352d756535e9d37f4e9/aws_prototyping_sdk.type_safe_api-0.17.4.tar.gz
+[2023-05-02 13:24:12] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/06/4f/a37cd48a24edf35edbbeafaa3f929ada933d8ace6f309321972545424ec5/murfey-0.7.8.tar.gz
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/e5/10/7646f8a723b3f9a51925c3deabb13ed606f5a539be52a17ad0f38a087c7a/aws_prototyping_sdk.type_safe_api-0.17.5.tar.gz
+[2023-05-02 13:24:12] INFO root fetch - processPackages [mpopt-lulav]: Downloading https://files.pythonhosted.org/packages/91/07/48b5baff3111f278e57a8bbb822a42660514a188c87a193513958b9fa470/mpopt_lulav-0.2.tar.gz
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.17.4.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.17.5.tar.gz --markdown 20230502/a/aws-prototyping-sdk.type-safe-api/0.17.4-0.17.5/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [wbpWidgetinspector]: Downloading https://files.pythonhosted.org/packages/69/d3/e5a3655b366f45c0dcd072a7b290e1d8d4dc1e3096bd79c08cd522ed4da0/wbpWidgetinspector-0.1.8.tar.gz
+[2023-05-02 13:24:12] INFO root fetch - processPackages [mpopt-lulav]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [mpopt-lulav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpopt_lulav-0.1.tar.gz tmp/mpopt_lulav-0.2.tar.gz --markdown 20230502/m/mpopt-lulav/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [wbpWidgetinspector]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [wbpWidgetinspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpWidgetinspector-0.1.7.tar.gz tmp/wbpWidgetinspector-0.1.8.tar.gz --markdown 20230502/w/wbpWidgetinspector/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 13:24:12] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/0a/c9/6898f393e289d698facbadbebab5245125a8d1d0295976e78f4151f50e4c/murfey-0.7.9.tar.gz
+[2023-05-02 13:24:12] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-05-02 13:24:12] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230502/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-02 13:24:13] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: quilt3
+[2023-05-02 13:24:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-05-02 13:24:14] INFO root fetch - processPackages [quilt3]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [quilt3]: Downloading https://files.pythonhosted.org/packages/10/4c/a495ceb60e86952bf7efda6521067951da24648e641df694a7fccc4fcc0b/quilt3-5.3.0.tar.gz
+[2023-05-02 13:24:14] INFO root fetch - processPackages [wbpWidgetinspector]: Start processing: drb-driver-discodata
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [wbpWidgetinspector]: success
+[2023-05-02 13:24:14] INFO root fetch - processPackages [drb-driver-discodata]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [mpopt-lulav]: Start processing: issue-db-api
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [mpopt-lulav]: success
+[2023-05-02 13:24:14] INFO root fetch - processPackages [issue-db-api]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: JFIO
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-05-02 13:24:14] WARNING root fetch - processPackages [JFIO]: Skipping, unable to determine old version
+[2023-05-02 13:24:14] INFO root fetch - processPackages [JFIO]: Start processing: dve-lumipy-preview
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [JFIO] error
+[2023-05-02 13:24:14] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [drb-driver-discodata]: Downloading https://files.pythonhosted.org/packages/a2/45/ca522191584ed55b7182c19b87e1a357247c7d387a3fd3819007d256d460/drb-driver-discodata-1.2.0.tar.gz
+[2023-05-02 13:24:14] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: nucliadb-contributor-assets
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-05-02 13:24:14] INFO root fetch - processPackages [quilt3]: Downloading https://files.pythonhosted.org/packages/ed/0a/dd99a0a001296218733edc640dc21756afb3b0ccada907e9d9bcbba63242/quilt3-5.3.1.tar.gz
+[2023-05-02 13:24:14] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/62/11/5618af416e194928845a79612dd9668d0a74371d2d6cd3bdd877bccbdea0/issue_db_api-0.6.4.tar.gz
+[2023-05-02 13:24:14] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post741] Old Version: [1.0.0.post740]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [quilt3]: executing diffoscope
+[2023-05-02 13:24:14] INFO root fetch - processPackages [quilt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quilt3-5.3.0.tar.gz tmp/quilt3-5.3.1.tar.gz --markdown 20230502/q/quilt3/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-05-02 13:24:14] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/06/93/216a73bcd7ccab0498c0b01a83c8217643a6caac06affe3d2923b15501a5/nucliadb_contributor_assets-1.0.0.post741-py3-none-any.whl
+[2023-05-02 13:24:14] INFO root fetch - processPackages [murfey]: Start processing: tb-nightly
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-05-02 13:24:14] INFO root fetch - processPackages [drb-driver-discodata]: Downloading https://files.pythonhosted.org/packages/f4/e4/99a4c06144933151b6cd92228c6101a7d0153d6af78c8f25b1e52e73b061/drb-driver-discodata-1.3.0.tar.gz
+[2023-05-02 13:24:14] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [drb-driver-discodata]: executing diffoscope
+[2023-05-02 13:24:14] INFO root fetch - processPackages [drb-driver-discodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-discodata-1.2.0.tar.gz tmp/drb-driver-discodata-1.3.0.tar.gz --markdown 20230502/d/drb-driver-discodata/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 13:24:14] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/0f/80/710055ed051fb5a1494f6dfb791e46ef3cda062fd444841be467a48ee1c1/issue_db_api-0.6.5.tar.gz
+[2023-05-02 13:24:14] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-05-02 13:24:14] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230502/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 13:24:14] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: ddataflow
+[2023-05-02 13:24:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-05-02 13:24:14] INFO root fetch - processPackages [ddataflow]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 13:24:14] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-02 13:24:14] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230502/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-02 13:24:14] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-02 13:24:14] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.6.4.tar.gz tmp/issue_db_api-0.6.5.tar.gz --markdown 20230502/i/issue-db-api/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-02 13:24:15] INFO root fetch - processPackages [ddataflow]: executing diffoscope
+[2023-05-02 13:24:15] INFO root fetch - processPackages [ddataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddataflow-1.1.8.tar.gz tmp/ddataflow-1.1.9.tar.gz --markdown 20230502/d/ddataflow/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 13:24:15] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 13:24:15] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post740-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post741-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post740-1.0.0.post741/diff.md --exclude *.pyd
+[2023-05-02 13:24:15] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: edulint
+[2023-05-02 13:24:15] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-05-02 13:24:15] INFO root fetch - processPackages [edulint]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-02 13:24:15] INFO root fetch - processPackages [edulint]: Downloading https://files.pythonhosted.org/packages/b8/e0/02653d3781aeac06182c18e5053f798d9795a76decb8bc0f882d9c495875/edulint-2.6.1.tar.gz
+[2023-05-02 13:24:15] INFO root fetch - processPackages [edulint]: executing diffoscope
+[2023-05-02 13:24:15] INFO root fetch - processPackages [edulint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edulint-2.6.0.tar.gz tmp/edulint-2.6.1.tar.gz --markdown 20230502/e/edulint/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-02 13:24:16] INFO root fetch - processPackages [drb-driver-discodata]: Start processing: kotlin-jupyter-kernel
+[2023-05-02 13:24:16] INFO root fetch - main [MainThread]: End processing [drb-driver-discodata]: success
+[2023-05-02 13:24:16] INFO root fetch - processPackages [kotlin-jupyter-kernel]: New version: [0.9.1.9] Old Version: [0.9.1.51]
+[2023-05-02 13:24:16] INFO root fetch - processPackages [issue-db-api]: Start processing: netbox-attachments
+[2023-05-02 13:24:16] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-02 13:24:16] INFO root fetch - processPackages [netbox-attachments]: New version: [2.0.0] Old Version: [1.1.4]
+[2023-05-02 13:24:16] INFO root fetch - processPackages [kotlin-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/84/d8/070fb52aa873f86e8a019d38a7c7c4dca376350d00e416c60a93da4a7387/kotlin_jupyter_kernel-0.9.1.51-py3-none-any.whl
+[2023-05-02 13:24:17] INFO root fetch - processPackages [netbox-attachments]: Downloading https://files.pythonhosted.org/packages/35/53/3703c28e8f8f5a557ed3970127aef50992ada21f1f4096741151aafada83/netbox-attachments-1.1.4.tar.gz
+[2023-05-02 13:24:17] INFO root fetch - processPackages [ddataflow]: Start processing: pytheia
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [ddataflow]: success
+[2023-05-02 13:24:17] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: JFIO
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-05-02 13:24:17] INFO root fetch - processPackages [pytheia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [JFIO]: Skipping, unable to determine old version
+[2023-05-02 13:24:17] INFO root fetch - processPackages [JFIO]: Start processing: doublecloud
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [JFIO] error
+[2023-05-02 13:24:17] INFO root fetch - processPackages [quilt3]: Start processing: torchtnt-nightly
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [quilt3]: success
+[2023-05-02 13:24:17] INFO root fetch - processPackages [doublecloud]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-02 13:24:17] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/db/cb/0be1f2ecd21e8ed7f9f3f3818b3f882fcd1f904b8e53b78b8665bbccf06c/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-02 13:24:17] INFO root fetch - processPackages [netbox-attachments]: Downloading https://files.pythonhosted.org/packages/49/0d/ed72ccfaa9109de14f4dfcb6f49b2f972d417c50217c115be1f706cad4e3/netbox-attachments-2.0.0.tar.gz
+[2023-05-02 13:24:17] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-02 13:24:17] INFO root fetch - processPackages [doublecloud]: Downloading https://files.pythonhosted.org/packages/2f/47/f1efdf802164b262c47794b7b4be13aa67290ae0967349e152af40eb536e/doublecloud-0.4.0.tar.gz
+[2023-05-02 13:24:17] INFO root fetch - processPackages [dve-lumipy-preview]: Start processing: reversibledict
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-05-02 13:24:17] INFO root fetch - processPackages [netbox-attachments]: executing diffoscope
+[2023-05-02 13:24:17] INFO root fetch - processPackages [netbox-attachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-attachments-1.1.4.tar.gz tmp/netbox-attachments-2.0.0.tar.gz --markdown 20230502/n/netbox-attachments/1.1.4-2.0.0/diff.md --exclude *.pyd
+[2023-05-02 13:24:17] INFO root fetch - processPackages [reversibledict]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-02 13:24:17] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/64/1f/0bb054e87e2346f95753a41d0ac3cfb44f4404f9ebef712a553d9b3568ef/torchtnt-nightly-2023.5.1.tar.gz
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [reversibledict]: fallback to get urls: [0.1.0]
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [reversibledict]: None
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [reversibledict]: None
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [reversibledict]: unable to get url for both version [0.1.0]
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [reversibledict]: None
+[2023-05-02 13:24:17] INFO root fetch - processPackages [reversibledict]: Start processing: mpopt-lulav
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [reversibledict] error
+[2023-05-02 13:24:17] INFO root fetch - processPackages [mpopt-lulav]: New version: [0.3] Old Version: [0.2]
+[2023-05-02 13:24:17] INFO root fetch - processPackages [edulint]: Start processing: anchorconnector
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [edulint]: success
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [moneykit]: success
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [kotlin-jupyter-kernel]: Skipping package: exceeds size limit 64206818>=10485760
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [kotlin-jupyter-kernel] error
+[2023-05-02 13:24:17] INFO root fetch - processPackages [doublecloud]: Downloading https://files.pythonhosted.org/packages/7a/5b/b33eff2b0c2e9b11ae6520c6fe0232798f9e470d9c8314745867d7929a4e/doublecloud-0.5.0.tar.gz
+[2023-05-02 13:24:17] WARNING root fetch - processPackages [anchorconnector]: Skipping, unable to determine old version
+[2023-05-02 13:24:17] INFO root fetch - main [MainThread]: End processing [anchorconnector] error
+[2023-05-02 13:24:17] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/af/98/16549538b49b59a03cc8224d9403852c9eb48c0530dae42bbfc8f3052b04/torchtnt-nightly-2023.5.2.tar.gz
+[2023-05-02 13:24:17] INFO root fetch - processPackages [doublecloud]: executing diffoscope
+[2023-05-02 13:24:17] INFO root fetch - processPackages [doublecloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doublecloud-0.4.0.tar.gz tmp/doublecloud-0.5.0.tar.gz --markdown 20230502/d/doublecloud/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-02 13:24:17] INFO root fetch - processPackages [mpopt-lulav]: Downloading https://files.pythonhosted.org/packages/29/d1/ab852a47a74020ef9dc747f2ca1afb5e662b5ea49c57209145f03a756934/mpopt_lulav-0.3.tar.gz
+[2023-05-02 13:24:17] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-02 13:24:17] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.1.tar.gz tmp/torchtnt-nightly-2023.5.2.tar.gz --markdown 20230502/t/torchtnt-nightly/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:24:18] INFO root fetch - processPackages [mpopt-lulav]: executing diffoscope
+[2023-05-02 13:24:18] INFO root fetch - processPackages [mpopt-lulav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpopt_lulav-0.2.tar.gz tmp/mpopt_lulav-0.3.tar.gz --markdown 20230502/m/mpopt-lulav/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-02 13:24:19] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-02 13:24:19] INFO root fetch - main [MainThread]: End processing [mpopt-lulav]: success
+[2023-05-02 13:24:19] INFO root fetch - main [MainThread]: End processing [netbox-attachments]: success
+[2023-05-02 13:24:19] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-02 13:24:19] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/f4/1f/4929381cf46e92fdccf72ceab1b4a6858800ceff635f10e85be29b2a662e/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-05-02 13:24:21] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2023-05-02 13:24:21] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230502/p/pytheia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 13:24:21] INFO root fetch - main [MainThread]: End processing [doublecloud]: success
+[2023-05-02 13:24:34] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 13:25:08] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2023-05-02 13:25:08] INFO root fetch - main [MainThread]: Store serial: [17939702]
