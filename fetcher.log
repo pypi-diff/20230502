@@ -23266,3 +23266,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 23:37:35] INFO root fetch - main [MainThread]: End processing [sbcoyote]: success
 [2023-05-02 23:37:36] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
 [2023-05-02 23:37:36] INFO root fetch - main [MainThread]: Store serial: [17947337]
+[2023-05-02 23:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947337]
+[2023-05-02 23:42:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 23:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kazer12
+[2023-05-02 23:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-zana
+[2023-05-02 23:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Coquille
+[2023-05-02 23:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aij-news-publisher
+[2023-05-02 23:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CS333-Final-Project
+[2023-05-02 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaaql-monitor
+[2023-05-02 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prueba-empaquetado-iris
+[2023-05-02 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synapse
+[2023-05-02 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appsurifyci
+[2023-05-02 23:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alphaz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [aij-news-publisher]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [kazer12]: New version: [2] Old Version: [1]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [prueba-empaquetado-iris]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.22] Old Version: [1.2.21]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [django-zana]: New version: [0.3.0a3] Old Version: [0.3.0a2]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [Coquille]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.2] Old Version: [0.7.7.1]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [synapse]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-02 23:42:47] INFO root fetch - processPackages [kazer12]: Downloading https://files.pythonhosted.org/packages/f0/8b/efc88bd4510fabc5db8e035fbb0b1a1214c7f561c46d2a5cb7c15c613dc1/kazer12-1.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [CS333-Final-Project]: Downloading https://files.pythonhosted.org/packages/37/35/129f20c1d1cd75f09913ef9782509a62b55f0c1670e260536a82c3fbf989/CS333-Final-Project-0.0.8.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [prueba-empaquetado-iris]: Downloading https://files.pythonhosted.org/packages/81/29/ab19541957222c5be55cffdc2208193fd20586647d5f84b8811cb8080620/prueba_empaquetado_iris-0.0.1.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/f6/92/1c22456807b9ab90eea19635e92a0661bc01844e3f176d08e5cee1e5d2b8/jaaql-monitor-1.2.22.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/15/78/21316bbbd764c691905b7e97a33a5f7da0d73698b780c8509b5f3e3a7972/alphaz-0.7.7.2.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [aij-news-publisher]: Downloading https://files.pythonhosted.org/packages/97/0d/90b4c9785465514dc7d74be331dc8bc920f32385c4fbb4828eb7ffcae2a5/aij-news-publisher-1.0.2.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/7a/3f/f14b08356e8d0f3c876550499a6a77b69be1eeebc510c2bc7630143262dd/Coquille-0.1.2.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [django-zana]: Downloading https://files.pythonhosted.org/packages/1e/be/340ee3006c1c867be9374c296e5d1a9480e49416e4f7a855d409852373d1/django_zana-0.3.0a3.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [aij-news-publisher]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [aij-news-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-publisher-1.0.1.tar.gz tmp/aij-news-publisher-1.0.2.tar.gz --markdown 20230502/a/aij-news-publisher/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-0.1.1.tar.gz tmp/Coquille-0.1.2.tar.gz --markdown 20230502/C/Coquille/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.21.tar.gz tmp/jaaql-monitor-1.2.22.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.21-1.2.22/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [kazer12]: Downloading https://files.pythonhosted.org/packages/2b/57/cafa0beec14063beafbdab84fd36af9486d549ae7883dddb576178513ea8/kazer12-2.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [prueba-empaquetado-iris]: Downloading https://files.pythonhosted.org/packages/3d/42/59884d05fe83bd00db27b0594f527664c847e67dd8e3bc565626fc80e770/prueba_empaquetado_iris-0.0.2.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [CS333-Final-Project]: Downloading https://files.pythonhosted.org/packages/58/85/56ffbad035d677812e4fc8e59550c1dc88c80961b30cd06e3a7560e1ffa8/CS333-Final-Project-0.0.9.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [kazer12]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [kazer12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kazer12-1.tar.gz tmp/kazer12-2.tar.gz --markdown 20230502/k/kazer12/1-2/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [synapse]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [django-zana]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [django-zana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_zana-0.3.0a2.tar.gz tmp/django_zana-0.3.0a3.tar.gz --markdown 20230502/d/django-zana/0.3.0a2-0.3.0a3/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapse-2.98.0.tar.gz tmp/synapse-2.99.0.tar.gz --markdown 20230502/s/synapse/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [prueba-empaquetado-iris]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [prueba-empaquetado-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prueba_empaquetado_iris-0.0.1.tar.gz tmp/prueba_empaquetado_iris-0.0.2.tar.gz --markdown 20230502/p/prueba-empaquetado-iris/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.8.tar.gz tmp/CS333-Final-Project-0.0.9.tar.gz --markdown 20230502/C/CS333-Final-Project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:42:47] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2023-05-02 23:42:47] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-02 23:42:47] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230502/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 23:42:48] INFO root fetch - processPackages [aij-news-publisher]: Start processing: miv-os
+[2023-05-02 23:42:48] INFO root fetch - main [MainThread]: End processing [aij-news-publisher]: success
+[2023-05-02 23:42:48] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-02 23:42:48] INFO root fetch - processPackages [miv-os]: New version: [0.3.0b0] Old Version: [0.3.0.post6]
+[2023-05-02 23:42:48] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.1.tar.gz tmp/alphaz-0.7.7.2.tar.gz --markdown 20230502/a/alphaz/0.7.7.1-0.7.7.2/diff.md --exclude *.pyd
+[2023-05-02 23:42:48] INFO root fetch - processPackages [miv-os]: Downloading https://files.pythonhosted.org/packages/dd/e8/d56b186cd6cba70c0077f5dc31f311dbf8114d3bffccdc7c778b51800157/miv_os-0.3.0.post6.tar.gz
+[2023-05-02 23:42:48] INFO root fetch - processPackages [jaaql-monitor]: Start processing: manimcs
+[2023-05-02 23:42:48] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 23:42:48] INFO root fetch - processPackages [manimcs]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-05-02 23:42:49] INFO root fetch - processPackages [miv-os]: executing diffoscope
+[2023-05-02 23:42:49] INFO root fetch - processPackages [miv-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miv_os-0.3.0.post6.tar.gz tmp/miv_os-0.3.0b0.tar.gz --markdown 20230502/m/miv-os/0.3.0.post6-0.3.0b0/diff.md --exclude *.pyd
+[2023-05-02 23:42:49] INFO root fetch - processPackages [Coquille]: Start processing: ghanashops-scraper
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-05-02 23:42:49] INFO root fetch - processPackages [django-zana]: Start processing: ix-aims
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [django-zana]: success
+[2023-05-02 23:42:49] INFO root fetch - processPackages [ghanashops-scraper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 23:42:49] WARNING root fetch - processPackages [ix-aims]: Skipping, unable to determine old version
+[2023-05-02 23:42:49] INFO root fetch - processPackages [ix-aims]: Start processing: Shimarin
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [ix-aims] error
+[2023-05-02 23:42:49] WARNING root fetch - processPackages [Shimarin]: Skipping, unable to determine old version
+[2023-05-02 23:42:49] INFO root fetch - processPackages [Shimarin]: Start processing: pygptj
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [Shimarin] error
+[2023-05-02 23:42:49] INFO root fetch - processPackages [manimcs]: Downloading https://files.pythonhosted.org/packages/22/89/6f2225e84ba4bbde59528065df51e3097b5542a7bc04cef4f8f594ca50fe/manimcs-0.4.6.tar.gz
+[2023-05-02 23:42:49] INFO root fetch - processPackages [manimcs]: executing diffoscope
+[2023-05-02 23:42:49] INFO root fetch - processPackages [manimcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manimcs-0.4.5.tar.gz tmp/manimcs-0.4.6.tar.gz --markdown 20230502/m/manimcs/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-05-02 23:42:49] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/8b/19/7a6cbe3ab0636965dc8c42e36fa8b53532bd4bd949c6761540039b9e1262/ghanashops-scraper-0.0.1.tar.gz
+[2023-05-02 23:42:49] INFO root fetch - processPackages [prueba-empaquetado-iris]: Start processing: cucim
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [prueba-empaquetado-iris]: success
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-02 23:42:49] INFO root fetch - processPackages [pygptj]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-02 23:42:49] INFO root fetch - processPackages [cucim]: New version: [23.4.1] Old Version: [23.2.0]
+[2023-05-02 23:42:49] INFO root fetch - main [MainThread]: End processing [kazer12]: success
+[2023-05-02 23:42:49] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/db/02/b447bd76395103a021ac11c2c447e608fc93693f884e3cdf1f05f7bc9a9e/ghanashops-scraper-0.0.2.tar.gz
+[2023-05-02 23:42:49] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-02 23:42:49] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-0.0.1.tar.gz tmp/ghanashops-scraper-0.0.2.tar.gz --markdown 20230502/g/ghanashops-scraper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 23:42:49] INFO root fetch - processPackages [cucim]: Downloading https://files.pythonhosted.org/packages/e1/78/8e38653e2fe0bbba69635a669c79fee398c1278431bec9da39483e64d87b/cucim-23.2.0-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2023-05-02 23:42:49] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/5c/bf/ab882a295ed2ba3ee8439f6e259bbf8ef2e1f888ebd2269c0bd6858e218b/pygptj-2.0.1.tar.gz
+[2023-05-02 23:42:49] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-05-02 23:42:49] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-2.0.0.tar.gz tmp/pygptj-2.0.1.tar.gz --markdown 20230502/p/pygptj/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-02 23:42:50] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-02 23:42:50] INFO root fetch - main [MainThread]: End processing [manimcs]: success
+[2023-05-02 23:42:50] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-02 23:42:51] INFO root fetch - main [MainThread]: End processing [miv-os]: success
+[2023-05-02 23:42:51] INFO root fetch - processPackages [cucim]: Downloading https://files.pythonhosted.org/packages/9d/a8/2a31a24ea71815bc0ba2c1033770b9d91721cd289209b5ce3bb62a737659/cucim-23.4.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2023-05-02 23:42:52] INFO root fetch - processPackages [cucim]: executing diffoscope
+[2023-05-02 23:42:52] INFO root fetch - processPackages [cucim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cucim-23.2.0-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip tmp/cucim-23.4.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip --markdown 20230502/c/cucim/23.2.0-23.4.1/diff.md --exclude *.pyd
+[2023-05-02 23:42:52] INFO root fetch - main [MainThread]: End processing [synapse]: success
+[2023-05-02 23:42:52] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-02 23:42:53] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-05-02 23:44:34] INFO root fetch - main [MainThread]: End processing [cucim]: success
+[2023-05-02 23:44:34] INFO root fetch - main [MainThread]: Store serial: [17947413]
