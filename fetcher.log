@@ -15558,3 +15558,146 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 17:00:36] INFO root fetch - main [MainThread]: End processing [vl-convert-python]: success
 [2023-05-02 17:01:17] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-05-02 17:01:17] INFO root fetch - main [MainThread]: Store serial: [17942483]
+[2023-05-02 17:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17942483]
+[2023-05-02 17:06:35] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maus
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glue-helper-lib
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamsets
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twitter-api-py
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitetower
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asari-metabolomics
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: priceloop-api
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-image-pipeline
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-eric-pta
+[2023-05-02 17:06:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: denemesonuc
+[2023-05-02 17:06:35] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-02 17:06:35] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 17:06:35] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 17:06:35] INFO root fetch - processPackages [twitter-api-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 17:06:35] INFO root fetch - processPackages [streamsets]: New version: [5.2.1b1] Old Version: [5.2.0b4]
+[2023-05-02 17:06:35] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-05-02 17:06:35] WARNING root fetch - processPackages [certora-cli-alpha-eric-pta]: Skipping, unable to determine old version
+[2023-05-02 17:06:35] INFO root fetch - processPackages [certora-cli-alpha-eric-pta]: Start processing: rele
+[2023-05-02 17:06:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-pta] error
+[2023-05-02 17:06:35] WARNING root fetch - processPackages [whitetower]: Skipping, unable to determine old version
+[2023-05-02 17:06:35] INFO root fetch - processPackages [whitetower]: Start processing: myfs
+[2023-05-02 17:06:35] INFO root fetch - processPackages [denemesonuc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 17:06:35] INFO root fetch - main [MainThread]: End processing [whitetower] error
+[2023-05-02 17:06:36] INFO root fetch - processPackages [asari-metabolomics]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-05-02 17:06:36] INFO root fetch - processPackages [streamsets]: Downloading https://files.pythonhosted.org/packages/6e/65/f1abb8609ce062dd4a9934ed82a7f828310c986386eb1c70ec62352e199c/streamsets-5.2.0b4.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.2.1.tar.gz tmp/cdk-image-pipeline-0.3.0.tar.gz --markdown 20230502/c/cdk-image-pipeline/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [rele]: New version: [1.9.0] Old Version: [1.8.0b0]
+[2023-05-02 17:06:36] WARNING root fetch - processPackages [myfs]: Skipping, unable to determine old version
+[2023-05-02 17:06:36] INFO root fetch - processPackages [myfs]: Start processing: shttst
+[2023-05-02 17:06:36] INFO root fetch - main [MainThread]: End processing [myfs] error
+[2023-05-02 17:06:36] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/0f/74/68bb7ee7b2354d085a010b2931c587d48f6b3d62726f1fd4eb64ef074c43/glue_helper_lib-0.3.1.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [denemesonuc]: Downloading https://files.pythonhosted.org/packages/29/d9/9274b2d6d20d60357d408c9e4fde0033b23e82d0e47ef9edad4ee5027587/denemesonuc-0.1.5.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/ce/9b/7acbca417a7bc9da5c689c9b60da0d505b4fbc5da16246b9d89b63bedde5/twitter_api_py-0.3.0.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [asari-metabolomics]: Downloading https://files.pythonhosted.org/packages/6c/0a/5a8ad010795f48017a8133744462ccc1429e3e0a20f8d99fbc6356045db9/asari-metabolomics-1.9.7.tar.gz
+[2023-05-02 17:06:36] WARNING root fetch - processPackages [shttst]: Skipping, unable to determine old version
+[2023-05-02 17:06:36] INFO root fetch - processPackages [shttst]: Start processing: discoger
+[2023-05-02 17:06:36] INFO root fetch - main [MainThread]: End processing [shttst] error
+[2023-05-02 17:06:36] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230502/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.3.0.tar.gz tmp/glue_helper_lib-0.3.1.tar.gz --markdown 20230502/g/glue-helper-lib/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.2.0.tar.gz tmp/twitter_api_py-0.3.0.tar.gz --markdown 20230502/t/twitter-api-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [discoger]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-05-02 17:06:36] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/7f/14/927dd6d17266f198e10e105853ef8d590e720dca15feac751fccf7746159/rele-1.9.0.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [denemesonuc]: Downloading https://files.pythonhosted.org/packages/94/08/0e7b14d639ba6022bac438e43513d2b064caf4a66bc740488fe96d5b59a5/denemesonuc-0.1.6.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/24/d7/c60c3639b63f75bf55e877cfe804e2c2c1eac049c73f5b6e97faa6286acb/discoger-1.0.3.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [rele]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [rele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rele-1.8.0b0.tar.gz tmp/rele-1.9.0.tar.gz --markdown 20230502/r/rele/1.8.0b0-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [denemesonuc]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [denemesonuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denemesonuc-0.1.5.tar.gz tmp/denemesonuc-0.1.6.tar.gz --markdown 20230502/d/denemesonuc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 17:06:36] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/5c/9c/05d9882297e9800500d061eb2e1e8283e4043f1d02ab7149a1ae0c63a44c/discoger-1.0.5.tar.gz
+[2023-05-02 17:06:36] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-05-02 17:06:36] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-1.0.3.tar.gz tmp/discoger-1.0.5.tar.gz --markdown 20230502/d/discoger/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-05-02 17:06:37] INFO root fetch - processPackages [cdk-image-pipeline]: Start processing: antspymm
+[2023-05-02 17:06:37] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-05-02 17:06:37] INFO root fetch - processPackages [antspymm]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 17:06:37] INFO root fetch - processPackages [maus]: Start processing: pyreal
+[2023-05-02 17:06:37] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 17:06:37] INFO root fetch - processPackages [glue-helper-lib]: Start processing: pymx2
+[2023-05-02 17:06:37] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-05-02 17:06:37] INFO root fetch - processPackages [antspymm]: Downloading https://files.pythonhosted.org/packages/d3/3a/50d049e7b0eed6741740fb88ff734de45f482a8d3c7544f6d86ac3716fc7/antspymm-0.9.0.tar.gz
+[2023-05-02 17:06:37] INFO root fetch - processPackages [pyreal]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-02 17:06:37] INFO root fetch - processPackages [rele]: Start processing: GooseMPL
+[2023-05-02 17:06:37] INFO root fetch - main [MainThread]: End processing [rele]: success
+[2023-05-02 17:06:37] INFO root fetch - processPackages [pymx2]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 17:06:37] INFO root fetch - processPackages [asari-metabolomics]: Downloading https://files.pythonhosted.org/packages/0c/ec/31f7daaa8a016fba464e73e22784642a5130fa579870d9f5ee0c0d31028d/asari-metabolomics-1.9.8.tar.gz
+[2023-05-02 17:06:37] INFO root fetch - processPackages [pyreal]: Downloading https://files.pythonhosted.org/packages/d5/08/de35cf9f44b3f67b0056be7d4a10c118fc20b7230e850db91c27cbf997ab/pyreal-0.4.0.tar.gz
+[2023-05-02 17:06:37] INFO root fetch - processPackages [streamsets]: Downloading https://files.pythonhosted.org/packages/08/6b/94ef041f258286327d65f448a4095d3833247a8b431213d642c414bb434f/streamsets-5.2.1b1.tar.gz
+[2023-05-02 17:06:37] INFO root fetch - processPackages [GooseMPL]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 17:06:38] INFO root fetch - processPackages [antspymm]: Downloading https://files.pythonhosted.org/packages/f9/e4/a10947df0281628ff61d84eff1aace361126364184eb23cc68e312bbe7d4/antspymm-0.9.1.tar.gz
+[2023-05-02 17:06:38] WARNING root fetch - processPackages [streamsets]: Skipping package: exceeds size limit 14220071>=10485760
+[2023-05-02 17:06:38] INFO root fetch - processPackages [streamsets]: Start processing: checkontap
+[2023-05-02 17:06:38] INFO root fetch - main [MainThread]: End processing [streamsets] error
+[2023-05-02 17:06:38] INFO root fetch - processPackages [discoger]: Start processing: dissect.target
+[2023-05-02 17:06:38] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-05-02 17:06:38] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-02 17:06:38] INFO root fetch - processPackages [denemesonuc]: Start processing: citadel-sdk
+[2023-05-02 17:06:38] INFO root fetch - main [MainThread]: End processing [denemesonuc]: success
+[2023-05-02 17:06:38] INFO root fetch - processPackages [GooseMPL]: Downloading https://files.pythonhosted.org/packages/3e/98/4e8d599b1a9619768a88ca27ff522352e0fc17b583315f2f464207a563a9/GooseMPL-0.8.0.tar.gz
+[2023-05-02 17:06:38] INFO root fetch - processPackages [antspymm]: executing diffoscope
+[2023-05-02 17:06:38] INFO root fetch - processPackages [antspymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antspymm-0.9.0.tar.gz tmp/antspymm-0.9.1.tar.gz --markdown 20230502/a/antspymm/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 17:06:38] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-02 17:06:38] INFO root fetch - processPackages [checkontap]: New version: [0.1a6] Old Version: [0.1a5]
+[2023-05-02 17:06:38] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-02 17:06:38] INFO root fetch - processPackages [dissect.target]: Start processing: umnet-scripts
+[2023-05-02 17:06:38] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-02 17:06:38] INFO root fetch - processPackages [pymx2]: Downloading https://files.pythonhosted.org/packages/19/a9/3498041e71a56699cb715fca74d2d1bdf709ef6d723d8c263d52f55cfeb8/pymx2-0.1.3.tar.gz
+[2023-05-02 17:06:38] INFO root fetch - processPackages [pyreal]: Downloading https://files.pythonhosted.org/packages/0f/86/d24b46908a9c4bcd876d2245a6bb8f6eeae744171473e70e23a97c50845e/pyreal-0.4.1.tar.gz
+[2023-05-02 17:06:38] WARNING root fetch - processPackages [citadel-sdk]: Skipping, unable to determine old version
+[2023-05-02 17:06:38] INFO root fetch - processPackages [citadel-sdk]: Start processing: robotmk
+[2023-05-02 17:06:38] INFO root fetch - main [MainThread]: End processing [citadel-sdk] error
+[2023-05-02 17:06:38] INFO root fetch - processPackages [umnet-scripts]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 17:06:38] INFO root fetch - processPackages [pymx2]: executing diffoscope
+[2023-05-02 17:06:38] INFO root fetch - processPackages [pymx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymx2-0.1.2.tar.gz tmp/pymx2-0.1.3.tar.gz --markdown 20230502/p/pymx2/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 17:06:38] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-02 17:06:38] INFO root fetch - processPackages [pyreal]: executing diffoscope
+[2023-05-02 17:06:38] INFO root fetch - processPackages [pyreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreal-0.4.0.tar.gz tmp/pyreal-0.4.1.tar.gz --markdown 20230502/p/pyreal/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 17:06:38] INFO root fetch - processPackages [GooseMPL]: Downloading https://files.pythonhosted.org/packages/35/ec/a0eb1cbf9d7d842565f78a86b058149ec282851325fcc251fdfe7d4e5320/GooseMPL-0.9.0.tar.gz
+[2023-05-02 17:06:38] INFO root fetch - processPackages [umnet-scripts]: Downloading https://files.pythonhosted.org/packages/cb/f8/31c9b3535fdb5e28a37c73e8e7ff9d95ab06ff32674992b3eb65b3cb109b/umnet_scripts-0.0.8.tar.gz
+[2023-05-02 17:06:38] INFO root fetch - processPackages [checkontap]: Downloading https://files.pythonhosted.org/packages/37/35/7e0acfd3a3aa7482efc0c074845216a85ba949a01c2b895ea7803b807f57/checkontap-0.1a6.tar.gz
+[2023-05-02 17:06:38] INFO root fetch - processPackages [GooseMPL]: executing diffoscope
+[2023-05-02 17:06:38] INFO root fetch - processPackages [GooseMPL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GooseMPL-0.8.0.tar.gz tmp/GooseMPL-0.9.0.tar.gz --markdown 20230502/G/GooseMPL/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 17:06:38] INFO root fetch - processPackages [checkontap]: executing diffoscope
+[2023-05-02 17:06:38] INFO root fetch - processPackages [checkontap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkontap-0.1a5.tar.gz tmp/checkontap-0.1a6.tar.gz --markdown 20230502/c/checkontap/0.1a5-0.1a6/diff.md --exclude *.pyd
+[2023-05-02 17:06:38] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-05-02 17:06:38] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230502/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-02 17:06:38] INFO root fetch - processPackages [umnet-scripts]: Downloading https://files.pythonhosted.org/packages/dc/ef/2269b412dcd58b6d2f6ca75bc6cac1045d346f5ca99442c4b96f1e2718e4/umnet_scripts-0.0.9.tar.gz
+[2023-05-02 17:06:39] INFO root fetch - processPackages [priceloop-api]: Start processing: ipython-mermaid-magic
+[2023-05-02 17:06:39] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-05-02 17:06:39] INFO root fetch - processPackages [umnet-scripts]: executing diffoscope
+[2023-05-02 17:06:39] INFO root fetch - processPackages [umnet-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umnet_scripts-0.0.8.tar.gz tmp/umnet_scripts-0.0.9.tar.gz --markdown 20230502/u/umnet-scripts/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 17:06:39] WARNING root fetch - processPackages [ipython-mermaid-magic]: Skipping, unable to determine old version
+[2023-05-02 17:06:39] INFO root fetch - processPackages [ipython-mermaid-magic]: Start processing: wds-client
+[2023-05-02 17:06:39] INFO root fetch - main [MainThread]: End processing [ipython-mermaid-magic] error
+[2023-05-02 17:06:39] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.71]
+[2023-05-02 17:06:39] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/a1/47/bb05a26f61617fb9f1ea7d7a4d289857a662304f48d05676a3938da7404c/wds-client-0.2.71.tar.gz
+[2023-05-02 17:06:39] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-02 17:06:39] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.71.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230502/w/wds-client/0.2.71-0.2.8/diff.md --exclude *.pyd
+[2023-05-02 17:06:40] INFO root fetch - processPackages [checkontap]: Start processing: datarobot-drum
+[2023-05-02 17:06:40] INFO root fetch - main [MainThread]: End processing [checkontap]: success
+[2023-05-02 17:06:40] INFO root fetch - processPackages [asari-metabolomics]: executing diffoscope
+[2023-05-02 17:06:40] INFO root fetch - processPackages [asari-metabolomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asari-metabolomics-1.9.7.tar.gz tmp/asari-metabolomics-1.9.8.tar.gz --markdown 20230502/a/asari-metabolomics/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-05-02 17:06:40] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-05-02 17:06:40] INFO root fetch - main [MainThread]: End processing [umnet-scripts]: success
+[2023-05-02 17:06:40] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-05-02 17:06:40] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230502/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-05-02 17:06:40] INFO root fetch - main [MainThread]: End processing [GooseMPL]: success
+[2023-05-02 17:06:40] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-05-02 17:06:40] INFO root fetch - main [MainThread]: End processing [pymx2]: success
+[2023-05-02 17:06:40] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-02 17:06:41] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-02 17:06:42] INFO root fetch - main [MainThread]: End processing [antspymm]: success
+[2023-05-02 17:06:42] INFO root fetch - main [MainThread]: End processing [pyreal]: success
+[2023-05-02 17:06:43] INFO root fetch - main [MainThread]: End processing [asari-metabolomics]: success
+[2023-05-02 17:09:40] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
+[2023-05-02 17:09:40] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
+[2023-05-02 17:09:40] INFO root fetch - main [MainThread]: Store serial: [17942578]
