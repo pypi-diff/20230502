@@ -11693,3 +11693,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:35:51] INFO root fetch - main [MainThread]: End processing [WhooshSms]: success
 [2023-05-02 13:36:19] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-02 13:36:19] INFO root fetch - main [MainThread]: Store serial: [17939838]
+[2023-05-02 13:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939838]
+[2023-05-02 13:41:27] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-imputedhours-core
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cli-command-parser
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-nano
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-forward
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-glue42
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-chronos
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentry-kafka-schemas
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-serving
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dgbowl-schemas
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jhub-swarmspawner
+[2023-05-02 13:41:27] INFO root fetch - processPackages [openai-forward]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.5.2] Old Version: [2023.4.8]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [dash-glue42]: New version: [1.3.0a0] Old Version: [1.2.0a1]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [dgbowl-schemas]: New version: [114] Old Version: [113]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-02 13:41:27] INFO root fetch - processPackages [jhub-swarmspawner]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230502] Old Version: [2.4.0b20230501]
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/47/6e/04fd507a6e90202e4416346679fca8da1e6248f30b8cc64791716732bde2/bigdl_serving-2.4.0b20230501-py2.py3-none-any.whl
+[2023-05-02 13:41:28] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/a3/e8/4f57ace4c9c2cfc93b2b216f3b3aacf8d47cbef77a43cb509e6346224b2a/ms_imputedhours_core-0.3.6.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/b4/69/6a7a6ca5d57f09f5a295e711a173541941bf6b47e2f4bee9f5890d6e9cbf/bigdl_nano-2.4.0b20230501-py3-none-win_amd64.whl
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/78/32/3cbe840bc5bffa6a20058f1c0f61f2c33e3fb42acfd4886c915d0467b602/bigdl_chronos-2.4.0b20230501-py3-none-win_amd64.whl
+[2023-05-02 13:41:28] INFO root fetch - processPackages [jhub-swarmspawner]: Downloading https://files.pythonhosted.org/packages/d6/3c/8301a6137bbede44cd5e61268d4cde043d87197b73ed94b48d61d58a0a22/jhub-swarmspawner-0.4.4.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dgbowl-schemas]: Downloading https://files.pythonhosted.org/packages/7b/23/01ecea1ec4ef027c075e34a226c22483e365c58784638d4c697205043830/dgbowl-schemas-113.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dash-glue42]: Downloading https://files.pythonhosted.org/packages/1f/d6/eb71a68d7ef03ac23d4a79ee8c9f16c1701ad218cefd72756897ae2dcbed/dash_glue42-1.3.0a0.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/35/24/3aa37adfeaf67666318182ca2a1cd8fb43a0abc1faf7453428a9b1b143f4/openai_forward-0.1.4.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/1f/fe/9c7d4e33a5aa9f9d887214d2f29fe47ddb7c992b089003d3021916e7ca93/sentry-kafka-schemas-0.1.0.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/d1/47/a116a349180e6edd870329e2e195638747985d61354ca1409e6cba7c79e5/cli_command_parser-2023.5.2.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [jhub-swarmspawner]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [jhub-swarmspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhub-swarmspawner-0.4.3.tar.gz tmp/jhub-swarmspawner-0.4.4.tar.gz --markdown 20230502/j/jhub-swarmspawner/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [openai-forward]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [openai-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_forward-0.1.3.tar.gz tmp/openai_forward-0.1.4.tar.gz --markdown 20230502/o/openai-forward/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/29/79/f1d7c2ef073511b3bce51d939640031c1c4bb163480aa258117dac5f9794/bigdl_serving-2.4.0b20230502-py2.py3-none-any.whl
+[2023-05-02 13:41:28] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/be/27/c441ec45c053793b79138c859be93121380bbe6b2f0243d29f5c6e139c76/ms_imputedhours_core-0.3.7.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.0.9.tar.gz tmp/sentry-kafka-schemas-0.1.0.tar.gz --markdown 20230502/s/sentry-kafka-schemas/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dash-glue42]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dash-glue42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_glue42-1.2.0a1.tar.gz tmp/dash_glue42-1.3.0a0.tar.gz --markdown 20230502/d/dash-glue42/1.2.0a1-1.3.0a0/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dgbowl-schemas]: Downloading https://files.pythonhosted.org/packages/08/e6/54fac1d8bf2dcc19ea1e2d029e9e9d3191c2e0184d249e81bf8712f241e8/dgbowl-schemas-114.tar.gz
+[2023-05-02 13:41:28] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.4.8.tar.gz tmp/cli_command_parser-2023.5.2.tar.gz --markdown 20230502/c/cli-command-parser/2023.4.8-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/27/7f/00a90dca8e4f190feeae6badfb5a6a19cb1edccc918676618f0312f0d884/bigdl_chronos-2.4.0b20230502-py3-none-win_amd64.whl
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230501-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230502-py2.py3-none-any.whl.zip --markdown 20230502/b/bigdl-serving/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.6.tar.gz tmp/ms_imputedhours_core-0.3.7.tar.gz --markdown 20230502/m/ms-imputedhours-core/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dgbowl-schemas]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [dgbowl-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgbowl-schemas-113.tar.gz tmp/dgbowl-schemas-114.tar.gz --markdown 20230502/d/dgbowl-schemas/113-114/diff.md --exclude *.pyd
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/57/83/796a861b57cca190dbdd1c79a67435f9e7e46ba68755da5252b3b5eec2ec/bigdl_nano-2.4.0b20230502-py3-none-win_amd64.whl
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-02 13:41:28] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230501-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230502-py3-none-win_amd64.whl.zip --markdown 20230502/b/bigdl-chronos/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-02 13:41:29] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-02 13:41:29] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230501-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230502-py3-none-win_amd64.whl.zip --markdown 20230502/b/bigdl-nano/2.4.0b20230501-2.4.0b20230502/diff.md --exclude *.pyd
+[2023-05-02 13:41:30] INFO root fetch - processPackages [ms-imputedhours-core]: Start processing: opendrift
+[2023-05-02 13:41:30] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-05-02 13:41:30] INFO root fetch - processPackages [opendrift]: New version: [1.9.1rc2] Old Version: [1.9.1rc1]
+[2023-05-02 13:41:30] INFO root fetch - processPackages [bigdl-serving]: Start processing: NDETCStemmer-kaenova
+[2023-05-02 13:41:30] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-02 13:41:30] WARNING root fetch - processPackages [NDETCStemmer-kaenova]: Skipping, unable to determine old version
+[2023-05-02 13:41:30] INFO root fetch - processPackages [NDETCStemmer-kaenova]: Start processing: titan-iris
+[2023-05-02 13:41:30] INFO root fetch - main [MainThread]: End processing [NDETCStemmer-kaenova] error
+[2023-05-02 13:41:30] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-02 13:41:30] INFO root fetch - processPackages [openai-forward]: Start processing: miditok
+[2023-05-02 13:41:30] INFO root fetch - main [MainThread]: End processing [openai-forward]: success
+[2023-05-02 13:41:30] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-02 13:41:30] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230502/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-02 13:41:30] INFO root fetch - processPackages [opendrift]: Downloading https://files.pythonhosted.org/packages/27/5f/70c0fb18125d6efd480a45cd7ecd1f1c61ed0380204b3af9f6b45c1779c0/opendrift-1.9.1rc1.tar.gz
+[2023-05-02 13:41:30] INFO root fetch - processPackages [miditok]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-02 13:41:30] INFO root fetch - processPackages [miditok]: Downloading https://files.pythonhosted.org/packages/eb/61/ec9fb01e57fefc5e74423d79b15b179e22eba95876045cebbb505b776752/miditok-2.0.3.tar.gz
+[2023-05-02 13:41:30] INFO root fetch - processPackages [miditok]: Downloading https://files.pythonhosted.org/packages/9f/d2/7af22b262a52c79a0f7542cb0144ff7b8642d6f2cce611feb60860e0e06b/miditok-2.0.4.tar.gz
+[2023-05-02 13:41:30] INFO root fetch - processPackages [jhub-swarmspawner]: Start processing: core-braincube-dev
+[2023-05-02 13:41:30] INFO root fetch - main [MainThread]: End processing [jhub-swarmspawner]: success
+[2023-05-02 13:41:30] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 13:41:31] INFO root fetch - processPackages [miditok]: executing diffoscope
+[2023-05-02 13:41:31] INFO root fetch - processPackages [miditok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miditok-2.0.3.tar.gz tmp/miditok-2.0.4.tar.gz --markdown 20230502/m/miditok/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-02 13:41:31] INFO root fetch - processPackages [bigdl-chronos]: Start processing: whitson-tool-helper
+[2023-05-02 13:41:31] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-02 13:41:31] INFO root fetch - processPackages [whitson-tool-helper]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 13:41:31] INFO root fetch - processPackages [core-braincube-dev]: Downloading https://files.pythonhosted.org/packages/33/cb/1f4aa4051140957407cc0646453bd1987d58dd848a0097565e689e50dc6b/core-braincube-dev-0.0.3.tar.gz
+[2023-05-02 13:41:31] INFO root fetch - processPackages [opendrift]: Downloading https://files.pythonhosted.org/packages/59/f6/fae412666c30b5a1a8a20bb8ae7fc09edbfc1d8eb48e342ebfc5579f81d7/opendrift-1.9.1rc2.tar.gz
+[2023-05-02 13:41:31] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 13:41:31] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.2.tar.gz tmp/core-braincube-dev-0.0.3.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 13:41:31] INFO root fetch - processPackages [titan-iris]: Start processing: ansible
+[2023-05-02 13:41:31] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-02 13:41:31] INFO root fetch - processPackages [opendrift]: executing diffoscope
+[2023-05-02 13:41:31] INFO root fetch - processPackages [opendrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendrift-1.9.1rc1.tar.gz tmp/opendrift-1.9.1rc2.tar.gz --markdown 20230502/o/opendrift/1.9.1rc1-1.9.1rc2/diff.md --exclude *.pyd
+[2023-05-02 13:41:31] INFO root fetch - processPackages [ansible]: New version: [8.0.0a2] Old Version: [8.0.0a1]
+[2023-05-02 13:41:31] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/08/69/d2e113f22af07f9ff3f77b8b70fa0b6dc3e2420e1d169773e758abb8814e/whitson_tool_helper-0.1.3.tar.gz
+[2023-05-02 13:41:31] INFO root fetch - processPackages [whitson-tool-helper]: executing diffoscope
+[2023-05-02 13:41:31] INFO root fetch - processPackages [whitson-tool-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitson_tool_helper-0.1.2.tar.gz tmp/whitson_tool_helper-0.1.3.tar.gz --markdown 20230502/w/whitson-tool-helper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 13:41:31] INFO root fetch - processPackages [ansible]: Downloading https://files.pythonhosted.org/packages/25/63/dc997671dd16d19600693806f23de0bab589c4c4336ebc1343a543343536/ansible-8.0.0a1.tar.gz
+[2023-05-02 13:41:31] INFO root fetch - processPackages [dgbowl-schemas]: Start processing: autosrt
+[2023-05-02 13:41:31] INFO root fetch - main [MainThread]: End processing [dgbowl-schemas]: success
+[2023-05-02 13:41:31] INFO root fetch - processPackages [autosrt]: New version: [1.2.6] Old Version: [1.2.4]
+[2023-05-02 13:41:31] WARNING root fetch - processPackages [ansible]: Skipping package: exceeds size limit 35731537>=10485760
+[2023-05-02 13:41:31] INFO root fetch - main [MainThread]: End processing [ansible] error
+[2023-05-02 13:41:32] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-05-02 13:41:32] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-02 13:41:32] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.4.tar.gz tmp/autosrt-1.2.6.tar.gz --markdown 20230502/a/autosrt/1.2.4-1.2.6/diff.md --exclude *.pyd
+[2023-05-02 13:41:32] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-02 13:41:32] INFO root fetch - main [MainThread]: End processing [miditok]: success
+[2023-05-02 13:41:32] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 13:41:32] INFO root fetch - main [MainThread]: End processing [whitson-tool-helper]: success
+[2023-05-02 13:41:32] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2023-05-02 13:41:33] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-02 13:41:34] INFO root fetch - main [MainThread]: End processing [opendrift]: success
+[2023-05-02 13:43:06] INFO root fetch - main [MainThread]: End processing [dash-glue42]: success
+[2023-05-02 13:43:06] INFO root fetch - main [MainThread]: Store serial: [17939903]
