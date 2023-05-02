@@ -19423,3 +19423,115 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 20:14:02] INFO root fetch - main [MainThread]: End processing [mp-api]: success
 [2023-05-02 20:16:01] INFO root fetch - main [MainThread]: End processing [dash-ag-grid]: success
 [2023-05-02 20:16:01] INFO root fetch - main [MainThread]: Store serial: [17945070]
+[2023-05-02 20:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945070]
+[2023-05-02 20:21:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CuellarModel-lib
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swmmio
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: research-client
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dkist-processing-visp
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upgini
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-weekly-cuda111
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartsheet-pydantic
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rnaindel
+[2023-05-02 20:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaaql-middleware-python
+[2023-05-02 20:21:18] INFO root fetch - processPackages [swmmio]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [research-client]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 20:21:18] WARNING root fetch - processPackages [nvidia-dali-weekly-cuda111]: Skipping, unable to determine old version
+[2023-05-02 20:21:18] INFO root fetch - processPackages [nvidia-dali-weekly-cuda111]: Start processing: subdivisions
+[2023-05-02 20:21:18] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda111] error
+[2023-05-02 20:21:18] WARNING root fetch - processPackages [CuellarModel-lib]: Skipping, unable to determine old version
+[2023-05-02 20:21:18] INFO root fetch - processPackages [CuellarModel-lib]: Start processing: bandplot
+[2023-05-02 20:21:18] INFO root fetch - main [MainThread]: End processing [CuellarModel-lib] error
+[2023-05-02 20:21:18] INFO root fetch - processPackages [rnaindel]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [smartsheet-pydantic]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [keras]: New version: [2.9.0rc2] Old Version: [2.9.0rc1]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.2] Old Version: [4.8.1]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [subdivisions]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [bandplot]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-02 20:21:18] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230502/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-02 20:21:18] INFO root fetch - processPackages [research-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/b28059f50cf1538212d1eec356015220bab1d0772e4e9e9f588c3308d827/research_client-0.4.1.tar.gz
+[2023-05-02 20:21:18] INFO root fetch - processPackages [rnaindel]: Downloading https://files.pythonhosted.org/packages/fb/ca/292741ae1a6a41decef71b0b426c7c1455895943f840fe61c00e3c1d7a5c/rnaindel-3.2.3.tar.gz
+[2023-05-02 20:21:18] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/b8/2a/be589870f6dc3e0249ad18ca15afc83158ff648ca69c00e81a5a97a07894/bandplot-0.1.3.1-py3-none-any.whl
+[2023-05-02 20:21:18] INFO root fetch - processPackages [smartsheet-pydantic]: Downloading https://files.pythonhosted.org/packages/20/3a/cb56b2c080130617c70fca4cf3da2f99ebab5dd041380eac656e5c12baa9/smartsheet-pydantic-1.4.2.tar.gz
+[2023-05-02 20:21:18] INFO root fetch - processPackages [subdivisions]: Downloading https://files.pythonhosted.org/packages/cf/02/8a04275071438857972a337f438392f1e8d708f23f84dabfd122838cd73b/subdivisions-1.8.0.tar.gz
+[2023-05-02 20:21:18] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/8e/10/b06103e431e64759f2b0abc70fbacf420316bdaebb6504fc4f0cfdad3ea8/jaaql-middleware-python-4.8.2.tar.gz
+[2023-05-02 20:21:18] INFO root fetch - processPackages [smartsheet-pydantic]: executing diffoscope
+[2023-05-02 20:21:18] INFO root fetch - processPackages [smartsheet-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-pydantic-1.4.1.tar.gz tmp/smartsheet-pydantic-1.4.2.tar.gz --markdown 20230502/s/smartsheet-pydantic/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-02 20:21:18] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 20:21:18] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.1.tar.gz tmp/jaaql-middleware-python-4.8.2.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.8.1-4.8.2/diff.md --exclude *.pyd
+[2023-05-02 20:21:18] WARNING root fetch - processPackages [research-client]: Skipping package: exceeds size limit 66285462>=10485760
+[2023-05-02 20:21:18] WARNING root fetch - processPackages [rnaindel]: Skipping package: exceeds size limit 31361231>=10485760
+[2023-05-02 20:21:18] INFO root fetch - processPackages [research-client]: Start processing: flipside
+[2023-05-02 20:21:18] INFO root fetch - processPackages [rnaindel]: Start processing: shroomdk
+[2023-05-02 20:21:18] INFO root fetch - main [MainThread]: End processing [research-client] error
+[2023-05-02 20:21:18] INFO root fetch - main [MainThread]: End processing [rnaindel] error
+[2023-05-02 20:21:18] INFO root fetch - processPackages [flipside]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [shroomdk]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-02 20:21:18] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/13/2c/cefe0c81fbaaa4e06397d5479298bae0717f7ee6c1f2615279f603023cc7/dkist_processing_visp-2.1.0.tar.gz
+[2023-05-02 20:21:18] INFO root fetch - processPackages [keras]: executing diffoscope
+[2023-05-02 20:21:18] INFO root fetch - processPackages [keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-2.9.0rc1-py2.py3-none-any.whl.zip tmp/keras-2.9.0rc2-py2.py3-none-any.whl.zip --markdown 20230502/k/keras/2.9.0rc1-2.9.0rc2/diff.md --exclude *.pyd
+[2023-05-02 20:21:18] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2023-05-02 20:21:18] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.0.2.tar.gz tmp/dkist_processing_visp-2.1.0.tar.gz --markdown 20230502/d/dkist-processing-visp/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-05-02 20:21:18] INFO root fetch - processPackages [swmmio]: Downloading https://files.pythonhosted.org/packages/66/f4/96a303d5444f2db5af617b03b0cec84deb0be4483f2bc793da14ecdf4012/swmmio-0.6.5-py3-none-any.whl
+[2023-05-02 20:21:19] INFO root fetch - processPackages [flipside]: Downloading https://files.pythonhosted.org/packages/b1/a7/f40b8ae1015b482262c248e1722085c97620ddfdb19d04373118f60a8bff/flipside-2.0.0.tar.gz
+[2023-05-02 20:21:19] INFO root fetch - processPackages [bandplot]: Downloading https://files.pythonhosted.org/packages/1c/35/142ae2a5db15f2d3e684ebe2aed437e6cfe7216aa2c0c314725a02c0ce6e/bandplot-0.1.3.2-py3-none-any.whl
+[2023-05-02 20:21:19] INFO root fetch - processPackages [swmmio]: executing diffoscope
+[2023-05-02 20:21:19] INFO root fetch - processPackages [swmmio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmmio-0.6.4-py3-none-any.whl.zip tmp/swmmio-0.6.5-py3-none-any.whl.zip --markdown 20230502/s/swmmio/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-02 20:21:19] INFO root fetch - processPackages [bandplot]: executing diffoscope
+[2023-05-02 20:21:19] INFO root fetch - processPackages [shroomdk]: Downloading https://files.pythonhosted.org/packages/f2/b7/04b1cd83518f62870d2edf51c29cea4393ccfedb7a0214a47d98825cca20/shroomdk-2.0.1.tar.gz
+[2023-05-02 20:21:19] INFO root fetch - processPackages [bandplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandplot-0.1.3.1-py3-none-any.whl.zip tmp/bandplot-0.1.3.2-py3-none-any.whl.zip --markdown 20230502/b/bandplot/0.1.3.1-0.1.3.2/diff.md --exclude *.pyd
+[2023-05-02 20:21:19] INFO root fetch - processPackages [subdivisions]: Downloading https://files.pythonhosted.org/packages/47/9d/36bee81d1b5b039ca2bb8afdbaf6756bb61d3819488e148fd81baef5e8b3/subdivisions-1.9.0.tar.gz
+[2023-05-02 20:21:19] INFO root fetch - processPackages [shroomdk]: executing diffoscope
+[2023-05-02 20:21:19] INFO root fetch - processPackages [shroomdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shroomdk-2.0.0.tar.gz tmp/shroomdk-2.0.1.tar.gz --markdown 20230502/s/shroomdk/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-02 20:21:19] INFO root fetch - processPackages [flipside]: Downloading https://files.pythonhosted.org/packages/76/4b/66ffe70e98df085f6a459d7e3db7f4dfc9622ee3af511691893d355e607c/flipside-2.0.1.tar.gz
+[2023-05-02 20:21:19] INFO root fetch - processPackages [flipside]: executing diffoscope
+[2023-05-02 20:21:19] INFO root fetch - processPackages [flipside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipside-2.0.0.tar.gz tmp/flipside-2.0.1.tar.gz --markdown 20230502/f/flipside/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-02 20:21:19] INFO root fetch - processPackages [subdivisions]: executing diffoscope
+[2023-05-02 20:21:19] INFO root fetch - processPackages [subdivisions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subdivisions-1.8.0.tar.gz tmp/subdivisions-1.9.0.tar.gz --markdown 20230502/s/subdivisions/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 20:21:20] INFO root fetch - processPackages [bandplot]: Start processing: my-fake-useragent
+[2023-05-02 20:21:20] INFO root fetch - main [MainThread]: End processing [bandplot]: success
+[2023-05-02 20:21:20] INFO root fetch - processPackages [my-fake-useragent]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 20:21:20] INFO root fetch - processPackages [smartsheet-pydantic]: Start processing: gen3git
+[2023-05-02 20:21:20] INFO root fetch - main [MainThread]: End processing [smartsheet-pydantic]: success
+[2023-05-02 20:21:20] INFO root fetch - processPackages [gen3git]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-02 20:21:20] INFO root fetch - processPackages [my-fake-useragent]: Downloading https://files.pythonhosted.org/packages/42/f1/21c0af4cc0a7196830606a3ddb760835cbc79644356c4aba67432faf45fd/my_fake_useragent-0.2.0.tar.gz
+[2023-05-02 20:21:20] INFO root fetch - processPackages [subdivisions]: Start processing: langflow
+[2023-05-02 20:21:20] INFO root fetch - main [MainThread]: End processing [subdivisions]: success
+[2023-05-02 20:21:20] INFO root fetch - processPackages [gen3git]: Downloading https://files.pythonhosted.org/packages/33/c5/b8b509803be166e78215f39f35643e23b602c6ef91e21e893efe93ca6859/gen3git-0.7.1.tar.gz
+[2023-05-02 20:21:20] INFO root fetch - processPackages [langflow]: New version: [0.0.68] Old Version: [0.0.67]
+[2023-05-02 20:21:20] INFO root fetch - processPackages [shroomdk]: Start processing: oarepo-cli
+[2023-05-02 20:21:20] INFO root fetch - main [MainThread]: End processing [shroomdk]: success
+[2023-05-02 20:21:20] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-02 20:21:20] INFO root fetch - processPackages [my-fake-useragent]: Downloading https://files.pythonhosted.org/packages/12/64/358def34ed2ba6b775d1f7891cf67ca65653ef2435f84f56c5e4cabb8b39/my_fake_useragent-0.2.1.tar.gz
+[2023-05-02 20:21:20] INFO root fetch - processPackages [flipside]: Start processing: slurm-parallel
+[2023-05-02 20:21:20] INFO root fetch - main [MainThread]: End processing [flipside]: success
+[2023-05-02 20:21:20] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/3b/e4/5eb142c1c036aa45d173f374fa974a8824bb057565d7851f89b6ed4b865a/langflow-0.0.67.tar.gz
+[2023-05-02 20:21:20] INFO root fetch - processPackages [my-fake-useragent]: executing diffoscope
+[2023-05-02 20:21:20] INFO root fetch - processPackages [my-fake-useragent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_fake_useragent-0.2.0.tar.gz tmp/my_fake_useragent-0.2.1.tar.gz --markdown 20230502/m/my-fake-useragent/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 20:21:21] ERROR root fetch - processPackages [slurm-parallel]: Unable to get metadata: No such project 'slurm-parallel'
+[2023-05-02 20:21:21] INFO root fetch - processPackages [slurm-parallel]: Start processing: cuellartensorflow
+[2023-05-02 20:21:21] INFO root fetch - main [MainThread]: End processing [slurm-parallel] error
+[2023-05-02 20:21:21] INFO root fetch - processPackages [gen3git]: Downloading https://files.pythonhosted.org/packages/b7/0f/1548fbce327fcce9df02d4947edd341f6176f49c1676f6853ddbc6e2e6b6/gen3git-0.7.2.tar.gz
+[2023-05-02 20:21:21] INFO root fetch - main [MainThread]: End processing [swmmio]: success
+[2023-05-02 20:21:21] INFO root fetch - processPackages [gen3git]: executing diffoscope
+[2023-05-02 20:21:21] INFO root fetch - processPackages [gen3git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen3git-0.7.1.tar.gz tmp/gen3git-0.7.2.tar.gz --markdown 20230502/g/gen3git/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-02 20:21:21] WARNING root fetch - processPackages [cuellartensorflow]: Skipping, unable to determine old version
+[2023-05-02 20:21:21] INFO root fetch - main [MainThread]: End processing [cuellartensorflow] error
+[2023-05-02 20:21:21] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-02 20:21:21] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230502/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-02 20:21:21] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/c1/64/67e119ffdfdc389a25263185b6a3eb263b3632b69ca2db76c7c29f645cfc/langflow-0.0.68.tar.gz
+[2023-05-02 20:21:21] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-02 20:21:21] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.67.tar.gz tmp/langflow-0.0.68.tar.gz --markdown 20230502/l/langflow/0.0.67-0.0.68/diff.md --exclude *.pyd
+[2023-05-02 20:21:21] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-02 20:21:22] INFO root fetch - main [MainThread]: End processing [gen3git]: success
+[2023-05-02 20:21:22] INFO root fetch - main [MainThread]: End processing [my-fake-useragent]: success
+[2023-05-02 20:21:22] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-02 20:21:22] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 20:21:24] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2023-05-02 20:21:27] INFO root fetch - main [MainThread]: End processing [keras]: success
+[2023-05-02 20:23:02] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-02 20:23:02] INFO root fetch - main [MainThread]: Store serial: [17945141]
