@@ -1784,3 +1784,95 @@
 [2023-05-02 02:29:25] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
 [2023-05-02 02:29:32] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-05-02 02:29:32] INFO root fetch - main [MainThread]: Store serial: [17933519]
+[2023-05-02 02:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933519]
+[2023-05-02 02:34:41] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-operator
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mnm
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-proxmox
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: everdrop-aws-cdk-constructs
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xdatasets
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vanoma-api-utils
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: igneous-pipeline
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-polygon-sdk
+[2023-05-02 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finlogic
+[2023-05-02 02:34:41] INFO root fetch - processPackages [mnm]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-02 02:34:41] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 02:34:41] INFO root fetch - processPackages [xdatasets]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-02 02:34:41] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 02:34:41] WARNING root fetch - processPackages [async-polygon-sdk]: Skipping, unable to determine old version
+[2023-05-02 02:34:41] INFO root fetch - processPackages [async-polygon-sdk]: Start processing: pepperize.cdk-github
+[2023-05-02 02:34:41] INFO root fetch - main [MainThread]: End processing [async-polygon-sdk] error
+[2023-05-02 02:34:41] INFO root fetch - processPackages [finlogic]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-02 02:34:41] INFO root fetch - processPackages [igneous-pipeline]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-02 02:34:41] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 02:34:41] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.9.0] Old Version: [0.87.0]
+[2023-05-02 02:34:42] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 02:34:42] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.3.dev20230502] Old Version: [0.1.3.dev20230501]
+[2023-05-02 02:34:42] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230502/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.8.tar.gz tmp/cdktf-proxmox-0.0.9.tar.gz --markdown 20230502/c/cdktf-proxmox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/0f/b1/7702f6400f0a6d50bb1b8bb4cdc75c66360bbd3c8ede2ce4dc8d8e68edad/vanoma_api_utils-0.87.0.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [xdatasets]: Downloading https://files.pythonhosted.org/packages/b7/9a/b14df3d56444f7d5b67d03d6efb89460e68fe004c32acd4c2a65ebd056a7/xdatasets-0.2.3.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/44/05/223f9d80d8186c5262b494d43d08c25a5a57a20ec768157db3caa282edce/igneous-pipeline-4.8.0.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/63/d5/531451d413d5eac3219acb687460cd2c0c4788c3abdd00fbc2c5174efdcc/aeppl-nightly-0.1.3.dev20230501.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [mnm]: Downloading https://files.pythonhosted.org/packages/b0/31/7bc60b0b99b94b44b0566c606d647576d7b95b8016239340f37cd6e9dcc1/mnm-0.1.2.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [xdatasets]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [xdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdatasets-0.2.2.tar.gz tmp/xdatasets-0.2.3.tar.gz --markdown 20230502/x/xdatasets/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.87.0.tar.gz tmp/vanoma-api-utils-0.9.0.tar.gz --markdown 20230502/v/vanoma-api-utils/0.87.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/18/cc/92d62b72b1a745d79f2dc0d8f1605e5808e037011973a9f80bad0c904598/finlogic-0.4.0.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [mnm]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [mnm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnm-0.1.0.tar.gz tmp/mnm-0.1.2.tar.gz --markdown 20230502/m/mnm/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [finlogic]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [finlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.3.9.tar.gz tmp/finlogic-0.4.0.tar.gz --markdown 20230502/f/finlogic/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230502/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/4a/ce/8a01e09052c99f454c9bd1d3e0b9a0c10f407aef4301fae2be41051c8b87/aeppl-nightly-0.1.3.dev20230502.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [igneous-pipeline]: Downloading https://files.pythonhosted.org/packages/73/89/99a97070bf7edb5db3d588a78566a88207c6a26324df583d79cf41561a44/igneous-pipeline-4.9.0.tar.gz
+[2023-05-02 02:34:42] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.3.dev20230501.tar.gz tmp/aeppl-nightly-0.1.3.dev20230502.tar.gz --markdown 20230502/a/aeppl-nightly/0.1.3.dev20230501-0.1.3.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 02:34:42] INFO root fetch - processPackages [igneous-pipeline]: executing diffoscope
+[2023-05-02 02:34:42] INFO root fetch - processPackages [igneous-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igneous-pipeline-4.8.0.tar.gz tmp/igneous-pipeline-4.9.0.tar.gz --markdown 20230502/i/igneous-pipeline/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-02 02:34:43] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Start processing: sortedness
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-05-02 02:34:43] INFO root fetch - processPackages [sortedness]: New version: [0.230501.5] Old Version: [0.220803.1]
+[2023-05-02 02:34:43] INFO root fetch - processPackages [mnm]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [mnm]: success
+[2023-05-02 02:34:43] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 02:34:43] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-02 02:34:43] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230502/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 02:34:43] INFO root fetch - processPackages [cdk8s-operator]: Start processing: state-machine-semaphore
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-05-02 02:34:43] INFO root fetch - processPackages [sortedness]: Downloading https://files.pythonhosted.org/packages/d1/f7/889db817b1de96b1a4e469a5f76e4b4593e1fc87cbdd193c5ee305b5d2fb/sortedness-0.220803.1.tar.gz
+[2023-05-02 02:34:43] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 02:34:43] INFO root fetch - processPackages [finlogic]: Start processing: pygredients
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [finlogic]: success
+[2023-05-02 02:34:43] WARNING root fetch - processPackages [pygredients]: Skipping, unable to determine old version
+[2023-05-02 02:34:43] INFO root fetch - processPackages [pygredients]: Start processing: hx-requests
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [pygredients] error
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [xdatasets]: success
+[2023-05-02 02:34:43] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-05-02 02:34:44] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-02 02:34:44] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230502/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 02:34:44] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 02:34:44] INFO root fetch - processPackages [sortedness]: Downloading https://files.pythonhosted.org/packages/02/d9/5361cb9d06fc1a4ddbbc27261445a3d771c643c4b11fbe5c09bedfb22e7c/sortedness-0.230501.5.tar.gz
+[2023-05-02 02:34:44] INFO root fetch - processPackages [sortedness]: executing diffoscope
+[2023-05-02 02:34:44] INFO root fetch - processPackages [sortedness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortedness-0.220803.1.tar.gz tmp/sortedness-0.230501.5.tar.gz --markdown 20230502/s/sortedness/0.220803.1-0.230501.5/diff.md --exclude *.pyd
+[2023-05-02 02:34:44] INFO root fetch - processPackages [hx-requests]: Downloading https://files.pythonhosted.org/packages/3a/66/abe3611c9a7b331352d0d584b6cb03b625bec10e97ea4d64a76fa90a7369/hx_requests-0.8.0.tar.gz
+[2023-05-02 02:34:44] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-05-02 02:34:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-05-02 02:34:44] INFO root fetch - main [MainThread]: End processing [igneous-pipeline]: success
+[2023-05-02 02:34:44] INFO root fetch - processPackages [hx-requests]: Downloading https://files.pythonhosted.org/packages/38/c2/cd7ffd390e8f65981518e18497e49a3b71e5ded11c98762b6fcf15ff54ba/hx_requests-0.9.0.tar.gz
+[2023-05-02 02:34:44] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-05-02 02:34:44] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230502/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 02:34:45] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-02 02:34:45] INFO root fetch - main [MainThread]: End processing [sortedness]: success
+[2023-05-02 02:34:45] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-02 02:34:45] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-05-02 02:34:46] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-05-02 02:34:46] INFO root fetch - main [MainThread]: Store serial: [17933575]
