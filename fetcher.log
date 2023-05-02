@@ -10758,3 +10758,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:41:18] INFO root fetch - main [MainThread]: End processing [pymodaq-femto]: success
 [2023-05-02 12:41:19] INFO root fetch - main [MainThread]: End processing [c8y-api]: success
 [2023-05-02 12:41:19] INFO root fetch - main [MainThread]: Store serial: [17939254]
+[2023-05-02 12:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939254]
+[2023-05-02 12:46:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wbpUItools
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pwclient
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-guerrilla-mail-brb
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-widget-numeric-step
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mtgpu
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-shift
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsenv
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questdb-connect
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytorch-optimem
+[2023-05-02 12:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-02 12:46:28] WARNING root fetch - processPackages [python-guerrilla-mail-brb]: Skipping, unable to determine old version
+[2023-05-02 12:46:28] INFO root fetch - processPackages [python-guerrilla-mail-brb]: Start processing: robotControl
+[2023-05-02 12:46:28] INFO root fetch - main [MainThread]: End processing [python-guerrilla-mail-brb] error
+[2023-05-02 12:46:28] INFO root fetch - processPackages [pytorch-optimem]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [odoo-addon-web-widget-numeric-step]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [pwclient]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [wbpUItools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [mtgpu]: New version: [0.7.202305021042] Old Version: [0.7.202305021039]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [parsenv]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-05-02 12:46:28] WARNING root fetch - processPackages [odoo12-addon-shift]: Skipping, unable to determine old version
+[2023-05-02 12:46:28] INFO root fetch - processPackages [odoo12-addon-shift]: Start processing: JFIO
+[2023-05-02 12:46:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-shift] error
+[2023-05-02 12:46:28] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping, unable to determine old version
+[2023-05-02 12:46:28] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: odoo-addon-commission
+[2023-05-02 12:46:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-02 12:46:28] INFO root fetch - processPackages [robotControl]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [JFIO]: New version: [0.2] Old Version: [0.1]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [odoo-addon-commission]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2023-05-02 12:46:28] INFO root fetch - processPackages [mtgpu]: Downloading https://files.pythonhosted.org/packages/b4/4d/487cd2892373e23342379f7cea2d8e1557994f03607f3524fa9c6e2e68fd/mtgpu-0.7.202305021039-py3-none-any.whl
+[2023-05-02 12:46:28] INFO root fetch - processPackages [odoo-addon-web-widget-numeric-step]: Downloading https://files.pythonhosted.org/packages/a7/86/97ec1813059daf1992a16dfeb8cf55814f8d7145ec1b01427756d2d183de/odoo_addon_web_widget_numeric_step-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-02 12:46:28] INFO root fetch - processPackages [pwclient]: Downloading https://files.pythonhosted.org/packages/8a/22/94ba277850f6688950fd363bf7152cd6e379f3599619d08c8be4b0e0b483/pwclient-2.6.0.tar.gz
+[2023-05-02 12:46:28] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/f7/24/01fcdf0221eb7a594e7dc4a73607b62bc5d5092cd5b81e034043f1e20aa1/JFIO-0.1.tar.gz
+[2023-05-02 12:46:28] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/64/80/732569e7e6944cc5872b9d8063943219c48c8c14422b864d33196bb0ac47/questdb-connect-0.0.30.tar.gz
+[2023-05-02 12:46:28] INFO root fetch - processPackages [wbpUItools]: Downloading https://files.pythonhosted.org/packages/a6/7f/0861bd26939301271f4ea27748b5332a1f2e55cad92c8a76029eb722a1a6/wbpUItools-0.1.8.tar.gz
+[2023-05-02 12:46:28] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/00/69/4e3da7fb3a5ed9ff3e279c0715cb8a1db9e5760f06dcaa86f6fd6f6fb48b/robotControl-1.0.2.tar.gz
+[2023-05-02 12:46:28] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/de/08/87ed7eac4bdf24d18c12c3a068e56de9a7aa9fb9490f33cea3155cf0048b/odoo_addon_commission-16.0.1.1.0-py3-none-any.whl
+[2023-05-02 12:46:28] INFO root fetch - processPackages [parsenv]: Downloading https://files.pythonhosted.org/packages/61/01/c10010e0f2b0f74169673cc57595142d72409d33ffadd96700ac9a9c0a95/parsenv-0.3.0.tar.gz
+[2023-05-02 12:46:28] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-02 12:46:28] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.29.tar.gz tmp/questdb-connect-0.0.30.tar.gz --markdown 20230502/q/questdb-connect/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-05-02 12:46:28] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 12:46:28] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-1.0.1.tar.gz tmp/robotControl-1.0.2.tar.gz --markdown 20230502/r/robotControl/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 12:46:28] INFO root fetch - processPackages [parsenv]: executing diffoscope
+[2023-05-02 12:46:28] INFO root fetch - processPackages [parsenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsenv-0.2.2.tar.gz tmp/parsenv-0.3.0.tar.gz --markdown 20230502/p/parsenv/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [pytorch-optimem]: Downloading https://files.pythonhosted.org/packages/da/47/abc34ff1866c69028aff2012672a63453985355b57851d955980dd54f1f3/pytorch-optimem-0.0.5.tar.gz
+[2023-05-02 12:46:29] INFO root fetch - processPackages [pytorch-optimem]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [pytorch-optimem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-optimem-0.0.4.tar.gz tmp/pytorch-optimem-0.0.5.tar.gz --markdown 20230502/p/pytorch-optimem/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [odoo-addon-web-widget-numeric-step]: Downloading https://files.pythonhosted.org/packages/a0/56/d6cc3923ef5c506566a45bc023d5f06cbf958a8839afb2a054462051d1ed/odoo_addon_web_widget_numeric_step-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-02 12:46:29] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/74/cb/f005c12d33e2be37cb1dc89e5671423b706085856bcf915c3cd92bde44c1/JFIO-0.2.tar.gz
+[2023-05-02 12:46:29] INFO root fetch - processPackages [pwclient]: Downloading https://files.pythonhosted.org/packages/c4/9b/ea079ec9b9927db083ae26cea1350ad39d17042749a451677e3b3260fbbe/pwclient-2.6.1.tar.gz
+[2023-05-02 12:46:29] INFO root fetch - processPackages [mtgpu]: Downloading https://files.pythonhosted.org/packages/54/0e/5057e48c2742e301b94c1368f1a13a37d7e5043e1c754e27d7928b548355/mtgpu-0.7.202305021042-py3-none-any.whl
+[2023-05-02 12:46:29] INFO root fetch - processPackages [wbpUItools]: Downloading https://files.pythonhosted.org/packages/29/16/600dcac3892b85817f19fefdbe7bd56de6b562200f7d2c7ff533955f8104/wbpUItools-0.1.9.tar.gz
+[2023-05-02 12:46:29] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-0.1.tar.gz tmp/JFIO-0.2.tar.gz --markdown 20230502/J/JFIO/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [odoo-addon-web-widget-numeric-step]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [odoo-addon-web-widget-numeric-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_widget_numeric_step-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_widget_numeric_step-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230502/o/odoo-addon-web-widget-numeric-step/15.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [mtgpu]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [mtgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtgpu-0.7.202305021039-py3-none-any.whl.zip tmp/mtgpu-0.7.202305021042-py3-none-any.whl.zip --markdown 20230502/m/mtgpu/0.7.202305021039-0.7.202305021042/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [wbpUItools]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [pwclient]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [pwclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwclient-2.6.0.tar.gz tmp/pwclient-2.6.1.tar.gz --markdown 20230502/p/pwclient/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [wbpUItools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpUItools-0.1.8.tar.gz tmp/wbpUItools-0.1.9.tar.gz --markdown 20230502/w/wbpUItools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 12:46:29] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/c7/21/33b5ae29f9cce2509995100051f316ed8cd06f6cbc1f9e9cde0797273fee/odoo_addon_commission-16.0.1.1.1-py3-none-any.whl
+[2023-05-02 12:46:29] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2023-05-02 12:46:29] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_commission-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230502/o/odoo-addon-commission/16.0.1.1.0-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-02 12:46:30] INFO root fetch - processPackages [parsenv]: Start processing: odoo-addon-account-commission
+[2023-05-02 12:46:30] INFO root fetch - main [MainThread]: End processing [parsenv]: success
+[2023-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2023-05-02 12:46:30] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 12:46:30] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/94/8d/c5d30ca42740752a459c0d8a4ebbeae9c23843f55b6f4d6a82d430e1eed6/odoo_addon_account_commission-16.0.1.1.0-py3-none-any.whl
+[2023-05-02 12:46:30] INFO root fetch - main [MainThread]: End processing [pytorch-optimem]: success
+[2023-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/23/1c/503d525721e8ee8cfa4962e9d76c5ad05db75473c396164712104a329279/odoo_addon_account_commission-16.0.1.1.1-py3-none-any.whl
+[2023-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2023-05-02 12:46:30] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230502/o/odoo-addon-account-commission/16.0.1.1.0-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-02 12:46:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2023-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [mtgpu]: success
+[2023-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-numeric-step]: success
+[2023-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [wbpUItools]: success
+[2023-05-02 12:46:31] INFO root fetch - main [MainThread]: End processing [pwclient]: success
+[2023-05-02 12:46:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2023-05-02 12:46:32] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-02 12:46:32] INFO root fetch - main [MainThread]: Store serial: [17939298]
