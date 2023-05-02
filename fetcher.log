@@ -5159,3 +5159,122 @@
 [2023-05-02 05:21:29] ERROR root fetch - processPackages [organage]: Timeout during execution of pkgdiff
 [2023-05-02 05:21:29] INFO root fetch - main [MainThread]: End processing [organage] error
 [2023-05-02 05:21:29] INFO root fetch - main [MainThread]: Store serial: [17935586]
+[2023-05-02 05:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935586]
+[2023-05-02 05:26:38] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail-corepos
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lampo-py
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exciton
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulp-rpm
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-rq
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulp-rpm-client
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulp-rpm
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulp-rpm-client
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastaframes
+[2023-05-02 05:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-github
+[2023-05-02 05:26:38] INFO root fetch - processPackages [rattail-corepos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 05:26:38] WARNING root fetch - processPackages [lampo-py]: Skipping, unable to determine old version
+[2023-05-02 05:26:38] INFO root fetch - processPackages [lampo-py]: Start processing: DBRetina
+[2023-05-02 05:26:38] INFO root fetch - main [MainThread]: End processing [lampo-py] error
+[2023-05-02 05:26:38] INFO root fetch - processPackages [exciton]: New version: [1.5.2] Old Version: [1.5.0]
+[2023-05-02 05:26:38] WARNING root fetch - processPackages [fastaframes]: Skipping, unable to determine old version
+[2023-05-02 05:26:38] INFO root fetch - processPackages [fastaframes]: Start processing: antarctic
+[2023-05-02 05:26:38] INFO root fetch - main [MainThread]: End processing [fastaframes] error
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [django-rq]: New version: [2.8.0] Old Version: [2.7.0]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [DBRetina]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm-client]: New version: [3.9.1] Old Version: [3.9.0.dev1611548779]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [antarctic]: New version: [0.6.2] Old Version: [0.5.0]
+[2023-05-02 05:26:38] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/13/06/8b16a48ef3a7e6294bd301a140fc276b19a777623c2e5f2949c5ea9c8204/rattail_corepos-0.1.8.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [django-rq]: Downloading https://files.pythonhosted.org/packages/e4/0c/3f3efc1ea662989b37b8953f161225f98c981fd0ba5610850b9da5b9b68a/django-rq-2.7.0.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/ff/1e/5233d641810949aa6421b42d883f21e226633dae7b51692d36e9ba32248c/pulp-rpm-3.9.0.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/ff/1e/5233d641810949aa6421b42d883f21e226633dae7b51692d36e9ba32248c/pulp-rpm-3.9.0.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/72/a3/5316809e90453285ef5027a3a4ffb05b274e8efaefb38482da408beab20c/pulp_rpm-client-3.9.0.dev1611548779.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/72/a3/5316809e90453285ef5027a3a4ffb05b274e8efaefb38482da408beab20c/pulp_rpm-client-3.9.0.dev1611548779.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/74/a7/faf475d1fc1802c567a4a8c49ac062acfc91ce8ad3e2c0246027ffdfbb8a/cdktf-cdktf-provider-github-8.0.0.tar.gz
+[2023-05-02 05:26:38] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/cd/a5/a0d5f961cb223b1d77de818a871a0d80afb5c6e5a21aaca541549e2222c1/exciton-1.5.2-py3-none-any.whl
+[2023-05-02 05:26:38] INFO root fetch - processPackages [antarctic]: Downloading https://files.pythonhosted.org/packages/e9/39/efb72a137b8a78f04c49285631c5de6e44cf70cc298e29ed2e9467018eab/antarctic-0.5.0.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-1.5.0-py3-none-any.whl.zip tmp/exciton-1.5.2-py3-none-any.whl.zip --markdown 20230502/e/exciton/1.5.0-1.5.2/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/14/b5/0e8dd99a9de50e1c8c417c786ab236ac2aa34f627c3cfe861fc617a5f250/DBRetina-2.2.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 05:26:39] INFO root fetch - processPackages [django-rq]: Downloading https://files.pythonhosted.org/packages/a3/8a/d5b3eefc4ffbb97476ae913dcbb5a4529d5ef7dce45f0bad56f436d0bbd8/django-rq-2.8.0.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [rattail-corepos]: Downloading https://files.pythonhosted.org/packages/0a/1b/f80b71641dcccb204bd092bf6e83e8e001a2d55250cf6e9b4d7233a22f9f/rattail_corepos-0.1.9.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/f6/c3/7630f1a0387b49cdb9c675bda36988b5f74f95750b8884864db4d8ece3ae/pulp-rpm-3.9.1.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/b6/be/f25fba38fea038de92e8763ae19522b9fb288b2f1a73da9ddb9aa5cbe5c9/pulp_rpm-client-3.9.1.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm-client]: Downloading https://files.pythonhosted.org/packages/b6/be/f25fba38fea038de92e8763ae19522b9fb288b2f1a73da9ddb9aa5cbe5c9/pulp_rpm-client-3.9.1.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm]: Downloading https://files.pythonhosted.org/packages/f6/c3/7630f1a0387b49cdb9c675bda36988b5f74f95750b8884864db4d8ece3ae/pulp-rpm-3.9.1.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [django-rq]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [django-rq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-rq-2.7.0.tar.gz tmp/django-rq-2.8.0.tar.gz --markdown 20230502/d/django-rq/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/D/DBRetina/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [antarctic]: Downloading https://files.pythonhosted.org/packages/e5/47/08bf695812467e718eff36da922ba0c99eb64830673f0bc3313693632fc2/antarctic-0.6.2.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm-client]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230502/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_rpm-client-3.9.0.dev1611548779.tar.gz tmp/pulp_rpm-client-3.9.1.tar.gz --markdown 20230502/p/pulp-rpm-client/3.9.0.dev1611548779-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: Downloading https://files.pythonhosted.org/packages/e0/a1/0d289e4bbe42ee645ca6df6e49fbff6d8d5378e88c97175e2795d8c93602/cdktf-cdktf-provider-github-8.0.1.tar.gz
+[2023-05-02 05:26:39] INFO root fetch - processPackages [rattail-corepos]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [rattail-corepos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail_corepos-0.1.8.tar.gz tmp/rattail_corepos-0.1.9.tar.gz --markdown 20230502/r/rattail-corepos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [antarctic]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [antarctic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antarctic-0.5.0.tar.gz tmp/antarctic-0.6.2.tar.gz --markdown 20230502/a/antarctic/0.5.0-0.6.2/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230502/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [pulp-rpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-rpm-3.9.0.tar.gz tmp/pulp-rpm-3.9.1.tar.gz --markdown 20230502/p/pulp-rpm/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 05:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: executing diffoscope
+[2023-05-02 05:26:39] INFO root fetch - processPackages [cdktf-cdktf-provider-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-github-8.0.0.tar.gz tmp/cdktf-cdktf-provider-github-8.0.1.tar.gz --markdown 20230502/c/cdktf-cdktf-provider-github/8.0.0-8.0.1/diff.md --exclude *.pyd
+[2023-05-02 05:26:40] INFO root fetch - processPackages [exciton]: Start processing: pyhtcc
+[2023-05-02 05:26:40] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2023-05-02 05:26:40] INFO root fetch - processPackages [antarctic]: Start processing: je-editor
+[2023-05-02 05:26:40] INFO root fetch - main [MainThread]: End processing [antarctic]: success
+[2023-05-02 05:26:40] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-05-02 05:26:40] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 05:26:40] INFO root fetch - processPackages [django-rq]: Start processing: je-editor-dev
+[2023-05-02 05:26:40] INFO root fetch - main [MainThread]: End processing [django-rq]: success
+[2023-05-02 05:26:41] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-05-02 05:26:41] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/91/85922a98a9bde0fd64a48f0b91cc85c5d5d7284e5a3fd4625a5f771b2072/je_editor-0.0.86.tar.gz
+[2023-05-02 05:26:41] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-02 05:26:41] INFO root fetch - processPackages [pyhtcc]: Downloading https://files.pythonhosted.org/packages/01/9a/0b87e54aa1f5eb813d82cce4fde48725806ec26bd68fa7524030cfe197ff/pyhtcc-0.1.8.tar.gz
+[2023-05-02 05:26:41] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.86.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230502/j/je-editor-dev/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 05:26:41] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-02 05:26:41] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.86.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230502/j/je-editor/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 05:26:41] INFO root fetch - processPackages [pulp-rpm]: Start processing: shell-whisperer
+[2023-05-02 05:26:41] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-05-02 05:26:41] INFO root fetch - processPackages [pulp-rpm]: Start processing: graphistry
+[2023-05-02 05:26:41] INFO root fetch - main [MainThread]: End processing [pulp-rpm]: success
+[2023-05-02 05:26:41] INFO root fetch - processPackages [shell-whisperer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 05:26:41] INFO root fetch - processPackages [pyhtcc]: Downloading https://files.pythonhosted.org/packages/4b/9e/6c52acb4fb6e4b4e98709d2d48e2d9ba6421de0a6a77d943685ad49b49dd/pyhtcc-0.1.9.tar.gz
+[2023-05-02 05:26:41] INFO root fetch - processPackages [graphistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 05:26:41] INFO root fetch - processPackages [shell-whisperer]: Downloading https://files.pythonhosted.org/packages/5f/ee/42603260edbd64c70d5061e209fe15f738900d98eaba0dca3820a839fc83/shell_whisperer-0.1.1.tar.gz
+[2023-05-02 05:26:41] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-05-02 05:26:41] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230502/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 05:26:41] INFO root fetch - processPackages [graphistry]: Downloading https://files.pythonhosted.org/packages/ab/7f/7620662045f10e9ac7253f7ff6549ca63979fc192d5e9e43fe6267eb1d02/graphistry-0.9.8.tar.gz
+[2023-05-02 05:26:41] INFO root fetch - processPackages [rattail-corepos]: Start processing: shell-whisperer
+[2023-05-02 05:26:41] INFO root fetch - main [MainThread]: End processing [rattail-corepos]: success
+[2023-05-02 05:26:41] INFO root fetch - processPackages [shell-whisperer]: Downloading https://files.pythonhosted.org/packages/a4/c3/b2fd90f43ce9c972a4269ec0b20fd5c5bf1de87a9bbb9e7e2d89b038efc8/shell_whisperer-0.1.2.tar.gz
+[2023-05-02 05:26:41] INFO root fetch - processPackages [shell-whisperer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 05:26:42] INFO root fetch - processPackages [shell-whisperer]: executing diffoscope
+[2023-05-02 05:26:42] INFO root fetch - processPackages [shell-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whisperer-0.1.1.tar.gz tmp/shell_whisperer-0.1.2.tar.gz --markdown 20230502/s/shell-whisperer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 05:26:42] INFO root fetch - processPackages [shell-whisperer]: executing diffoscope
+[2023-05-02 05:26:42] INFO root fetch - processPackages [shell-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whisperer-0.1.1.tar.gz tmp/shell_whisperer-0.1.2.tar.gz --markdown 20230502/s/shell-whisperer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 05:26:42] INFO root fetch - processPackages [je-editor-dev]: Start processing: konfuzio-sdk
+[2023-05-02 05:26:42] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-02 05:26:42] INFO root fetch - processPackages [graphistry]: Downloading https://files.pythonhosted.org/packages/46/f5/6c3813ac8351a438fe2a39d4a797c716dfabee8a96bb8237f10df87bb319/graphistry-0.9.9.tar.gz
+[2023-05-02 05:26:42] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-02 05:26:42] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-02 05:26:42] INFO root fetch - processPackages [graphistry]: executing diffoscope
+[2023-05-02 05:26:42] INFO root fetch - processPackages [graphistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphistry-0.9.8.tar.gz tmp/graphistry-0.9.9.tar.gz --markdown 20230502/g/graphistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 05:26:42] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-02 05:26:42] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230502/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-02 05:26:42] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-05-02 05:26:43] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-05-02 05:26:43] INFO root fetch - main [MainThread]: End processing [shell-whisperer]: success
+[2023-05-02 05:26:43] INFO root fetch - main [MainThread]: End processing [shell-whisperer]: success
+[2023-05-02 05:26:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-github]: success
+[2023-05-02 05:26:43] INFO root fetch - main [MainThread]: End processing [graphistry]: success
+[2023-05-02 05:26:44] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-02 05:26:44] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-05-02 05:26:44] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
+[2023-05-02 05:26:44] INFO root fetch - main [MainThread]: Store serial: [17935650]
