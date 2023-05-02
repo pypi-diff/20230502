@@ -18164,3 +18164,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 19:06:40] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2023-05-02 19:06:41] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
 [2023-05-02 19:06:41] INFO root fetch - main [MainThread]: Store serial: [17944118]
+[2023-05-02 19:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944118]
+[2023-05-02 19:11:51] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audit-tool
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oci-cli
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fonttoolsWB
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: messageflux
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-ssd1680
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaaql-middleware-python
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-lambda-deno
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alphaz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kor
+[2023-05-02 19:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metaphor-connectors
+[2023-05-02 19:11:51] WARNING root fetch - processPackages [audit-tool]: Skipping, unable to determine old version
+[2023-05-02 19:11:51] INFO root fetch - processPackages [audit-tool]: Start processing: docx-coreprop-writer
+[2023-05-02 19:11:51] INFO root fetch - main [MainThread]: End processing [audit-tool] error
+[2023-05-02 19:11:51] WARNING root fetch - processPackages [fonttoolsWB]: Skipping, unable to determine old version
+[2023-05-02 19:11:51] INFO root fetch - processPackages [fonttoolsWB]: Start processing: openworld-sdk-python-core
+[2023-05-02 19:11:51] INFO root fetch - main [MainThread]: End processing [fonttoolsWB] error
+[2023-05-02 19:11:51] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [messageflux]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [kor]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.1] Old Version: [0.7.7]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.7.3] Old Version: [4.7.2]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [docx-coreprop-writer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [openworld-sdk-python-core]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 19:11:51] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/c1/ba/d478c3c8216bffff1162d2a76346872fb99ed4c5f00827aef5f415895f2a/openworld-sdk-python-core-0.6.1.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: Downloading https://files.pythonhosted.org/packages/f6/bd/a3bc574164fc3eb75a824e8c6994698925563f62e38d53d6238f9be21819/adafruit-circuitpython-ssd1680-1.0.9.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/61/0f/b606d0eb38a5186f585987b7a179c0f893eed0aeaa904ed17a1910d51f38/alphaz-0.7.7.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/9c/e2/4f465f989a78104f295087baa9702a6eb9c11ddcea6e92d1dd20bab87700/jaaql-middleware-python-4.7.3.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [docx-coreprop-writer]: Downloading https://files.pythonhosted.org/packages/0b/c9/1ca76ef94ae88c66a488f8135399eed1f55c40cc7917fb28d62005558813/docx_coreprop_writer-0.0.4-py2.py3-none-any.whl
+[2023-05-02 19:11:51] INFO root fetch - processPackages [kor]: Downloading https://files.pythonhosted.org/packages/88/6b/23db8ae3b6df0d3faebc3a727c47e65bc7791326e4775724701c6ab8991d/kor-0.9.1.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230502/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.7.2.tar.gz tmp/jaaql-middleware-python-4.7.3.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.7.2-4.7.3/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/85/80/b8906743b0202e0d32957d5266d53858a1895f72dfe89ab89d7d3c4d47f0/messageflux-0.2.3.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [kor]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [kor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kor-0.9.0.tar.gz tmp/kor-0.9.1.tar.gz --markdown 20230502/k/kor/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230502/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/13/78/8fc20495e17bb0a6ab3eba2e37e66acbd3d753e6cba22248727033bcd0eb/openworld-sdk-python-core-0.6.2.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [pepperize.cdk-lambda-deno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-lambda-deno-0.0.98.tar.gz tmp/pepperize.cdk-lambda-deno-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-lambda-deno/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.2.2.tar.gz tmp/messageflux-0.2.3.tar.gz --markdown 20230502/m/messageflux/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [openworld-sdk-python-core]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [openworld-sdk-python-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-core-0.6.1.tar.gz tmp/openworld-sdk-python-core-0.6.2.tar.gz --markdown 20230502/o/openworld-sdk-python-core/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: Downloading https://files.pythonhosted.org/packages/1e/c0/e29842c60a56dbda9f03c6af102f8158678a6dc3647f3ada8ec7f4f8f0d9/adafruit-circuitpython-ssd1680-1.1.0.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [docx-coreprop-writer]: Downloading https://files.pythonhosted.org/packages/a0/79/77f306e5a254a7b2a68f98b60a5df3df6c6f928f7cdd82a2ee341b8ad84d/docx_coreprop_writer-0.0.5-py2.py3-none-any.whl
+[2023-05-02 19:11:51] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/11/1b/e845307c1be35866624a66c0c547d4d837c14cf4840772421f54d1330036/alphaz-0.7.7.1.tar.gz
+[2023-05-02 19:11:51] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [adafruit-circuitpython-ssd1680]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ssd1680-1.0.9.tar.gz tmp/adafruit-circuitpython-ssd1680-1.1.0.tar.gz --markdown 20230502/a/adafruit-circuitpython-ssd1680/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 19:11:51] INFO root fetch - processPackages [docx-coreprop-writer]: executing diffoscope
+[2023-05-02 19:11:51] INFO root fetch - processPackages [docx-coreprop-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_coreprop_writer-0.0.4-py2.py3-none-any.whl.zip tmp/docx_coreprop_writer-0.0.5-py2.py3-none-any.whl.zip --markdown 20230502/d/docx-coreprop-writer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 19:11:52] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-02 19:11:52] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.tar.gz tmp/alphaz-0.7.7.1.tar.gz --markdown 20230502/a/alphaz/0.7.7-0.7.7.1/diff.md --exclude *.pyd
+[2023-05-02 19:11:53] INFO root fetch - processPackages [docx-coreprop-writer]: Start processing: qluster
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [docx-coreprop-writer]: success
+[2023-05-02 19:11:53] INFO root fetch - processPackages [qluster]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-02 19:11:53] INFO root fetch - processPackages [kor]: Start processing: ocptv
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [kor]: success
+[2023-05-02 19:11:53] INFO root fetch - processPackages [openworld-sdk-python-core]: Start processing: celerity
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-core]: success
+[2023-05-02 19:11:53] WARNING root fetch - processPackages [ocptv]: Skipping, unable to determine old version
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [ocptv] error
+[2023-05-02 19:11:53] INFO root fetch - processPackages [qluster]: Downloading https://files.pythonhosted.org/packages/55/fb/8407aaaebb688c551bc0373ca08f2da873f4430ba70401dda1dae84b597f/qluster-0.0.4.tar.gz
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ssd1680]: success
+[2023-05-02 19:11:53] WARNING root fetch - processPackages [celerity]: Skipping, unable to determine old version
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [celerity] error
+[2023-05-02 19:11:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-lambda-deno]: success
+[2023-05-02 19:11:53] INFO root fetch - processPackages [qluster]: Downloading https://files.pythonhosted.org/packages/96/12/56e11d1f669fb326b8eb08c6d50a2d86ad4952fd0df34602fa3331a1c08b/qluster-0.1.0.tar.gz
+[2023-05-02 19:11:53] INFO root fetch - processPackages [qluster]: executing diffoscope
+[2023-05-02 19:11:53] INFO root fetch - processPackages [qluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qluster-0.0.4.tar.gz tmp/qluster-0.1.0.tar.gz --markdown 20230502/q/qluster/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 19:11:54] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-05-02 19:11:54] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-05-02 19:11:54] INFO root fetch - main [MainThread]: End processing [qluster]: success
+[2023-05-02 19:11:55] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 19:11:56] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-02 19:14:51] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-05-02 19:14:51] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-05-02 19:14:51] INFO root fetch - main [MainThread]: Store serial: [17944165]
