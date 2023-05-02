@@ -10558,3 +10558,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:28:35] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
 [2023-05-02 12:28:58] INFO root fetch - main [MainThread]: End processing [py3a2]: success
 [2023-05-02 12:28:58] INFO root fetch - main [MainThread]: Store serial: [17939151]
+[2023-05-02 12:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939151]
+[2023-05-02 12:34:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.sdk
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: safer
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: com.precisely.apis
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foliantcontrib.includes
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guify
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: longsight
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipeline-ai
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-monitor
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysui-sdk
+[2023-05-02 12:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysiml
+[2023-05-02 12:34:13] INFO root fetch - processPackages [foliantcontrib.includes]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [safer]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [guify]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [pysui-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [com.precisely.apis]: New version: [16.0.0] Old Version: [15.0.0]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.14] Old Version: [1.2.13]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [longsight]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b1] Old Version: [0.4.6]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202305021032] Old Version: [0.2.9.dev202305020647]
+[2023-05-02 12:34:13] INFO root fetch - processPackages [safer]: Downloading https://files.pythonhosted.org/packages/b5/f0/e5dde49d71f90388248f45ad7ae0522193562eecf09cd0768e04024371bd/safer-4.5.0.tar.gz
+[2023-05-02 12:34:13] INFO root fetch - processPackages [pysui-sdk]: Downloading https://files.pythonhosted.org/packages/13/08/ec21a3f6d6f15424878560aa521ca81985e82d355266ddbc6b7691d4e8fb/pysui-sdk-1.0.3.tar.gz
+[2023-05-02 12:34:13] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/56/2d/b3cf519368a07f922720fe27b68e16a5067846cf496703301fe3cd658f65/openhexa.sdk-0.1.6.tar.gz
+[2023-05-02 12:34:13] INFO root fetch - processPackages [foliantcontrib.includes]: Downloading https://files.pythonhosted.org/packages/74/88/e0ee18eeb8eae11177141ed92ae96de1bee017e46238345e389c12893355/foliantcontrib.includes-1.1.8.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/22/63/04ef9534c8726905671d2cefd724301cd83bb5fe8eb2f4555dee9f80a4e9/pipeline_ai-0.4.6.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [com.precisely.apis]: Downloading https://files.pythonhosted.org/packages/96/d4/122e4a0c713a6b61c87959181a63701fe80ca289d00af27a79390b992543/com.precisely.apis-15.0.0.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/47/ea/958bbe81926434036adc2208099257505786eb22072eab8d4ea89481558d/guify-0.2.2.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/03/2c/a7580921fced28068c1d96835cb60840f51c60415e99674ee7876ee36234/pysiml-0.2.9.dev202305021032-py3-none-any.whl
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pysui-sdk]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pysui-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-sdk-1.0.2.tar.gz tmp/pysui-sdk-1.0.3.tar.gz --markdown 20230502/p/pysui-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.1.tar.gz tmp/guify-0.2.2.tar.gz --markdown 20230502/g/guify/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/46/5f/0cd29706e6622ceac74f449d75911aceca50c15c0e135b48c9df0aa9791e/jaaql-monitor-1.2.14.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [longsight]: Downloading https://files.pythonhosted.org/packages/89/74/1754cc94c52f7242ead6036ee24087c47c5d5829c1188a04d1d21933ac00/longsight-1.0.8.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.13.tar.gz tmp/jaaql-monitor-1.2.14.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.13-1.2.14/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [longsight]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [safer]: Downloading https://files.pythonhosted.org/packages/65/3b/cd264cb66b6269ba66c66ed654e20cec7f3da9087753db73493a57ca7d31/safer-4.6.0.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [longsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longsight-1.0.7.tar.gz tmp/longsight-1.0.8.tar.gz --markdown 20230502/l/longsight/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202305020647-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202305021032-py3-none-any.whl.zip --markdown 20230502/p/pysiml/0.2.9.dev202305020647-0.2.9.dev202305021032/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/da/a4/02781673c55fb9dd5f5782cbb93e0892bf07284766f8ca794bebc17ece33/openhexa.sdk-0.1.7.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [com.precisely.apis]: Downloading https://files.pythonhosted.org/packages/a5/99/6b69cb0f1a5318caa9484c78d8f15ac33e2e819782de34675175e4b2c740/com.precisely.apis-16.0.0.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/31/5f/124f56893ff237c4fe024f353bdde5a5282da42cd409cc5a270a70f99567/pipeline_ai-0.5.0b1.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [safer]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [safer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safer-4.5.0.tar.gz tmp/safer-4.6.0.tar.gz --markdown 20230502/s/safer/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.6.tar.gz tmp/openhexa.sdk-0.1.7.tar.gz --markdown 20230502/o/openhexa.sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [foliantcontrib.includes]: Downloading https://files.pythonhosted.org/packages/00/82/23628626bb6d538455c3472e5ae625d036a8c7e61ce5264014c34ffe92c9/foliantcontrib.includes-1.1.9.tar.gz
+[2023-05-02 12:34:14] INFO root fetch - processPackages [com.precisely.apis]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [com.precisely.apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.precisely.apis-15.0.0.tar.gz tmp/com.precisely.apis-16.0.0.tar.gz --markdown 20230502/c/com.precisely.apis/15.0.0-16.0.0/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.4.6.tar.gz tmp/pipeline_ai-0.5.0b1.tar.gz --markdown 20230502/p/pipeline-ai/0.4.6-0.5.0b1/diff.md --exclude *.pyd
+[2023-05-02 12:34:14] INFO root fetch - processPackages [foliantcontrib.includes]: executing diffoscope
+[2023-05-02 12:34:14] INFO root fetch - processPackages [foliantcontrib.includes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foliantcontrib.includes-1.1.8.tar.gz tmp/foliantcontrib.includes-1.1.9.tar.gz --markdown 20230502/f/foliantcontrib.includes/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 12:34:15] INFO root fetch - processPackages [pysui-sdk]: Start processing: Geode-Simplex
+[2023-05-02 12:34:15] INFO root fetch - main [MainThread]: End processing [pysui-sdk]: success
+[2023-05-02 12:34:15] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-05-02 12:34:15] INFO root fetch - processPackages [guify]: Start processing: ert
+[2023-05-02 12:34:15] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-02 12:34:15] INFO root fetch - processPackages [ert]: New version: [5.0.0b7] Old Version: [5.0.0b6]
+[2023-05-02 12:34:15] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/09/a0/d5a244cc05fe87f716002dfe1665a7c2f41727d13008b181eedaba19fb9a/Geode_Simplex-6.0.5-cp39-cp39-win_amd64.whl
+[2023-05-02 12:34:16] INFO root fetch - processPackages [jaaql-monitor]: Start processing: wbpOutput
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 12:34:16] INFO root fetch - processPackages [wbpOutput]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 12:34:16] INFO root fetch - processPackages [longsight]: Start processing: sparrow-python
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [longsight]: success
+[2023-05-02 12:34:16] INFO root fetch - processPackages [sparrow-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 12:34:16] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-05-02 12:34:16] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0b6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0b7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/e/ert/5.0.0b6-5.0.0b7/diff.md --exclude *.pyd
+[2023-05-02 12:34:16] INFO root fetch - processPackages [safer]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [safer]: success
+[2023-05-02 12:34:16] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230502.9.20.737896] Old Version: [20230502.7.41.501872]
+[2023-05-02 12:34:16] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/1f/bf/c4e6d2ffbfa31b4030a51216f4396bcf6f8e3e5c01ccf5256b8fdb3798fb/certora-cli-alpha-uri-eradicate_certora_dir-20230502.7.41.501872.tar.gz
+[2023-05-02 12:34:16] INFO root fetch - processPackages [wbpOutput]: Downloading https://files.pythonhosted.org/packages/5d/a0/e5667df4f1f6f83f058a9fac64a55db43ba68e8469e051a697747642e20c/wbpOutput-0.1.9.tar.gz
+[2023-05-02 12:34:16] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 38324732>=10485760
+[2023-05-02 12:34:16] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: wbpTextedit
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-02 12:34:16] INFO root fetch - processPackages [sparrow-python]: Downloading https://files.pythonhosted.org/packages/60/7e/c5070a99c9c6e9edf639c96e2ac78cd20e00cce942a38aea97257518dda8/sparrow_python-0.1.2.tar.gz
+[2023-05-02 12:34:16] INFO root fetch - processPackages [wbpOutput]: executing diffoscope
+[2023-05-02 12:34:16] INFO root fetch - processPackages [wbpOutput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpOutput-0.1.8.tar.gz tmp/wbpOutput-0.1.9.tar.gz --markdown 20230502/w/wbpOutput/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 12:34:16] INFO root fetch - processPackages [wbpTextedit]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 12:34:16] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/ba/54/cc1635fd59d45d23e5819171929dbbbae7f8e450beb8881ca3b7cf97c58c/Geode_Simplex-6.0.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-02 12:34:16] INFO root fetch - processPackages [pipeline-ai]: Start processing: struphy
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-05-02 12:34:16] INFO root fetch - processPackages [wbpTextedit]: Downloading https://files.pythonhosted.org/packages/06/81/88e90e05729a03015c22a502082143e3e925eb00b2be58ed18683ccef56e/wbpTextedit-0.1.5.tar.gz
+[2023-05-02 12:34:16] INFO root fetch - processPackages [foliantcontrib.includes]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [foliantcontrib.includes]: success
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-05-02 12:34:16] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: New version: [20230502.9.13.601493] Old Version: [20230501.9.10.400907]
+[2023-05-02 12:34:16] INFO root fetch - processPackages [struphy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 12:34:16] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-05-02 12:34:16] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.5-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230502/G/Geode-Simplex/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-05-02 12:34:16] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-05-02 12:34:17] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Downloading https://files.pythonhosted.org/packages/a8/82/69d14e569b95eda6f1e72984145a51e2c9738a695512651244bd39434ace/certora-cli-alpha-Shahar-CERT-1859-20230501.9.10.400907.tar.gz
+[2023-05-02 12:34:17] INFO root fetch - processPackages [struphy]: Downloading https://files.pythonhosted.org/packages/49/6f/bab2b2f851cc19aa96f47f545f82c28b66869c94d1b3eb8de1f576a7ccbe/struphy-1.9.8.tar.gz
+[2023-05-02 12:34:17] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping package: exceeds size limit 38298251>=10485760
+[2023-05-02 12:34:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-02 12:34:17] INFO root fetch - processPackages [wbpTextedit]: Downloading https://files.pythonhosted.org/packages/11/c2/b2b7fab5ddf9086d993722b34cc247a89e2b978cee6746c9cfeab1a89a9b/wbpTextedit-0.1.6.tar.gz
+[2023-05-02 12:34:17] INFO root fetch - processPackages [wbpTextedit]: executing diffoscope
+[2023-05-02 12:34:17] INFO root fetch - processPackages [wbpTextedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbpTextedit-0.1.5.tar.gz tmp/wbpTextedit-0.1.6.tar.gz --markdown 20230502/w/wbpTextedit/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 12:34:17] INFO root fetch - main [MainThread]: End processing [wbpOutput]: success
+[2023-05-02 12:34:17] INFO root fetch - processPackages [sparrow-python]: Downloading https://files.pythonhosted.org/packages/1f/ee/1647490f6aab3baed6adfae2a95ff16f4c110ac9527b399a3f6738ee8d88/sparrow_python-0.1.3.tar.gz
+[2023-05-02 12:34:18] INFO root fetch - processPackages [sparrow-python]: executing diffoscope
+[2023-05-02 12:34:18] INFO root fetch - processPackages [sparrow-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow_python-0.1.2.tar.gz tmp/sparrow_python-0.1.3.tar.gz --markdown 20230502/s/sparrow-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 12:34:18] INFO root fetch - processPackages [struphy]: Downloading https://files.pythonhosted.org/packages/2d/90/9f984dd6b53061e150b1a0732ed388652647305c061288d51e3ef9623e26/struphy-1.9.9.tar.gz
+[2023-05-02 12:34:18] INFO root fetch - main [MainThread]: End processing [wbpTextedit]: success
+[2023-05-02 12:34:18] INFO root fetch - processPackages [struphy]: executing diffoscope
+[2023-05-02 12:34:18] INFO root fetch - processPackages [struphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struphy-1.9.8.tar.gz tmp/struphy-1.9.9.tar.gz --markdown 20230502/s/struphy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 12:34:20] INFO root fetch - main [MainThread]: End processing [sparrow-python]: success
+[2023-05-02 12:34:21] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-05-02 12:34:25] INFO root fetch - main [MainThread]: End processing [com.precisely.apis]: success
+[2023-05-02 12:34:32] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-05-02 12:36:03] INFO root fetch - main [MainThread]: End processing [struphy]: success
+[2023-05-02 12:36:03] INFO root fetch - main [MainThread]: Store serial: [17939207]
