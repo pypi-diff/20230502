@@ -7586,3 +7586,62 @@
 [2023-05-02 09:12:42] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-02 09:12:42] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-02 09:12:42] INFO root fetch - main [MainThread]: Store serial: [17937295]
+[2023-05-02 09:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937295]
+[2023-05-02 09:17:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes-soatra
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Cerebro-Viewer
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TrackerGG
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: macrometa-source-collection
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bomf
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jina
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-jsonpath
+[2023-05-02 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-02 09:17:51] INFO root fetch - processPackages [TrackerGG]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230502.7.15.43666] Old Version: [20230502.5.43.594614]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [bomf]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [python-jsonpath]: New version: [0.6.0] Old Version: [0.5.0.post1]
+[2023-05-02 09:17:51] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-02 09:17:51] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.8.tar.gz tmp/eyes_soatra-0.0.9.tar.gz --markdown 20230502/e/eyes-soatra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 09:17:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/eb/ae/215786b88fbaf839825644ed85426f81c8aced2bee6a52e0836dec9a24e4/certora-cli-alpha-master-20230502.5.43.594614.tar.gz
+[2023-05-02 09:17:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-02 09:17:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230502/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 09:17:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-02 09:17:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230502/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 09:17:51] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/9a/23/92b347842bd67d42899892fa44b5a162db1f3be804938c080bb3dc221510/bomf-0.2.0.tar.gz
+[2023-05-02 09:17:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38324410>=10485760
+[2023-05-02 09:17:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-02 09:17:51] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/9a/6f/d15b59c882c212a398f5cba79dfd71ef7b2a0bdfcdf0d2941d190f478b3f/Cerebro_Viewer-0.0.7.tar.gz
+[2023-05-02 09:17:51] INFO root fetch - processPackages [TrackerGG]: Downloading https://files.pythonhosted.org/packages/91/94/7fddec8a36651c68eb7253598207da0566d9486d6b4259abf53741374f53/TrackerGG-2.5.0.tar.gz
+[2023-05-02 09:17:51] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/51/34/ad7002e36949d988bb6323620e88144dbc34da89b26defaf92099e1f28c2/python_jsonpath-0.5.0.post1.tar.gz
+[2023-05-02 09:17:51] INFO root fetch - processPackages [TrackerGG]: executing diffoscope
+[2023-05-02 09:17:51] INFO root fetch - processPackages [TrackerGG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrackerGG-2.4.1.tar.gz tmp/TrackerGG-2.5.0.tar.gz --markdown 20230502/T/TrackerGG/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-02 09:17:52] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/92/29/add3e779f0ec780e4470c4e9c6425156a51263dde6a5ad53c3d576f2d841/macrometa-source-collection-0.0.26.tar.gz
+[2023-05-02 09:17:52] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13703418>=10485760
+[2023-05-02 09:17:52] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-05-02 09:17:52] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-05-02 09:17:52] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.25.tar.gz tmp/macrometa-source-collection-0.0.26.tar.gz --markdown 20230502/m/macrometa-source-collection/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-02 09:17:52] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-02 09:17:52] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230502/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-02 09:17:52] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/9d/87/dd8813710842eccd31dfb597938bbf88d74f5109f227063c126b80822955/bomf-0.3.0.tar.gz
+[2023-05-02 09:17:52] INFO root fetch - processPackages [python-jsonpath]: Downloading https://files.pythonhosted.org/packages/6b/50/9b37cda98a228b4013cc0851430652493758b428ff19c463d5c4a6fba72b/python_jsonpath-0.6.0.tar.gz
+[2023-05-02 09:17:52] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-02 09:17:52] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.2.0.tar.gz tmp/bomf-0.3.0.tar.gz --markdown 20230502/b/bomf/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 09:17:52] INFO root fetch - processPackages [python-jsonpath]: executing diffoscope
+[2023-05-02 09:17:52] INFO root fetch - processPackages [python-jsonpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jsonpath-0.5.0.post1.tar.gz tmp/python_jsonpath-0.6.0.tar.gz --markdown 20230502/p/python-jsonpath/0.5.0.post1-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 09:17:53] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-02 09:17:53] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-05-02 09:17:53] INFO root fetch - main [MainThread]: End processing [TrackerGG]: success
+[2023-05-02 09:17:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-02 09:17:53] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-02 09:17:53] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-02 09:17:54] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
+[2023-05-02 09:18:19] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-02 09:18:19] INFO root fetch - main [MainThread]: Store serial: [17937324]
