@@ -7371,3 +7371,38 @@
 [2023-05-02 08:51:29] INFO root fetch - main [MainThread]: End processing [pysiml]: success
 [2023-05-02 08:51:30] INFO root fetch - main [MainThread]: End processing [audoma]: success
 [2023-05-02 08:51:30] INFO root fetch - main [MainThread]: Store serial: [17937175]
+[2023-05-02 08:56:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937175]
+[2023-05-02 08:56:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 08:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GptCode
+[2023-05-02 08:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sarus
+[2023-05-02 08:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polymatica-api
+[2023-05-02 08:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swiftshadow
+[2023-05-02 08:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mylib038
+[2023-05-02 08:56:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: up-pps
+[2023-05-02 08:56:39] INFO root fetch - processPackages [swiftshadow]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 08:56:39] INFO root fetch - processPackages [GptCode]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 08:56:39] WARNING root fetch - processPackages [mylib038]: Skipping, unable to determine old version
+[2023-05-02 08:56:39] INFO root fetch - main [MainThread]: End processing [mylib038] error
+[2023-05-02 08:56:39] INFO root fetch - processPackages [sarus]: New version: [0.6.0.dev0] Old Version: [0.5.0.dev9]
+[2023-05-02 08:56:39] WARNING root fetch - processPackages [polymatica-api]: Skipping, unable to determine old version
+[2023-05-02 08:56:39] INFO root fetch - main [MainThread]: End processing [polymatica-api] error
+[2023-05-02 08:56:39] INFO root fetch - processPackages [up-pps]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 08:56:39] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/8d/80/be09f079e40bfb3a8683c4c85f992f5e459a57a218fab15e62bbc5ed7c34/GptCode-1.0.2.tar.gz
+[2023-05-02 08:56:39] INFO root fetch - processPackages [swiftshadow]: Downloading https://files.pythonhosted.org/packages/09/24/100a3279483fafb6e29594afb1fa874a33f9e51ea26140034a505a5e098f/swiftshadow-0.2.2.tar.gz
+[2023-05-02 08:56:39] INFO root fetch - processPackages [swiftshadow]: executing diffoscope
+[2023-05-02 08:56:39] INFO root fetch - processPackages [swiftshadow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftshadow-0.2.1.tar.gz tmp/swiftshadow-0.2.2.tar.gz --markdown 20230502/s/swiftshadow/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 08:56:39] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/d3/4a/9105e1b7b270fbdd009d91c77fb6618fd535800292c52538e04a542e595e/sarus-0.5.0.dev9.tar.gz
+[2023-05-02 08:56:39] INFO root fetch - processPackages [up-pps]: Downloading https://files.pythonhosted.org/packages/aa/83/9bbfd0aa679740f09aa7bddfc1dcac27bb5dbcb3d04bda8d420f447a8fdb/up_pps-1.0.3.tar.gz
+[2023-05-02 08:56:39] INFO root fetch - processPackages [up-pps]: executing diffoscope
+[2023-05-02 08:56:39] INFO root fetch - processPackages [up-pps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_pps-1.0.2.tar.gz tmp/up_pps-1.0.3.tar.gz --markdown 20230502/u/up-pps/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 08:56:39] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/65/72/aad095b30cb191ff9251bc4d16cbc56ef66a0d5b137e14a887f9851e5d39/GptCode-1.0.3.tar.gz
+[2023-05-02 08:56:39] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/e8/6c/8eb7436b64d89f51e42b7dc4c833c8502343e33e7bbe52a879e2cb7ce712/sarus-0.6.0.dev0.tar.gz
+[2023-05-02 08:56:40] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-02 08:56:40] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.2.tar.gz tmp/GptCode-1.0.3.tar.gz --markdown 20230502/G/GptCode/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 08:56:40] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-05-02 08:56:40] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.5.0.dev9.tar.gz tmp/sarus-0.6.0.dev0.tar.gz --markdown 20230502/s/sarus/0.5.0.dev9-0.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-02 08:56:40] INFO root fetch - main [MainThread]: End processing [swiftshadow]: success
+[2023-05-02 08:56:40] INFO root fetch - main [MainThread]: End processing [up-pps]: success
+[2023-05-02 08:56:41] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-02 08:56:41] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-05-02 08:56:41] INFO root fetch - main [MainThread]: Store serial: [17937193]
