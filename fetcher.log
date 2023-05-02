@@ -20013,3 +20013,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 20:47:22] ERROR root fetch - processPackages [enough]: Timeout during execution of pkgdiff
 [2023-05-02 20:47:22] INFO root fetch - main [MainThread]: End processing [enough] error
 [2023-05-02 20:47:22] INFO root fetch - main [MainThread]: Store serial: [17945477]
+[2023-05-02 20:52:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945477]
+[2023-05-02 20:52:31] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dokuwikidumper
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geoapps
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymicro365
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-archiver
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-newrelic
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: magic-folder
+[2023-05-02 20:52:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygptj
+[2023-05-02 20:52:31] INFO root fetch - processPackages [geoapps]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.5.0a1683051806] Old Version: [4.5.0a1682374769]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [magic-folder]: New version: [23.5.0] Old Version: [23.3.1]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [auto-archiver]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.3] Old Version: [4.8.2]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pygptj]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 20:52:31] WARNING root fetch - processPackages [pymicro365]: Skipping, unable to determine old version
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pymicro365]: Start processing: pulumi-mongodbatlas
+[2023-05-02 20:52:31] INFO root fetch - main [MainThread]: End processing [pymicro365] error
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.8.0a1683051899] Old Version: [3.8.0a1681934183]
+[2023-05-02 20:52:31] INFO root fetch - processPackages [geoapps]: Downloading https://files.pythonhosted.org/packages/48/3b/b982fc9a3d10998ad7bf9417eea649ad6f353b6d38234dd7731b1425b73f/geoapps-0.9.1.tar.gz
+[2023-05-02 20:52:31] INFO root fetch - processPackages [magic-folder]: Downloading https://files.pythonhosted.org/packages/42/c2/b49a71a6e7231ac6af10be4dfacc2a53f84aafe20ed74319d0ddf82de48a/magic-folder-23.3.1.tar.gz
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/de/7f890c9ff9520ec3bf3ac6ea550e77cbf067a90e97f9197d8848a77631af/pulumi_mongodbatlas-3.8.0a1681934183.tar.gz
+[2023-05-02 20:52:31] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-05-02 20:52:31] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.5.7.tar.gz tmp/auto_archiver-0.5.8.tar.gz --markdown 20230502/a/auto-archiver/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-02 20:52:31] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/df/28/88c22e119424bc0eaad60d3e39bad7e89dd0ba47823885f46fbe34af2783/pulumi_akamai-4.5.0a1683051806.tar.gz
+[2023-05-02 20:52:31] WARNING root fetch - processPackages [geoapps]: Skipping package: exceeds size limit 14173092>=10485760
+[2023-05-02 20:52:31] INFO root fetch - processPackages [geoapps]: Start processing: marslab-pretty-plot
+[2023-05-02 20:52:31] INFO root fetch - main [MainThread]: End processing [geoapps] error
+[2023-05-02 20:52:32] WARNING root fetch - processPackages [marslab-pretty-plot]: Skipping, unable to determine old version
+[2023-05-02 20:52:32] INFO root fetch - processPackages [marslab-pretty-plot]: Start processing: pysqlilibraryV1
+[2023-05-02 20:52:32] INFO root fetch - main [MainThread]: End processing [marslab-pretty-plot] error
+[2023-05-02 20:52:32] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/8b/77/60b969185938e956f640414b0b1791666c2688287b8c147ac29e25c7d75e/jaaql-middleware-python-4.8.3.tar.gz
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pygptj]: Downloading https://files.pythonhosted.org/packages/1e/32/e2f43fba94b38c8ea6f7162d00cebe9872196d4c56f837100f34ee016f88/pygptj-2.0.0.tar.gz
+[2023-05-02 20:52:32] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230502/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.8.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230502/m/mystring/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] WARNING root fetch - processPackages [pysqlilibraryV1]: Skipping, unable to determine old version
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pysqlilibraryV1]: Start processing: pyspmp
+[2023-05-02 20:52:32] INFO root fetch - main [MainThread]: End processing [pysqlilibraryV1] error
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20230502/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pyspmp]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.5.0a1682374769.tar.gz tmp/pulumi_akamai-4.5.0a1683051806.tar.gz --markdown 20230502/p/pulumi-akamai/4.5.0a1682374769-4.5.0a1683051806/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.2.tar.gz tmp/jaaql-middleware-python-4.8.3.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.8.2-4.8.3/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pygptj]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pygptj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygptj-1.0.9.tar.gz tmp/pygptj-2.0.0.tar.gz --markdown 20230502/p/pygptj/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/9b/a4/114d0a1fef271d3a859cd97ac7fd1253809d8cdc18af3dc96f2a699bd408/pulumi_mongodbatlas-3.8.0a1683051899.tar.gz
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pyspmp]: Downloading https://files.pythonhosted.org/packages/92/ca/be9cdf0128d9f29023db04466000813e4fd087c9d6fa40ca3e3312fbc888/pyspmp-0.1.7.tar.gz
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.8.0a1681934183.tar.gz tmp/pulumi_mongodbatlas-3.8.0a1683051899.tar.gz --markdown 20230502/p/pulumi-mongodbatlas/3.8.0a1681934183-3.8.0a1683051899/diff.md --exclude *.pyd
+[2023-05-02 20:52:32] INFO root fetch - processPackages [magic-folder]: Downloading https://files.pythonhosted.org/packages/7d/98/5450a90d8c2b7825eee76836cb869643119908a53411f22051f51b005774/magic-folder-23.5.0.tar.gz
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pyspmp]: executing diffoscope
+[2023-05-02 20:52:32] INFO root fetch - processPackages [pyspmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspmp-0.1.6.tar.gz tmp/pyspmp-0.1.7.tar.gz --markdown 20230502/p/pyspmp/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-02 20:52:33] INFO root fetch - processPackages [magic-folder]: executing diffoscope
+[2023-05-02 20:52:33] INFO root fetch - processPackages [magic-folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic-folder-23.3.1.tar.gz tmp/magic-folder-23.5.0.tar.gz --markdown 20230502/m/magic-folder/23.3.1-23.5.0/diff.md --exclude *.pyd
+[2023-05-02 20:52:33] INFO root fetch - processPackages [mystring]: Start processing: bittensor
+[2023-05-02 20:52:33] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-02 20:52:33] INFO root fetch - processPackages [bittensor]: New version: [4.1.0rc1] Old Version: [4.0.0]
+[2023-05-02 20:52:33] INFO root fetch - processPackages [auto-archiver]: Start processing: cbra
+[2023-05-02 20:52:33] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-05-02 20:52:33] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-02 20:52:33] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/1d/4a/4a5fc39d65040be4aacdf76df5ed8c728d7a3ac17bf99c02193561cfed66/bittensor-4.0.0.tar.gz
+[2023-05-02 20:52:33] INFO root fetch - processPackages [dokuwikidumper]: Start processing: xia-scw-vpc
+[2023-05-02 20:52:33] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-05-02 20:52:33] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-02 20:52:33] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230502/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-02 20:52:33] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-02 20:52:33] INFO root fetch - processPackages [jaaql-middleware-python]: Start processing: digitalguide
+[2023-05-02 20:52:33] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 20:52:33] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/08/42/b2023b8f21b6056d23b2b6381801d60a290de38d60a7cbc8653e75c39516/bittensor-4.1.0rc1.tar.gz
+[2023-05-02 20:52:33] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 20:52:34] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-02 20:52:34] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230502/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 20:52:34] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-05-02 20:52:34] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-4.0.0.tar.gz tmp/bittensor-4.1.0rc1.tar.gz --markdown 20230502/b/bittensor/4.0.0-4.1.0rc1/diff.md --exclude *.pyd
+[2023-05-02 20:52:34] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/1a/ea/ebb4edc0ba7d87b57fd3c7f2b7692fdb9d8e1448048d82c61f99c493d0e3/xia_scw_vpc-0.1.0-cp39-none-macosx_11_0_x86_64.whl
+[2023-05-02 20:52:34] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-05-02 20:52:34] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.0.9-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.1.0-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230502/x/xia-scw-vpc/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 20:52:34] INFO root fetch - processPackages [pyspmp]: Start processing: pynchon
+[2023-05-02 20:52:34] INFO root fetch - main [MainThread]: End processing [pyspmp]: success
+[2023-05-02 20:52:34] INFO root fetch - processPackages [pynchon]: New version: [2023.5.2.14.50] Old Version: [2023.5.2.14.42]
+[2023-05-02 20:52:34] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/6e/cc/7092b2e18ce364894c6bcd8851415f2a5ed75cfe714468940b2cedb31f91/pynchon-2023.5.2.14.50.tar.gz
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pynchon]: executing diffoscope
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pynchon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynchon-2023.5.2.14.42.tar.gz tmp/pynchon-2023.5.2.14.50.tar.gz --markdown 20230502/p/pynchon/2023.5.2.14.42-2023.5.2.14.50/diff.md --exclude *.pyd
+[2023-05-02 20:52:35] INFO root fetch - processPackages [digitalguide]: Start processing: pytcs
+[2023-05-02 20:52:35] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pytcs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pulumi-akamai]: Start processing: dj-wasabi
+[2023-05-02 20:52:35] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pytcs]: Downloading https://files.pythonhosted.org/packages/55/5c/dc7e9425e9fd7e26e9f8517fa809d6e4d4ad9af961ce1c1ed4798f981136/pytcs-0.1.2.tar.gz
+[2023-05-02 20:52:35] INFO root fetch - processPackages [xia-scw-vpc]: Start processing: local-migrator
+[2023-05-02 20:52:35] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-05-02 20:52:35] WARNING root fetch - processPackages [dj-wasabi]: Skipping, unable to determine old version
+[2023-05-02 20:52:35] INFO root fetch - processPackages [dj-wasabi]: Start processing: ovos-core
+[2023-05-02 20:52:35] INFO root fetch - main [MainThread]: End processing [dj-wasabi] error
+[2023-05-02 20:52:35] INFO root fetch - processPackages [ovos-core]: New version: [0.0.8a9] Old Version: [0.0.8a8]
+[2023-05-02 20:52:35] WARNING root fetch - processPackages [local-migrator]: Skipping, unable to determine old version
+[2023-05-02 20:52:35] INFO root fetch - main [MainThread]: End processing [local-migrator] error
+[2023-05-02 20:52:35] INFO root fetch - processPackages [ovos-core]: executing diffoscope
+[2023-05-02 20:52:35] INFO root fetch - processPackages [ovos-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_core-0.0.8a8-py3-none-any.whl.zip tmp/ovos_core-0.0.8a9-py3-none-any.whl.zip --markdown 20230502/o/ovos-core/0.0.8a8-0.0.8a9/diff.md --exclude *.pyd
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pytcs]: Downloading https://files.pythonhosted.org/packages/d3/ca/659caf97ca4dcde759824df8915b3e81eb97de0f0e484858ab304a7dac8b/pytcs-0.1.3.tar.gz
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pytcs]: executing diffoscope
+[2023-05-02 20:52:35] INFO root fetch - processPackages [pytcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytcs-0.1.2.tar.gz tmp/pytcs-0.1.3.tar.gz --markdown 20230502/p/pytcs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 20:52:36] INFO root fetch - main [MainThread]: End processing [pygptj]: success
+[2023-05-02 20:52:36] INFO root fetch - main [MainThread]: End processing [pynchon]: success
+[2023-05-02 20:52:37] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2023-05-02 20:52:37] INFO root fetch - main [MainThread]: End processing [pytcs]: success
+[2023-05-02 20:52:37] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-05-02 20:52:38] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-02 20:52:38] INFO root fetch - main [MainThread]: End processing [magic-folder]: success
+[2023-05-02 20:52:39] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-05-02 20:52:44] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
+[2023-05-02 20:52:44] INFO root fetch - main [MainThread]: Store serial: [17945637]
