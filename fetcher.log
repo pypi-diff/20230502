@@ -11022,3 +11022,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:57:43] INFO root fetch - main [MainThread]: End processing [mikro]: success
 [2023-05-02 12:58:02] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
 [2023-05-02 12:58:02] INFO root fetch - main [MainThread]: Store serial: [17939414]
+[2023-05-02 13:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939414]
+[2023-05-02 13:03:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmlc-testapp
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musiclang
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polymatica-api
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-beesdoo-website-shift
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dipex
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: guify
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotControl
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text-fabric
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arkitekt
+[2023-05-02 13:03:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-beesdoo-base
+[2023-05-02 13:03:11] WARNING root fetch - processPackages [tmlc-testapp]: Skipping, unable to determine old version
+[2023-05-02 13:03:11] INFO root fetch - processPackages [tmlc-testapp]: Start processing: cryton-core
+[2023-05-02 13:03:11] INFO root fetch - main [MainThread]: End processing [tmlc-testapp] error
+[2023-05-02 13:03:11] INFO root fetch - processPackages [musiclang]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [robotControl]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [guify]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [odoo12-addon-beesdoo-website-shift]: New version: [12.0.2.2.0.99.dev1] Old Version: [12.0.2.1.0.99.dev2]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [cryton-core]: New version: [2023.1.2] Old Version: [2023.1.1]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [arkitekt]: New version: [0.4.98] Old Version: [0.4.97]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [odoo12-addon-beesdoo-base]: New version: [12.0.2.0.1.99.dev1] Old Version: [12.0.1.0.1.99.dev9]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.5.1]
+[2023-05-02 13:03:11] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/72/25/005d7d7d7ba8b51879dab2a29b9342792be562ee64ca2447cfd4f2358f29/polymatica_api-0.0.4.tar.gz
+[2023-05-02 13:03:11] INFO root fetch - processPackages [cryton-core]: Downloading https://files.pythonhosted.org/packages/b9/5e/64466b37045fb518ccc9a36f51b3b646938365ddcb6c7510e95d23f87e93/cryton_core-2023.1.1.tar.gz
+[2023-05-02 13:03:11] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-02 13:03:11] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.5.1-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230502/t/text-fabric/9.5.1-9.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:03:11] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-02 13:03:11] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230502/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-02 13:03:11] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/78/a5/e25259ac50e58c299b533b29aff8f31565db8412e8d34e126ac03cda5ba7/musiclang-0.8.5.tar.gz
+[2023-05-02 13:03:11] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/f6/9a/a4c939c3530515b4391bdec9cd59d920b42768baf8b120fee2eba8898d20/guify-0.2.4.tar.gz
+[2023-05-02 13:03:11] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-05-02 13:03:11] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.4.tar.gz tmp/musiclang-0.8.5.tar.gz --markdown 20230502/m/musiclang/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-02 13:03:11] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-02 13:03:11] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.2.tar.gz tmp/guify-0.2.4.tar.gz --markdown 20230502/g/guify/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-05-02 13:03:11] INFO root fetch - processPackages [odoo12-addon-beesdoo-website-shift]: Downloading https://files.pythonhosted.org/packages/2b/1e/812341b05b3fd2f74d7326243adb31bb85c4702f9cc34492a736f59c3992/odoo12_addon_beesdoo_website_shift-12.0.2.1.0.99.dev2-py3-none-any.whl
+[2023-05-02 13:03:11] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/45/d9/35169f132b775e9da3d8ce31f38662fadbe59f5edc60636fe5ea9f5de4dc/arkitekt-0.4.98.tar.gz
+[2023-05-02 13:03:11] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-02 13:03:11] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.97.tar.gz tmp/arkitekt-0.4.98.tar.gz --markdown 20230502/a/arkitekt/0.4.97-0.4.98/diff.md --exclude *.pyd
+[2023-05-02 13:03:12] INFO root fetch - processPackages [odoo12-addon-beesdoo-website-shift]: Downloading https://files.pythonhosted.org/packages/0c/09/172f3c1f7c3dda3933a92891fc8c041f13a0099bb4f5c635ffe0d51afd6e/odoo12_addon_beesdoo_website_shift-12.0.2.2.0.99.dev1-py3-none-any.whl
+[2023-05-02 13:03:12] INFO root fetch - processPackages [odoo12-addon-beesdoo-website-shift]: executing diffoscope
+[2023-05-02 13:03:12] INFO root fetch - processPackages [odoo12-addon-beesdoo-website-shift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_beesdoo_website_shift-12.0.2.1.0.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_beesdoo_website_shift-12.0.2.2.0.99.dev1-py3-none-any.whl.zip --markdown 20230502/o/odoo12-addon-beesdoo-website-shift/12.0.2.1.0.99.dev2-12.0.2.2.0.99.dev1/diff.md --exclude *.pyd
+[2023-05-02 13:03:12] INFO root fetch - processPackages [cryton-core]: Downloading https://files.pythonhosted.org/packages/68/ea/7ec6d0ef3cfd9033fd246235295d5d97561c68326e90578e68cc57ad7fad/cryton_core-2023.1.2.tar.gz
+[2023-05-02 13:03:12] INFO root fetch - processPackages [cryton-core]: executing diffoscope
+[2023-05-02 13:03:12] INFO root fetch - processPackages [cryton-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryton_core-2023.1.1.tar.gz tmp/cryton_core-2023.1.2.tar.gz --markdown 20230502/c/cryton-core/2023.1.1-2023.1.2/diff.md --exclude *.pyd
+[2023-05-02 13:03:12] INFO root fetch - processPackages [odoo12-addon-beesdoo-base]: Downloading https://files.pythonhosted.org/packages/f4/22/fe1540137481aef8ae0009c207dd9d2461d1316de649bee398b934a117d9/odoo12_addon_beesdoo_base-12.0.1.0.1.99.dev9-py3-none-any.whl
+[2023-05-02 13:03:12] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/9b/b6/e7996eb3d82a0b97698f61f26e5424caeb65a139d4caeff1c6ccdbe89e7c/robotControl-1.0.4.tar.gz
+[2023-05-02 13:03:12] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 13:03:12] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-1.0.3.tar.gz tmp/robotControl-1.0.4.tar.gz --markdown 20230502/r/robotControl/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 13:03:12] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/fe/07/1751121c11a0b20c70015a48677df85ceb2dcafbf589926ed77c4f33e75b/polymatica_api-0.0.5.tar.gz
+[2023-05-02 13:03:12] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-02 13:03:12] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.4.tar.gz tmp/polymatica_api-0.0.5.tar.gz --markdown 20230502/p/polymatica-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-base]: Downloading https://files.pythonhosted.org/packages/3b/43/ea6356ef96aa92c287a0a841ea70c316df5009253f71d3d76998af7d3c1e/odoo12_addon_beesdoo_base-12.0.2.0.1.99.dev1-py3-none-any.whl
+[2023-05-02 13:03:13] INFO root fetch - processPackages [guify]: Start processing: python-file-storage
+[2023-05-02 13:03:13] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-02 13:03:13] WARNING root fetch - processPackages [python-file-storage]: Skipping, unable to determine old version
+[2023-05-02 13:03:13] INFO root fetch - processPackages [python-file-storage]: Start processing: odoo12-addon-beesdoo-pos
+[2023-05-02 13:03:13] INFO root fetch - main [MainThread]: End processing [python-file-storage] error
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-pos]: New version: [12.0.3.0.0] Old Version: [12.0.1.2.0.99.dev7]
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-base]: executing diffoscope
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_beesdoo_base-12.0.1.0.1.99.dev9-py3-none-any.whl.zip tmp/odoo12_addon_beesdoo_base-12.0.2.0.1.99.dev1-py3-none-any.whl.zip --markdown 20230502/o/odoo12-addon-beesdoo-base/12.0.1.0.1.99.dev9-12.0.2.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-pos]: Downloading https://files.pythonhosted.org/packages/93/8f/707153264b4c9c58c14a4a6e6427f826002b8777ad46d38289ab385bd3a3/odoo12_addon_beesdoo_pos-12.0.1.2.0.99.dev7-py3-none-any.whl
+[2023-05-02 13:03:13] INFO root fetch - processPackages [arkitekt]: Start processing: eir-dl
+[2023-05-02 13:03:13] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-pos]: Downloading https://files.pythonhosted.org/packages/26/46/5b42c891c6bac5891088acd631b0e97fdc16d85b0aaf8d113bdfc396a873/odoo12_addon_beesdoo_pos-12.0.3.0.0-py3-none-any.whl
+[2023-05-02 13:03:13] INFO root fetch - processPackages [eir-dl]: New version: [0.1.9a0] Old Version: [0.1.8a0]
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-pos]: executing diffoscope
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_beesdoo_pos-12.0.1.2.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_beesdoo_pos-12.0.3.0.0-py3-none-any.whl.zip --markdown 20230502/o/odoo12-addon-beesdoo-pos/12.0.1.2.0.99.dev7-12.0.3.0.0/diff.md --exclude *.pyd
+[2023-05-02 13:03:13] INFO root fetch - processPackages [odoo12-addon-beesdoo-website-shift]: Start processing: JFIO
+[2023-05-02 13:03:13] INFO root fetch - main [MainThread]: End processing [odoo12-addon-beesdoo-website-shift]: success
+[2023-05-02 13:03:13] INFO root fetch - processPackages [JFIO]: New version: [0.31] Old Version: [0.3]
+[2023-05-02 13:03:13] INFO root fetch - processPackages [eir-dl]: Downloading https://files.pythonhosted.org/packages/d2/d2/ae582826bf70f9f7e656e5c88afa020f34c289859f2e90525a576642d39d/eir-dl-0.1.8a0.tar.gz
+[2023-05-02 13:03:13] INFO root fetch - processPackages [robotControl]: Start processing: safer
+[2023-05-02 13:03:13] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 13:03:13] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-02 13:03:13] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-0.3.tar.gz tmp/JFIO-0.31.tar.gz --markdown 20230502/J/JFIO/0.3-0.31/diff.md --exclude *.pyd
+[2023-05-02 13:03:13] INFO root fetch - processPackages [safer]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-05-02 13:03:14] INFO root fetch - processPackages [safer]: executing diffoscope
+[2023-05-02 13:03:14] INFO root fetch - processPackages [safer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safer-4.5.0.tar.gz tmp/safer-4.6.0.tar.gz --markdown 20230502/s/safer/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-05-02 13:03:14] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-05-02 13:03:14] INFO root fetch - processPackages [eir-dl]: Downloading https://files.pythonhosted.org/packages/eb/23/466e428befb486465266f4d5b6042e7b839e1a1b4742d28a092a8361adf7/eir-dl-0.1.9a0.tar.gz
+[2023-05-02 13:03:14] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-02 13:03:14] INFO root fetch - processPackages [eir-dl]: executing diffoscope
+[2023-05-02 13:03:14] INFO root fetch - processPackages [eir-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eir-dl-0.1.8a0.tar.gz tmp/eir-dl-0.1.9a0.tar.gz --markdown 20230502/e/eir-dl/0.1.8a0-0.1.9a0/diff.md --exclude *.pyd
+[2023-05-02 13:03:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-beesdoo-base]: success
+[2023-05-02 13:03:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-beesdoo-pos]: success
+[2023-05-02 13:03:15] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-02 13:03:15] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-02 13:03:15] INFO root fetch - main [MainThread]: End processing [safer]: success
+[2023-05-02 13:03:16] INFO root fetch - main [MainThread]: End processing [cryton-core]: success
+[2023-05-02 13:03:16] INFO root fetch - main [MainThread]: End processing [eir-dl]: success
+[2023-05-02 13:03:16] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-02 13:03:16] INFO root fetch - main [MainThread]: Store serial: [17939474]
