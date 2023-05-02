@@ -6445,3 +6445,57 @@
 [2023-05-02 07:34:31] INFO root fetch - main [MainThread]: End processing [hpeOneView]: success
 [2023-05-02 07:35:14] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-05-02 07:35:14] INFO root fetch - main [MainThread]: Store serial: [17936545]
+[2023-05-02 07:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936545]
+[2023-05-02 07:40:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-can-bluetooth
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes-soatra
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sfctools
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acc_provision
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ruamel.yaml.string
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pharindoko.cdk-internal-gateway
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-tomo
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybash
+[2023-05-02 07:40:23] INFO root fetch - processPackages [python-can-bluetooth]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [ruamel.yaml.string]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [torch-tomo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [pybash]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [sfctools]: New version: [1.0.5.3] Old Version: [1.0.5.2]
+[2023-05-02 07:40:23] INFO root fetch - processPackages [acc_provision]: New version: [5.2.3.6rc5] Old Version: [5.2.3.6rc4]
+[2023-05-02 07:40:24] INFO root fetch - processPackages [ruamel.yaml.string]: Downloading https://files.pythonhosted.org/packages/43/cf/13c1980e4a3be3cbe0bb6809f8d4d35978f403ba3b414a50bbad712a1e62/ruamel.yaml.string-0.1.0.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [pybash]: Downloading https://files.pythonhosted.org/packages/38/e0/188a2feca817b6bea5949b013478c6510a0482b3aa9898adceb6d74d09b3/pybash-0.2.3.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/fb/9c/54f378f3d945312c6eeea25de2e57ad1091eb02b953e1277b929ee72e708/eyes_soatra-0.0.9.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [torch-tomo]: Downloading https://files.pythonhosted.org/packages/91/6c/0a97bdc6f3763322636460a087500b37730c75c0a8c919d9c6b05c203217/torch_tomo-0.1.0-py3-none-any.whl
+[2023-05-02 07:40:24] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/54/e8/534c5a4dd9bdd8be53c86d35a8d7e801b1550bf5077f1aadeda77bfc7e90/acc_provision-5.2.3.6rc4.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [python-can-bluetooth]: Downloading https://files.pythonhosted.org/packages/7d/bc/cc0d8508135cd1a348de539bcb4a9dddae3bfb9fdd051f459e08e4973e94/python-can-bluetooth-0.1.3.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.8.tar.gz tmp/eyes_soatra-0.0.9.tar.gz --markdown 20230502/e/eyes-soatra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 07:40:24] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/b3/b9/fa97f5c826cd4bf615940150ea68cb92e9c3d6c87775d0b71cac61e72833/sfctools-1.0.5.3.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [python-can-bluetooth]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [python-can-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-can-bluetooth-0.1.2.tar.gz tmp/python-can-bluetooth-0.1.3.tar.gz --markdown 20230502/p/python-can-bluetooth/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 07:40:24] INFO root fetch - processPackages [ruamel.yaml.string]: Downloading https://files.pythonhosted.org/packages/11/47/fa7c06b8f9946fc9192cb4d944367f31197715915f5e71363909e8c35eb7/ruamel.yaml.string-0.1.1.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230502/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 07:40:24] INFO root fetch - processPackages [pybash]: Downloading https://files.pythonhosted.org/packages/90/5c/bc1a4e5b7982a2df52ea4ecfab895b0b395f48622296f3bb39e05755cec9/pybash-0.2.4.tar.gz
+[2023-05-02 07:40:24] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.5.2.tar.gz tmp/sfctools-1.0.5.3.tar.gz --markdown 20230502/s/sfctools/1.0.5.2-1.0.5.3/diff.md --exclude *.pyd
+[2023-05-02 07:40:24] INFO root fetch - processPackages [ruamel.yaml.string]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [ruamel.yaml.string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml.string-0.1.0.tar.gz tmp/ruamel.yaml.string-0.1.1.tar.gz --markdown 20230502/r/ruamel.yaml.string/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 07:40:24] INFO root fetch - processPackages [torch-tomo]: Downloading https://files.pythonhosted.org/packages/9a/25/36128a9396e1ef9a561b48ce5af6270d8d5b49c82cd59e486b151a4eaf79/torch_tomo-0.1.1-py3-none-any.whl
+[2023-05-02 07:40:24] INFO root fetch - processPackages [pybash]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [pybash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybash-0.2.3.tar.gz tmp/pybash-0.2.4.tar.gz --markdown 20230502/p/pybash/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-02 07:40:24] INFO root fetch - processPackages [torch-tomo]: executing diffoscope
+[2023-05-02 07:40:24] INFO root fetch - processPackages [torch-tomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_tomo-0.1.0-py3-none-any.whl.zip tmp/torch_tomo-0.1.1-py3-none-any.whl.zip --markdown 20230502/t/torch-tomo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 07:40:25] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-02 07:40:25] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-05-02 07:40:25] INFO root fetch - main [MainThread]: End processing [python-can-bluetooth]: success
+[2023-05-02 07:40:25] INFO root fetch - main [MainThread]: End processing [pybash]: success
+[2023-05-02 07:40:25] INFO root fetch - main [MainThread]: End processing [ruamel.yaml.string]: success
+[2023-05-02 07:40:26] INFO root fetch - main [MainThread]: End processing [torch-tomo]: success
+[2023-05-02 07:40:26] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-02 07:40:26] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/5e/cd/1ef9015a79df92d76ab07cb4263ca3e5fa335f4241b29cf208c2bc1a1a98/acc_provision-5.2.3.6rc5.tar.gz
+[2023-05-02 07:40:29] INFO root fetch - processPackages [acc_provision]: executing diffoscope
+[2023-05-02 07:40:29] INFO root fetch - processPackages [acc_provision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acc_provision-5.2.3.6rc4.tar.gz tmp/acc_provision-5.2.3.6rc5.tar.gz --markdown 20230502/a/acc_provision/5.2.3.6rc4-5.2.3.6rc5/diff.md --exclude *.pyd
+[2023-05-02 07:43:02] INFO root fetch - main [MainThread]: End processing [acc_provision]: success
+[2023-05-02 07:43:02] INFO root fetch - main [MainThread]: Store serial: [17936566]
