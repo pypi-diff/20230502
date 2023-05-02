@@ -4964,3 +4964,33 @@
 [2023-05-02 04:57:36] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230502/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
 [2023-05-02 04:57:38] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2023-05-02 04:57:38] INFO root fetch - main [MainThread]: Store serial: [17935473]
+[2023-05-02 05:02:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935473]
+[2023-05-02 05:02:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 05:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tecton
+[2023-05-02 05:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shell-whisperer
+[2023-05-02 05:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrubrum-continued
+[2023-05-02 05:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BDXConverter
+[2023-05-02 05:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DBRetina
+[2023-05-02 05:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-star-rail-calendar
+[2023-05-02 05:02:46] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-02 05:02:46] WARNING root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Skipping, unable to determine old version
+[2023-05-02 05:02:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-star-rail-calendar] error
+[2023-05-02 05:02:47] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-02 05:02:47] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230502/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-02 05:02:47] INFO root fetch - processPackages [DBRetina]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-05-02 05:02:47] WARNING root fetch - processPackages [shell-whisperer]: Skipping, unable to determine old version
+[2023-05-02 05:02:47] INFO root fetch - main [MainThread]: End processing [shell-whisperer] error
+[2023-05-02 05:02:47] INFO root fetch - processPackages [pyrubrum-continued]: New version: [0.2.20] Old Version: [0.2.19]
+[2023-05-02 05:02:47] WARNING root fetch - processPackages [BDXConverter]: Skipping, unable to determine old version
+[2023-05-02 05:02:47] INFO root fetch - main [MainThread]: End processing [BDXConverter] error
+[2023-05-02 05:02:47] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/bc/00/86904a3d9dd01ff42950461b38a3a30130b48e5673cf52799e6ce23e012c/DBRetina-2.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 05:02:47] INFO root fetch - processPackages [pyrubrum-continued]: Downloading https://files.pythonhosted.org/packages/27/47/6a43860c8a22fce2e10050daf30f3abd950464086f7a505b8198a0904ce4/pyrubrum-continued-0.2.20.tar.gz
+[2023-05-02 05:02:47] INFO root fetch - processPackages [pyrubrum-continued]: executing diffoscope
+[2023-05-02 05:02:47] INFO root fetch - processPackages [pyrubrum-continued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrubrum-continued-0.2.19.tar.gz tmp/pyrubrum-continued-0.2.20.tar.gz --markdown 20230502/p/pyrubrum-continued/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2023-05-02 05:02:47] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/5d/09/3354118acb42f3142d87f34d59e8c2facc078ae0fdd45dafacce923455ae/DBRetina-2.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 05:02:47] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-05-02 05:02:47] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/D/DBRetina/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-05-02 05:02:49] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-05-02 05:02:49] INFO root fetch - main [MainThread]: End processing [pyrubrum-continued]: success
+[2023-05-02 05:02:53] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-02 05:02:53] INFO root fetch - main [MainThread]: Store serial: [17935499]
