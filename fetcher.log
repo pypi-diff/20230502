@@ -9973,3 +9973,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 11:43:28] INFO root fetch - main [MainThread]: End processing [pyarrow]: success
 [2023-05-02 11:43:38] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-05-02 11:43:38] INFO root fetch - main [MainThread]: Store serial: [17938725]
+[2023-05-02 11:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938725]
+[2023-05-02 11:48:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleez
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shadems
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bal-tools
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: andeplane-pyodide-kernel
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecutilities
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exorde
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyCBC
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zero-3rdparty
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ete3
+[2023-05-02 11:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model-lib
+[2023-05-02 11:48:48] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:48:48] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:48:48] INFO root fetch - processPackages [cleez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 11:48:48] INFO root fetch - processPackages [shadems]: New version: [0.5.2] Old Version: [0.5.1.1]
+[2023-05-02 11:48:48] INFO root fetch - processPackages [bal-tools]: New version: [1.3.1] Old Version: [1.2.9]
+[2023-05-02 11:48:48] INFO root fetch - processPackages [exorde]: New version: [0.1.0] Old Version: [0.0.1.post0]
+[2023-05-02 11:48:49] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230502/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ecutilities]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-02 11:48:49] INFO root fetch - processPackages [andeplane-pyodide-kernel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ete3]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-05-02 11:48:49] INFO root fetch - processPackages [PyCBC]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-05-02 11:48:49] INFO root fetch - processPackages [exorde]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [exorde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exorde-0.0.1.post0.tar.gz tmp/exorde-0.1.0.tar.gz --markdown 20230502/e/exorde/0.0.1.post0-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [bal-tools]: Downloading https://files.pythonhosted.org/packages/de/72/1a3a26cbcb041eb144208c785047b6a83b32d53c1bb334eee8b1067e5c7f/bal-tools-1.2.9.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [shadems]: Downloading https://files.pythonhosted.org/packages/20/62/c50214237ef2a4ee6cc175234ba1a92afd98d72e4d712a1d1bbc3c238fbf/shadems-0.5.1.1.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230502/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ecutilities]: Downloading https://files.pythonhosted.org/packages/e5/cb/1378b10ebe7d5ede730de1648b9571cf61da80204dd42a5332d8e8ec42a8/ecutilities-1.2.6.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [PyCBC]: Downloading https://files.pythonhosted.org/packages/e9/eb/dfff11e72516c2fd21222454eac5e8ca98aef04c6075196c230eae5821de/PyCBC-2.1.2.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ete3]: Downloading https://files.pythonhosted.org/packages/8d/ec/2273049ca13684998d7b6925d7c13fcd0b774453860e6f4904d5c4d0ae2d/ete3-3.1.2.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [cleez]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [cleez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleez-0.1.8.tar.gz tmp/cleez-0.1.9.tar.gz --markdown 20230502/c/cleez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [bal-tools]: Downloading https://files.pythonhosted.org/packages/54/4c/a8d39179adc8b98042f0693b8805a833f914ca85d4b689e34e50817404e4/bal-tools-1.3.1.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [shadems]: Downloading https://files.pythonhosted.org/packages/70/44/4c1eacc738537a5a1fb96a8338740068f9976418daeb8742f5e7e4c68814/shadems-0.5.2.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [andeplane-pyodide-kernel]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [andeplane-pyodide-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_pyodide_kernel-0.0.8-py3-none-any.whl.zip tmp/andeplane_pyodide_kernel-0.0.9-py3-none-any.whl.zip --markdown 20230502/a/andeplane-pyodide-kernel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ecutilities]: Downloading https://files.pythonhosted.org/packages/ce/eb/92001ec4688994149de5e8fe7248688023b128f2910e410064aed9edc855/ecutilities-1.2.7.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [bal-tools]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [bal-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bal-tools-1.2.9.tar.gz tmp/bal-tools-1.3.1.tar.gz --markdown 20230502/b/bal-tools/1.2.9-1.3.1/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [shadems]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [shadems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadems-0.5.1.1.tar.gz tmp/shadems-0.5.2.tar.gz --markdown 20230502/s/shadems/0.5.1.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ecutilities]: executing diffoscope
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ecutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecutilities-1.2.6.tar.gz tmp/ecutilities-1.2.7.tar.gz --markdown 20230502/e/ecutilities/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-02 11:48:49] INFO root fetch - processPackages [PyCBC]: Downloading https://files.pythonhosted.org/packages/d2/9f/60603637988d69e1fd8538b7df6ff80d6723c6b3a6a8de3dd92645218cbd/PyCBC-2.2.0.tar.gz
+[2023-05-02 11:48:49] INFO root fetch - processPackages [ete3]: Downloading https://files.pythonhosted.org/packages/cf/59/f26e8bfab088a3989bf1f61b836637039758a22df2d9fc6be491c5a6ccef/ete3-3.1.3.tar.gz
+[2023-05-02 11:48:50] INFO root fetch - processPackages [zero-3rdparty]: Start processing: osha.oira
+[2023-05-02 11:48:50] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-05-02 11:48:50] INFO root fetch - processPackages [PyCBC]: executing diffoscope
+[2023-05-02 11:48:50] INFO root fetch - processPackages [PyCBC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCBC-2.1.2.tar.gz tmp/PyCBC-2.2.0.tar.gz --markdown 20230502/P/PyCBC/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-05-02 11:48:50] INFO root fetch - processPackages [osha.oira]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-05-02 11:48:50] INFO root fetch - processPackages [exorde]: Start processing: robotControl
+[2023-05-02 11:48:50] INFO root fetch - main [MainThread]: End processing [exorde]: success
+[2023-05-02 11:48:50] INFO root fetch - processPackages [robotControl]: New version: [0.4] Old Version: [0.3]
+[2023-05-02 11:48:50] INFO root fetch - processPackages [ete3]: executing diffoscope
+[2023-05-02 11:48:50] INFO root fetch - processPackages [ete3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ete3-3.1.2.tar.gz tmp/ete3-3.1.3.tar.gz --markdown 20230502/e/ete3/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-05-02 11:48:50] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 11:48:50] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-0.3.tar.gz tmp/robotControl-0.4.tar.gz --markdown 20230502/r/robotControl/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-02 11:48:50] INFO root fetch - processPackages [osha.oira]: Downloading https://files.pythonhosted.org/packages/62/a5/1e6ff1d6b132f31d788068d1d0607ecb70a67a20f3589e1a7ff1ee91ad59/osha.oira-8.3.0.tar.gz
+[2023-05-02 11:48:50] INFO root fetch - processPackages [model-lib]: Start processing: certora-cli-alpha-dominik-MUS-enumeration-tests
+[2023-05-02 11:48:50] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-05-02 11:48:50] WARNING root fetch - processPackages [osha.oira]: Skipping package: exceeds size limit 54105451>=10485760
+[2023-05-02 11:48:50] INFO root fetch - processPackages [osha.oira]: Start processing: pymemri
+[2023-05-02 11:48:50] INFO root fetch - main [MainThread]: End processing [osha.oira] error
+[2023-05-02 11:48:50] INFO root fetch - processPackages [cleez]: Start processing: climify-api
+[2023-05-02 11:48:50] INFO root fetch - main [MainThread]: End processing [cleez]: success
+[2023-05-02 11:48:50] INFO root fetch - processPackages [climify-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 11:48:50] WARNING root fetch - processPackages [certora-cli-alpha-dominik-MUS-enumeration-tests]: Skipping, unable to determine old version
+[2023-05-02 11:48:50] INFO root fetch - processPackages [certora-cli-alpha-dominik-MUS-enumeration-tests]: Start processing: certora-cli-alpha-rahav-cert-1982-2
+[2023-05-02 11:48:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-dominik-MUS-enumeration-tests] error
+[2023-05-02 11:48:50] INFO root fetch - processPackages [pymemri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:48:50] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-02 11:48:50] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.3.tar.gz tmp/climify_api-1.0.4.tar.gz --markdown 20230502/c/climify-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 11:48:51] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1982-2]: Skipping, unable to determine old version
+[2023-05-02 11:48:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1982-2] error
+[2023-05-02 11:48:51] INFO root fetch - main [MainThread]: End processing [bal-tools]: success
+[2023-05-02 11:48:51] INFO root fetch - main [MainThread]: End processing [andeplane-pyodide-kernel]: success
+[2023-05-02 11:48:51] INFO root fetch - processPackages [pymemri]: Downloading https://files.pythonhosted.org/packages/72/3b/fd0739b423a7ca70dc033e9e822ae382c63c559a0d82d8e72fe58085ac5e/pymemri-0.0.8.tar.gz
+[2023-05-02 11:48:51] INFO root fetch - processPackages [pymemri]: Downloading https://files.pythonhosted.org/packages/76/34/fd60ecc79c07d503e6fbe32e661bd1324390924f0746bb39459636a366ef/pymemri-0.0.9.tar.gz
+[2023-05-02 11:48:51] INFO root fetch - main [MainThread]: End processing [shadems]: success
+[2023-05-02 11:48:51] INFO root fetch - main [MainThread]: End processing [ecutilities]: success
+[2023-05-02 11:48:51] INFO root fetch - processPackages [pymemri]: executing diffoscope
+[2023-05-02 11:48:51] INFO root fetch - processPackages [pymemri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemri-0.0.8.tar.gz tmp/pymemri-0.0.9.tar.gz --markdown 20230502/p/pymemri/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:48:51] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 11:48:52] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-02 11:48:52] INFO root fetch - main [MainThread]: End processing [pymemri]: success
+[2023-05-02 11:49:00] INFO root fetch - main [MainThread]: End processing [PyCBC]: success
+[2023-05-02 11:49:01] INFO root fetch - main [MainThread]: End processing [ete3]: success
+[2023-05-02 11:49:01] INFO root fetch - main [MainThread]: Store serial: [17938816]
