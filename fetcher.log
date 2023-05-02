@@ -5339,3 +5339,29 @@
 [2023-05-02 05:37:06] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
 [2023-05-02 05:37:30] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
 [2023-05-02 05:37:30] INFO root fetch - main [MainThread]: Store serial: [17935733]
+[2023-05-02 05:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935733]
+[2023-05-02 05:42:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-02 05:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystools
+[2023-05-02 05:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maya-rig-operation-graph
+[2023-05-02 05:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynecone
+[2023-05-02 05:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-reed
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 05:42:39] INFO root fetch - processPackages [maya-rig-operation-graph]: New version: [0.3.3] Old Version: [0.2.3]
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pynecone]: New version: [0.1.28a1] Old Version: [0.1.28a0]
+[2023-05-02 05:42:39] INFO root fetch - processPackages [easy-reed]: New version: [0.9.0] Old Version: [0.1.5]
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230502/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 05:42:39] INFO root fetch - processPackages [maya-rig-operation-graph]: executing diffoscope
+[2023-05-02 05:42:39] INFO root fetch - processPackages [maya-rig-operation-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya-rig-operation-graph-0.2.3.tar.gz tmp/maya-rig-operation-graph-0.3.3.tar.gz --markdown 20230502/m/maya-rig-operation-graph/0.2.3-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 05:42:39] INFO root fetch - processPackages [easy-reed]: Downloading https://files.pythonhosted.org/packages/6e/6d/8df5d04d714e4a3dfb5f308953c6e6646250fb0e19ab128025adafbd59d2/easy_reed-0.1.5.tar.gz
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/36/04/019a861ebab68434b2cb63df8b2b890b2e6dae1daf2d237e3d4a257fd269/pynecone-0.1.28a1.tar.gz
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-02 05:42:39] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.28a0.tar.gz tmp/pynecone-0.1.28a1.tar.gz --markdown 20230502/p/pynecone/0.1.28a0-0.1.28a1/diff.md --exclude *.pyd
+[2023-05-02 05:42:39] INFO root fetch - processPackages [easy-reed]: Downloading https://files.pythonhosted.org/packages/09/5b/64d97c1907531fb42dc4b8cbbc47f89cde6a6c0b135869e53a2f83fc2570/easy_reed-0.9.0.tar.gz
+[2023-05-02 05:42:39] INFO root fetch - processPackages [easy-reed]: executing diffoscope
+[2023-05-02 05:42:39] INFO root fetch - processPackages [easy-reed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_reed-0.1.5.tar.gz tmp/easy_reed-0.9.0.tar.gz --markdown 20230502/e/easy-reed/0.1.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 05:42:40] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-02 05:42:40] INFO root fetch - main [MainThread]: End processing [maya-rig-operation-graph]: success
+[2023-05-02 05:42:40] INFO root fetch - main [MainThread]: End processing [easy-reed]: success
+[2023-05-02 05:42:41] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-02 05:42:41] INFO root fetch - main [MainThread]: Store serial: [17935746]
