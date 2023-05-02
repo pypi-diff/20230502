@@ -6920,3 +6920,95 @@
 [2023-05-02 08:14:31] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
 [2023-05-02 08:14:32] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2023-05-02 08:14:32] INFO root fetch - main [MainThread]: Store serial: [17936827]
+[2023-05-02 08:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936827]
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylib1-045
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruamel.yaml
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exception.py
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mylib-023
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mylib-018
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EverLoguru
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypetal
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mylib-008
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mylib-037
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mylib-050
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib1-045]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - processPackages [mylib1-045]: Start processing: binary-file-parser
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [exception.py]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib1-045] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [exception.py]: Start processing: asgihandler
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [exception.py] error
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-023]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-018]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - processPackages [mylib-023]: Start processing: visual-graph-datasets
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-023] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [mylib-018]: Start processing: deepdriver
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [pypetal]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-018] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [binary-file-parser]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-008]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [EverLoguru]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - processPackages [pypetal]: Start processing: rcplot
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-050]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [pypetal] error
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-037]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - processPackages [mylib-008]: Start processing: dongwha-datalab
+[2023-05-02 08:19:41] INFO root fetch - processPackages [asgihandler]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-05-02 08:19:41] INFO root fetch - processPackages [EverLoguru]: Start processing: shttst
+[2023-05-02 08:19:41] INFO root fetch - processPackages [mylib-050]: Start processing: mylib-010
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-008] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [mylib-037]: Start processing: pretext
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [EverLoguru] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-050] error
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-037] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [visual-graph-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 08:19:41] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 08:19:41] INFO root fetch - processPackages [shttst]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [rcplot]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - processPackages [rcplot]: Start processing: mylib-028
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [rcplot] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230502] Old Version: [1.5.3.dev20230501]
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-010]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-010] error
+[2023-05-02 08:19:41] WARNING root fetch - processPackages [mylib-028]: Skipping, unable to determine old version
+[2023-05-02 08:19:41] INFO root fetch - main [MainThread]: End processing [mylib-028] error
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ruamel.yaml]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-02 08:19:41] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-05-02 08:19:41] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230502/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 08:19:41] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/be/e3/f0ae23e8732865b479475926817b6f18068713aa8aad00e5fd858f5c336a/binary-file-parser-0.0.2.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [shttst]: Downloading https://files.pythonhosted.org/packages/d1/a8/a39ceb0ab9225d7074b486f33624dd3acc6db378e1a51607b49af32287a8/shttst-0.0.2.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/f4/39/707f3f9e9f894ee749d27dbe479b25973ce6db1761a3282201c0bea0b347/asgihandler-0.3.9.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/8b/aa/c11553474bc6abcbf2c78890f6579b242ab68a2c302c40a668fd39cef3c9/visual_graph_datasets-0.8.0.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/ec/94/0620514ecdb1696109e1dafd6913e44cec85a3d45865b1e9524972594249/dongwha_datalab-0.0.0.8-py3-none-any.whl
+[2023-05-02 08:19:41] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/14/d8/b795f46ccc83961571a80ea1da86d762a9182d742d7941028850f4f8f04e/pretext-1.5.3.dev20230501.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/08/2e/36ad3bba826620494292ad7c14beb21695e6da91705f50cf228fb0fa4409/ruamel.yaml-0.9.7.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-05-02 08:19:41] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.7-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.8-py3-none-any.whl.zip --markdown 20230502/d/dongwha-datalab/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-05-02 08:19:41] INFO root fetch - processPackages [shttst]: Downloading https://files.pythonhosted.org/packages/86/93/4e2c719a831a4b9c191544ec99053fd85133b730175e2970db22b92ba34a/shttst-0.0.3.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/d9/82/0923c8d25809ddd64d229716cd4b67fa06198e88b252e0ec5fd427e7682d/binary-file-parser-0.1.0.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/de/10/64ece4407e8c75c642de09dfd44dfad94ef5f7b079ba3bd4d6fd407e9142/asgihandler-0.4.0.tar.gz
+[2023-05-02 08:19:41] INFO root fetch - processPackages [shttst]: executing diffoscope
+[2023-05-02 08:19:41] INFO root fetch - processPackages [shttst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shttst-0.0.2.tar.gz tmp/shttst-0.0.3.tar.gz --markdown 20230502/s/shttst/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 08:19:42] INFO root fetch - processPackages [binary-file-parser]: executing diffoscope
+[2023-05-02 08:19:42] INFO root fetch - processPackages [binary-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary-file-parser-0.0.2.tar.gz tmp/binary-file-parser-0.1.0.tar.gz --markdown 20230502/b/binary-file-parser/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 08:19:42] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-05-02 08:19:42] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.3.9.tar.gz tmp/asgihandler-0.4.0.tar.gz --markdown 20230502/a/asgihandler/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-05-02 08:19:42] INFO root fetch - processPackages [visual-graph-datasets]: Downloading https://files.pythonhosted.org/packages/f7/24/21b8065eddaf1f2aebcb3c1ab99a567eafabd40743647beb7ef80955b8a8/visual_graph_datasets-0.9.0.tar.gz
+[2023-05-02 08:19:42] INFO root fetch - processPackages [ruamel.yaml]: Downloading https://files.pythonhosted.org/packages/29/71/ac3ab7be172ca88b6d16134578c9124e0b5ed157a3681e5181d9ca9bb3ec/ruamel.yaml-0.9.8.tar.gz
+[2023-05-02 08:19:42] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/2e/7e/86e6fc68d2488bf9d4d75485d7505982a6670c000f2a143dc10d016932a2/pretext-1.5.3.dev20230502.tar.gz
+[2023-05-02 08:19:42] INFO root fetch - processPackages [ruamel.yaml]: executing diffoscope
+[2023-05-02 08:19:42] INFO root fetch - processPackages [ruamel.yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruamel.yaml-0.9.7.tar.gz tmp/ruamel.yaml-0.9.8.tar.gz --markdown 20230502/r/ruamel.yaml/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-02 08:19:42] INFO root fetch - processPackages [visual-graph-datasets]: executing diffoscope
+[2023-05-02 08:19:42] INFO root fetch - processPackages [visual-graph-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_graph_datasets-0.8.0.tar.gz tmp/visual_graph_datasets-0.9.0.tar.gz --markdown 20230502/v/visual-graph-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 08:19:42] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-02 08:19:42] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230501.tar.gz tmp/pretext-1.5.3.dev20230502.tar.gz --markdown 20230502/p/pretext/1.5.3.dev20230501-1.5.3.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 08:19:43] INFO root fetch - main [MainThread]: End processing [dongwha-datalab]: success
+[2023-05-02 08:19:43] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-05-02 08:19:43] INFO root fetch - main [MainThread]: End processing [shttst]: success
+[2023-05-02 08:19:43] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-05-02 08:19:43] INFO root fetch - main [MainThread]: End processing [binary-file-parser]: success
+[2023-05-02 08:19:44] INFO root fetch - main [MainThread]: End processing [visual-graph-datasets]: success
+[2023-05-02 08:19:44] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
+[2023-05-02 08:19:48] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-02 08:19:48] INFO root fetch - main [MainThread]: Store serial: [17936903]
