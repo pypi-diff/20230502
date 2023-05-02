@@ -10113,3 +10113,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 11:54:12] INFO root fetch - main [MainThread]: End processing [wbBase]: success
 [2023-05-02 11:54:15] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-05-02 11:54:15] INFO root fetch - main [MainThread]: Store serial: [17938852]
+[2023-05-02 11:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938852]
+[2023-05-02 11:59:26] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pants-py-deploy
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixcom
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotControl
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: halborn-ctf
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ewoksdata
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuvla-cli
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: envd
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonrpc-py
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Functionss
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BDXConverter
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ixcom]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [BDXConverter]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [robotControl]: New version: [0.6] Old Version: [0.5]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ixcom]: executing diffoscope
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ixcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixcom-1.3.3.tar.gz tmp/ixcom-1.3.4.tar.gz --markdown 20230502/i/ixcom/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-02 11:59:26] WARNING root fetch - processPackages [pants-py-deploy]: Skipping, unable to determine old version
+[2023-05-02 11:59:26] INFO root fetch - processPackages [pants-py-deploy]: Start processing: demisto-sdk
+[2023-05-02 11:59:26] INFO root fetch - main [MainThread]: End processing [pants-py-deploy] error
+[2023-05-02 11:59:26] INFO root fetch - processPackages [ewoksdata]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [jsonrpc-py]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [nuvla-cli]: New version: [1.0.0] Old Version: [0.0.1a7]
+[2023-05-02 11:59:26] WARNING root fetch - processPackages [halborn-ctf]: Skipping, unable to determine old version
+[2023-05-02 11:59:26] WARNING root fetch - processPackages [Functionss]: Skipping, unable to determine old version
+[2023-05-02 11:59:26] INFO root fetch - processPackages [halborn-ctf]: Start processing: robotControl
+[2023-05-02 11:59:26] INFO root fetch - main [MainThread]: End processing [halborn-ctf] error
+[2023-05-02 11:59:26] INFO root fetch - processPackages [Functionss]: Start processing: phenopype
+[2023-05-02 11:59:26] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-02 11:59:26] INFO root fetch - main [MainThread]: End processing [Functionss] error
+[2023-05-02 11:59:26] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.0.5.tar.gz tmp/BDXConverter-1.0.6.tar.gz --markdown 20230502/B/BDXConverter/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 11:59:26] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [robotControl]: New version: [0.8] Old Version: [0.7]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [phenopype]: New version: [3.4.0] Old Version: [3.3.6]
+[2023-05-02 11:59:26] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/a8/34/844898e390778dcb6575c4f06a2b5ecbe78c172ebf985b58dd1b285b32e6/robotControl-0.6.tar.gz
+[2023-05-02 11:59:26] INFO root fetch - processPackages [nuvla-cli]: Downloading https://files.pythonhosted.org/packages/e6/12/7d4f33f543dcb4db76087c511a94806ae2975b12d54748a73123aec960ba/nuvla_cli-0.0.1a7-py3-none-any.whl
+[2023-05-02 11:59:26] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/55/8b/1f3e615dbf6b309bd343c09bedbc33d8bfc64cd84352851116d479d52a92/robotControl-0.7.tar.gz
+[2023-05-02 11:59:26] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 11:59:26] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-0.5.tar.gz tmp/robotControl-0.6.tar.gz --markdown 20230502/r/robotControl/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2023-05-02 11:59:27] INFO root fetch - processPackages [ewoksdata]: Downloading https://files.pythonhosted.org/packages/0c/d5/dfb543b0860d64dca4bf128d212d938d8ce33f3df2ed2721366db00ec89b/ewoksdata-0.2.6.tar.gz
+[2023-05-02 11:59:27] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/4c/62/35473f7a785d9091893fd61455fd7318d4ce6587a67b744ceab2b7ca2ace/phenopype-3.3.6-py3-none-any.whl
+[2023-05-02 11:59:27] INFO root fetch - processPackages [jsonrpc-py]: Downloading https://files.pythonhosted.org/packages/68/1b/63364fc57f5b121892b1a77bee4f38ca0b60d4e81c211c7c0e8061ff5af1/jsonrpc-py-3.0.6.tar.gz
+[2023-05-02 11:59:27] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-05-02 11:59:27] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230502/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [ewoksdata]: executing diffoscope
+[2023-05-02 11:59:27] INFO root fetch - processPackages [ewoksdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksdata-0.2.5.tar.gz tmp/ewoksdata-0.2.6.tar.gz --markdown 20230502/e/ewoksdata/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [jsonrpc-py]: executing diffoscope
+[2023-05-02 11:59:27] INFO root fetch - processPackages [jsonrpc-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpc-py-3.0.5.tar.gz tmp/jsonrpc-py-3.0.6.tar.gz --markdown 20230502/j/jsonrpc-py/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [nuvla-cli]: Downloading https://files.pythonhosted.org/packages/98/70/e78fddae91008d18338b58818c076a9807e0400ce70aaa1f73fd917bf081/nuvla_cli-1.0.0.tar.gz
+[2023-05-02 11:59:27] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/0d/8a/51b068a37845f0a62f9cbdd826b007b39118f8d54a72fbd14a9cf79437d8/robotControl-0.8.tar.gz
+[2023-05-02 11:59:27] INFO root fetch - processPackages [phenopype]: Downloading https://files.pythonhosted.org/packages/11/db/8e046dd0c1b63ef679cd2b2f676d16133c04fcc84e4557c100ec958a9cd8/phenopype-3.4.0-py3-none-any.whl
+[2023-05-02 11:59:27] INFO root fetch - processPackages [nuvla-cli]: executing diffoscope
+[2023-05-02 11:59:27] INFO root fetch - processPackages [nuvla-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvla_cli-0.0.1a7-py3-none-any.whl.zip tmp/nuvla_cli-1.0.0.tar.gz --markdown 20230502/n/nuvla-cli/0.0.1a7-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 11:59:27] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-0.7.tar.gz tmp/robotControl-0.8.tar.gz --markdown 20230502/r/robotControl/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [phenopype]: executing diffoscope
+[2023-05-02 11:59:27] INFO root fetch - processPackages [phenopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenopype-3.3.6-py3-none-any.whl.zip tmp/phenopype-3.4.0-py3-none-any.whl.zip --markdown 20230502/p/phenopype/3.3.6-3.4.0/diff.md --exclude *.pyd
+[2023-05-02 11:59:27] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2023-05-02 11:59:27] INFO root fetch - processPackages [ixcom]: Start processing: moneykit
+[2023-05-02 11:59:27] INFO root fetch - main [MainThread]: End processing [ixcom]: success
+[2023-05-02 11:59:28] INFO root fetch - processPackages [moneykit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:59:28] INFO root fetch - processPackages [BDXConverter]: Start processing: phylo-matt
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-02 11:59:28] INFO root fetch - processPackages [robotControl]: Start processing: peaqevcore
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 11:59:28] INFO root fetch - processPackages [moneykit]: executing diffoscope
+[2023-05-02 11:59:28] INFO root fetch - processPackages [moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneykit-0.0.8.tar.gz tmp/moneykit-0.0.9.tar.gz --markdown 20230502/m/moneykit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:59:28] INFO root fetch - processPackages [phylo-matt]: New version: [1.3.1] Old Version: [1.3]
+[2023-05-02 11:59:28] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-05-02 11:59:28] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230502/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 11:59:28] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-05-02 11:59:28] INFO root fetch - processPackages [phylo-matt]: Downloading https://files.pythonhosted.org/packages/98/a9/1c100b9200a4de24b54ac8bc8a1e6309db4376400da410a2db808e606916/phylo-matt-1.3.tar.gz
+[2023-05-02 11:59:28] WARNING root fetch - processPackages [phylo-matt]: Skipping package: exceeds size limit 13132952>=10485760
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [phylo-matt] error
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [nuvla-cli]: success
+[2023-05-02 11:59:28] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-05-02 11:59:28] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230502/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [ewoksdata]: success
+[2023-05-02 11:59:28] INFO root fetch - main [MainThread]: End processing [jsonrpc-py]: success
+[2023-05-02 11:59:29] INFO root fetch - main [MainThread]: End processing [phenopype]: success
+[2023-05-02 11:59:30] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-05-02 11:59:31] INFO root fetch - main [MainThread]: End processing [moneykit]: success
+[2023-05-02 11:59:39] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-05-02 12:00:51] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-05-02 12:00:51] INFO root fetch - main [MainThread]: Store serial: [17938904]
