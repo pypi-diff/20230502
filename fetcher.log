@@ -20441,3 +20441,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 21:13:48] INFO root fetch - main [MainThread]: End processing [elbow]: success
 [2023-05-02 21:13:48] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
 [2023-05-02 21:13:48] INFO root fetch - main [MainThread]: Store serial: [17945808]
+[2023-05-02 21:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945808]
+[2023-05-02 21:18:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugincode
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystv
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simulateIRAS
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: h-transport-materials
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesson18-poetry
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandantic
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesson18-poetry
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: expflow
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aesim.simba
+[2023-05-02 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openpile
+[2023-05-02 21:18:57] INFO root fetch - processPackages [plugincode]: New version: [32.0.0] Old Version: [31.0.0b1]
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pystv]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-02 21:18:57] INFO root fetch - processPackages [h-transport-materials]: New version: [0.9] Old Version: [0.8.1]
+[2023-05-02 21:18:57] INFO root fetch - processPackages [simulateIRAS]: New version: [0.1.0.post5] Old Version: [0.1.0.post4]
+[2023-05-02 21:18:57] WARNING root fetch - processPackages [lesson18-poetry]: Skipping, unable to determine old version
+[2023-05-02 21:18:57] INFO root fetch - processPackages [lesson18-poetry]: Start processing: lockss-turtles
+[2023-05-02 21:18:57] INFO root fetch - processPackages [openpile]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 21:18:57] INFO root fetch - main [MainThread]: End processing [lesson18-poetry] error
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pandantic]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-02 21:18:57] WARNING root fetch - processPackages [lesson18-poetry]: Skipping, unable to determine old version
+[2023-05-02 21:18:57] INFO root fetch - main [MainThread]: End processing [lesson18-poetry] error
+[2023-05-02 21:18:57] INFO root fetch - processPackages [expflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 21:18:57] INFO root fetch - processPackages [aesim.simba]: New version: [2023.5.2a1] Old Version: [2023.5.1a2]
+[2023-05-02 21:18:57] INFO root fetch - processPackages [lockss-turtles]: New version: [0.4.0.dev2] Old Version: [0.4.0.dev1]
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pystv]: executing diffoscope
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pystv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystv-0.8.1.tar.gz tmp/pystv-0.9.0.tar.gz --markdown 20230502/p/pystv/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 21:18:57] INFO root fetch - processPackages [expflow]: executing diffoscope
+[2023-05-02 21:18:57] INFO root fetch - processPackages [expflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expflow-0.1.8.tar.gz tmp/expflow-0.1.9.tar.gz --markdown 20230502/e/expflow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pandantic]: Downloading https://files.pythonhosted.org/packages/da/21/018633bd52f554badfa301466cae0c8ac6043c4e59834025d9462406fbe7/pandantic-0.1.2.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [plugincode]: Downloading https://files.pythonhosted.org/packages/ba/fa/11de7dcdee43ffcd0953815ecdada0e9e0a5634e9320fbae21f75249dfb8/plugincode-31.0.0b1.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [simulateIRAS]: Downloading https://files.pythonhosted.org/packages/8c/c3/ac6a84fb75e73864ec580c30d577f18a81de383e63fe0178030365600146/simulateIRAS-0.1.0.post5.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [lockss-turtles]: Downloading https://files.pythonhosted.org/packages/fe/3e/fb61b497307c19e942af1ff7680065134ae27474a55858b9637b8b9c477c/lockss_turtles-0.4.0.dev1.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/cf/13/0749f080d3af763877a3976ceac745698b1d3570861eff3068a8864c1ee8/aesim.simba-2023.5.1a2-py3-none-win_amd64.whl
+[2023-05-02 21:18:57] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86846645>=10485760
+[2023-05-02 21:18:57] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-02 21:18:57] INFO root fetch - processPackages [simulateIRAS]: executing diffoscope
+[2023-05-02 21:18:57] INFO root fetch - processPackages [simulateIRAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulateIRAS-0.1.0.post4.tar.gz tmp/simulateIRAS-0.1.0.post5.tar.gz --markdown 20230502/s/simulateIRAS/0.1.0.post4-0.1.0.post5/diff.md --exclude *.pyd
+[2023-05-02 21:18:57] INFO root fetch - processPackages [openpile]: Downloading https://files.pythonhosted.org/packages/81/e0/579331726182116c9e68f8a0ade8d6025aa423ed00c09629983018427356/openpile-0.3.0.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [h-transport-materials]: executing diffoscope
+[2023-05-02 21:18:57] INFO root fetch - processPackages [h-transport-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h_transport_materials-0.8.1.tar.gz tmp/h_transport_materials-0.9.tar.gz --markdown 20230502/h/h-transport-materials/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pandantic]: Downloading https://files.pythonhosted.org/packages/7a/69/798d33a464fc7b8754c2a54fe3813bc1334db4f77a31ba3ddbdba52e4143/pandantic-0.2.0.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pandantic]: executing diffoscope
+[2023-05-02 21:18:57] INFO root fetch - processPackages [pandantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandantic-0.1.2.tar.gz tmp/pandantic-0.2.0.tar.gz --markdown 20230502/p/pandantic/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 21:18:57] INFO root fetch - processPackages [plugincode]: Downloading https://files.pythonhosted.org/packages/cc/0d/e934e7ae95363f9504e78b5f962efd62add3659aa9ad7c79b6f34faa81e6/plugincode-32.0.0.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [lockss-turtles]: Downloading https://files.pythonhosted.org/packages/0a/e2/258ebaa81ced24a26da9c884553335671f80580377562f33b3320414750e/lockss_turtles-0.4.0.dev2.tar.gz
+[2023-05-02 21:18:57] INFO root fetch - processPackages [openpile]: executing diffoscope
+[2023-05-02 21:18:57] INFO root fetch - processPackages [openpile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpile-0.2.0.tar.gz tmp/openpile-0.3.0.tar.gz --markdown 20230502/o/openpile/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 21:18:58] INFO root fetch - processPackages [lockss-turtles]: executing diffoscope
+[2023-05-02 21:18:58] INFO root fetch - processPackages [lockss-turtles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockss_turtles-0.4.0.dev1.tar.gz tmp/lockss_turtles-0.4.0.dev2.tar.gz --markdown 20230502/l/lockss-turtles/0.4.0.dev1-0.4.0.dev2/diff.md --exclude *.pyd
+[2023-05-02 21:18:58] INFO root fetch - processPackages [plugincode]: executing diffoscope
+[2023-05-02 21:18:58] INFO root fetch - processPackages [plugincode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugincode-31.0.0b1.tar.gz tmp/plugincode-32.0.0.tar.gz --markdown 20230502/p/plugincode/31.0.0b1-32.0.0/diff.md --exclude *.pyd
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [pandantic]: success
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [simulateIRAS]: success
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [expflow]: success
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [openpile]: success
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [pystv]: success
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [lockss-turtles]: success
+[2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [plugincode]: success
+[2023-05-02 21:19:00] INFO root fetch - main [MainThread]: End processing [h-transport-materials]: success
+[2023-05-02 21:19:00] INFO root fetch - main [MainThread]: Store serial: [17945844]
