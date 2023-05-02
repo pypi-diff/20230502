@@ -12510,3 +12510,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 14:20:36] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
 [2023-05-02 14:20:37] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
 [2023-05-02 14:20:37] INFO root fetch - main [MainThread]: Store serial: [17940308]
+[2023-05-02 14:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940308]
+[2023-05-02 14:25:46] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zqmtool
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aesim.simba
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xarray-safe-s1
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydt3
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: only-relative-import
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kognic-auth
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zillion
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ImageStack-SVG
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arkitekt
+[2023-05-02 14:25:46] INFO root fetch - processPackages [zqmtool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 14:25:46] WARNING root fetch - processPackages [xarray-safe-s1]: Skipping, unable to determine old version
+[2023-05-02 14:25:46] INFO root fetch - processPackages [xarray-safe-s1]: Start processing: LbConfiguration
+[2023-05-02 14:25:46] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1] error
+[2023-05-02 14:25:46] INFO root fetch - processPackages [pydt3]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 14:25:46] INFO root fetch - processPackages [aesim.simba]: New version: [2023.5.1a2] Old Version: [2023.5.1a1]
+[2023-05-02 14:25:46] INFO root fetch - processPackages [zillion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 14:25:46] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 14:25:46] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-02 14:25:46] WARNING root fetch - processPackages [only-relative-import]: Skipping, unable to determine old version
+[2023-05-02 14:25:46] INFO root fetch - processPackages [only-relative-import]: Start processing: Bigsansar
+[2023-05-02 14:25:46] INFO root fetch - main [MainThread]: End processing [only-relative-import] error
+[2023-05-02 14:25:46] INFO root fetch - processPackages [ImageStack-SVG]: New version: [1.0.0] Old Version: [0.2.6]
+[2023-05-02 14:25:47] INFO root fetch - processPackages [pydt3]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [pydt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydt3-0.0.1.tar.gz tmp/pydt3-0.0.2.tar.gz --markdown 20230502/p/pydt3/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [kognic-auth]: New version: [3.2.0] Old Version: [3.1.2]
+[2023-05-02 14:25:47] INFO root fetch - processPackages [Bigsansar]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 14:25:47] INFO root fetch - processPackages [zillion]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [zillion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillion-0.9.8.tar.gz tmp/zillion-0.9.9.tar.gz --markdown 20230502/z/zillion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] WARNING root fetch - processPackages [LbConfiguration]: Skipping, unable to determine old version
+[2023-05-02 14:25:47] INFO root fetch - processPackages [LbConfiguration]: Start processing: headline-detector
+[2023-05-02 14:25:47] INFO root fetch - main [MainThread]: End processing [LbConfiguration] error
+[2023-05-02 14:25:47] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/fc/04/0bfea2c20c59038c0f56ea09a6aaee4f0a144525fdcf031494b48f33ec21/aesim.simba-2023.5.1a1-py3-none-win_amd64.whl
+[2023-05-02 14:25:47] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230502/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [zqmtool]: Downloading https://files.pythonhosted.org/packages/16/51/d56daabf78f6ccca83b0f5c495df68c145af7ddda6e3f745bad6969be1af/zqmtool-0.0.8.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [ImageStack-SVG]: Downloading https://files.pythonhosted.org/packages/fb/07/e0fd678b3136a680a0b8f0b091109c326a1f56e1dfaec2228ac166298030/ImageStack%20SVG-0.2.6.tar.gz
+[2023-05-02 14:25:47] WARNING root fetch - processPackages [headline-detector]: Skipping, unable to determine old version
+[2023-05-02 14:25:47] INFO root fetch - processPackages [headline-detector]: Start processing: girder-slicer-cli-web
+[2023-05-02 14:25:47] INFO root fetch - main [MainThread]: End processing [headline-detector] error
+[2023-05-02 14:25:47] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86846403>=10485760
+[2023-05-02 14:25:47] INFO root fetch - processPackages [aesim.simba]: Start processing: climify-api
+[2023-05-02 14:25:47] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-02 14:25:47] INFO root fetch - processPackages [climify-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 14:25:47] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/64/b4/6a39d493dfcfe5df4dfc06d52d78c685aa79e14ea63af7c6142fc7169648/Bigsansar-1.2.9.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [girder-slicer-cli-web]: New version: [1.3.3.dev6] Old Version: [1.3.3.dev4]
+[2023-05-02 14:25:47] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.5.tar.gz tmp/climify_api-1.0.6.tar.gz --markdown 20230502/c/climify-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.2.8.tar.gz tmp/Bigsansar-1.2.9.tar.gz --markdown 20230502/B/Bigsansar/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [kognic-auth]: Downloading https://files.pythonhosted.org/packages/7f/3a/d34e26c89014289a830bffb87c69926d9fd17dddcbc9aa0b4ea45091d188/kognic-auth-3.2.0.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [ImageStack-SVG]: Downloading https://files.pythonhosted.org/packages/16/0c/7e1ac43d86e9ab7dcfc671f6d1269e4455d7dfd22f36d57068f50c5151f7/ImageStack%20SVG-1.0.0.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [zqmtool]: Downloading https://files.pythonhosted.org/packages/f1/87/51c14c7d475136a800f40694a9461172fe82da6960afcb49c3d6ea928359/zqmtool-0.0.9.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/1a/8b/ac785ffab22a368a833b2f8da4e2e8b529872f400a34b19c332e96de62ba/girder-slicer-cli-web-1.3.3.dev4.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [kognic-auth]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [kognic-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kognic-auth-3.1.2.tar.gz tmp/kognic-auth-3.2.0.tar.gz --markdown 20230502/k/kognic-auth/3.1.2-3.2.0/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [ImageStack-SVG]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [ImageStack-SVG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageStack SVG-0.2.6.tar.gz tmp/ImageStack SVG-1.0.0.tar.gz --markdown 20230502/I/ImageStack-SVG/0.2.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [zqmtool]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [zqmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zqmtool-0.0.8.tar.gz tmp/zqmtool-0.0.9.tar.gz --markdown 20230502/z/zqmtool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:25:47] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/1b/e7/302e0aae3a7d5a08e3f9c756a50d3258ad49688910a18e00977748fc51cb/girder-slicer-cli-web-1.3.3.dev6.tar.gz
+[2023-05-02 14:25:47] INFO root fetch - processPackages [girder-slicer-cli-web]: executing diffoscope
+[2023-05-02 14:25:47] INFO root fetch - processPackages [girder-slicer-cli-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-slicer-cli-web-1.3.3.dev4.tar.gz tmp/girder-slicer-cli-web-1.3.3.dev6.tar.gz --markdown 20230502/g/girder-slicer-cli-web/1.3.3.dev4-1.3.3.dev6/diff.md --exclude *.pyd
+[2023-05-02 14:25:48] INFO root fetch - processPackages [ImageStack-SVG]: Start processing: trawler-on-lake
+[2023-05-02 14:25:48] INFO root fetch - main [MainThread]: End processing [ImageStack-SVG]: success
+[2023-05-02 14:25:49] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [kognic-auth]: success
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [pydt3]: success
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-02 14:25:49] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-05-02 14:25:49] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230502/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [zqmtool]: success
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-02 14:25:49] INFO root fetch - main [MainThread]: End processing [zillion]: success
+[2023-05-02 14:25:50] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-05-02 14:25:52] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
+[2023-05-02 14:25:52] INFO root fetch - main [MainThread]: Store serial: [17940362]
