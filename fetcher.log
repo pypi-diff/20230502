@@ -11268,3 +11268,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:13:45] INFO root fetch - main [MainThread]: End processing [clophfit]: success
 [2023-05-02 13:13:46] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-05-02 13:13:46] INFO root fetch - main [MainThread]: Store serial: [17939569]
+[2023-05-02 13:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939569]
+[2023-05-02 13:18:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sgkit
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosow
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryton-worker
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-private-bucket
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autosrt
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-guerrilla-mail-brb
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proairtable
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsws-client
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reversibledict
+[2023-05-02 13:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandas-indexing
+[2023-05-02 13:18:56] INFO root fetch - processPackages [aiosow]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [proairtable]: Skipping, unable to determine old version
+[2023-05-02 13:18:57] INFO root fetch - processPackages [proairtable]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 13:18:57] INFO root fetch - main [MainThread]: End processing [proairtable] error
+[2023-05-02 13:18:57] INFO root fetch - processPackages [autosrt]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [sgkit]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [dsws-client]: Skipping, unable to determine old version
+[2023-05-02 13:18:57] INFO root fetch - processPackages [dsws-client]: Start processing: aws-prototyping-sdk
+[2023-05-02 13:18:57] INFO root fetch - processPackages [cryton-worker]: New version: [2023.1.1] Old Version: [2023.1.0a0]
+[2023-05-02 13:18:57] INFO root fetch - main [MainThread]: End processing [dsws-client] error
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pandas-indexing]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [python-guerrilla-mail-brb]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [reversibledict]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.17.5] Old Version: [0.17.4]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [sgkit]: Downloading https://files.pythonhosted.org/packages/f3/bb/e47409478cefacd5159ac325b242cd2deacb0a886254d517925b8f55167b/sgkit-0.6.0.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/b7/69/9debcc79b09c71f441598d9d17e901347360858ba3d627bd2208c3b8e985/aiosow-0.1.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/24/6d/f9b3c6fd9c454c5a963236eb37ec60cc5a054f4f723d9d717e8687a4459a/autosrt-1.2.6.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [python-guerrilla-mail-brb]: Downloading https://files.pythonhosted.org/packages/cd/a1/b43a98de7cbb0753291bfbe4d636c689c9b92e3e90c3263f198e4bfd2a1b/python-guerrilla_mail_brb-0.1.0.tar.gz
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [reversibledict]: fallback to get urls: [0.1.0]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/5d/d6/740505e5d1d3e51bf77a65f0fa05ec4bd910593334d89a4fe121b6ce6def/aws_prototyping_sdk.aws_arch-0.17.4.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/c6/44/9d587f92942ebc11616c3cd564baaf0d3b123ac68f525511915161e89d26/pandas-indexing-0.2.1.tar.gz
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [reversibledict]: None
+[2023-05-02 13:18:57] INFO root fetch - processPackages [cryton-worker]: Downloading https://files.pythonhosted.org/packages/f1/44/7c52664a9ebe33ef8c765ddf030dcaace53a3a4b250a0b51991cff18ccb3/cryton_worker-2023.1.0a0.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.5.tar.gz tmp/autosrt-1.2.6.tar.gz --markdown 20230502/a/autosrt/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [reversibledict]: None
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [reversibledict]: unable to get url for both version [0.1.0]
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [reversibledict]: None
+[2023-05-02 13:18:57] INFO root fetch - processPackages [reversibledict]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-05-02 13:18:57] INFO root fetch - main [MainThread]: End processing [reversibledict] error
+[2023-05-02 13:18:57] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19292961>=10485760
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.identity
+[2023-05-02 13:18:57] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-05-02 13:18:57] INFO root fetch - processPackages [python-guerrilla-mail-brb]: Downloading https://files.pythonhosted.org/packages/dc/4f/875009a1bb5d29a4b3fadb7e3d9cef8adf161e0775e517c0bfd8a19bf254/python-guerrilla_mail_brb-0.1.1.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/bc/37/7a637a24f5c81a60c4a8c161e17fba46a4021bfbcfaf28f91074cd434ff1/aiosow-0.1.2.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [sgkit]: Downloading https://files.pythonhosted.org/packages/d8/68/d711e6caa07a8400c4d6e16927194ac73ae17f4f0acda940e208a1efa91a/sgkit-0.7.0.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aiosow]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aiosow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosow-0.1.tar.gz tmp/aiosow-0.1.2.tar.gz --markdown 20230502/a/aiosow/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-02 13:18:57] INFO root fetch - processPackages [sgkit]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [sgkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgkit-0.6.0.tar.gz tmp/sgkit-0.7.0.tar.gz --markdown 20230502/s/sgkit/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [python-guerrilla-mail-brb]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [python-guerrilla-mail-brb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-guerrilla_mail_brb-0.1.0.tar.gz tmp/python-guerrilla_mail_brb-0.1.1.tar.gz --markdown 20230502/p/python-guerrilla-mail-brb/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/58/b7/2b7aa6aaf5433a4093b0610c8b5dfbdf6ec38892c99c82b6caf92b8972ff/pandas-indexing-0.2.2.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk-0.9.3.tar.gz tmp/aws_prototyping_sdk-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [cryton-worker]: Downloading https://files.pythonhosted.org/packages/7c/6e/ba7b9de3dcad8eb9574679352e1c5e1b77f53c95a73727455735a8da0965/cryton_worker-2023.1.1.tar.gz
+[2023-05-02 13:18:57] INFO root fetch - processPackages [cryton-worker]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [cryton-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryton_worker-2023.1.0a0.tar.gz tmp/cryton_worker-2023.1.1.tar.gz --markdown 20230502/c/cryton-worker/2023.1.0a0-2023.1.1/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.2.1.tar.gz tmp/pandas-indexing-0.2.2.tar.gz --markdown 20230502/p/pandas-indexing/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-05-02 13:18:57] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230502/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-02 13:18:58] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-02 13:18:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-02 13:18:59] INFO root fetch - main [MainThread]: End processing [python-guerrilla-mail-brb]: success
+[2023-05-02 13:18:59] INFO root fetch - main [MainThread]: End processing [aiosow]: success
+[2023-05-02 13:18:59] INFO root fetch - main [MainThread]: End processing [cryton-worker]: success
+[2023-05-02 13:18:59] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-05-02 13:18:59] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-05-02 13:18:59] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2023-05-02 13:19:02] INFO root fetch - main [MainThread]: End processing [sgkit]: success
+[2023-05-02 13:19:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
+[2023-05-02 13:19:02] INFO root fetch - main [MainThread]: Store serial: [17939615]
