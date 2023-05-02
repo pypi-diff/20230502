@@ -23145,3 +23145,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 23:29:33] INFO root fetch - main [MainThread]: End processing [MergePythonSDK]: success
 [2023-05-02 23:31:58] INFO root fetch - main [MainThread]: End processing [viam-sdk]: success
 [2023-05-02 23:31:58] INFO root fetch - main [MainThread]: Store serial: [17947263]
+[2023-05-02 23:37:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947263]
+[2023-05-02 23:37:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudmesh-gpu
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caikit-tgis-backend
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudmesh-gpu
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydaa
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-source-env
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quivr
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MultivariaTeach
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trading-backend
+[2023-05-02 23:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: badgie
+[2023-05-02 23:37:31] INFO root fetch - processPackages [cloudmesh-gpu]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [poetry-source-env]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [cloudmesh-gpu]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [pydaa]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [MultivariaTeach]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [badgie]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [quivr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [trading-backend]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.9] Old Version: [4.8.7]
+[2023-05-02 23:37:31] WARNING root fetch - processPackages [caikit-tgis-backend]: Skipping, unable to determine old version
+[2023-05-02 23:37:31] INFO root fetch - processPackages [caikit-tgis-backend]: Start processing: keypact
+[2023-05-02 23:37:31] INFO root fetch - main [MainThread]: End processing [caikit-tgis-backend] error
+[2023-05-02 23:37:31] INFO root fetch - processPackages [keypact]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 23:37:31] INFO root fetch - processPackages [badgie]: Downloading https://files.pythonhosted.org/packages/ab/6c/bdf9f9c89c12e4af874dbe446f5cdba3c552b9e269f0bbd2a509bb693e97/badgie-0.6.2.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [MultivariaTeach]: Downloading https://files.pythonhosted.org/packages/21/3c/e0a2a7ca2491d07b6bd6ffee90712c0426117da01be36392c8e03a55d208/MultivariaTeach-0.1.6.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [trading-backend]: Downloading https://files.pythonhosted.org/packages/d6/d7/7dbcf22c2948a550b193d2b4c975e971a5c942a9567eccc6a009912b5938/trading-backend-1.2.3.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [cloudmesh-gpu]: Downloading https://files.pythonhosted.org/packages/e2/14/f349fbe4d3d606d409ee21bb50de0e7a9159ca50f06e4e5b84dfc6294a31/cloudmesh-gpu-4.3.8.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [cloudmesh-gpu]: Downloading https://files.pythonhosted.org/packages/e2/14/f349fbe4d3d606d409ee21bb50de0e7a9159ca50f06e4e5b84dfc6294a31/cloudmesh-gpu-4.3.8.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [poetry-source-env]: Downloading https://files.pythonhosted.org/packages/f1/62/63a20a67684f28bcf4d72857249842f1529448efeba37fae387c55be90a0/poetry_source_env-1.1.1.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [pydaa]: Downloading https://files.pythonhosted.org/packages/27/a2/b3c5039312e183d995a1398d53788a048d5ede3249a62be91c1da3cc50c5/pydaa-1.7.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 23:37:31] INFO root fetch - processPackages [keypact]: Downloading https://files.pythonhosted.org/packages/5a/19/9bf47311ce0f83ed04289a7fb9ba26776896d6130cd4af4dc8d361bcfa7f/keypact-0.2.2.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [MultivariaTeach]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [MultivariaTeach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultivariaTeach-0.1.5.tar.gz tmp/MultivariaTeach-0.1.6.tar.gz --markdown 20230502/M/MultivariaTeach/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/d4/a8/7159e16b5337bbf3009b25eb79bc98500e0ad47006bbf41a82d9b3212c77/quivr-0.1.1.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [trading-backend]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [trading-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading-backend-1.2.2.tar.gz tmp/trading-backend-1.2.3.tar.gz --markdown 20230502/t/trading-backend/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [poetry-source-env]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [poetry-source-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_source_env-1.1.0.tar.gz tmp/poetry_source_env-1.1.1.tar.gz --markdown 20230502/p/poetry-source-env/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/ff/ec/adf6e5833592126b25748a6260815bd5a02e25240d32187f1ade01204605/jaaql-middleware-python-4.8.9.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [keypact]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [keypact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypact-0.2.1.tar.gz tmp/keypact-0.2.2.tar.gz --markdown 20230502/k/keypact/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [pydaa]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [pydaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaa-1.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pydaa-1.7.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/p/pydaa/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.1.0.tar.gz tmp/quivr-0.1.1.tar.gz --markdown 20230502/q/quivr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [badgie]: Downloading https://files.pythonhosted.org/packages/4b/a9/ff350bb8bd38d89f8138ed1969d4446d7b2d308491c2e59af57a6937226e/badgie-0.7.0.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.7.tar.gz tmp/jaaql-middleware-python-4.8.9.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.8.7-4.8.9/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [badgie]: executing diffoscope
+[2023-05-02 23:37:31] INFO root fetch - processPackages [badgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badgie-0.6.2.tar.gz tmp/badgie-0.7.0.tar.gz --markdown 20230502/b/badgie/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 23:37:31] INFO root fetch - processPackages [cloudmesh-gpu]: Downloading https://files.pythonhosted.org/packages/ce/11/e8b38cda2cbf2c3296f8e20319978a7581028a270741cecfcbb18c9a10bd/cloudmesh-gpu-4.3.9.tar.gz
+[2023-05-02 23:37:31] INFO root fetch - processPackages [cloudmesh-gpu]: Downloading https://files.pythonhosted.org/packages/ce/11/e8b38cda2cbf2c3296f8e20319978a7581028a270741cecfcbb18c9a10bd/cloudmesh-gpu-4.3.9.tar.gz
+[2023-05-02 23:37:32] INFO root fetch - processPackages [cloudmesh-gpu]: executing diffoscope
+[2023-05-02 23:37:32] INFO root fetch - processPackages [cloudmesh-gpu]: executing diffoscope
+[2023-05-02 23:37:32] INFO root fetch - processPackages [cloudmesh-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-gpu-4.3.8.tar.gz tmp/cloudmesh-gpu-4.3.9.tar.gz --markdown 20230502/c/cloudmesh-gpu/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-05-02 23:37:32] INFO root fetch - processPackages [cloudmesh-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-gpu-4.3.8.tar.gz tmp/cloudmesh-gpu-4.3.9.tar.gz --markdown 20230502/c/cloudmesh-gpu/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-05-02 23:37:33] INFO root fetch - processPackages [poetry-source-env]: Start processing: asyncinotify
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [poetry-source-env]: success
+[2023-05-02 23:37:33] INFO root fetch - processPackages [asyncinotify]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-02 23:37:33] INFO root fetch - processPackages [MultivariaTeach]: Start processing: pysqlite3pkgV2
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [MultivariaTeach]: success
+[2023-05-02 23:37:33] INFO root fetch - processPackages [quivr]: Start processing: ncbi-datasets-pylib
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-05-02 23:37:33] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-05-02 23:37:33] INFO root fetch - processPackages [keypact]: Start processing: neugs-utils
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [keypact]: success
+[2023-05-02 23:37:33] WARNING root fetch - processPackages [pysqlite3pkgV2]: Skipping, unable to determine old version
+[2023-05-02 23:37:33] INFO root fetch - processPackages [pysqlite3pkgV2]: Start processing: kazer12
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [pysqlite3pkgV2] error
+[2023-05-02 23:37:33] INFO root fetch - processPackages [asyncinotify]: Downloading https://files.pythonhosted.org/packages/0a/cd/eefa4193fbbdf71e45a592acedfe32dac670f4579bd270ebd85b4d4bd939/asyncinotify-4.0.1.tar.gz
+[2023-05-02 23:37:33] INFO root fetch - processPackages [neugs-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 23:37:33] WARNING root fetch - processPackages [kazer12]: Skipping, unable to determine old version
+[2023-05-02 23:37:33] INFO root fetch - processPackages [kazer12]: Start processing: kelvin-sdk-pubsub
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [kazer12] error
+[2023-05-02 23:37:33] INFO root fetch - processPackages [kelvin-sdk-pubsub]: New version: [2.9.0] Old Version: [2.7.2]
+[2023-05-02 23:37:33] INFO root fetch - processPackages [cloudmesh-gpu]: Start processing: skysurvey
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [cloudmesh-gpu]: success
+[2023-05-02 23:37:33] INFO root fetch - processPackages [skysurvey]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 23:37:33] INFO root fetch - processPackages [neugs-utils]: executing diffoscope
+[2023-05-02 23:37:33] INFO root fetch - processPackages [neugs-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neugs_utils-0.0.7.tar.gz tmp/neugs_utils-0.0.8.tar.gz --markdown 20230502/n/neugs-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 23:37:33] INFO root fetch - processPackages [badgie]: Start processing: ghanashops-scraper
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [badgie]: success
+[2023-05-02 23:37:33] WARNING root fetch - processPackages [ghanashops-scraper]: Skipping, unable to determine old version
+[2023-05-02 23:37:33] INFO root fetch - processPackages [ghanashops-scraper]: Start processing: sbcoyote
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper] error
+[2023-05-02 23:37:33] INFO root fetch - processPackages [trading-backend]: Start processing: CS333-Final-Project
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [trading-backend]: success
+[2023-05-02 23:37:33] INFO root fetch - processPackages [kelvin-sdk-pubsub]: Downloading https://files.pythonhosted.org/packages/a0/50/039060190798e55f1f3d8fa68010307c4be517ca9d18e9e9b750f6ab7299/kelvin_sdk_pubsub-2.7.2-py3-none-any.whl
+[2023-05-02 23:37:33] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 23:37:33] INFO root fetch - processPackages [asyncinotify]: Downloading https://files.pythonhosted.org/packages/5f/0a/7e83ce699393564b198541dbbd86d52f6d78410292e5d1cad84a5cf5ff5e/asyncinotify-4.0.2.tar.gz
+[2023-05-02 23:37:33] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/6f/72/9bfb26d7efc7d374db6389ae91f25a7caf7288af6a998e04ae5d9dec57c9/skysurvey-0.3.8.tar.gz
+[2023-05-02 23:37:33] INFO root fetch - processPackages [sbcoyote]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-02 23:37:33] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-02 23:37:33] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.6.tar.gz tmp/CS333-Final-Project-0.0.7.tar.gz --markdown 20230502/C/CS333-Final-Project/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 23:37:33] INFO root fetch - processPackages [asyncinotify]: executing diffoscope
+[2023-05-02 23:37:33] INFO root fetch - processPackages [asyncinotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncinotify-4.0.1.tar.gz tmp/asyncinotify-4.0.2.tar.gz --markdown 20230502/a/asyncinotify/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-05-02 23:37:33] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-05-02 23:37:33] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230502/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-05-02 23:37:33] INFO root fetch - main [MainThread]: End processing [cloudmesh-gpu]: success
+[2023-05-02 23:37:33] INFO root fetch - processPackages [sbcoyote]: Downloading https://files.pythonhosted.org/packages/2c/64/bb9142c49e0e4c0901e893df165cbe6660c6a00730852dc20dcbf920ba19/sbcoyote-1.4.0.tar.gz
+[2023-05-02 23:37:33] INFO root fetch - processPackages [kelvin-sdk-pubsub]: Downloading https://files.pythonhosted.org/packages/cd/00/840f33afb1116ae49a9981b6eae2e85b3e86e470406802d9a9a4e446651d/kelvin_sdk_pubsub-2.9.0-py3-none-any.whl
+[2023-05-02 23:37:34] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/90/09/c7f402e311079c00de64632716d15ee899e64401eb44b25714c0b374ed33/skysurvey-0.3.9.tar.gz
+[2023-05-02 23:37:34] INFO root fetch - processPackages [kelvin-sdk-pubsub]: executing diffoscope
+[2023-05-02 23:37:34] INFO root fetch - processPackages [kelvin-sdk-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk_pubsub-2.7.2-py3-none-any.whl.zip tmp/kelvin_sdk_pubsub-2.9.0-py3-none-any.whl.zip --markdown 20230502/k/kelvin-sdk-pubsub/2.7.2-2.9.0/diff.md --exclude *.pyd
+[2023-05-02 23:37:34] INFO root fetch - processPackages [sbcoyote]: Downloading https://files.pythonhosted.org/packages/2d/19/fc5e904d0eace938cd42ffe9c4840f8ba6cc74104effdc7d95dd01181505/sbcoyote-1.4.1.tar.gz
+[2023-05-02 23:37:34] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2023-05-02 23:37:34] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.3.8.tar.gz tmp/skysurvey-0.3.9.tar.gz --markdown 20230502/s/skysurvey/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 23:37:34] INFO root fetch - main [MainThread]: End processing [pydaa]: success
+[2023-05-02 23:37:34] INFO root fetch - processPackages [sbcoyote]: executing diffoscope
+[2023-05-02 23:37:34] INFO root fetch - processPackages [sbcoyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcoyote-1.4.0.tar.gz tmp/sbcoyote-1.4.1.tar.gz --markdown 20230502/s/sbcoyote/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-02 23:37:34] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 23:37:34] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-02 23:37:34] INFO root fetch - main [MainThread]: End processing [neugs-utils]: success
+[2023-05-02 23:37:35] INFO root fetch - main [MainThread]: End processing [asyncinotify]: success
+[2023-05-02 23:37:35] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2023-05-02 23:37:35] INFO root fetch - main [MainThread]: End processing [kelvin-sdk-pubsub]: success
+[2023-05-02 23:37:35] INFO root fetch - main [MainThread]: End processing [sbcoyote]: success
+[2023-05-02 23:37:36] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-05-02 23:37:36] INFO root fetch - main [MainThread]: Store serial: [17947337]
