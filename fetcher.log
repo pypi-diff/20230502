@@ -19049,3 +19049,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 19:52:39] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
 [2023-05-02 19:52:54] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-02 19:52:54] INFO root fetch - main [MainThread]: Store serial: [17944818]
+[2023-05-02 19:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944818]
+[2023-05-02 19:58:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-02 19:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CuellarModel-lib
+[2023-05-02 19:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lmfit
+[2023-05-02 19:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uform
+[2023-05-02 19:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spatial-spec
+[2023-05-02 19:58:06] WARNING root fetch - processPackages [CuellarModel-lib]: Skipping, unable to determine old version
+[2023-05-02 19:58:06] INFO root fetch - main [MainThread]: End processing [CuellarModel-lib] error
+[2023-05-02 19:58:06] INFO root fetch - processPackages [uform]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 19:58:06] INFO root fetch - processPackages [lmfit]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-02 19:58:06] INFO root fetch - processPackages [spatial-spec]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 19:58:06] INFO root fetch - processPackages [lmfit]: Downloading https://files.pythonhosted.org/packages/88/4e/25dbc02731f1b046861529b87e6ae4657c3e8f8a8543bae9d12b56a02bb3/lmfit-1.2.0.tar.gz
+[2023-05-02 19:58:06] INFO root fetch - processPackages [spatial-spec]: Downloading https://files.pythonhosted.org/packages/9e/24/0ba1afb89d734846133f44979e6115e5902ca55ac81eae86bf73ff33b915/spatial_spec-0.1.0.tar.gz
+[2023-05-02 19:58:06] INFO root fetch - processPackages [uform]: Downloading https://files.pythonhosted.org/packages/c8/9f/e32f225b5d0ee7ed53e02ed2804bc72d897eafae674198baef3d1d16c38f/uform-0.2.0.tar.gz
+[2023-05-02 19:58:06] INFO root fetch - processPackages [spatial-spec]: Downloading https://files.pythonhosted.org/packages/f0/14/6988f1bd43e306599d295852c2d7ef2cb7e954fe8a2b9525ee3b161ac733/spatial_spec-0.1.1.tar.gz
+[2023-05-02 19:58:06] INFO root fetch - processPackages [uform]: Downloading https://files.pythonhosted.org/packages/4a/98/9ee1502595527bd10ba372cd4b4a98ea8a2700c939de729033d3eabadcef/uform-0.2.1.tar.gz
+[2023-05-02 19:58:06] INFO root fetch - processPackages [lmfit]: Downloading https://files.pythonhosted.org/packages/94/79/f0e2042b4239228dd2eacfd60cab641e12c1bf5c33f628d98fd5b349cddd/lmfit-1.2.1.tar.gz
+[2023-05-02 19:58:06] INFO root fetch - processPackages [uform]: executing diffoscope
+[2023-05-02 19:58:06] INFO root fetch - processPackages [uform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uform-0.2.0.tar.gz tmp/uform-0.2.1.tar.gz --markdown 20230502/u/uform/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 19:58:06] INFO root fetch - processPackages [spatial-spec]: executing diffoscope
+[2023-05-02 19:58:06] INFO root fetch - processPackages [spatial-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial_spec-0.1.0.tar.gz tmp/spatial_spec-0.1.1.tar.gz --markdown 20230502/s/spatial-spec/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 19:58:07] INFO root fetch - processPackages [lmfit]: executing diffoscope
+[2023-05-02 19:58:07] INFO root fetch - processPackages [lmfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmfit-1.2.0.tar.gz tmp/lmfit-1.2.1.tar.gz --markdown 20230502/l/lmfit/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-02 19:58:07] INFO root fetch - main [MainThread]: End processing [spatial-spec]: success
+[2023-05-02 19:58:08] INFO root fetch - main [MainThread]: End processing [uform]: success
+[2023-05-02 19:58:09] INFO root fetch - main [MainThread]: End processing [lmfit]: success
+[2023-05-02 19:58:09] INFO root fetch - main [MainThread]: Store serial: [17944852]
