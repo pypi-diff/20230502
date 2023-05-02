@@ -18920,3 +18920,132 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 19:46:48] INFO root fetch - main [MainThread]: End processing [pydaa]: success
 [2023-05-02 19:47:11] INFO root fetch - main [MainThread]: End processing [egg-smol]: success
 [2023-05-02 19:47:11] INFO root fetch - main [MainThread]: Store serial: [17944747]
+[2023-05-02 19:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944747]
+[2023-05-02 19:52:21] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secure-pickle
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaaql-middleware-python
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbterd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tpucare
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blacklist-checker
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clickhouse-sqlalchemy
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cnvm
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smtpdfix
+[2023-05-02 19:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CS333-Final-Project
+[2023-05-02 19:52:21] WARNING root fetch - processPackages [secure-pickle]: Skipping, unable to determine old version
+[2023-05-02 19:52:21] INFO root fetch - processPackages [secure-pickle]: Start processing: airoboros
+[2023-05-02 19:52:21] INFO root fetch - main [MainThread]: End processing [secure-pickle] error
+[2023-05-02 19:52:21] INFO root fetch - processPackages [dbterd]: New version: [1.2.0b1] Old Version: [1.1.2]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [blacklist-checker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [tpucare]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [smtpdfix]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-02 19:52:21] WARNING root fetch - processPackages [cnvm]: Skipping, unable to determine old version
+[2023-05-02 19:52:21] INFO root fetch - processPackages [clickhouse-sqlalchemy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [cnvm]: Start processing: oloren
+[2023-05-02 19:52:21] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 19:52:21] INFO root fetch - main [MainThread]: End processing [cnvm] error
+[2023-05-02 19:52:21] INFO root fetch - processPackages [airoboros]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.0] Old Version: [4.7.3]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [oloren]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-02 19:52:21] INFO root fetch - processPackages [blacklist-checker]: Downloading https://files.pythonhosted.org/packages/89/44/521d9381eea7887289162e1e86230c31866d5e97bafaa9e8a07f5ef6e70e/blacklist-checker-0.0.3.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [clickhouse-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/6e/e7/3cb53dfd35abe5f56d7e2db01cb8b883bd93bf15ec6e339a92fa56d4d8ec/clickhouse-sqlalchemy-0.2.3.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [tpucare]: Downloading https://files.pythonhosted.org/packages/8b/81/19e3bf56d39c4c8eba4341e2926699e3c7990e108aab0da586526f496257/tpucare-0.4.0.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [smtpdfix]: Downloading https://files.pythonhosted.org/packages/00/99/f180e22a0bdc7dbb83b4079b41f74174ba8f7f9d914c746da2cc048bf80e/smtpdfix-0.4.2.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/77/7f/f4f582d03d7be144f342607074a702c13022276f451d4dc3eaf00e1babdd/airoboros-0.0.5-py3-none-any.whl
+[2023-05-02 19:52:21] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230502/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5b/8d/9e9ec2e29faf4a85a2760b07fba8204dd0b43c0364a9122212248b884eb3/jaaql_middleware_python-4.8.0-py3-none-any.whl
+[2023-05-02 19:52:21] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-0.0.4-py3-none-any.whl.zip tmp/airoboros-0.0.5-py3-none-any.whl.zip --markdown 20230502/a/airoboros/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/d3/a3/dec1a40b24c08d1c4157203500e3abf38a4b9f66c018023400c5527f81b0/oloren-0.0.5.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.7.3.tar.gz tmp/jaaql_middleware_python-4.8.0-py3-none-any.whl.zip --markdown 20230502/j/jaaql-middleware-python/4.7.3-4.8.0/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [CS333-Final-Project]: Downloading https://files.pythonhosted.org/packages/24/49/00559f44e302b4be18c594ca16a89396bd58e3adb8c19710fc99dff6d6a2/CS333-Final-Project-0.0.7.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/cd/cc/5f9ec60ae8ea3c5da0f47c8e620086a1cd5255da0f4f199387bc23ec0ba5/dbterd-1.2.0b1.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.6.tar.gz tmp/CS333-Final-Project-0.0.7.tar.gz --markdown 20230502/C/CS333-Final-Project/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [clickhouse-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/90/1b/94af72e0bd0e9ec3919fc06d117fc3a3ff6ffe41fe6cd1b19466d5272e23/clickhouse-sqlalchemy-0.2.4.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.4.tar.gz tmp/oloren-0.0.5.tar.gz --markdown 20230502/o/oloren/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [clickhouse-sqlalchemy]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [clickhouse-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-sqlalchemy-0.2.3.tar.gz tmp/clickhouse-sqlalchemy-0.2.4.tar.gz --markdown 20230502/c/clickhouse-sqlalchemy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [tpucare]: Downloading https://files.pythonhosted.org/packages/b1/32/010f3b35da4af9aebb9f61b8f19e322a25fc6cd91cd7158f67d33e4b8aa9/tpucare-0.4.1.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [blacklist-checker]: Downloading https://files.pythonhosted.org/packages/cb/9e/5027bb3c216d59e0c8ac49fff40c13ef2956f58d7bb8f447852be7234fa0/blacklist-checker-0.0.4.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.1.2.tar.gz tmp/dbterd-1.2.0b1.tar.gz --markdown 20230502/d/dbterd/1.1.2-1.2.0b1/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [smtpdfix]: Downloading https://files.pythonhosted.org/packages/5d/53/ae0e6f30af8d8d6beb196e6d5a2234eb48804be2b8afbc4c2670025fb6c4/smtpdfix-0.5.0.tar.gz
+[2023-05-02 19:52:21] INFO root fetch - processPackages [tpucare]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [blacklist-checker]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [tpucare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpucare-0.4.0.tar.gz tmp/tpucare-0.4.1.tar.gz --markdown 20230502/t/tpucare/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [blacklist-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacklist-checker-0.0.3.tar.gz tmp/blacklist-checker-0.0.4.tar.gz --markdown 20230502/b/blacklist-checker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 19:52:21] INFO root fetch - processPackages [smtpdfix]: executing diffoscope
+[2023-05-02 19:52:21] INFO root fetch - processPackages [smtpdfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtpdfix-0.4.2.tar.gz tmp/smtpdfix-0.5.0.tar.gz --markdown 20230502/s/smtpdfix/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-02 19:52:22] INFO root fetch - processPackages [airoboros]: Start processing: deeplake
+[2023-05-02 19:52:22] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [deeplake]: New version: [3.4.0] Old Version: [3.3.2]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [CS333-Final-Project]: Start processing: bussim2
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [bussim2]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [jaaql-middleware-python]: Start processing: spatial-spec
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/9a/e1/ccccde9088dd6cfc7ecdc7a6931bf6fa3d347927b25afff5577c1b4f0cdd/deeplake-3.3.2.tar.gz
+[2023-05-02 19:52:23] INFO root fetch - processPackages [bussim2]: Downloading https://files.pythonhosted.org/packages/26/48/c8f32219eb633708b5c6f993715790cc7d07cb72e494269dc7ed7bf7263d/bussim2-0.3.1.tar.gz
+[2023-05-02 19:52:23] WARNING root fetch - processPackages [bussim2]: Skipping package: exceeds size limit 23385575>=10485760
+[2023-05-02 19:52:23] INFO root fetch - processPackages [bussim2]: Start processing: CoLT5-attention
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [bussim2] error
+[2023-05-02 19:52:23] WARNING root fetch - processPackages [spatial-spec]: Skipping, unable to determine old version
+[2023-05-02 19:52:23] INFO root fetch - processPackages [spatial-spec]: Start processing: h-transport-materials
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [spatial-spec] error
+[2023-05-02 19:52:23] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/61/37/03cdbafdd6ccff34740e9b84121da6d5c1a46770686a55ea14eb909ad953/deeplake-3.4.0.tar.gz
+[2023-05-02 19:52:23] INFO root fetch - processPackages [h-transport-materials]: New version: [0.9] Old Version: [0.8.1]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-05-02 19:52:23] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.3.2.tar.gz tmp/deeplake-3.4.0.tar.gz --markdown 20230502/d/deeplake/3.3.2-3.4.0/diff.md --exclude *.pyd
+[2023-05-02 19:52:23] INFO root fetch - processPackages [smtpdfix]: Start processing: klein
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [smtpdfix]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [klein]: New version: [21.8.0] Old Version: [20.6.0]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-02 19:52:23] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.0.tar.gz tmp/CoLT5-attention-0.4.1.tar.gz --markdown 20230502/C/CoLT5-attention/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-02 19:52:23] INFO root fetch - processPackages [h-transport-materials]: Downloading https://files.pythonhosted.org/packages/b6/99/b8eaede551b058ee45fea678425c94cbacc36e9bbb61b44dd2f1993cdc27/h_transport_materials-0.8.1.tar.gz
+[2023-05-02 19:52:23] INFO root fetch - processPackages [dbterd]: Start processing: django-bootstrap-modal-forms
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [django-bootstrap-modal-forms]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [tpucare]: Start processing: maus
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [tpucare]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [klein]: Downloading https://files.pythonhosted.org/packages/83/b4/3642700d37b513ef1574e18f89aa545a9dca8986ab5d137e743623e24797/klein-20.6.0.tar.gz
+[2023-05-02 19:52:23] INFO root fetch - processPackages [django-bootstrap-modal-forms]: executing diffoscope
+[2023-05-02 19:52:23] INFO root fetch - processPackages [django-bootstrap-modal-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap-modal-forms-3.0.0.tar.gz tmp/django-bootstrap-modal-forms-3.0.1.tar.gz --markdown 20230502/d/django-bootstrap-modal-forms/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-02 19:52:23] INFO root fetch - processPackages [blacklist-checker]: Start processing: rpa-cooperativa
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [blacklist-checker]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 19:52:23] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 19:52:23] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.47] Old Version: [1.0.46]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [clickhouse-sqlalchemy]: Start processing: measure-dist
+[2023-05-02 19:52:23] INFO root fetch - main [MainThread]: End processing [clickhouse-sqlalchemy]: success
+[2023-05-02 19:52:23] INFO root fetch - processPackages [measure-dist]: New version: [1.1.0.post2] Old Version: [1.1.0.post1]
+[2023-05-02 19:52:23] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-05-02 19:52:23] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.46.tar.gz tmp/rpa_cooperativa-1.0.47.tar.gz --markdown 20230502/r/rpa-cooperativa/1.0.46-1.0.47/diff.md --exclude *.pyd
+[2023-05-02 19:52:23] INFO root fetch - processPackages [measure-dist]: executing diffoscope
+[2023-05-02 19:52:23] INFO root fetch - processPackages [measure-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/measure_dist-1.1.0.post1.tar.gz tmp/measure_dist-1.1.0.post2.tar.gz --markdown 20230502/m/measure-dist/1.1.0.post1-1.1.0.post2/diff.md --exclude *.pyd
+[2023-05-02 19:52:24] INFO root fetch - processPackages [klein]: Downloading https://files.pythonhosted.org/packages/6c/e3/829c28e1cac2430777d47043b09bc18be25945adf1b6804278a25e7f7af9/klein-21.8.0.tar.gz
+[2023-05-02 19:52:24] INFO root fetch - processPackages [klein]: executing diffoscope
+[2023-05-02 19:52:24] INFO root fetch - processPackages [klein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klein-20.6.0.tar.gz tmp/klein-21.8.0.tar.gz --markdown 20230502/k/klein/20.6.0-21.8.0/diff.md --exclude *.pyd
+[2023-05-02 19:52:24] INFO root fetch - processPackages [h-transport-materials]: Downloading https://files.pythonhosted.org/packages/df/fb/41216be6a1f41c2a43e5cc12801343a074cc19dd5a7104f0f2e5f69ef9a3/h_transport_materials-0.9.tar.gz
+[2023-05-02 19:52:25] INFO root fetch - processPackages [CoLT5-attention]: Start processing: CuellarModel-lib
+[2023-05-02 19:52:25] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-02 19:52:25] WARNING root fetch - processPackages [CuellarModel-lib]: Skipping, unable to determine old version
+[2023-05-02 19:52:25] INFO root fetch - main [MainThread]: End processing [CuellarModel-lib] error
+[2023-05-02 19:52:25] INFO root fetch - processPackages [h-transport-materials]: executing diffoscope
+[2023-05-02 19:52:25] INFO root fetch - processPackages [h-transport-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h_transport_materials-0.8.1.tar.gz tmp/h_transport_materials-0.9.tar.gz --markdown 20230502/h/h-transport-materials/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-05-02 19:52:25] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 19:52:25] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-05-02 19:52:25] INFO root fetch - main [MainThread]: End processing [django-bootstrap-modal-forms]: success
+[2023-05-02 19:52:27] INFO root fetch - main [MainThread]: End processing [klein]: success
+[2023-05-02 19:52:27] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-05-02 19:52:27] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-02 19:52:29] INFO root fetch - main [MainThread]: End processing [h-transport-materials]: success
+[2023-05-02 19:52:39] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
+[2023-05-02 19:52:54] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-02 19:52:54] INFO root fetch - main [MainThread]: Store serial: [17944818]
