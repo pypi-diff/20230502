@@ -14556,3 +14556,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 16:10:11] INFO root fetch - main [MainThread]: End processing [hkpy]: success
 [2023-05-02 16:10:14] INFO root fetch - main [MainThread]: End processing [Faker]: success
 [2023-05-02 16:10:14] INFO root fetch - main [MainThread]: Store serial: [17941694]
+[2023-05-02 16:15:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941694]
+[2023-05-02 16:15:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nexus-utilities
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: croto
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparsezoo-nightly
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparseml-nightly
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tarkov-market.py
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepsparse-nightly
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taktile-auth
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparsify-nightly
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyspmp
+[2023-05-02 16:15:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybrat
+[2023-05-02 16:15:23] INFO root fetch - processPackages [croto]: New version: [2.2] Old Version: [2.1]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pybrat]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-02 16:15:24] WARNING root fetch - processPackages [nexus-utilities]: Skipping, unable to determine old version
+[2023-05-02 16:15:24] INFO root fetch - processPackages [nexus-utilities]: Start processing: checkvsphere
+[2023-05-02 16:15:24] INFO root fetch - main [MainThread]: End processing [nexus-utilities] error
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pyspmp]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparsezoo-nightly]: New version: [1.5.0.20230502] Old Version: [1.5.0.20230420]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.5.0.20230502] Old Version: [1.5.0.20230420]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [tarkov-market.py]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [taktile-auth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [deepsparse-nightly]: New version: [1.5.0.20230502] Old Version: [1.5.0.20230420]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparsify-nightly]: New version: [1.5.0.20230502] Old Version: [1.5.0.20230420]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [checkvsphere]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pyspmp]: Downloading https://files.pythonhosted.org/packages/af/5f/b63b311624a9ce2141c1412f0a51fb98c4350419078afba060faee27b41e/pyspmp-0.1.5.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-02 16:15:24] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-2.1.tar.gz tmp/croto-2.2.tar.gz --markdown 20230502/c/croto/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pybrat]: Downloading https://files.pythonhosted.org/packages/2b/8f/b41c4d91d842e352217e0888195ca678056a1a14cb2ac9909bc9ec4357f1/pybrat-0.1.6.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [deepsparse-nightly]: Downloading https://files.pythonhosted.org/packages/c4/63/eb7d5069d09b6d05fd29f27c60d13fe4580ae99a1d5fd8aaaac7539389fc/deepsparse-nightly-1.5.0.20230420.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/e6/96/f22eb4d299c242a76257c451225834f7a7ca554293e78894bb42b7ceb167/sparsezoo_nightly-1.5.0.20230420-py3-none-any.whl
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/bc/cb/12e123ebddaa5a6a9c7ffdc6e84b25a77f7228183e0f7cfe0a36ce3bcbf6/sparseml_nightly-1.5.0.20230420-py3-none-any.whl
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/cd/cf/552430c4d516b1ddab6c8be37a56bb50aeacff5c2ac418b9c7f5750ec7bb/sparsify-nightly-1.5.0.20230420.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/8b/af/8532b9daf9d024b92bbdb1371fdffa3ea86a0ecae0d0809723afba9b391a/checkvsphere-0.2.1.tar.gz
+[2023-05-02 16:15:24] WARNING root fetch - processPackages [deepsparse-nightly]: Skipping package: exceeds size limit 41182210>=10485760
+[2023-05-02 16:15:24] INFO root fetch - processPackages [deepsparse-nightly]: Start processing: cxr-foundation
+[2023-05-02 16:15:24] INFO root fetch - main [MainThread]: End processing [deepsparse-nightly] error
+[2023-05-02 16:15:24] INFO root fetch - processPackages [tarkov-market.py]: executing diffoscope
+[2023-05-02 16:15:24] INFO root fetch - processPackages [tarkov-market.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarkov-market.py-0.9.1.tar.gz tmp/tarkov-market.py-0.9.2.tar.gz --markdown 20230502/t/tarkov-market.py/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-02 16:15:24] INFO root fetch - processPackages [taktile-auth]: executing diffoscope
+[2023-05-02 16:15:24] INFO root fetch - processPackages [taktile-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taktile-auth-0.0.8.tar.gz tmp/taktile-auth-0.0.9.tar.gz --markdown 20230502/t/taktile-auth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 16:15:24] INFO root fetch - processPackages [cxr-foundation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pybrat]: Downloading https://files.pythonhosted.org/packages/e4/07/eeaff228ff872dce3c0da7c1ceea0f9529fe4cca4b2ce4bfa84b8a71bacc/pybrat-0.1.7.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/32/a2/455415dc707316b53ee761a934a6dd5f0b1897d657ad21a94df2721e60ce/sparsezoo_nightly-1.5.0.20230502-py3-none-any.whl
+[2023-05-02 16:15:24] INFO root fetch - processPackages [checkvsphere]: Downloading https://files.pythonhosted.org/packages/a0/48/00418375b11e67b16b3841d450155b97e6988e756503ee9271d943d3ae92/checkvsphere-0.2.2.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [cxr-foundation]: Downloading https://files.pythonhosted.org/packages/85/72/6ceb346965e3ee4109728c3514e244f7cb18009c82dabcb180eeff0d9344/cxr-foundation-0.0.8.tar.gz
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pybrat]: executing diffoscope
+[2023-05-02 16:15:24] INFO root fetch - processPackages [pybrat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrat-0.1.6.tar.gz tmp/pybrat-0.1.7.tar.gz --markdown 20230502/p/pybrat/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-02 16:15:24] INFO root fetch - processPackages [checkvsphere]: executing diffoscope
+[2023-05-02 16:15:24] INFO root fetch - processPackages [checkvsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkvsphere-0.2.1.tar.gz tmp/checkvsphere-0.2.2.tar.gz --markdown 20230502/c/checkvsphere/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/f0/ac/5a59251c0261ba3e2687084e885027327f73150ff06f194f1f7139026155/sparseml_nightly-1.5.0.20230502-py3-none-any.whl
+[2023-05-02 16:15:24] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/aa/c1/64cef81893a8cb909a89b94531cf4a495f5dedc79313b80175592970c628/sparsify-nightly-1.5.0.20230502.tar.gz
+[2023-05-02 16:15:25] INFO root fetch - processPackages [pyspmp]: Downloading https://files.pythonhosted.org/packages/94/5f/89c95c7b0307204e3b797976ce81b723568915d01a479f1cbf3056c8adde/pyspmp-0.1.6.tar.gz
+[2023-05-02 16:15:25] INFO root fetch - processPackages [sparsezoo-nightly]: executing diffoscope
+[2023-05-02 16:15:25] INFO root fetch - processPackages [sparsezoo-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsezoo_nightly-1.5.0.20230420-py3-none-any.whl.zip tmp/sparsezoo_nightly-1.5.0.20230502-py3-none-any.whl.zip --markdown 20230502/s/sparsezoo-nightly/1.5.0.20230420-1.5.0.20230502/diff.md --exclude *.pyd
+[2023-05-02 16:15:25] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2023-05-02 16:15:25] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.5.0.20230420-py3-none-any.whl.zip tmp/sparseml_nightly-1.5.0.20230502-py3-none-any.whl.zip --markdown 20230502/s/sparseml-nightly/1.5.0.20230420-1.5.0.20230502/diff.md --exclude *.pyd
+[2023-05-02 16:15:25] INFO root fetch - processPackages [cxr-foundation]: Downloading https://files.pythonhosted.org/packages/d4/f8/95453e601141ddb74a959e5b497f128a5c7acb0e9af8aaafdf5128d13c61/cxr-foundation-0.0.9.tar.gz
+[2023-05-02 16:15:25] INFO root fetch - processPackages [croto]: Start processing: wagtail
+[2023-05-02 16:15:25] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-02 16:15:25] INFO root fetch - processPackages [sparsify-nightly]: executing diffoscope
+[2023-05-02 16:15:25] INFO root fetch - processPackages [sparsify-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsify-nightly-1.5.0.20230420.tar.gz tmp/sparsify-nightly-1.5.0.20230502.tar.gz --markdown 20230502/s/sparsify-nightly/1.5.0.20230420-1.5.0.20230502/diff.md --exclude *.pyd
+[2023-05-02 16:15:25] INFO root fetch - processPackages [wagtail]: New version: [5.0rc1] Old Version: [4.2rc1]
+[2023-05-02 16:15:25] INFO root fetch - processPackages [tarkov-market.py]: Start processing: mtmcxstrtg
+[2023-05-02 16:15:25] INFO root fetch - main [MainThread]: End processing [tarkov-market.py]: success
+[2023-05-02 16:15:25] INFO root fetch - processPackages [cxr-foundation]: executing diffoscope
+[2023-05-02 16:15:25] INFO root fetch - processPackages [cxr-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxr-foundation-0.0.8.tar.gz tmp/cxr-foundation-0.0.9.tar.gz --markdown 20230502/c/cxr-foundation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 16:15:25] INFO root fetch - processPackages [pyspmp]: executing diffoscope
+[2023-05-02 16:15:25] INFO root fetch - processPackages [pyspmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspmp-0.1.5.tar.gz tmp/pyspmp-0.1.6.tar.gz --markdown 20230502/p/pyspmp/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 16:15:25] INFO root fetch - processPackages [mtmcxstrtg]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-02 16:15:25] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/a0/b2/743e07801d4b0ec0815e43742ffd96a727ef611798ccb79973219fc1bda2/wagtail-4.2rc1.tar.gz
+[2023-05-02 16:15:25] INFO root fetch - processPackages [taktile-auth]: Start processing: aim-ui
+[2023-05-02 16:15:25] INFO root fetch - main [MainThread]: End processing [taktile-auth]: success
+[2023-05-02 16:15:25] INFO root fetch - processPackages [pybrat]: Start processing: wagtail
+[2023-05-02 16:15:25] INFO root fetch - main [MainThread]: End processing [pybrat]: success
+[2023-05-02 16:15:25] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 16:15:25] INFO root fetch - processPackages [mtmcxstrtg]: Downloading https://files.pythonhosted.org/packages/cb/0f/0bccdd332b37f26a4be93c67f0e080375fadf0eea03e06367588e15c3702/mtmcxstrtg-1.0.6.tar.gz
+[2023-05-02 16:15:25] INFO root fetch - processPackages [wagtail]: New version: [5.0rc1] Old Version: [4.2rc1]
+[2023-05-02 16:15:25] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-02 16:15:26] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-02 16:15:26] INFO root fetch - processPackages [aim-ui]: Start processing: opm
+[2023-05-02 16:15:26] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-02 16:15:26] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/a0/b2/743e07801d4b0ec0815e43742ffd96a727ef611798ccb79973219fc1bda2/wagtail-4.2rc1.tar.gz
+[2023-05-02 16:15:26] INFO root fetch - processPackages [opm]: New version: [2023.4] Old Version: [2022.4]
+[2023-05-02 16:15:26] INFO root fetch - processPackages [mtmcxstrtg]: Downloading https://files.pythonhosted.org/packages/4c/8b/93034060c42df0979a12c6020138ec81f20e83616f0bc68b8e17986bafb5/mtmcxstrtg-1.0.7.tar.gz
+[2023-05-02 16:15:26] INFO root fetch - processPackages [mtmcxstrtg]: executing diffoscope
+[2023-05-02 16:15:26] INFO root fetch - processPackages [mtmcxstrtg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmcxstrtg-1.0.6.tar.gz tmp/mtmcxstrtg-1.0.7.tar.gz --markdown 20230502/m/mtmcxstrtg/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-02 16:15:26] INFO root fetch - processPackages [opm]: Downloading https://files.pythonhosted.org/packages/79/e6/706015709514b4018f1787f570b769b0d7f359bd2dcf42f73b513c484ae8/opm-2022.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 16:15:26] WARNING root fetch - processPackages [opm]: Skipping package: exceeds size limit 29593357>=10485760
+[2023-05-02 16:15:26] INFO root fetch - main [MainThread]: End processing [opm] error
+[2023-05-02 16:15:26] INFO root fetch - main [MainThread]: End processing [checkvsphere]: success
+[2023-05-02 16:15:26] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/9a/2e/aa666aa6c50eb3b06e4d506781d667bf294bdfe6536b21eb002110b5d53c/wagtail-5.0rc1.tar.gz
+[2023-05-02 16:15:26] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/9a/2e/aa666aa6c50eb3b06e4d506781d667bf294bdfe6536b21eb002110b5d53c/wagtail-5.0rc1.tar.gz
+[2023-05-02 16:15:26] INFO root fetch - main [MainThread]: End processing [sparsezoo-nightly]: success
+[2023-05-02 16:15:26] INFO root fetch - main [MainThread]: End processing [cxr-foundation]: success
+[2023-05-02 16:15:27] INFO root fetch - main [MainThread]: End processing [mtmcxstrtg]: success
+[2023-05-02 16:15:27] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2023-05-02 16:15:27] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-4.2rc1.tar.gz tmp/wagtail-5.0rc1.tar.gz --markdown 20230502/w/wagtail/4.2rc1-5.0rc1/diff.md --exclude *.pyd
+[2023-05-02 16:15:27] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2023-05-02 16:15:27] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-4.2rc1.tar.gz tmp/wagtail-5.0rc1.tar.gz --markdown 20230502/w/wagtail/4.2rc1-5.0rc1/diff.md --exclude *.pyd
+[2023-05-02 16:15:27] INFO root fetch - main [MainThread]: End processing [pyspmp]: success
+[2023-05-02 16:15:29] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2023-05-02 16:15:36] INFO root fetch - main [MainThread]: End processing [sparsify-nightly]: success
+[2023-05-02 16:18:27] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
+[2023-05-02 16:18:27] INFO root fetch - main [MainThread]: End processing [wagtail] error
+[2023-05-02 16:18:27] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
+[2023-05-02 16:18:27] INFO root fetch - main [MainThread]: End processing [wagtail] error
+[2023-05-02 16:18:27] INFO root fetch - main [MainThread]: Store serial: [17941756]
