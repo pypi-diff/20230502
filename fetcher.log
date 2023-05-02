@@ -4873,3 +4873,47 @@
 [2023-05-02 04:41:19] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2023-05-02 04:41:22] INFO root fetch - main [MainThread]: End processing [tradchat]: success
 [2023-05-02 04:41:22] INFO root fetch - main [MainThread]: Store serial: [17935401]
+[2023-05-02 04:46:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935401]
+[2023-05-02 04:46:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartsheet-pydantic
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-star-rail-calendar
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai2
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phanterpwa
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slackdoor
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unisci
+[2023-05-02 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deadnews-python-template
+[2023-05-02 04:46:32] INFO root fetch - processPackages [unisci]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-02 04:46:32] WARNING root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Skipping, unable to determine old version
+[2023-05-02 04:46:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-star-rail-calendar] error
+[2023-05-02 04:46:32] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-05-02 04:46:32] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.4.4.tar.gz tmp/unisci-1.4.5.tar.gz --markdown 20230502/u/unisci/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-02 04:46:32] INFO root fetch - processPackages [smartsheet-pydantic]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-02 04:46:32] INFO root fetch - processPackages [slackdoor]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-05-02 04:46:32] INFO root fetch - processPackages [phanterpwa]: New version: [13.13.0] Old Version: [13.12.8]
+[2023-05-02 04:46:32] INFO root fetch - processPackages [openai2]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-02 04:46:32] INFO root fetch - processPackages [deadnews-python-template]: New version: [1.0.2a2] Old Version: [1.0.1]
+[2023-05-02 04:46:33] INFO root fetch - processPackages [slackdoor]: Downloading https://files.pythonhosted.org/packages/82/a3/24556cc805912e026e001c206cdee9702995f9a3e92c15c4172da3631f1d/slackdoor-0.6.7.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/1b/69/b6d4086e6408db83c8bc45d2ab8004dcea5dd46b4e07b1e94e498f9d8c1c/phanterpwa-13.12.8.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [deadnews-python-template]: Downloading https://files.pythonhosted.org/packages/e0/69/5b101284e8200c3579c37b36ba333d9ea7ba9bd3ce5d53f7f9509cfc8bde/deadnews_python_template-1.0.1.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [smartsheet-pydantic]: Downloading https://files.pythonhosted.org/packages/a6/89/22d74dc8781399921579da33a3bca43e4a8c993652a285b8febef31d3251/smartsheet-pydantic-1.4.1.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/ee/1c/c7ab3582795eb10b5995b10140e0cb906d125c81b6163737e9eb80cf94c4/openai2-1.5.3.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [smartsheet-pydantic]: executing diffoscope
+[2023-05-02 04:46:33] INFO root fetch - processPackages [smartsheet-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartsheet-pydantic-1.4.0.tar.gz tmp/smartsheet-pydantic-1.4.1.tar.gz --markdown 20230502/s/smartsheet-pydantic/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-02 04:46:33] INFO root fetch - processPackages [openai2]: executing diffoscope
+[2023-05-02 04:46:33] INFO root fetch - processPackages [openai2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai2-1.5.2.tar.gz tmp/openai2-1.5.3.tar.gz --markdown 20230502/o/openai2/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-02 04:46:33] INFO root fetch - processPackages [slackdoor]: Downloading https://files.pythonhosted.org/packages/b2/e8/48c476958df73a7a20149416a237b3aa7b8e4647c1cf32b1be9ca2024a28/slackdoor-0.6.8.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [slackdoor]: executing diffoscope
+[2023-05-02 04:46:33] INFO root fetch - processPackages [slackdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackdoor-0.6.7.tar.gz tmp/slackdoor-0.6.8.tar.gz --markdown 20230502/s/slackdoor/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-05-02 04:46:33] INFO root fetch - processPackages [deadnews-python-template]: Downloading https://files.pythonhosted.org/packages/82/e3/df5ec8516e4c5afb7db3ad61e41f4341982a682e82303db8bc1d699d2e83/deadnews_python_template-1.0.2a2.tar.gz
+[2023-05-02 04:46:33] INFO root fetch - processPackages [deadnews-python-template]: executing diffoscope
+[2023-05-02 04:46:33] INFO root fetch - processPackages [deadnews-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadnews_python_template-1.0.1.tar.gz tmp/deadnews_python_template-1.0.2a2.tar.gz --markdown 20230502/d/deadnews-python-template/1.0.1-1.0.2a2/diff.md --exclude *.pyd
+[2023-05-02 04:46:34] INFO root fetch - main [MainThread]: End processing [slackdoor]: success
+[2023-05-02 04:46:34] INFO root fetch - main [MainThread]: End processing [openai2]: success
+[2023-05-02 04:46:34] INFO root fetch - main [MainThread]: End processing [smartsheet-pydantic]: success
+[2023-05-02 04:46:34] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-05-02 04:46:34] INFO root fetch - main [MainThread]: End processing [deadnews-python-template]: success
+[2023-05-02 04:46:34] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/ae/b8/59fe1a1ba06a504f6d4b57811355146daffc47e885a9a8dd32ea82c7544c/phanterpwa-13.13.0.tar.gz
+[2023-05-02 04:46:35] INFO root fetch - processPackages [phanterpwa]: executing diffoscope
+[2023-05-02 04:46:35] INFO root fetch - processPackages [phanterpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanterpwa-13.12.8.tar.gz tmp/phanterpwa-13.13.0.tar.gz --markdown 20230502/p/phanterpwa/13.12.8-13.13.0/diff.md --exclude *.pyd
+[2023-05-02 04:46:40] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
+[2023-05-02 04:46:40] INFO root fetch - main [MainThread]: Store serial: [17935425]
