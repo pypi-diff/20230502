@@ -22421,3 +22421,90 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:41:12] INFO root fetch - main [MainThread]: End processing [h-transport-materials]: success
 [2023-05-02 22:41:17] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-02 22:41:17] INFO root fetch - main [MainThread]: Store serial: [17946852]
+[2023-05-02 22:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946852]
+[2023-05-02 22:46:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galois
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kwcoco
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-organization-python
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandarallel
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastf1
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citrine
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-sops-secrets
+[2023-05-02 22:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: magic-admin
+[2023-05-02 22:46:28] INFO root fetch - processPackages [kwcoco]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [pandarallel]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [galois]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [magic-admin]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [fastf1]: New version: [3.0.0] Old Version: [2.3.3]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [citrine]: New version: [2.8.0] Old Version: [2.2.1]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 22:46:28] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 22:46:29] INFO root fetch - processPackages [magic-admin]: Downloading https://files.pythonhosted.org/packages/30/b5/65e5b514e518aa563bd814840b562d058c89f58c10471069b4d14cd5dbce/magic-admin-0.3.2.tar.gz
+[2023-05-02 22:46:29] INFO root fetch - processPackages [kwcoco]: Downloading https://files.pythonhosted.org/packages/79/82/45edd9b6ea7e51b5c356b292dcadd35f01784537897b4b9cf51601cd603f/kwcoco-0.6.1-py3-none-any.whl
+[2023-05-02 22:46:29] INFO root fetch - processPackages [pandarallel]: Downloading https://files.pythonhosted.org/packages/bd/87/351e04dc5eb4d6c5d8ceaecf353e99e5bcda5be406457c5775263d0e5769/pandarallel-1.6.4.tar.gz
+[2023-05-02 22:46:29] INFO root fetch - processPackages [galois]: Downloading https://files.pythonhosted.org/packages/c8/ea/58fc81a73261b88375c5f7df989a39ee407c6116510382881f8012793491/galois-0.3.3.tar.gz
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230502/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/17/c5/a36210814067fc1872aed7348af29ec26ceb3c6834248a8b58d287234775/fastf1-3.0.0.tar.gz
+[2023-05-02 22:46:29] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-2.3.3.tar.gz tmp/fastf1-3.0.0.tar.gz --markdown 20230502/f/fastf1/2.3.3-3.0.0/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [pandarallel]: Downloading https://files.pythonhosted.org/packages/6e/c5/787365399cc7262e20d1d9f42ba202018c2191e6cd5b1a2a10f9161dae35/pandarallel-1.6.5.tar.gz
+[2023-05-02 22:46:29] INFO root fetch - processPackages [citrine]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [citrine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrine-2.2.1.tar.gz tmp/citrine-2.8.0.tar.gz --markdown 20230502/c/citrine/2.2.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [pandarallel]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [pandarallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandarallel-1.6.4.tar.gz tmp/pandarallel-1.6.5.tar.gz --markdown 20230502/p/pandarallel/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [magic-admin]: Downloading https://files.pythonhosted.org/packages/46/93/17a99d1b79c94bd297e5c02e7ea24a00562698dd65dbc9cfe3b22220a05e/magic-admin-0.3.3.tar.gz
+[2023-05-02 22:46:29] INFO root fetch - processPackages [kwcoco]: Downloading https://files.pythonhosted.org/packages/ed/1f/f21fb149593f2a56f94574a9f59681cc210034808a4221cc4e5367f366b0/kwcoco-0.6.2-py3-none-any.whl
+[2023-05-02 22:46:29] INFO root fetch - processPackages [kwcoco]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [kwcoco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwcoco-0.6.1-py3-none-any.whl.zip tmp/kwcoco-0.6.2-py3-none-any.whl.zip --markdown 20230502/k/kwcoco/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-02 22:46:29] INFO root fetch - processPackages [magic-admin]: executing diffoscope
+[2023-05-02 22:46:29] INFO root fetch - processPackages [magic-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magic-admin-0.3.2.tar.gz tmp/magic-admin-0.3.3.tar.gz --markdown 20230502/m/magic-admin/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 22:46:30] INFO root fetch - processPackages [galois]: Downloading https://files.pythonhosted.org/packages/33/0e/7bfc3c34d0eecf8cab1388d3a3695fcd0e0aa0315bd68cad0df660e18aa7/galois-0.3.4.tar.gz
+[2023-05-02 22:46:31] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: pythoncryptlibery
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-02 22:46:31] INFO root fetch - processPackages [pandarallel]: Start processing: jaaql-monitor
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [pandarallel]: success
+[2023-05-02 22:46:31] WARNING root fetch - processPackages [pythoncryptlibery]: Skipping, unable to determine old version
+[2023-05-02 22:46:31] INFO root fetch - processPackages [cdk-sops-secrets]: Start processing: coinmetrics-api-client
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-02 22:46:31] INFO root fetch - processPackages [pythoncryptlibery]: Start processing: django-channels-graphql-ws
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [pythoncryptlibery] error
+[2023-05-02 22:46:31] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.17] Old Version: [1.2.16]
+[2023-05-02 22:46:31] INFO root fetch - processPackages [magic-admin]: Start processing: MultivariaTeach
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [magic-admin]: success
+[2023-05-02 22:46:31] INFO root fetch - processPackages [MultivariaTeach]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 22:46:31] INFO root fetch - processPackages [coinmetrics-api-client]: New version: [2023.5.2.20] Old Version: [2023.4.7.13]
+[2023-05-02 22:46:31] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 22:46:31] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.16.tar.gz tmp/jaaql-monitor-1.2.17.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.16-1.2.17/diff.md --exclude *.pyd
+[2023-05-02 22:46:31] INFO root fetch - processPackages [django-channels-graphql-ws]: New version: [1.0.0rc3] Old Version: [1.0.0rc2]
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-02 22:46:31] INFO root fetch - processPackages [MultivariaTeach]: executing diffoscope
+[2023-05-02 22:46:31] INFO root fetch - processPackages [MultivariaTeach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultivariaTeach-0.1.0.tar.gz tmp/MultivariaTeach-0.1.1.tar.gz --markdown 20230502/M/MultivariaTeach/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 22:46:31] INFO root fetch - processPackages [galois]: executing diffoscope
+[2023-05-02 22:46:31] INFO root fetch - processPackages [galois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galois-0.3.3.tar.gz tmp/galois-0.3.4.tar.gz --markdown 20230502/g/galois/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-02 22:46:31] INFO root fetch - processPackages [coinmetrics-api-client]: Downloading https://files.pythonhosted.org/packages/41/0c/2136c231b13d6fc2a9db0c37a6754a669f2b002072980af8b3694ba1cc14/coinmetrics_api_client-2023.5.2.20.tar.gz
+[2023-05-02 22:46:31] INFO root fetch - processPackages [django-channels-graphql-ws]: Downloading https://files.pythonhosted.org/packages/03/f8/11909187d07327f3583971d4509f0b53aea67f2f85df347a2bd327ff788b/django_channels_graphql_ws-1.0.0rc3.tar.gz
+[2023-05-02 22:46:31] INFO root fetch - processPackages [coinmetrics-api-client]: executing diffoscope
+[2023-05-02 22:46:31] INFO root fetch - processPackages [coinmetrics-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinmetrics_api_client-2023.4.7.13.tar.gz tmp/coinmetrics_api_client-2023.5.2.20.tar.gz --markdown 20230502/c/coinmetrics-api-client/2023.4.7.13-2023.5.2.20/diff.md --exclude *.pyd
+[2023-05-02 22:46:31] INFO root fetch - main [MainThread]: End processing [citrine]: success
+[2023-05-02 22:46:31] INFO root fetch - processPackages [django-channels-graphql-ws]: executing diffoscope
+[2023-05-02 22:46:31] INFO root fetch - processPackages [django-channels-graphql-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_channels_graphql_ws-1.0.0rc2.tar.gz tmp/django_channels_graphql_ws-1.0.0rc3.tar.gz --markdown 20230502/d/django-channels-graphql-ws/1.0.0rc2-1.0.0rc3/diff.md --exclude *.pyd
+[2023-05-02 22:46:32] INFO root fetch - main [MainThread]: End processing [kwcoco]: success
+[2023-05-02 22:46:32] INFO root fetch - main [MainThread]: End processing [MultivariaTeach]: success
+[2023-05-02 22:46:32] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 22:46:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-02 22:46:33] INFO root fetch - main [MainThread]: End processing [django-channels-graphql-ws]: success
+[2023-05-02 22:46:34] INFO root fetch - main [MainThread]: End processing [coinmetrics-api-client]: success
+[2023-05-02 22:46:50] INFO root fetch - main [MainThread]: End processing [galois]: success
+[2023-05-02 22:46:50] INFO root fetch - main [MainThread]: Store serial: [17946906]
