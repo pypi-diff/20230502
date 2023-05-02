@@ -22553,3 +22553,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:52:06] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-05-02 22:52:14] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2023-05-02 22:52:14] INFO root fetch - main [MainThread]: Store serial: [17946928]
+[2023-05-02 22:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946928]
+[2023-05-02 22:57:23] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FakeNewsClassifier
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dokuwikidumper
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: misura
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SportsCardTool
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdmetrics
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: volttron-dnp3-outstation
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-functions
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seeq
+[2023-05-02 22:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalarztools
+[2023-05-02 22:57:23] INFO root fetch - processPackages [SportsCardTool]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-02 22:57:23] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-02 22:57:23] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: wtt02
+[2023-05-02 22:57:23] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 22:57:23] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-02 22:57:23] INFO root fetch - processPackages [misura]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [sdmetrics]: New version: [0.9.3.dev0] Old Version: [0.9.3]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [volttron-dnp3-outstation]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [azure-functions]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [wtt02]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [seeq]: New version: [61.0.1] Old Version: [60.1.1]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [homeassistant]: New version: [2023.5.0b7] Old Version: [2023.5.0b6]
+[2023-05-02 22:57:23] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2023-05-02 22:57:23] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-60.1.1.tar.gz tmp/seeq-61.0.1.tar.gz --markdown 20230502/s/seeq/60.1.1-61.0.1/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [SportsCardTool]: Downloading https://files.pythonhosted.org/packages/9a/a9/b3a178123196ed21d22d85354bfce33cf460dd978c6c45926de4471da8d4/SportsCardTool-0.2.3.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/0c/85/73996e35217a565f9697a2eb8f84ba4b8537df1bb78cd28560638a831598/homeassistant-2023.5.0b6.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/fc/df/de14eb5d62cedde489768327590ca89c63214eec101649e182dbbfcad1e2/volttron_dnp3_outstation-0.1.1a3-py3-none-any.whl
+[2023-05-02 22:57:24] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 13691188>=10485760
+[2023-05-02 22:57:24] INFO root fetch - processPackages [homeassistant]: Start processing: seeq
+[2023-05-02 22:57:24] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-05-02 22:57:24] INFO root fetch - processPackages [sdmetrics]: Downloading https://files.pythonhosted.org/packages/9c/1a/ec971ec0aaed34adeeed6ffd2bd51a5d71c20e21d996c367e1889ca8bd21/sdmetrics-0.9.3.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/e0/73/3c069a08ee8390cd7350aaf6b2809490770dfdc60583af2a8e7e4c97e9fd/misura-1.2.0.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [seeq]: New version: [61.0.1] Old Version: [60.1.1]
+[2023-05-02 22:57:24] INFO root fetch - processPackages [volttron-dnp3-outstation]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [volttron-dnp3-outstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_dnp3_outstation-0.1.1a2.tar.gz tmp/volttron_dnp3_outstation-0.1.1a3-py3-none-any.whl.zip --markdown 20230502/v/volttron-dnp3-outstation/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.1.0.tar.gz tmp/misura-1.2.0.tar.gz --markdown 20230502/m/misura/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [wtt02]: Downloading https://files.pythonhosted.org/packages/21/c9/c6ff335ade0bc1bd7eb25cad22afdc34061790b1561b178e01c4ed7e0f2b/wtt02-0.3.3.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230502/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230502/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-60.1.1.tar.gz tmp/seeq-61.0.1.tar.gz --markdown 20230502/s/seeq/60.1.1-61.0.1/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [azure-functions]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [azure-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-functions-1.8.0.tar.gz tmp/azure-functions-1.9.0.tar.gz --markdown 20230502/a/azure-functions/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [wtt02]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [wtt02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt02-0.3.2.tar.gz tmp/wtt02-0.3.3.tar.gz --markdown 20230502/w/wtt02/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [sdmetrics]: Downloading https://files.pythonhosted.org/packages/a8/db/42fbc36b72c135b4512d26097431c73a50b24f710d7fe298b9085ec79e70/sdmetrics-0.9.3.dev0.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [SportsCardTool]: Downloading https://files.pythonhosted.org/packages/7a/d4/c4e4effbe3e0cba235df84fe0a30c7b9d15107123b86df3fc870d4aeaaaa/SportsCardTool-0.2.4.tar.gz
+[2023-05-02 22:57:24] INFO root fetch - processPackages [sdmetrics]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [sdmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmetrics-0.9.3.tar.gz tmp/sdmetrics-0.9.3.dev0.tar.gz --markdown 20230502/s/sdmetrics/0.9.3-0.9.3.dev0/diff.md --exclude *.pyd
+[2023-05-02 22:57:24] INFO root fetch - processPackages [SportsCardTool]: executing diffoscope
+[2023-05-02 22:57:24] INFO root fetch - processPackages [SportsCardTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SportsCardTool-0.2.3.tar.gz tmp/SportsCardTool-0.2.4.tar.gz --markdown 20230502/S/SportsCardTool/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-02 22:57:25] INFO root fetch - processPackages [misura]: Start processing: curia
+[2023-05-02 22:57:25] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-05-02 22:57:25] INFO root fetch - processPackages [curia]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-05-02 22:57:25] INFO root fetch - processPackages [volttron-dnp3-outstation]: Start processing: test-reduction
+[2023-05-02 22:57:25] INFO root fetch - main [MainThread]: End processing [volttron-dnp3-outstation]: success
+[2023-05-02 22:57:25] WARNING root fetch - processPackages [test-reduction]: Skipping, unable to determine old version
+[2023-05-02 22:57:25] INFO root fetch - processPackages [test-reduction]: Start processing: discoger
+[2023-05-02 22:57:25] INFO root fetch - main [MainThread]: End processing [test-reduction] error
+[2023-05-02 22:57:25] INFO root fetch - processPackages [wtt02]: Start processing: fastcons
+[2023-05-02 22:57:25] INFO root fetch - main [MainThread]: End processing [wtt02]: success
+[2023-05-02 22:57:25] INFO root fetch - processPackages [discoger]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-02 22:57:25] INFO root fetch - processPackages [fastcons]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-02 22:57:25] INFO root fetch - processPackages [dokuwikidumper]: Start processing: fstflowchat
+[2023-05-02 22:57:25] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-05-02 22:57:25] INFO root fetch - processPackages [curia]: Downloading https://files.pythonhosted.org/packages/ee/16/ba575395d17111a9e51f04689949d38205b0bd7baedcaeb65b5aa27b93bc/curia-3.2.3.tar.gz
+[2023-05-02 22:57:25] INFO root fetch - processPackages [fstflowchat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 22:57:25] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/19/90/468408c570d90d54a310e5fc1bf706a4b36591cdad7b655ca25ed4809233/discoger-1.1.3.tar.gz
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fastcons]: Downloading https://files.pythonhosted.org/packages/5a/ce/69de4ad798d33ec5001aca3ea043a0d744a4b27096044dc4c5119ce4ac40/fastcons-0.3.0-cp311-cp311-musllinux_1_1_x86_64.whl
+[2023-05-02 22:57:26] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-05-02 22:57:26] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-1.1.2.tar.gz tmp/discoger-1.1.3.tar.gz --markdown 20230502/d/discoger/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-02 22:57:26] INFO root fetch - processPackages [azure-functions]: Start processing: evergreen.py
+[2023-05-02 22:57:26] INFO root fetch - main [MainThread]: End processing [azure-functions]: success
+[2023-05-02 22:57:26] INFO root fetch - processPackages [evergreen.py]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/8c/d0/2daf498904d8b8ec3b36dc168e642cecb224486ea51f644800db565cfdfc/fstflowchat-0.0.5.tar.gz
+[2023-05-02 22:57:26] INFO root fetch - processPackages [digitalarztools]: Start processing: cvm-data
+[2023-05-02 22:57:26] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-05-02 22:57:26] WARNING root fetch - processPackages [cvm-data]: Skipping, unable to determine old version
+[2023-05-02 22:57:26] INFO root fetch - processPackages [cvm-data]: Start processing: MultivariaTeach
+[2023-05-02 22:57:26] INFO root fetch - main [MainThread]: End processing [cvm-data] error
+[2023-05-02 22:57:26] INFO root fetch - processPackages [MultivariaTeach]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fstflowchat]: executing diffoscope
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fstflowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstflowchat-0.0.4.tar.gz tmp/fstflowchat-0.0.5.tar.gz --markdown 20230502/f/fstflowchat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 22:57:26] INFO root fetch - processPackages [curia]: Downloading https://files.pythonhosted.org/packages/16/80/45277007d69fd4dc098912a2ee784f1a752ed209df20f4d2deb02f1dbad4/curia-3.2.4.tar.gz
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fastcons]: Downloading https://files.pythonhosted.org/packages/ce/9e/ec164169fa5bcf920ea2383ad82b31aa9b95911ea60e0f62ea8014fcfea9/fastcons-0.4.0-cp311-cp311-musllinux_1_1_x86_64.whl
+[2023-05-02 22:57:26] INFO root fetch - processPackages [evergreen.py]: Downloading https://files.pythonhosted.org/packages/7e/39/9aa8b4af10c1b6d7f06ca8cef1799994c06387398efa9155bba156695f0f/evergreen.py-3.5.9.tar.gz
+[2023-05-02 22:57:26] INFO root fetch - processPackages [MultivariaTeach]: Downloading https://files.pythonhosted.org/packages/43/ae/fd1b2dea6246140a8396f33474d5bf9fd0f449403a24abad77e69037815d/MultivariaTeach-0.1.2.tar.gz
+[2023-05-02 22:57:26] INFO root fetch - processPackages [curia]: executing diffoscope
+[2023-05-02 22:57:26] INFO root fetch - processPackages [curia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curia-3.2.3.tar.gz tmp/curia-3.2.4.tar.gz --markdown 20230502/c/curia/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fastcons]: executing diffoscope
+[2023-05-02 22:57:26] INFO root fetch - processPackages [fastcons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcons-0.3.0-cp311-cp311-musllinux_1_1_x86_64.whl.zip tmp/fastcons-0.4.0-cp311-cp311-musllinux_1_1_x86_64.whl.zip --markdown 20230502/f/fastcons/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-02 22:57:26] INFO root fetch - processPackages [evergreen.py]: executing diffoscope
+[2023-05-02 22:57:26] INFO root fetch - processPackages [evergreen.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evergreen.py-3.5.8.tar.gz tmp/evergreen.py-3.5.9.tar.gz --markdown 20230502/e/evergreen.py/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-05-02 22:57:26] INFO root fetch - processPackages [MultivariaTeach]: executing diffoscope
+[2023-05-02 22:57:26] INFO root fetch - processPackages [MultivariaTeach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultivariaTeach-0.1.1.tar.gz tmp/MultivariaTeach-0.1.2.tar.gz --markdown 20230502/M/MultivariaTeach/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 22:57:27] INFO root fetch - processPackages [SportsCardTool]: Start processing: qwitch
+[2023-05-02 22:57:27] INFO root fetch - main [MainThread]: End processing [SportsCardTool]: success
+[2023-05-02 22:57:27] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-05-02 22:57:27] INFO root fetch - processPackages [qwitch]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-02 22:57:27] INFO root fetch - processPackages [qwitch]: Downloading https://files.pythonhosted.org/packages/23/2c/d4759f6cc309eb3311e4d933a4d764f7eb1c8747369b67ce61d23c93d98e/qwitch-2.2.0.tar.gz
+[2023-05-02 22:57:27] INFO root fetch - main [MainThread]: End processing [fstflowchat]: success
+[2023-05-02 22:57:27] INFO root fetch - processPackages [qwitch]: Downloading https://files.pythonhosted.org/packages/0b/7a/2261b0536679f776be913ecc3dc9034be3602cc87825d65ef8302ec3499b/qwitch-2.2.1-py3-none-any.whl
+[2023-05-02 22:57:27] INFO root fetch - processPackages [qwitch]: executing diffoscope
+[2023-05-02 22:57:27] INFO root fetch - processPackages [qwitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwitch-2.2.0.tar.gz tmp/qwitch-2.2.1-py3-none-any.whl.zip --markdown 20230502/q/qwitch/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-02 22:57:28] INFO root fetch - main [MainThread]: End processing [MultivariaTeach]: success
+[2023-05-02 22:57:28] INFO root fetch - main [MainThread]: End processing [fastcons]: success
+[2023-05-02 22:57:28] INFO root fetch - main [MainThread]: End processing [evergreen.py]: success
+[2023-05-02 22:57:28] INFO root fetch - main [MainThread]: End processing [qwitch]: success
+[2023-05-02 22:57:30] INFO root fetch - main [MainThread]: End processing [sdmetrics]: success
+[2023-05-02 22:57:35] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2023-05-02 22:57:35] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2023-05-02 22:57:37] INFO root fetch - main [MainThread]: End processing [curia]: success
+[2023-05-02 22:57:37] INFO root fetch - main [MainThread]: Store serial: [17946997]
