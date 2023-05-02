@@ -12968,3 +12968,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 14:46:58] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
 [2023-05-02 14:46:59] INFO root fetch - main [MainThread]: End processing [devapps]: success
 [2023-05-02 14:46:59] INFO root fetch - main [MainThread]: Store serial: [17940623]
+[2023-05-02 14:52:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940623]
+[2023-05-02 14:52:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-simple-ip-restrict
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgmini
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandas-dq
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JFIO
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydmt
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaaql-monitor
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projen
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: core-braincube-dev
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Bigsansar
+[2023-05-02 14:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-05-02 14:52:09] INFO root fetch - processPackages [Bigsansar]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [JFIO]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.15] Old Version: [1.2.14]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [django-simple-ip-restrict]: New version: [1.0.41] Old Version: [1.0.40]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pgmini]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pandas-dq]: New version: [1.9] Old Version: [1.8]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pydmt]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-05-02 14:52:09] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.8.tar.gz tmp/core-braincube-dev-0.0.9.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:52:09] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230502/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-02 14:52:09] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230502/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-02 14:52:09] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/7c/20/b07cf87080f05918a61428f0dc8e8ca8d74322dceeaea895c846d911efb0/jaaql-monitor-1.2.15.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [django-simple-ip-restrict]: Downloading https://files.pythonhosted.org/packages/ee/0d/b95a50a25fc9e367690fbef8059c01f7c4d7066deb812b68a6efe27eea18/django_simple_ip_restrict-1.0.40.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/8a/17/df693e7e9f964a8fcf4392d21f82a1a901b68f8817bf8e2022ab0cbc59c7/Bigsansar-1.3.0.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pandas-dq]: Downloading https://files.pythonhosted.org/packages/ea/89/78ecd443ca257d3a3106418e8a3ac293f9c77a3a93bd8ae6bf466d0f3d1b/pandas_dq-1.8.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/24/58/25129d033e4d113b592c8888804a05b2b4b8b2d3145e061cfd41a2203c27/JFIO-1.0.0.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.2.9.tar.gz tmp/Bigsansar-1.3.0.tar.gz --markdown 20230502/B/Bigsansar/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 14:52:09] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.14.tar.gz tmp/jaaql-monitor-1.2.15.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.14-1.2.15/diff.md --exclude *.pyd
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pgmini]: Downloading https://files.pythonhosted.org/packages/d8/1f/b11f70a2999affbbc3b43a2c96d9a638dfd517d9cc91a144e4cd5408a8f4/pgmini-0.1.6.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-0.0.2.tar.gz tmp/JFIO-1.0.0.tar.gz --markdown 20230502/J/JFIO/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/ed/ca/b506cd66b490deda2734ea26015979695a87b43f7944d57bdc4a2a71fdf9/pydmt-0.1.91.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [django-simple-ip-restrict]: Downloading https://files.pythonhosted.org/packages/9b/8a/2a1992f0a35d7c5dd58f8d8571a466595e27a40aefde2b3b0679f714b513/django_simple_ip_restrict-1.0.41.tar.gz
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pgmini]: executing diffoscope
+[2023-05-02 14:52:09] INFO root fetch - processPackages [pgmini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgmini-0.1.5.tar.gz tmp/pgmini-0.1.6.tar.gz --markdown 20230502/p/pgmini/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 14:52:10] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-05-02 14:52:10] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.90.tar.gz tmp/pydmt-0.1.91.tar.gz --markdown 20230502/p/pydmt/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-05-02 14:52:10] INFO root fetch - processPackages [pandas-dq]: Downloading https://files.pythonhosted.org/packages/f6/ca/bb9f8644f28b85d96ef767e6899f2a2137af0dc9dd30935a4b6a02007507/pandas_dq-1.9.tar.gz
+[2023-05-02 14:52:10] INFO root fetch - processPackages [pandas-dq]: executing diffoscope
+[2023-05-02 14:52:10] INFO root fetch - processPackages [pandas-dq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_dq-1.8.tar.gz tmp/pandas_dq-1.9.tar.gz --markdown 20230502/p/pandas-dq/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-02 14:52:10] INFO root fetch - processPackages [django-simple-ip-restrict]: executing diffoscope
+[2023-05-02 14:52:10] INFO root fetch - processPackages [django-simple-ip-restrict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_ip_restrict-1.0.40.tar.gz tmp/django_simple_ip_restrict-1.0.41.tar.gz --markdown 20230502/d/django-simple-ip-restrict/1.0.40-1.0.41/diff.md --exclude *.pyd
+[2023-05-02 14:52:11] INFO root fetch - processPackages [titan-iris]: Start processing: iterative-stats
+[2023-05-02 14:52:11] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-02 14:52:11] INFO root fetch - processPackages [iterative-stats]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-02 14:52:11] INFO root fetch - processPackages [core-braincube-dev]: Start processing: stmaterial
+[2023-05-02 14:52:11] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 14:52:11] INFO root fetch - processPackages [jaaql-monitor]: Start processing: TuoTuo
+[2023-05-02 14:52:11] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 14:52:11] INFO root fetch - processPackages [stmaterial]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 14:52:11] INFO root fetch - processPackages [TuoTuo]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-02 14:52:11] INFO root fetch - processPackages [iterative-stats]: Downloading https://files.pythonhosted.org/packages/48/0a/6bb93d1ff36d6ed443358637c1a83e1ac573d8d087efcc79a69e3e5b021c/iterative_stats-0.0.2.tar.gz
+[2023-05-02 14:52:11] INFO root fetch - processPackages [JFIO]: Start processing: pseudo-labeller
+[2023-05-02 14:52:11] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-02 14:52:11] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 14:52:11] INFO root fetch - processPackages [Bigsansar]: Start processing: sentry-dramatiq
+[2023-05-02 14:52:11] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-05-02 14:52:11] INFO root fetch - processPackages [stmaterial]: Downloading https://files.pythonhosted.org/packages/98/d9/160109b615fd0632dd0e698cefac82c7eedbd4d00e697d690c6fe8e88f26/stmaterial-0.0.1.tar.gz
+[2023-05-02 14:52:11] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/d4/a4/ef51ebfb41748d295089acfd147e602278652fbb14bfa957161629244cb2/TuoTuo-0.1.0.tar.gz
+[2023-05-02 14:52:11] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-05-02 14:52:11] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.6.tar.gz tmp/pseudo_labeller-0.0.7.tar.gz --markdown 20230502/p/pseudo-labeller/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 14:52:11] INFO root fetch - processPackages [django-simple-ip-restrict]: Start processing: kwantspectrum
+[2023-05-02 14:52:11] INFO root fetch - main [MainThread]: End processing [django-simple-ip-restrict]: success
+[2023-05-02 14:52:11] INFO root fetch - processPackages [iterative-stats]: Downloading https://files.pythonhosted.org/packages/5c/73/f787a93bc127aeead43475d2c6dd0d24cbd321177d4316e808c9045419c9/iterative_stats-0.0.4.tar.gz
+[2023-05-02 14:52:11] INFO root fetch - processPackages [sentry-dramatiq]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 14:52:11] INFO root fetch - processPackages [kwantspectrum]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 14:52:11] INFO root fetch - processPackages [iterative-stats]: executing diffoscope
+[2023-05-02 14:52:11] INFO root fetch - processPackages [iterative-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterative_stats-0.0.2.tar.gz tmp/iterative_stats-0.0.4.tar.gz --markdown 20230502/i/iterative-stats/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 14:52:11] INFO root fetch - processPackages [sentry-dramatiq]: Downloading https://files.pythonhosted.org/packages/ed/04/714004ea77e430cfb921e4e58c542d0dd3305c322748a9d9aaeca5d071da/sentry_dramatiq-0.3.2.tar.gz
+[2023-05-02 14:52:12] INFO root fetch - main [MainThread]: End processing [pgmini]: success
+[2023-05-02 14:52:12] INFO root fetch - processPackages [stmaterial]: Downloading https://files.pythonhosted.org/packages/0a/bb/c57c6b1fe68e7d0d7bf2426d01d5ac8db7fcb843d59f522e802321a72692/stmaterial-0.0.2.tar.gz
+[2023-05-02 14:52:12] INFO root fetch - main [MainThread]: End processing [pandas-dq]: success
+[2023-05-02 14:52:12] INFO root fetch - processPackages [kwantspectrum]: Downloading https://files.pythonhosted.org/packages/69/8b/3e9499e72076b1928015a1a8ac8915ee2ce46d3084b393d8aaddb2ad2764/kwantspectrum-0.1.0.tar.gz
+[2023-05-02 14:52:12] INFO root fetch - processPackages [sentry-dramatiq]: Downloading https://files.pythonhosted.org/packages/e3/a2/0a604154bac61c38003b21f714eaed5fc866855e98d918ba0717a756f00d/sentry_dramatiq-0.3.3.tar.gz
+[2023-05-02 14:52:12] INFO root fetch - processPackages [stmaterial]: executing diffoscope
+[2023-05-02 14:52:12] INFO root fetch - processPackages [stmaterial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stmaterial-0.0.1.tar.gz tmp/stmaterial-0.0.2.tar.gz --markdown 20230502/s/stmaterial/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 14:52:12] INFO root fetch - processPackages [sentry-dramatiq]: executing diffoscope
+[2023-05-02 14:52:12] INFO root fetch - processPackages [sentry-dramatiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_dramatiq-0.3.2.tar.gz tmp/sentry_dramatiq-0.3.3.tar.gz --markdown 20230502/s/sentry-dramatiq/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 14:52:12] INFO root fetch - processPackages [kwantspectrum]: Downloading https://files.pythonhosted.org/packages/06/5b/98c2294ce72b9876e37e35aa52765e0f34f5b38211a7959f93365158c6a3/kwantspectrum-0.1.1.tar.gz
+[2023-05-02 14:52:12] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 14:52:12] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.0.9.tar.gz tmp/TuoTuo-0.1.0.tar.gz --markdown 20230502/T/TuoTuo/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 14:52:12] INFO root fetch - processPackages [kwantspectrum]: executing diffoscope
+[2023-05-02 14:52:12] INFO root fetch - processPackages [kwantspectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwantspectrum-0.1.0.tar.gz tmp/kwantspectrum-0.1.1.tar.gz --markdown 20230502/k/kwantspectrum/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 14:52:12] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-05-02 14:52:13] INFO root fetch - main [MainThread]: End processing [iterative-stats]: success
+[2023-05-02 14:52:13] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-05-02 14:52:13] INFO root fetch - main [MainThread]: End processing [sentry-dramatiq]: success
+[2023-05-02 14:52:13] INFO root fetch - main [MainThread]: End processing [kwantspectrum]: success
+[2023-05-02 14:52:13] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 14:52:14] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-02 14:52:14] INFO root fetch - main [MainThread]: End processing [stmaterial]: success
+[2023-05-02 14:52:14] INFO root fetch - main [MainThread]: Store serial: [17940685]
