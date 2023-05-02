@@ -4275,3 +4275,93 @@
 [2023-05-02 03:44:09] ERROR root fetch - processPackages [h2o-pysparkling-scoring-2.4]: Timeout during execution of pkgdiff
 [2023-05-02 03:44:09] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-2.4] error
 [2023-05-02 03:44:09] INFO root fetch - main [MainThread]: Store serial: [17935026]
+[2023-05-02 03:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935026]
+[2023-05-02 03:49:18] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysailfish
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-eks-blueprint
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-sphinx
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive-jupyter-kernel
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dreamai
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homeassistant-stubs
+[2023-05-02 03:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-05-02 03:49:18] INFO root fetch - processPackages [pysailfish]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [cdk-eks-blueprint]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [dreamai]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.0b5] Old Version: [2023.5.0b4]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.747] Old Version: [0.0.746]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.5.0b4.tar.gz tmp/homeassistant_stubs-2023.5.0b5.tar.gz --markdown 20230502/h/homeassistant-stubs/2023.5.0b4-2023.5.0b5/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/e2/cb/219f933dc9f7ba96d95778ca639d8144df7a6bcc44473d63dbb1375525fd/pysailfish-1.0.0.tar.gz
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230502/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-02 03:49:18] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/43/ed/858ab23768841e5daa981a8fc321876db426b4188af5d445873559d5bf39/dreamai-0.6.0.tar.gz
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/f1/60/d609bd1e456f9ae0ba8d4e8e3607cfe91af5f2f621d372d81fe57e205530/nbdev-apl-0.0.747.tar.gz
+[2023-05-02 03:49:18] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-02 03:49:18] INFO root fetch - processPackages [proactive]: Start processing: edc-pdf-reports
+[2023-05-02 03:49:18] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-02 03:49:18] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.5.0.tar.gz tmp/dreamai-0.6.0.tar.gz --markdown 20230502/d/dreamai/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [cdk-eks-blueprint]: Downloading https://files.pythonhosted.org/packages/17/ac/d9333e0ea5e4e9beeb349deb8408a39b58f50f012249862959a7dac3ec2c/cdk-eks-blueprint-0.0.7.tar.gz
+[2023-05-02 03:49:18] INFO root fetch - processPackages [cdk-eks-blueprint]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [cdk-eks-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-blueprint-0.0.6.tar.gz tmp/cdk-eks-blueprint-0.0.7.tar.gz --markdown 20230502/c/cdk-eks-blueprint/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230502/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [pysailfish]: Downloading https://files.pythonhosted.org/packages/2f/a7/5dfea50aeeeb289f43803be6fbc2bc4cefb6c1763eaf6ddd006dc5cfff1c/pysailfish-1.1.0.tar.gz
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.746.tar.gz tmp/nbdev-apl-0.0.747.tar.gz --markdown 20230502/n/nbdev-apl/0.0.746-0.0.747/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [edc-pdf-reports]: New version: [0.3.9] Old Version: [0.3.10]
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230502/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230502/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:49:18] INFO root fetch - processPackages [pysailfish]: executing diffoscope
+[2023-05-02 03:49:18] INFO root fetch - processPackages [pysailfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysailfish-1.0.0.tar.gz tmp/pysailfish-1.1.0.tar.gz --markdown 20230502/p/pysailfish/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 03:49:19] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/64/d3/d68792c137d76a5b32720175a910dba9c54befb13175c0065071d7fae7e2/edc-pdf-reports-0.3.10.tar.gz
+[2023-05-02 03:49:19] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/f6/f9/ff5521ba26ca2c42105ff66e6fdbe57e998921d1287d264e0a6754ede2fe/edc-pdf-reports-0.3.9.tar.gz
+[2023-05-02 03:49:19] INFO root fetch - processPackages [edc-pdf-reports]: executing diffoscope
+[2023-05-02 03:49:19] INFO root fetch - processPackages [edc-pdf-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pdf-reports-0.3.10.tar.gz tmp/edc-pdf-reports-0.3.9.tar.gz --markdown 20230502/e/edc-pdf-reports/0.3.10-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 03:49:20] INFO root fetch - processPackages [cdk-eks-blueprint]: Start processing: edc-consent
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [cdk-eks-blueprint]: success
+[2023-05-02 03:49:20] INFO root fetch - processPackages [edc-consent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 03:49:20] INFO root fetch - processPackages [nbdev-apl]: Start processing: sidetrek
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-02 03:49:20] INFO root fetch - processPackages [sidetrek]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 03:49:20] INFO root fetch - processPackages [nbdev-scipy]: Start processing: edc-identifier
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-02 03:49:20] INFO root fetch - processPackages [edc-identifier]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 03:49:20] INFO root fetch - processPackages [edc-consent]: executing diffoscope
+[2023-05-02 03:49:20] INFO root fetch - processPackages [edc-consent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_consent-0.3.8-py3-none-any.whl.zip tmp/edc_consent-0.3.9-py3-none-any.whl.zip --markdown 20230502/e/edc-consent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 03:49:20] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-05-02 03:49:20] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.8.tar.gz tmp/sidetrek-0.0.9.tar.gz --markdown 20230502/s/sidetrek/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 03:49:20] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: fenics-smart
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-02 03:49:20] INFO root fetch - processPackages [edc-identifier]: executing diffoscope
+[2023-05-02 03:49:20] INFO root fetch - processPackages [edc-identifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_identifier-0.3.8-py3-none-any.whl.zip tmp/edc-identifier-0.3.9.tar.gz --markdown 20230502/e/edc-identifier/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 03:49:20] INFO root fetch - processPackages [dreamai]: Start processing: bugbug
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [pysailfish]: success
+[2023-05-02 03:49:20] WARNING root fetch - processPackages [fenics-smart]: Skipping, unable to determine old version
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [fenics-smart] error
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-02 03:49:20] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 03:49:20] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-02 03:49:20] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2023-05-02 03:49:21] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2023-05-02 03:49:21] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-05-02 03:49:21] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230502/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 03:49:21] INFO root fetch - main [MainThread]: End processing [edc-identifier]: success
+[2023-05-02 03:49:21] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-05-02 03:49:21] INFO root fetch - main [MainThread]: End processing [edc-pdf-reports]: success
+[2023-05-02 03:49:21] INFO root fetch - main [MainThread]: End processing [edc-consent]: success
+[2023-05-02 03:49:22] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-05-02 03:50:08] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-05-02 03:50:08] INFO root fetch - main [MainThread]: Store serial: [17935077]
