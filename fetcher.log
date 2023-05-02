@@ -5505,3 +5505,60 @@
 [2023-05-02 06:03:30] INFO root fetch - main [MainThread]: End processing [mpy-cross]: success
 [2023-05-02 06:03:32] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-05-02 06:03:32] INFO root fetch - main [MainThread]: Store serial: [17935897]
+[2023-05-02 06:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935897]
+[2023-05-02 06:08:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-starrail-calendar
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cikuu
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eyes-soatra
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypdfium2
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crossmark-jotform-api
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shell-whisperer
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wistiapy
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crossmark-jotform-api
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uintel
+[2023-05-02 06:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: log10-io
+[2023-05-02 06:08:42] WARNING root fetch - processPackages [nonebot-plugin-starrail-calendar]: Skipping, unable to determine old version
+[2023-05-02 06:08:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-starrail-calendar] error
+[2023-05-02 06:08:42] INFO root fetch - processPackages [cikuu]: New version: [2022.7.9] Old Version: [2022.7.8]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [shell-whisperer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [cikuu]: executing diffoscope
+[2023-05-02 06:08:42] INFO root fetch - processPackages [cikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cikuu-2022.7.8.tar.gz tmp/cikuu-2022.7.9.tar.gz --markdown 20230502/c/cikuu/2022.7.8-2022.7.9/diff.md --exclude *.pyd
+[2023-05-02 06:08:42] INFO root fetch - processPackages [shell-whisperer]: executing diffoscope
+[2023-05-02 06:08:42] INFO root fetch - processPackages [shell-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whisperer-0.1.1.tar.gz tmp/shell_whisperer-0.1.2.tar.gz --markdown 20230502/s/shell-whisperer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 06:08:42] ERROR root fetch - processPackages [eyes-soatra]: Unable to get metadata: No such project 'eyes-soatra'
+[2023-05-02 06:08:42] INFO root fetch - processPackages [wistiapy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 06:08:42] INFO root fetch - main [MainThread]: End processing [eyes-soatra] error
+[2023-05-02 06:08:42] INFO root fetch - processPackages [uintel]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [log10-io]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/69/98/77170c8727ad957cc8db70c534d4a651405b39056a1017ffeec74e4ddaa1/crossmark-jotform-api-0.2.2.tar.gz
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/69/98/77170c8727ad957cc8db70c534d4a651405b39056a1017ffeec74e4ddaa1/crossmark-jotform-api-0.2.2.tar.gz
+[2023-05-02 06:08:42] INFO root fetch - processPackages [wistiapy]: Downloading https://files.pythonhosted.org/packages/58/91/91b0ab1909f4eab00e629ec0f10fa353ef40ce8c9defe1c3a01c1f2e75f8/wistiapy-0.0.8.tar.gz
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.2.0.tar.gz tmp/crossmark-jotform-api-0.2.2.tar.gz --markdown 20230502/c/crossmark-jotform-api/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 06:08:42] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.2.0.tar.gz tmp/crossmark-jotform-api-0.2.2.tar.gz --markdown 20230502/c/crossmark-jotform-api/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 06:08:42] INFO root fetch - processPackages [pypdfium2]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-02 06:08:42] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/3d/10/e2c31a969551f8739f04d1caea1776e30a5d34d3cbb5f28a2f63f228a734/uintel-0.3.8.tar.gz
+[2023-05-02 06:08:42] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/0d/5b/2a9cb71101a5f50be040a2c3dcea4bed81b5b46a609643454e5e6e6e5389/log10_io-0.0.5-py3-none-any.whl
+[2023-05-02 06:08:42] INFO root fetch - processPackages [wistiapy]: Downloading https://files.pythonhosted.org/packages/cf/9d/8591a4010f8933f26ed4d8e4494234884e4a3b5b6ff6217fad0ec5badc47/wistiapy-0.0.9.tar.gz
+[2023-05-02 06:08:42] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2023-05-02 06:08:42] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.0.4.tar.gz tmp/log10_io-0.0.5-py3-none-any.whl.zip --markdown 20230502/l/log10-io/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 06:08:42] INFO root fetch - processPackages [pypdfium2]: Downloading https://files.pythonhosted.org/packages/4a/d0/bca4a5d0b0d7cc464934bc5eaf83745d8cd5801cebbff4195e3149cb9a2b/pypdfium2-4.9.0.tar.gz
+[2023-05-02 06:08:42] INFO root fetch - processPackages [wistiapy]: executing diffoscope
+[2023-05-02 06:08:42] INFO root fetch - processPackages [wistiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wistiapy-0.0.8.tar.gz tmp/wistiapy-0.0.9.tar.gz --markdown 20230502/w/wistiapy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 06:08:43] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/a0/5c/0d54c13b14cbe4945d5e15a0e23afc8e445ed191c43759a6c09f89f3154c/uintel-0.3.9.tar.gz
+[2023-05-02 06:08:43] INFO root fetch - processPackages [pypdfium2]: executing diffoscope
+[2023-05-02 06:08:43] INFO root fetch - processPackages [pypdfium2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfium2-4.8.0.tar.gz tmp/pypdfium2-4.9.0.tar.gz --markdown 20230502/p/pypdfium2/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-02 06:08:43] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-05-02 06:08:43] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.3.8.tar.gz tmp/uintel-0.3.9.tar.gz --markdown 20230502/u/uintel/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 06:08:43] INFO root fetch - main [MainThread]: End processing [shell-whisperer]: success
+[2023-05-02 06:08:43] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-05-02 06:08:43] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-05-02 06:08:44] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2023-05-02 06:08:44] INFO root fetch - main [MainThread]: End processing [wistiapy]: success
+[2023-05-02 06:08:44] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-05-02 06:08:44] INFO root fetch - main [MainThread]: End processing [pypdfium2]: success
+[2023-05-02 06:08:47] INFO root fetch - main [MainThread]: End processing [cikuu]: success
+[2023-05-02 06:08:47] INFO root fetch - main [MainThread]: Store serial: [17935935]
