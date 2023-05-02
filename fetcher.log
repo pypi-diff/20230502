@@ -6719,3 +6719,83 @@
 [2023-05-02 07:58:39] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-05-02 07:58:48] INFO root fetch - main [MainThread]: End processing [pyglet]: success
 [2023-05-02 07:58:48] INFO root fetch - main [MainThread]: Store serial: [17936697]
+[2023-05-02 08:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936697]
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylib-030
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylib-046
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mylib-516
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ape-ai
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mylib001
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: valmi-connector-lib
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mylib-052
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databricks-connect
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mylib-015
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twb-project
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-046]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-046]: Start processing: mylib-020
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-046] error
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-516]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-516]: Start processing: databricks-connect
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-516] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib001]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ape-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib001]: Start processing: mylib-054
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-052]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib001] error
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-015]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-052]: Start processing: databricks-connect
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-030]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-052] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.37] Old Version: [9.1.34]
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-015]: Start processing: deepdriver
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-030]: Start processing: act-scio
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-015] error
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-030] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.37] Old Version: [9.1.34]
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-020]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-020]: Start processing: mylib-027
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-020] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [twb-project]: New version: [0.8.0] Old Version: [0.7.3a9]
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-054]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - processPackages [mylib-054]: Start processing: Products.BTreeFolder2
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-054] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [act-scio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:03:59] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.37] Old Version: [9.1.34]
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [mylib-027]: Skipping, unable to determine old version
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [mylib-027] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 08:03:59] INFO root fetch - processPackages [Products.BTreeFolder2]: New version: [5.1] Old Version: [5.0]
+[2023-05-02 08:03:59] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-02 08:03:59] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230502/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 08:03:59] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/52/27/aca386fa939b2ee24ebc7cfb6e470f98fb87f4f4641254b978f6257c787f/databricks-connect-9.1.34.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ape-ai]: Downloading https://files.pythonhosted.org/packages/99/b6/5b26b9722b1294cc47a833da2eab45d2ec54b7c3426a0444518bbfe0325e/ape-ai-0.1.2.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/52/27/aca386fa939b2ee24ebc7cfb6e470f98fb87f4f4641254b978f6257c787f/databricks-connect-9.1.34.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/52/27/aca386fa939b2ee24ebc7cfb6e470f98fb87f4f4641254b978f6257c787f/databricks-connect-9.1.34.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/57/80/c80eddcfca6d946b9c7d086f93f81fd229dbe11f4cd665f3f9463c1b948e/twb_project-0.7.3a9.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [Products.BTreeFolder2]: Downloading https://files.pythonhosted.org/packages/15/4c/15e48b79fdef3337e8fd2a453ad9a056b0c8c33317ff5d8d7abef5466c94/Products.BTreeFolder2-5.0.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ape-ai]: executing diffoscope
+[2023-05-02 08:03:59] INFO root fetch - processPackages [ape-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-ai-0.1.1.tar.gz tmp/ape-ai-0.1.2.tar.gz --markdown 20230502/a/ape-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 08:03:59] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-05-02 08:03:59] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230502/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257049564>=10485760
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257049564>=10485760
+[2023-05-02 08:03:59] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257049564>=10485760
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-05-02 08:03:59] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-05-02 08:03:59] INFO root fetch - processPackages [act-scio]: executing diffoscope
+[2023-05-02 08:03:59] INFO root fetch - processPackages [act-scio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-scio-0.0.8.tar.gz tmp/act-scio-0.0.9.tar.gz --markdown 20230502/a/act-scio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:03:59] INFO root fetch - processPackages [twb-project]: Downloading https://files.pythonhosted.org/packages/f0/5a/3faf83a5fa38ede04dfa606a6b411658dd74480a85c4ebd3fe40e2c9be99/twb_project-0.8.0.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [Products.BTreeFolder2]: Downloading https://files.pythonhosted.org/packages/33/3c/04213c526ab419f58b774535190a79d7ccafac080851ec194d848f49a25f/Products.BTreeFolder2-5.1.tar.gz
+[2023-05-02 08:03:59] INFO root fetch - processPackages [Products.BTreeFolder2]: executing diffoscope
+[2023-05-02 08:03:59] INFO root fetch - processPackages [Products.BTreeFolder2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.BTreeFolder2-5.0.tar.gz tmp/Products.BTreeFolder2-5.1.tar.gz --markdown 20230502/P/Products.BTreeFolder2/5.0-5.1/diff.md --exclude *.pyd
+[2023-05-02 08:03:59] INFO root fetch - processPackages [twb-project]: executing diffoscope
+[2023-05-02 08:03:59] INFO root fetch - processPackages [twb-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twb_project-0.7.3a9.tar.gz tmp/twb_project-0.8.0.tar.gz --markdown 20230502/t/twb-project/0.7.3a9-0.8.0/diff.md --exclude *.pyd
+[2023-05-02 08:04:00] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-02 08:04:00] INFO root fetch - main [MainThread]: End processing [ape-ai]: success
+[2023-05-02 08:04:00] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-05-02 08:04:01] INFO root fetch - main [MainThread]: End processing [Products.BTreeFolder2]: success
+[2023-05-02 08:04:01] INFO root fetch - main [MainThread]: End processing [twb-project]: success
+[2023-05-02 08:04:01] INFO root fetch - main [MainThread]: End processing [act-scio]: success
+[2023-05-02 08:04:01] INFO root fetch - main [MainThread]: Store serial: [17936760]
