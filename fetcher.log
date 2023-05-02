@@ -20393,3 +20393,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 21:08:33] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
 [2023-05-02 21:08:36] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
 [2023-05-02 21:08:36] INFO root fetch - main [MainThread]: Store serial: [17945785]
+[2023-05-02 21:13:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945785]
+[2023-05-02 21:13:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phc-ingestion
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: overloaded-iterables
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylibsql
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymicro365
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: overloaded-iterables
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elbow
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: expflow
+[2023-05-02 21:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystv
+[2023-05-02 21:13:46] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.27] Old Version: [0.7.25]
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pymicro365]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-02 21:13:46] INFO root fetch - processPackages [elbow]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2023-05-02 21:13:46] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 21:13:46] WARNING root fetch - processPackages [pylibsql]: Skipping, unable to determine old version
+[2023-05-02 21:13:46] INFO root fetch - main [MainThread]: End processing [pylibsql] error
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pystv]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-02 21:13:46] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.27] Old Version: [0.7.25]
+[2023-05-02 21:13:46] INFO root fetch - processPackages [expflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 21:13:46] INFO root fetch - processPackages [elbow]: Downloading https://files.pythonhosted.org/packages/39/5f/fd964dc435a0dba379fff7b509772a42c30bdf5d38e44ac8684d74069d3c/elbow-0.1.0a0.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pystv]: executing diffoscope
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pystv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystv-0.8.1.tar.gz tmp/pystv-0.9.0.tar.gz --markdown 20230502/p/pystv/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 21:13:46] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/7c/50/dddee5ed9f37b0a223816dbcded72773737dfa9dda1c606fdb575b27a1f8/phc-ingestion-0.3.8.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pymicro365]: Downloading https://files.pythonhosted.org/packages/7d/68/234b55b84c4dd9a6ac663b0af58ae789dda81a489559bc88b661bc1d698f/pymicro365-0.0.6.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/54/6a/0cb764d49a9035672a7e0fa1fdbb6e1f5abb02325b2f3999f8989b329805/overloaded-iterables-0.7.25.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/54/6a/0cb764d49a9035672a7e0fa1fdbb6e1f5abb02325b2f3999f8989b329805/overloaded-iterables-0.7.25.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pymicro365]: executing diffoscope
+[2023-05-02 21:13:46] INFO root fetch - processPackages [pymicro365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymicro365-0.0.5.tar.gz tmp/pymicro365-0.0.6.tar.gz --markdown 20230502/p/pymicro365/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-02 21:13:46] WARNING root fetch - processPackages [phc-ingestion]: Skipping package: exceeds size limit 55817200>=10485760
+[2023-05-02 21:13:46] INFO root fetch - main [MainThread]: End processing [phc-ingestion] error
+[2023-05-02 21:13:46] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/aa/32/d4cec77315fabef41b3c74750b1f9997c05aadefccd777c91af682cd9e96/overloaded-iterables-0.7.27.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/aa/32/d4cec77315fabef41b3c74750b1f9997c05aadefccd777c91af682cd9e96/overloaded-iterables-0.7.27.tar.gz
+[2023-05-02 21:13:46] INFO root fetch - processPackages [elbow]: Downloading https://files.pythonhosted.org/packages/23/9d/6f24e56b4c912bd03b382c463c5507b90cd7c4e1f32030876463445270d3/elbow-0.1.0a1.tar.gz
+[2023-05-02 21:13:47] INFO root fetch - processPackages [expflow]: executing diffoscope
+[2023-05-02 21:13:47] INFO root fetch - processPackages [expflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expflow-0.1.8.tar.gz tmp/expflow-0.1.9.tar.gz --markdown 20230502/e/expflow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 21:13:47] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-02 21:13:47] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.25.tar.gz tmp/overloaded-iterables-0.7.27.tar.gz --markdown 20230502/o/overloaded-iterables/0.7.25-0.7.27/diff.md --exclude *.pyd
+[2023-05-02 21:13:47] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-02 21:13:47] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.25.tar.gz tmp/overloaded-iterables-0.7.27.tar.gz --markdown 20230502/o/overloaded-iterables/0.7.25-0.7.27/diff.md --exclude *.pyd
+[2023-05-02 21:13:47] INFO root fetch - processPackages [elbow]: executing diffoscope
+[2023-05-02 21:13:47] INFO root fetch - processPackages [elbow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elbow-0.1.0a0.tar.gz tmp/elbow-0.1.0a1.tar.gz --markdown 20230502/e/elbow/0.1.0a0-0.1.0a1/diff.md --exclude *.pyd
+[2023-05-02 21:13:47] INFO root fetch - main [MainThread]: End processing [pymicro365]: success
+[2023-05-02 21:13:47] INFO root fetch - main [MainThread]: End processing [pystv]: success
+[2023-05-02 21:13:48] INFO root fetch - main [MainThread]: End processing [expflow]: success
+[2023-05-02 21:13:48] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-02 21:13:48] INFO root fetch - main [MainThread]: End processing [elbow]: success
+[2023-05-02 21:13:48] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-02 21:13:48] INFO root fetch - main [MainThread]: Store serial: [17945808]
