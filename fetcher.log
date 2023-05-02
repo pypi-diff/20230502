@@ -5746,3 +5746,38 @@
 [2023-05-02 06:30:10] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-05-02 06:30:12] INFO root fetch - main [MainThread]: End processing [sentencepiece]: success
 [2023-05-02 06:30:12] INFO root fetch - main [MainThread]: Store serial: [17936140]
+[2023-05-02 06:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936140]
+[2023-05-02 06:35:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 06:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyakamai
+[2023-05-02 06:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyOblv
+[2023-05-02 06:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-dataset
+[2023-05-02 06:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mppsolar
+[2023-05-02 06:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: angola
+[2023-05-02 06:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ahk
+[2023-05-02 06:35:23] INFO root fetch - processPackages [tensorflow-dataset]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 06:35:23] INFO root fetch - processPackages [mppsolar]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-05-02 06:35:23] INFO root fetch - processPackages [tensorflow-dataset]: executing diffoscope
+[2023-05-02 06:35:23] INFO root fetch - processPackages [tensorflow-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_dataset-0.4.1.tar.gz tmp/tensorflow-dataset-0.4.2.tar.gz --markdown 20230502/t/tensorflow-dataset/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-02 06:35:24] INFO root fetch - processPackages [mppsolar]: executing diffoscope
+[2023-05-02 06:35:24] INFO root fetch - processPackages [mppsolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppsolar-0.9.1.tar.gz tmp/mppsolar-0.9.12.tar.gz --markdown 20230502/m/mppsolar/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-05-02 06:35:24] WARNING root fetch - processPackages [pyakamai]: Skipping, unable to determine old version
+[2023-05-02 06:35:24] INFO root fetch - main [MainThread]: End processing [pyakamai] error
+[2023-05-02 06:35:24] INFO root fetch - processPackages [PyOblv]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 06:35:24] INFO root fetch - processPackages [ahk]: New version: [1.0.0b0] Old Version: [0.9.0]
+[2023-05-02 06:35:24] INFO root fetch - processPackages [angola]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-05-02 06:35:24] INFO root fetch - processPackages [PyOblv]: Downloading https://files.pythonhosted.org/packages/9c/42/c4d5e60df173cf3a9b091eb0f2e73cea127159ca85e6e9574eaab5a9f977/PyOblv-0.2.0.tar.gz
+[2023-05-02 06:35:24] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/e2/0c/521329fef5840adca33e1ea0bfd8a84654170c2bcaf5c12651161d234c83/ahk-0.9.0.tar.gz
+[2023-05-02 06:35:24] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-05-02 06:35:24] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.10.8.tar.gz tmp/angola-0.10.9.tar.gz --markdown 20230502/a/angola/0.10.8-0.10.9/diff.md --exclude *.pyd
+[2023-05-02 06:35:24] INFO root fetch - processPackages [PyOblv]: Downloading https://files.pythonhosted.org/packages/a5/8e/8be7ec3d20d5dc319bc2b8d80bf3e570f1c4ca41d07e88e5c8359422dc93/PyOblv-0.2.1.tar.gz
+[2023-05-02 06:35:24] INFO root fetch - processPackages [PyOblv]: executing diffoscope
+[2023-05-02 06:35:24] INFO root fetch - processPackages [PyOblv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOblv-0.2.0.tar.gz tmp/PyOblv-0.2.1.tar.gz --markdown 20230502/P/PyOblv/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 06:35:24] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/83/d6/03d4e975d334be4789f40d12276ee0354bfe48e80378114203b4b3e9ee85/ahk-1.0.0b0.tar.gz
+[2023-05-02 06:35:24] INFO root fetch - main [MainThread]: End processing [tensorflow-dataset]: success
+[2023-05-02 06:35:25] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2023-05-02 06:35:25] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-0.9.0.tar.gz tmp/ahk-1.0.0b0.tar.gz --markdown 20230502/a/ahk/0.9.0-1.0.0b0/diff.md --exclude *.pyd
+[2023-05-02 06:35:25] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
+[2023-05-02 06:35:25] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-05-02 06:35:26] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2023-05-02 06:35:27] INFO root fetch - main [MainThread]: End processing [PyOblv]: success
+[2023-05-02 06:35:27] INFO root fetch - main [MainThread]: Store serial: [17936163]
