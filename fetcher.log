@@ -1293,3 +1293,93 @@
 [2023-05-02 02:02:50] INFO root fetch - main [MainThread]: End processing [xdatasets]: success
 [2023-05-02 02:02:51] INFO root fetch - main [MainThread]: End processing [FreeClimb]: success
 [2023-05-02 02:02:51] INFO root fetch - main [MainThread]: Store serial: [17933200]
+[2023-05-02 02:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933200]
+[2023-05-02 02:08:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigquerydave-package
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guilded.py
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-lineage-viewer
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpyt
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlitedave-package
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: betterconfigs
+[2023-05-02 02:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TheSilent
+[2023-05-02 02:08:00] INFO root fetch - processPackages [dbt-lineage-viewer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 02:08:00] WARNING root fetch - processPackages [bigquerydave-package]: Skipping, unable to determine old version
+[2023-05-02 02:08:00] INFO root fetch - processPackages [bigquerydave-package]: Start processing: schemawizard-package
+[2023-05-02 02:08:00] INFO root fetch - main [MainThread]: End processing [bigquerydave-package] error
+[2023-05-02 02:08:00] INFO root fetch - processPackages [betterconfigs]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [gpyt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [guilded.py]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [sqlitedave-package]: New version: [1.3.0] Old Version: [1.2.6]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [schemawizard-package]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682899403] Old Version: [1682812997]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-02 02:08:00] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/6e/80/3b8f3bcf362923bf4f56102871d97150c8b145e5e3ddbbd400fe86c846ea/betterconfigs-0.8.2.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230502/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [schemawizard-package]: Downloading https://files.pythonhosted.org/packages/f7/c4/4d7a5b269ec0873332d9099e25e48d6a046661e10765f0dce303864ac37f/schemawizard_package-2.4.0.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/97/06/2bbca6aae8ea2b798d2a5f0135f50d17b157dbe8a95c181a933e6e7a76ee/gpyt-0.1.2.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [guilded.py]: Downloading https://files.pythonhosted.org/packages/bc/bf/7a5cb802b5d82d315393697825e0b22a6472589636679c67fbec53d673ce/guilded.py-1.7.0.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [dbt-lineage-viewer]: Downloading https://files.pythonhosted.org/packages/03/d4/17ab7c3da2ba6878e9acc746390f4c8a4bf890946caff8e63d7144ed6dcd/dbt_lineage_viewer-1.0.2.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [sqlitedave-package]: Downloading https://files.pythonhosted.org/packages/38/db/4b572dc020c34b82119f73134fad944cd02625f29b0dc4d03de6565a2e2d/sqlitedave_package-1.2.6.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230502/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/46/a9/3c96109e773a262d75eeab274fb30c42be8b14828b5ee69368648ed699a8/torchdatasets-nightly-1682899403.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [dbt-lineage-viewer]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [dbt-lineage-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_lineage_viewer-1.0.1.tar.gz tmp/dbt_lineage_viewer-1.0.2.tar.gz --markdown 20230502/d/dbt-lineage-viewer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682812997.tar.gz tmp/torchdatasets-nightly-1682899403.tar.gz --markdown 20230502/t/torchdatasets-nightly/1682812997-1682899403/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [schemawizard-package]: Downloading https://files.pythonhosted.org/packages/7e/24/e9ecf82d1bbba770392007e9f300c7b4d4ba86c21354076dc0d470c6b831/schemawizard_package-2.5.0.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/85/76/612b3ff663de41977cca1e30bc1156495b00b10aef2c173b711d53e8dc10/gpyt-0.1.3.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/46/a4/22f0bc310112d1f314fcf77e2d813a1a8ee545f5079dfdbb7352180f01aa/betterconfigs-0.8.3.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230502/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.1.2.tar.gz tmp/gpyt-0.1.3.tar.gz --markdown 20230502/g/gpyt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [guilded.py]: Downloading https://files.pythonhosted.org/packages/40/02/9802f172f8dbbd0264927df8105517742c9712988f0c314f536bc279b310/guilded.py-1.8.0.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [schemawizard-package]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [schemawizard-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemawizard_package-2.4.0.tar.gz tmp/schemawizard_package-2.5.0.tar.gz --markdown 20230502/s/schemawizard-package/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [betterconfigs]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [betterconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterconfigs-0.8.2.tar.gz tmp/betterconfigs-0.8.3.tar.gz --markdown 20230502/b/betterconfigs/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [sqlitedave-package]: Downloading https://files.pythonhosted.org/packages/e3/f0/5f31316b6e73d526b02292e08fbb9e354fbc407bce0fe8bd8bda810decbc/sqlitedave_package-1.3.0.tar.gz
+[2023-05-02 02:08:00] INFO root fetch - processPackages [guilded.py]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [guilded.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guilded.py-1.7.0.tar.gz tmp/guilded.py-1.8.0.tar.gz --markdown 20230502/g/guilded.py/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-05-02 02:08:00] INFO root fetch - processPackages [sqlitedave-package]: executing diffoscope
+[2023-05-02 02:08:00] INFO root fetch - processPackages [sqlitedave-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlitedave_package-1.2.6.tar.gz tmp/sqlitedave_package-1.3.0.tar.gz --markdown 20230502/s/sqlitedave-package/1.2.6-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 02:08:01] INFO root fetch - processPackages [dbt-lineage-viewer]: Start processing: schemawizard-package
+[2023-05-02 02:08:01] INFO root fetch - main [MainThread]: End processing [dbt-lineage-viewer]: success
+[2023-05-02 02:08:02] INFO root fetch - processPackages [schemawizard-package]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-02 02:08:02] INFO root fetch - processPackages [gpyt]: Start processing: jaxutils-nightly
+[2023-05-02 02:08:02] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-02 02:08:02] INFO root fetch - processPackages [torchdatasets-nightly]: Start processing: schemawizard-package
+[2023-05-02 02:08:02] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-02 02:08:02] INFO root fetch - processPackages [schemawizard-package]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-02 02:08:02] INFO root fetch - processPackages [schemawizard-package]: executing diffoscope
+[2023-05-02 02:08:02] INFO root fetch - processPackages [schemawizard-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemawizard_package-2.4.0.tar.gz tmp/schemawizard_package-2.5.0.tar.gz --markdown 20230502/s/schemawizard-package/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-02 02:08:02] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: torchlayers-nightly
+[2023-05-02 02:08:02] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-02 02:08:02] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230502] Old Version: [0.0.8.dev20230426]
+[2023-05-02 02:08:02] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1682899673] Old Version: [1682813260]
+[2023-05-02 02:08:02] INFO root fetch - processPackages [schemawizard-package]: executing diffoscope
+[2023-05-02 02:08:02] INFO root fetch - processPackages [schemawizard-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemawizard_package-2.4.0.tar.gz tmp/schemawizard_package-2.5.0.tar.gz --markdown 20230502/s/schemawizard-package/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-02 02:08:02] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-02 02:08:02] INFO root fetch - main [MainThread]: End processing [betterconfigs]: success
+[2023-05-02 02:08:02] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/73/3b/b750c61e6c2ae1c6e735a888c69aba010f3fd121ef2520c8cbfdebf16b59/torchlayers-nightly-1682899673.tar.gz
+[2023-05-02 02:08:02] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-02 02:08:02] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1682813260.tar.gz tmp/torchlayers-nightly-1682899673.tar.gz --markdown 20230502/t/torchlayers-nightly/1682813260-1682899673/diff.md --exclude *.pyd
+[2023-05-02 02:08:02] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/38/3a/a5d6d9871a35a508b2d19535a21d63bc82d6a03451943c3e2a6fa8c3022d/jaxutils-nightly-0.0.8.dev20230502.tar.gz
+[2023-05-02 02:08:02] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-02 02:08:02] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230426.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230502.tar.gz --markdown 20230502/j/jaxutils-nightly/0.0.8.dev20230426-0.0.8.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 02:08:03] INFO root fetch - main [MainThread]: End processing [schemawizard-package]: success
+[2023-05-02 02:08:03] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-02 02:08:03] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-02 02:08:03] INFO root fetch - main [MainThread]: End processing [sqlitedave-package]: success
+[2023-05-02 02:08:04] INFO root fetch - main [MainThread]: End processing [schemawizard-package]: success
+[2023-05-02 02:08:04] INFO root fetch - main [MainThread]: End processing [guilded.py]: success
+[2023-05-02 02:08:04] INFO root fetch - main [MainThread]: End processing [schemawizard-package]: success
+[2023-05-02 02:08:08] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-02 02:08:08] INFO root fetch - main [MainThread]: Store serial: [17933247]
