@@ -8723,3 +8723,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 10:26:46] INFO root fetch - main [MainThread]: End processing [DeTrusty]: success
 [2023-05-02 10:27:10] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
 [2023-05-02 10:27:10] INFO root fetch - main [MainThread]: Store serial: [17938000]
+[2023-05-02 10:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938000]
+[2023-05-02 10:32:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eric-ide
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merlin-sdk
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsql-client
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastphrase
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyasset
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-inference
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upgini
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autosubmit
+[2023-05-02 10:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nwa-stdlib
+[2023-05-02 10:32:26] WARNING root fetch - processPackages [fastphrase]: Skipping, unable to determine old version
+[2023-05-02 10:32:26] INFO root fetch - processPackages [fastphrase]: Start processing: climify-api
+[2023-05-02 10:32:26] INFO root fetch - main [MainThread]: End processing [fastphrase] error
+[2023-05-02 10:32:26] INFO root fetch - processPackages [eric-ide]: New version: [23.5] Old Version: [23.4.2]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-02 10:32:26] WARNING root fetch - processPackages [pyasset]: Skipping, unable to determine old version
+[2023-05-02 10:32:26] INFO root fetch - processPackages [pyasset]: Start processing: crackerjack
+[2023-05-02 10:32:26] INFO root fetch - main [MainThread]: End processing [pyasset] error
+[2023-05-02 10:32:26] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [libsql-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [nwa-stdlib]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.0.0] Old Version: [0.0.11rc0]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [climify-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [crackerjack]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [autosubmit]: New version: [4.0.77] Old Version: [4.0.76]
+[2023-05-02 10:32:26] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-02 10:32:26] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230502/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [crackerjack]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.1.7.tar.gz tmp/crackerjack-0.1.8.tar.gz --markdown 20230502/c/crackerjack/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/f5/87/f1ede705c21fad504f15f02e05e395bb51f699036b56e2daee1b718b241b/climify_api-1.0.0.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [nwa-stdlib]: Downloading https://files.pythonhosted.org/packages/7e/75/63938b816cb074dad709636d05152ff3bbe8f09c9ef1c25e7b621853742b/nwa-stdlib-1.4.6.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/af/8d/b9ccde0f37e6c85588ad1bd0278bd183bc254304e2212166f22aba501335/autosubmit-4.0.76.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [eric-ide]: Downloading https://files.pythonhosted.org/packages/51/bc/8a25a9a3486a2b36afdc535f5a551b581199f49cdcb22a8259f358fa981f/eric-ide-23.4.2.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/ba/af/e0b6c460eb12a0c45b64abb126759b551c7857940c522c7b53a4abd8f511/qwak_inference-0.1.0.0.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [libsql-client]: Downloading https://files.pythonhosted.org/packages/41/10/cdf7a97359180089e909d135def913a3f4af564ac40a0050938b2c98dc9c/libsql-client-0.2.2.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.0.11rc0.tar.gz tmp/qwak_inference-0.1.0.0.tar.gz --markdown 20230502/q/qwak-inference/0.0.11rc0-0.1.0.0/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [libsql-client]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [libsql-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsql-client-0.2.1.tar.gz tmp/libsql-client-0.2.2.tar.gz --markdown 20230502/l/libsql-client/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230502/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/fa/71/b207c33012608d9b687d080f87e3a32f8a3a24bc0b781235e377a1bef243/climify_api-1.0.1.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [nwa-stdlib]: Downloading https://files.pythonhosted.org/packages/06/e0/44af3647e5c007a0ab56eb522c599366669c629ff35aeb8455d9e9381821/nwa-stdlib-1.4.7.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-05-02 10:32:27] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.0.tar.gz tmp/climify_api-1.0.1.tar.gz --markdown 20230502/c/climify-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [nwa-stdlib]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [nwa-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwa-stdlib-1.4.6.tar.gz tmp/nwa-stdlib-1.4.7.tar.gz --markdown 20230502/n/nwa-stdlib/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230502/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] WARNING root fetch - processPackages [eric-ide]: Skipping package: exceeds size limit 19821378>=10485760
+[2023-05-02 10:32:27] INFO root fetch - processPackages [eric-ide]: Start processing: cwl-upgrader
+[2023-05-02 10:32:27] INFO root fetch - main [MainThread]: End processing [eric-ide] error
+[2023-05-02 10:32:27] INFO root fetch - processPackages [cwl-upgrader]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-02 10:32:27] INFO root fetch - processPackages [cwl-upgrader]: executing diffoscope
+[2023-05-02 10:32:27] INFO root fetch - processPackages [cwl-upgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-upgrader-1.2.4.tar.gz tmp/cwl-upgrader-1.2.5.tar.gz --markdown 20230502/c/cwl-upgrader/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-02 10:32:27] INFO root fetch - processPackages [autosubmit]: Downloading https://files.pythonhosted.org/packages/3e/77/be71595455e28f0dbabd2c640b8fea89286284c0c36175360a6278c27bd1/autosubmit-4.0.77.tar.gz
+[2023-05-02 10:32:28] INFO root fetch - processPackages [crackerjack]: Start processing: OpenGeode-core
+[2023-05-02 10:32:28] INFO root fetch - main [MainThread]: End processing [crackerjack]: success
+[2023-05-02 10:32:28] INFO root fetch - processPackages [autosubmit]: executing diffoscope
+[2023-05-02 10:32:28] INFO root fetch - processPackages [autosubmit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit-4.0.76.tar.gz tmp/autosubmit-4.0.77.tar.gz --markdown 20230502/a/autosubmit/4.0.76-4.0.77/diff.md --exclude *.pyd
+[2023-05-02 10:32:28] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-05-02 10:32:29] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-02 10:32:29] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.0.9]
+[2023-05-02 10:32:29] INFO root fetch - main [MainThread]: End processing [libsql-client]: success
+[2023-05-02 10:32:29] INFO root fetch - main [MainThread]: End processing [cwl-upgrader]: success
+[2023-05-02 10:32:29] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/f4/d6/c03770d6a9178257977a810f85df4252ebce3b549f00a6a4ad2bc5cd7a5b/OpenGeode_core-14.0.9-cp39-cp39-win_amd64.whl
+[2023-05-02 10:32:29] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17911399>=10485760
+[2023-05-02 10:32:29] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-02 10:32:29] INFO root fetch - main [MainThread]: End processing [nwa-stdlib]: success
+[2023-05-02 10:32:30] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-02 10:32:31] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-05-02 10:32:31] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-02 10:32:32] INFO root fetch - main [MainThread]: End processing [autosubmit]: success
+[2023-05-02 10:32:32] INFO root fetch - main [MainThread]: Store serial: [17938043]
