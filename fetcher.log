@@ -5642,3 +5642,50 @@
 [2023-05-02 06:19:11] INFO root fetch - processPackages [ApiLogicServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApiLogicServer-8.3.3.tar.gz tmp/ApiLogicServer-8.3.6.tar.gz --markdown 20230502/A/ApiLogicServer/8.3.3-8.3.6/diff.md --exclude *.pyd
 [2023-05-02 06:19:20] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
 [2023-05-02 06:19:20] INFO root fetch - main [MainThread]: Store serial: [17936021]
+[2023-05-02 06:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936021]
+[2023-05-02 06:24:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-dataset
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utilmy
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mppsolar
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: candlelite
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-starrail-calendar
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-poe-chat
+[2023-05-02 06:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cspyce
+[2023-05-02 06:24:29] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-02 06:24:29] INFO root fetch - processPackages [mppsolar]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-05-02 06:24:29] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 06:24:30] INFO root fetch - processPackages [tensorflow-dataset]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 06:24:30] INFO root fetch - processPackages [candlelite]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-02 06:24:30] INFO root fetch - processPackages [utilmy]: New version: [0.1.16830011] Old Version: [0.1.16802704]
+[2023-05-02 06:24:30] INFO root fetch - processPackages [cspyce]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-02 06:24:30] INFO root fetch - processPackages [mppsolar]: executing diffoscope
+[2023-05-02 06:24:30] INFO root fetch - processPackages [mppsolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppsolar-0.9.1.tar.gz tmp/mppsolar-0.9.12.tar.gz --markdown 20230502/m/mppsolar/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-05-02 06:24:30] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/09/64/d48c57fdffc4e73bf99b5b8db435739bccefc25c8010a6a1109f56ac63f6/nonebot_poe_chat-1.1.6.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Downloading https://files.pythonhosted.org/packages/c1/81/22d29fd78fdc598ce4d938ccdba65f6e2045023b509a8f9a06fe8939a853/nonebot_plugin_starrail_calendar-1.0.0.tar.gz
+[2023-05-02 06:24:30] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13495848>=10485760
+[2023-05-02 06:24:30] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-05-02 06:24:30] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/1b/2b/065e83105f7382e28423ae84cb4a7ebc26652feba542d05b2fb028d1545d/candlelite-1.0.4.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/29/97/b5d4f976e6972d369258b0bc2e7a137b84c88fddd472e70446dd4b54e547/utilmy-0.1.16802704.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [cspyce]: Downloading https://files.pythonhosted.org/packages/3c/6c/3ce67d17a41933587160d261f4a65570f9b365885929ef832b63ddeae107/cspyce-2.0.8.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [tensorflow-dataset]: Downloading https://files.pythonhosted.org/packages/9f/2e/7da663312e633ab8fd8a3cb40f28794736aeac4c8e74b69ed7774e4aa2f7/tensorflow-dataset-0.4.2.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: Downloading https://files.pythonhosted.org/packages/22/13/b1328670bfaef4a8d80d75177bca9a13802e84b8b3b1d0ba15ccb2ceb97c/nonebot-plugin-starrail-calendar-1.0.1.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [tensorflow-dataset]: executing diffoscope
+[2023-05-02 06:24:30] INFO root fetch - processPackages [tensorflow-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_dataset-0.4.1.tar.gz tmp/tensorflow-dataset-0.4.2.tar.gz --markdown 20230502/t/tensorflow-dataset/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-02 06:24:30] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: executing diffoscope
+[2023-05-02 06:24:30] INFO root fetch - processPackages [nonebot-plugin-starrail-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_starrail_calendar-1.0.0.tar.gz tmp/nonebot-plugin-starrail-calendar-1.0.1.tar.gz --markdown 20230502/n/nonebot-plugin-starrail-calendar/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 06:24:30] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/3e/ec/ee5dbc2c9ebad78def0bafb8bca00779f8ab840cf191d1de490f3bd33da2/candlelite-1.0.5.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/95/75/5094cebb9c54ae6e673b5ba2fcb12825e18360a8028d986ef253896c17b8/utilmy-0.1.16830011.tar.gz
+[2023-05-02 06:24:30] INFO root fetch - processPackages [candlelite]: executing diffoscope
+[2023-05-02 06:24:30] INFO root fetch - processPackages [candlelite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candlelite-1.0.4.tar.gz tmp/candlelite-1.0.5.tar.gz --markdown 20230502/c/candlelite/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-02 06:24:30] INFO root fetch - processPackages [cspyce]: Downloading https://files.pythonhosted.org/packages/d5/ad/4c983bf66dab9c8ed260ff1ce71d4f74acf2300dc39b15c90988d34de9e4/cspyce-2.0.9-cp38-cp38-win_amd64.whl
+[2023-05-02 06:24:30] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2023-05-02 06:24:30] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.16802704.tar.gz tmp/utilmy-0.1.16830011.tar.gz --markdown 20230502/u/utilmy/0.1.16802704-0.1.16830011/diff.md --exclude *.pyd
+[2023-05-02 06:24:31] INFO root fetch - main [MainThread]: End processing [tensorflow-dataset]: success
+[2023-05-02 06:24:31] INFO root fetch - processPackages [cspyce]: executing diffoscope
+[2023-05-02 06:24:31] INFO root fetch - processPackages [cspyce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cspyce-2.0.8.tar.gz tmp/cspyce-2.0.9-cp38-cp38-win_amd64.whl.zip --markdown 20230502/c/cspyce/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-02 06:24:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-starrail-calendar]: success
+[2023-05-02 06:24:31] INFO root fetch - main [MainThread]: End processing [candlelite]: success
+[2023-05-02 06:24:33] INFO root fetch - main [MainThread]: End processing [cspyce]: success
+[2023-05-02 06:24:52] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
+[2023-05-02 06:24:57] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2023-05-02 06:24:57] INFO root fetch - main [MainThread]: Store serial: [17936050]
