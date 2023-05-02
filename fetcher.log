@@ -12415,3 +12415,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 14:15:21] INFO root fetch - main [MainThread]: End processing [tmlc-testapp]: success
 [2023-05-02 14:15:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
 [2023-05-02 14:15:21] INFO root fetch - main [MainThread]: Store serial: [17940265]
+[2023-05-02 14:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940265]
+[2023-05-02 14:20:30] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: headless
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TuoTuo
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kedro
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vector-quantize-tf
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spycoprobe
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SMACT
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: speechtotext-python
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: q-random-number-generator
+[2023-05-02 14:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-02 14:20:30] INFO root fetch - processPackages [TuoTuo]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 14:20:30] WARNING root fetch - processPackages [vector-quantize-tf]: Skipping, unable to determine old version
+[2023-05-02 14:20:30] INFO root fetch - processPackages [vector-quantize-tf]: Start processing: four-color
+[2023-05-02 14:20:30] INFO root fetch - main [MainThread]: End processing [vector-quantize-tf] error
+[2023-05-02 14:20:30] INFO root fetch - processPackages [kedro]: New version: [0.18.8] Old Version: [0.18.7]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [spycoprobe]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [q-random-number-generator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [SMACT]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [four-color]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-02 14:20:30] INFO root fetch - processPackages [kedro]: Downloading https://files.pythonhosted.org/packages/1c/e4/5be14c8372d0063264020d00b7337e1d1685e57b7f426109521783e17332/kedro-0.18.7.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/f1/12/d154f230061d5d9811495e8e4b396b7b805d5559965941d170f13a029954/TuoTuo-0.0.7.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230502/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [four-color]: Downloading https://files.pythonhosted.org/packages/8c/59/460068d4a7b74fa183d13aa560dd42d4daaad7ee8b9f27b774b6af09b8e9/four_color-0.1.0-py3-none-any.whl
+[2023-05-02 14:20:30] INFO root fetch - processPackages [q-random-number-generator]: Downloading https://files.pythonhosted.org/packages/87/4a/9496786497fc4b85396aa0781ae2e652f394650098dbb760ea53233e7085/q_random_number_generator-0.0.2.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [spycoprobe]: Downloading https://files.pythonhosted.org/packages/61/b0/6faa6afce3a84a4e816c1e494d2f43e63378eb5a9d35ed95ae251656ce84/spycoprobe-1.0.1.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [SMACT]: Downloading https://files.pythonhosted.org/packages/1b/00/fbd5d116b46c1e2ebd90e5ce4601c24d7658ec892df476122e06ec6d8152/SMACT-2.5.0.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/a1/6c/1ba8990ba914418243defd36697501ed457b0c77471f2021a02cb871f365/speechtotext-python-0.3.9.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [kedro]: Downloading https://files.pythonhosted.org/packages/23/1a/50d6b7065ca75273f99faf3f700a3979a6a1a7c2e80a2423426cf6a766ee/kedro-0.18.8.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.8.tar.gz tmp/speechtotext-python-0.3.9.tar.gz --markdown 20230502/s/speechtotext-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230502/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [q-random-number-generator]: Downloading https://files.pythonhosted.org/packages/60/0e/9a5b64e92a6caa5a2f4bf1563986dfda34ce32a5385814d6025ccc6edaf4/q_random_number_generator-0.0.3.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [kedro]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [kedro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-0.18.7.tar.gz tmp/kedro-0.18.8.tar.gz --markdown 20230502/k/kedro/0.18.7-0.18.8/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [q-random-number-generator]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [q-random-number-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q_random_number_generator-0.0.2.tar.gz tmp/q_random_number_generator-0.0.3.tar.gz --markdown 20230502/q/q-random-number-generator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [four-color]: Downloading https://files.pythonhosted.org/packages/5f/6c/36dd6b4c5e008a0c74a2dd26404899fc0502d6d2340ab5150087ec0ae777/four_color-0.2.0-py3-none-any.whl
+[2023-05-02 14:20:30] INFO root fetch - processPackages [four-color]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [four-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/four_color-0.1.0-py3-none-any.whl.zip tmp/four_color-0.2.0-py3-none-any.whl.zip --markdown 20230502/f/four-color/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [spycoprobe]: Downloading https://files.pythonhosted.org/packages/e3/f1/5d8fc6d25f55f3f4b8fbfd7c3b96158e2d87055097b9a5dd8cbc7f782ceb/spycoprobe-1.0.2.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [SMACT]: Downloading https://files.pythonhosted.org/packages/22/23/ac23abf17f49a425841a00615fb9b604b59ab36a363465d3cceb994e967d/SMACT-2.5.1.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [spycoprobe]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [spycoprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spycoprobe-1.0.1.tar.gz tmp/spycoprobe-1.0.2.tar.gz --markdown 20230502/s/spycoprobe/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 14:20:30] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/63/85/b1f5b823fa21d22440784a880e6cb5c0440dc18961add26a67d23f8c6fcd/TuoTuo-0.0.8.tar.gz
+[2023-05-02 14:20:30] INFO root fetch - processPackages [SMACT]: executing diffoscope
+[2023-05-02 14:20:30] INFO root fetch - processPackages [SMACT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SMACT-2.5.0.tar.gz tmp/SMACT-2.5.1.tar.gz --markdown 20230502/S/SMACT/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-02 14:20:31] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 14:20:31] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.0.7.tar.gz tmp/TuoTuo-0.0.8.tar.gz --markdown 20230502/T/TuoTuo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 14:20:32] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: ccf
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-02 14:20:32] INFO root fetch - processPackages [ccf]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2023-05-02 14:20:32] INFO root fetch - processPackages [q-random-number-generator]: Start processing: arkitekt
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [q-random-number-generator]: success
+[2023-05-02 14:20:32] INFO root fetch - processPackages [speechtotext-python]: Start processing: arkitekt
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-02 14:20:32] INFO root fetch - processPackages [four-color]: Start processing: libvirt-python
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [four-color]: success
+[2023-05-02 14:20:32] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/a8/6d/27e3b9df0659423db1734281bad0543b9700f391a8e58159d40893f20000/ccf-4.0.0rc1-py3-none-any.whl
+[2023-05-02 14:20:32] INFO root fetch - processPackages [libvirt-python]: New version: [9.3.0] Old Version: [9.2.0]
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [spycoprobe]: success
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/5e/c8/1f19f729f12496e96b8d1969f7079b0cdcacc1dee86057e74cb04b3087e0/arkitekt-0.4.99.tar.gz
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/5e/c8/1f19f729f12496e96b8d1969f7079b0cdcacc1dee86057e74cb04b3087e0/arkitekt-0.4.99.tar.gz
+[2023-05-02 14:20:32] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/38/15/eb5fdcca34fd4d9515f216ee9d87db97ca5ab6794ed7e62b1bdaa21316bd/libvirt-python-9.2.0.tar.gz
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230502/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-05-02 14:20:32] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.98.tar.gz tmp/arkitekt-0.4.99.tar.gz --markdown 20230502/a/arkitekt/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-02 14:20:32] INFO root fetch - main [MainThread]: End processing [SMACT]: success
+[2023-05-02 14:20:33] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/1e/36/dbfdbad0ed4dd910b26df2eee1da16068aae1e5ae0fdab726b542be05f30/libvirt-python-9.3.0.tar.gz
+[2023-05-02 14:20:33] INFO root fetch - processPackages [ccf]: Downloading https://files.pythonhosted.org/packages/42/3e/2de1190cbfcf051f4c41dc3c0a14cf51523844b9da29b818b93fcf8f0a43/ccf-4.0.0rc2-py3-none-any.whl
+[2023-05-02 14:20:33] INFO root fetch - processPackages [libvirt-python]: executing diffoscope
+[2023-05-02 14:20:33] INFO root fetch - processPackages [libvirt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt-python-9.2.0.tar.gz tmp/libvirt-python-9.3.0.tar.gz --markdown 20230502/l/libvirt-python/9.2.0-9.3.0/diff.md --exclude *.pyd
+[2023-05-02 14:20:33] INFO root fetch - processPackages [ccf]: executing diffoscope
+[2023-05-02 14:20:33] INFO root fetch - processPackages [ccf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccf-4.0.0rc1-py3-none-any.whl.zip tmp/ccf-4.0.0rc2-py3-none-any.whl.zip --markdown 20230502/c/ccf/4.0.0rc1-4.0.0rc2/diff.md --exclude *.pyd
+[2023-05-02 14:20:34] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-05-02 14:20:34] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-02 14:20:34] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-05-02 14:20:34] INFO root fetch - main [MainThread]: End processing [ccf]: success
+[2023-05-02 14:20:35] INFO root fetch - main [MainThread]: End processing [kedro]: success
+[2023-05-02 14:20:36] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 14:20:37] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
+[2023-05-02 14:20:37] INFO root fetch - main [MainThread]: Store serial: [17940308]
