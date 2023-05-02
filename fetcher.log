@@ -19195,3 +19195,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 20:03:26] INFO root fetch - main [MainThread]: End processing [pynamer]: success
 [2023-05-02 20:03:26] INFO root fetch - main [MainThread]: End processing [nicegui]: success
 [2023-05-02 20:03:26] INFO root fetch - main [MainThread]: Store serial: [17944928]
+[2023-05-02 20:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944928]
+[2023-05-02 20:08:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 20:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fairscape-cli
+[2023-05-02 20:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cleez
+[2023-05-02 20:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cupoch
+[2023-05-02 20:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: humanhelp
+[2023-05-02 20:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tap-mixpanel
+[2023-05-02 20:08:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binance-history
+[2023-05-02 20:08:42] INFO root fetch - processPackages [fairscape-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 20:08:43] WARNING root fetch - processPackages [humanhelp]: Skipping, unable to determine old version
+[2023-05-02 20:08:43] INFO root fetch - main [MainThread]: End processing [humanhelp] error
+[2023-05-02 20:08:43] INFO root fetch - processPackages [binance-history]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-02 20:08:43] INFO root fetch - processPackages [cleez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 20:08:43] INFO root fetch - processPackages [cupoch]: New version: [0.2.7.3] Old Version: [0.2.7.2]
+[2023-05-02 20:08:43] INFO root fetch - processPackages [tap-mixpanel]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-02 20:08:43] INFO root fetch - processPackages [cleez]: executing diffoscope
+[2023-05-02 20:08:43] INFO root fetch - processPackages [cleez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleez-0.1.8.tar.gz tmp/cleez-0.1.9.tar.gz --markdown 20230502/c/cleez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 20:08:43] INFO root fetch - processPackages [fairscape-cli]: Downloading https://files.pythonhosted.org/packages/c2/80/84e46e2030d2a8260b9fcbfbcc85738ba1f58c8ddf575484fb10fc2368ee/fairscape_cli-0.1.4.tar.gz
+[2023-05-02 20:08:43] INFO root fetch - processPackages [binance-history]: Downloading https://files.pythonhosted.org/packages/83/e8/ee803dc6aa9e561857bca4cb60d99f654720c0a71ef73b7a4dfb061b32d3/binance_history-0.1.6.tar.gz
+[2023-05-02 20:08:43] INFO root fetch - processPackages [cupoch]: Downloading https://files.pythonhosted.org/packages/1d/c7/10e500f0af64213d087955946eb0f9ba016bb2edf767809ea645a24440a7/cupoch-0.2.7.2-cp39-cp39-win_amd64.whl
+[2023-05-02 20:08:43] INFO root fetch - processPackages [tap-mixpanel]: Downloading https://files.pythonhosted.org/packages/19/77/c701229048597f9518ee78c684330f9ef93bf8bed26cd60ce7207f46aa8b/tap-mixpanel-1.4.1.tar.gz
+[2023-05-02 20:08:43] INFO root fetch - processPackages [binance-history]: Downloading https://files.pythonhosted.org/packages/7b/4c/22779e18c77fdf8d66e975936d46c6102bd17cfbd40be2574e49db7d010a/binance_history-0.1.7-py3-none-any.whl
+[2023-05-02 20:08:43] INFO root fetch - processPackages [fairscape-cli]: Downloading https://files.pythonhosted.org/packages/eb/48/803434db87c45c681c66f6b5d1dd572c134e0f6848f7a6395749104c0f41/fairscape_cli-0.1.5.tar.gz
+[2023-05-02 20:08:43] INFO root fetch - processPackages [binance-history]: executing diffoscope
+[2023-05-02 20:08:43] INFO root fetch - processPackages [binance-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance_history-0.1.6.tar.gz tmp/binance_history-0.1.7-py3-none-any.whl.zip --markdown 20230502/b/binance-history/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-02 20:08:43] INFO root fetch - processPackages [tap-mixpanel]: Downloading https://files.pythonhosted.org/packages/30/be/5785096bc78640b8af3e9c70b22c9e3520f837bbbb62a6ed353e3fe2f4e2/tap-mixpanel-1.4.2.tar.gz
+[2023-05-02 20:08:43] INFO root fetch - processPackages [fairscape-cli]: executing diffoscope
+[2023-05-02 20:08:43] INFO root fetch - processPackages [fairscape-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairscape_cli-0.1.4.tar.gz tmp/fairscape_cli-0.1.5.tar.gz --markdown 20230502/f/fairscape-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 20:08:43] INFO root fetch - processPackages [tap-mixpanel]: executing diffoscope
+[2023-05-02 20:08:43] INFO root fetch - processPackages [tap-mixpanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mixpanel-1.4.1.tar.gz tmp/tap-mixpanel-1.4.2.tar.gz --markdown 20230502/t/tap-mixpanel/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-02 20:08:44] WARNING root fetch - processPackages [cupoch]: Skipping package: exceeds size limit 19249498>=10485760
+[2023-05-02 20:08:44] INFO root fetch - main [MainThread]: End processing [cupoch] error
+[2023-05-02 20:08:44] INFO root fetch - main [MainThread]: End processing [cleez]: success
+[2023-05-02 20:08:44] INFO root fetch - main [MainThread]: End processing [binance-history]: success
+[2023-05-02 20:08:44] INFO root fetch - main [MainThread]: End processing [fairscape-cli]: success
+[2023-05-02 20:08:44] INFO root fetch - main [MainThread]: End processing [tap-mixpanel]: success
+[2023-05-02 20:08:44] INFO root fetch - main [MainThread]: Store serial: [17944953]
