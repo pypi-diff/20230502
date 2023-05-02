@@ -7998,3 +7998,102 @@
 [2023-05-02 09:45:04] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
 [2023-05-02 09:45:04] INFO root fetch - main [MainThread]: End processing [tomoscan]: success
 [2023-05-02 09:45:04] INFO root fetch - main [MainThread]: Store serial: [17937581]
+[2023-05-02 09:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937581]
+[2023-05-02 09:50:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visionai-data-format
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-index
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mclbn256
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RRD
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-sm-partago-tariffs
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixano
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RushHour4
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: winval
+[2023-05-02 09:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zepben.evolve
+[2023-05-02 09:50:14] WARNING root fetch - processPackages [RRD]: Skipping, unable to determine old version
+[2023-05-02 09:50:14] INFO root fetch - processPackages [RRD]: Start processing: cwl-upgrader
+[2023-05-02 09:50:14] INFO root fetch - main [MainThread]: End processing [RRD] error
+[2023-05-02 09:50:14] INFO root fetch - processPackages [pixano]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: New version: [12.0.0.0.8] Old Version: [12.0.0.0.7]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [winval]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-02 09:50:14] WARNING root fetch - processPackages [RushHour4]: Skipping, unable to determine old version
+[2023-05-02 09:50:14] INFO root fetch - processPackages [RushHour4]: Start processing: obsah
+[2023-05-02 09:50:14] INFO root fetch - main [MainThread]: End processing [RushHour4] error
+[2023-05-02 09:50:14] INFO root fetch - processPackages [mclbn256]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [cwl-upgrader]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [llama-index]: New version: [0.6.0a6] Old Version: [0.6.0a5]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [zepben.evolve]: New version: [0.35.0b9] Old Version: [0.35.0b8]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [gpt-index]: New version: [0.6.0a6] Old Version: [0.6.0a5]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [obsah]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 09:50:14] INFO root fetch - processPackages [winval]: Downloading https://files.pythonhosted.org/packages/5c/39/4cf746da9686a3e589c9b8f7eabc471d46beb41af56ce54596e8b10219e7/winval-0.6.1.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/94/fb/ee2b015cb3cad17da06ca9e231517cc671567c21325d96ecb5a98960768f/visionai-data-format-0.1.9.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/11/d2/99483630b669feaeda18cc2dd5edd02edf876836600e8fe33c62140db7d0/pixano-0.1.0.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: Downloading https://files.pythonhosted.org/packages/b0/13/752139c75c260b6228479638f3216c13783fd89341972cc9c38936ddf040/odoo12_addon_sm_partago_tariffs-12.0.0.0.7-py2.py3-none-any.whl
+[2023-05-02 09:50:14] INFO root fetch - processPackages [cwl-upgrader]: Downloading https://files.pythonhosted.org/packages/7a/fb/9b5ab8b6a30b60604377ebb0ce0fe5b1b841675d366635c65d40a04af886/cwl-upgrader-1.2.4.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [mclbn256]: Downloading https://files.pythonhosted.org/packages/39/bc/74fc793d149715491deb3251c9719b2eb265defa0bb97b39d18eb6c06c97/mclbn256-1.3.0-py3-none-win_amd64.whl
+[2023-05-02 09:50:14] INFO root fetch - processPackages [obsah]: Downloading https://files.pythonhosted.org/packages/25/45/95c0cc74ab5e38643c8d2089e924501bd9647c521056c860dc9a02c6a093/obsah-0.0.2.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/9a/9f/31d9e5e5577e960da08f50ab390d32efeab06a5ac8ae8cc0c9996b3532be/gpt_index-0.6.0a6.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/86/98/6f91512f7880e99f5acde340167b4a697bcdc95cbf9ab06d1bcca946d91f/llama_index-0.6.0a6.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [zepben.evolve]: executing diffoscope
+[2023-05-02 09:50:14] INFO root fetch - processPackages [zepben.evolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.evolve-0.35.0b8-py3-none-any.whl.zip tmp/zepben.evolve-0.35.0b9-py3-none-any.whl.zip --markdown 20230502/z/zepben.evolve/0.35.0b8-0.35.0b9/diff.md --exclude *.pyd
+[2023-05-02 09:50:14] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/44/6a/339bc62110c6662a2503af9515b34b04adc07d9e1c6b74871afd2be6518e/pixano-0.1.1.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [obsah]: Downloading https://files.pythonhosted.org/packages/eb/b2/6d5881e74dd5431a70c639ae200aca9c833726613dd95fa410156fcd8d1f/obsah-0.0.3.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-02 09:50:14] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.0a5.tar.gz tmp/gpt_index-0.6.0a6.tar.gz --markdown 20230502/g/gpt-index/0.6.0a5-0.6.0a6/diff.md --exclude *.pyd
+[2023-05-02 09:50:14] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-02 09:50:14] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.0a5.tar.gz tmp/llama_index-0.6.0a6.tar.gz --markdown 20230502/l/llama-index/0.6.0a5-0.6.0a6/diff.md --exclude *.pyd
+[2023-05-02 09:50:14] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/7f/a6/66d9823a0da537e4098d65af19672ff855923151aa8740147e4b7c275f6d/visionai-data-format-1.0.0.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [winval]: Downloading https://files.pythonhosted.org/packages/14/17/836bac6aee5e0e315510581346f20e1be0feffc25bfb81e3defb5285fa9c/winval-0.6.2.tar.gz
+[2023-05-02 09:50:14] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: Downloading https://files.pythonhosted.org/packages/9c/4d/293f12f673f54a60fac4f3b350429e3e332bb511eda7d755e88dec96a6bc/odoo12_addon_sm_partago_tariffs-12.0.0.0.8-py2.py3-none-any.whl
+[2023-05-02 09:50:14] INFO root fetch - processPackages [cwl-upgrader]: Downloading https://files.pythonhosted.org/packages/9e/e9/7edd4a86fe9026701b4b5392b72222b56d6022d92c6323ebca2be57a231d/cwl-upgrader-1.2.5.tar.gz
+[2023-05-02 09:50:15] INFO root fetch - processPackages [obsah]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [obsah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsah-0.0.2.tar.gz tmp/obsah-0.0.3.tar.gz --markdown 20230502/o/obsah/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 09:50:15] INFO root fetch - processPackages [pixano]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [pixano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixano-0.1.0.tar.gz tmp/pixano-0.1.1.tar.gz --markdown 20230502/p/pixano/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 09:50:15] INFO root fetch - processPackages [mclbn256]: Downloading https://files.pythonhosted.org/packages/79/ab/bed05074d7ddb05fc347e86cd4196cb88612e30e99531097e07fb9d0bbcc/mclbn256-1.3.1-py3-none-win_amd64.whl
+[2023-05-02 09:50:15] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-0.1.9.tar.gz tmp/visionai-data-format-1.0.0.tar.gz --markdown 20230502/v/visionai-data-format/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 09:50:15] INFO root fetch - processPackages [winval]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [winval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winval-0.6.1.tar.gz tmp/winval-0.6.2.tar.gz --markdown 20230502/w/winval/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-02 09:50:15] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_tariffs-12.0.0.0.7-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_tariffs-12.0.0.0.8-py2.py3-none-any.whl.zip --markdown 20230502/o/odoo12-addon-sm-partago-tariffs/12.0.0.0.7-12.0.0.0.8/diff.md --exclude *.pyd
+[2023-05-02 09:50:15] INFO root fetch - processPackages [cwl-upgrader]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [cwl-upgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-upgrader-1.2.4.tar.gz tmp/cwl-upgrader-1.2.5.tar.gz --markdown 20230502/c/cwl-upgrader/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-02 09:50:15] INFO root fetch - processPackages [mclbn256]: executing diffoscope
+[2023-05-02 09:50:15] INFO root fetch - processPackages [mclbn256]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mclbn256-1.3.0-py3-none-win_amd64.whl.zip tmp/mclbn256-1.3.1-py3-none-win_amd64.whl.zip --markdown 20230502/m/mclbn256/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-02 09:50:16] INFO root fetch - processPackages [visionai-data-format]: Start processing: audiomentations
+[2023-05-02 09:50:16] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-05-02 09:50:16] INFO root fetch - processPackages [winval]: Start processing: EverLoguru
+[2023-05-02 09:50:16] INFO root fetch - main [MainThread]: End processing [winval]: success
+[2023-05-02 09:50:16] INFO root fetch - processPackages [EverLoguru]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-02 09:50:16] INFO root fetch - processPackages [audiomentations]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 09:50:16] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: Start processing: sc2xmlreader
+[2023-05-02 09:50:16] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-tariffs]: success
+[2023-05-02 09:50:17] INFO root fetch - processPackages [sc2xmlreader]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-02 09:50:17] INFO root fetch - processPackages [audiomentations]: Downloading https://files.pythonhosted.org/packages/d9/cd/284c5162941e00d82cde90381af5321e8c683b1b89aa3bb15a3b8103ab1c/audiomentations-0.8.0.tar.gz
+[2023-05-02 09:50:17] INFO root fetch - processPackages [obsah]: Start processing: zood
+[2023-05-02 09:50:17] INFO root fetch - main [MainThread]: End processing [obsah]: success
+[2023-05-02 09:50:17] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/31/3e/53842b2a0244a8491e993dc558f018a49dc318c61b15db1481590859d054/EverLoguru-1.1.2.tar.gz
+[2023-05-02 09:50:17] INFO root fetch - processPackages [zood]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-02 09:50:17] INFO root fetch - main [MainThread]: End processing [cwl-upgrader]: success
+[2023-05-02 09:50:17] INFO root fetch - main [MainThread]: End processing [mclbn256]: success
+[2023-05-02 09:50:17] INFO root fetch - main [MainThread]: End processing [pixano]: success
+[2023-05-02 09:50:17] INFO root fetch - processPackages [sc2xmlreader]: executing diffoscope
+[2023-05-02 09:50:17] INFO root fetch - processPackages [sc2xmlreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc2xmlreader-0.0.8.tar.gz tmp/sc2xmlreader-0.1.0.tar.gz --markdown 20230502/s/sc2xmlreader/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 09:50:17] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-02 09:50:17] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.1.1.tar.gz tmp/EverLoguru-1.1.2.tar.gz --markdown 20230502/E/EverLoguru/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-02 09:50:17] INFO root fetch - processPackages [zood]: Downloading https://files.pythonhosted.org/packages/ec/fa/e960807bc15681c13bb6d046ac8043467582c80686859c3a0cce07dbd101/zood-0.7.2.tar.gz
+[2023-05-02 09:50:17] INFO root fetch - processPackages [zood]: executing diffoscope
+[2023-05-02 09:50:17] INFO root fetch - processPackages [zood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zood-0.7.1.tar.gz tmp/zood-0.7.2.tar.gz --markdown 20230502/z/zood/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-02 09:50:17] INFO root fetch - processPackages [audiomentations]: Downloading https://files.pythonhosted.org/packages/78/22/7ce28f15171fd8d163b00eebf2b07a8469ca32ae72fd6c0f08e8e5cc791b/audiomentations-0.9.0.tar.gz
+[2023-05-02 09:50:18] INFO root fetch - processPackages [audiomentations]: executing diffoscope
+[2023-05-02 09:50:18] INFO root fetch - processPackages [audiomentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiomentations-0.8.0.tar.gz tmp/audiomentations-0.9.0.tar.gz --markdown 20230502/a/audiomentations/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 09:50:18] INFO root fetch - main [MainThread]: End processing [sc2xmlreader]: success
+[2023-05-02 09:50:18] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-02 09:50:18] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-02 09:50:18] INFO root fetch - main [MainThread]: End processing [zood]: success
+[2023-05-02 09:50:18] INFO root fetch - main [MainThread]: End processing [zepben.evolve]: success
+[2023-05-02 09:50:19] INFO root fetch - main [MainThread]: End processing [audiomentations]: success
+[2023-05-02 09:50:21] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-02 09:50:21] INFO root fetch - main [MainThread]: Store serial: [17937634]
