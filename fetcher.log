@@ -7447,3 +7447,41 @@
 [2023-05-02 09:01:52] INFO root fetch - main [MainThread]: End processing [fonemas]: success
 [2023-05-02 09:02:09] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-02 09:02:09] INFO root fetch - main [MainThread]: Store serial: [17937215]
+[2023-05-02 09:07:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937215]
+[2023-05-02 09:07:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 09:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2023-05-02 09:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: client-bank-1c
+[2023-05-02 09:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy
+[2023-05-02 09:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docker-sand
+[2023-05-02 09:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: growmax
+[2023-05-02 09:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eyes-soatra
+[2023-05-02 09:07:18] INFO root fetch - processPackages [client-bank-1c]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-02 09:07:18] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 09:07:18] INFO root fetch - processPackages [docker-sand]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 09:07:18] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 09:07:18] INFO root fetch - processPackages [growmax]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-02 09:07:18] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-02 09:07:18] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-02 09:07:18] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.8.tar.gz tmp/eyes_soatra-0.0.9.tar.gz --markdown 20230502/e/eyes-soatra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 09:07:18] INFO root fetch - processPackages [docker-sand]: Downloading https://files.pythonhosted.org/packages/a2/f4/0b1435b86507ce600e0ba8a07b434c0ca7e8b03649fe7c0f1661831c6172/docker-sand-0.0.1.tar.gz
+[2023-05-02 09:07:18] INFO root fetch - processPackages [client-bank-1c]: Downloading https://files.pythonhosted.org/packages/8d/65/67feabb208a439073cb029573dd6e2c4841a46797d3aaad9fd21b06051aa/client_bank_1c-0.2.2.tar.gz
+[2023-05-02 09:07:18] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-02 09:07:18] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230502/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-02 09:07:18] INFO root fetch - processPackages [growmax]: Downloading https://files.pythonhosted.org/packages/a7/f6/9b20511ff2d39794e5fe2302590ab48ac77e5bcb3132286fe6a50821161d/growmax-1.2.0.tar.gz
+[2023-05-02 09:07:18] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-02 09:07:18] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230502/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 09:07:18] INFO root fetch - processPackages [client-bank-1c]: Downloading https://files.pythonhosted.org/packages/75/91/d97c58392f17cc0e89c416677f4171cbb2920e0171bcb29d1556b77e059f/client_bank_1c-0.2.3.tar.gz
+[2023-05-02 09:07:18] INFO root fetch - processPackages [client-bank-1c]: executing diffoscope
+[2023-05-02 09:07:18] INFO root fetch - processPackages [client-bank-1c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_bank_1c-0.2.2.tar.gz tmp/client_bank_1c-0.2.3.tar.gz --markdown 20230502/c/client-bank-1c/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-02 09:07:18] INFO root fetch - processPackages [docker-sand]: Downloading https://files.pythonhosted.org/packages/9b/96/03a8a2ee79f1713545a7c94a64d7f68421f3fad476b575fb75361118fc83/docker-sand-0.0.2.tar.gz
+[2023-05-02 09:07:19] INFO root fetch - processPackages [docker-sand]: executing diffoscope
+[2023-05-02 09:07:19] INFO root fetch - processPackages [docker-sand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-sand-0.0.1.tar.gz tmp/docker-sand-0.0.2.tar.gz --markdown 20230502/d/docker-sand/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 09:07:19] INFO root fetch - processPackages [growmax]: executing diffoscope
+[2023-05-02 09:07:19] INFO root fetch - processPackages [growmax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/growmax-1.1.9.tar.gz tmp/growmax-1.2.0.tar.gz --markdown 20230502/g/growmax/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 09:07:19] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-02 09:07:20] INFO root fetch - main [MainThread]: End processing [client-bank-1c]: success
+[2023-05-02 09:07:20] INFO root fetch - main [MainThread]: End processing [docker-sand]: success
+[2023-05-02 09:07:20] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-02 09:07:20] INFO root fetch - main [MainThread]: End processing [growmax]: success
+[2023-05-02 09:07:20] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-02 09:07:20] INFO root fetch - main [MainThread]: Store serial: [17937241]
