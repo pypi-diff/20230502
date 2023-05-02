@@ -22051,3 +22051,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:14:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-02 22:14:38] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-02 22:14:38] INFO root fetch - main [MainThread]: Store serial: [17946652]
+[2023-05-02 22:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946652]
+[2023-05-02 22:19:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codex
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mothertongues
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycognaize
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkilint
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flipside
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shroomdk
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neurotechdevkit
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weni-rp-apps
+[2023-05-02 22:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gymxq
+[2023-05-02 22:19:47] INFO root fetch - processPackages [flipside]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-02 22:19:47] INFO root fetch - processPackages [mothertongues]: New version: [0.18.20230502] Old Version: [0.18.20230410]
+[2023-05-02 22:19:47] WARNING root fetch - processPackages [pkilint]: Skipping, unable to determine old version
+[2023-05-02 22:19:47] INFO root fetch - processPackages [pkilint]: Start processing: quantconnect-stubs
+[2023-05-02 22:19:47] INFO root fetch - main [MainThread]: End processing [pkilint] error
+[2023-05-02 22:19:47] INFO root fetch - processPackages [gymxq]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 22:19:47] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 22:19:47] INFO root fetch - processPackages [shroomdk]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-02 22:19:47] INFO root fetch - processPackages [pycognaize]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-02 22:19:47] INFO root fetch - processPackages [codex]: New version: [1.4.0a1] Old Version: [1.4.0a0]
+[2023-05-02 22:19:47] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a9] Old Version: [2.4.0a8]
+[2023-05-02 22:19:48] INFO root fetch - processPackages [kcli]: New version: [99.0.202305022015] Old Version: [99.0.202304301944]
+[2023-05-02 22:19:48] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/86/d8/c86943bc2638fc2492fc846ce4ec45f20a17c70a8e15fbedd39391ff064a/codex-1.4.0a0.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-02 22:19:48] INFO root fetch - processPackages [mothertongues]: Downloading https://files.pythonhosted.org/packages/07/19/63581413aaf83d2eb238ab64b9d8c68349e4131301602b3629e97ab40927/mothertongues-0.18.20230410.tar.gz
+[2023-05-02 22:19:48] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 16151115>=10485760
+[2023-05-02 22:19:48] INFO root fetch - processPackages [codex]: Start processing: morgan-linter
+[2023-05-02 22:19:48] INFO root fetch - main [MainThread]: End processing [codex] error
+[2023-05-02 22:19:48] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/f0/dc/4d7e217b3ae44189e6702a897df7c932d08f5db2f25ba39bf4d8dde75f9b/neurotechdevkit-0.0.8.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [gymxq]: Downloading https://files.pythonhosted.org/packages/39/69/428cb07f5312a160a5614d57f86028f91d9a13d99441634a38dcc2b23e03/gymxq-1.0.0.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [shroomdk]: Downloading https://files.pythonhosted.org/packages/89/8b/868704a72ee511f2f4214c7026b1dd0e58d89cb23d81aabd328e094d0f8d/shroomdk-2.0.3.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230502/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [morgan-linter]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-02 22:19:48] INFO root fetch - processPackages [flipside]: Downloading https://files.pythonhosted.org/packages/55/79/8c14d89e5aa005e2dd595d998b0e4bb52936ba6fcbc4d66a3b83ef9b7532/flipside-2.0.3.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [shroomdk]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [shroomdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shroomdk-2.0.2.tar.gz tmp/shroomdk-2.0.3.tar.gz --markdown 20230502/s/shroomdk/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c2/5b/14316c729ae7dd9988177762930f97ab54ac974d8b499b11232ec6b4a523/kcli-99.0.202305022015-py3-none-any.whl
+[2023-05-02 22:19:48] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a8.tar.gz tmp/weni_rp_apps-2.4.0a9.tar.gz --markdown 20230502/w/weni-rp-apps/2.4.0a8-2.4.0a9/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [gymxq]: Downloading https://files.pythonhosted.org/packages/34/bd/b896df458cff9abf9155e4d4a7ae94aac650234541e80cf032efbb7d2db3/gymxq-1.1.0.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [flipside]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [flipside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipside-2.0.2.tar.gz tmp/flipside-2.0.3.tar.gz --markdown 20230502/f/flipside/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.3.8.tar.gz tmp/pycognaize-1.3.9.tar.gz --markdown 20230502/p/pycognaize/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [morgan-linter]: Downloading https://files.pythonhosted.org/packages/a4/24/f113944722f3e139cd6b1af41633a4767955cbb8a286455a6467217d577f/morgan-linter-1.1.1.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [mothertongues]: Downloading https://files.pythonhosted.org/packages/0e/a7/f8021a1c8371efafd71e46ea824ef4e6c3a4b2997442aea7bad3a1d96066/mothertongues-0.18.20230502.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [gymxq]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [gymxq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymxq-1.0.0.tar.gz tmp/gymxq-1.1.0.tar.gz --markdown 20230502/g/gymxq/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304301944-py3-none-any.whl.zip tmp/kcli-99.0.202305022015-py3-none-any.whl.zip --markdown 20230502/k/kcli/99.0.202304301944-99.0.202305022015/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [morgan-linter]: Downloading https://files.pythonhosted.org/packages/ab/41/4f0f4e3c197c253a7b555bae02fd00ee6748392a5b668ce27934012c6d6b/morgan_linter-1.2.0.tar.gz
+[2023-05-02 22:19:48] INFO root fetch - processPackages [mothertongues]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [mothertongues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mothertongues-0.18.20230410.tar.gz tmp/mothertongues-0.18.20230502.tar.gz --markdown 20230502/m/mothertongues/0.18.20230410-0.18.20230502/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [morgan-linter]: executing diffoscope
+[2023-05-02 22:19:48] INFO root fetch - processPackages [morgan-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morgan-linter-1.1.1.tar.gz tmp/morgan_linter-1.2.0.tar.gz --markdown 20230502/m/morgan-linter/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 22:19:48] INFO root fetch - processPackages [neurotechdevkit]: Downloading https://files.pythonhosted.org/packages/88/20/7a6c9b229544642d3a9e6cf604623d9b5fc1ac7ab3347de192c57f2269a6/neurotechdevkit-0.0.9.tar.gz
+[2023-05-02 22:19:49] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-02 22:19:49] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230502/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 22:19:50] INFO root fetch - processPackages [pycognaize]: Start processing: volttron-dnp3-outstation
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-05-02 22:19:50] INFO root fetch - processPackages [flipside]: Start processing: sentry-kafka-schemas
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [flipside]: success
+[2023-05-02 22:19:50] INFO root fetch - processPackages [volttron-dnp3-outstation]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-02 22:19:50] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 22:19:50] INFO root fetch - processPackages [morgan-linter]: Start processing: harlequin
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [morgan-linter]: success
+[2023-05-02 22:19:50] INFO root fetch - processPackages [harlequin]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 22:19:50] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/03/e3/6f833e28395797f6c20a8c546d4e23ff8ae315d4083bcb92f017ba5513b8/volttron_dnp3_outstation-0.1.1a1.tar.gz
+[2023-05-02 22:19:50] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/28/f7/65782c5e777a1e3ddaf96c4b8f09a9d3e0ca10fecf53d13a7aefac7322fa/sentry-kafka-schemas-0.1.2.tar.gz
+[2023-05-02 22:19:50] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/4c/d2/201e24e36a89b0228c0134c8b7820cc337fa89040914b0c7345f1126ce4b/harlequin-0.0.1.tar.gz
+[2023-05-02 22:19:50] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2023-05-02 22:19:50] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.1.tar.gz tmp/sentry-kafka-schemas-0.1.2.tar.gz --markdown 20230502/s/sentry-kafka-schemas/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [gymxq]: success
+[2023-05-02 22:19:50] INFO root fetch - processPackages [volttron-dnp3-outstation]: Downloading https://files.pythonhosted.org/packages/f9/17/af38263bf52b632cb2879e9be68c5428af363a878ea51a0e742cc8b190e3/volttron_dnp3_outstation-0.1.1a2.tar.gz
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-05-02 22:19:50] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/61/7d/14d40672e0809694915613024df402d350827347c6fe50eefa1f6da7d6d2/harlequin-0.0.2.tar.gz
+[2023-05-02 22:19:50] INFO root fetch - processPackages [volttron-dnp3-outstation]: executing diffoscope
+[2023-05-02 22:19:50] INFO root fetch - processPackages [volttron-dnp3-outstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_dnp3_outstation-0.1.1a1.tar.gz tmp/volttron_dnp3_outstation-0.1.1a2.tar.gz --markdown 20230502/v/volttron-dnp3-outstation/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-02 22:19:50] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-05-02 22:19:50] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.1.tar.gz tmp/harlequin-0.0.2.tar.gz --markdown 20230502/h/harlequin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-02 22:19:50] INFO root fetch - main [MainThread]: End processing [shroomdk]: success
+[2023-05-02 22:19:51] INFO root fetch - main [MainThread]: End processing [mothertongues]: success
+[2023-05-02 22:19:51] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-05-02 22:19:51] INFO root fetch - main [MainThread]: End processing [volttron-dnp3-outstation]: success
+[2023-05-02 22:19:52] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2023-05-02 22:19:55] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-02 22:19:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-02 22:19:55] INFO root fetch - main [MainThread]: Store serial: [17946701]
