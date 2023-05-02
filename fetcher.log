@@ -6499,3 +6499,65 @@
 [2023-05-02 07:40:29] INFO root fetch - processPackages [acc_provision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acc_provision-5.2.3.6rc4.tar.gz tmp/acc_provision-5.2.3.6rc5.tar.gz --markdown 20230502/a/acc_provision/5.2.3.6rc4-5.2.3.6rc5/diff.md --exclude *.pyd
 [2023-05-02 07:43:02] INFO root fetch - main [MainThread]: End processing [acc_provision]: success
 [2023-05-02 07:43:02] INFO root fetch - main [MainThread]: Store serial: [17936566]
+[2023-05-02 07:48:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936566]
+[2023-05-02 07:48:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylib-035
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-excuse-generator
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SDTcloud
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: katalytic-pkg
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphinity
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: widecity-image-downloader
+[2023-05-02 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-extension-functions
+[2023-05-02 07:48:11] INFO root fetch - processPackages [text-excuse-generator]: New version: [1.1.5.1] Old Version: [1.1.5]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [katalytic-pkg]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-02 07:48:11] WARNING root fetch - processPackages [alphinity]: Skipping, unable to determine old version
+[2023-05-02 07:48:11] INFO root fetch - processPackages [alphinity]: Start processing: widecity-image-downloader
+[2023-05-02 07:48:11] INFO root fetch - main [MainThread]: End processing [alphinity] error
+[2023-05-02 07:48:11] WARNING root fetch - processPackages [mylib-035]: Skipping, unable to determine old version
+[2023-05-02 07:48:11] INFO root fetch - main [MainThread]: End processing [mylib-035] error
+[2023-05-02 07:48:11] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230502.5.43.594614] Old Version: [20230501.23.18.816981]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230502.5.43.988532] Old Version: [20230501.23.17.716]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.5.44.464727] Old Version: [20230501.23.17.45153]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [py-extension-functions]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-02 07:48:11] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/51/7d/3f0d0b44fdad51b80ca644718f531e5f9a6e170c94d2265e49455684eceb/certora-cli-alpha-master-20230501.23.18.816981.tar.gz
+[2023-05-02 07:48:11] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/8c/82/71c26ecc47a068158d925b3c24b30a223839a74aec9478ab302313424b9a/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230501.23.17.45153.tar.gz
+[2023-05-02 07:48:11] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/0c/2e/cd6113d5539551b42df1b8f871bc49b48e39d459d7ed9ec85c8aa6e409a8/certora-cli-alpha-roy-CERT-1844-usage-20230501.23.17.716.tar.gz
+[2023-05-02 07:48:11] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38324578>=10485760
+[2023-05-02 07:48:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-02 07:48:11] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38324966>=10485760
+[2023-05-02 07:48:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 07:48:11] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38325867>=10485760
+[2023-05-02 07:48:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-02 07:48:11] INFO root fetch - processPackages [SDTcloud]: Downloading https://files.pythonhosted.org/packages/32/7a/c9bb9d5ebc2b91fb6a1187b9f6e55c1c5e2b45bbf41efa7eb9a5527ad620/SDTcloud-0.0.9.tar.gz
+[2023-05-02 07:48:11] INFO root fetch - processPackages [katalytic-pkg]: Downloading https://files.pythonhosted.org/packages/77/a6/2573fda1dbaeb591ca8968b0f4c5a940dfbb11fcf7ce59c9f9efeaa1a409/katalytic-pkg-0.4.0.tar.gz
+[2023-05-02 07:48:11] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/70/d5/953548c5da69c5f304ee3ca25db8a5d870607333784cbe78573b333877b5/widecity_image_downloader-0.0.0-py3-none-any.whl
+[2023-05-02 07:48:11] INFO root fetch - processPackages [text-excuse-generator]: Downloading https://files.pythonhosted.org/packages/4b/56/9f931351ef1a936a1f14e9bab7108aa1a129c107bd205105b3c6a15ac307/text_excuse_generator-1.1.5.1.tar.gz
+[2023-05-02 07:48:11] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/70/d5/953548c5da69c5f304ee3ca25db8a5d870607333784cbe78573b333877b5/widecity_image_downloader-0.0.0-py3-none-any.whl
+[2023-05-02 07:48:11] INFO root fetch - processPackages [py-extension-functions]: Downloading https://files.pythonhosted.org/packages/a4/fe/2fc42d52e63d8e70673e79879c5b387c15a980c4c6318d43bd1c86d08d39/py_extension_functions-0.0.6.tar.gz
+[2023-05-02 07:48:11] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-02 07:48:11] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.8.tar.gz tmp/SDTcloud-0.0.9.tar.gz --markdown 20230502/S/SDTcloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 07:48:11] INFO root fetch - processPackages [katalytic-pkg]: executing diffoscope
+[2023-05-02 07:48:11] INFO root fetch - processPackages [katalytic-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-pkg-0.3.0.tar.gz tmp/katalytic-pkg-0.4.0.tar.gz --markdown 20230502/k/katalytic-pkg/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-02 07:48:12] INFO root fetch - processPackages [text-excuse-generator]: executing diffoscope
+[2023-05-02 07:48:12] INFO root fetch - processPackages [text-excuse-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_excuse_generator-1.1.5.tar.gz tmp/text_excuse_generator-1.1.5.1.tar.gz --markdown 20230502/t/text-excuse-generator/1.1.5-1.1.5.1/diff.md --exclude *.pyd
+[2023-05-02 07:48:12] INFO root fetch - processPackages [py-extension-functions]: Downloading https://files.pythonhosted.org/packages/0c/80/fbb197f785b74b805be27614be6cb6cba26516e6d2617e9804b8db556eb0/py_extension_functions-0.0.7-py3-none-any.whl
+[2023-05-02 07:48:12] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/98/50/04cf877cf706bfc400e3ffee7d9f9f6356186d80ddcae204e32590204c7a/widecity_image_downloader-0.0.1-py3-none-any.whl
+[2023-05-02 07:48:12] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/98/50/04cf877cf706bfc400e3ffee7d9f9f6356186d80ddcae204e32590204c7a/widecity_image_downloader-0.0.1-py3-none-any.whl
+[2023-05-02 07:48:12] WARNING root fetch - processPackages [py-extension-functions]: Skipping package: exceeds size limit 19349942>=10485760
+[2023-05-02 07:48:12] INFO root fetch - main [MainThread]: End processing [py-extension-functions] error
+[2023-05-02 07:48:12] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:48:12] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.0-py3-none-any.whl.zip tmp/widecity_image_downloader-0.0.1-py3-none-any.whl.zip --markdown 20230502/w/widecity-image-downloader/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-02 07:48:12] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:48:12] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.0-py3-none-any.whl.zip tmp/widecity_image_downloader-0.0.1-py3-none-any.whl.zip --markdown 20230502/w/widecity-image-downloader/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-02 07:48:12] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-02 07:48:13] INFO root fetch - main [MainThread]: End processing [text-excuse-generator]: success
+[2023-05-02 07:48:13] INFO root fetch - main [MainThread]: End processing [katalytic-pkg]: success
+[2023-05-02 07:48:13] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:48:13] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:48:13] INFO root fetch - main [MainThread]: Store serial: [17936598]
