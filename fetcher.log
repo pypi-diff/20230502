@@ -6629,3 +6629,93 @@
 [2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [misura]: success
 [2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [code_genie]: success
 [2023-05-02 07:53:24] INFO root fetch - main [MainThread]: Store serial: [17936628]
+[2023-05-02 07:58:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936628]
+[2023-05-02 07:58:33] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misura
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkpoint-tool
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mylib022
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swiftshadow
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglet
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flake8-trio
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rime-sdk
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opsramp-analytics-utils
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mylib017
+[2023-05-02 07:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: je-auto-control
+[2023-05-02 07:58:33] INFO root fetch - processPackages [checkpoint-tool]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-02 07:58:33] WARNING root fetch - processPackages [mylib022]: Skipping, unable to determine old version
+[2023-05-02 07:58:33] INFO root fetch - processPackages [mylib022]: Start processing: mylib-042
+[2023-05-02 07:58:33] INFO root fetch - main [MainThread]: End processing [mylib022] error
+[2023-05-02 07:58:33] INFO root fetch - processPackages [swiftshadow]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 07:58:33] INFO root fetch - processPackages [misura]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 07:58:33] WARNING root fetch - processPackages [mylib017]: Skipping, unable to determine old version
+[2023-05-02 07:58:33] INFO root fetch - processPackages [mylib017]: Start processing: je-auto-control-dev
+[2023-05-02 07:58:33] INFO root fetch - main [MainThread]: End processing [mylib017] error
+[2023-05-02 07:58:33] INFO root fetch - processPackages [pyglet]: New version: [2.0b3] Old Version: [2.0b2]
+[2023-05-02 07:58:33] INFO root fetch - processPackages [flake8-trio]: New version: [23.5.1] Old Version: [23.2.5]
+[2023-05-02 07:58:33] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-02 07:58:33] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-02 07:58:33] WARNING root fetch - processPackages [mylib-042]: Skipping, unable to determine old version
+[2023-05-02 07:58:33] INFO root fetch - processPackages [mylib-042]: Start processing: mylib024
+[2023-05-02 07:58:33] INFO root fetch - main [MainThread]: End processing [mylib-042] error
+[2023-05-02 07:58:33] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc0] Old Version: [2.0.3]
+[2023-05-02 07:58:34] WARNING root fetch - processPackages [mylib024]: Skipping, unable to determine old version
+[2023-05-02 07:58:34] INFO root fetch - processPackages [mylib024]: Start processing: mylib043
+[2023-05-02 07:58:34] INFO root fetch - main [MainThread]: End processing [mylib024] error
+[2023-05-02 07:58:34] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 07:58:34] WARNING root fetch - processPackages [mylib043]: Skipping, unable to determine old version
+[2023-05-02 07:58:34] INFO root fetch - processPackages [mylib043]: Start processing: semterm
+[2023-05-02 07:58:34] INFO root fetch - main [MainThread]: End processing [mylib043] error
+[2023-05-02 07:58:34] INFO root fetch - processPackages [semterm]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-02 07:58:34] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/e2/b0/afd1554dfb9302ff0776260eb9963c98ad82422c05aa4f7346078bbb6fb7/rime_sdk-2.0.3.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/b0/66/c72605c7f840838246e73a415b7327e6296b828ba374f2f6525b58f9c39d/pyglet-2.0b2.zip
+[2023-05-02 07:58:34] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/98/75/1b56ebef4ae5cc2eea0b58d33c115d28715aa7b78c22b0ca36cbf600ac4d/opsramp-analytics-utils-3.3.0.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [flake8-trio]: Downloading https://files.pythonhosted.org/packages/26/c7/a3bbabb5394985bfba0cfa741412907c1eb522fa46bddaa926bec45bfb54/flake8-trio-23.2.5.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.0.0.tar.gz tmp/misura-1.1.0.tar.gz --markdown 20230502/m/misura/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [semterm]: Downloading https://files.pythonhosted.org/packages/ca/7a/ae41df0a1bf2219545aaf4cbd5b940dbcf8a75de5257d82c21b7b02f611c/semterm-0.2.0.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [checkpoint-tool]: Downloading https://files.pythonhosted.org/packages/01/8f/2c0f3432345afb00736be9b9f01b61e64c8969ab497244dac6c700ea2d7d/checkpoint_tool-0.6.0.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [swiftshadow]: Downloading https://files.pythonhosted.org/packages/35/95/a33830670dc61ec2e7e14e353ac8c6d8982195be61b2690eb2c503f25e2b/swiftshadow-0.2.1.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.3.tar.gz tmp/rime_sdk-2.1.0rc0.tar.gz --markdown 20230502/r/rime-sdk/2.0.3-2.1.0rc0/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [checkpoint-tool]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [checkpoint-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkpoint_tool-0.5.0.tar.gz tmp/checkpoint_tool-0.6.0.tar.gz --markdown 20230502/c/checkpoint-tool/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230502/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [swiftshadow]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [swiftshadow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftshadow-0.2.0.tar.gz tmp/swiftshadow-0.2.1.tar.gz --markdown 20230502/s/swiftshadow/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.8.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230502/j/je-auto-control-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [semterm]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [semterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semterm-0.1.1.tar.gz tmp/semterm-0.2.0.tar.gz --markdown 20230502/s/semterm/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [flake8-trio]: Downloading https://files.pythonhosted.org/packages/3c/9b/9e921b2909691d0f041c94dd12d3caa2fb30df4012d3179e4404158239f6/flake8-trio-23.5.1.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/cf/36/6c4078962359edfc20f7c927a7fd851f0b5c6296dc17d65a8dd2b20255ce/opsramp-analytics-utils-3.3.1.tar.gz
+[2023-05-02 07:58:34] INFO root fetch - processPackages [flake8-trio]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [flake8-trio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-trio-23.2.5.tar.gz tmp/flake8-trio-23.5.1.tar.gz --markdown 20230502/f/flake8-trio/23.2.5-23.5.1/diff.md --exclude *.pyd
+[2023-05-02 07:58:34] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2023-05-02 07:58:34] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.3.0.tar.gz tmp/opsramp-analytics-utils-3.3.1.tar.gz --markdown 20230502/o/opsramp-analytics-utils/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-02 07:58:36] INFO root fetch - processPackages [misura]: Start processing: mylib-021
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-05-02 07:58:36] WARNING root fetch - processPackages [mylib-021]: Skipping, unable to determine old version
+[2023-05-02 07:58:36] INFO root fetch - processPackages [mylib-021]: Start processing: mylib-032
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [mylib-021] error
+[2023-05-02 07:58:36] WARNING root fetch - processPackages [mylib-032]: Skipping, unable to determine old version
+[2023-05-02 07:58:36] INFO root fetch - processPackages [mylib-032]: Start processing: mylib1-048
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [mylib-032] error
+[2023-05-02 07:58:36] INFO root fetch - processPackages [checkpoint-tool]: Start processing: mylib002
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [checkpoint-tool]: success
+[2023-05-02 07:58:36] WARNING root fetch - processPackages [mylib1-048]: Skipping, unable to determine old version
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [mylib1-048] error
+[2023-05-02 07:58:36] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/e5/d7/8898edcdc4dc6df2512d51739c4e6c1e6261d8ebd7e27cb59923c7a2cbb5/pyglet-2.0b3.zip
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [semterm]: success
+[2023-05-02 07:58:36] WARNING root fetch - processPackages [mylib002]: Skipping, unable to determine old version
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [mylib002] error
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [swiftshadow]: success
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-05-02 07:58:36] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2023-05-02 07:58:37] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-05-02 07:58:37] INFO root fetch - main [MainThread]: End processing [flake8-trio]: success
+[2023-05-02 07:58:37] INFO root fetch - processPackages [pyglet]: executing diffoscope
+[2023-05-02 07:58:37] INFO root fetch - processPackages [pyglet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglet-2.0b2.zip tmp/pyglet-2.0b3.zip --markdown 20230502/p/pyglet/2.0b2-2.0b3/diff.md --exclude *.pyd
+[2023-05-02 07:58:39] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-05-02 07:58:48] INFO root fetch - main [MainThread]: End processing [pyglet]: success
+[2023-05-02 07:58:48] INFO root fetch - main [MainThread]: Store serial: [17936697]
