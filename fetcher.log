@@ -20136,3 +20136,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 20:52:39] INFO root fetch - main [MainThread]: End processing [bittensor]: success
 [2023-05-02 20:52:44] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-05-02 20:52:44] INFO root fetch - main [MainThread]: Store serial: [17945637]
+[2023-05-02 20:57:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945637]
+[2023-05-02 20:57:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-digitalocean
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rms-fpzip
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-embeddings-builder
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overloaded-iterables
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instapy2
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymicro365
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-embeddings-builder
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: overloaded-iterables
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-05-02 20:57:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sortedness
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.21] Old Version: [0.7.19]
+[2023-05-02 20:57:55] WARNING root fetch - processPackages [sphinx-embeddings-builder]: Skipping, unable to determine old version
+[2023-05-02 20:57:55] INFO root fetch - processPackages [sphinx-embeddings-builder]: Start processing: erdetect
+[2023-05-02 20:57:55] INFO root fetch - main [MainThread]: End processing [sphinx-embeddings-builder] error
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pymicro365]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 20:57:55] INFO root fetch - processPackages [instapy2]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-05-02 20:57:55] INFO root fetch - processPackages [rms-fpzip]: New version: [1.2.3] Old Version: [1.2.1]
+[2023-05-02 20:57:55] INFO root fetch - processPackages [sortedness]: New version: [0.230501.9] Old Version: [0.230501.8]
+[2023-05-02 20:57:55] WARNING root fetch - processPackages [sphinx-embeddings-builder]: Skipping, unable to determine old version
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.21] Old Version: [0.7.19]
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2023-05-02 20:57:55] INFO root fetch - main [MainThread]: End processing [sphinx-embeddings-builder] error
+[2023-05-02 20:57:55] INFO root fetch - processPackages [erdetect]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-02 20:57:55] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-02 20:57:55] INFO root fetch - processPackages [sortedness]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [sortedness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortedness-0.230501.8.tar.gz tmp/sortedness-0.230501.9.tar.gz --markdown 20230502/s/sortedness/0.230501.8-0.230501.9/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pymicro365]: Downloading https://files.pythonhosted.org/packages/46/e0/bfd5dff724ab0fddaf9eedca91a5d2f3655b79d66005b75d7dc6196a1323/pymicro365-0.0.4.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/bb/56/e031cad9e2899953dbbbf4ecbfa9d331b755e9c27b7b9d5ae6b4e808f094/overloaded-iterables-0.7.19.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/bb/56/e031cad9e2899953dbbbf4ecbfa9d331b755e9c27b7b9d5ae6b4e808f094/overloaded-iterables-0.7.19.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [rms-fpzip]: Downloading https://files.pythonhosted.org/packages/9b/b0/ff1481706be9bad67e2b0249b5a9e08d4a1d76a27c901f72d1dd8f84bca4/rms_fpzip-1.2.1-cp39-cp39-win_amd64.whl
+[2023-05-02 20:57:55] INFO root fetch - processPackages [instapy2]: Downloading https://files.pythonhosted.org/packages/7a/ed/e3c36ae86157b75b10b815a2c0486dbfcecc7f14c82f1379c14a07b0b6d8/instapy2-0.0.27.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230502/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [erdetect]: Downloading https://files.pythonhosted.org/packages/bc/ca/8458affdf75030f814166edaa9c86a1b2428c85cd912943833317a0d414d/erdetect-2.0.0.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20230502/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pymicro365]: Downloading https://files.pythonhosted.org/packages/3e/dc/bf8c22b51eca106f60f3d90a026d6a753be54703fc7e0f22680d37376e65/pymicro365-0.0.5.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/c9/56/e3f67b4bf8f60444ce935172ac79a95927d5769eb4661c6f7ab7355e0c8b/overloaded-iterables-0.7.21.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/c9/56/e3f67b4bf8f60444ce935172ac79a95927d5769eb4661c6f7ab7355e0c8b/overloaded-iterables-0.7.21.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [instapy2]: Downloading https://files.pythonhosted.org/packages/c3/ab/09bf87c0e4500f6d4152ee8036ff738e4fb92ea5eff95a99a9f0c34b4eec/instapy2-0.0.28.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [rms-fpzip]: Downloading https://files.pythonhosted.org/packages/ea/89/a4059a9cb77ae41bc929f779ed20fd9386322096271912c2fd87588aa94f/rms_fpzip-1.2.3-cp310-cp310-macosx_10_9_x86_64.whl
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pymicro365]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [pymicro365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymicro365-0.0.4.tar.gz tmp/pymicro365-0.0.5.tar.gz --markdown 20230502/p/pymicro365/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [erdetect]: Downloading https://files.pythonhosted.org/packages/87/4b/6c75fff82fec1cd8c2e04bec0114fe7be9ba1dffeb1af5344fc4433f6170/erdetect-2.1.0.tar.gz
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.19.tar.gz tmp/overloaded-iterables-0.7.21.tar.gz --markdown 20230502/o/overloaded-iterables/0.7.19-0.7.21/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.19.tar.gz tmp/overloaded-iterables-0.7.21.tar.gz --markdown 20230502/o/overloaded-iterables/0.7.19-0.7.21/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [instapy2]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [instapy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instapy2-0.0.27.tar.gz tmp/instapy2-0.0.28.tar.gz --markdown 20230502/i/instapy2/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [erdetect]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [erdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdetect-2.0.0.tar.gz tmp/erdetect-2.1.0.tar.gz --markdown 20230502/e/erdetect/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-02 20:57:55] INFO root fetch - processPackages [rms-fpzip]: executing diffoscope
+[2023-05-02 20:57:55] INFO root fetch - processPackages [rms-fpzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rms_fpzip-1.2.1-cp39-cp39-win_amd64.whl.zip tmp/rms_fpzip-1.2.3-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20230502/r/rms-fpzip/1.2.1-1.2.3/diff.md --exclude *.pyd
+[2023-05-02 20:57:56] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-02 20:57:56] INFO root fetch - main [MainThread]: End processing [pymicro365]: success
+[2023-05-02 20:57:57] INFO root fetch - main [MainThread]: End processing [rms-fpzip]: success
+[2023-05-02 20:57:57] INFO root fetch - main [MainThread]: End processing [instapy2]: success
+[2023-05-02 20:57:57] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2023-05-02 20:57:57] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-02 20:57:57] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-02 20:57:57] INFO root fetch - main [MainThread]: End processing [erdetect]: success
+[2023-05-02 20:57:59] INFO root fetch - main [MainThread]: End processing [sortedness]: success
+[2023-05-02 20:57:59] INFO root fetch - main [MainThread]: Store serial: [17945685]
