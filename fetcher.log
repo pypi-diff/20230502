@@ -23033,3 +23033,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 23:18:43] INFO root fetch - main [MainThread]: End processing [mkdocs]: success
 [2023-05-02 23:18:43] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-02 23:18:43] INFO root fetch - main [MainThread]: Store serial: [17947193]
+[2023-05-02 23:23:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947193]
+[2023-05-02 23:23:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 23:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbot
+[2023-05-02 23:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbot
+[2023-05-02 23:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UQpy
+[2023-05-02 23:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaaql-monitor
+[2023-05-02 23:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mayalbl
+[2023-05-02 23:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MultivariaTeach
+[2023-05-02 23:23:54] INFO root fetch - processPackages [bbot]: New version: [1.0.5.1665] Old Version: [1.0.5.1663rc0]
+[2023-05-02 23:23:54] WARNING root fetch - processPackages [mayalbl]: Skipping, unable to determine old version
+[2023-05-02 23:23:54] INFO root fetch - main [MainThread]: End processing [mayalbl] error
+[2023-05-02 23:23:54] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.21] Old Version: [1.2.20]
+[2023-05-02 23:23:54] INFO root fetch - processPackages [MultivariaTeach]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 23:23:54] INFO root fetch - processPackages [bbot]: New version: [1.0.5.1665] Old Version: [1.0.5.1663rc0]
+[2023-05-02 23:23:54] INFO root fetch - processPackages [UQpy]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-05-02 23:23:54] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/19/5d/63cd39c79ebadd27db05174c6e632a950a1ad37111ac9d7b457b94b2e8fe/bbot-1.0.5.1663rc0.tar.gz
+[2023-05-02 23:23:54] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/19/5d/63cd39c79ebadd27db05174c6e632a950a1ad37111ac9d7b457b94b2e8fe/bbot-1.0.5.1663rc0.tar.gz
+[2023-05-02 23:23:54] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/41/e0/846b8c09b7822e9b7ec2601519021df0dd6747f014c394b5ba4f5347e825/jaaql-monitor-1.2.20.tar.gz
+[2023-05-02 23:23:54] INFO root fetch - processPackages [MultivariaTeach]: Downloading https://files.pythonhosted.org/packages/04/ec/a10567f734f519c1baec2995153b355e311e5f2302a5438822a77f91a6b4/MultivariaTeach-0.1.5.tar.gz
+[2023-05-02 23:23:54] INFO root fetch - processPackages [MultivariaTeach]: executing diffoscope
+[2023-05-02 23:23:54] INFO root fetch - processPackages [MultivariaTeach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultivariaTeach-0.1.4.tar.gz tmp/MultivariaTeach-0.1.5.tar.gz --markdown 20230502/M/MultivariaTeach/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 23:23:54] INFO root fetch - processPackages [UQpy]: Downloading https://files.pythonhosted.org/packages/c9/d1/a9c21e4d0ae99804a3d9671b2b8af3a1a5940f89899afc6191e53ebc01f8/UQpy-4.1.1.tar.gz
+[2023-05-02 23:23:55] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/63/93/db4dba0de744423d957faca1ceea37d986e501cde88c5713d493e28a201d/jaaql-monitor-1.2.21.tar.gz
+[2023-05-02 23:23:55] INFO root fetch - processPackages [UQpy]: executing diffoscope
+[2023-05-02 23:23:55] INFO root fetch - processPackages [UQpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UQpy-4.1.0.tar.gz tmp/UQpy-4.1.1.tar.gz --markdown 20230502/U/UQpy/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-05-02 23:23:55] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 23:23:55] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.20.tar.gz tmp/jaaql-monitor-1.2.21.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.20-1.2.21/diff.md --exclude *.pyd
+[2023-05-02 23:23:55] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0b/df/4afd9aeca87c7f7c1ad2a15368b9fa27c3892e3923f8c3ea4614e6cb8956/bbot-1.0.5.1665.tar.gz
+[2023-05-02 23:23:55] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0b/df/4afd9aeca87c7f7c1ad2a15368b9fa27c3892e3923f8c3ea4614e6cb8956/bbot-1.0.5.1665.tar.gz
+[2023-05-02 23:23:55] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-05-02 23:23:55] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.0.5.1663rc0.tar.gz tmp/bbot-1.0.5.1665.tar.gz --markdown 20230502/b/bbot/1.0.5.1663rc0-1.0.5.1665/diff.md --exclude *.pyd
+[2023-05-02 23:23:55] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2023-05-02 23:23:55] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.0.5.1663rc0.tar.gz tmp/bbot-1.0.5.1665.tar.gz --markdown 20230502/b/bbot/1.0.5.1663rc0-1.0.5.1665/diff.md --exclude *.pyd
+[2023-05-02 23:23:56] INFO root fetch - main [MainThread]: End processing [MultivariaTeach]: success
+[2023-05-02 23:23:56] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 23:23:57] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-05-02 23:23:57] INFO root fetch - main [MainThread]: End processing [UQpy]: success
+[2023-05-02 23:23:57] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2023-05-02 23:23:57] INFO root fetch - main [MainThread]: Store serial: [17947215]
