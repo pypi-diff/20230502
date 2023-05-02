@@ -11621,3 +11621,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:30:28] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-02 13:30:30] INFO root fetch - main [MainThread]: End processing [flow360]: success
 [2023-05-02 13:30:30] INFO root fetch - main [MainThread]: Store serial: [17939799]
+[2023-05-02 13:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939799]
+[2023-05-02 13:35:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pract-1
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodered.py
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slackybot
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srtlst
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotControl
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JFIO
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WhooshSms
+[2023-05-02 13:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liblib1
+[2023-05-02 13:35:40] INFO root fetch - processPackages [srtlst]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 13:35:40] WARNING root fetch - processPackages [pract-1]: Skipping, unable to determine old version
+[2023-05-02 13:35:40] INFO root fetch - processPackages [slackybot]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 13:35:40] INFO root fetch - processPackages [pract-1]: Start processing: njet
+[2023-05-02 13:35:40] INFO root fetch - main [MainThread]: End processing [pract-1] error
+[2023-05-02 13:35:40] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230502.11.32.151823] Old Version: [20230502.10.44.12804]
+[2023-05-02 13:35:40] INFO root fetch - processPackages [nodered.py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-02 13:35:40] INFO root fetch - processPackages [JFIO]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 13:35:40] INFO root fetch - processPackages [robotControl]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-05-02 13:35:40] INFO root fetch - processPackages [WhooshSms]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 13:35:40] WARNING root fetch - processPackages [liblib1]: Skipping, unable to determine old version
+[2023-05-02 13:35:40] INFO root fetch - processPackages [liblib1]: Start processing: core-braincube-dev
+[2023-05-02 13:35:40] INFO root fetch - main [MainThread]: End processing [liblib1] error
+[2023-05-02 13:35:40] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 13:35:41] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-02 13:35:41] INFO root fetch - processPackages [njet]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-02 13:35:41] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-1.0.4.tar.gz tmp/robotControl-1.0.6.tar.gz --markdown 20230502/r/robotControl/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/04/f0/a600e7119bc50676ca8ca5f1ae39b8be27f6fc701456d5bb41c9b91aa13b/certora-cli-alpha-roy-CERT-1955-assertHits-20230502.10.44.12804.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [slackybot]: Downloading https://files.pythonhosted.org/packages/39/00/4e5902a2c139e81a14f7310b9ab5928f2749e9e3635c0107c6c6d4d75d80/slackybot-1.0.0.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [WhooshSms]: Downloading https://files.pythonhosted.org/packages/7b/da/92f058c86889635b82063f7b921d36498c9bf9034da57582e355338bbcf5/WhooshSms-0.1.0.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230502/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/a9/b0/0dd5e8e52b257f5e9d46b6ab35e9482afb4e676980fb061472e7f777b094/JFIO-0.0.1.tar.gz
+[2023-05-02 13:35:41] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 38364591>=10485760
+[2023-05-02 13:35:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-02 13:35:41] INFO root fetch - processPackages [srtlst]: Downloading https://files.pythonhosted.org/packages/63/e6/be461f41f40c5c1ebc0efab88dc316ef8adf0da381298c2c62171fc05c66/srtlst-0.1.0.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/02/3e/59bb34a17cf106106e5296f4d76a7df72b60b0ee10919a49e43569fdac34/nodered.py-0.1.4.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [core-braincube-dev]: Downloading https://files.pythonhosted.org/packages/b3/ea/89b69d554c5dc73d293a81e53d19c39b088da6040566120a8c141bf60ae6/core-braincube-dev-0.0.1.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.1.3.tar.gz tmp/nodered.py-0.1.4.tar.gz --markdown 20230502/n/nodered.py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [njet]: Downloading https://files.pythonhosted.org/packages/98/a1/abd4b7d180ebbbc1da9caa2962526a3f15453b0b9860e5da6de0be4fd2bd/njet-0.5.1.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [WhooshSms]: Downloading https://files.pythonhosted.org/packages/1e/ed/b6a5b5d40ef864429f04b5f6d9b9e3b47498c486807d1878cc1cc57a34ef/WhooshSms-0.1.1.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [slackybot]: Downloading https://files.pythonhosted.org/packages/82/da/1f3aa1c62bb15513c3dc475246753995c391e16a0a958edd273f678b4f58/slackybot-1.0.1.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [core-braincube-dev]: Downloading https://files.pythonhosted.org/packages/80/5c/9b955277cc6de81b03b94be0cd7571e09d51ae0d37d889f5aeac6002319c/core-braincube-dev-0.0.2.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [srtlst]: Downloading https://files.pythonhosted.org/packages/8d/bd/8cecd15e536da2629231bbd197c0d7438589d367994318f37506be5eea5c/srtlst-0.1.1.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [slackybot]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [slackybot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackybot-1.0.0.tar.gz tmp/slackybot-1.0.1.tar.gz --markdown 20230502/s/slackybot/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.1.tar.gz tmp/core-braincube-dev-0.0.2.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [WhooshSms]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [srtlst]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [WhooshSms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WhooshSms-0.1.0.tar.gz tmp/WhooshSms-0.1.1.tar.gz --markdown 20230502/W/WhooshSms/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [srtlst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srtlst-0.1.0.tar.gz tmp/srtlst-0.1.1.tar.gz --markdown 20230502/s/srtlst/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [njet]: Downloading https://files.pythonhosted.org/packages/82/66/142e17db802d4d66d4ec67461d96a41c4bfdfc81721505d51acd32ea2f73/njet-0.5.2.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/c5/d0/ee51ad62a6aaf064de093b212c1384402b206654655735ae9f9c7cf8e442/JFIO-0.0.2.tar.gz
+[2023-05-02 13:35:41] INFO root fetch - processPackages [njet]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [njet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/njet-0.5.1.tar.gz tmp/njet-0.5.2.tar.gz --markdown 20230502/n/njet/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:35:41] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-02 13:35:41] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-0.0.1.tar.gz tmp/JFIO-0.0.2.tar.gz --markdown 20230502/J/JFIO/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 13:35:42] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 13:35:42] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-05-02 13:35:43] INFO root fetch - main [MainThread]: End processing [srtlst]: success
+[2023-05-02 13:35:43] INFO root fetch - main [MainThread]: End processing [slackybot]: success
+[2023-05-02 13:35:43] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 13:35:44] INFO root fetch - main [MainThread]: End processing [njet]: success
+[2023-05-02 13:35:45] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-02 13:35:51] INFO root fetch - main [MainThread]: End processing [WhooshSms]: success
+[2023-05-02 13:36:19] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-02 13:36:19] INFO root fetch - main [MainThread]: Store serial: [17939838]
