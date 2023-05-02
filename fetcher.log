@@ -17859,3 +17859,145 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 18:49:57] INFO root fetch - main [MainThread]: End processing [gersemi]: success
 [2023-05-02 18:50:01] INFO root fetch - main [MainThread]: End processing [whacc]: success
 [2023-05-02 18:50:01] INFO root fetch - main [MainThread]: Store serial: [17943932]
+[2023-05-02 18:55:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943932]
+[2023-05-02 18:55:11] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cidc-api-modules
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netcontrol
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-astropy-timeseries-binning
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchrl-nightly
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resolwe
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syscryptlibV2
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensordict-nightly
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: limacharlie
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rclone-python
+[2023-05-02 18:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djangoldp-application
+[2023-05-02 18:55:12] INFO root fetch - processPackages [netcontrol]: New version: [1.94] Old Version: [1.93]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [limacharlie]: New version: [4.4.6] Old Version: [4.4.5]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [netcontrol]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [netcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcontrol-1.93.tar.gz tmp/netcontrol-1.94.tar.gz --markdown 20230502/n/netcontrol/1.93-1.94/diff.md --exclude *.pyd
+[2023-05-02 18:55:12] WARNING root fetch - processPackages [syscryptlibV2]: Skipping, unable to determine old version
+[2023-05-02 18:55:12] INFO root fetch - processPackages [syscryptlibV2]: Start processing: pywxdll
+[2023-05-02 18:55:12] INFO root fetch - main [MainThread]: End processing [syscryptlibV2] error
+[2023-05-02 18:55:12] WARNING root fetch - processPackages [fast-astropy-timeseries-binning]: Skipping, unable to determine old version
+[2023-05-02 18:55:12] INFO root fetch - processPackages [fast-astropy-timeseries-binning]: Start processing: deeplcretrainer
+[2023-05-02 18:55:12] INFO root fetch - main [MainThread]: End processing [fast-astropy-timeseries-binning] error
+[2023-05-02 18:55:12] INFO root fetch - processPackages [djangoldp-application]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [rclone-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.2] Old Version: [2023.4.2]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [pywxdll]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [deeplcretrainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [cidc-api-modules]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [limacharlie]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [limacharlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limacharlie-4.4.5.tar.gz tmp/limacharlie-4.4.6.tar.gz --markdown 20230502/l/limacharlie/4.4.5-4.4.6/diff.md --exclude *.pyd
+[2023-05-02 18:55:12] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.5.2] Old Version: [2023.4.2]
+[2023-05-02 18:55:12] INFO root fetch - processPackages [pywxdll]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [pywxdll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdll-0.1.1.tar.gz tmp/pywxdll-0.1.2.tar.gz --markdown 20230502/p/pywxdll/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 18:55:12] INFO root fetch - processPackages [deeplcretrainer]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [deeplcretrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplcretrainer-0.1.8.tar.gz tmp/deeplcretrainer-0.1.9.tar.gz --markdown 20230502/d/deeplcretrainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 18:55:12] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/36/ff/86cfb37779571b3631d74e08b7149d8dd8be5d1b20b224a91529bdaf5b11/rclone-python-0.1.3.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/2e/1c/522c2175159a2234f8846c0ef46ecbe3dff604e6e5ba541a9493a9c86ab7/djangoldp_application-1.0.8.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e3/1f/f4bb9ab413b6ee567e197227d21fcafeff3897ba58b3e0937058ab49ee51/tensordict_nightly-2023.4.2-py39-none-any.whl
+[2023-05-02 18:55:12] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/79/07/22424cba35a0e3b28dbe23eecd58b3ca4a2ae1137ff0afb126ec8fbf16b7/cidc_api_modules-0.9.4.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/2f/e4/07822dc759af1bace14de8690c3b7976d11b959e1f67349ac7fe817a0122/torchrl_nightly-2023.4.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-02 18:55:12] INFO root fetch - processPackages [rclone-python]: Downloading https://files.pythonhosted.org/packages/cb/9a/1d11ebe8bada58a27828b1f65502677e61e6998210ca94331cb4111db84d/rclone-python-0.1.4.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [djangoldp-application]: Downloading https://files.pythonhosted.org/packages/06/fb/55007c4c5a878c8beece5afc51b811e672f188022d8b4fad5c06a518ec9d/djangoldp_application-1.0.9.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [rclone-python]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [rclone-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclone-python-0.1.3.tar.gz tmp/rclone-python-0.1.4.tar.gz --markdown 20230502/r/rclone-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 18:55:12] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/4d/86/3d46cbe686ce463b669a7ef36c005f027e5cd01a88f1b824e29d09f81de4/tensordict_nightly-2023.5.2-py39-none-any.whl
+[2023-05-02 18:55:12] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/c9/34/b62315a1e0edf5a647d6e601467f4c0c4a039f8877c021f1643b04d153e8/cidc_api_modules-0.9.5.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-05-02 18:55:12] INFO root fetch - processPackages [djangoldp-application]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [djangoldp-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_application-1.0.8.tar.gz tmp/djangoldp_application-1.0.9.tar.gz --markdown 20230502/d/djangoldp-application/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 18:55:12] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-02 18:55:12] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.4.2-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.2-py39-none-any.whl.zip --markdown 20230502/t/tensordict-nightly/2023.4.2-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 18:55:13] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-05-02 18:55:13] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230502/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-02 18:55:13] INFO root fetch - processPackages [cidc-api-modules]: executing diffoscope
+[2023-05-02 18:55:13] INFO root fetch - processPackages [cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidc_api_modules-0.9.4.tar.gz tmp/cidc_api_modules-0.9.5.tar.gz --markdown 20230502/c/cidc-api-modules/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 18:55:13] INFO root fetch - processPackages [deeplcretrainer]: Start processing: pyfasttrack
+[2023-05-02 18:55:13] INFO root fetch - main [MainThread]: End processing [deeplcretrainer]: success
+[2023-05-02 18:55:13] INFO root fetch - processPackages [pywxdll]: Start processing: peptacular
+[2023-05-02 18:55:13] INFO root fetch - main [MainThread]: End processing [pywxdll]: success
+[2023-05-02 18:55:13] INFO root fetch - processPackages [pyfasttrack]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-02 18:55:13] INFO root fetch - processPackages [peptacular]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 18:55:13] INFO root fetch - processPackages [pyfasttrack]: Downloading https://files.pythonhosted.org/packages/86/1f/09af223eeb050e6b460ef0ad522949d9623b7098f7b24fd55f573257252f/pyfasttrack-0.0.0-py2.py3-none-any.whl
+[2023-05-02 18:55:13] INFO root fetch - processPackages [limacharlie]: Start processing: hat-gateway
+[2023-05-02 18:55:13] INFO root fetch - main [MainThread]: End processing [limacharlie]: success
+[2023-05-02 18:55:13] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/26/3c/86c96538bc847d0382e1ef0fa666f4275da0e530ddca090841e2765cbf7e/torchrl_nightly-2023.5.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-02 18:55:13] INFO root fetch - processPackages [netcontrol]: Start processing: pvlive-api
+[2023-05-02 18:55:13] INFO root fetch - main [MainThread]: End processing [netcontrol]: success
+[2023-05-02 18:55:13] INFO root fetch - processPackages [peptacular]: Downloading https://files.pythonhosted.org/packages/67/40/8bdedb3acaab3259e0a0bb02b936ff4e94e9c1a90869bd878b24b947ce01/peptacular-0.0.3.tar.gz
+[2023-05-02 18:55:13] INFO root fetch - processPackages [hat-gateway]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-02 18:55:13] INFO root fetch - processPackages [pvlive-api]: New version: [1.0.0] Old Version: [0.12]
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pyfasttrack]: Downloading https://files.pythonhosted.org/packages/9b/ea/ff4ffed7510fdd61bc40a805518c9e295295be7f629488a12cdb5f13baf6/pyfasttrack-0.0.1-py2.py3-none-any.whl
+[2023-05-02 18:55:14] INFO root fetch - processPackages [peptacular]: Downloading https://files.pythonhosted.org/packages/ff/fa/074b9ecc724bc556b293a538103919d4120366e73ef01433b2eef6bca72c/peptacular-0.0.4.tar.gz
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pvlive-api]: Downloading https://files.pythonhosted.org/packages/a3/ca/05eaaa4ff741f34c2ac39cca42c60e39e2d46e9c5b6d377144589f921400/pvlive_api-0.12.tar.gz
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pyfasttrack]: executing diffoscope
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pyfasttrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfasttrack-0.0.0-py2.py3-none-any.whl.zip tmp/pyfasttrack-0.0.1-py2.py3-none-any.whl.zip --markdown 20230502/p/pyfasttrack/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-02 18:55:14] INFO root fetch - processPackages [djangoldp-application]: Start processing: drf-integrations-framework
+[2023-05-02 18:55:14] INFO root fetch - main [MainThread]: End processing [djangoldp-application]: success
+[2023-05-02 18:55:14] INFO root fetch - processPackages [peptacular]: executing diffoscope
+[2023-05-02 18:55:14] INFO root fetch - processPackages [peptacular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peptacular-0.0.3.tar.gz tmp/peptacular-0.0.4.tar.gz --markdown 20230502/p/peptacular/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 18:55:14] INFO root fetch - processPackages [drf-integrations-framework]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-05-02 18:55:14] INFO root fetch - processPackages [hat-gateway]: executing diffoscope
+[2023-05-02 18:55:14] INFO root fetch - processPackages [hat-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_gateway-0.5.8-cp38.cp39-none-any.whl.zip tmp/hat_gateway-0.5.9-cp38.cp39-none-any.whl.zip --markdown 20230502/h/hat-gateway/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-02 18:55:14] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-05-02 18:55:14] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.4.2-cp39-cp39-manylinux1_x86_64.whl.zip tmp/torchrl_nightly-2023.5.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230502/t/torchrl-nightly/2023.4.2-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 18:55:14] INFO root fetch - processPackages [rclone-python]: Start processing: snort-web-master
+[2023-05-02 18:55:14] INFO root fetch - main [MainThread]: End processing [rclone-python]: success
+[2023-05-02 18:55:14] INFO root fetch - processPackages [drf-integrations-framework]: Downloading https://files.pythonhosted.org/packages/05/3c/b94900c580293ae90d893fd0a7232e260890f41bf3161b1c37d8b649d441/drf_integrations_framework-0.8.5.tar.gz
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pvlive-api]: Downloading https://files.pythonhosted.org/packages/7f/42/ea043e233424314196b380d8495f70cfe767f2f68cc4a650514540e84028/pvlive_api-1.0.0.tar.gz
+[2023-05-02 18:55:14] INFO root fetch - processPackages [tensordict-nightly]: Start processing: omicscope
+[2023-05-02 18:55:14] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pvlive-api]: executing diffoscope
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pvlive-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvlive_api-0.12.tar.gz tmp/pvlive_api-1.0.0.tar.gz --markdown 20230502/p/pvlive-api/0.12-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 18:55:14] INFO root fetch - processPackages [omicscope]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-02 18:55:14] INFO root fetch - processPackages [drf-integrations-framework]: Downloading https://files.pythonhosted.org/packages/6a/21/7b8e038a3dad4a2952e13545122a3171574880906fcd3057468600766aa6/drf_integrations_framework-0.8.6.tar.gz
+[2023-05-02 18:55:14] INFO root fetch - processPackages [cidc-api-modules]: Start processing: pystv
+[2023-05-02 18:55:14] INFO root fetch - main [MainThread]: End processing [cidc-api-modules]: success
+[2023-05-02 18:55:14] INFO root fetch - processPackages [pystv]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-02 18:55:14] INFO root fetch - processPackages [omicscope]: Downloading https://files.pythonhosted.org/packages/3b/75/5f8a2129c02bdc396b5a9715f127e7666fc5a85e0ff3589864c8e59414e9/omicscope-1.0.6.tar.gz
+[2023-05-02 18:55:14] INFO root fetch - processPackages [drf-integrations-framework]: executing diffoscope
+[2023-05-02 18:55:14] INFO root fetch - processPackages [drf-integrations-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_integrations_framework-0.8.5.tar.gz tmp/drf_integrations_framework-0.8.6.tar.gz --markdown 20230502/d/drf-integrations-framework/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-05-02 18:55:15] INFO root fetch - processPackages [pystv]: Downloading https://files.pythonhosted.org/packages/3a/4c/e8fb04898953ab8c1a13bdece9ebb5ae5643f942dcd8b892340eed63db32/pystv-0.8.1.tar.gz
+[2023-05-02 18:55:15] INFO root fetch - processPackages [peptacular]: Start processing: ofa2
+[2023-05-02 18:55:15] INFO root fetch - main [MainThread]: End processing [peptacular]: success
+[2023-05-02 18:55:15] INFO root fetch - processPackages [pyfasttrack]: Start processing: ManagerTk
+[2023-05-02 18:55:15] INFO root fetch - main [MainThread]: End processing [pyfasttrack]: success
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305021354] Old Version: [0.1.0.post202305011538]
+[2023-05-02 18:55:15] WARNING root fetch - processPackages [omicscope]: Skipping package: exceeds size limit 29093476>=10485760
+[2023-05-02 18:55:15] INFO root fetch - processPackages [omicscope]: Start processing: ccxt
+[2023-05-02 18:55:15] INFO root fetch - main [MainThread]: End processing [omicscope] error
+[2023-05-02 18:55:15] INFO root fetch - processPackages [snort-web-master]: New version: [0.2.2.0] Old Version: [0.2.1.2]
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ManagerTk]: New version: [0.3] Old Version: [0.1.post2]
+[2023-05-02 18:55:15] INFO root fetch - processPackages [pystv]: Downloading https://files.pythonhosted.org/packages/1a/00/cbaab1718442b0a35b5f3218e3c50869a83dc09c2bc1c3b551e5e94cbde1/pystv-0.9.0.tar.gz
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.88]
+[2023-05-02 18:55:15] INFO root fetch - main [MainThread]: End processing [hat-gateway]: success
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.88.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230502/c/ccxt/3.0.88-3.0.9/diff.md --exclude *.pyd
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/75/da/05030e7596ffd7b4b528be14f7d598a2ee1a29a3673ab1df9f35ccbcdfd6/ofa2-0.1.0.post202305011538.tar.gz
+[2023-05-02 18:55:15] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/a9/23/98c3df903dd7c70814d87c50a9321c8d64b40940f80802d224cf0cda1501/snort_web_master-0.2.1.2.tar.gz
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ManagerTk]: Downloading https://files.pythonhosted.org/packages/3b/cc/0ae7abb59eebede9e05ca42d0302885ffec19aa48a714d9e7f9cc7bab7ff/ManagerTk-0.1.post2.tar.gz
+[2023-05-02 18:55:15] INFO root fetch - processPackages [pystv]: executing diffoscope
+[2023-05-02 18:55:15] INFO root fetch - processPackages [pystv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystv-0.8.1.tar.gz tmp/pystv-0.9.0.tar.gz --markdown 20230502/p/pystv/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:55:15] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/bb/0b/92d7edac0b5b9e788b46ccd5c7822a96f60187f27d85a49043b6e05792b7/snort_web_master-0.2.2.0.tar.gz
+[2023-05-02 18:55:15] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/b2/56/8530f55440b8743ff931506b598c9f92da7990ea619e71ad0b0d5e67f67c/ofa2-0.1.0.post202305021354.tar.gz
+[2023-05-02 18:55:16] INFO root fetch - main [MainThread]: End processing [drf-integrations-framework]: success
+[2023-05-02 18:55:16] INFO root fetch - processPackages [ManagerTk]: Downloading https://files.pythonhosted.org/packages/7f/4b/bde14d940a9d20eedce22a8a4d2ce83b6ab9cc8d85d78cbe03227d8350b2/ManagerTk-0.3.tar.gz
+[2023-05-02 18:55:16] INFO root fetch - processPackages [snort-web-master]: executing diffoscope
+[2023-05-02 18:55:16] INFO root fetch - processPackages [snort-web-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snort_web_master-0.2.1.2.tar.gz tmp/snort_web_master-0.2.2.0.tar.gz --markdown 20230502/s/snort-web-master/0.2.1.2-0.2.2.0/diff.md --exclude *.pyd
+[2023-05-02 18:55:16] INFO root fetch - main [MainThread]: End processing [pvlive-api]: success
+[2023-05-02 18:55:16] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-02 18:55:16] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202305011538.tar.gz tmp/ofa2-0.1.0.post202305021354.tar.gz --markdown 20230502/o/ofa2/0.1.0.post202305011538-0.1.0.post202305021354/diff.md --exclude *.pyd
+[2023-05-02 18:55:16] INFO root fetch - processPackages [ManagerTk]: executing diffoscope
+[2023-05-02 18:55:16] INFO root fetch - processPackages [ManagerTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ManagerTk-0.1.post2.tar.gz tmp/ManagerTk-0.3.tar.gz --markdown 20230502/M/ManagerTk/0.1.post2-0.3/diff.md --exclude *.pyd
+[2023-05-02 18:55:17] INFO root fetch - main [MainThread]: End processing [pystv]: success
+[2023-05-02 18:55:17] INFO root fetch - main [MainThread]: End processing [ManagerTk]: success
+[2023-05-02 18:55:17] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-05-02 18:55:17] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-02 18:55:18] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
+[2023-05-02 18:55:38] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-02 18:56:00] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-05-02 18:56:00] INFO root fetch - main [MainThread]: Store serial: [17944038]
