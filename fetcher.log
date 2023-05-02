@@ -20503,3 +20503,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 21:18:59] INFO root fetch - main [MainThread]: End processing [plugincode]: success
 [2023-05-02 21:19:00] INFO root fetch - main [MainThread]: End processing [h-transport-materials]: success
 [2023-05-02 21:19:00] INFO root fetch - main [MainThread]: Store serial: [17945844]
+[2023-05-02 21:24:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945844]
+[2023-05-02 21:24:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 21:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oelint-parser
+[2023-05-02 21:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-teste
+[2023-05-02 21:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nlptoolssna
+[2023-05-02 21:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overloaded-iterables
+[2023-05-02 21:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydaa
+[2023-05-02 21:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vedirect
+[2023-05-02 21:24:09] WARNING root fetch - processPackages [lib-teste]: Skipping, unable to determine old version
+[2023-05-02 21:24:09] INFO root fetch - main [MainThread]: End processing [lib-teste] error
+[2023-05-02 21:24:09] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.30] Old Version: [0.7.27]
+[2023-05-02 21:24:09] INFO root fetch - processPackages [vedirect]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 21:24:09] INFO root fetch - processPackages [oelint-parser]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-02 21:24:09] INFO root fetch - processPackages [nlptoolssna]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-02 21:24:09] INFO root fetch - processPackages [pydaa]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-05-02 21:24:09] INFO root fetch - processPackages [vedirect]: Downloading https://files.pythonhosted.org/packages/a2/5c/38f46ac329448f99a7c742bab694724f598ef523027bf673616937979a69/vedirect-1.0.0.tar.gz
+[2023-05-02 21:24:09] INFO root fetch - processPackages [oelint-parser]: Downloading https://files.pythonhosted.org/packages/94/b6/e4734c1d6894ff631afe67f0fd1fa37f3cbd6c81163a061593626bf70d4f/oelint_parser-2.9.4.tar.gz
+[2023-05-02 21:24:09] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/c2/84/bc0ca4f90ff3ec05b22a96b4197d6d59169954da7b4c8b52d82baa5a0fe0/overloaded-iterables-0.7.30.tar.gz
+[2023-05-02 21:24:09] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/ff/99/623fda61d046b03794569077bc3e5f3799f254d9234e5ee1d3e0bec88612/nlptoolssna-0.4.9.tar.gz
+[2023-05-02 21:24:09] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-02 21:24:09] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.27.tar.gz tmp/overloaded-iterables-0.7.30.tar.gz --markdown 20230502/o/overloaded-iterables/0.7.27-0.7.30/diff.md --exclude *.pyd
+[2023-05-02 21:24:09] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-02 21:24:09] INFO root fetch - processPackages [pydaa]: Downloading https://files.pythonhosted.org/packages/e4/0e/42410a43d4bbde175e04d990519825cdb4a4675f4158d3bb1fe417110006/pydaa-1.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 21:24:09] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.4.8.tar.gz tmp/nlptoolssna-0.4.9.tar.gz --markdown 20230502/n/nlptoolssna/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-02 21:24:09] INFO root fetch - processPackages [pydaa]: executing diffoscope
+[2023-05-02 21:24:09] INFO root fetch - processPackages [pydaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaa-1.6.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pydaa-1.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/p/pydaa/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-05-02 21:24:10] INFO root fetch - processPackages [vedirect]: Downloading https://files.pythonhosted.org/packages/dd/bb/f05239625379a0fca1ad6c2011625c3e6122464852de6120e212a160245b/vedirect-1.1.0.tar.gz
+[2023-05-02 21:24:10] INFO root fetch - processPackages [vedirect]: executing diffoscope
+[2023-05-02 21:24:10] INFO root fetch - processPackages [vedirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedirect-1.0.0.tar.gz tmp/vedirect-1.1.0.tar.gz --markdown 20230502/v/vedirect/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 21:24:10] INFO root fetch - processPackages [oelint-parser]: Downloading https://files.pythonhosted.org/packages/07/61/2ce3e6c1de6076cda9affd5f26c504802802804df80957ed87341e01b0da/oelint_parser-2.9.5.tar.gz
+[2023-05-02 21:24:10] INFO root fetch - processPackages [oelint-parser]: executing diffoscope
+[2023-05-02 21:24:10] INFO root fetch - processPackages [oelint-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oelint_parser-2.9.4.tar.gz tmp/oelint_parser-2.9.5.tar.gz --markdown 20230502/o/oelint-parser/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-02 21:24:10] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-02 21:24:11] INFO root fetch - main [MainThread]: End processing [vedirect]: success
+[2023-05-02 21:24:11] INFO root fetch - main [MainThread]: End processing [oelint-parser]: success
+[2023-05-02 21:24:11] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-02 21:24:13] INFO root fetch - main [MainThread]: End processing [pydaa]: success
+[2023-05-02 21:24:13] INFO root fetch - main [MainThread]: Store serial: [17945871]
