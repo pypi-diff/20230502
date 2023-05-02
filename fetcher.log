@@ -14298,3 +14298,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:59:27] INFO root fetch - main [MainThread]: End processing [bloock]: success
 [2023-05-02 15:59:29] INFO root fetch - main [MainThread]: End processing [pycorrector]: success
 [2023-05-02 15:59:29] INFO root fetch - main [MainThread]: Store serial: [17941531]
+[2023-05-02 16:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941531]
+[2023-05-02 16:04:39] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datehandling
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MediaLib
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-coves
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openworld-sdk-python-core
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-integrations-framework
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dreamai
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-DragDropComponent
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyatlan
+[2023-05-02 16:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandas-dq
+[2023-05-02 16:04:39] INFO root fetch - processPackages [drf-integrations-framework]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-02 16:04:39] INFO root fetch - processPackages [dreamai]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-02 16:04:39] INFO root fetch - processPackages [pandas-dq]: New version: [1.9] Old Version: [1.8]
+[2023-05-02 16:04:39] INFO root fetch - processPackages [openworld-sdk-python-core]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-02 16:04:39] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-02 16:04:39] WARNING root fetch - processPackages [MediaLib]: Skipping, unable to determine old version
+[2023-05-02 16:04:39] INFO root fetch - processPackages [MediaLib]: Start processing: codecov-cli
+[2023-05-02 16:04:39] INFO root fetch - main [MainThread]: End processing [MediaLib] error
+[2023-05-02 16:04:39] INFO root fetch - processPackages [cg]: New version: [29.5.2] Old Version: [29.5.1]
+[2023-05-02 16:04:39] WARNING root fetch - processPackages [datehandling]: Skipping, unable to determine old version
+[2023-05-02 16:04:39] INFO root fetch - processPackages [datehandling]: Start processing: veetility
+[2023-05-02 16:04:39] INFO root fetch - main [MainThread]: End processing [datehandling] error
+[2023-05-02 16:04:39] INFO root fetch - processPackages [pyatlan]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-05-02 16:04:39] WARNING root fetch - processPackages [streamlit-DragDropComponent]: Skipping, unable to determine old version
+[2023-05-02 16:04:39] INFO root fetch - processPackages [openworld-sdk-python-core]: executing diffoscope
+[2023-05-02 16:04:39] INFO root fetch - processPackages [streamlit-DragDropComponent]: Start processing: vantage6-common
+[2023-05-02 16:04:39] INFO root fetch - main [MainThread]: End processing [streamlit-DragDropComponent] error
+[2023-05-02 16:04:39] INFO root fetch - processPackages [openworld-sdk-python-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-core-0.5.0.tar.gz tmp/openworld-sdk-python-core-0.6.0.tar.gz --markdown 20230502/o/openworld-sdk-python-core/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 16:04:39] INFO root fetch - processPackages [drf-integrations-framework]: executing diffoscope
+[2023-05-02 16:04:39] INFO root fetch - processPackages [drf-integrations-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-integrations-framework-0.8.3.tar.gz tmp/drf_integrations_framework-0.8.4.tar.gz --markdown 20230502/d/drf-integrations-framework/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-02 16:04:39] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-02 16:04:39] WARNING root fetch - processPackages [codecov-cli]: Skipping, unable to determine old version
+[2023-05-02 16:04:39] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.6.0.tar.gz tmp/dreamai-0.7.0.tar.gz --markdown 20230502/d/dreamai/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 16:04:39] INFO root fetch - processPackages [codecov-cli]: Start processing: libsonata
+[2023-05-02 16:04:39] INFO root fetch - main [MainThread]: End processing [codecov-cli] error
+[2023-05-02 16:04:39] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-05-02 16:04:39] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.8.tar.gz tmp/dbt_coves-1.4.9.tar.gz --markdown 20230502/d/dbt-coves/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-02 16:04:39] INFO root fetch - processPackages [pandas-dq]: executing diffoscope
+[2023-05-02 16:04:39] INFO root fetch - processPackages [pandas-dq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_dq-1.8.tar.gz tmp/pandas_dq-1.9.tar.gz --markdown 20230502/p/pandas-dq/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-02 16:04:39] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-02 16:04:39] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.5.1.tar.gz tmp/cg-29.5.2.tar.gz --markdown 20230502/c/cg/29.5.1-29.5.2/diff.md --exclude *.pyd
+[2023-05-02 16:04:39] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 16:04:39] INFO root fetch - processPackages [vantage6-common]: New version: [3.8.5] Old Version: [3.8.4]
+[2023-05-02 16:04:39] INFO root fetch - processPackages [libsonata]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 16:04:40] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/2a/a1/9e2945b791fd25e01c971ce00462fe8fb42d5d007a4b3191b8daa5fad230/pyatlan-0.0.24.tar.gz
+[2023-05-02 16:04:40] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/dc/cf/4772d523e1caa972a6184c0058fe3637ebc539109c8d11d8e5cdfee00baf/veetility-0.1.8.tar.gz
+[2023-05-02 16:04:40] INFO root fetch - processPackages [libsonata]: Downloading https://files.pythonhosted.org/packages/b8/ae/3cfce7392d868bd3230ead7aa290c3e20cd5ed77bcf47c80e66ec5c1d901/libsonata-0.1.8.tar.gz
+[2023-05-02 16:04:40] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/4e/c8/33639f0223479270a85b6e71ff6e8171e3a7b68cfe4680519ee406c1b319/pyatlan-0.0.25.tar.gz
+[2023-05-02 16:04:40] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/a6/b5/95633c913be25bee9297142dc76de6f1db5dc5187dee5ae47199b612eee9/vantage6-common-3.8.5.tar.gz
+[2023-05-02 16:04:40] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-05-02 16:04:40] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.0.24.tar.gz tmp/pyatlan-0.0.25.tar.gz --markdown 20230502/p/pyatlan/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-05-02 16:04:40] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-05-02 16:04:40] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.8.4.tar.gz tmp/vantage6-common-3.8.5.tar.gz --markdown 20230502/v/vantage6-common/3.8.4-3.8.5/diff.md --exclude *.pyd
+[2023-05-02 16:04:40] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/e4/27/6bf604a25bb2458a80de6e113a5e7478938a23d9c7100bad80dac3b5e3c8/veetility-0.1.9.tar.gz
+[2023-05-02 16:04:40] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-02 16:04:40] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230502/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 16:04:40] INFO root fetch - processPackages [libsonata]: Downloading https://files.pythonhosted.org/packages/7a/c3/24ccfb78d07a142d919d9aaa0d7e45892d75ba0fdcb4a07d79b6160700e0/libsonata-0.1.9.tar.gz
+[2023-05-02 16:04:41] INFO root fetch - processPackages [libsonata]: executing diffoscope
+[2023-05-02 16:04:41] INFO root fetch - processPackages [libsonata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsonata-0.1.8.tar.gz tmp/libsonata-0.1.9.tar.gz --markdown 20230502/l/libsonata/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 16:04:41] INFO root fetch - processPackages [drf-integrations-framework]: Start processing: ou-container-builder
+[2023-05-02 16:04:41] INFO root fetch - main [MainThread]: End processing [drf-integrations-framework]: success
+[2023-05-02 16:04:41] INFO root fetch - processPackages [ou-container-builder]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-05-02 16:04:41] INFO root fetch - processPackages [openworld-sdk-python-core]: Start processing: vantage6-client
+[2023-05-02 16:04:41] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-core]: success
+[2023-05-02 16:04:41] INFO root fetch - processPackages [ou-container-builder]: Downloading https://files.pythonhosted.org/packages/71/5c/a182f82f7295f5abbb9fc7fd0ce0ee4bee7cc664872d72c873409db2bd88/ou_container_builder-2.2.1.tar.gz
+[2023-05-02 16:04:41] INFO root fetch - processPackages [pandas-dq]: Start processing: vantage6
+[2023-05-02 16:04:41] INFO root fetch - main [MainThread]: End processing [pandas-dq]: success
+[2023-05-02 16:04:41] INFO root fetch - processPackages [dreamai]: Start processing: langflow
+[2023-05-02 16:04:41] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-02 16:04:41] INFO root fetch - processPackages [langflow]: New version: [0.0.65] Old Version: [0.0.64]
+[2023-05-02 16:04:41] INFO root fetch - processPackages [vantage6-client]: New version: [3.8.5] Old Version: [3.8.4]
+[2023-05-02 16:04:41] INFO root fetch - processPackages [vantage6]: New version: [3.8.5] Old Version: [3.8.4]
+[2023-05-02 16:04:41] INFO root fetch - processPackages [ou-container-builder]: Downloading https://files.pythonhosted.org/packages/b3/53/502909ac9b59b38e73a4c673e5a90a86ed6c18100d192f96ee5e25b8392d/ou_container_builder-2.3.0.tar.gz
+[2023-05-02 16:04:41] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/c5/be/f172bd9ecde6a394ab79389bc8bf1e65d3af6bfc9619a92138aa0d003ef7/langflow-0.0.65.tar.gz
+[2023-05-02 16:04:41] INFO root fetch - processPackages [vantage6-common]: Start processing: vantage6-node
+[2023-05-02 16:04:41] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-05-02 16:04:41] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/53/d0/85054d272d77b44b7c3d061a584980545b6774e4097112cf4a7246c084ab/vantage6-client-3.8.5.tar.gz
+[2023-05-02 16:04:41] INFO root fetch - processPackages [veetility]: Start processing: vantage6-server
+[2023-05-02 16:04:41] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-02 16:04:41] INFO root fetch - processPackages [ou-container-builder]: executing diffoscope
+[2023-05-02 16:04:41] INFO root fetch - processPackages [ou-container-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_container_builder-2.2.1.tar.gz tmp/ou_container_builder-2.3.0.tar.gz --markdown 20230502/o/ou-container-builder/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-node]: New version: [3.8.5] Old Version: [3.8.4]
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-server]: New version: [3.8.5] Old Version: [3.8.4]
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.8.4.tar.gz tmp/vantage6-client-3.8.5.tar.gz --markdown 20230502/v/vantage6-client/3.8.4-3.8.5/diff.md --exclude *.pyd
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/f1/37/7b3cacf076b617b3eaeab656ddda0c4ab04f7c72c6b823ff2a0371480ab1/vantage6-3.8.5.tar.gz
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.8.4.tar.gz tmp/vantage6-3.8.5.tar.gz --markdown 20230502/v/vantage6/3.8.4-3.8.5/diff.md --exclude *.pyd
+[2023-05-02 16:04:42] INFO root fetch - processPackages [dbt-coves]: Start processing: uproot-browser
+[2023-05-02 16:04:42] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/4d/20/f1aa09045bc35662032145e7671375c3b049169670d2f4f5dfa292920a42/vantage6-node-3.8.5.tar.gz
+[2023-05-02 16:04:42] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-05-02 16:04:42] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.64.tar.gz tmp/langflow-0.0.65.tar.gz --markdown 20230502/l/langflow/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2023-05-02 16:04:42] INFO root fetch - processPackages [uproot-browser]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/4e/88/d7049bd8fe08bbb764149ab5d86366470081d4b4ea6d91d3a0b6045064cf/vantage6-server-3.8.5.tar.gz
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.8.4.tar.gz tmp/vantage6-node-3.8.5.tar.gz --markdown 20230502/v/vantage6-node/3.8.4-3.8.5/diff.md --exclude *.pyd
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-05-02 16:04:42] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.8.4.tar.gz tmp/vantage6-server-3.8.5.tar.gz --markdown 20230502/v/vantage6-server/3.8.4-3.8.5/diff.md --exclude *.pyd
+[2023-05-02 16:04:42] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/c9/b4/be2b9437eb85f64a448746735ab96544cbf29e30be7f638d7dbf98e0f5fd/uproot_browser-0.6.0.tar.gz
+[2023-05-02 16:04:42] INFO root fetch - processPackages [uproot-browser]: executing diffoscope
+[2023-05-02 16:04:42] INFO root fetch - processPackages [uproot-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot_browser-0.5.0.tar.gz tmp/uproot_browser-0.6.0.tar.gz --markdown 20230502/u/uproot-browser/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 16:04:43] INFO root fetch - processPackages [ou-container-builder]: Start processing: akshare
+[2023-05-02 16:04:43] INFO root fetch - main [MainThread]: End processing [ou-container-builder]: success
+[2023-05-02 16:04:43] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 16:04:43] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-02 16:04:43] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230502/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 16:04:43] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-05-02 16:04:43] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-05-02 16:04:43] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-05-02 16:04:44] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-05-02 16:04:44] INFO root fetch - main [MainThread]: End processing [uproot-browser]: success
+[2023-05-02 16:04:45] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-05-02 16:04:47] INFO root fetch - main [MainThread]: End processing [libsonata]: success
+[2023-05-02 16:04:48] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-05-02 16:04:50] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-02 16:04:55] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-02 16:04:55] INFO root fetch - main [MainThread]: Store serial: [17941623]
