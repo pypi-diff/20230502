@@ -11516,3 +11516,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:24:34] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-02 13:25:08] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2023-05-02 13:25:08] INFO root fetch - main [MainThread]: Store serial: [17939702]
+[2023-05-02 13:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939702]
+[2023-05-02 13:30:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RibosomeProfiler
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libmav
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jhub-swarmspawner
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MVCactus
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvisonicalarm
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: customized-chart
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpopt-lulav
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flow360
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchx-nightly
+[2023-05-02 13:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: WhooshSms
+[2023-05-02 13:30:23] INFO root fetch - processPackages [customized-chart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 13:30:23] INFO root fetch - processPackages [libmav]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 13:30:23] WARNING root fetch - processPackages [RibosomeProfiler]: Skipping, unable to determine old version
+[2023-05-02 13:30:23] INFO root fetch - processPackages [RibosomeProfiler]: Start processing: tmlc-testapp
+[2023-05-02 13:30:23] INFO root fetch - main [MainThread]: End processing [RibosomeProfiler] error
+[2023-05-02 13:30:23] INFO root fetch - processPackages [flow360]: New version: [0.2.0b6] Old Version: [0.2.0b5]
+[2023-05-02 13:30:23] INFO root fetch - processPackages [MVCactus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 13:30:23] INFO root fetch - processPackages [mpopt-lulav]: New version: [0.4] Old Version: [0.3]
+[2023-05-02 13:30:23] WARNING root fetch - processPackages [WhooshSms]: Skipping, unable to determine old version
+[2023-05-02 13:30:23] INFO root fetch - processPackages [WhooshSms]: Start processing: torchserve-nightly
+[2023-05-02 13:30:23] INFO root fetch - main [MainThread]: End processing [WhooshSms] error
+[2023-05-02 13:30:23] INFO root fetch - processPackages [jhub-swarmspawner]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-02 13:30:23] INFO root fetch - processPackages [tmlc-testapp]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 13:30:23] WARNING root fetch - processPackages [pyvisonicalarm]: Skipping, unable to determine old version
+[2023-05-02 13:30:23] INFO root fetch - processPackages [pyvisonicalarm]: Start processing: torch-model-archiver-nightly
+[2023-05-02 13:30:23] INFO root fetch - main [MainThread]: End processing [pyvisonicalarm] error
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.2] Old Version: [2023.4.9]
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-02 13:30:24] INFO root fetch - processPackages [customized-chart]: Downloading https://files.pythonhosted.org/packages/30/cc/ccc12431f943b5dd6c9d8a043111f08ecead9a1329a2a3312642f7a20972/customized_chart-0.1.8.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [libmav]: Downloading https://files.pythonhosted.org/packages/0f/31/b7fbeb383b30e49a2fb969903d783398ad1facd86bb336fc1c111c47dc5f/libmav-0.0.1.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [tmlc-testapp]: Downloading https://files.pythonhosted.org/packages/65/26/927b9cde1b19ec9fba6da0ade99346edf4ee9d816bff14a2cdb1e4eec60d/tmlc-testapp-0.0.1.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [MVCactus]: Downloading https://files.pythonhosted.org/packages/6d/35/2e0442390c9132192ef020b334a2ec44b2990b65dbf24f9f666b5e41a630/MVCactus-0.0.2.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [mpopt-lulav]: Downloading https://files.pythonhosted.org/packages/94/fa/15fb307ab8c51ab701bc30ad15ff35eabd73bf109caf834aaf66e5671ce9/mpopt_lulav-0.4.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [mpopt-lulav]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [mpopt-lulav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpopt_lulav-0.3.tar.gz tmp/mpopt_lulav-0.4.tar.gz --markdown 20230502/m/mpopt-lulav/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b4/b4/e6257d5bdd55b96f87437f72fae35e56fc9a890cee234eb75705389f4240/torch_model_archiver_nightly-2023.5.1-py3-none-any.whl
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/0f/2b4073d4e1d6aaa87c589af4b3a1352acb723987c567f8e1a2cf52c4ad99/torchserve_nightly-2023.5.1-py3-none-any.whl
+[2023-05-02 13:30:24] INFO root fetch - processPackages [jhub-swarmspawner]: Downloading https://files.pythonhosted.org/packages/2c/ff/50d907fa7c38156acff271831a9e502076d2a41a451c6c0d86e1c9d38f0c/jhub-swarmspawner-0.4.3.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [flow360]: Downloading https://files.pythonhosted.org/packages/f8/4e/825769bb1cb2945f3c78641993e67385f22a2c54abe0d57b48af930bbfa3/flow360-0.2.0b6.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [jhub-swarmspawner]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [jhub-swarmspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhub-swarmspawner-0.4.2.tar.gz tmp/jhub-swarmspawner-0.4.3.tar.gz --markdown 20230502/j/jhub-swarmspawner/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6a/7b/199b7126f06a6a5a3e36d001080c6db44762017f35329b3ee20655d972fa/torchx_nightly-2023.5.2-py3-none-any.whl
+[2023-05-02 13:30:24] INFO root fetch - processPackages [tmlc-testapp]: Downloading https://files.pythonhosted.org/packages/5a/b3/ca108de3cd4702edbee86732cd7ef6d897486199b2a0097016eaa0f5abef/tmlc-testapp-0.0.2.tar.gz
+[2023-05-02 13:30:24] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716871>=10485760
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2023-05-02 13:30:24] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.1] Old Version: [2023.4.9]
+[2023-05-02 13:30:24] INFO root fetch - processPackages [MVCactus]: Downloading https://files.pythonhosted.org/packages/e3/90/54785de92f062372b9169e50b598bf0587c50c971efc0cec85a3a8902520/MVCactus-0.0.3.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [libmav]: Downloading https://files.pythonhosted.org/packages/c0/08/2f05922718efb89c7f84ff601a74dd1372b57abfd9fee671714fb3498cf0/libmav-0.0.2.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [flow360]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [flow360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow360-0.2.0b5.tar.gz tmp/flow360-0.2.0b6.tar.gz --markdown 20230502/f/flow360/0.2.0b5-0.2.0b6/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [tmlc-testapp]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [MVCactus]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [tmlc-testapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlc-testapp-0.0.1.tar.gz tmp/tmlc-testapp-0.0.2.tar.gz --markdown 20230502/t/tmlc-testapp/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [MVCactus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MVCactus-0.0.2.tar.gz tmp/MVCactus-0.0.3.tar.gz --markdown 20230502/M/MVCactus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.4.9-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.2-py3-none-any.whl.zip --markdown 20230502/t/torchx-nightly/2023.4.9-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [customized-chart]: Downloading https://files.pythonhosted.org/packages/e1/66/ff97e25c15ad51dd82aea2033342b77df9f13ed226ec02d006ab123cfa52/customized_chart-0.1.9.tar.gz
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b6/43/292479b1152bedc65dfa71bd09549686528fd6bd6eebf542fc22e4eb826f/torch_model_archiver_nightly-2023.5.2-py3-none-any.whl
+[2023-05-02 13:30:24] INFO root fetch - processPackages [libmav]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [libmav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmav-0.0.1.tar.gz tmp/libmav-0.0.2.tar.gz --markdown 20230502/l/libmav/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/86/0b/c70191afa73626ee7d9dc3875de41c1e1004446d1c2b88af625b24b336ac/torch_workflow_archiver_nightly-2023.5.1-py3-none-any.whl
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.1-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.2-py3-none-any.whl.zip --markdown 20230502/t/torch-model-archiver-nightly/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [customized-chart]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [customized-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_chart-0.1.8.tar.gz tmp/customized_chart-0.1.9.tar.gz --markdown 20230502/c/customized-chart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-02 13:30:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.1-py3-none-any.whl.zip --markdown 20230502/t/torch-workflow-archiver-nightly/2023.4.9-2023.5.1/diff.md --exclude *.pyd
+[2023-05-02 13:30:26] INFO root fetch - processPackages [mpopt-lulav]: Start processing: MKN-third-codes
+[2023-05-02 13:30:26] INFO root fetch - main [MainThread]: End processing [mpopt-lulav]: success
+[2023-05-02 13:30:26] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.6.4] Old Version: [0.6.0.4]
+[2023-05-02 13:30:26] INFO root fetch - processPackages [tmlc-testapp]: Start processing: bridgecrew
+[2023-05-02 13:30:26] INFO root fetch - main [MainThread]: End processing [tmlc-testapp]: success
+[2023-05-02 13:30:26] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-02 13:30:26] INFO root fetch - processPackages [MVCactus]: Start processing: nmdmail
+[2023-05-02 13:30:26] INFO root fetch - main [MainThread]: End processing [MVCactus]: success
+[2023-05-02 13:30:26] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/44/91/9ea939b304ebac12f1287c8164b88fb269483b1b91d8f3e5845bfd56dd49/MKN_third_codes-0.6.4.tar.gz
+[2023-05-02 13:30:26] INFO root fetch - processPackages [nmdmail]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-02 13:30:26] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-02 13:30:26] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230502/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-02 13:30:26] INFO root fetch - processPackages [jhub-swarmspawner]: Start processing: dipex
+[2023-05-02 13:30:26] INFO root fetch - main [MainThread]: End processing [jhub-swarmspawner]: success
+[2023-05-02 13:30:26] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-02 13:30:26] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-02 13:30:26] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.6.0.4.tar.gz tmp/MKN_third_codes-0.6.4.tar.gz --markdown 20230502/M/MKN-third-codes/0.6.0.4-0.6.4/diff.md --exclude *.pyd
+[2023-05-02 13:30:26] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-02 13:30:26] INFO root fetch - processPackages [nmdmail]: Downloading https://files.pythonhosted.org/packages/08/e5/115922f8402265242aefe717cb5c579924dd71598d2a7b3dcd9d374c6390/nmdmail-0.3.1.tar.gz
+[2023-05-02 13:30:26] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-02 13:30:26] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230502/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-02 13:30:26] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-02 13:30:26] INFO root fetch - processPackages [nmdmail]: Downloading https://files.pythonhosted.org/packages/de/d7/023201b1b5ccf6b097f960be7ac2994d4b4b2e1f96decb02d9c3441eb7f3/nmdmail-0.4.0.tar.gz
+[2023-05-02 13:30:27] INFO root fetch - processPackages [nmdmail]: executing diffoscope
+[2023-05-02 13:30:27] INFO root fetch - processPackages [nmdmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdmail-0.3.1.tar.gz tmp/nmdmail-0.4.0.tar.gz --markdown 20230502/n/nmdmail/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-02 13:30:27] INFO root fetch - main [MainThread]: End processing [libmav]: success
+[2023-05-02 13:30:27] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-02 13:30:27] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-02 13:30:28] INFO root fetch - main [MainThread]: End processing [nmdmail]: success
+[2023-05-02 13:30:28] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-02 13:30:28] INFO root fetch - main [MainThread]: End processing [customized-chart]: success
+[2023-05-02 13:30:28] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-02 13:30:30] INFO root fetch - main [MainThread]: End processing [flow360]: success
+[2023-05-02 13:30:30] INFO root fetch - main [MainThread]: Store serial: [17939799]
