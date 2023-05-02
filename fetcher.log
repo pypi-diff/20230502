@@ -12057,3 +12057,137 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:59:34] INFO root fetch - main [MainThread]: End processing [ftrixminer]: success
 [2023-05-02 13:59:36] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2023-05-02 13:59:36] INFO root fetch - main [MainThread]: Store serial: [17940050]
+[2023-05-02 14:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940050]
+[2023-05-02 14:04:45] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-02 14:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MVCactus
+[2023-05-02 14:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysnid
+[2023-05-02 14:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maya-rig-operation-graph
+[2023-05-02 14:04:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-idempotency-key
+[2023-05-02 14:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matter-persistence
+[2023-05-02 14:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: horde-model-reference
+[2023-05-02 14:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eminus
+[2023-05-02 14:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: icd-mappings
+[2023-05-02 14:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inventory-monitor
+[2023-05-02 14:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trawler-on-lake
+[2023-05-02 14:04:46] INFO root fetch - processPackages [pysnid]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [MVCactus]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [eminus]: New version: [2.3.0] Old Version: [2.2.2]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [matter-persistence]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [django-idempotency-key]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [icd-mappings]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [maya-rig-operation-graph]: New version: [0.5.3] Old Version: [0.4.3]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [inventory-monitor]: New version: [5.0.0] Old Version: [4.1.0]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [horde-model-reference]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-02 14:04:46] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230502/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [maya-rig-operation-graph]: Downloading https://files.pythonhosted.org/packages/c1/59/5f848f9f47ab8643d0965832be5742c6d0aba7344444bca63c3a1e35d336/maya-rig-operation-graph-0.4.3.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [pysnid]: Downloading https://files.pythonhosted.org/packages/79/88/6d0258357f8eabe8ff32362038afeb1fa21ed790facb6e7d3c8ff985465d/pysnid-0.4.2.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/fe/1e/4ae0b00421b3f954fc7f94bd2bb746c546bed6579b6a9a8b309e0b5fa63f/eminus-2.2.2.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [MVCactus]: Downloading https://files.pythonhosted.org/packages/0c/0d/827d7f467aa78b833687b5e8b62b0a769e513993955ecc95709c631bbe24/MVCactus-0.0.4.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [django-idempotency-key]: Downloading https://files.pythonhosted.org/packages/08/4f/d299aad51576abaf03ac69da83a7f61e94e6b445e4bc9eae21c462cac759/django-idempotency-key-1.2.0.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [matter-persistence]: Downloading https://files.pythonhosted.org/packages/ea/d2/dfa7db78908bfea4e507889b5bc36f4b431c7f3ba6e32d315a39f2cb9296/matter_persistence-0.6.2-py3-none-any.whl
+[2023-05-02 14:04:46] INFO root fetch - processPackages [MVCactus]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [MVCactus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MVCactus-0.0.3.tar.gz tmp/MVCactus-0.0.4.tar.gz --markdown 20230502/M/MVCactus/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/0b/b4/a30bd1c6e8d97ac271024c65ffb3784362909ff32c4654613c35cdd26f40/inventory-monitor-4.1.0.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/b5/d4/3b2e2c1aa75b9b786091967861e78d9c2048c823a62d6815c998b5abad47/horde_model_reference-0.0.9-py3-none-any.whl
+[2023-05-02 14:04:46] INFO root fetch - processPackages [matter-persistence]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [matter-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_persistence-0.6.1-py3-none-any.whl.zip tmp/matter_persistence-0.6.2-py3-none-any.whl.zip --markdown 20230502/m/matter-persistence/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [horde-model-reference]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [horde-model-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_model_reference-0.0.7-py3-none-any.whl.zip tmp/horde_model_reference-0.0.9-py3-none-any.whl.zip --markdown 20230502/h/horde-model-reference/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [icd-mappings]: Downloading https://files.pythonhosted.org/packages/84/75/f1e356af4e8eef62ca47cabcb1fe077fca1c7674a1efa67b9d38e638b92f/icd_mappings-0.2.1.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [icd-mappings]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [icd-mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icd_mappings-0.2.0.tar.gz tmp/icd_mappings-0.2.1.tar.gz --markdown 20230502/i/icd-mappings/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [eminus]: Downloading https://files.pythonhosted.org/packages/ad/73/6c85f3fbfde211ff8851b742210148814f4d5a53c242d0946f594a8942d0/eminus-2.3.0.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [pysnid]: Downloading https://files.pythonhosted.org/packages/0a/03/b1a7e035d0554d0930bf49a842e922a0c657f0e6d7e7f92d2022f5c0811c/pysnid-0.4.3.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [maya-rig-operation-graph]: Downloading https://files.pythonhosted.org/packages/68/c6/951639b7675868e0ccddd65d5189d359319c250684c786beece72ba605f4/maya-rig-operation-graph-0.5.3.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/88/a8/a44ba5a39a502c336e37fef7431ff274eafe75cdaf03042c586b67fb5da1/inventory-monitor-5.0.0.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [eminus]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [eminus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eminus-2.2.2.tar.gz tmp/eminus-2.3.0.tar.gz --markdown 20230502/e/eminus/2.2.2-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [django-idempotency-key]: Downloading https://files.pythonhosted.org/packages/65/fc/01a80a636af6d4adf69e4bb83afeaeb61d3a437e11529a6f254421a56619/django_idempotency_key-1.3.0.tar.gz
+[2023-05-02 14:04:46] INFO root fetch - processPackages [pysnid]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [pysnid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnid-0.4.2.tar.gz tmp/pysnid-0.4.3.tar.gz --markdown 20230502/p/pysnid/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [maya-rig-operation-graph]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [maya-rig-operation-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya-rig-operation-graph-0.4.3.tar.gz tmp/maya-rig-operation-graph-0.5.3.tar.gz --markdown 20230502/m/maya-rig-operation-graph/0.4.3-0.5.3/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [inventory-monitor]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [inventory-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventory-monitor-4.1.0.tar.gz tmp/inventory-monitor-5.0.0.tar.gz --markdown 20230502/i/inventory-monitor/4.1.0-5.0.0/diff.md --exclude *.pyd
+[2023-05-02 14:04:46] INFO root fetch - processPackages [django-idempotency-key]: executing diffoscope
+[2023-05-02 14:04:46] INFO root fetch - processPackages [django-idempotency-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-idempotency-key-1.2.0.tar.gz tmp/django_idempotency_key-1.3.0.tar.gz --markdown 20230502/d/django-idempotency-key/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 14:04:48] INFO root fetch - processPackages [trawler-on-lake]: Start processing: blackboxopt
+[2023-05-02 14:04:48] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-05-02 14:04:48] INFO root fetch - processPackages [blackboxopt]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-02 14:04:48] INFO root fetch - processPackages [MVCactus]: Start processing: devops-mkdocs-issue-showcaser
+[2023-05-02 14:04:48] INFO root fetch - main [MainThread]: End processing [MVCactus]: success
+[2023-05-02 14:04:48] WARNING root fetch - processPackages [devops-mkdocs-issue-showcaser]: Skipping, unable to determine old version
+[2023-05-02 14:04:48] INFO root fetch - processPackages [devops-mkdocs-issue-showcaser]: Start processing: maharashtra-forts
+[2023-05-02 14:04:48] INFO root fetch - main [MainThread]: End processing [devops-mkdocs-issue-showcaser] error
+[2023-05-02 14:04:48] INFO root fetch - processPackages [maharashtra-forts]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-02 14:04:48] INFO root fetch - processPackages [matter-persistence]: Start processing: scrapy-zyte-api
+[2023-05-02 14:04:48] INFO root fetch - main [MainThread]: End processing [matter-persistence]: success
+[2023-05-02 14:04:48] INFO root fetch - processPackages [maharashtra-forts]: Downloading https://files.pythonhosted.org/packages/39/50/93f54c8caf361c2e0ae948da30a5b12192a01953f6c863c6a193525c8b36/maharashtra_forts-0.3.1.macosx-10.9-x86_64.tar.gz
+[2023-05-02 14:04:48] INFO root fetch - processPackages [scrapy-zyte-api]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-02 14:04:48] INFO root fetch - processPackages [maharashtra-forts]: Downloading https://files.pythonhosted.org/packages/46/dc/e561e8653de9a6dcfd576cce53a2d50160cc2f216a2162420e6d69267e3f/maharashtra-forts-0.3.2.macosx-10.9-x86_64.tar.gz
+[2023-05-02 14:04:48] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/ac/cf/7a2c8c219bcce4cb25d29156d9323a143f6509fceecff2841bba6e4fa647/scrapy-zyte-api-0.8.1.tar.gz
+[2023-05-02 14:04:48] INFO root fetch - processPackages [maharashtra-forts]: executing diffoscope
+[2023-05-02 14:04:48] INFO root fetch - processPackages [maharashtra-forts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maharashtra_forts-0.3.1.macosx-10.9-x86_64.tar.gz tmp/maharashtra-forts-0.3.2.macosx-10.9-x86_64.tar.gz --markdown 20230502/m/maharashtra-forts/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-02 14:04:48] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/05/d3/dcdd6db90f01688a0d2e1aaa801a905a114698eabb38fb0fc9d64cb4ae6f/blackboxopt-4.9.0.tar.gz
+[2023-05-02 14:04:48] INFO root fetch - processPackages [scrapy-zyte-api]: Downloading https://files.pythonhosted.org/packages/5d/be/d92de4f0244903120fb40ce0a777aa0846cf495fffb7883232a5c9543acf/scrapy-zyte-api-0.8.2.tar.gz
+[2023-05-02 14:04:48] INFO root fetch - processPackages [django-idempotency-key]: Start processing: torcheval-nightly
+[2023-05-02 14:04:48] INFO root fetch - main [MainThread]: End processing [django-idempotency-key]: success
+[2023-05-02 14:04:48] INFO root fetch - processPackages [pysnid]: Start processing: ytsaurus-spyt
+[2023-05-02 14:04:48] INFO root fetch - main [MainThread]: End processing [pysnid]: success
+[2023-05-02 14:04:48] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.69.4b442.post9097999.dev4] Old Version: [1.69.4b442.post5753496.dev2]
+[2023-05-02 14:04:48] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.5.1] Old Version: [2023.4.9]
+[2023-05-02 14:04:48] INFO root fetch - processPackages [scrapy-zyte-api]: executing diffoscope
+[2023-05-02 14:04:48] INFO root fetch - processPackages [scrapy-zyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-zyte-api-0.8.1.tar.gz tmp/scrapy-zyte-api-0.8.2.tar.gz --markdown 20230502/s/scrapy-zyte-api/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-02 14:04:49] INFO root fetch - processPackages [maya-rig-operation-graph]: Start processing: msdlib
+[2023-05-02 14:04:49] INFO root fetch - main [MainThread]: End processing [maya-rig-operation-graph]: success
+[2023-05-02 14:04:49] INFO root fetch - processPackages [msdlib]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 14:04:49] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-02 14:04:49] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.69.4b442.post5753496.dev2.tar.gz tmp/ytsaurus-spyt-1.69.4b442.post9097999.dev4.tar.gz --markdown 20230502/y/ytsaurus-spyt/1.69.4b442.post5753496.dev2-1.69.4b442.post9097999.dev4/diff.md --exclude *.pyd
+[2023-05-02 14:04:49] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/53/69/15bff909b1dba7476d48fb69f11d0393b07d37f452f0b73c95c0485c87ed/torcheval-nightly-2023.5.1.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/49/10/8778a9fdf199408eac6823ba263f2add1d3b75175f56b5a76ea1922b4872/blackboxopt-4.9.1.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [msdlib]: Downloading https://files.pythonhosted.org/packages/d7/d4/9df0f1c83b8c312dcfd8376c207789a608742d8658b8c203470d3cd200e0/msdlib-1.1.8.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-05-02 14:04:49] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.9.tar.gz tmp/torcheval-nightly-2023.5.1.tar.gz --markdown 20230502/t/torcheval-nightly/2023.4.9-2023.5.1/diff.md --exclude *.pyd
+[2023-05-02 14:04:49] INFO root fetch - processPackages [inventory-monitor]: Start processing: extended-json-schema-validator
+[2023-05-02 14:04:49] INFO root fetch - main [MainThread]: End processing [inventory-monitor]: success
+[2023-05-02 14:04:49] INFO root fetch - processPackages [blackboxopt]: executing diffoscope
+[2023-05-02 14:04:49] INFO root fetch - processPackages [blackboxopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboxopt-4.9.0.tar.gz tmp/blackboxopt-4.9.1.tar.gz --markdown 20230502/b/blackboxopt/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-02 14:04:49] INFO root fetch - processPackages [extended-json-schema-validator]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 14:04:49] INFO root fetch - processPackages [horde-model-reference]: Start processing: kojo
+[2023-05-02 14:04:49] INFO root fetch - main [MainThread]: End processing [horde-model-reference]: success
+[2023-05-02 14:04:49] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/19/f6/8d7fbd30c3f0713427a5eee4294b211a70c4a3ae176b733b2f2a2d6f99d7/extended_json_schema_validator-0.9.8.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [msdlib]: Downloading https://files.pythonhosted.org/packages/bf/d2/8b100638274abe3448cd9bd54623604621a0fbb6dbace27b930b940c585d/msdlib-1.1.9.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [kojo]: New version: [0.15.0] Old Version: [0.14.0]
+[2023-05-02 14:04:49] INFO root fetch - processPackages [msdlib]: executing diffoscope
+[2023-05-02 14:04:49] INFO root fetch - processPackages [msdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msdlib-1.1.8.tar.gz tmp/msdlib-1.1.9.tar.gz --markdown 20230502/m/msdlib/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 14:04:49] INFO root fetch - processPackages [extended-json-schema-validator]: Downloading https://files.pythonhosted.org/packages/86/b6/8ee34aeb63898e274bf584b708c63ec81e58590c59d606a4c9535f07b9d3/extended_json_schema_validator-0.9.9.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/d4/f0/22d7d964209f64d09ad1ecb1daaa377b23e3ab1390307dde3f7e474c369b/kojo-0.15.0.tar.gz
+[2023-05-02 14:04:49] INFO root fetch - processPackages [maharashtra-forts]: Start processing: RibosomeProfiler
+[2023-05-02 14:04:49] INFO root fetch - main [MainThread]: End processing [maharashtra-forts]: success
+[2023-05-02 14:04:49] INFO root fetch - processPackages [RibosomeProfiler]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 14:04:50] INFO root fetch - processPackages [extended-json-schema-validator]: executing diffoscope
+[2023-05-02 14:04:50] INFO root fetch - processPackages [extended-json-schema-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_json_schema_validator-0.9.8.tar.gz tmp/extended_json_schema_validator-0.9.9.tar.gz --markdown 20230502/e/extended-json-schema-validator/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 14:04:50] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2023-05-02 14:04:50] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.14.0.tar.gz tmp/kojo-0.15.0.tar.gz --markdown 20230502/k/kojo/0.14.0-0.15.0/diff.md --exclude *.pyd
+[2023-05-02 14:04:50] INFO root fetch - processPackages [RibosomeProfiler]: Downloading https://files.pythonhosted.org/packages/5d/74/67c7745b4a1c969e8539543fd1eb79327fd9049ffdd7e467dd862075d832/RibosomeProfiler-0.1.0-py2.py3-none-any.whl
+[2023-05-02 14:04:50] INFO root fetch - processPackages [scrapy-zyte-api]: Start processing: q-random-number-generator
+[2023-05-02 14:04:50] INFO root fetch - main [MainThread]: End processing [scrapy-zyte-api]: success
+[2023-05-02 14:04:50] INFO root fetch - processPackages [RibosomeProfiler]: Downloading https://files.pythonhosted.org/packages/f7/22/553c2a366c5488302021c0dc1f72416c880d5735bcd5d1950629fa724ab6/RibosomeProfiler-0.1.1.tar.gz
+[2023-05-02 14:04:50] WARNING root fetch - processPackages [q-random-number-generator]: Skipping, unable to determine old version
+[2023-05-02 14:04:50] INFO root fetch - processPackages [q-random-number-generator]: Start processing: mkdocs-issue-showcaser
+[2023-05-02 14:04:50] INFO root fetch - main [MainThread]: End processing [q-random-number-generator] error
+[2023-05-02 14:04:50] WARNING root fetch - processPackages [RibosomeProfiler]: Skipping package: exceeds size limit 16263205>=10485760
+[2023-05-02 14:04:50] INFO root fetch - main [MainThread]: End processing [RibosomeProfiler] error
+[2023-05-02 14:04:50] INFO root fetch - main [MainThread]: End processing [eminus]: success
+[2023-05-02 14:04:50] WARNING root fetch - processPackages [mkdocs-issue-showcaser]: Skipping, unable to determine old version
+[2023-05-02 14:04:50] INFO root fetch - main [MainThread]: End processing [mkdocs-issue-showcaser] error
+[2023-05-02 14:04:50] INFO root fetch - main [MainThread]: End processing [blackboxopt]: success
+[2023-05-02 14:04:51] INFO root fetch - main [MainThread]: End processing [msdlib]: success
+[2023-05-02 14:04:51] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2023-05-02 14:04:51] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-05-02 14:04:51] INFO root fetch - main [MainThread]: End processing [extended-json-schema-validator]: success
+[2023-05-02 14:04:52] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-02 14:04:52] INFO root fetch - main [MainThread]: End processing [icd-mappings]: success
+[2023-05-02 14:04:52] INFO root fetch - main [MainThread]: Store serial: [17940129]
