@@ -8311,3 +8311,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 10:03:46] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
 [2023-05-02 10:04:09] INFO root fetch - main [MainThread]: End processing [knx-frontend]: success
 [2023-05-02 10:04:09] INFO root fetch - main [MainThread]: Store serial: [17937729]
+[2023-05-02 10:09:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937729]
+[2023-05-02 10:09:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rxn-onmt-utils
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-variant-default-code
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dongwha-datalab
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chat-exporter-hikari
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlatitudeTerminal
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polymatica-api
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-sm-partago-tariffs
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlint-core
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitlint
+[2023-05-02 10:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyglove
+[2023-05-02 10:09:19] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: New version: [12.0.0.0.8] Old Version: [12.0.0.0.7]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: executing diffoscope
+[2023-05-02 10:09:19] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_tariffs-12.0.0.0.7-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_tariffs-12.0.0.0.8-py2.py3-none-any.whl.zip --markdown 20230502/o/odoo12-addon-sm-partago-tariffs/12.0.0.0.7-12.0.0.0.8/diff.md --exclude *.pyd
+[2023-05-02 10:09:19] INFO root fetch - processPackages [chat-exporter-hikari]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-02 10:09:19] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.2.tar.gz tmp/polymatica_api-0.0.3.tar.gz --markdown 20230502/p/polymatica-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 10:09:19] WARNING root fetch - processPackages [PlatitudeTerminal]: Skipping, unable to determine old version
+[2023-05-02 10:09:19] INFO root fetch - processPackages [PlatitudeTerminal]: Start processing: gufo-ping
+[2023-05-02 10:09:19] INFO root fetch - main [MainThread]: End processing [PlatitudeTerminal] error
+[2023-05-02 10:09:19] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-05-02 10:09:19] WARNING root fetch - processPackages [odoo-addon-product-variant-default-code]: Skipping, unable to determine old version
+[2023-05-02 10:09:19] INFO root fetch - processPackages [rxn-onmt-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [odoo-addon-product-variant-default-code]: Start processing: EverLoguru
+[2023-05-02 10:09:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-default-code] error
+[2023-05-02 10:09:19] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230502] Old Version: [0.3.1.dev20230501]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [EverLoguru]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [gufo-ping]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-02 10:09:19] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-02 10:09:19] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.1.3.tar.gz tmp/EverLoguru-1.1.4.tar.gz --markdown 20230502/E/EverLoguru/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-02 10:09:19] INFO root fetch - processPackages [chat-exporter-hikari]: Downloading https://files.pythonhosted.org/packages/e4/88/1bb96ef261157cc558a96a5efb67d9cd2af4d5bf78b86421739ec8f86357/chat_exporter_hikari-1.0.0.tar.gz
+[2023-05-02 10:09:19] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-05-02 10:09:19] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-05-02 10:09:19] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/97/f9/6f9b1d9662051c17dbef0d2f24fde3b17138cdc8e04a505a24713b357b2c/pyglove-0.3.1.dev20230501.tar.gz
+[2023-05-02 10:09:19] INFO root fetch - processPackages [rxn-onmt-utils]: Downloading https://files.pythonhosted.org/packages/c3/04/3ffac5f58b6fc6da08adb1cab8f797bf0795b3ed3ecc360c3c0dfe4a3000/rxn-onmt-utils-1.0.2.tar.gz
+[2023-05-02 10:09:19] INFO root fetch - processPackages [gufo-ping]: Downloading https://files.pythonhosted.org/packages/2c/23/8f8a28632f68c947a8bfd350a94de49d6d2455006d497e6d3bd0c5eddb7d/gufo_ping-0.2.4.tar.gz
+[2023-05-02 10:09:19] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-05-02 10:09:19] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.8-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.9-py3-none-any.whl.zip --markdown 20230502/d/dongwha-datalab/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gufo-ping]: Downloading https://files.pythonhosted.org/packages/aa/da/b52a18d8484bbb98ec7775360967473bd9c9b4329508a078402a15e1a2ab/gufo_ping-0.3.0.tar.gz
+[2023-05-02 10:09:20] INFO root fetch - processPackages [chat-exporter-hikari]: Downloading https://files.pythonhosted.org/packages/26/aa/f0c80f672de5fb1bd85e5ab883716cec1af5ca69f397344b7e027cb055de/chat_exporter_hikari-1.0.1.tar.gz
+[2023-05-02 10:09:20] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ad/78/4862fb30750b3e40649819296bfc27864faab449758deb3804dd2ea5b1e2/pyglove-0.3.1.dev20230502.tar.gz
+[2023-05-02 10:09:20] INFO root fetch - processPackages [rxn-onmt-utils]: Downloading https://files.pythonhosted.org/packages/a4/3a/79b874200da84d570d99447c5d7c4b13e71899e3c237eeaf27f25540232f/rxn-onmt-utils-1.0.3.tar.gz
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gufo-ping]: executing diffoscope
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gufo-ping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gufo_ping-0.2.4.tar.gz tmp/gufo_ping-0.3.0.tar.gz --markdown 20230502/g/gufo-ping/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [chat-exporter-hikari]: executing diffoscope
+[2023-05-02 10:09:20] INFO root fetch - processPackages [chat-exporter-hikari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_exporter_hikari-1.0.0.tar.gz tmp/chat_exporter_hikari-1.0.1.tar.gz --markdown 20230502/c/chat-exporter-hikari/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [rxn-onmt-utils]: executing diffoscope
+[2023-05-02 10:09:20] INFO root fetch - processPackages [rxn-onmt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxn-onmt-utils-1.0.2.tar.gz tmp/rxn-onmt-utils-1.0.3.tar.gz --markdown 20230502/r/rxn-onmt-utils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230502/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-05-02 10:09:20] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230502/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-05-02 10:09:20] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230501.tar.gz tmp/pyglove-0.3.1.dev20230502.tar.gz --markdown 20230502/p/pyglove/0.3.1.dev20230501-0.3.1.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 10:09:20] INFO root fetch - processPackages [polymatica-api]: Start processing: drafthorse
+[2023-05-02 10:09:20] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-02 10:09:20] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-02 10:09:20] INFO root fetch - processPackages [drafthorse]: New version: [2.3.0] Old Version: [2.2.1]
+[2023-05-02 10:09:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-tariffs]: success
+[2023-05-02 10:09:21] INFO root fetch - processPackages [drafthorse]: Downloading https://files.pythonhosted.org/packages/a5/45/753c9e43387a62d209838e8bfd1a517a1d579cf8cc08d7272deb7710df4c/drafthorse-2.2.1.tar.gz
+[2023-05-02 10:09:21] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-05-02 10:09:21] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-05-02 10:09:21] INFO root fetch - processPackages [drafthorse]: Downloading https://files.pythonhosted.org/packages/20/18/54f10fd9b80b74ff0da72b41982b5026567ad3837caa7fa4b346e7052695/drafthorse-2.3.0.tar.gz
+[2023-05-02 10:09:21] INFO root fetch - main [MainThread]: End processing [gufo-ping]: success
+[2023-05-02 10:09:21] INFO root fetch - processPackages [drafthorse]: executing diffoscope
+[2023-05-02 10:09:21] INFO root fetch - processPackages [drafthorse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drafthorse-2.2.1.tar.gz tmp/drafthorse-2.3.0.tar.gz --markdown 20230502/d/drafthorse/2.2.1-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 10:09:21] INFO root fetch - main [MainThread]: End processing [rxn-onmt-utils]: success
+[2023-05-02 10:09:21] INFO root fetch - main [MainThread]: End processing [chat-exporter-hikari]: success
+[2023-05-02 10:09:21] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-05-02 10:09:22] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-05-02 10:09:22] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-05-02 10:09:23] INFO root fetch - main [MainThread]: End processing [drafthorse]: success
+[2023-05-02 10:09:23] INFO root fetch - main [MainThread]: Store serial: [17937780]
