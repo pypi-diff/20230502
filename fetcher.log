@@ -22508,3 +22508,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:46:34] INFO root fetch - main [MainThread]: End processing [coinmetrics-api-client]: success
 [2023-05-02 22:46:50] INFO root fetch - main [MainThread]: End processing [galois]: success
 [2023-05-02 22:46:50] INFO root fetch - main [MainThread]: Store serial: [17946906]
+[2023-05-02 22:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946906]
+[2023-05-02 22:52:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaaql-middleware-python
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-index
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seeq
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycrtsh
+[2023-05-02 22:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seeq-spy
+[2023-05-02 22:52:01] INFO root fetch - processPackages [seeq]: New version: [61.0.1] Old Version: [60.1.1]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [seeq-spy]: New version: [187.2] Old Version: [187.0]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [pycrtsh]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [llama-index]: New version: [0.6.0a7] Old Version: [0.6.0a6]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [gpt-index]: New version: [0.6.0a7] Old Version: [0.6.0a6]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.7] Old Version: [4.8.5]
+[2023-05-02 22:52:01] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-02 22:52:01] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.0a6.tar.gz tmp/llama_index-0.6.0a7.tar.gz --markdown 20230502/l/llama-index/0.6.0a6-0.6.0a7/diff.md --exclude *.pyd
+[2023-05-02 22:52:01] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-02 22:52:01] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.0a6.tar.gz tmp/gpt_index-0.6.0a7-py3-none-any.whl.zip --markdown 20230502/g/gpt-index/0.6.0a6-0.6.0a7/diff.md --exclude *.pyd
+[2023-05-02 22:52:01] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/e6/99/fbe694f6fb1fcf7ea096fc2dda0446ecb584ae2eee62f9e04342695d8c7d/seeq-60.1.1.tar.gz
+[2023-05-02 22:52:01] INFO root fetch - processPackages [pycrtsh]: Downloading https://files.pythonhosted.org/packages/a3/53/067c1814358cf92e7985c7a83d2f1ade0cfe54eb5373f4a3a888c27460ea/pycrtsh-0.3.8.tar.gz
+[2023-05-02 22:52:01] INFO root fetch - processPackages [seeq-spy]: Downloading https://files.pythonhosted.org/packages/83/ca/4ff914e02afa497fad488f14ebc30baeae838a7ecacc1c23cfca3b4d60c3/seeq-spy-187.0.tar.gz
+[2023-05-02 22:52:01] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/68/fc/b78f27fdc4aa934371eb36b8f2e2590bfe33ea85d559680043eb27e2b5c8/jaaql-middleware-python-4.8.7.tar.gz
+[2023-05-02 22:52:02] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-02 22:52:02] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230502/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-02 22:52:02] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 22:52:02] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.5.tar.gz tmp/jaaql-middleware-python-4.8.7.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.8.5-4.8.7/diff.md --exclude *.pyd
+[2023-05-02 22:52:02] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/51/cb/5158943533d7f92264fa6cb016f75a2042e52d7c4be7a266504f6f0939b8/seeq-61.0.1.tar.gz
+[2023-05-02 22:52:02] INFO root fetch - processPackages [pycrtsh]: Downloading https://files.pythonhosted.org/packages/88/9f/3d63f3049350a07c47bb23a442c4f659bc33f2bbab9c2bfc37b7a730453a/pycrtsh-0.3.9.tar.gz
+[2023-05-02 22:52:02] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2023-05-02 22:52:02] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-60.1.1.tar.gz tmp/seeq-61.0.1.tar.gz --markdown 20230502/s/seeq/60.1.1-61.0.1/diff.md --exclude *.pyd
+[2023-05-02 22:52:02] INFO root fetch - processPackages [pycrtsh]: executing diffoscope
+[2023-05-02 22:52:02] INFO root fetch - processPackages [pycrtsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrtsh-0.3.8.tar.gz tmp/pycrtsh-0.3.9.tar.gz --markdown 20230502/p/pycrtsh/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 22:52:02] INFO root fetch - processPackages [seeq-spy]: Downloading https://files.pythonhosted.org/packages/64/19/cdb1a1a41e361b167b5f98c06eda32297a4c676c445d7767e5e59ca73fff/seeq_spy-187.2-py3-none-any.whl
+[2023-05-02 22:52:03] INFO root fetch - processPackages [seeq-spy]: executing diffoscope
+[2023-05-02 22:52:03] INFO root fetch - processPackages [seeq-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-spy-187.0.tar.gz tmp/seeq_spy-187.2-py3-none-any.whl.zip --markdown 20230502/s/seeq-spy/187.0-187.2/diff.md --exclude *.pyd
+[2023-05-02 22:52:03] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 22:52:03] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-02 22:52:03] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-02 22:52:03] INFO root fetch - main [MainThread]: End processing [pycrtsh]: success
+[2023-05-02 22:52:04] INFO root fetch - main [MainThread]: End processing [seeq-spy]: success
+[2023-05-02 22:52:06] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-02 22:52:14] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2023-05-02 22:52:14] INFO root fetch - main [MainThread]: Store serial: [17946928]
