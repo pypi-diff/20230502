@@ -7645,3 +7645,73 @@
 [2023-05-02 09:17:54] INFO root fetch - main [MainThread]: End processing [python-jsonpath]: success
 [2023-05-02 09:18:19] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-05-02 09:18:19] INFO root fetch - main [MainThread]: Store serial: [17937324]
+[2023-05-02 09:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937324]
+[2023-05-02 09:23:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockss-soap
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-print
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbone-sdk
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testfiwldsd21233s
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdk-passport
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ytsaurus-spyt
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyNumeca
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cg
+[2023-05-02 09:23:29] WARNING root fetch - processPackages [lockss-soap]: Skipping, unable to determine old version
+[2023-05-02 09:23:29] INFO root fetch - processPackages [lockss-soap]: Start processing: benchling-sdk
+[2023-05-02 09:23:29] INFO root fetch - main [MainThread]: End processing [lockss-soap] error
+[2023-05-02 09:23:29] WARNING root fetch - processPackages [testfiwldsd21233s]: Skipping, unable to determine old version
+[2023-05-02 09:23:29] INFO root fetch - processPackages [carbone-sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [simple-print]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [testfiwldsd21233s]: Start processing: ruff
+[2023-05-02 09:23:29] WARNING root fetch - processPackages [sdk-passport]: Skipping, unable to determine old version
+[2023-05-02 09:23:29] INFO root fetch - main [MainThread]: End processing [testfiwldsd21233s] error
+[2023-05-02 09:23:29] INFO root fetch - processPackages [sdk-passport]: Start processing: dxsp
+[2023-05-02 09:23:29] INFO root fetch - main [MainThread]: End processing [sdk-passport] error
+[2023-05-02 09:23:29] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.69.4b442.post5753496.dev2] Old Version: [1.69.4b442.post5286684.dev1]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [benchling-sdk]: New version: [1.7.0a9] Old Version: [1.7.0a8]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [dxsp]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [cg]: New version: [29.5.1] Old Version: [29.5.0]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [ruff]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 09:23:29] INFO root fetch - processPackages [carbone-sdk]: Downloading https://files.pythonhosted.org/packages/b2/f5/edc46da6d7ab720753f22083b264e224607caf9851ebf5028009c0322a50/carbone-sdk-1.0.7.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/89/fb/5d31105c58a43eb63084420ac7fa65e3e3085361c4a479b698eaf25c8549/PyNumeca-v0.0.8.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/1a/3c/2d95e8ab1cd0f0455eef951b138688494c8cf989dda815898bbf860b5f22/dxsp-1.6.1.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/cb/32/5f7be7049626adce925b172f9bfe6916ec58413f280b38262eff7682daff/ytsaurus-spyt-1.69.4b442.post5753496.dev2.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [simple-print]: Downloading https://files.pythonhosted.org/packages/6d/8d/6dacb55e6a66ed509cc11bbfc126123fa75d0edc7bae7d48a33327fae3e0/simple_print-1.7.2-py3-none-any.whl
+[2023-05-02 09:23:30] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/35/e5/fd032383e103eb7a0a1c13fc50905ff5905b44831cc53344140f0b59e015/cg-29.5.1.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [benchling-sdk]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [benchling-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_sdk-1.7.0a8.tar.gz tmp/benchling_sdk-1.7.0a9.tar.gz --markdown 20230502/b/benchling-sdk/1.7.0a8-1.7.0a9/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230502/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [carbone-sdk]: Downloading https://files.pythonhosted.org/packages/36/50/09d7cbbd5e1414b611f4bbb6cba86bb972714caf470e6b4c644c2f87ceb2/carbone-sdk-1.0.8.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.6.0.tar.gz tmp/dxsp-1.6.1.tar.gz --markdown 20230502/d/dxsp/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [simple-print]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [simple-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_print-1.7.1-py3-none-any.whl.zip tmp/simple_print-1.7.2-py3-none-any.whl.zip --markdown 20230502/s/simple-print/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.69.4b442.post5286684.dev1.tar.gz tmp/ytsaurus-spyt-1.69.4b442.post5753496.dev2.tar.gz --markdown 20230502/y/ytsaurus-spyt/1.69.4b442.post5286684.dev1-1.69.4b442.post5753496.dev2/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/cb/4d/71bb3aa775b0b7b13bf2bbd7a68930a1eecebedea249b0604b0c4535c3b1/PyNumeca-v0.0.9.tar.gz
+[2023-05-02 09:23:30] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.5.0.tar.gz tmp/cg-29.5.1.tar.gz --markdown 20230502/c/cg/29.5.0-29.5.1/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [carbone-sdk]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [carbone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbone-sdk-1.0.7.tar.gz tmp/carbone-sdk-1.0.8.tar.gz --markdown 20230502/c/carbone-sdk/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.0.98.tar.gz tmp/ruff-0.0.99.tar.gz --markdown 20230502/r/ruff/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 09:23:30] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-05-02 09:23:30] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230502/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 09:23:31] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-02 09:23:31] INFO root fetch - main [MainThread]: End processing [simple-print]: success
+[2023-05-02 09:23:31] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-05-02 09:23:32] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-05-02 09:23:32] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-02 09:23:32] INFO root fetch - main [MainThread]: End processing [carbone-sdk]: success
+[2023-05-02 09:23:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-02 09:23:33] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
+[2023-05-02 09:23:34] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2023-05-02 09:23:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-02 09:23:41] INFO root fetch - main [MainThread]: Store serial: [17937395]
