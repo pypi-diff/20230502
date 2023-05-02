@@ -16768,3 +16768,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 17:50:29] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
 [2023-05-02 17:51:53] INFO root fetch - main [MainThread]: End processing [cinder]: success
 [2023-05-02 17:51:53] INFO root fetch - main [MainThread]: Store serial: [17943201]
+[2023-05-02 17:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943201]
+[2023-05-02 17:57:04] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypotlib
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: super-gradients
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-prometheus
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MediaLib
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gimme-aws-creds
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gwalk
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Capella
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rewards-api
+[2023-05-02 17:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geode-ml
+[2023-05-02 17:57:04] INFO root fetch - processPackages [django-prometheus]: New version: [2.4.0.dev1] Old Version: [2.3.0.dev46]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [gwalk]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [rewards-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [gimme-aws-creds]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-05-02 17:57:04] WARNING root fetch - processPackages [MediaLib]: Skipping, unable to determine old version
+[2023-05-02 17:57:04] INFO root fetch - processPackages [MediaLib]: Start processing: nalyst
+[2023-05-02 17:57:04] INFO root fetch - processPackages [Capella]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 17:57:04] INFO root fetch - main [MainThread]: End processing [MediaLib] error
+[2023-05-02 17:57:04] INFO root fetch - processPackages [geode-ml]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [pypotlib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [super-gradients]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [rewards-api]: executing diffoscope
+[2023-05-02 17:57:04] INFO root fetch - processPackages [rewards-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewards_api-0.1.0.tar.gz tmp/rewards_api-0.1.1.tar.gz --markdown 20230502/r/rewards-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 17:57:04] INFO root fetch - processPackages [nalyst]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-02 17:57:04] INFO root fetch - processPackages [geode-ml]: Downloading https://files.pythonhosted.org/packages/e9/92/5652cef01d61ced245e5d590b61ba627f92b2e6ebaa487c7c63e2afe114e/geode-ml-2.6.5.tar.gz
+[2023-05-02 17:57:04] INFO root fetch - processPackages [gimme-aws-creds]: Downloading https://files.pythonhosted.org/packages/0e/63/c2aed27057343d776c95b2d95e1580a287fdc2ceb43e1ac64ae2d7bf32d5/gimme%20aws%20creds-2.5.0.tar.gz
+[2023-05-02 17:57:04] INFO root fetch - processPackages [gwalk]: Downloading https://files.pythonhosted.org/packages/f5/0f/5eb7e05802c496ba605d9250cc7638aa25d7f0528dcf4c8e79a069dc67f6/gwalk-2.0.4.tar.gz
+[2023-05-02 17:57:04] INFO root fetch - processPackages [Capella]: Downloading https://files.pythonhosted.org/packages/ab/08/b93ed99661cf2c34c986c8cf487a220f3818094febe5f69b0b3efc65c950/Capella-1.0.3.tar.gz
+[2023-05-02 17:57:04] INFO root fetch - processPackages [pypotlib]: Downloading https://files.pythonhosted.org/packages/5a/d6/c277d1b05f890cf96f486addf5a3d3250654ccda8e0682467ceb55c2dab5/pypotlib-0.0.6.tar.gz
+[2023-05-02 17:57:04] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/87/b2/51761cd8a7c437464643bcd33108c1fb4e10573327d47a8ee4b9c37d8a8e/super_gradients-3.0.9-py3-none-any.whl
+[2023-05-02 17:57:04] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-02 17:57:04] INFO root fetch - processPackages [django-prometheus]: Downloading https://files.pythonhosted.org/packages/d0/08/70ed02d0729994ded199fb5d3c4e7c97474cbf6d2cd61d27523b0a988173/django-prometheus-2.4.0.dev1.tar.gz
+[2023-05-02 17:57:04] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230502/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [geode-ml]: Downloading https://files.pythonhosted.org/packages/9a/6d/2954c04bcd96875623c730f28e82f55e17cbf4dda7179c9b4fd1993d5209/geode-ml-2.6.6.tar.gz
+[2023-05-02 17:57:05] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/3e/4e/84c688045830c33a9ab8f814317e2636a2fbf60c0c416533c5d55840fc5b/nalyst-0.2.5.tar.gz
+[2023-05-02 17:57:05] INFO root fetch - processPackages [geode-ml]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [geode-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geode-ml-2.6.5.tar.gz tmp/geode-ml-2.6.6.tar.gz --markdown 20230502/g/geode-ml/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [pypotlib]: Downloading https://files.pythonhosted.org/packages/66/93/94ee334338cc68c335eed761a4451a4d872701d7c5ac39e07983a8b81143/pypotlib-0.0.7.tar.gz
+[2023-05-02 17:57:05] INFO root fetch - processPackages [Capella]: Downloading https://files.pythonhosted.org/packages/de/c7/e997b2a227234cf58fdd59bcf7916d27176053e1e75ee7165084cdd0c553/Capella-1.0.4.tar.gz
+[2023-05-02 17:57:05] INFO root fetch - processPackages [gwalk]: Downloading https://files.pythonhosted.org/packages/3e/7a/7f2caf36694693ed6a9c93a4491dbdb503f30b51b24f80ad3eb90c81ef1f/gwalk-2.0.5.tar.gz
+[2023-05-02 17:57:05] INFO root fetch - processPackages [django-prometheus]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [django-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-prometheus-2.3.0.dev46.tar.gz tmp/django-prometheus-2.4.0.dev1.tar.gz --markdown 20230502/d/django-prometheus/2.3.0.dev46-2.4.0.dev1/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [gimme-aws-creds]: Downloading https://files.pythonhosted.org/packages/17/5a/6abb8110622298e0987b3b6f888ead622f25e44f8fb7081c4f243f8a332b/gimme%20aws%20creds-2.6.0.tar.gz
+[2023-05-02 17:57:05] INFO root fetch - processPackages [Capella]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [Capella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Capella-1.0.3.tar.gz tmp/Capella-1.0.4.tar.gz --markdown 20230502/C/Capella/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [gwalk]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [nalyst]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [nalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalyst-0.2.4.tar.gz tmp/nalyst-0.2.5.tar.gz --markdown 20230502/n/nalyst/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [gwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwalk-2.0.4.tar.gz tmp/gwalk-2.0.5.tar.gz --markdown 20230502/g/gwalk/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [pypotlib]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [pypotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypotlib-0.0.6.tar.gz tmp/pypotlib-0.0.7.tar.gz --markdown 20230502/p/pypotlib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [gimme-aws-creds]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [gimme-aws-creds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimme aws creds-2.5.0.tar.gz tmp/gimme aws creds-2.6.0.tar.gz --markdown 20230502/g/gimme-aws-creds/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-05-02 17:57:05] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/ff/08/65c410feaa9dbe47d4cd351d775f0806a2f5ffd005ffc9ce415c68b03e46/super_gradients-3.1.0-py3-none-any.whl
+[2023-05-02 17:57:05] INFO root fetch - processPackages [super-gradients]: executing diffoscope
+[2023-05-02 17:57:05] INFO root fetch - processPackages [super-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super_gradients-3.0.9-py3-none-any.whl.zip tmp/super_gradients-3.1.0-py3-none-any.whl.zip --markdown 20230502/s/super-gradients/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-05-02 17:57:06] INFO root fetch - processPackages [rewards-api]: Start processing: PyQt6-Fluent-Widgets
+[2023-05-02 17:57:06] INFO root fetch - main [MainThread]: End processing [rewards-api]: success
+[2023-05-02 17:57:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 17:57:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/bb/d3/831f6e6ad61b26a8bc46f513d51bfca934d7b4247be4579eabe158d659e1/PyQt6-Fluent-Widgets-0.8.2.tar.gz
+[2023-05-02 17:57:06] INFO root fetch - processPackages [pypotlib]: Start processing: OWR
+[2023-05-02 17:57:06] INFO root fetch - main [MainThread]: End processing [pypotlib]: success
+[2023-05-02 17:57:06] INFO root fetch - processPackages [OWR]: New version: [1.1] Old Version: [1.0]
+[2023-05-02 17:57:06] INFO root fetch - processPackages [gimme-aws-creds]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 17:57:06] INFO root fetch - main [MainThread]: End processing [gimme-aws-creds]: success
+[2023-05-02 17:57:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/74/e5/28642656f20d21b0e8b7978941bf5e7288cadc12458160e6a88142cddef1/PyQt6-Fluent-Widgets-0.8.3.tar.gz
+[2023-05-02 17:57:06] INFO root fetch - processPackages [geode-ml]: Start processing: OWR
+[2023-05-02 17:57:06] INFO root fetch - main [MainThread]: End processing [geode-ml]: success
+[2023-05-02 17:57:06] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.8.49.893354] Old Version: [20230502.8.16.36864]
+[2023-05-02 17:57:06] INFO root fetch - processPackages [OWR]: New version: [1.2] Old Version: [1.1]
+[2023-05-02 17:57:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-05-02 17:57:06] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.8.2.tar.gz tmp/PyQt6-Fluent-Widgets-0.8.3.tar.gz --markdown 20230502/P/PyQt6-Fluent-Widgets/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 17:57:07] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/d0/26/afa44fac38ad442755926ee3f7e83f8aa8e723bafb4ec1639659666b129a/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230502.8.16.36864.tar.gz
+[2023-05-02 17:57:07] INFO root fetch - processPackages [gwalk]: Start processing: qwak-core
+[2023-05-02 17:57:07] INFO root fetch - main [MainThread]: End processing [gwalk]: success
+[2023-05-02 17:57:07] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38365099>=10485760
+[2023-05-02 17:57:07] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: nvidia-dali-weekly-cuda120
+[2023-05-02 17:57:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/9d/de/b5b0b517c0c52cb087903a484dc34982e60661f1c4005c1fc70f5fda6673/OWR-1.0.tar.gz
+[2023-05-02 17:57:07] INFO root fetch - processPackages [qwak-core]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/6e/b3/8a6f05dfd1f1eb41b2eccbaf7e21429f7259eddcd53414b954002a68585d/OWR-1.1.tar.gz
+[2023-05-02 17:57:07] ERROR root fetch - processPackages [nvidia-dali-weekly-cuda120]: Unable to get metadata: No such project 'nvidia-dali-weekly-cuda120'
+[2023-05-02 17:57:07] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120] error
+[2023-05-02 17:57:07] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/68/8e/cd7916da24120172b5e36c3bb154d71fd1fe0e249dea4e11c7ca39daee91/qwak_core-0.0.40.tar.gz
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-1.0.tar.gz tmp/OWR-1.1.tar.gz --markdown 20230502/O/OWR/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-02 17:57:07] INFO root fetch - main [MainThread]: End processing [nalyst]: success
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/29/80/54dc7068e8b421b72a773ea33e9574a270d523e96189119ed6ed9a6c78a7/OWR-1.2.tar.gz
+[2023-05-02 17:57:07] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-02 17:57:07] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.39.tar.gz tmp/qwak_core-0.0.40.tar.gz --markdown 20230502/q/qwak-core/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-02 17:57:07] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-1.1.tar.gz tmp/OWR-1.2.tar.gz --markdown 20230502/O/OWR/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-02 17:57:07] INFO root fetch - main [MainThread]: End processing [django-prometheus]: success
+[2023-05-02 17:57:07] INFO root fetch - main [MainThread]: End processing [Capella]: success
+[2023-05-02 17:57:08] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-02 17:57:08] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-02 17:57:09] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-02 17:57:10] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-05-02 17:57:11] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-02 17:57:13] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
+[2023-05-02 17:57:13] INFO root fetch - main [MainThread]: Store serial: [17943252]
