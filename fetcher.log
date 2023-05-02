@@ -6083,3 +6083,70 @@
 [2023-05-02 07:02:36] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-05-02 07:02:38] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
 [2023-05-02 07:02:38] INFO root fetch - main [MainThread]: Store serial: [17936352]
+[2023-05-02 07:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936352]
+[2023-05-02 07:07:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seleniumbase
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbase
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-base
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-sbase
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-seleniumbase
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyes-soatra
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmomy
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multi-model-server
+[2023-05-02 07:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain
+[2023-05-02 07:07:47] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230502] Old Version: [1.1.8b20230501]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [cmomy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230502] Old Version: [0.1.1.dev20230501]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-02 07:07:47] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/86/87/bceca09b3f798bd2846d47daf23436754925aab619170de414af5c2935e1/eyes_soatra-0.0.2.tar.gz
+[2023-05-02 07:07:47] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/b6/a2/3d94dd458666af17c77ae517956c92de62d6ad5d751905930e727968994b/multi_model_server-1.1.8b20230502-py2.py3-none-any.whl
+[2023-05-02 07:07:47] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230502/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/48/99/3eb299d79113789bab2ab2a22fb91aaa69f6f6a1eeb65a59a3211dfe14c6/rapid_pe-0.1.1.dev20230502.tar.gz
+[2023-05-02 07:07:47] INFO root fetch - processPackages [cmomy]: Downloading https://files.pythonhosted.org/packages/0f/01/bbc3c8765fe515723d8834428d4022c3ee535f39e2e3b020e06ae2936eec/cmomy-0.4.0.tar.gz
+[2023-05-02 07:07:47] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/dc/66/2c2abbaa5bb0aaccf6ed94067acb4bd927e8e5c0d972457aa6d65f03724d/eyes_soatra-0.0.3.macosx-10.9-universal2.tar.gz
+[2023-05-02 07:07:47] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230501.tar.gz tmp/rapid_pe-0.1.1.dev20230502.tar.gz --markdown 20230502/r/rapid-pe/0.1.1.dev20230501-0.1.1.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [cmomy]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [cmomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmomy-0.3.0.tar.gz tmp/cmomy-0.4.0.tar.gz --markdown 20230502/c/cmomy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230502/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.2.tar.gz tmp/eyes_soatra-0.0.3.macosx-10.9-universal2.tar.gz --markdown 20230502/e/eyes-soatra/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230502/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230502/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230502/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-02 07:07:47] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-05-02 07:07:47] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230502/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-02 07:07:48] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-02 07:07:48] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230501-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230502-py2.py3-none-any.whl.zip --markdown 20230502/m/multi-model-server/1.1.8b20230501-1.1.8b20230502/diff.md --exclude *.pyd
+[2023-05-02 07:07:49] INFO root fetch - processPackages [rapid-pe]: Start processing: tflite-model-maker-nightly
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-02 07:07:49] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202305010506] Old Version: [0.4.3.dev202304300508]
+[2023-05-02 07:07:49] INFO root fetch - processPackages [eyes-soatra]: Start processing: corenet
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-02 07:07:49] WARNING root fetch - processPackages [corenet]: Skipping, unable to determine old version
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [corenet] error
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-05-02 07:07:49] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/a9/db/9fe6bccbb82f0667b613e5e6ddc99887f40595e5c823b1995bb53fa3f687/tflite-model-maker-nightly-0.4.3.dev202305010506.tar.gz
+[2023-05-02 07:07:49] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-05-02 07:07:49] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202304300508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202305010506.tar.gz --markdown 20230502/t/tflite-model-maker-nightly/0.4.3.dev202304300508-0.4.3.dev202305010506/diff.md --exclude *.pyd
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-05-02 07:07:49] INFO root fetch - main [MainThread]: End processing [cmomy]: success
+[2023-05-02 07:07:52] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-05-02 07:07:52] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-05-02 07:07:53] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-02 07:10:40] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-02 07:10:40] INFO root fetch - main [MainThread]: Store serial: [17936394]
