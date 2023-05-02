@@ -22672,3 +22672,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:57:35] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2023-05-02 22:57:37] INFO root fetch - main [MainThread]: End processing [curia]: success
 [2023-05-02 22:57:37] INFO root fetch - main [MainThread]: Store serial: [17946997]
+[2023-05-02 23:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946997]
+[2023-05-02 23:02:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Coquille
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aij-news-publisher
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: developergpt
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysurfex
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kelvin-sdk-datatype
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h-transport-materials
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yandex-ansible-juggler2
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baopig
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: manimcs
+[2023-05-02 23:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaco2
+[2023-05-02 23:02:47] WARNING root fetch - processPackages [aij-news-publisher]: Skipping, unable to determine old version
+[2023-05-02 23:02:47] INFO root fetch - processPackages [aij-news-publisher]: Start processing: pylibsqlite
+[2023-05-02 23:02:47] INFO root fetch - main [MainThread]: End processing [aij-news-publisher] error
+[2023-05-02 23:02:47] INFO root fetch - processPackages [Coquille]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [manimcs]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [h-transport-materials]: New version: [0.9] Old Version: [0.8.1]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [kelvin-sdk-datatype]: New version: [7.7.0] Old Version: [7.5.0]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [baopig]: New version: [0.20.6] Old Version: [0.20.5]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [developergpt]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-02 23:02:47] WARNING root fetch - processPackages [pylibsqlite]: Skipping, unable to determine old version
+[2023-05-02 23:02:47] INFO root fetch - processPackages [pylibsqlite]: Start processing: trading-backend
+[2023-05-02 23:02:47] INFO root fetch - main [MainThread]: End processing [pylibsqlite] error
+[2023-05-02 23:02:47] INFO root fetch - processPackages [jaco2]: New version: [3.4] Old Version: [3.3]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [pysurfex]: New version: [0.0.3.3] Old Version: [0.0.3.2]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [trading-backend]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-02 23:02:47] WARNING root fetch - processPackages [yandex-ansible-juggler2]: Skipping, unable to determine old version
+[2023-05-02 23:02:47] INFO root fetch - processPackages [yandex-ansible-juggler2]: Start processing: BDXConverter
+[2023-05-02 23:02:47] INFO root fetch - main [MainThread]: End processing [yandex-ansible-juggler2] error
+[2023-05-02 23:02:47] INFO root fetch - processPackages [BDXConverter]: New version: [1.0.11] Old Version: [1.0.10]
+[2023-05-02 23:02:47] INFO root fetch - processPackages [h-transport-materials]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [h-transport-materials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h_transport_materials-0.8.1.tar.gz tmp/h_transport_materials-0.9.tar.gz --markdown 20230502/h/h-transport-materials/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [manimcs]: Downloading https://files.pythonhosted.org/packages/b1/d8/c6832291fac08091ea4af1ec29fe9b5f8d4563a56f2bc13d2dfb633cc531/manimcs-0.4.5.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [baopig]: Downloading https://files.pythonhosted.org/packages/95/1c/5858d2cefdcb51e7d018443d4ddab1a42ea80007bc4cdf8ed140f8ce5cf1/baopig-0.20.5-py3-none-any.whl
+[2023-05-02 23:02:47] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/d5/1f/ce61cf874c2d9a98b4f81c0e1b0d5f1e899e3a309aaa88d86da08a924b92/Coquille-0.1.0.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [pysurfex]: Downloading https://files.pythonhosted.org/packages/0c/b9/0b8f4ab5233ee1f6ddb80af803feef55a54501cec529a4a92302f22cdf7a/pysurfex-0.0.3.3.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [kelvin-sdk-datatype]: Downloading https://files.pythonhosted.org/packages/dc/a7/533e5de70b1051f15f7d4d4ee0f3365d9a4869a4376545fc88fb09ecdf86/kelvin_sdk_datatype-7.5.0-py3-none-any.whl
+[2023-05-02 23:02:47] INFO root fetch - processPackages [trading-backend]: Downloading https://files.pythonhosted.org/packages/56/5b/8482ab1f27e284ce00714ab4503943c8fae17ffc705ec31d4655d62eaf61/trading-backend-1.2.1.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/5c/32/a92f3a43c4c0a08781feca4da2dc57705beb4cd961a605ab75c5f3d19de0/jaco2-3.3.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/d7/d2/ca2a31d4d2c248621b7ad24510def1d45f47eed484bc2c6b9519dd27be30/BDXConverter-1.0.10.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [manimcs]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [manimcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manimcs-0.4.4-py3-none-any.whl.zip tmp/manimcs-0.4.5.tar.gz --markdown 20230502/m/manimcs/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [pysurfex]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [pysurfex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysurfex-0.0.3.2.tar.gz tmp/pysurfex-0.0.3.3.tar.gz --markdown 20230502/p/pysurfex/0.0.3.2-0.0.3.3/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [developergpt]: Downloading https://files.pythonhosted.org/packages/1c/38/37fb5ee817c81082274277daaea4cc3fa1540bbb1848aa0978b6f6afefc8/developergpt-0.2.5.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [developergpt]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [developergpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/developergpt-0.2.4.tar.gz tmp/developergpt-0.2.5.tar.gz --markdown 20230502/d/developergpt/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [trading-backend]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [trading-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading-backend-1.2.0.tar.gz tmp/trading-backend-1.2.1.tar.gz --markdown 20230502/t/trading-backend/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/22/6e/00f745cd8a8de8c2de4a0be4a81b347acc95e8c25d5ab871a96e4d7cc1dd/Coquille-0.1.1.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/33/89/b330c3b0ba286f52b99f77d5544e95cbd7caceceadaed9e067d7ef9db91d/jaco2-3.4.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [BDXConverter]: Downloading https://files.pythonhosted.org/packages/e1/b2/56e25be780919a903d77edaa85df278837c5f2661917ca453f42cbdf5664/BDXConverter-1.0.11.tar.gz
+[2023-05-02 23:02:47] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-0.1.0.tar.gz tmp/Coquille-0.1.1.tar.gz --markdown 20230502/C/Coquille/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [kelvin-sdk-datatype]: Downloading https://files.pythonhosted.org/packages/6e/25/b89559a071b209552217de2d27a859314513da197c310c31d921f3193310/kelvin_sdk_datatype-7.7.0-py3-none-any.whl
+[2023-05-02 23:02:47] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-3.3.tar.gz tmp/jaco2-3.4.tar.gz --markdown 20230502/j/jaco2/3.3-3.4/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [BDXConverter]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [BDXConverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BDXConverter-1.0.10.tar.gz tmp/BDXConverter-1.0.11.tar.gz --markdown 20230502/B/BDXConverter/1.0.10-1.0.11/diff.md --exclude *.pyd
+[2023-05-02 23:02:47] INFO root fetch - processPackages [kelvin-sdk-datatype]: executing diffoscope
+[2023-05-02 23:02:47] INFO root fetch - processPackages [kelvin-sdk-datatype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk_datatype-7.5.0-py3-none-any.whl.zip tmp/kelvin_sdk_datatype-7.7.0-py3-none-any.whl.zip --markdown 20230502/k/kelvin-sdk-datatype/7.5.0-7.7.0/diff.md --exclude *.pyd
+[2023-05-02 23:02:48] INFO root fetch - processPackages [baopig]: Downloading https://files.pythonhosted.org/packages/02/1f/e0d7c996bb1721c0565c4b2a5c3a184c02df81a0fc56f493edcbe24d744c/baopig-0.20.6-py3-none-any.whl
+[2023-05-02 23:02:48] INFO root fetch - processPackages [baopig]: executing diffoscope
+[2023-05-02 23:02:48] INFO root fetch - processPackages [baopig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baopig-0.20.5-py3-none-any.whl.zip tmp/baopig-0.20.6-py3-none-any.whl.zip --markdown 20230502/b/baopig/0.20.5-0.20.6/diff.md --exclude *.pyd
+[2023-05-02 23:02:48] INFO root fetch - processPackages [manimcs]: Start processing: pydoctor
+[2023-05-02 23:02:48] INFO root fetch - main [MainThread]: End processing [manimcs]: success
+[2023-05-02 23:02:48] INFO root fetch - processPackages [pydoctor]: New version: [23.4.0] Old Version: [22.9.1]
+[2023-05-02 23:02:49] INFO root fetch - processPackages [Coquille]: Start processing: bed-reader
+[2023-05-02 23:02:49] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-05-02 23:02:49] INFO root fetch - processPackages [pydoctor]: Downloading https://files.pythonhosted.org/packages/ec/6c/b122c2966df0f5210a46faff6ff229e516a303d802e3f40245b5cf707342/pydoctor-22.9.1.tar.gz
+[2023-05-02 23:02:49] INFO root fetch - main [MainThread]: End processing [pysurfex]: success
+[2023-05-02 23:02:49] INFO root fetch - main [MainThread]: End processing [kelvin-sdk-datatype]: success
+[2023-05-02 23:02:49] INFO root fetch - processPackages [bed-reader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 23:02:49] INFO root fetch - main [MainThread]: End processing [trading-backend]: success
+[2023-05-02 23:02:49] INFO root fetch - processPackages [bed-reader]: executing diffoscope
+[2023-05-02 23:02:49] INFO root fetch - processPackages [bed-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bed_reader-0.2.8.tar.gz tmp/bed_reader-0.2.9.tar.gz --markdown 20230502/b/bed-reader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 23:02:49] INFO root fetch - processPackages [pydoctor]: Downloading https://files.pythonhosted.org/packages/79/96/c736f98e048b01f4719e54ff634f0741b66e1a172627aff2fe72ccf0b19b/pydoctor-23.4.0.tar.gz
+[2023-05-02 23:02:49] INFO root fetch - main [MainThread]: End processing [developergpt]: success
+[2023-05-02 23:02:49] INFO root fetch - processPackages [pydoctor]: executing diffoscope
+[2023-05-02 23:02:49] INFO root fetch - processPackages [pydoctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoctor-22.9.1.tar.gz tmp/pydoctor-23.4.0.tar.gz --markdown 20230502/p/pydoctor/22.9.1-23.4.0/diff.md --exclude *.pyd
+[2023-05-02 23:02:49] INFO root fetch - main [MainThread]: End processing [h-transport-materials]: success
+[2023-05-02 23:02:50] INFO root fetch - main [MainThread]: End processing [BDXConverter]: success
+[2023-05-02 23:02:51] INFO root fetch - main [MainThread]: End processing [bed-reader]: success
+[2023-05-02 23:02:52] INFO root fetch - main [MainThread]: End processing [baopig]: success
+[2023-05-02 23:02:52] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 23:02:54] INFO root fetch - main [MainThread]: End processing [pydoctor]: success
+[2023-05-02 23:02:54] INFO root fetch - main [MainThread]: Store serial: [17947047]
