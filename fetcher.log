@@ -10201,3 +10201,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 11:59:39] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-05-02 12:00:51] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-05-02 12:00:51] INFO root fetch - main [MainThread]: Store serial: [17938904]
+[2023-05-02 12:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938904]
+[2023-05-02 12:06:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydt3
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotControl
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-equilibrium
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: climify-api
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: electrical-openapi-client-v2
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: extr-ds
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-serve
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nanolayer
+[2023-05-02 12:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BDXConverter
+[2023-05-02 12:06:13] WARNING root fetch - processPackages [BDXConverter]: Skipping, unable to determine old version
+[2023-05-02 12:06:13] INFO root fetch - processPackages [BDXConverter]: Start processing: aim-ui
+[2023-05-02 12:06:13] INFO root fetch - main [MainThread]: End processing [BDXConverter] error
+[2023-05-02 12:06:13] INFO root fetch - processPackages [climify-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [pydt3]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [robotControl]: New version: [0.9] Old Version: [0.8]
+[2023-05-02 12:06:13] WARNING root fetch - processPackages [electrical-openapi-client-v2]: Skipping, unable to determine old version
+[2023-05-02 12:06:13] INFO root fetch - processPackages [electrical-openapi-client-v2]: Start processing: core-braincube-dev
+[2023-05-02 12:06:13] INFO root fetch - main [MainThread]: End processing [electrical-openapi-client-v2] error
+[2023-05-02 12:06:13] WARNING root fetch - processPackages [python-equilibrium]: Skipping, unable to determine old version
+[2023-05-02 12:06:13] INFO root fetch - processPackages [python-equilibrium]: Start processing: wetterdienst
+[2023-05-02 12:06:13] INFO root fetch - main [MainThread]: End processing [python-equilibrium] error
+[2023-05-02 12:06:13] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 12:06:13] WARNING root fetch - processPackages [core-braincube-dev]: Skipping, unable to determine old version
+[2023-05-02 12:06:13] INFO root fetch - processPackages [core-braincube-dev]: Start processing: scarlet-shark-python
+[2023-05-02 12:06:13] INFO root fetch - main [MainThread]: End processing [core-braincube-dev] error
+[2023-05-02 12:06:13] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [scarlet-shark-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 12:06:13] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230502/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230502/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-02 12:06:14] INFO root fetch - processPackages [aim-ui]: Start processing: minidatabase
+[2023-05-02 12:06:14] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-02 12:06:14] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/fa/7e/65d82ca5e5c46b0b3d9dfe588f672e2aff69a7b09de845e9ee7d9c34b8f4/climify_api-1.0.5.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/49/29/37b644773ed17a0268d490f747722494588aebee537e14111b84bdc5009d/pydt3-0.0.1.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230502/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] WARNING root fetch - processPackages [minidatabase]: Skipping, unable to determine old version
+[2023-05-02 12:06:14] INFO root fetch - processPackages [minidatabase]: Start processing: dna-audit-tool
+[2023-05-02 12:06:14] INFO root fetch - main [MainThread]: End processing [minidatabase] error
+[2023-05-02 12:06:14] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/78/63/b1277e512023f32d07e5f1100acb1a89b8df6544f68710d48e7c999ddfe7/wetterdienst-0.8.0.tar.gz
+[2023-05-02 12:06:14] WARNING root fetch - processPackages [dna-audit-tool]: Skipping, unable to determine old version
+[2023-05-02 12:06:14] INFO root fetch - processPackages [dna-audit-tool]: Start processing: extr-ds
+[2023-05-02 12:06:14] INFO root fetch - main [MainThread]: End processing [dna-audit-tool] error
+[2023-05-02 12:06:14] INFO root fetch - processPackages [scarlet-shark-python]: Downloading https://files.pythonhosted.org/packages/29/5f/e37357ba0e3c2fa39ae3a551b7cc7e95fa85b2f03b1fd99923df5b3ac85d/scarlet-shark-python-1.0.1.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 12:06:14] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/56/14/2bb40ea0a8e9b2dabdaad6d244070706bbe7015f5bfa7655a50845238493/robotControl-0.9.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230502/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/e8/b1/c88f445c848e8b932b3b99885f7dd750f24968b2bd6f329334cc30e0aee5/pydt3-0.0.2.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-0.8.tar.gz tmp/robotControl-0.9.tar.gz --markdown 20230502/r/robotControl/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/96/70/b57a8119a9937a84eaabbeabd7bae7b9b8840fa29fa59300fc70d6de4b61/climify_api-1.0.6.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230502/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.5.tar.gz tmp/climify_api-1.0.6.tar.gz --markdown 20230502/c/climify-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [pydt3]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [pydt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydt3-0.0.1.tar.gz tmp/pydt3-0.0.2.tar.gz --markdown 20230502/p/pydt3/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [scarlet-shark-python]: Downloading https://files.pythonhosted.org/packages/0a/53/bc8435d9f63aecd0e8a05389e2ba9bc0eb89e65c8ce1d26cd4df35de4158/scarlet-shark-python-1.0.2.tar.gz
+[2023-05-02 12:06:14] INFO root fetch - processPackages [scarlet-shark-python]: executing diffoscope
+[2023-05-02 12:06:14] INFO root fetch - processPackages [scarlet-shark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarlet-shark-python-1.0.1.tar.gz tmp/scarlet-shark-python-1.0.2.tar.gz --markdown 20230502/s/scarlet-shark-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 12:06:14] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/93/c1/a193d03f936306ba30a17b6df7557fb21eb06ece6da61b94796737ad977a/wetterdienst-0.9.0.tar.gz
+[2023-05-02 12:06:15] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2023-05-02 12:06:15] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.8.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20230502/w/wetterdienst/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 12:06:15] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-02 12:06:15] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-02 12:06:15] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 12:06:15] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-02 12:06:15] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [scarlet-shark-python]: success
+[2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [pydt3]: success
+[2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-02 12:06:16] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-02 12:06:16] INFO root fetch - main [MainThread]: Store serial: [17938968]
