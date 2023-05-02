@@ -5623,3 +5623,22 @@
 [2023-05-02 06:13:58] INFO root fetch - main [MainThread]: End processing [latex-input]: success
 [2023-05-02 06:14:00] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
 [2023-05-02 06:14:00] INFO root fetch - main [MainThread]: Store serial: [17935994]
+[2023-05-02 06:19:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935994]
+[2023-05-02 06:19:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-02 06:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ApiLogicServer
+[2023-05-02 06:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: researchai
+[2023-05-02 06:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numtools
+[2023-05-02 06:19:08] WARNING root fetch - processPackages [researchai]: Skipping, unable to determine old version
+[2023-05-02 06:19:08] INFO root fetch - main [MainThread]: End processing [researchai] error
+[2023-05-02 06:19:08] INFO root fetch - processPackages [ApiLogicServer]: New version: [8.3.6] Old Version: [8.3.3]
+[2023-05-02 06:19:08] INFO root fetch - processPackages [numtools]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-02 06:19:09] INFO root fetch - processPackages [numtools]: Downloading https://files.pythonhosted.org/packages/44/e0/57d5f464471e9096f10cfe309c9c8232ca1e8a75e8e7a0d793325c34e46a/numtools-1.3.0.tar.gz
+[2023-05-02 06:19:09] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/ee/f9/562f34c11cf6f51cb5ac7387dad06197bef716db38b32d321272492e070d/ApiLogicServer-8.3.6.tar.gz
+[2023-05-02 06:19:09] INFO root fetch - processPackages [numtools]: Downloading https://files.pythonhosted.org/packages/6f/9e/45a9ed99e1a17b87a5dfa54de70c7dea58aa6799f8597f279501e7beb86f/numtools-1.4.0.tar.gz
+[2023-05-02 06:19:09] INFO root fetch - processPackages [numtools]: executing diffoscope
+[2023-05-02 06:19:09] INFO root fetch - processPackages [numtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numtools-1.3.0.tar.gz tmp/numtools-1.4.0.tar.gz --markdown 20230502/n/numtools/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-02 06:19:10] INFO root fetch - main [MainThread]: End processing [numtools]: success
+[2023-05-02 06:19:11] INFO root fetch - processPackages [ApiLogicServer]: executing diffoscope
+[2023-05-02 06:19:11] INFO root fetch - processPackages [ApiLogicServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApiLogicServer-8.3.3.tar.gz tmp/ApiLogicServer-8.3.6.tar.gz --markdown 20230502/A/ApiLogicServer/8.3.3-8.3.6/diff.md --exclude *.pyd
+[2023-05-02 06:19:20] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
+[2023-05-02 06:19:20] INFO root fetch - main [MainThread]: Store serial: [17936021]
