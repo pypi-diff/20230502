@@ -22285,3 +22285,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:30:42] INFO root fetch - main [MainThread]: End processing [FFTA]: success
 [2023-05-02 22:30:43] INFO root fetch - main [MainThread]: End processing [bayesnewton]: success
 [2023-05-02 22:30:43] INFO root fetch - main [MainThread]: Store serial: [17946783]
+[2023-05-02 22:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946783]
+[2023-05-02 22:35:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blitzgsea
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: histomicsui
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-elk
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marvin
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OctoBot-Evaluators
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: requests-oidc
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netrandom
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OctoBot-Backtesting
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-classifiers
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: splendsp
+[2023-05-02 22:35:53] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a5] Old Version: [0.0.0a4]
+[2023-05-02 22:35:53] WARNING root fetch - processPackages [astro-elk]: Skipping, unable to determine old version
+[2023-05-02 22:35:53] INFO root fetch - processPackages [splendsp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [astro-elk]: Start processing: oceanum
+[2023-05-02 22:35:53] INFO root fetch - main [MainThread]: End processing [astro-elk] error
+[2023-05-02 22:35:53] INFO root fetch - processPackages [requests-oidc]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-02 22:35:53] WARNING root fetch - processPackages [netrandom]: Skipping, unable to determine old version
+[2023-05-02 22:35:53] INFO root fetch - processPackages [netrandom]: Start processing: home-assistant-frontend
+[2023-05-02 22:35:53] INFO root fetch - main [MainThread]: End processing [netrandom] error
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Evaluators]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [marvin]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [oceanum]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [histomicsui]: New version: [1.4.3.dev8] Old Version: [1.4.3.dev5]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Backtesting]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230502.0] Old Version: [20230501.0]
+[2023-05-02 22:35:53] INFO root fetch - processPackages [splendsp]: Downloading https://files.pythonhosted.org/packages/94/4e/3cd74bac6539c46eb79b22f51822478e66d3dbf2f9bf44978c34971c2583/splendsp-0.1.0.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/de/e3/a16b515dc3d60f2fc36adf8357a8dc0021b5c44ff6275536255c6562504a/ovos_classifiers-0.0.0a5-py3-none-any.whl
+[2023-05-02 22:35:53] INFO root fetch - processPackages [requests-oidc]: Downloading https://files.pythonhosted.org/packages/18/81/e6613fbbb2ccd9ce84eb50f1599fe703d75b282e342a91d0eb930ff3b468/requests_oidc-0.5.0.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/25/21/5b4e71103254bde5fe00ec32cd63d01b916c1469e232ed4d8bcd6298f1c8/oceanum-0.7.4.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Evaluators]: Downloading https://files.pythonhosted.org/packages/a9/f6/971c3da2fea19a506eb6943d94a4820f246d0067e82a323f717be575e02a/OctoBot-Evaluators-1.8.7.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [marvin]: Downloading https://files.pythonhosted.org/packages/4a/08/102f9809b5e150063d0550bad2f726ea363f0169002feefaea55bb6568ae/marvin-0.8.0.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Backtesting]: Downloading https://files.pythonhosted.org/packages/a0/fc/b2f3a98c40c77c424c6c4f418827acdb6be78bdb607d13c4fa987715ca55/OctoBot-Backtesting-1.8.2.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230502/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-02 22:35:53] WARNING root fetch - processPackages [marvin]: Skipping package: exceeds size limit 16054763>=10485760
+[2023-05-02 22:35:53] INFO root fetch - processPackages [marvin]: Start processing: lockss-soap
+[2023-05-02 22:35:53] INFO root fetch - main [MainThread]: End processing [marvin] error
+[2023-05-02 22:35:53] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/33/1b/c11d2da40b1ffab91cb4db15a85ac1b6abe5a710dee4156fc88a8a10f1f2/home_assistant_frontend-20230501.0-py3-none-any.whl
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-05-02 22:35:53] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a4-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a5-py3-none-any.whl.zip --markdown 20230502/o/ovos-classifiers/0.0.0a4-0.0.0a5/diff.md --exclude *.pyd
+[2023-05-02 22:35:53] WARNING root fetch - processPackages [lockss-soap]: Skipping, unable to determine old version
+[2023-05-02 22:35:53] INFO root fetch - main [MainThread]: End processing [lockss-soap] error
+[2023-05-02 22:35:53] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 52215207>=10485760
+[2023-05-02 22:35:53] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-05-02 22:35:53] INFO root fetch - processPackages [requests-oidc]: executing diffoscope
+[2023-05-02 22:35:53] INFO root fetch - processPackages [requests-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_oidc-0.4.2.tar.gz tmp/requests_oidc-0.5.0.tar.gz --markdown 20230502/r/requests-oidc/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-02 22:35:53] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-05-02 22:35:53] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.3.dev5.tar.gz tmp/histomicsui-1.4.3.dev8.tar.gz --markdown 20230502/h/histomicsui/1.4.3.dev5-1.4.3.dev8/diff.md --exclude *.pyd
+[2023-05-02 22:35:53] INFO root fetch - processPackages [splendsp]: Downloading https://files.pythonhosted.org/packages/f9/35/140db7afc4763ce7f8ba5ad2679ec62fc6b78053cbb0e79b3f9c9c351fdd/splendsp-0.1.1.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Backtesting]: Downloading https://files.pythonhosted.org/packages/43/7a/96b8a8ce861ba9aa40f70d48200a92139244e77d042b0e8bd8a6330d10b8/OctoBot-Backtesting-1.9.0.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Evaluators]: Downloading https://files.pythonhosted.org/packages/44/85/d85fb24a47fd2c85d7e2d34a3acfa313c18008b642024127a9bc6bbac80c/OctoBot-Evaluators-1.9.0.tar.gz
+[2023-05-02 22:35:53] INFO root fetch - processPackages [splendsp]: executing diffoscope
+[2023-05-02 22:35:53] INFO root fetch - processPackages [splendsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splendsp-0.1.0.tar.gz tmp/splendsp-0.1.1.tar.gz --markdown 20230502/s/splendsp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Backtesting]: executing diffoscope
+[2023-05-02 22:35:53] INFO root fetch - processPackages [OctoBot-Backtesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Backtesting-1.8.2.tar.gz tmp/OctoBot-Backtesting-1.9.0.tar.gz --markdown 20230502/O/OctoBot-Backtesting/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 22:35:54] INFO root fetch - processPackages [OctoBot-Evaluators]: executing diffoscope
+[2023-05-02 22:35:54] INFO root fetch - processPackages [OctoBot-Evaluators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Evaluators-1.8.7.tar.gz tmp/OctoBot-Evaluators-1.9.0.tar.gz --markdown 20230502/O/OctoBot-Evaluators/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 22:35:54] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/2d/96/f477a8ecb522d15b4ea4ecc6eb3a5e77fc8d70b28795453802abc4e12bae/oceanum-0.7.5.tar.gz
+[2023-05-02 22:35:54] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2023-05-02 22:35:54] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.7.4.tar.gz tmp/oceanum-0.7.5.tar.gz --markdown 20230502/o/oceanum/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-02 22:35:54] INFO root fetch - main [MainThread]: End processing [requests-oidc]: success
+[2023-05-02 22:35:55] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-02 22:35:55] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-05-02 22:35:55] INFO root fetch - main [MainThread]: End processing [splendsp]: success
+[2023-05-02 22:35:55] INFO root fetch - main [MainThread]: End processing [OctoBot-Backtesting]: success
+[2023-05-02 22:35:55] INFO root fetch - main [MainThread]: End processing [OctoBot-Evaluators]: success
+[2023-05-02 22:35:55] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2023-05-02 22:35:57] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-05-02 22:35:57] INFO root fetch - main [MainThread]: Store serial: [17946820]
