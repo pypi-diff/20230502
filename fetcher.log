@@ -5781,3 +5781,34 @@
 [2023-05-02 06:35:26] INFO root fetch - main [MainThread]: End processing [ahk]: success
 [2023-05-02 06:35:27] INFO root fetch - main [MainThread]: End processing [PyOblv]: success
 [2023-05-02 06:35:27] INFO root fetch - main [MainThread]: Store serial: [17936163]
+[2023-05-02 06:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936163]
+[2023-05-02 06:40:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-02 06:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hammock-plot
+[2023-05-02 06:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EdgeGPT
+[2023-05-02 06:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-eric-serialModule
+[2023-05-02 06:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynecone
+[2023-05-02 06:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: angola
+[2023-05-02 06:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lpminimk3
+[2023-05-02 06:40:37] INFO root fetch - processPackages [angola]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-05-02 06:40:37] INFO root fetch - processPackages [pynecone]: New version: [0.1.28a2] Old Version: [0.1.28a1]
+[2023-05-02 06:40:37] INFO root fetch - processPackages [EdgeGPT]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 06:40:37] WARNING root fetch - processPackages [hammock-plot]: Skipping, unable to determine old version
+[2023-05-02 06:40:37] INFO root fetch - main [MainThread]: End processing [hammock-plot] error
+[2023-05-02 06:40:37] WARNING root fetch - processPackages [certora-cli-alpha-eric-serialModule]: Skipping, unable to determine old version
+[2023-05-02 06:40:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-serialModule] error
+[2023-05-02 06:40:37] INFO root fetch - processPackages [lpminimk3]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-02 06:40:37] INFO root fetch - processPackages [angola]: executing diffoscope
+[2023-05-02 06:40:37] INFO root fetch - processPackages [angola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angola-0.10.8.tar.gz tmp/angola-0.10.9.tar.gz --markdown 20230502/a/angola/0.10.8-0.10.9/diff.md --exclude *.pyd
+[2023-05-02 06:40:37] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-02 06:40:37] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.28a1.tar.gz tmp/pynecone-0.1.28a2.tar.gz --markdown 20230502/p/pynecone/0.1.28a1-0.1.28a2/diff.md --exclude *.pyd
+[2023-05-02 06:40:37] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-02 06:40:37] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.3.2.tar.gz tmp/EdgeGPT-0.3.3.tar.gz --markdown 20230502/E/EdgeGPT/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 06:40:37] INFO root fetch - processPackages [lpminimk3]: Downloading https://files.pythonhosted.org/packages/9c/1b/2a879fe3984de12093f6fd4ec858bf8721afd6586abb4601904b12eef09e/lpminimk3-0.6.0.tar.gz
+[2023-05-02 06:40:37] INFO root fetch - processPackages [lpminimk3]: Downloading https://files.pythonhosted.org/packages/99/f0/8248f0d5eff53c45808ca9c597bc869e911d57aee6ddf99b01de69cd323b/lpminimk3-0.6.1.tar.gz
+[2023-05-02 06:40:37] INFO root fetch - processPackages [lpminimk3]: executing diffoscope
+[2023-05-02 06:40:37] INFO root fetch - processPackages [lpminimk3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpminimk3-0.6.0.tar.gz tmp/lpminimk3-0.6.1.tar.gz --markdown 20230502/l/lpminimk3/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-02 06:40:38] INFO root fetch - main [MainThread]: End processing [angola]: success
+[2023-05-02 06:40:38] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-02 06:40:38] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-02 06:40:39] INFO root fetch - main [MainThread]: End processing [lpminimk3]: success
+[2023-05-02 06:40:39] INFO root fetch - main [MainThread]: Store serial: [17936191]
