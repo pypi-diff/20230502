@@ -4427,3 +4427,67 @@
 [2023-05-02 03:58:19] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Timeout during execution of pkgdiff
 [2023-05-02 03:58:19] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.1] error
 [2023-05-02 03:58:19] INFO root fetch - main [MainThread]: Store serial: [17935115]
+[2023-05-02 04:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935115]
+[2023-05-02 04:03:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2o-pysparkling-3.2
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-pysparkling-scoring-3.2
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microgue
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbra
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysailfish
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuralprophet
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyVIA
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-star-rail-calendar
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynose
+[2023-05-02 04:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quart-babel
+[2023-05-02 04:03:27] INFO root fetch - processPackages [pysailfish]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [h2o-pysparkling-3.2]: New version: [3.40.0.3.post1] Old Version: [3.40.0.2.post1]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: New version: [3.40.0.3.post1] Old Version: [3.40.0.2.post1]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [neuralprophet]: New version: [1.0.0rc1] Old Version: [0.6.0rc1]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [pysailfish]: executing diffoscope
+[2023-05-02 04:03:27] INFO root fetch - processPackages [pysailfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysailfish-1.0.0.tar.gz tmp/pysailfish-1.1.0.tar.gz --markdown 20230502/p/pysailfish/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 04:03:27] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [microgue]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [quart-babel]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [neuralprophet]: executing diffoscope
+[2023-05-02 04:03:27] INFO root fetch - processPackages [neuralprophet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralprophet-0.6.0rc1.tar.gz tmp/neuralprophet-1.0.0rc1.tar.gz --markdown 20230502/n/neuralprophet/0.6.0rc1-1.0.0rc1/diff.md --exclude *.pyd
+[2023-05-02 04:03:27] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: executing diffoscope
+[2023-05-02 04:03:27] INFO root fetch - processPackages [pynose]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_star_rail_calendar-0.0.1.tar.gz tmp/nonebot_plugin_star_rail_calendar-1.0.1.tar.gz --markdown 20230502/n/nonebot-plugin-star-rail-calendar/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 04:03:27] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a97]
+[2023-05-02 04:03:27] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Downloading https://files.pythonhosted.org/packages/fd/8b/12eb9eed1a24290084b1e679d7cd0b30b85e857afa22d1ff6f04f266a74f/h2o_pysparkling_scoring_3.2-3.40.0.2-1.tar.gz
+[2023-05-02 04:03:27] INFO root fetch - processPackages [h2o-pysparkling-3.2]: Downloading https://files.pythonhosted.org/packages/6c/ab/81a97491c6ee30bb8b289781edb971f079905d633972e4afaacc33bce84b/h2o_pysparkling_3.2-3.40.0.2-1.tar.gz
+[2023-05-02 04:03:27] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/79/3f/833dc56b90926fe2926e8d9d775aca08a1979a02e20766aac6e3bdb33dbf/pyVIA-0.1.82.tar.gz
+[2023-05-02 04:03:27] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/b7/32/2bcd8d575a56094b6ee381d53ca02ffb5c4abf2de458737724fc1250d5c9/microgue-2.0.1.tar.gz
+[2023-05-02 04:03:27] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/f9/4b/0fd4521a294f6ad8e5df695e86bff89b4ef8573409a7837f505fab5208d0/cbra-2.0.0a97.tar.gz
+[2023-05-02 04:03:27] INFO root fetch - processPackages [quart-babel]: Downloading https://files.pythonhosted.org/packages/fe/b6/3478c85f52f57b5ee1e2376ff1f7d703f4eccc3d3ab115afa2f7a79352f8/quart_babel-1.0.1.tar.gz
+[2023-05-02 04:03:27] WARNING root fetch - processPackages [h2o-pysparkling-3.2]: Skipping package: exceeds size limit 162215860>=10485760
+[2023-05-02 04:03:27] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.2] error
+[2023-05-02 04:03:28] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/67/05/03a102c44b1bc56489b406e7ffc2564c599daabd6f37c80dc4258db4d5a1/pynose-1.4.2.tar.gz
+[2023-05-02 04:03:28] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-05-02 04:03:28] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.82.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230502/p/pyVIA/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 04:03:28] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-02 04:03:28] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a97.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230502/c/cbra/2.0.0a97-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-02 04:03:28] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/de/c9/0edb1cbb7933262a68255595e4f7622e895fe47d15941cb2d9c072d409c8/microgue-2.0.2.tar.gz
+[2023-05-02 04:03:28] INFO root fetch - processPackages [pynose]: Downloading https://files.pythonhosted.org/packages/6f/5f/1e3d4a4738797e72f55fd50bc4cf2d86abb5359d04f7c1ec8c0f681e4d3c/pynose-1.4.3.tar.gz
+[2023-05-02 04:03:28] INFO root fetch - processPackages [quart-babel]: Downloading https://files.pythonhosted.org/packages/21/4a/fc7638a3058bec251729ec77540c040bbdbaae9f79c57f382afa7f6eec0f/quart_babel-1.0.2.tar.gz
+[2023-05-02 04:03:28] INFO root fetch - processPackages [microgue]: executing diffoscope
+[2023-05-02 04:03:28] INFO root fetch - processPackages [microgue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microgue-2.0.1.tar.gz tmp/microgue-2.0.2.tar.gz --markdown 20230502/m/microgue/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-02 04:03:28] INFO root fetch - processPackages [pynose]: executing diffoscope
+[2023-05-02 04:03:28] INFO root fetch - processPackages [pynose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynose-1.4.2.tar.gz tmp/pynose-1.4.3.tar.gz --markdown 20230502/p/pynose/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-02 04:03:28] INFO root fetch - processPackages [quart-babel]: executing diffoscope
+[2023-05-02 04:03:28] INFO root fetch - processPackages [quart-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quart_babel-1.0.1.tar.gz tmp/quart_babel-1.0.2.tar.gz --markdown 20230502/q/quart-babel/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 04:03:28] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Downloading https://files.pythonhosted.org/packages/08/3c/8fd224a80f6048d364d436958ad366dcfd08da436486bcddd34e14ddb064/h2o_pysparkling_scoring_3.2-3.40.0.3-1.tar.gz
+[2023-05-02 04:03:28] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: executing diffoscope
+[2023-05-02 04:03:28] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.2-3.40.0.2-1.tar.gz tmp/h2o_pysparkling_scoring_3.2-3.40.0.3-1.tar.gz --markdown 20230502/h/h2o-pysparkling-scoring-3.2/3.40.0.2.post1-3.40.0.3.post1/diff.md --exclude *.pyd
+[2023-05-02 04:03:29] INFO root fetch - main [MainThread]: End processing [pysailfish]: success
+[2023-05-02 04:03:29] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-05-02 04:03:29] INFO root fetch - main [MainThread]: End processing [quart-babel]: success
+[2023-05-02 04:03:29] INFO root fetch - main [MainThread]: End processing [pynose]: success
+[2023-05-02 04:03:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-star-rail-calendar]: success
+[2023-05-02 04:03:30] INFO root fetch - main [MainThread]: End processing [microgue]: success
+[2023-05-02 04:03:30] INFO root fetch - main [MainThread]: End processing [neuralprophet]: success
+[2023-05-02 04:03:32] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-02 04:06:28] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.2]: Timeout during execution of pkgdiff
+[2023-05-02 04:06:28] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.2] error
+[2023-05-02 04:06:28] INFO root fetch - main [MainThread]: Store serial: [17935143]
