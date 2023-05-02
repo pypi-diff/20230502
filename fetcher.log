@@ -19535,3 +19535,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 20:21:27] INFO root fetch - main [MainThread]: End processing [keras]: success
 [2023-05-02 20:23:02] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-05-02 20:23:02] INFO root fetch - main [MainThread]: Store serial: [17945141]
+[2023-05-02 20:28:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945141]
+[2023-05-02 20:28:12] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prepup
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codex
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycolorating
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strictly-typed-pandas
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonrpcx
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaco2
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlmesh
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coiled
+[2023-05-02 20:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mp-api
+[2023-05-02 20:28:12] INFO root fetch - processPackages [jaco2]: New version: [3.0] Old Version: [2.9]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [jsonrpcx]: New version: [4.0.0] Old Version: [3.3.1]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [sqlmesh]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-05-02 20:28:12] WARNING root fetch - processPackages [pycolorating]: Skipping, unable to determine old version
+[2023-05-02 20:28:12] INFO root fetch - processPackages [prepup]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [pycolorating]: Start processing: flux-python
+[2023-05-02 20:28:12] INFO root fetch - main [MainThread]: End processing [pycolorating] error
+[2023-05-02 20:28:12] INFO root fetch - processPackages [strictly-typed-pandas]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [codex]: New version: [1.4.0a1] Old Version: [1.4.0a0]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [flux-python]: New version: [0.48.0rc0] Old Version: [0.46.0rc1]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [mp-api]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-02 20:28:12] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-02 20:28:13] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/90/82/3203c131e16102fa1b971461401f8127766af85ea395f0058d03a028e826/sqlmesh-0.7.0.tar.gz
+[2023-05-02 20:28:13] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230502/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/01/35/5cde7336dc1b934a8d1f73a86881cdd37be759c271ba14f195c6bd29e028/jaco2-3.0.tar.gz
+[2023-05-02 20:28:13] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/86/d8/c86943bc2638fc2492fc846ce4ec45f20a17c70a8e15fbedd39391ff064a/codex-1.4.0a0.tar.gz
+[2023-05-02 20:28:13] INFO root fetch - processPackages [mp-api]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [mp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mp-api-0.9.0.tar.gz tmp/mp-api-0.9.1.tar.gz --markdown 20230502/m/mp-api/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.0.9.tar.gz tmp/prepup-0.1.0.tar.gz --markdown 20230502/p/prepup/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [flux-python]: Downloading https://files.pythonhosted.org/packages/25/fb/02951d80e44a19db291f0e7370d4e7d82c0c1b17709a37913881f958dff7/flux-python-0.48.0rc0.tar.gz
+[2023-05-02 20:28:13] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.9.tar.gz tmp/jaco2-3.0.tar.gz --markdown 20230502/j/jaco2/2.9-3.0/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [jsonrpcx]: Downloading https://files.pythonhosted.org/packages/a1/bf/ededb2578c0597b94e441658c2d54a33fbd0d7d9e9abf85e0bfdcbeb4b3d/jsonrpcx-4.0.0-py3-none-any.whl
+[2023-05-02 20:28:13] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.6.4.tar.gz tmp/sqlmesh-0.7.0.tar.gz --markdown 20230502/s/sqlmesh/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [strictly-typed-pandas]: Downloading https://files.pythonhosted.org/packages/f5/2e/c43e7e0d7098b5f99a149c908724e115735f9cd4ad1df929b8bf391e9d9d/strictly_typed_pandas-0.1.8.tar.gz
+[2023-05-02 20:28:13] INFO root fetch - processPackages [flux-python]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [flux-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-python-0.46.0rc1.tar.gz tmp/flux-python-0.48.0rc0.tar.gz --markdown 20230502/f/flux-python/0.46.0rc1-0.48.0rc0/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [jsonrpcx]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [jsonrpcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonrpcx-3.3.1-py3-none-any.whl.zip tmp/jsonrpcx-4.0.0-py3-none-any.whl.zip --markdown 20230502/j/jsonrpcx/3.3.1-4.0.0/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [strictly-typed-pandas]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [strictly-typed-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictly_typed_pandas-0.1.6.tar.gz tmp/strictly_typed_pandas-0.1.8.tar.gz --markdown 20230502/s/strictly-typed-pandas/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-02 20:28:13] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230502/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-02 20:28:13] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 16151115>=10485760
+[2023-05-02 20:28:13] INFO root fetch - processPackages [codex]: Start processing: fpzip
+[2023-05-02 20:28:13] INFO root fetch - main [MainThread]: End processing [codex] error
+[2023-05-02 20:28:13] INFO root fetch - processPackages [fpzip]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-02 20:28:13] INFO root fetch - processPackages [fpzip]: Downloading https://files.pythonhosted.org/packages/62/94/a6384376c95c69ffb664ffb4c2f75fbdc49ab4c8383d6b9168dbed1754a1/fpzip-1.2.0.tar.gz
+[2023-05-02 20:28:14] INFO root fetch - processPackages [fpzip]: Downloading https://files.pythonhosted.org/packages/dd/55/ef3936a4cd19992be7ef8baec33efcca52151df085d6e1801246ef8d9ebc/fpzip-1.2.1.tar.gz
+[2023-05-02 20:28:14] INFO root fetch - processPackages [fpzip]: executing diffoscope
+[2023-05-02 20:28:14] INFO root fetch - processPackages [fpzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpzip-1.2.0.tar.gz tmp/fpzip-1.2.1.tar.gz --markdown 20230502/f/fpzip/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-02 20:28:14] INFO root fetch - processPackages [jaco2]: Start processing: looqbox
+[2023-05-02 20:28:14] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 20:28:14] INFO root fetch - processPackages [looqbox]: New version: [4.0.0] Old Version: [3.9.0]
+[2023-05-02 20:28:14] INFO root fetch - processPackages [prepup]: Start processing: nycu-tdx-py
+[2023-05-02 20:28:14] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-05-02 20:28:14] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/dc/42/07566b62f6515c970bc3849a70b2f009e9f094aae6502f71501d001909b9/looqbox-3.9.0-py3-none-any.whl
+[2023-05-02 20:28:14] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 20:28:15] INFO root fetch - processPackages [jsonrpcx]: Start processing: elegantmotd
+[2023-05-02 20:28:15] INFO root fetch - main [MainThread]: End processing [jsonrpcx]: success
+[2023-05-02 20:28:15] INFO root fetch - processPackages [always-updates]: Start processing: maus
+[2023-05-02 20:28:15] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-02 20:28:15] INFO root fetch - processPackages [elegantmotd]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-02 20:28:15] INFO root fetch - processPackages [strictly-typed-pandas]: Start processing: manimcs
+[2023-05-02 20:28:15] INFO root fetch - main [MainThread]: End processing [strictly-typed-pandas]: success
+[2023-05-02 20:28:15] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 20:28:15] WARNING root fetch - processPackages [manimcs]: Skipping, unable to determine old version
+[2023-05-02 20:28:15] INFO root fetch - main [MainThread]: End processing [manimcs] error
+[2023-05-02 20:28:15] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-05-02 20:28:15] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230502/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 20:28:15] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/11/e8/0c0662f7845dd609197b3fb4ebbcd96b264d07fbfad26b51bfb8f2a6d119/looqbox-4.0.0-py3-none-any.whl
+[2023-05-02 20:28:15] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/a2/b5/3e8f722a3b04c3bbe90ca498a4f0f9a20f03de794c884e2a441d5e66408b/elegantmotd-0.2.4.tar.gz
+[2023-05-02 20:28:15] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 20:28:15] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 20:28:15] INFO root fetch - processPackages [looqbox]: executing diffoscope
+[2023-05-02 20:28:15] INFO root fetch - processPackages [looqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox-3.9.0-py3-none-any.whl.zip tmp/looqbox-4.0.0-py3-none-any.whl.zip --markdown 20230502/l/looqbox/3.9.0-4.0.0/diff.md --exclude *.pyd
+[2023-05-02 20:28:15] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/10/13/9a2d8e7b49dac23f22c9604e3b0d20a8cf42765c459b93bd77fa09241c5e/elegantmotd-0.2.5.tar.gz
+[2023-05-02 20:28:15] INFO root fetch - processPackages [elegantmotd]: executing diffoscope
+[2023-05-02 20:28:15] INFO root fetch - processPackages [elegantmotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegantmotd-0.2.4.tar.gz tmp/elegantmotd-0.2.5.tar.gz --markdown 20230502/e/elegantmotd/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-02 20:28:15] INFO root fetch - main [MainThread]: End processing [flux-python]: success
+[2023-05-02 20:28:16] INFO root fetch - main [MainThread]: End processing [fpzip]: success
+[2023-05-02 20:28:16] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-05-02 20:28:16] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 20:28:16] INFO root fetch - main [MainThread]: End processing [elegantmotd]: success
+[2023-05-02 20:28:17] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-02 20:28:17] INFO root fetch - main [MainThread]: End processing [mp-api]: success
+[2023-05-02 20:28:18] INFO root fetch - main [MainThread]: End processing [looqbox]: success
+[2023-05-02 20:28:25] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-05-02 20:28:25] INFO root fetch - main [MainThread]: Store serial: [17945241]
