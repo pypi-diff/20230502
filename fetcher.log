@@ -13769,3 +13769,130 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:28:32] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-02 15:28:35] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-02 15:28:35] INFO root fetch - main [MainThread]: Store serial: [17941173]
+[2023-05-02 15:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941173]
+[2023-05-02 15:33:44] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flux-python
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-contributor-assets
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dia-adfpro
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-delivery-multi-destination
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: guify
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-niv-Add-summary-unittests
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sageworks
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questdb-connect
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nginx-set-conf-equitania
+[2023-05-02 15:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sipiiiii
+[2023-05-02 15:33:44] INFO root fetch - processPackages [dia-adfpro]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [guify]: New version: [0.2.5a5] Old Version: [0.2.5a0]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [flux-python]: New version: [0.46.0rc1] Old Version: [0.46.0rc0]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [odoo13-addon-delivery-multi-destination]: New version: [13.0.1.1.1.dev1] Old Version: [13.0.1.1.1]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [sageworks]: New version: [0.1.4.2] Old Version: [0.1.4.1]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post743] Old Version: [1.0.0.post742]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: New version: [20230502.9.27.872237] Old Version: [20230501.14.37.375818]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [nginx-set-conf-equitania]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-05-02 15:33:44] INFO root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Downloading https://files.pythonhosted.org/packages/a8/46/2e856198c947d587e2828d281fb753140921d9f233337bec4152cb6bf11e/certora-cli-alpha-niv-Add_summary_unittests-20230501.14.37.375818.tar.gz
+[2023-05-02 15:33:44] WARNING root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Skipping package: exceeds size limit 38297879>=10485760
+[2023-05-02 15:33:44] INFO root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Start processing: igenius-adapters-sdk
+[2023-05-02 15:33:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-Add-summary-unittests] error
+[2023-05-02 15:33:44] INFO root fetch - processPackages [sageworks]: executing diffoscope
+[2023-05-02 15:33:44] INFO root fetch - processPackages [sageworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageworks-0.1.4.1.tar.gz tmp/sageworks-0.1.4.2.tar.gz --markdown 20230502/s/sageworks/0.1.4.1-0.1.4.2/diff.md --exclude *.pyd
+[2023-05-02 15:33:44] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-02 15:33:44] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.31.tar.gz tmp/questdb-connect-0.0.32.tar.gz --markdown 20230502/q/questdb-connect/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-02 15:33:44] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/3e/78/21886fa3007d9d676c675ecedbac0931cd2aac7aea08e9315053905afbbe/nucliadb_contributor_assets-1.0.0.post742-py3-none-any.whl
+[2023-05-02 15:33:44] INFO root fetch - processPackages [flux-python]: Downloading https://files.pythonhosted.org/packages/38/18/8345e2a2db69257fa2b175979546c72dbd3a83c0bc9a773ddf9198f30fa6/flux-python-0.46.0rc0.tar.gz
+[2023-05-02 15:33:44] INFO root fetch - processPackages [odoo13-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/89/13/470e3e3b1c04c8c032ca37600504eff00f60ac6ccbdc166b9c30d4fbf580/odoo13_addon_delivery_multi_destination-13.0.1.1.1-py3-none-any.whl
+[2023-05-02 15:33:45] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/b0/43/d6857fac7f3d57e3ac158c7c7893bb8496067e5eeb3bc7ed8d16ceab387d/guify-0.2.5a5.tar.gz
+[2023-05-02 15:33:45] INFO root fetch - processPackages [igenius-adapters-sdk]: New version: [2.1.0] Old Version: [2.0.2rc1]
+[2023-05-02 15:33:45] INFO root fetch - processPackages [dia-adfpro]: Downloading https://files.pythonhosted.org/packages/cb/4b/247d6f8c2b8c7a9c930803a829f644647f80ebfe8627d837d0a2aba73041/dia-adfpro-0.0.2.tar.gz
+[2023-05-02 15:33:45] INFO root fetch - processPackages [sipiiiii]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-02 15:33:45] INFO root fetch - processPackages [dia-adfpro]: executing diffoscope
+[2023-05-02 15:33:45] INFO root fetch - processPackages [dia-adfpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-adfpro-0.0.1.tar.gz tmp/dia-adfpro-0.0.2.tar.gz --markdown 20230502/d/dia-adfpro/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 15:33:45] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-02 15:33:45] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.5a0.tar.gz tmp/guify-0.2.5a5.tar.gz --markdown 20230502/g/guify/0.2.5a0-0.2.5a5/diff.md --exclude *.pyd
+[2023-05-02 15:33:45] INFO root fetch - processPackages [igenius-adapters-sdk]: Downloading https://files.pythonhosted.org/packages/6d/fa/40740423adb0f5b39e6cb948b541d0a819ee8213725028181db60dc34cff/igenius-adapters-sdk-2.0.2rc1.tar.gz
+[2023-05-02 15:33:45] INFO root fetch - processPackages [flux-python]: Downloading https://files.pythonhosted.org/packages/b1/8c/2a41a9451c46925e3c5d12976e6e90983fad07bea0b4b3e987080b0779aa/flux-python-0.46.0rc1.tar.gz
+[2023-05-02 15:33:45] INFO root fetch - processPackages [nginx-set-conf-equitania]: Downloading https://files.pythonhosted.org/packages/b6/0e/89a6f02e286d1163c445928626d742fbf651b7b6c65e25b04c676ac06581/nginx-set-conf-equitania-0.7.9.tar.gz
+[2023-05-02 15:33:45] INFO root fetch - processPackages [nginx-set-conf-equitania]: executing diffoscope
+[2023-05-02 15:33:45] INFO root fetch - processPackages [nginx-set-conf-equitania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nginx-set-conf-equitania-0.7.8.tar.gz tmp/nginx-set-conf-equitania-0.7.9.tar.gz --markdown 20230502/n/nginx-set-conf-equitania/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-05-02 15:33:45] INFO root fetch - processPackages [flux-python]: executing diffoscope
+[2023-05-02 15:33:45] INFO root fetch - processPackages [flux-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-python-0.46.0rc0.tar.gz tmp/flux-python-0.46.0rc1.tar.gz --markdown 20230502/f/flux-python/0.46.0rc0-0.46.0rc1/diff.md --exclude *.pyd
+[2023-05-02 15:33:45] INFO root fetch - processPackages [odoo13-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/c8/50/244b464dd6f3a06a15a5a575647493e9c971d82fbf8c254ae4d5f61c0794/odoo13_addon_delivery_multi_destination-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-02 15:33:45] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/5c/b1/e8c0e7a42c7a71da5e42f2b01deff08416681f2e43ae54d6cadac7e86ac4/nucliadb_contributor_assets-1.0.0.post743-py3-none-any.whl
+[2023-05-02 15:33:45] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/ca/49/2fb84e637652d0aa989172af25c2ad1c250356f9f6ba0df6f66beab427f1/sipiiiii-0.7.3.tar.gz
+[2023-05-02 15:33:45] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-02 15:33:45] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post742-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post743-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-contributor-assets/1.0.0.post742-1.0.0.post743/diff.md --exclude *.pyd
+[2023-05-02 15:33:46] INFO root fetch - processPackages [igenius-adapters-sdk]: Downloading https://files.pythonhosted.org/packages/92/67/108530ac8cea94680343e419270998ee425b5fe401b93fe9abb5ffe2a19e/igenius-adapters-sdk-2.1.0.tar.gz
+[2023-05-02 15:33:46] INFO root fetch - processPackages [odoo13-addon-delivery-multi-destination]: executing diffoscope
+[2023-05-02 15:33:46] INFO root fetch - processPackages [odoo13-addon-delivery-multi-destination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_delivery_multi_destination-13.0.1.1.1-py3-none-any.whl.zip tmp/odoo13_addon_delivery_multi_destination-13.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230502/o/odoo13-addon-delivery-multi-destination/13.0.1.1.1-13.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-02 15:33:46] INFO root fetch - processPackages [sipiiiii]: Downloading https://files.pythonhosted.org/packages/b6/65/e3d45d35e50fa4b8f8e154868994ddcb153ee5f4191a7ce23f60e34795cb/sipiiiii-0.7.4.tar.gz
+[2023-05-02 15:33:46] INFO root fetch - processPackages [igenius-adapters-sdk]: executing diffoscope
+[2023-05-02 15:33:46] INFO root fetch - processPackages [igenius-adapters-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igenius-adapters-sdk-2.0.2rc1.tar.gz tmp/igenius-adapters-sdk-2.1.0.tar.gz --markdown 20230502/i/igenius-adapters-sdk/2.0.2rc1-2.1.0/diff.md --exclude *.pyd
+[2023-05-02 15:33:46] INFO root fetch - processPackages [questdb-connect]: Start processing: wagtail-site-inheritance
+[2023-05-02 15:33:46] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-02 15:33:46] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-02 15:33:46] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.7.3.tar.gz tmp/sipiiiii-0.7.4.tar.gz --markdown 20230502/s/sipiiiii/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-02 15:33:46] INFO root fetch - processPackages [wagtail-site-inheritance]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-02 15:33:46] INFO root fetch - processPackages [guify]: Start processing: spycoprobe
+[2023-05-02 15:33:46] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-02 15:33:46] INFO root fetch - processPackages [spycoprobe]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 15:33:46] INFO root fetch - processPackages [spycoprobe]: executing diffoscope
+[2023-05-02 15:33:46] INFO root fetch - processPackages [spycoprobe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spycoprobe-1.0.1.tar.gz tmp/spycoprobe-1.0.2.tar.gz --markdown 20230502/s/spycoprobe/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 15:33:46] INFO root fetch - processPackages [wagtail-site-inheritance]: Downloading https://files.pythonhosted.org/packages/51/d7/b4323bd29a73f1b6ccce3a097dd7c973608c0c7b25ad750a47e883580c74/wagtail-site-inheritance-0.0.1.tar.gz
+[2023-05-02 15:33:46] INFO root fetch - processPackages [nginx-set-conf-equitania]: Start processing: certora-cli-alpha-rahav-cert-1982-2
+[2023-05-02 15:33:46] INFO root fetch - main [MainThread]: End processing [nginx-set-conf-equitania]: success
+[2023-05-02 15:33:46] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1982-2]: Skipping, unable to determine old version
+[2023-05-02 15:33:46] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1982-2]: Start processing: qudi-hira-analysis
+[2023-05-02 15:33:46] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1982-2] error
+[2023-05-02 15:33:47] INFO root fetch - processPackages [qudi-hira-analysis]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [dia-adfpro]: Start processing: q-random-number-generator
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [dia-adfpro]: success
+[2023-05-02 15:33:47] INFO root fetch - processPackages [q-random-number-generator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [flux-python]: Start processing: superset-iris
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [flux-python]: success
+[2023-05-02 15:33:47] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/2f/4b/264fe34d0e06587f58e119f5f0f744f855c04df684f27f544b604394afbe/qudi_hira_analysis-1.4.2.tar.gz
+[2023-05-02 15:33:47] INFO root fetch - processPackages [wagtail-site-inheritance]: Downloading https://files.pythonhosted.org/packages/89/6c/6e374c457c2e45a6cebd990b029745211acd34f9227f30f80395cd66e8fc/wagtail-site-inheritance-1.0.0.tar.gz
+[2023-05-02 15:33:47] INFO root fetch - processPackages [superset-iris]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [odoo13-addon-delivery-multi-destination]: Start processing: auto-archiver
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-delivery-multi-destination]: success
+[2023-05-02 15:33:47] INFO root fetch - processPackages [wagtail-site-inheritance]: executing diffoscope
+[2023-05-02 15:33:47] INFO root fetch - processPackages [wagtail-site-inheritance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-site-inheritance-0.0.1.tar.gz tmp/wagtail-site-inheritance-1.0.0.tar.gz --markdown 20230502/w/wagtail-site-inheritance/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 15:33:47] INFO root fetch - processPackages [auto-archiver]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [sipiiiii]: Start processing: dop-integration-libs
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-02 15:33:47] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/ca/08/7b9aabac737b8e27376e2ab43772df7684fd0d1f7291b32de3f2a1e4a03a/qudi_hira_analysis-1.4.3.tar.gz
+[2023-05-02 15:33:47] INFO root fetch - processPackages [igenius-adapters-sdk]: Start processing: django-simple-ip-restrict
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [igenius-adapters-sdk]: success
+[2023-05-02 15:33:47] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [django-simple-ip-restrict]: New version: [1.0.41] Old Version: [1.0.40]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/33/6a/05d49528e4a2f06ac3413008be94b5777a75f3f02cafeafca61256792b1c/auto_archiver-0.5.7.tar.gz
+[2023-05-02 15:33:47] INFO root fetch - processPackages [superset-iris]: Downloading https://files.pythonhosted.org/packages/1f/5e/e0bebe7c525114c879fa54ac98e506a5bebc7388963cd62c2ec7a8ea4e71/superset-iris-0.3.0.tar.gz
+[2023-05-02 15:33:47] INFO root fetch - processPackages [spycoprobe]: Start processing: sipiiiii
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [spycoprobe]: success
+[2023-05-02 15:33:47] INFO root fetch - main [MainThread]: End processing [sageworks]: success
+[2023-05-02 15:33:47] INFO root fetch - processPackages [qudi-hira-analysis]: executing diffoscope
+[2023-05-02 15:33:47] INFO root fetch - processPackages [qudi-hira-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qudi_hira_analysis-1.4.2.tar.gz tmp/qudi_hira_analysis-1.4.3.tar.gz --markdown 20230502/q/qudi-hira-analysis/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-02 15:33:47] INFO root fetch - processPackages [sipiiiii]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-02 15:33:47] INFO root fetch - processPackages [q-random-number-generator]: Downloading https://files.pythonhosted.org/packages/74/55/283ddae6057417a0615e493c3a162be6ffbc002b287fc593f4b4edde34f9/q_random_number_generator-0.0.4.tar.gz
+[2023-05-02 15:33:47] INFO root fetch - processPackages [django-simple-ip-restrict]: executing diffoscope
+[2023-05-02 15:33:47] INFO root fetch - processPackages [django-simple-ip-restrict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_ip_restrict-1.0.40.tar.gz tmp/django_simple_ip_restrict-1.0.41.tar.gz --markdown 20230502/d/django-simple-ip-restrict/1.0.40-1.0.41/diff.md --exclude *.pyd
+[2023-05-02 15:33:47] INFO root fetch - processPackages [q-random-number-generator]: executing diffoscope
+[2023-05-02 15:33:47] INFO root fetch - processPackages [q-random-number-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q_random_number_generator-0.0.3.tar.gz tmp/q_random_number_generator-0.0.4.tar.gz --markdown 20230502/q/q-random-number-generator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 15:33:47] INFO root fetch - processPackages [sipiiiii]: executing diffoscope
+[2023-05-02 15:33:47] INFO root fetch - processPackages [sipiiiii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sipiiiii-0.7.3.tar.gz tmp/sipiiiii-0.7.4.tar.gz --markdown 20230502/s/sipiiiii/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-02 15:33:47] INFO root fetch - processPackages [superset-iris]: executing diffoscope
+[2023-05-02 15:33:47] INFO root fetch - processPackages [superset-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superset-iris-0.2.0.tar.gz tmp/superset-iris-0.3.0.tar.gz --markdown 20230502/s/superset-iris/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 15:33:48] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/b7/3f/56ff889adbece9c94eeff8aebe881f8edb8d2bf925e50f4a90c4a0e899ae/auto_archiver-0.5.8.tar.gz
+[2023-05-02 15:33:48] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-02 15:33:48] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230502/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 15:33:48] INFO root fetch - main [MainThread]: End processing [wagtail-site-inheritance]: success
+[2023-05-02 15:33:48] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-05-02 15:33:48] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.5.7.tar.gz tmp/auto_archiver-0.5.8.tar.gz --markdown 20230502/a/auto-archiver/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-02 15:33:49] INFO root fetch - main [MainThread]: End processing [django-simple-ip-restrict]: success
+[2023-05-02 15:33:49] INFO root fetch - main [MainThread]: End processing [q-random-number-generator]: success
+[2023-05-02 15:33:49] INFO root fetch - main [MainThread]: End processing [sipiiiii]: success
+[2023-05-02 15:33:49] INFO root fetch - main [MainThread]: End processing [superset-iris]: success
+[2023-05-02 15:33:49] INFO root fetch - main [MainThread]: End processing [qudi-hira-analysis]: success
+[2023-05-02 15:33:49] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-02 15:33:50] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-05-02 15:33:52] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-02 15:33:52] INFO root fetch - main [MainThread]: Store serial: [17941250]
