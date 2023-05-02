@@ -10843,3 +10843,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:46:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
 [2023-05-02 12:46:32] INFO root fetch - main [MainThread]: End processing [JFIO]: success
 [2023-05-02 12:46:32] INFO root fetch - main [MainThread]: Store serial: [17939298]
+[2023-05-02 12:51:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939298]
+[2023-05-02 12:51:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-easy-my-coop-sponsorship
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeode-IO
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-shift-worker-status
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utilspggmdatalab
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdat
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-shift-attendance
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boutpp-nightly
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: curvit
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkov
+[2023-05-02 12:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JFIO
+[2023-05-02 12:51:45] INFO root fetch - processPackages [odoo12-addon-easy-my-coop-sponsorship]: New version: [12.0.0.0.2] Old Version: [12.0.0.0.0rc2]
+[2023-05-02 12:51:45] WARNING root fetch - processPackages [utilspggmdatalab]: Skipping, unable to determine old version
+[2023-05-02 12:51:45] INFO root fetch - main [MainThread]: End processing [utilspggmdatalab] error
+[2023-05-02 12:51:45] WARNING root fetch - processPackages [odoo12-addon-shift-worker-status]: Skipping, unable to determine old version
+[2023-05-02 12:51:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-shift-worker-status] error
+[2023-05-02 12:51:45] INFO root fetch - processPackages [curvit]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-02 12:51:45] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.1.0.dev92] Old Version: [5.1.0.dev85]
+[2023-05-02 12:51:45] WARNING root fetch - processPackages [odoo12-addon-shift-attendance]: Skipping, unable to determine old version
+[2023-05-02 12:51:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-shift-attendance] error
+[2023-05-02 12:51:45] INFO root fetch - processPackages [JFIO]: New version: [0.3] Old Version: [0.2]
+[2023-05-02 12:51:45] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-02 12:51:45] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-05-02 12:51:45] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-02 12:51:45] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/73/a9/9cc7953b7296dc2186e264110eb99289b322a6fe1bd580d96fbab537b32e/boutpp-nightly-5.1.0.dev85.tar.gz
+[2023-05-02 12:51:45] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 18056684>=10485760
+[2023-05-02 12:51:45] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2023-05-02 12:51:45] INFO root fetch - processPackages [odoo12-addon-easy-my-coop-sponsorship]: Downloading https://files.pythonhosted.org/packages/4a/43/95431ea4d8d45c7094faae16c4a68e75fd8934a6a0258aaa778652fc0386/odoo12-addon-easy_my_coop_sponsorship-12.0.0.0.0rc2.tar.gz
+[2023-05-02 12:51:45] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-02 12:51:45] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230502/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-02 12:51:45] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/7d/6b/a2c809711c9aeaf41be14c91750560d9daf2466d998d9baf8ad4414ea3b3/JFIO-0.3.tar.gz
+[2023-05-02 12:51:45] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/db/db/694a1ca66bb85b31fc308a2579edb7757563937f2abc3f514217924954e4/OpenGeode_IO-6.0.2-cp39-cp39-win_amd64.whl
+[2023-05-02 12:51:45] INFO root fetch - processPackages [curvit]: Downloading https://files.pythonhosted.org/packages/8e/2f/3539805b70c8429a0768e1ce8832df959b9fd389faa2e7b90fe56dacc911/curvit-1.6.6.tar.gz
+[2023-05-02 12:51:45] INFO root fetch - processPackages [curvit]: executing diffoscope
+[2023-05-02 12:51:45] INFO root fetch - processPackages [curvit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curvit-1.6.5.tar.gz tmp/curvit-1.6.6.tar.gz --markdown 20230502/c/curvit/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-05-02 12:51:45] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-02 12:51:45] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-0.2.tar.gz tmp/JFIO-0.3.tar.gz --markdown 20230502/J/JFIO/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-02 12:51:45] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-05-02 12:51:45] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230502/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-02 12:51:45] INFO root fetch - processPackages [odoo12-addon-easy-my-coop-sponsorship]: Downloading https://files.pythonhosted.org/packages/5c/f6/9b093ed2c3867196f01baa7720bfab83f8219d6f748d3c31314a129ca83c/odoo12-addon-easy_my_coop_sponsorship-12.0.0.0.2.tar.gz
+[2023-05-02 12:51:46] INFO root fetch - processPackages [odoo12-addon-easy-my-coop-sponsorship]: executing diffoscope
+[2023-05-02 12:51:46] INFO root fetch - processPackages [odoo12-addon-easy-my-coop-sponsorship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-easy_my_coop_sponsorship-12.0.0.0.0rc2.tar.gz tmp/odoo12-addon-easy_my_coop_sponsorship-12.0.0.0.2.tar.gz --markdown 20230502/o/odoo12-addon-easy-my-coop-sponsorship/12.0.0.0.0rc2-12.0.0.0.2/diff.md --exclude *.pyd
+[2023-05-02 12:51:46] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/a2/58/e70d0fc045929d664d584879e39fd1c1d14750701a9bc90cf58daffb1eb0/OpenGeode_IO-6.0.3-cp39-cp39-win_amd64.whl
+[2023-05-02 12:51:46] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-05-02 12:51:46] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.2-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230502/O/OpenGeode-IO/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-05-02 12:51:47] INFO root fetch - main [MainThread]: End processing [curvit]: success
+[2023-05-02 12:51:47] INFO root fetch - main [MainThread]: End processing [odoo12-addon-easy-my-coop-sponsorship]: success
+[2023-05-02 12:51:47] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-05-02 12:51:48] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-02 12:51:53] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-05-02 12:52:26] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-02 12:52:26] INFO root fetch - main [MainThread]: Store serial: [17939336]
