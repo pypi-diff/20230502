@@ -18470,3 +18470,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 19:20:13] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-02 19:20:22] INFO root fetch - main [MainThread]: End processing [angr]: success
 [2023-05-02 19:20:22] INFO root fetch - main [MainThread]: Store serial: [17944333]
+[2023-05-02 19:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944333]
+[2023-05-02 19:25:31] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-analysis
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaco2
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwxlib
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deeplc
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evalml
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: saic-ismart-client
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systemID
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-05-02 19:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaco2
+[2023-05-02 19:25:31] WARNING root fetch - processPackages [llm-analysis]: Skipping, unable to determine old version
+[2023-05-02 19:25:31] INFO root fetch - processPackages [llm-analysis]: Start processing: FakeNewsClassifier
+[2023-05-02 19:25:31] INFO root fetch - main [MainThread]: End processing [llm-analysis] error
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: New version: [2.7] Old Version: [2.6]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [deeplc]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [evalml]: New version: [0.75.0] Old Version: [0.74.0]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: New version: [2.7] Old Version: [2.6]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [mwxlib]: New version: [0.82.6] Old Version: [0.82.4]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [saic-ismart-client]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-05-02 19:25:32] WARNING root fetch - processPackages [FakeNewsClassifier]: Skipping, unable to determine old version
+[2023-05-02 19:25:32] INFO root fetch - processPackages [FakeNewsClassifier]: Start processing: alacorder
+[2023-05-02 19:25:32] INFO root fetch - main [MainThread]: End processing [FakeNewsClassifier] error
+[2023-05-02 19:25:32] INFO root fetch - processPackages [systemID]: New version: [24.9] Old Version: [24.8]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [alacorder]: New version: [80.1.3] Old Version: [80.1.2]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [deeplc]: Downloading https://files.pythonhosted.org/packages/2a/c4/c2e19da7d320a38eed1c56f6b89253969d0d744bd04b981c93c70927e125/deeplc-2.0.0.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [systemID]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [systemID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemID-24.8.tar.gz tmp/systemID-24.9.tar.gz --markdown 20230502/s/systemID/24.8-24.9/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/3f/ef/bd83d16effe9421c7210486ed6339e37a93603f71cb7a3db3579f21df295/jaco2-2.6.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/3f/ef/bd83d16effe9421c7210486ed6339e37a93603f71cb7a3db3579f21df295/jaco2-2.6.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [evalml]: Downloading https://files.pythonhosted.org/packages/fd/6f/1d47e56f9e6f1d0603d2da0f208693e7749ca76adff71b98fe6390461550/evalml-0.74.0.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/6d/0f/31b00b880dc466a0be14612ea75e06d3c3f1f262ba9004c19aab30335b64/mwxlib-0.82.6-py3-none-any.whl
+[2023-05-02 19:25:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230502/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.82.4-py3-none-any.whl.zip tmp/mwxlib-0.82.6-py3-none-any.whl.zip --markdown 20230502/m/mwxlib/0.82.4-0.82.6/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] WARNING root fetch - processPackages [deeplc]: Skipping package: exceeds size limit 77888108>=10485760
+[2023-05-02 19:25:32] INFO root fetch - processPackages [deeplc]: Start processing: blitzgsea
+[2023-05-02 19:25:32] INFO root fetch - main [MainThread]: End processing [deeplc] error
+[2023-05-02 19:25:32] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230502/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-02 19:25:32] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/16/79/f4af2cd98018dd383c34489b3ebb9db42254d0813b7688ac73a6aa454674/alacorder-80.1.3.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/64/5c/716e5d56c103eb1a562a46b0930d45e40c57d72690b2bc04d288c3745c13/jaco2-2.7.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/64/5c/716e5d56c103eb1a562a46b0930d45e40c57d72690b2bc04d288c3745c13/jaco2-2.7.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.1.2.tar.gz tmp/alacorder-80.1.3.tar.gz --markdown 20230502/a/alacorder/80.1.2-80.1.3/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [saic-ismart-client]: Downloading https://files.pythonhosted.org/packages/2f/ef/66589df49ea420688b22dfd8f2c1d8eff586b93b649bfa3db84930e735eb/saic_ismart_client-1.1.7.tar.gz
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.6.tar.gz tmp/jaco2-2.7.tar.gz --markdown 20230502/j/jaco2/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.6.tar.gz tmp/jaco2-2.7.tar.gz --markdown 20230502/j/jaco2/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [saic-ismart-client]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-02 19:25:32] INFO root fetch - processPackages [saic-ismart-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saic_ismart_client-1.1.6.tar.gz tmp/saic_ismart_client-1.1.7.tar.gz --markdown 20230502/s/saic-ismart-client/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-05-02 19:25:32] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230502/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-02 19:25:33] INFO root fetch - processPackages [evalml]: Downloading https://files.pythonhosted.org/packages/96/f1/1edf3612b99db2c0772801fcdd1d65057b6881ce25e532cef83e7ff19b32/evalml-0.75.0.tar.gz
+[2023-05-02 19:25:33] INFO root fetch - processPackages [evalml]: executing diffoscope
+[2023-05-02 19:25:33] INFO root fetch - processPackages [evalml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalml-0.74.0.tar.gz tmp/evalml-0.75.0.tar.gz --markdown 20230502/e/evalml/0.74.0-0.75.0/diff.md --exclude *.pyd
+[2023-05-02 19:25:33] INFO root fetch - processPackages [spanishconjugator]: Start processing: reasoner-pydantic
+[2023-05-02 19:25:33] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-02 19:25:33] INFO root fetch - processPackages [reasoner-pydantic]: New version: [4.0.0] Old Version: [3.0.1]
+[2023-05-02 19:25:33] INFO root fetch - processPackages [jaco2]: Start processing: certora-cli-alpha-eric-autoDetekt
+[2023-05-02 19:25:33] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 19:25:33] INFO root fetch - processPackages [certora-cli-alpha-eric-autoDetekt]: New version: [20230502.17.24.966353] Old Version: [20230502.15.46.256374]
+[2023-05-02 19:25:34] INFO root fetch - processPackages [alacorder]: Start processing: hyundai-kia-connect-api
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-02 19:25:34] INFO root fetch - processPackages [certora-cli-alpha-eric-autoDetekt]: Downloading https://files.pythonhosted.org/packages/55/ca/6e8bfc1200f658d31d3d1653c0375f662f13291a2121e5f8e15f80339e50/certora-cli-alpha-eric-autoDetekt-20230502.15.46.256374.tar.gz
+[2023-05-02 19:25:34] INFO root fetch - processPackages [reasoner-pydantic]: Downloading https://files.pythonhosted.org/packages/5f/8a/137096473fa9ddc0499d8aaf7e81da2516b181ccd05aa7b49294b2fcafca/reasoner-pydantic-3.0.1.tar.gz
+[2023-05-02 19:25:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-02 19:25:34] WARNING root fetch - processPackages [certora-cli-alpha-eric-autoDetekt]: Skipping package: exceeds size limit 38364782>=10485760
+[2023-05-02 19:25:34] INFO root fetch - processPackages [certora-cli-alpha-eric-autoDetekt]: Start processing: ghastoolkit
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eric-autoDetekt] error
+[2023-05-02 19:25:34] INFO root fetch - processPackages [blitzgsea]: Start processing: dna-audit-tool
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-02 19:25:34] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 19:25:34] WARNING root fetch - processPackages [dna-audit-tool]: Skipping, unable to determine old version
+[2023-05-02 19:25:34] INFO root fetch - processPackages [dna-audit-tool]: Start processing: koya-utilities
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [dna-audit-tool] error
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 19:25:34] INFO root fetch - processPackages [koya-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 19:25:34] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-05-02 19:25:34] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.8.tar.gz tmp/ghastoolkit-0.1.9.tar.gz --markdown 20230502/g/ghastoolkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-05-02 19:25:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: Downloading https://files.pythonhosted.org/packages/b3/0b/ad6dbfbfe65cd235e66cd6860c637618db436d0df3d7f0acd00d35213ff5/hyundai_kia_connect_api-3.3.0.tar.gz
+[2023-05-02 19:25:34] INFO root fetch - processPackages [reasoner-pydantic]: Downloading https://files.pythonhosted.org/packages/bf/3d/b8ad454fb6d64f8d0cf63327ff67310803212e1878c82e7a4c837be8eb1e/reasoner-pydantic-4.0.0.tar.gz
+[2023-05-02 19:25:34] INFO root fetch - processPackages [koya-utilities]: Downloading https://files.pythonhosted.org/packages/67/80/5fd46fbcd70de5f14427edfc378b4b0750707e03dace46f3f90eb35e4835/koya_utilities-0.0.8-py2.py3-none-any.whl
+[2023-05-02 19:25:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: executing diffoscope
+[2023-05-02 19:25:34] INFO root fetch - processPackages [hyundai-kia-connect-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyundai_kia_connect_api-3.2.0.tar.gz tmp/hyundai_kia_connect_api-3.3.0.tar.gz --markdown 20230502/h/hyundai-kia-connect-api/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-02 19:25:34] INFO root fetch - processPackages [reasoner-pydantic]: executing diffoscope
+[2023-05-02 19:25:34] INFO root fetch - processPackages [reasoner-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner-pydantic-3.0.1.tar.gz tmp/reasoner-pydantic-4.0.0.tar.gz --markdown 20230502/r/reasoner-pydantic/3.0.1-4.0.0/diff.md --exclude *.pyd
+[2023-05-02 19:25:34] INFO root fetch - processPackages [koya-utilities]: Downloading https://files.pythonhosted.org/packages/d8/00/bceb41f7baae74610459fea2274d375b0428e6a8b1c62faefc323cd89360/koya_utilities-0.0.9-py2.py3-none-any.whl
+[2023-05-02 19:25:34] INFO root fetch - main [MainThread]: End processing [saic-ismart-client]: success
+[2023-05-02 19:25:34] INFO root fetch - processPackages [koya-utilities]: executing diffoscope
+[2023-05-02 19:25:34] INFO root fetch - processPackages [koya-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koya_utilities-0.0.8-py2.py3-none-any.whl.zip tmp/koya_utilities-0.0.9-py2.py3-none-any.whl.zip --markdown 20230502/k/koya-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 19:25:35] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-05-02 19:25:35] INFO root fetch - main [MainThread]: End processing [hyundai-kia-connect-api]: success
+[2023-05-02 19:25:35] INFO root fetch - main [MainThread]: End processing [reasoner-pydantic]: success
+[2023-05-02 19:25:35] INFO root fetch - main [MainThread]: End processing [koya-utilities]: success
+[2023-05-02 19:25:36] INFO root fetch - main [MainThread]: End processing [systemID]: success
+[2023-05-02 19:25:38] INFO root fetch - main [MainThread]: End processing [evalml]: success
+[2023-05-02 19:25:38] INFO root fetch - main [MainThread]: Store serial: [17944390]
