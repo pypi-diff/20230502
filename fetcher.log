@@ -8648,3 +8648,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 10:21:22] INFO root fetch - main [MainThread]: End processing [py4vasp]: success
 [2023-05-02 10:21:33] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-05-02 10:21:33] INFO root fetch - main [MainThread]: Store serial: [17937876]
+[2023-05-02 10:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937876]
+[2023-05-02 10:26:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cwl-utils
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyxecm
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-docx-lists
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airflow-provider-mesos
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axem-dem
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydozer-log
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DeTrusty
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: usearch
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Cerebro-Viewer
+[2023-05-02 10:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepdriver
+[2023-05-02 10:26:42] INFO root fetch - processPackages [Cerebro-Viewer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 10:26:42] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 10:26:42] INFO root fetch - processPackages [Cerebro-Viewer]: Downloading https://files.pythonhosted.org/packages/9a/6f/d15b59c882c212a398f5cba79dfd71ef7b2a0bdfcdf0d2941d190f478b3f/Cerebro_Viewer-0.0.7.tar.gz
+[2023-05-02 10:26:42] INFO root fetch - processPackages [pydozer-log]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-05-02 10:26:42] INFO root fetch - processPackages [cwl-utils]: New version: [0.9] Old Version: [0.8]
+[2023-05-02 10:26:42] WARNING root fetch - processPackages [airflow-provider-mesos]: Skipping, unable to determine old version
+[2023-05-02 10:26:42] INFO root fetch - processPackages [airflow-provider-mesos]: Start processing: luminesce-sdk-preview
+[2023-05-02 10:26:42] WARNING root fetch - processPackages [pyxecm]: Skipping, unable to determine old version
+[2023-05-02 10:26:42] INFO root fetch - main [MainThread]: End processing [airflow-provider-mesos] error
+[2023-05-02 10:26:43] WARNING root fetch - processPackages [python-docx-lists]: Skipping, unable to determine old version
+[2023-05-02 10:26:43] INFO root fetch - processPackages [pyxecm]: Start processing: maus
+[2023-05-02 10:26:43] INFO root fetch - processPackages [DeTrusty]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 10:26:43] WARNING root fetch - processPackages [axem-dem]: Skipping, unable to determine old version
+[2023-05-02 10:26:43] INFO root fetch - main [MainThread]: End processing [pyxecm] error
+[2023-05-02 10:26:43] INFO root fetch - processPackages [python-docx-lists]: Start processing: cricheroes
+[2023-05-02 10:26:43] WARNING root fetch - processPackages [Cerebro-Viewer]: Skipping package: exceeds size limit 13703418>=10485760
+[2023-05-02 10:26:43] INFO root fetch - processPackages [axem-dem]: Start processing: act-workers
+[2023-05-02 10:26:43] INFO root fetch - main [MainThread]: End processing [python-docx-lists] error
+[2023-05-02 10:26:43] INFO root fetch - main [MainThread]: End processing [axem-dem] error
+[2023-05-02 10:26:43] INFO root fetch - main [MainThread]: End processing [Cerebro-Viewer] error
+[2023-05-02 10:26:43] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [usearch]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 10:26:43] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230502/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cricheroes]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 10:26:43] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 10:26:43] INFO root fetch - processPackages [act-workers]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-02 10:26:43] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-02 10:26:43] INFO root fetch - processPackages [pydozer-log]: Downloading https://files.pythonhosted.org/packages/aa/53/a5cbf642b5792e8ec7c794e810ef07443f248892b4c9305da3eb7dd06657/pydozer_log-0.1.18-pp39-pypy39_pp73-manylinux_2_34_s390x.whl
+[2023-05-02 10:26:43] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/3c/37/dff2185a771f8ab589ff016523c0e9436b10ff6fdb516b5aa882c8660e56/usearch-0.1.5-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cwl-utils]: Downloading https://files.pythonhosted.org/packages/d3/68/559c19042fa610b775dcfe7ca7bc224f7d1de637598b7195ca091722772a/cwl-utils-0.8.tar.gz
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cricheroes]: Downloading https://files.pythonhosted.org/packages/09/52/8115adaf156094fa56ea31cf03f066c0634322a9cea124bc56e204180c16/cricheroes-1.0.8-py2.py3-none-any.whl
+[2023-05-02 10:26:43] INFO root fetch - processPackages [act-workers]: Downloading https://files.pythonhosted.org/packages/d5/e8/fc282f938e631fb6bc673183892252314f3c847f7143f5e66d7b631a8a41/act-workers-2.1.8.tar.gz
+[2023-05-02 10:26:43] INFO root fetch - processPackages [DeTrusty]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [DeTrusty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeTrusty-0.9.0.tar.gz tmp/DeTrusty-0.9.1.tar.gz --markdown 20230502/D/DeTrusty/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/3c/17/7433444a83494dd41453dbc5c6cfbb6fdcab91e8f7dbb3ea973ed6c94ac2/usearch-0.1.6-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+[2023-05-02 10:26:43] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230502/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cwl-utils]: Downloading https://files.pythonhosted.org/packages/9a/1f/d99d30c8bc20f664466623599492829bec26e97df95fa688a1bec49b0c50/cwl-utils-0.9.tar.gz
+[2023-05-02 10:26:43] INFO root fetch - processPackages [pydozer-log]: Downloading https://files.pythonhosted.org/packages/fe/82/f51d6699add5e3eeb46cd82ccb13aea20265f184d6f82f903e1bc0d44353/pydozer_log-0.1.19-pp39-pypy39_pp73-manylinux_2_34_s390x.whl
+[2023-05-02 10:26:43] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.1.5-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.zip tmp/usearch-0.1.6-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230502/u/usearch/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cricheroes]: Downloading https://files.pythonhosted.org/packages/96/43/88683029e8896fef717623202f0649761478dedc8f93a2df898f48202bf3/cricheroes-1.0.9-py2.py3-none-any.whl
+[2023-05-02 10:26:43] INFO root fetch - processPackages [pydozer-log]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [pydozer-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydozer_log-0.1.18-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip tmp/pydozer_log-0.1.19-pp39-pypy39_pp73-manylinux_2_34_s390x.whl.zip --markdown 20230502/p/pydozer-log/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [act-workers]: Downloading https://files.pythonhosted.org/packages/3a/de/34855e231033bd22d76d343400c2508beb4db4d52ba142b10032a757ab16/act-workers-2.1.9.tar.gz
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cwl-utils]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cwl-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-utils-0.8.tar.gz tmp/cwl-utils-0.9.tar.gz --markdown 20230502/c/cwl-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cricheroes]: executing diffoscope
+[2023-05-02 10:26:43] INFO root fetch - processPackages [cricheroes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cricheroes-1.0.8-py2.py3-none-any.whl.zip tmp/cricheroes-1.0.9-py2.py3-none-any.whl.zip --markdown 20230502/c/cricheroes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:26:44] INFO root fetch - processPackages [act-workers]: executing diffoscope
+[2023-05-02 10:26:44] INFO root fetch - processPackages [act-workers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/act-workers-2.1.8.tar.gz tmp/act-workers-2.1.9.tar.gz --markdown 20230502/a/act-workers/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-02 10:26:44] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-05-02 10:26:45] INFO root fetch - main [MainThread]: End processing [cricheroes]: success
+[2023-05-02 10:26:45] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-02 10:26:45] INFO root fetch - main [MainThread]: End processing [act-workers]: success
+[2023-05-02 10:26:45] INFO root fetch - main [MainThread]: End processing [cwl-utils]: success
+[2023-05-02 10:26:45] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 10:26:46] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-05-02 10:26:46] INFO root fetch - main [MainThread]: End processing [DeTrusty]: success
+[2023-05-02 10:27:10] INFO root fetch - main [MainThread]: End processing [pydozer-log]: success
+[2023-05-02 10:27:10] INFO root fetch - main [MainThread]: Store serial: [17938000]
