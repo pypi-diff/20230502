@@ -1876,3 +1876,35 @@
 [2023-05-02 02:34:45] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
 [2023-05-02 02:34:46] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-05-02 02:34:46] INFO root fetch - main [MainThread]: Store serial: [17933575]
+[2023-05-02 02:39:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933575]
+[2023-05-02 02:39:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-02 02:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xagg-no-xesmf-deps
+[2023-05-02 02:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forerunner
+[2023-05-02 02:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-chess-bughouse
+[2023-05-02 02:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VonPylib
+[2023-05-02 02:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygredients
+[2023-05-02 02:39:55] INFO root fetch - processPackages [forerunner]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 02:39:55] INFO root fetch - processPackages [pygredients]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 02:39:55] WARNING root fetch - processPackages [python-chess-bughouse]: Skipping, unable to determine old version
+[2023-05-02 02:39:55] INFO root fetch - main [MainThread]: End processing [python-chess-bughouse] error
+[2023-05-02 02:39:55] INFO root fetch - processPackages [xagg-no-xesmf-deps]: New version: [0.3.0.4] Old Version: [0.3.0.3]
+[2023-05-02 02:39:55] INFO root fetch - processPackages [VonPylib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 02:39:55] INFO root fetch - processPackages [pygredients]: Downloading https://files.pythonhosted.org/packages/ff/6d/fb14b72bb877b12022e1b46435952910fc811426c5be31f52c133fd786e5/pygredients-0.1.1.tar.gz
+[2023-05-02 02:39:55] INFO root fetch - processPackages [xagg-no-xesmf-deps]: Downloading https://files.pythonhosted.org/packages/4f/df/e41f4f715faa1aa1373500554422ed99f5809602693b484916cacb4ff64a/xagg_no_xesmf_deps-0.3.0.3.tar.gz
+[2023-05-02 02:39:55] INFO root fetch - processPackages [forerunner]: Downloading https://files.pythonhosted.org/packages/79/9b/325bb7e8f5aa9dc805a1960d3855c6aaa0f3128ec1610ae05be266815fde/forerunner-0.0.6.tar.gz
+[2023-05-02 02:39:55] INFO root fetch - processPackages [VonPylib]: Downloading https://files.pythonhosted.org/packages/05/ee/69fc82db8379161c40bee5e890b148c53d302e93adb4fba83e040e709434/VonPylib-0.1.8.tar.gz
+[2023-05-02 02:39:55] WARNING root fetch - processPackages [xagg-no-xesmf-deps]: Skipping package: exceeds size limit 13288360>=10485760
+[2023-05-02 02:39:55] INFO root fetch - main [MainThread]: End processing [xagg-no-xesmf-deps] error
+[2023-05-02 02:39:55] INFO root fetch - processPackages [pygredients]: Downloading https://files.pythonhosted.org/packages/0c/cb/67698e234020f8d14b033b0ce0fb3a97330af8378cf18d1f424ccbbb36d1/pygredients-0.1.2.tar.gz
+[2023-05-02 02:39:55] INFO root fetch - processPackages [forerunner]: Downloading https://files.pythonhosted.org/packages/16/f2/b3405bdf79c6cc6a2593e9f31593036bde1188d9572f26b44a94cd541efd/forerunner-0.0.7.tar.gz
+[2023-05-02 02:39:55] INFO root fetch - processPackages [pygredients]: executing diffoscope
+[2023-05-02 02:39:55] INFO root fetch - processPackages [pygredients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygredients-0.1.1.tar.gz tmp/pygredients-0.1.2.tar.gz --markdown 20230502/p/pygredients/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 02:39:56] INFO root fetch - processPackages [forerunner]: executing diffoscope
+[2023-05-02 02:39:56] INFO root fetch - processPackages [forerunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forerunner-0.0.6.tar.gz tmp/forerunner-0.0.7.tar.gz --markdown 20230502/f/forerunner/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 02:39:56] INFO root fetch - processPackages [VonPylib]: Downloading https://files.pythonhosted.org/packages/8f/86/a108d3431926fb2c19b0251c5fe97fb5a35ce1f627df1cf6b018a5d34e72/VonPylib-0.1.9.tar.gz
+[2023-05-02 02:39:56] INFO root fetch - processPackages [VonPylib]: executing diffoscope
+[2023-05-02 02:39:56] INFO root fetch - processPackages [VonPylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VonPylib-0.1.8.tar.gz tmp/VonPylib-0.1.9.tar.gz --markdown 20230502/V/VonPylib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 02:39:57] INFO root fetch - main [MainThread]: End processing [forerunner]: success
+[2023-05-02 02:39:57] INFO root fetch - main [MainThread]: End processing [pygredients]: success
+[2023-05-02 02:39:57] INFO root fetch - main [MainThread]: End processing [VonPylib]: success
+[2023-05-02 02:39:57] INFO root fetch - main [MainThread]: Store serial: [17933595]
