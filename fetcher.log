@@ -15701,3 +15701,224 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 17:09:40] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
 [2023-05-02 17:09:40] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
 [2023-05-02 17:09:40] INFO root fetch - main [MainThread]: Store serial: [17942578]
+[2023-05-02 17:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17942578]
+[2023-05-02 17:14:49] INFO root fetch - main [MainThread]: Found 39 changed packages
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requests-oidc
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdsf
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaecs
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batche
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymicro365
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymylib
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apyproxy
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wagtail
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipsqlitedblibrary
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funmap
+[2023-05-02 17:14:49] WARNING root fetch - processPackages [pymylib]: Skipping, unable to determine old version
+[2023-05-02 17:14:49] INFO root fetch - processPackages [apyproxy]: New version: [0.2.2] Old Version: [0.1.0]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [pymylib]: Start processing: dolibs
+[2023-05-02 17:14:49] INFO root fetch - main [MainThread]: End processing [pymylib] error
+[2023-05-02 17:14:49] INFO root fetch - processPackages [requests-oidc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 17:14:49] WARNING root fetch - processPackages [pipsqlitedblibrary]: Skipping, unable to determine old version
+[2023-05-02 17:14:49] INFO root fetch - processPackages [bdsf]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [pipsqlitedblibrary]: Start processing: arcaflow
+[2023-05-02 17:14:49] INFO root fetch - main [MainThread]: End processing [pipsqlitedblibrary] error
+[2023-05-02 17:14:49] INFO root fetch - processPackages [batche]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [funmap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [yaecs]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-05-02 17:14:49] WARNING root fetch - processPackages [pymicro365]: Skipping, unable to determine old version
+[2023-05-02 17:14:49] INFO root fetch - processPackages [pymicro365]: Start processing: databasez
+[2023-05-02 17:14:49] INFO root fetch - main [MainThread]: End processing [pymicro365] error
+[2023-05-02 17:14:49] WARNING root fetch - processPackages [dolibs]: Skipping, unable to determine old version
+[2023-05-02 17:14:49] INFO root fetch - processPackages [wagtail]: New version: [5.0rc1] Old Version: [5.0]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [dolibs]: Start processing: ipython-mermaid-magic
+[2023-05-02 17:14:49] INFO root fetch - main [MainThread]: End processing [dolibs] error
+[2023-05-02 17:14:49] INFO root fetch - processPackages [arcaflow]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [databasez]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [ipython-mermaid-magic]: New version: [0.4] Old Version: [0.3]
+[2023-05-02 17:14:49] INFO root fetch - processPackages [bdsf]: Downloading https://files.pythonhosted.org/packages/e0/e0/f87bad049a1391d6e7844f4d364e4b6d53382ed91b9ed5c747e8ee4130a7/bdsf-1.9.1.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [apyproxy]: Downloading https://files.pythonhosted.org/packages/05/89/ddd9e7e893b31f845e41470e32a2a6bd47907e5c16c09454af7144b57acc/apyproxy-0.1.0.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [wagtail]: Downloading https://files.pythonhosted.org/packages/c0/19/1ee6f7df3d67419b77b46f66c6d10c59b78042086b8b6b34cf3e7da38d3c/wagtail-5.0.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [arcaflow]: Downloading https://files.pythonhosted.org/packages/b7/dc/6166dbc804c79f3334d82c7d5a45bf4ace4009b26c889377623bb31dd251/arcaflow-0.4.0-py3-none-win_amd64.whl
+[2023-05-02 17:14:50] INFO root fetch - processPackages [batche]: Downloading https://files.pythonhosted.org/packages/ae/38/9852696df181600625f19c5188e78305c25b0dfd730bd8466c9262fdcc60/batche-0.1.0.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [ipython-mermaid-magic]: Downloading https://files.pythonhosted.org/packages/c7/9b/622bcb17e2e5f3827673cbd4de568fb6d59f1b50c2a70811395111a08a21/ipython-mermaid-magic-0.3.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [requests-oidc]: Downloading https://files.pythonhosted.org/packages/12/c2/e8080a5e4dbefdce60b32c683b56d3e45d71cfd6295c376af082002b360b/requests_oidc-0.4.1.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [databasez]: Downloading https://files.pythonhosted.org/packages/6c/0b/62433f58be63fffe8732326982593ae1c86c50c25a938b63dd9066360576/databasez-0.3.0.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [funmap]: Downloading https://files.pythonhosted.org/packages/b4/b3/91de46acff71b78c99bc7839ae27615639a1617383350093ba225db64675/funmap-0.1.9.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/a4/f2/f7d170ab3685e06fe3f6a8fb7f03dc4e28409632032da292ec1bed71c15e/yaecs-3.2.0.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [databasez]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [databasez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databasez-0.2.2.tar.gz tmp/databasez-0.3.0.tar.gz --markdown 20230502/d/databasez/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [batche]: Downloading https://files.pythonhosted.org/packages/37/7c/3b17da11a6cbb2ec2582c11a653b3f15e8c281a957dce69dbcdc78043637/batche-0.1.1.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [apyproxy]: Downloading https://files.pythonhosted.org/packages/bc/3a/c47f3402e9e4228b2b531d48fb8b0bcaea77a286783a8b7bb3affa9978cd/apyproxy-0.2.2.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [ipython-mermaid-magic]: Downloading https://files.pythonhosted.org/packages/a9/e1/dce45dc042a50b15cd9f28d8c2e99a06bd445699047b8bbd3c700f8d9e2b/ipython-mermaid-magic-0.4.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [requests-oidc]: Downloading https://files.pythonhosted.org/packages/e4/58/140b157ce958754e7096341f652425d662202d12d0fe431f9ef30b2b591f/requests_oidc-0.4.2.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [bdsf]: Downloading https://files.pythonhosted.org/packages/c7/24/1c262df75c4556a19409d0abaa4a717a9328acc5099d0fa7d3691fd1dbf7/bdsf-1.9.2.tar.gz
+[2023-05-02 17:14:50] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.1.1.tar.gz tmp/yaecs-3.2.0.tar.gz --markdown 20230502/y/yaecs/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [apyproxy]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [apyproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apyproxy-0.1.0.tar.gz tmp/apyproxy-0.2.2.tar.gz --markdown 20230502/a/apyproxy/0.1.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] WARNING root fetch - processPackages [arcaflow]: Skipping package: exceeds size limit 10611873>=10485760
+[2023-05-02 17:14:50] INFO root fetch - processPackages [arcaflow]: Start processing: axonius-api-client
+[2023-05-02 17:14:50] INFO root fetch - main [MainThread]: End processing [arcaflow] error
+[2023-05-02 17:14:50] INFO root fetch - processPackages [batche]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [batche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batche-0.1.0.tar.gz tmp/batche-0.1.1.tar.gz --markdown 20230502/b/batche/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [axonius-api-client]: New version: [5.0.0] Old Version: [4.60.4]
+[2023-05-02 17:14:50] INFO root fetch - processPackages [ipython-mermaid-magic]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [ipython-mermaid-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-mermaid-magic-0.3.tar.gz tmp/ipython-mermaid-magic-0.4.tar.gz --markdown 20230502/i/ipython-mermaid-magic/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [requests-oidc]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [requests-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_oidc-0.4.1.tar.gz tmp/requests_oidc-0.4.2.tar.gz --markdown 20230502/r/requests-oidc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [wagtail]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [wagtail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-5.0.tar.gz tmp/wagtail-5.0rc1.tar.gz --markdown 20230502/w/wagtail/5.0-5.0rc1/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [funmap]: executing diffoscope
+[2023-05-02 17:14:50] INFO root fetch - processPackages [funmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funmap-0.1.8.tar.gz tmp/funmap-0.1.9.tar.gz --markdown 20230502/f/funmap/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 17:14:50] INFO root fetch - processPackages [axonius-api-client]: Downloading https://files.pythonhosted.org/packages/5b/74/f58c13084aae86e3d566382a90b3f1a3f8b0e5a13ac8ff0d0b679eca1466/axonius_api_client-5.0.0-py2.py3-none-any.whl
+[2023-05-02 17:14:51] INFO root fetch - processPackages [axonius-api-client]: executing diffoscope
+[2023-05-02 17:14:51] INFO root fetch - processPackages [axonius-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axonius_api_client-4.60.4-py2.py3-none-any.whl.zip tmp/axonius_api_client-5.0.0-py2.py3-none-any.whl.zip --markdown 20230502/a/axonius-api-client/4.60.4-5.0.0/diff.md --exclude *.pyd
+[2023-05-02 17:14:51] INFO root fetch - processPackages [apyproxy]: Start processing: agave-pyclient
+[2023-05-02 17:14:51] INFO root fetch - main [MainThread]: End processing [apyproxy]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [bdsf]: executing diffoscope
+[2023-05-02 17:14:52] INFO root fetch - processPackages [bdsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdsf-1.9.1.tar.gz tmp/bdsf-1.9.2.tar.gz --markdown 20230502/b/bdsf/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-02 17:14:52] INFO root fetch - processPackages [batche]: Start processing: pepperize.cdk-security-group
+[2023-05-02 17:14:52] INFO root fetch - main [MainThread]: End processing [batche]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [ipython-mermaid-magic]: Start processing: IPFS-Toolkit
+[2023-05-02 17:14:52] INFO root fetch - main [MainThread]: End processing [ipython-mermaid-magic]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [IPFS-Toolkit]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [agave-pyclient]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [databasez]: Start processing: roboweb-extension
+[2023-05-02 17:14:52] INFO root fetch - main [MainThread]: End processing [databasez]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [roboweb-extension]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [IPFS-Toolkit]: Downloading https://files.pythonhosted.org/packages/cd/e2/4760f29a8f55bc6dfd69fc50b7991c620ef4e6a41640650e2d74ebc42bf0/IPFS-Toolkit-0.5.8.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [requests-oidc]: Start processing: roboweb-server
+[2023-05-02 17:14:52] INFO root fetch - main [MainThread]: End processing [requests-oidc]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [roboweb-server]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [yaecs]: Start processing: xapi-python
+[2023-05-02 17:14:52] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [IPFS-Toolkit]: executing diffoscope
+[2023-05-02 17:14:52] INFO root fetch - processPackages [IPFS-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPFS-Toolkit-0.5.7.tar.gz tmp/IPFS-Toolkit-0.5.8.tar.gz --markdown 20230502/I/IPFS-Toolkit/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-02 17:14:52] INFO root fetch - processPackages [funmap]: Start processing: nalyst
+[2023-05-02 17:14:52] INFO root fetch - main [MainThread]: End processing [funmap]: success
+[2023-05-02 17:14:52] INFO root fetch - processPackages [roboweb-extension]: Downloading https://files.pythonhosted.org/packages/a6/4d/3c7be8de2e5a8a17414f371b3778a3b45327ecb40d19dbd7829609d79350/roboweb-extension-0.1.8.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [xapi-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-02 17:14:52] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 17:14:52] INFO root fetch - processPackages [roboweb-server]: Downloading https://files.pythonhosted.org/packages/0c/8e/b5346b3301af5b8d9ac116a5e47b5423657c236e8db68e1bf728cbc973fd/roboweb_server-0.1.41.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/ec/b4/a3acca283a7eed6624ee0dd437ec552aaf5159625e8bef3a88eb60574fcf/agave_pyclient-1.5.0rc2.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [nalyst]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-02 17:14:52] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2023-05-02 17:14:52] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.5.0rc1.tar.gz tmp/agave_pyclient-1.5.0rc2.tar.gz --markdown 20230502/a/agave-pyclient/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-05-02 17:14:52] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/72/54/e695364437146c116d533dac892290618d7d29f101fc1dca04efd4a7cc9b/nalyst-0.2.3.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [roboweb-extension]: Downloading https://files.pythonhosted.org/packages/dc/da/8ccb366c3aff04a95fc527fea29ac46b89f47c02f1b8b86334fa7e3da866/roboweb_extension-0.1.9.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [xapi-python]: Downloading https://files.pythonhosted.org/packages/bd/e8/50cf76db34fabfa2d0e6e05b9ec1817c2d246358a32d24c4b1769c03c2d9/xapi-python-0.1.1.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [roboweb-server]: Downloading https://files.pythonhosted.org/packages/f5/1d/e7fbacf9b11c7937891418ff88a665b9995f6deb7a193e680346d09382ec/roboweb_server-0.1.42.tar.gz
+[2023-05-02 17:14:52] INFO root fetch - processPackages [xapi-python]: executing diffoscope
+[2023-05-02 17:14:52] INFO root fetch - processPackages [xapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xapi-python-0.1.0.tar.gz tmp/xapi-python-0.1.1.tar.gz --markdown 20230502/x/xapi-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 17:14:53] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/f1/95/ba340a988bc8b28fc77b55da64f5cbbbb8fe9eeb872f64e27aad4a006499/nalyst-0.2.4.tar.gz
+[2023-05-02 17:14:53] INFO root fetch - processPackages [roboweb-extension]: executing diffoscope
+[2023-05-02 17:14:53] INFO root fetch - processPackages [roboweb-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboweb-extension-0.1.8.tar.gz tmp/roboweb_extension-0.1.9.tar.gz --markdown 20230502/r/roboweb-extension/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 17:14:53] INFO root fetch - processPackages [roboweb-server]: executing diffoscope
+[2023-05-02 17:14:53] INFO root fetch - processPackages [roboweb-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboweb_server-0.1.41.tar.gz tmp/roboweb_server-0.1.42.tar.gz --markdown 20230502/r/roboweb-server/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-05-02 17:14:53] INFO root fetch - processPackages [nalyst]: executing diffoscope
+[2023-05-02 17:14:53] INFO root fetch - processPackages [nalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalyst-0.2.3.tar.gz tmp/nalyst-0.2.4.tar.gz --markdown 20230502/n/nalyst/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-02 17:14:54] INFO root fetch - processPackages [pepperize.cdk-security-group]: Start processing: cognite-sdk
+[2023-05-02 17:14:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-02 17:14:54] INFO root fetch - processPackages [cognite-sdk]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-05-02 17:14:54] INFO root fetch - processPackages [xapi-python]: Start processing: mastapy
+[2023-05-02 17:14:54] INFO root fetch - main [MainThread]: End processing [xapi-python]: success
+[2023-05-02 17:14:54] INFO root fetch - processPackages [agave-pyclient]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 17:14:54] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2023-05-02 17:14:54] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.8.49.893354] Old Version: [20230502.8.16.36864]
+[2023-05-02 17:14:54] INFO root fetch - processPackages [mastapy]: New version: [13.0a2] Old Version: [12.0rc2]
+[2023-05-02 17:14:54] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/d0/26/afa44fac38ad442755926ee3f7e83f8aa8e723bafb4ec1639659666b129a/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230502.8.16.36864.tar.gz
+[2023-05-02 17:14:54] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38365099>=10485760
+[2023-05-02 17:14:54] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: casanova
+[2023-05-02 17:14:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 17:14:54] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/9b/35/2435b9879abed068b5c1432ed405b973a5b12305f4ea4d084a8e55deb558/cognite_sdk-6.1.1.tar.gz
+[2023-05-02 17:14:54] INFO root fetch - processPackages [nalyst]: Start processing: datahugger
+[2023-05-02 17:14:54] INFO root fetch - main [MainThread]: End processing [nalyst]: success
+[2023-05-02 17:14:54] INFO root fetch - processPackages [mastapy]: Downloading https://files.pythonhosted.org/packages/5d/c4/6552799eaa9b5ddc4304e2d5d1a62d7fd1333e9ff309df2b947f1497ffa2/mastapy-12.0rc2.tar.gz
+[2023-05-02 17:14:54] INFO root fetch - processPackages [casanova]: New version: [1.9.0] Old Version: [1.8.0a2]
+[2023-05-02 17:14:54] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-05-02 17:14:54] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.1.0.tar.gz tmp/cognite_sdk-6.1.1.tar.gz --markdown 20230502/c/cognite-sdk/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-05-02 17:14:54] INFO root fetch - processPackages [datahugger]: New version: [0.3] Old Version: [0.2.1]
+[2023-05-02 17:14:54] INFO root fetch - processPackages [datahugger]: Downloading https://files.pythonhosted.org/packages/33/96/abadafbb8081d77e38ee7801587dd94d1cfa2a310b5f83dc450602b878dd/datahugger-0.2.1.tar.gz
+[2023-05-02 17:14:55] INFO root fetch - processPackages [IPFS-Toolkit]: Start processing: large-image
+[2023-05-02 17:14:55] INFO root fetch - main [MainThread]: End processing [IPFS-Toolkit]: success
+[2023-05-02 17:14:55] INFO root fetch - processPackages [casanova]: executing diffoscope
+[2023-05-02 17:14:55] INFO root fetch - processPackages [casanova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casanova-1.8.0a2.tar.gz tmp/casanova-1.9.0.tar.gz --markdown 20230502/c/casanova/1.8.0a2-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 17:14:55] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:55] INFO root fetch - processPackages [roboweb-extension]: Start processing: girder-large-image
+[2023-05-02 17:14:55] INFO root fetch - main [MainThread]: End processing [roboweb-extension]: success
+[2023-05-02 17:14:55] INFO root fetch - processPackages [mastapy]: Downloading https://files.pythonhosted.org/packages/f6/94/23aec7e65282ba68874b3041aa7b9a4ab3a372321564b6bd26aa2c8c1cb3/mastapy-13.0a2.tar.gz
+[2023-05-02 17:14:55] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:55] INFO root fetch - processPackages [mastapy]: executing diffoscope
+[2023-05-02 17:14:55] INFO root fetch - processPackages [mastapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastapy-12.0rc2.tar.gz tmp/mastapy-13.0a2.tar.gz --markdown 20230502/m/mastapy/12.0rc2-13.0a2/diff.md --exclude *.pyd
+[2023-05-02 17:14:55] INFO root fetch - processPackages [datahugger]: Downloading https://files.pythonhosted.org/packages/74/57/f83a728c3af824a3835097c8c9bab3a6b13e58d4a173ba0e0df7cf0cfdcc/datahugger-0.3.tar.gz
+[2023-05-02 17:14:55] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-05-02 17:14:55] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230502/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:55] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-05-02 17:14:55] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:55] INFO root fetch - processPackages [datahugger]: executing diffoscope
+[2023-05-02 17:14:55] INFO root fetch - processPackages [datahugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datahugger-0.2.1.tar.gz tmp/datahugger-0.3.tar.gz --markdown 20230502/d/datahugger/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-05-02 17:14:57] INFO root fetch - processPackages [casanova]: Start processing: large-image
+[2023-05-02 17:14:57] INFO root fetch - main [MainThread]: End processing [casanova]: success
+[2023-05-02 17:14:57] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:57] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-05-02 17:14:57] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:57] INFO root fetch - processPackages [large-image]: Start processing: girder-large-image-annotation
+[2023-05-02 17:14:57] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image]: Start processing: girder-large-image
+[2023-05-02 17:14:58] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230502/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-05-02 17:14:58] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230502/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:59] INFO root fetch - processPackages [bdsf]: Start processing: pyleecan
+[2023-05-02 17:14:59] INFO root fetch - main [MainThread]: End processing [bdsf]: success
+[2023-05-02 17:14:59] INFO root fetch - processPackages [pyleecan]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image]: Start processing: large-image-converter
+[2023-05-02 17:14:59] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:59] INFO root fetch - processPackages [pyleecan]: Downloading https://files.pythonhosted.org/packages/82/99/15575c024015c44020fa01b875cb67d8553c9550152ef08a989538e11c5c/pyleecan-1.5.0.tar.gz
+[2023-05-02 17:14:59] WARNING root fetch - processPackages [pyleecan]: Skipping package: exceeds size limit 12441449>=10485760
+[2023-05-02 17:14:59] INFO root fetch - processPackages [pyleecan]: Start processing: girder-large-image-annotation
+[2023-05-02 17:14:59] INFO root fetch - main [MainThread]: End processing [pyleecan] error
+[2023-05-02 17:14:59] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:59] INFO root fetch - processPackages [cognite-sdk]: Start processing: large-image-tasks
+[2023-05-02 17:14:59] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:14:59] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-05-02 17:14:59] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230502/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-05-02 17:14:59] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:15:00] INFO root fetch - processPackages [datahugger]: Start processing: large-image-converter
+[2023-05-02 17:15:00] INFO root fetch - main [MainThread]: End processing [datahugger]: success
+[2023-05-02 17:15:00] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:15:00] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-05-02 17:15:00] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-converter]: Start processing: large-image-source-bioformats
+[2023-05-02 17:15:01] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-tasks]: Start processing: large-image-tasks
+[2023-05-02 17:15:01] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:15:01] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2023-05-02 17:15:01] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20230502/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-05-02 17:15:01] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-05-02 17:15:02] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-05-02 17:15:02] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
+[2023-05-02 17:15:02] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-05-02 17:15:03] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2023-05-02 17:15:03] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2023-05-02 17:15:55] INFO root fetch - main [MainThread]: End processing [roboweb-server]: success
+[2023-05-02 17:17:50] ERROR root fetch - processPackages [wagtail]: Timeout during execution of pkgdiff
+[2023-05-02 17:17:50] INFO root fetch - main [MainThread]: End processing [wagtail] error
+[2023-05-02 17:17:55] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
+[2023-05-02 17:17:55] INFO root fetch - main [MainThread]: End processing [mastapy] error
+[2023-05-02 17:17:55] INFO root fetch - main [MainThread]: Store serial: [17942709]
