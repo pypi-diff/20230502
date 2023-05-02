@@ -9124,3 +9124,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 10:54:42] INFO root fetch - main [MainThread]: End processing [onnx-clip]: success
 [2023-05-02 10:54:42] INFO root fetch - main [MainThread]: End processing [syncany]: success
 [2023-05-02 10:54:42] INFO root fetch - main [MainThread]: Store serial: [17938221]
+[2023-05-02 10:59:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938221]
+[2023-05-02 10:59:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastphrase
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: photo-burst-detection
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdfe
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airoboros
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorflow-fork
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exergenics
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polynomiograpy
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-05-02 10:59:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autosrt
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastdfe]: New version: [0.1.3b0] Old Version: [0.1.2b0]
+[2023-05-02 10:59:52] INFO root fetch - processPackages [airoboros]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 10:59:52] WARNING root fetch - processPackages [tensorflow-fork]: Skipping, unable to determine old version
+[2023-05-02 10:59:52] INFO root fetch - processPackages [exergenics]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-05-02 10:59:52] INFO root fetch - main [MainThread]: End processing [tensorflow-fork] error
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastphrase]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 10:59:52] INFO root fetch - processPackages [polynomiograpy]: New version: [0.2.0a1.post1] Old Version: [0.2.0a1]
+[2023-05-02 10:59:52] INFO root fetch - processPackages [photo-burst-detection]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 10:59:52] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230502073810] Old Version: [2.0.3.dev20230502071002]
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastphrase]: Downloading https://files.pythonhosted.org/packages/ef/a4/80040c79eb2ee2aa4b760aca49b3fdc517e1971c81d05c6f932f43c4e888/fastphrase-0.0.4.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [autosrt]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-02 10:59:52] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/a4/16/bd031821ae9896d2ebb802615369db0fb5aba78a045ed88b24b2c739a998/airoboros-0.0.3-py3-none-any.whl
+[2023-05-02 10:59:52] INFO root fetch - processPackages [polynomiograpy]: Downloading https://files.pythonhosted.org/packages/d4/f3/f3c30897d6bdff314c2e099be8b0fffdfc66f4bb04e64e38e4dffa1707c5/polynomiograpy-0.2.0a1.post1.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [photo-burst-detection]: Downloading https://files.pythonhosted.org/packages/04/b9/d496fd4038910b39947eed80fa887dc4fef386e48556089cc984503a2e40/photo_burst_detection-1.0.0.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-0.0.2-py3-none-any.whl.zip tmp/airoboros-0.0.3-py3-none-any.whl.zip --markdown 20230502/a/airoboros/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [polynomiograpy]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [polynomiograpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polynomiograpy-0.2.0a1.tar.gz tmp/polynomiograpy-0.2.0a1.post1.tar.gz --markdown 20230502/p/polynomiograpy/0.2.0a1-0.2.0a1.post1/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/2e/4d/005fb0c701856f1360c10c631cf0f4f5d3c3b853e33b097128649fbbc10d/exergenics-2.7.0.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastdfe]: Downloading https://files.pythonhosted.org/packages/86/c5/2aa87e5b242fa8cbd8f4ff3f04eee4e25cbe6bedc0fce5dd15b3318a99aa/fastdfe-0.1.3b0.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/56/26/9ad198e4b007cc745b5a8baf9b57e9cd8b00e81a739152e2993517777dbf/autosrt-1.2.4.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [exergenics]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [exergenics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-2.6.0.tar.gz tmp/exergenics-2.7.0.tar.gz --markdown 20230502/e/exergenics/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastphrase]: Downloading https://files.pythonhosted.org/packages/3b/a6/88b7fa287d7b39dbd80fa299975268933b73c8b347aabb7a22b516a16bb1/fastphrase-0.0.5.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c2/1f/e850899dcdabbe48a7f9b942c28d714fe84a282ec8e46921e1c769074887/localstack-core-2.0.3.dev20230502073810.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastdfe]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdfe-0.1.2b0.tar.gz tmp/fastdfe-0.1.3b0.tar.gz --markdown 20230502/f/fastdfe/0.1.2b0-0.1.3b0/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [photo-burst-detection]: Downloading https://files.pythonhosted.org/packages/c6/bd/593820945759dd14561b3b7b1f7ab8db65d23df5b4130c186d0bf224f427/photo_burst_detection-1.1.0.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastphrase]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [fastphrase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastphrase-0.0.4.tar.gz tmp/fastphrase-0.0.5.tar.gz --markdown 20230502/f/fastphrase/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [photo-burst-detection]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [photo-burst-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photo_burst_detection-1.0.0.tar.gz tmp/photo_burst_detection-1.1.0.tar.gz --markdown 20230502/p/photo-burst-detection/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/a7/8b/95e983dad37693250504d974ba21a24d14158f8fb241a60d0b6a859a6b08/autosrt-1.2.5.tar.gz
+[2023-05-02 10:59:52] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230502071002.tar.gz tmp/localstack-core-2.0.3.dev20230502073810.tar.gz --markdown 20230502/l/localstack-core/2.0.3.dev20230502071002-2.0.3.dev20230502073810/diff.md --exclude *.pyd
+[2023-05-02 10:59:52] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-02 10:59:52] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.2.4.tar.gz tmp/autosrt-1.2.5.tar.gz --markdown 20230502/a/autosrt/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-02 10:59:53] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-05-02 10:59:53] INFO root fetch - main [MainThread]: End processing [polynomiograpy]: success
+[2023-05-02 10:59:53] INFO root fetch - main [MainThread]: End processing [fastphrase]: success
+[2023-05-02 10:59:53] INFO root fetch - main [MainThread]: End processing [exergenics]: success
+[2023-05-02 10:59:54] INFO root fetch - main [MainThread]: End processing [photo-burst-detection]: success
+[2023-05-02 10:59:54] INFO root fetch - main [MainThread]: End processing [fastdfe]: success
+[2023-05-02 10:59:54] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-02 11:00:01] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-02 11:00:01] INFO root fetch - main [MainThread]: Store serial: [17938248]
