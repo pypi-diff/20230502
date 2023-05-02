@@ -18865,3 +18865,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 19:41:30] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-02 19:41:33] INFO root fetch - main [MainThread]: End processing [firex-flame-ui]: success
 [2023-05-02 19:41:33] INFO root fetch - main [MainThread]: Store serial: [17944681]
+[2023-05-02 19:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944681]
+[2023-05-02 19:46:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydaa
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eradiate-mitsuba
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnmfsns
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphsignal
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaco2
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: guidance
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CuellarModel-lib
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evenoddsjy
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: toolqw
+[2023-05-02 19:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deephaven-plugin-plotly-express
+[2023-05-02 19:46:44] INFO root fetch - processPackages [pydaa]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-05-02 19:46:44] WARNING root fetch - processPackages [evenoddsjy]: Skipping, unable to determine old version
+[2023-05-02 19:46:44] INFO root fetch - processPackages [evenoddsjy]: Start processing: egg-smol
+[2023-05-02 19:46:44] INFO root fetch - main [MainThread]: End processing [evenoddsjy] error
+[2023-05-02 19:46:44] WARNING root fetch - processPackages [cnmfsns]: Skipping, unable to determine old version
+[2023-05-02 19:46:44] INFO root fetch - processPackages [jaco2]: New version: [2.7] Old Version: [2.6]
+[2023-05-02 19:46:44] INFO root fetch - main [MainThread]: End processing [cnmfsns] error
+[2023-05-02 19:46:44] INFO root fetch - processPackages [eradiate-mitsuba]: New version: [0.0.1rc6] Old Version: [0.0.1rc5]
+[2023-05-02 19:46:44] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 19:46:44] INFO root fetch - processPackages [guidance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 19:46:44] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 19:46:44] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.6.tar.gz tmp/jaco2-2.7.tar.gz --markdown 20230502/j/jaco2/2.6-2.7/diff.md --exclude *.pyd
+[2023-05-02 19:46:44] WARNING root fetch - processPackages [toolqw]: Skipping, unable to determine old version
+[2023-05-02 19:46:44] INFO root fetch - main [MainThread]: End processing [toolqw] error
+[2023-05-02 19:46:44] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: New version: [0.0.2] Old Version: [0.0.1.dev1]
+[2023-05-02 19:46:44] WARNING root fetch - processPackages [CuellarModel-lib]: Skipping, unable to determine old version
+[2023-05-02 19:46:44] INFO root fetch - main [MainThread]: End processing [CuellarModel-lib] error
+[2023-05-02 19:46:44] INFO root fetch - processPackages [egg-smol]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 19:46:44] INFO root fetch - processPackages [eradiate-mitsuba]: Downloading https://files.pythonhosted.org/packages/64/db/b94de96d7401d3db5b24555a35730463dbbb3fc72ca79db7de335ec9aef0/eradiate_mitsuba-0.0.1rc5-cp39-cp39-win_amd64.whl
+[2023-05-02 19:46:44] WARNING root fetch - processPackages [eradiate-mitsuba]: Skipping package: exceeds size limit 22214686>=10485760
+[2023-05-02 19:46:44] INFO root fetch - main [MainThread]: End processing [eradiate-mitsuba] error
+[2023-05-02 19:46:44] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: Downloading https://files.pythonhosted.org/packages/5e/61/073a8299efc50346018428af5e947ce6f5979ad52c9a600b846bbb3ea4d6/deephaven-plugin-plotly-express-0.0.1.dev1.tar.gz
+[2023-05-02 19:46:44] INFO root fetch - processPackages [pydaa]: Downloading https://files.pythonhosted.org/packages/d3/50/498ce8095422f8222d9b88c6a6d03468c341cf68c0445f3f3ccfe38b17c6/pydaa-1.6.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 19:46:44] INFO root fetch - processPackages [egg-smol]: Downloading https://files.pythonhosted.org/packages/84/e7/ac33c58ec5c8f288829456ff07a86b4fcf0b56aa5cde47a6ea95ca2d976c/egg_smol-0.3.0.tar.gz
+[2023-05-02 19:46:44] INFO root fetch - processPackages [pydaa]: executing diffoscope
+[2023-05-02 19:46:44] INFO root fetch - processPackages [pydaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydaa-1.6.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pydaa-1.6.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/p/pydaa/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-05-02 19:46:45] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-05-02 19:46:45] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230502/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 19:46:45] INFO root fetch - processPackages [egg-smol]: Downloading https://files.pythonhosted.org/packages/dd/91/0bd6672ca82d2359174e23c21ac7cd574edb69be684edb0276cc1a0a301c/egg_smol-0.3.1-cp39-cp39-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl
+[2023-05-02 19:46:45] INFO root fetch - processPackages [guidance]: executing diffoscope
+[2023-05-02 19:46:45] INFO root fetch - processPackages [guidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guidance-0.0.8.tar.gz tmp/guidance-0.0.9.tar.gz --markdown 20230502/g/guidance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 19:46:45] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: Downloading https://files.pythonhosted.org/packages/a8/31/72f7598b5ada5e71d7ee90b4177b0847e5ac81e912bb91dc540c870e5ba2/deephaven-plugin-plotly-express-0.0.2.tar.gz
+[2023-05-02 19:46:45] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: executing diffoscope
+[2023-05-02 19:46:45] INFO root fetch - processPackages [deephaven-plugin-plotly-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephaven-plugin-plotly-express-0.0.1.dev1.tar.gz tmp/deephaven-plugin-plotly-express-0.0.2.tar.gz --markdown 20230502/d/deephaven-plugin-plotly-express/0.0.1.dev1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 19:46:45] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 19:46:45] INFO root fetch - processPackages [egg-smol]: executing diffoscope
+[2023-05-02 19:46:45] INFO root fetch - processPackages [egg-smol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egg_smol-0.3.0.tar.gz tmp/egg_smol-0.3.1-cp39-cp39-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl.zip --markdown 20230502/e/egg-smol/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 19:46:46] INFO root fetch - main [MainThread]: End processing [guidance]: success
+[2023-05-02 19:46:46] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-05-02 19:46:46] INFO root fetch - main [MainThread]: End processing [deephaven-plugin-plotly-express]: success
+[2023-05-02 19:46:48] INFO root fetch - main [MainThread]: End processing [pydaa]: success
+[2023-05-02 19:47:11] INFO root fetch - main [MainThread]: End processing [egg-smol]: success
+[2023-05-02 19:47:11] INFO root fetch - main [MainThread]: Store serial: [17944747]
