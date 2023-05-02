@@ -5857,3 +5857,68 @@
 [2023-05-02 06:45:49] INFO root fetch - main [MainThread]: End processing [angola]: success
 [2023-05-02 06:46:23] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-05-02 06:46:23] INFO root fetch - main [MainThread]: Store serial: [17936235]
+[2023-05-02 06:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936235]
+[2023-05-02 06:51:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowetl
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowclient
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmachine
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bottle-sql
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyOblv
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelon-impact-client
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cicc-excel
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EdgeGPT
+[2023-05-02 06:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twigs
+[2023-05-02 06:51:32] INFO root fetch - processPackages [EdgeGPT]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-02 06:51:32] INFO root fetch - processPackages [PyOblv]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-02 06:51:32] WARNING root fetch - processPackages [bottle-sql]: Skipping, unable to determine old version
+[2023-05-02 06:51:32] INFO root fetch - processPackages [bottle-sql]: Start processing: perceptron-pkg-abhaykeni
+[2023-05-02 06:51:32] INFO root fetch - main [MainThread]: End processing [bottle-sql] error
+[2023-05-02 06:51:32] INFO root fetch - processPackages [modelon-impact-client]: New version: [3.0.0.dev9] Old Version: [3.0.0.dev8]
+[2023-05-02 06:51:32] INFO root fetch - processPackages [twigs]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 06:51:32] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-02 06:51:33] INFO root fetch - processPackages [gdsfactory]: New version: [6.90.9] Old Version: [6.90.8]
+[2023-05-02 06:51:33] WARNING root fetch - processPackages [perceptron-pkg-abhaykeni]: Skipping, unable to determine old version
+[2023-05-02 06:51:33] INFO root fetch - processPackages [perceptron-pkg-abhaykeni]: Start processing: lpminimk3
+[2023-05-02 06:51:33] INFO root fetch - main [MainThread]: End processing [perceptron-pkg-abhaykeni] error
+[2023-05-02 06:51:33] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/bf/33/077741ba3b6109ba6f1147f4fb982fe7b2c0bb19442ae60a0c8f576d9c87/EdgeGPT-0.3.4.tar.gz
+[2023-05-02 06:51:33] WARNING root fetch - processPackages [cicc-excel]: Skipping, unable to determine old version
+[2023-05-02 06:51:33] INFO root fetch - processPackages [cicc-excel]: Start processing: conversations
+[2023-05-02 06:51:33] INFO root fetch - main [MainThread]: End processing [cicc-excel] error
+[2023-05-02 06:51:33] INFO root fetch - processPackages [lpminimk3]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-02 06:51:33] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.3.3.tar.gz tmp/EdgeGPT-0.3.4.tar.gz --markdown 20230502/E/EdgeGPT/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [conversations]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 06:51:33] INFO root fetch - processPackages [PyOblv]: Downloading https://files.pythonhosted.org/packages/0c/94/a918fc043686c7f970d46e54a94d487ed607e0d6edb2e52a3db4aee95b8a/PyOblv-0.2.2.tar.gz
+[2023-05-02 06:51:33] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-3.0.0.dev8.tar.gz tmp/modelon_impact_client-3.0.0.dev9.tar.gz --markdown 20230502/m/modelon-impact-client/3.0.0.dev8-3.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [lpminimk3]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [lpminimk3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpminimk3-0.6.0.tar.gz tmp/lpminimk3-0.6.1.tar.gz --markdown 20230502/l/lpminimk3/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [PyOblv]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [PyOblv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOblv-0.2.0.tar.gz tmp/PyOblv-0.2.2.tar.gz --markdown 20230502/P/PyOblv/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [twigs]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [twigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twigs-1.1.8.tar.gz tmp/twigs-1.1.9.tar.gz --markdown 20230502/t/twigs/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230502/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/a3/96/aa36d4139e53a4404c907bce9d295aa71a1cc920152ae5e75a3224f6fd8c/gdsfactory-6.90.9.tar.gz
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230502/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230502/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.90.8.tar.gz tmp/gdsfactory-6.90.9.tar.gz --markdown 20230502/g/gdsfactory/6.90.8-6.90.9/diff.md --exclude *.pyd
+[2023-05-02 06:51:33] INFO root fetch - processPackages [conversations]: executing diffoscope
+[2023-05-02 06:51:33] INFO root fetch - processPackages [conversations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conversations-0.8.0.tar.gz tmp/conversations-0.9.0.tar.gz --markdown 20230502/c/conversations/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 06:51:34] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-02 06:51:35] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-02 06:51:35] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-02 06:51:35] INFO root fetch - main [MainThread]: End processing [conversations]: success
+[2023-05-02 06:51:35] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2023-05-02 06:51:36] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-02 06:51:36] INFO root fetch - main [MainThread]: End processing [PyOblv]: success
+[2023-05-02 06:51:38] INFO root fetch - main [MainThread]: End processing [lpminimk3]: success
+[2023-05-02 06:51:43] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-02 06:51:57] INFO root fetch - main [MainThread]: End processing [twigs]: success
+[2023-05-02 06:51:57] INFO root fetch - main [MainThread]: Store serial: [17936276]
