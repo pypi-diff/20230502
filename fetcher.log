@@ -14197,3 +14197,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:52:32] INFO root fetch - processPackages [openvds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvds-3.2.3-cp39-cp39-win_amd64.whl.zip tmp/openvds-3.2.4-cp39-cp39-win_amd64.whl.zip --markdown 20230502/o/openvds/3.2.3-3.2.4/diff.md --exclude *.pyd
 [2023-05-02 15:54:11] INFO root fetch - main [MainThread]: End processing [openvds]: success
 [2023-05-02 15:54:11] INFO root fetch - main [MainThread]: Store serial: [17941443]
+[2023-05-02 15:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941443]
+[2023-05-02 15:59:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: histomicstk
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abba-python
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: braincube-aws-core-alpha
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OctoBot-Pro
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maus
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycorrector
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dreamai
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idbadapter
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MediaLib
+[2023-05-02 15:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-partner-phonecall-schedule
+[2023-05-02 15:59:22] INFO root fetch - processPackages [pycorrector]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [odoo-addon-partner-phonecall-schedule]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-05-02 15:59:22] WARNING root fetch - processPackages [braincube-aws-core-alpha]: Skipping, unable to determine old version
+[2023-05-02 15:59:22] INFO root fetch - processPackages [OctoBot-Pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [braincube-aws-core-alpha]: Start processing: thunno-zeno
+[2023-05-02 15:59:22] WARNING root fetch - processPackages [MediaLib]: Skipping, unable to determine old version
+[2023-05-02 15:59:22] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha] error
+[2023-05-02 15:59:22] INFO root fetch - processPackages [dreamai]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [MediaLib]: Start processing: prepup
+[2023-05-02 15:59:22] INFO root fetch - processPackages [abba-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 15:59:22] WARNING root fetch - processPackages [idbadapter]: Skipping, unable to determine old version
+[2023-05-02 15:59:22] INFO root fetch - main [MainThread]: End processing [MediaLib] error
+[2023-05-02 15:59:22] INFO root fetch - processPackages [idbadapter]: Start processing: telegram-django-bot
+[2023-05-02 15:59:22] INFO root fetch - main [MainThread]: End processing [idbadapter] error
+[2023-05-02 15:59:22] WARNING root fetch - processPackages [thunno-zeno]: Skipping, unable to determine old version
+[2023-05-02 15:59:22] INFO root fetch - processPackages [thunno-zeno]: Start processing: qwak-inference
+[2023-05-02 15:59:22] INFO root fetch - main [MainThread]: End processing [thunno-zeno] error
+[2023-05-02 15:59:22] INFO root fetch - processPackages [histomicstk]: New version: [1.2.7.dev2] Old Version: [1.2.6.dev9]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [prepup]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [telegram-django-bot]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.1] Old Version: [0.0.11rc0]
+[2023-05-02 15:59:22] INFO root fetch - processPackages [odoo-addon-partner-phonecall-schedule]: Downloading https://files.pythonhosted.org/packages/ce/3d/01b0803f6cde142276bba8c011a15e500176c02d80f79cd299a13a75f5c8/odoo_addon_partner_phonecall_schedule-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-02 15:59:22] INFO root fetch - processPackages [OctoBot-Pro]: Downloading https://files.pythonhosted.org/packages/b1/92/9fc4f6c28b93744a71512cbf2aa7022c90123c2cc79f5c0bcc1131b4ac25/OctoBot-Pro-0.0.8.tar.gz
+[2023-05-02 15:59:22] INFO root fetch - processPackages [pycorrector]: Downloading https://files.pythonhosted.org/packages/be/46/93c6b7578356596d6e7b2cf139ca4513eeabb0d84ce7de411101d2f0b1ce/pycorrector-0.4.9.tar.gz
+[2023-05-02 15:59:22] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/8e/7c/42e4c6521fb6c67790c43f41871e63a00b32e377be0fde4ea960fec7b22d/histomicstk-1.2.6.dev9.tar.gz
+[2023-05-02 15:59:22] INFO root fetch - processPackages [telegram-django-bot]: Downloading https://files.pythonhosted.org/packages/ae/fa/3ae630743fb9533edc5ac5b5880104636b0ee722ff76bd6ac4cfed9e3453/telegram_django_bot-1.0.2.tar.gz
+[2023-05-02 15:59:22] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/00/75/8ad0af875ae027b8f3e078454d5c2f9d417f731077dc958ecc6fe9e95903/dreamai-0.7.0.tar.gz
+[2023-05-02 15:59:22] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-02 15:59:22] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.8.tar.gz tmp/abba_python-0.1.9.tar.gz --markdown 20230502/a/abba-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/ed/52/1958dcf1b5ab1dd5339fcc9e2461b30f5c86aeaed23c3955502fc65a182f/prepup-0.1.0.tar.gz
+[2023-05-02 15:59:23] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/2e/e3/72f071195aca6a2fc1a646c3dfb88830bb32646d67ce061edff95804e9be/qwak_inference-0.1.1.tar.gz
+[2023-05-02 15:59:23] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.6.0.tar.gz tmp/dreamai-0.7.0.tar.gz --markdown 20230502/d/dreamai/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.0.9.tar.gz tmp/prepup-0.1.0.tar.gz --markdown 20230502/p/prepup/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.0.11rc0.tar.gz tmp/qwak_inference-0.1.1.tar.gz --markdown 20230502/q/qwak-inference/0.0.11rc0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [odoo-addon-partner-phonecall-schedule]: Downloading https://files.pythonhosted.org/packages/77/d1/c216220152f9d8075ec74d6c15835159656ada9d605c3871211ae7ec5386/odoo_addon_partner_phonecall_schedule-15.0.1.0.1-py3-none-any.whl
+[2023-05-02 15:59:23] INFO root fetch - processPackages [OctoBot-Pro]: Downloading https://files.pythonhosted.org/packages/6a/55/311f31952f63f2a489bed879b119ef482760f72314cb1a63132494756b41/OctoBot-Pro-0.0.9.tar.gz
+[2023-05-02 15:59:23] INFO root fetch - processPackages [telegram-django-bot]: Downloading https://files.pythonhosted.org/packages/3a/5b/45b8dcb6de66d47f1693c0d34972e275979505bb2ac840ca5cd1dcf0c093/telegram_django_bot-1.1.0.tar.gz
+[2023-05-02 15:59:23] INFO root fetch - processPackages [odoo-addon-partner-phonecall-schedule]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [odoo-addon-partner-phonecall-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_phonecall_schedule-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_phonecall_schedule-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230502/o/odoo-addon-partner-phonecall-schedule/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [telegram-django-bot]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [telegram-django-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_django_bot-1.0.2.tar.gz tmp/telegram_django_bot-1.1.0.tar.gz --markdown 20230502/t/telegram-django-bot/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [OctoBot-Pro]: executing diffoscope
+[2023-05-02 15:59:23] INFO root fetch - processPackages [OctoBot-Pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Pro-0.0.8.tar.gz tmp/OctoBot-Pro-0.0.9.tar.gz --markdown 20230502/O/OctoBot-Pro/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 15:59:23] INFO root fetch - processPackages [pycorrector]: Downloading https://files.pythonhosted.org/packages/98/c2/5adfcd0edc64c540c7b8453d032d042b29d8a631e04f7fd788ac8ca53009/pycorrector-0.5.0.tar.gz
+[2023-05-02 15:59:24] INFO root fetch - processPackages [pycorrector]: executing diffoscope
+[2023-05-02 15:59:24] INFO root fetch - processPackages [pycorrector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycorrector-0.4.9.tar.gz tmp/pycorrector-0.5.0.tar.gz --markdown 20230502/p/pycorrector/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-02 15:59:24] INFO root fetch - processPackages [dreamai]: Start processing: bloock
+[2023-05-02 15:59:24] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-02 15:59:24] INFO root fetch - processPackages [qwak-inference]: Start processing: leadguru-jobs
+[2023-05-02 15:59:24] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-05-02 15:59:24] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-02 15:59:24] INFO root fetch - processPackages [bloock]: New version: [2.5.7b4] Old Version: [2.5.7b2]
+[2023-05-02 15:59:24] INFO root fetch - processPackages [prepup]: Start processing: thunno-zeno
+[2023-05-02 15:59:24] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-05-02 15:59:24] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-02 15:59:24] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230502/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-02 15:59:24] INFO root fetch - processPackages [thunno-zeno]: New version: [0.2] Old Version: [0.1]
+[2023-05-02 15:59:24] INFO root fetch - processPackages [maus]: Start processing: simplepg
+[2023-05-02 15:59:24] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 15:59:24] INFO root fetch - processPackages [simplepg]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-02 15:59:24] INFO root fetch - processPackages [thunno-zeno]: Downloading https://files.pythonhosted.org/packages/79/8f/f1d2ec9933cbd167a0b4033ce83d514ec997df8e53bdf256d8d7045000ad/thunno-zeno-0.1.tar.gz
+[2023-05-02 15:59:24] INFO root fetch - processPackages [bloock]: Downloading https://files.pythonhosted.org/packages/21/4e/d0b8167dc8a931cd364f13951e81d0a86129542177bb4ec314b80a60b0e7/bloock-2.5.7b4-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-02 15:59:25] INFO root fetch - main [MainThread]: End processing [OctoBot-Pro]: success
+[2023-05-02 15:59:25] INFO root fetch - processPackages [simplepg]: Downloading https://files.pythonhosted.org/packages/1c/64/6b8d37eca257d09ca7fe1736afb270f10dd223038ee5fc6db921f52fb559/simplepg-0.1.3.tar.gz
+[2023-05-02 15:59:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-phonecall-schedule]: success
+[2023-05-02 15:59:25] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-02 15:59:25] INFO root fetch - processPackages [thunno-zeno]: Downloading https://files.pythonhosted.org/packages/41/a2/5c50771c82c462fa210ad6eedaa30a524f5679a821ea29d21de71ce0e12e/thunno-zeno-0.2.tar.gz
+[2023-05-02 15:59:25] INFO root fetch - processPackages [simplepg]: Downloading https://files.pythonhosted.org/packages/5c/29/281466b4fb82eb49795b6cbf6304b4f4d33b076467c99a71a7916f5c1b87/simplepg-0.1.4.tar.gz
+[2023-05-02 15:59:25] INFO root fetch - processPackages [thunno-zeno]: executing diffoscope
+[2023-05-02 15:59:25] INFO root fetch - processPackages [thunno-zeno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno-zeno-0.1.tar.gz tmp/thunno-zeno-0.2.tar.gz --markdown 20230502/t/thunno-zeno/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-02 15:59:25] INFO root fetch - processPackages [simplepg]: executing diffoscope
+[2023-05-02 15:59:25] INFO root fetch - processPackages [simplepg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplepg-0.1.3.tar.gz tmp/simplepg-0.1.4.tar.gz --markdown 20230502/s/simplepg/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 15:59:25] INFO root fetch - processPackages [bloock]: executing diffoscope
+[2023-05-02 15:59:25] INFO root fetch - processPackages [bloock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloock-2.5.7b2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/bloock-2.5.7b4-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230502/b/bloock/2.5.7b2-2.5.7b4/diff.md --exclude *.pyd
+[2023-05-02 15:59:25] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-02 15:59:25] INFO root fetch - main [MainThread]: End processing [telegram-django-bot]: success
+[2023-05-02 15:59:26] INFO root fetch - main [MainThread]: End processing [simplepg]: success
+[2023-05-02 15:59:26] INFO root fetch - main [MainThread]: End processing [thunno-zeno]: success
+[2023-05-02 15:59:27] WARNING root fetch - processPackages [histomicstk]: Skipping package: exceeds size limit 26141167>=10485760
+[2023-05-02 15:59:27] INFO root fetch - main [MainThread]: End processing [histomicstk] error
+[2023-05-02 15:59:27] INFO root fetch - main [MainThread]: End processing [bloock]: success
+[2023-05-02 15:59:29] INFO root fetch - main [MainThread]: End processing [pycorrector]: success
+[2023-05-02 15:59:29] INFO root fetch - main [MainThread]: Store serial: [17941531]
