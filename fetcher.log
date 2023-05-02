@@ -5048,3 +5048,54 @@
 [2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-payment]: success
 [2023-05-02 05:08:04] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
 [2023-05-02 05:08:04] INFO root fetch - main [MainThread]: Store serial: [17935524]
+[2023-05-02 05:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935524]
+[2023-05-02 05:13:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cikuu
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mbta-gtfs-sqlite
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-qaseio
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CoLT5-attention
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: module-utilities
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keybhook
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GANDLF
+[2023-05-02 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BDXConverter
+[2023-05-02 05:13:13] INFO root fetch - processPackages [cikuu]: New version: [2022.7.9] Old Version: [2022.7.8]
+[2023-05-02 05:13:13] INFO root fetch - processPackages [mbta-gtfs-sqlite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 05:13:13] WARNING root fetch - processPackages [BDXConverter]: Skipping, unable to determine old version
+[2023-05-02 05:13:13] INFO root fetch - main [MainThread]: End processing [BDXConverter] error
+[2023-05-02 05:13:13] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-05-02 05:13:13] INFO root fetch - processPackages [cikuu]: executing diffoscope
+[2023-05-02 05:13:13] INFO root fetch - processPackages [cikuu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cikuu-2022.7.8.tar.gz tmp/cikuu-2022.7.9.tar.gz --markdown 20230502/c/cikuu/2022.7.8-2022.7.9/diff.md --exclude *.pyd
+[2023-05-02 05:13:13] INFO root fetch - processPackages [pytest-qaseio]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 05:13:13] INFO root fetch - processPackages [module-utilities]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-02 05:13:13] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-02 05:13:13] WARNING root fetch - processPackages [keybhook]: Skipping, unable to determine old version
+[2023-05-02 05:13:13] INFO root fetch - main [MainThread]: End processing [keybhook] error
+[2023-05-02 05:13:13] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230502] Old Version: [0.0.16.dev20230501]
+[2023-05-02 05:13:13] INFO root fetch - processPackages [mbta-gtfs-sqlite]: Downloading https://files.pythonhosted.org/packages/14/f8/aca2933cf502cbdbf13711611e6f7f6ec8809c98eed395e003a4bbb952c3/mbta-gtfs-sqlite-0.9.1.tar.gz
+[2023-05-02 05:13:13] INFO root fetch - processPackages [mbta-gtfs-sqlite]: executing diffoscope
+[2023-05-02 05:13:13] INFO root fetch - processPackages [mbta-gtfs-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbta-gtfs-sqlite-0.9.0.tar.gz tmp/mbta-gtfs-sqlite-0.9.1.tar.gz --markdown 20230502/m/mbta-gtfs-sqlite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 05:13:13] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/a6/7f/541724ae5a6ece16ce6ef62b9da3207f3c0b633cf756cb356c22f4c86f39/CoLT5-attention-0.3.7.tar.gz
+[2023-05-02 05:13:13] INFO root fetch - processPackages [pytest-qaseio]: Downloading https://files.pythonhosted.org/packages/76/6f/202b1ef86bef19b000d44d53de6ba41b0abba99dda2de87038b3700417ac/pytest_qaseio-1.0.0.tar.gz
+[2023-05-02 05:13:13] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-02 05:13:13] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.6.tar.gz tmp/CoLT5-attention-0.3.7.tar.gz --markdown 20230502/C/CoLT5-attention/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-05-02 05:13:13] INFO root fetch - processPackages [module-utilities]: Downloading https://files.pythonhosted.org/packages/9c/7d/d3b9bf1d47c903e4f058173a8d1d2b2038fd0208666419b347ace675bebc/module-utilities-0.0.1.tar.gz
+[2023-05-02 05:13:13] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/32/68/c3ae3255fc0f2b593cc39fcafa432b184604035f95073313f3b265cb2e01/GANDLF-0.0.16.dev20230502.tar.gz
+[2023-05-02 05:13:13] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-02 05:13:13] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230501.tar.gz tmp/GANDLF-0.0.16.dev20230502.tar.gz --markdown 20230502/G/GANDLF/0.0.16.dev20230501-0.0.16.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 05:13:13] INFO root fetch - processPackages [module-utilities]: Downloading https://files.pythonhosted.org/packages/27/8a/a5925dc045bca60c6acd6128539b8570d614402bdcffcdfffd1ba6d537f8/module-utilities-0.1.0.tar.gz
+[2023-05-02 05:13:13] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-05-02 05:13:13] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230502/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-02 05:13:13] INFO root fetch - processPackages [pytest-qaseio]: Downloading https://files.pythonhosted.org/packages/6c/c0/43731d6c15c3879016ef0b47c965af54ab4c100174ab0d785210dd8a40cd/pytest_qaseio-1.0.1.tar.gz
+[2023-05-02 05:13:14] INFO root fetch - processPackages [module-utilities]: executing diffoscope
+[2023-05-02 05:13:14] INFO root fetch - processPackages [module-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module-utilities-0.0.1.tar.gz tmp/module-utilities-0.1.0.tar.gz --markdown 20230502/m/module-utilities/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 05:13:14] INFO root fetch - processPackages [pytest-qaseio]: executing diffoscope
+[2023-05-02 05:13:14] INFO root fetch - processPackages [pytest-qaseio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_qaseio-1.0.0.tar.gz tmp/pytest_qaseio-1.0.1.tar.gz --markdown 20230502/p/pytest-qaseio/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 05:13:14] INFO root fetch - main [MainThread]: End processing [mbta-gtfs-sqlite]: success
+[2023-05-02 05:13:14] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-02 05:13:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-05-02 05:13:15] INFO root fetch - main [MainThread]: End processing [pytest-qaseio]: success
+[2023-05-02 05:13:15] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-02 05:13:16] INFO root fetch - main [MainThread]: End processing [module-utilities]: success
+[2023-05-02 05:13:18] INFO root fetch - main [MainThread]: End processing [cikuu]: success
+[2023-05-02 05:13:18] INFO root fetch - main [MainThread]: Store serial: [17935552]
