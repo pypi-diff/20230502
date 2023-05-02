@@ -10349,3 +10349,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:11:29] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2023-05-02 12:12:19] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-02 12:12:19] INFO root fetch - main [MainThread]: Store serial: [17939008]
+[2023-05-02 12:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939008]
+[2023-05-02 12:17:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auterion-cli
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-yoav-plus-minus-simplification
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragraph
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vdk-control-cli
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BDXConverter
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myprn-026
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tiledb-cloud
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aim
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minidatabase
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ezyquant-execution
+[2023-05-02 12:17:29] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: New version: [20230502.10.12.88085] Old Version: [20230501.9.23.937978]
+[2023-05-02 12:17:29] WARNING root fetch - processPackages [BDXConverter]: Skipping, unable to determine old version
+[2023-05-02 12:17:29] INFO root fetch - processPackages [auterion-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 12:17:29] INFO root fetch - main [MainThread]: End processing [BDXConverter] error
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ragraph]: New version: [1.17.1] Old Version: [1.17.0]
+[2023-05-02 12:17:29] WARNING root fetch - processPackages [minidatabase]: Skipping, unable to determine old version
+[2023-05-02 12:17:29] WARNING root fetch - processPackages [myprn-026]: Skipping, unable to determine old version
+[2023-05-02 12:17:29] INFO root fetch - main [MainThread]: End processing [minidatabase] error
+[2023-05-02 12:17:29] INFO root fetch - main [MainThread]: End processing [myprn-026] error
+[2023-05-02 12:17:29] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 12:17:29] INFO root fetch - processPackages [vdk-control-cli]: New version: [1.3.854432835] Old Version: [1.3.850700657]
+[2023-05-02 12:17:29] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ezyquant-execution]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 12:17:29] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Downloading https://files.pythonhosted.org/packages/e2/84/dc5da96e117fee6f32b93c8f7780c4a50b6d7ece4379c18db90f0a84672a/certora-cli-alpha-yoav-plus_minus_simplification-20230501.9.23.937978.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/fd/1f/a8aa9ec12b18fe7ed739347fa7971a9ab5c44ed0748cd0a83177505dfd40/ragraph-1.17.0.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2023-05-02 12:17:29] WARNING root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Skipping package: exceeds size limit 38300227>=10485760
+[2023-05-02 12:17:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-plus-minus-simplification] error
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ezyquant-execution]: Downloading https://files.pythonhosted.org/packages/c2/e6/788a6db10f7dd5ffe0f1c786b64591a2d142ba876aa982c53ebffca25d37/ezyquant-execution-0.0.2.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/01/36/476d97604ce6ef4b20919a204ba3bb3f5a7adec2d520708e060199781dce/auterion-cli-1.0.9.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [vdk-control-cli]: Downloading https://files.pythonhosted.org/packages/06/d8/80279ce60707482f5219562c3e6dc7322e31dd34bf1aa1d92207849d4766/vdk-control-cli-1.3.854432835.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-02 12:17:29] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230502/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-02 12:17:29] INFO root fetch - processPackages [vdk-control-cli]: executing diffoscope
+[2023-05-02 12:17:29] INFO root fetch - processPackages [vdk-control-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-cli-1.3.850700657.tar.gz tmp/vdk-control-cli-1.3.854432835.tar.gz --markdown 20230502/v/vdk-control-cli/1.3.850700657-1.3.854432835/diff.md --exclude *.pyd
+[2023-05-02 12:17:29] INFO root fetch - processPackages [auterion-cli]: executing diffoscope
+[2023-05-02 12:17:29] INFO root fetch - processPackages [auterion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auterion-cli-1.0.8.tar.gz tmp/auterion-cli-1.0.9.tar.gz --markdown 20230502/a/auterion-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/57/59/48ee56479dce7630172814059cd911b819627f108c3594ab450fa38c23ef/ragraph-1.17.1.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ezyquant-execution]: Downloading https://files.pythonhosted.org/packages/9e/c6/9c473654bc3559d83db06747fe50697868f4b4b4573b0894b98467f67c9d/ezyquant-execution-0.0.3.tar.gz
+[2023-05-02 12:17:29] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ragraph]: executing diffoscope
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ragraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragraph-1.17.0.tar.gz tmp/ragraph-1.17.1.tar.gz --markdown 20230502/r/ragraph/1.17.0-1.17.1/diff.md --exclude *.pyd
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ezyquant-execution]: executing diffoscope
+[2023-05-02 12:17:29] INFO root fetch - processPackages [ezyquant-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyquant-execution-0.0.2.tar.gz tmp/ezyquant-execution-0.0.3.tar.gz --markdown 20230502/e/ezyquant-execution/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 12:17:30] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-05-02 12:17:30] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230502/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 12:17:31] INFO root fetch - main [MainThread]: End processing [ezyquant-execution]: success
+[2023-05-02 12:17:31] INFO root fetch - main [MainThread]: End processing [auterion-cli]: success
+[2023-05-02 12:17:31] INFO root fetch - main [MainThread]: End processing [vdk-control-cli]: success
+[2023-05-02 12:17:32] INFO root fetch - main [MainThread]: End processing [ragraph]: success
+[2023-05-02 12:17:37] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-05-02 12:17:37] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-02 12:17:37] INFO root fetch - main [MainThread]: Store serial: [17939041]
