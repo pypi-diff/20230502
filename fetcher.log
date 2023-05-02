@@ -4686,3 +4686,117 @@
 [2023-05-02 04:25:26] INFO root fetch - main [MainThread]: End processing [jatsgenerator]: success
 [2023-05-02 04:25:31] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-02 04:25:31] INFO root fetch - main [MainThread]: Store serial: [17935261]
+[2023-05-02 04:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935261]
+[2023-05-02 04:30:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidocr-openvino-gpu
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-monitoring
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-dashboard
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: femr
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tpfi
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: femr-cuda
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: femr-oldcpu
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iam-actions
+[2023-05-02 04:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaceone-cost-analysis
+[2023-05-02 04:30:40] INFO root fetch - processPackages [rapidocr-openvino-gpu]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [spaceone-dashboard]: New version: [1.11.0rc4] Old Version: [1.11.0rc3]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [tpfi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 04:30:40] WARNING root fetch - processPackages [femr-oldcpu]: Skipping, unable to determine old version
+[2023-05-02 04:30:40] INFO root fetch - processPackages [femr-cuda]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [femr-oldcpu]: Start processing: unisci
+[2023-05-02 04:30:40] INFO root fetch - main [MainThread]: End processing [femr-oldcpu] error
+[2023-05-02 04:30:40] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [femr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [unisci]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230502] Old Version: [1.2.20230501]
+[2023-05-02 04:30:40] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-02 04:30:40] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230502/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-02 04:30:40] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/18/98/7abccaddda0c07b240cf9d85a0c268ee6101ce9eea482359a1e97b074fe7/iam_actions-1.2.20230501.tar.gz
+[2023-05-02 04:30:40] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/38/28/254a187e548023a64c919654a0e6c3629c53abc3d7b265f6d55bc4799733/spaceone_dashboard-1.11.0rc3-py3-none-any.whl
+[2023-05-02 04:30:40] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-05-02 04:30:40] INFO root fetch - processPackages [tpfi]: Downloading https://files.pythonhosted.org/packages/c3/db/790029044a96b30da1ac08b90ccbf48c7540596e87db38d5cddede62beee/tpfi-1.0.3.tar.gz
+[2023-05-02 04:30:40] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/33/7a/4ea8e333b2384865532fc4ca156ff2acaaade652e29640a44ac77b2b118c/unisci-1.4.5.tar.gz
+[2023-05-02 04:30:40] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/05/12/81ae4a5b1dd3aad27a74fbb4da2f103977ed5e3b3b81cc929410554cde17/femr-0.1.7.tar.gz
+[2023-05-02 04:30:40] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/ca/57/274de01859938ee0ea18fde02a27bd004721324e14d9173c1aed6ce505f5/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl
+[2023-05-02 04:30:40] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/47/4a/751ab6007fcde8c31d161812ff5403ac7485b4a43eee595fb398da2d0ca2/femr_cuda-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 04:30:40] INFO root fetch - processPackages [tpfi]: executing diffoscope
+[2023-05-02 04:30:40] INFO root fetch - processPackages [tpfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpfi-1.0.2.tar.gz tmp/tpfi-1.0.3.tar.gz --markdown 20230502/t/tpfi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 04:30:40] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-05-02 04:30:40] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.4.4.tar.gz tmp/unisci-1.4.5.tar.gz --markdown 20230502/u/unisci/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-02 04:30:40] INFO root fetch - processPackages [rapidocr-openvino-gpu]: Downloading https://files.pythonhosted.org/packages/f8/6f/779b2b9041aa876a095933fd83cf9cf39d8f5548779fa94935b5cf7023ab/rapidocr_openvino_gpu-1.0.4.tar.gz
+[2023-05-02 04:30:41] INFO root fetch - processPackages [rapidocr-openvino-gpu]: executing diffoscope
+[2023-05-02 04:30:41] INFO root fetch - processPackages [rapidocr-openvino-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_openvino_gpu-1.0.3.tar.gz tmp/rapidocr_openvino_gpu-1.0.4.tar.gz --markdown 20230502/r/rapidocr-openvino-gpu/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 04:30:41] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e7/ff/f0ee07561a3945502218dc7e788cd12b014fadd3f3c93019d158b687ddd6/iam_actions-1.2.20230502.tar.gz
+[2023-05-02 04:30:41] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/ff/bf/0e8a5ba345650ad69da87255688668f9c2318f9cb544d8278dd2a37fcffb/femr-0.1.8.tar.gz
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-dashboard]: Downloading https://files.pythonhosted.org/packages/a4/e9/3dc965c4c4f628add577c812c30948c63698ec87ab47916491261c03403c/spaceone_dashboard-1.11.0rc4-py3-none-any.whl
+[2023-05-02 04:30:41] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-02 04:30:41] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230501.tar.gz tmp/iam_actions-1.2.20230502.tar.gz --markdown 20230502/i/iam-actions/1.2.20230501-1.2.20230502/diff.md --exclude *.pyd
+[2023-05-02 04:30:41] INFO root fetch - processPackages [femr]: executing diffoscope
+[2023-05-02 04:30:41] INFO root fetch - processPackages [femr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr-0.1.7.tar.gz tmp/femr-0.1.8.tar.gz --markdown 20230502/f/femr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/cf/26/f9d82f22108804a06ee9380b339d652897bc5997f046962edc93c30d5f6a/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230502/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_cost_analysis-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_cost_analysis-1.9.7rc1-py3-none-any.whl.zip --markdown 20230502/s/spaceone-cost-analysis/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-dashboard]: executing diffoscope
+[2023-05-02 04:30:41] INFO root fetch - processPackages [spaceone-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_dashboard-1.11.0rc3-py3-none-any.whl.zip tmp/spaceone_dashboard-1.11.0rc4-py3-none-any.whl.zip --markdown 20230502/s/spaceone-dashboard/1.11.0rc3-1.11.0rc4/diff.md --exclude *.pyd
+[2023-05-02 04:30:42] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/67/7f/df7956701c7ea7a0fbaa637d2d8a9b688fbd5b01b2646fa917c7a6a5675b/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-02 04:30:42] INFO root fetch - processPackages [femr-cuda]: executing diffoscope
+[2023-05-02 04:30:42] INFO root fetch - processPackages [femr-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr_cuda-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230502/f/femr-cuda/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 04:30:42] INFO root fetch - processPackages [tpfi]: Start processing: Quart-Motor
+[2023-05-02 04:30:42] INFO root fetch - main [MainThread]: End processing [tpfi]: success
+[2023-05-02 04:30:42] INFO root fetch - processPackages [Quart-Motor]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-24]: Start processing: cdk8s-plus-26
+[2023-05-02 04:30:42] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-02 04:30:42] INFO root fetch - processPackages [rapidocr-openvino-gpu]: Start processing: cdk8s-plus-25
+[2023-05-02 04:30:42] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino-gpu]: success
+[2023-05-02 04:30:42] INFO root fetch - processPackages [Quart-Motor]: Downloading https://files.pythonhosted.org/packages/28/01/54f4d2a35ebadb26916e0eee4fcbf4b03283b1b7caf98424a3859a65ab03/Quart-Motor-2.4.4.tar.gz
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230502/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-02 04:30:42] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230502/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-02 04:30:42] INFO root fetch - processPackages [Quart-Motor]: Downloading https://files.pythonhosted.org/packages/2d/61/73621276efe05e47d008e5b2e415e316d8639ed0a7e1223fde5d5f3376f3/Quart-Motor-2.4.5.tar.gz
+[2023-05-02 04:30:42] INFO root fetch - processPackages [Quart-Motor]: executing diffoscope
+[2023-05-02 04:30:42] INFO root fetch - processPackages [Quart-Motor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quart-Motor-2.4.4.tar.gz tmp/Quart-Motor-2.4.5.tar.gz --markdown 20230502/Q/Quart-Motor/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-05-02 04:30:43] INFO root fetch - processPackages [spaceone-dashboard]: Start processing: CoLT5-attention
+[2023-05-02 04:30:43] INFO root fetch - main [MainThread]: End processing [spaceone-dashboard]: success
+[2023-05-02 04:30:43] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.6] Old Version: [0.3.4]
+[2023-05-02 04:30:43] INFO root fetch - processPackages [spaceone-cost-analysis]: Start processing: clinker-windows
+[2023-05-02 04:30:43] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2023-05-02 04:30:43] INFO root fetch - processPackages [spaceone-monitoring]: Start processing: spacectl
+[2023-05-02 04:30:43] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-05-02 04:30:43] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-02 04:30:43] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.4.tar.gz tmp/CoLT5-attention-0.3.6.tar.gz --markdown 20230502/C/CoLT5-attention/0.3.4-0.3.6/diff.md --exclude *.pyd
+[2023-05-02 04:30:43] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-05-02 04:30:43] WARNING root fetch - processPackages [clinker-windows]: Skipping, unable to determine old version
+[2023-05-02 04:30:43] INFO root fetch - processPackages [clinker-windows]: Start processing: coconut
+[2023-05-02 04:30:43] INFO root fetch - main [MainThread]: End processing [clinker-windows] error
+[2023-05-02 04:30:43] INFO root fetch - processPackages [coconut]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-05-02 04:30:43] INFO root fetch - processPackages [unisci]: Start processing: mmif-python
+[2023-05-02 04:30:43] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-05-02 04:30:43] INFO root fetch - processPackages [coconut]: Downloading https://files.pythonhosted.org/packages/cc/a7/49b6d5a7b67ec52cd9932c36bc064988673c913a94e88304e533cf2c1396/coconut-2.2.0.tar.gz
+[2023-05-02 04:30:43] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-05-02 04:30:43] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230502/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-05-02 04:30:44] INFO root fetch - processPackages [mmif-python]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-02 04:30:44] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-02 04:30:44] INFO root fetch - processPackages [coconut]: Downloading https://files.pythonhosted.org/packages/24/f7/efd7ba4c501ee49295b55f2e95ba102dbe987a7811e79bce6d8c02a1ad03/coconut-3.0.0.tar.gz
+[2023-05-02 04:30:44] INFO root fetch - main [MainThread]: End processing [Quart-Motor]: success
+[2023-05-02 04:30:44] INFO root fetch - processPackages [coconut]: executing diffoscope
+[2023-05-02 04:30:44] INFO root fetch - processPackages [coconut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-2.2.0.tar.gz tmp/coconut-3.0.0.tar.gz --markdown 20230502/c/coconut/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-02 04:30:44] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/22/af/ac5232d55d6ea2c8a52820e1dd996bf7463c46aee153607c1712d4c0077f/mmif-python-0.5.1.tar.gz
+[2023-05-02 04:30:44] INFO root fetch - processPackages [mmif-python]: executing diffoscope
+[2023-05-02 04:30:44] INFO root fetch - processPackages [mmif-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmif-python-0.5.0.tar.gz tmp/mmif-python-0.5.1.tar.gz --markdown 20230502/m/mmif-python/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-02 04:30:44] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-02 04:30:45] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-05-02 04:30:45] INFO root fetch - main [MainThread]: End processing [mmif-python]: success
+[2023-05-02 04:30:45] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-02 04:30:46] INFO root fetch - main [MainThread]: End processing [femr]: success
+[2023-05-02 04:30:46] INFO root fetch - main [MainThread]: End processing [coconut]: success
+[2023-05-02 04:30:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-02 04:30:55] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
+[2023-05-02 04:30:55] INFO root fetch - main [MainThread]: Store serial: [17935330]
