@@ -10896,3 +10896,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 12:51:53] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
 [2023-05-02 12:52:26] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-02 12:52:26] INFO root fetch - main [MainThread]: Store serial: [17939336]
+[2023-05-02 12:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939336]
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-beesdoo-easy-my-coop
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pure-protobuf
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-cooperator-worker-force
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghga-service-commons
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mylib-079
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-cooperator-worker
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: promsoft-weight-calc-interface
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scarlet-shark-python
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JFIO
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oauth2-lib
+[2023-05-02 12:57:38] WARNING root fetch - processPackages [odoo12-addon-cooperator-worker-force]: Skipping, unable to determine old version
+[2023-05-02 12:57:38] INFO root fetch - processPackages [odoo12-addon-cooperator-worker-force]: Start processing: odoo12-addon-cooperator-eater
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-worker-force] error
+[2023-05-02 12:57:38] INFO root fetch - processPackages [odoo12-addon-beesdoo-easy-my-coop]: New version: [12.0.1.2.2] Old Version: [12.0.1.0.2.99.dev9]
+[2023-05-02 12:57:38] WARNING root fetch - processPackages [mylib-079]: Skipping, unable to determine old version
+[2023-05-02 12:57:38] INFO root fetch - processPackages [promsoft-weight-calc-interface]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-02 12:57:38] INFO root fetch - processPackages [mylib-079]: Start processing: parsigs
+[2023-05-02 12:57:38] INFO root fetch - processPackages [JFIO]: New version: [0.31] Old Version: [0.3]
+[2023-05-02 12:57:38] INFO root fetch - processPackages [scarlet-shark-python]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 12:57:38] INFO root fetch - processPackages [oauth2-lib]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: End processing [mylib-079] error
+[2023-05-02 12:57:38] WARNING root fetch - processPackages [odoo12-addon-cooperator-eater]: Skipping, unable to determine old version
+[2023-05-02 12:57:38] INFO root fetch - processPackages [odoo12-addon-cooperator-eater]: Start processing: instld
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-eater] error
+[2023-05-02 12:57:38] INFO root fetch - processPackages [ghga-service-commons]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-02 12:57:38] WARNING root fetch - processPackages [odoo12-addon-cooperator-worker]: Skipping, unable to determine old version
+[2023-05-02 12:57:38] INFO root fetch - processPackages [odoo12-addon-cooperator-worker]: Start processing: odoo12-addon-cooperator-info-session
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-worker] error
+[2023-05-02 12:57:38] WARNING root fetch - processPackages [parsigs]: Skipping, unable to determine old version
+[2023-05-02 12:57:38] INFO root fetch - processPackages [parsigs]: Start processing: hasql
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: End processing [parsigs] error
+[2023-05-02 12:57:38] INFO root fetch - processPackages [pure-protobuf]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-05-02 12:57:38] INFO root fetch - processPackages [instld]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 12:57:38] WARNING root fetch - processPackages [odoo12-addon-cooperator-info-session]: Skipping, unable to determine old version
+[2023-05-02 12:57:38] INFO root fetch - processPackages [odoo12-addon-cooperator-info-session]: Start processing: robotControl
+[2023-05-02 12:57:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-info-session] error
+[2023-05-02 12:57:38] INFO root fetch - processPackages [hasql]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-02 12:57:38] INFO root fetch - processPackages [robotControl]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 12:57:38] INFO root fetch - processPackages [promsoft-weight-calc-interface]: Downloading https://files.pythonhosted.org/packages/e0/9e/bc24d2763383cadd2b796716243500bff3178d2c57f765b437dc930a74c6/promsoft_weight_calc_interface-0.1.5.tar.gz
+[2023-05-02 12:57:38] INFO root fetch - processPackages [JFIO]: Downloading https://files.pythonhosted.org/packages/af/d4/eba68b26cf56e331661b2bcbe5f56ecbdc7c08470b24354f4004d130bc62/JFIO-0.31.tar.gz
+[2023-05-02 12:57:38] INFO root fetch - processPackages [scarlet-shark-python]: Downloading https://files.pythonhosted.org/packages/9a/2d/bd10a3705594bf94d0b6908ed2818c38bdf7f5179d37a04a7d47264be3e5/scarlet-shark-python-1.0.3.tar.gz
+[2023-05-02 12:57:38] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/99/13/7f4238a9a3cc8e5140007d02d696ca10e95cec4038ff304d4ab540c057ce/oauth2-lib-1.2.7.tar.gz
+[2023-05-02 12:57:38] INFO root fetch - processPackages [odoo12-addon-beesdoo-easy-my-coop]: Downloading https://files.pythonhosted.org/packages/ec/43/9574af16cbaa2f4b7ad01a2051a225df1dfd2bb47938188291f48bc6aeb7/odoo12_addon_beesdoo_easy_my_coop-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-05-02 12:57:38] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/ce/f1/e54047a9f0682a69f2223446bf691346f2cec2cc42bd9c0f00f4e7dff59e/robotControl-1.0.3.tar.gz
+[2023-05-02 12:57:38] INFO root fetch - processPackages [hasql]: Downloading https://files.pythonhosted.org/packages/bb/75/a09f961b2daab93633dad8926d0c9754d9612f7e6ee4930865752450914c/hasql-0.5.8.tar.gz
+[2023-05-02 12:57:38] INFO root fetch - processPackages [scarlet-shark-python]: executing diffoscope
+[2023-05-02 12:57:38] INFO root fetch - processPackages [scarlet-shark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarlet-shark-python-1.0.2.tar.gz tmp/scarlet-shark-python-1.0.3.tar.gz --markdown 20230502/s/scarlet-shark-python/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 12:57:38] INFO root fetch - processPackages [JFIO]: executing diffoscope
+[2023-05-02 12:57:38] INFO root fetch - processPackages [JFIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFIO-0.3.tar.gz tmp/JFIO-0.31.tar.gz --markdown 20230502/J/JFIO/0.3-0.31/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-1.0.2.tar.gz tmp/robotControl-1.0.3.tar.gz --markdown 20230502/r/robotControl/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [instld]: Downloading https://files.pythonhosted.org/packages/c5/4d/5fc6f3d299c7820ab8b43674a0e3be04aa2b8ae64599c1ea55a6c00ecba7/instld-0.0.7.tar.gz
+[2023-05-02 12:57:39] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/de/1f/e6073cc83b91b14f1682b13d92a9504fe588d340e3908b5e4f6841c319c5/ghga_service_commons-0.3.0.tar.gz
+[2023-05-02 12:57:39] INFO root fetch - processPackages [oauth2-lib]: Downloading https://files.pythonhosted.org/packages/6d/d1/d9c1ea29da867df10bb14251a285c95d85b641e455ec3f04a4d066035b34/oauth2-lib-1.2.8.tar.gz
+[2023-05-02 12:57:39] INFO root fetch - processPackages [instld]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [instld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instld-0.0.6.tar.gz tmp/instld-0.0.7.tar.gz --markdown 20230502/i/instld/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [oauth2-lib]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [oauth2-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauth2-lib-1.2.7.tar.gz tmp/oauth2-lib-1.2.8.tar.gz --markdown 20230502/o/oauth2-lib/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [pure-protobuf]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [pure-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_protobuf-3.0.0a2.tar.gz tmp/pure_protobuf-3.0.0a3.tar.gz --markdown 20230502/p/pure-protobuf/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [promsoft-weight-calc-interface]: Downloading https://files.pythonhosted.org/packages/e4/fd/02a66b258e873592e6e732366d560477c27b4e5328d2debd27fd352c5d97/promsoft_weight_calc_interface-0.1.6.tar.gz
+[2023-05-02 12:57:39] INFO root fetch - processPackages [promsoft-weight-calc-interface]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [promsoft-weight-calc-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promsoft_weight_calc_interface-0.1.5.tar.gz tmp/promsoft_weight_calc_interface-0.1.6.tar.gz --markdown 20230502/p/promsoft-weight-calc-interface/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [odoo12-addon-beesdoo-easy-my-coop]: Downloading https://files.pythonhosted.org/packages/77/29/14049a1826514d05eca74989fbc9b05ffa2ef7cccad6c566b8fc51b1e214/odoo12_addon_beesdoo_easy_my_coop-12.0.1.2.2-py3-none-any.whl
+[2023-05-02 12:57:39] INFO root fetch - processPackages [ghga-service-commons]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [ghga-service-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_service_commons-0.2.2.tar.gz tmp/ghga_service_commons-0.3.0.tar.gz --markdown 20230502/g/ghga-service-commons/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [hasql]: Downloading https://files.pythonhosted.org/packages/49/85/c675a072381e6a77a40db96cc6ae5c88d98fe313d990a0b41575823382a0/hasql-0.5.9.tar.gz
+[2023-05-02 12:57:39] INFO root fetch - processPackages [odoo12-addon-beesdoo-easy-my-coop]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [odoo12-addon-beesdoo-easy-my-coop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_beesdoo_easy_my_coop-12.0.1.0.2.99.dev9-py3-none-any.whl.zip tmp/odoo12_addon_beesdoo_easy_my_coop-12.0.1.2.2-py3-none-any.whl.zip --markdown 20230502/o/odoo12-addon-beesdoo-easy-my-coop/12.0.1.0.2.99.dev9-12.0.1.2.2/diff.md --exclude *.pyd
+[2023-05-02 12:57:39] INFO root fetch - processPackages [hasql]: executing diffoscope
+[2023-05-02 12:57:39] INFO root fetch - processPackages [hasql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hasql-0.5.8.tar.gz tmp/hasql-0.5.9.tar.gz --markdown 20230502/h/hasql/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-02 12:57:40] INFO root fetch - processPackages [scarlet-shark-python]: Start processing: questdb-connect
+[2023-05-02 12:57:40] INFO root fetch - main [MainThread]: End processing [scarlet-shark-python]: success
+[2023-05-02 12:57:40] INFO root fetch - processPackages [robotControl]: Start processing: fakts
+[2023-05-02 12:57:40] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 12:57:40] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-05-02 12:57:40] INFO root fetch - processPackages [fakts]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 12:57:40] INFO root fetch - processPackages [JFIO]: Start processing: herre
+[2023-05-02 12:57:40] INFO root fetch - main [MainThread]: End processing [JFIO]: success
+[2023-05-02 12:57:40] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/3c/77/e76d63b002a09208ad1ac324bd60d37f06b5310baf5536a45226835cb216/questdb-connect-0.0.31.tar.gz
+[2023-05-02 12:57:40] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-02 12:57:40] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.30.tar.gz tmp/questdb-connect-0.0.31.tar.gz --markdown 20230502/q/questdb-connect/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-05-02 12:57:40] INFO root fetch - processPackages [herre]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 12:57:40] INFO root fetch - processPackages [fakts]: executing diffoscope
+[2023-05-02 12:57:40] INFO root fetch - processPackages [fakts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakts-0.3.8.tar.gz tmp/fakts-0.3.9.tar.gz --markdown 20230502/f/fakts/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 12:57:40] INFO root fetch - processPackages [promsoft-weight-calc-interface]: Start processing: mikro
+[2023-05-02 12:57:40] INFO root fetch - main [MainThread]: End processing [promsoft-weight-calc-interface]: success
+[2023-05-02 12:57:41] INFO root fetch - processPackages [oauth2-lib]: Start processing: sdk-api
+[2023-05-02 12:57:41] INFO root fetch - main [MainThread]: End processing [oauth2-lib]: success
+[2023-05-02 12:57:41] INFO root fetch - processPackages [mikro]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 12:57:41] INFO root fetch - processPackages [herre]: Downloading https://files.pythonhosted.org/packages/1a/f0/614035b9abe8f3c2e2c0e2d460cea1e0418a77254cf0ad04ac338b4c099a/herre-0.3.8.tar.gz
+[2023-05-02 12:57:41] INFO root fetch - processPackages [sdk-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 12:57:41] INFO root fetch - processPackages [instld]: Start processing: fluss
+[2023-05-02 12:57:41] INFO root fetch - main [MainThread]: End processing [instld]: success
+[2023-05-02 12:57:41] INFO root fetch - processPackages [pure-protobuf]: Start processing: titan-iris
+[2023-05-02 12:57:41] INFO root fetch - main [MainThread]: End processing [pure-protobuf]: success
+[2023-05-02 12:57:41] INFO root fetch - processPackages [fluss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 12:57:41] INFO root fetch - processPackages [sdk-api]: Downloading https://files.pythonhosted.org/packages/94/bb/c3ade7f521770649760e1a6a27c8d4ac8714ff13817fde6728e61d454892/sdk-api-0.2.0.tar.gz
+[2023-05-02 12:57:41] INFO root fetch - main [MainThread]: End processing [odoo12-addon-beesdoo-easy-my-coop]: success
+[2023-05-02 12:57:41] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-02 12:57:41] INFO root fetch - processPackages [herre]: Downloading https://files.pythonhosted.org/packages/ad/3b/cc609ef17a70e1020a31355e1955623f121da1caa3ab50af521161885c6b/herre-0.3.9.tar.gz
+[2023-05-02 12:57:41] INFO root fetch - main [MainThread]: End processing [hasql]: success
+[2023-05-02 12:57:41] INFO root fetch - processPackages [mikro]: executing diffoscope
+[2023-05-02 12:57:41] INFO root fetch - processPackages [mikro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikro-0.3.8.tar.gz tmp/mikro-0.3.9.tar.gz --markdown 20230502/m/mikro/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 12:57:41] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/53/b7/8ff92a5a6685a4072ae111d8bec915e15a5682020fcc403fa91a69346a35/fluss-0.1.8.tar.gz
+[2023-05-02 12:57:41] INFO root fetch - processPackages [herre]: executing diffoscope
+[2023-05-02 12:57:41] INFO root fetch - processPackages [herre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herre-0.3.8.tar.gz tmp/herre-0.3.9.tar.gz --markdown 20230502/h/herre/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 12:57:41] INFO root fetch - processPackages [sdk-api]: Downloading https://files.pythonhosted.org/packages/f0/fc/c3c80ac2e49a5ec8bca242192986b110f2a2c6fbf399f292883bbebf5cbb/sdk-api-0.2.1.tar.gz
+[2023-05-02 12:57:41] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-02 12:57:41] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230502/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-02 12:57:41] INFO root fetch - processPackages [sdk-api]: executing diffoscope
+[2023-05-02 12:57:41] INFO root fetch - processPackages [sdk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdk-api-0.2.0.tar.gz tmp/sdk-api-0.2.1.tar.gz --markdown 20230502/s/sdk-api/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 12:57:41] INFO root fetch - processPackages [fluss]: Downloading https://files.pythonhosted.org/packages/50/76/9edfc881baab8d439ab2edc2727312771bb676cf387e48ce1a149177f1f6/fluss-0.1.9.tar.gz
+[2023-05-02 12:57:41] INFO root fetch - processPackages [fluss]: executing diffoscope
+[2023-05-02 12:57:41] INFO root fetch - processPackages [fluss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluss-0.1.8.tar.gz tmp/fluss-0.1.9.tar.gz --markdown 20230502/f/fluss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 12:57:42] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-02 12:57:42] INFO root fetch - main [MainThread]: End processing [fakts]: success
+[2023-05-02 12:57:42] INFO root fetch - main [MainThread]: End processing [herre]: success
+[2023-05-02 12:57:43] INFO root fetch - main [MainThread]: End processing [sdk-api]: success
+[2023-05-02 12:57:43] INFO root fetch - main [MainThread]: End processing [fluss]: success
+[2023-05-02 12:57:43] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-02 12:57:43] INFO root fetch - main [MainThread]: End processing [mikro]: success
+[2023-05-02 12:58:02] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
+[2023-05-02 12:58:02] INFO root fetch - main [MainThread]: Store serial: [17939414]
