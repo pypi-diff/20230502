@@ -9866,3 +9866,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 11:38:10] ERROR root fetch - processPackages [mkdocs-material]: Timeout during execution of pkgdiff
 [2023-05-02 11:38:10] INFO root fetch - main [MainThread]: End processing [mkdocs-material] error
 [2023-05-02 11:38:10] INFO root fetch - main [MainThread]: Store serial: [17938663]
+[2023-05-02 11:43:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938663]
+[2023-05-02 11:43:20] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pequena
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiofauna
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-filter-autotools
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delphix-dct-api
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atatus
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xarray-safe-s1
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ibkr-report-parser
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mumott
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: climify-api
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sfctools
+[2023-05-02 11:43:20] INFO root fetch - processPackages [climify-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [sfctools]: New version: [1.0.5.4] Old Version: [1.0.5.3]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [django-filter-autotools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 11:43:20] WARNING root fetch - processPackages [xarray-safe-s1]: Skipping, unable to determine old version
+[2023-05-02 11:43:20] INFO root fetch - processPackages [xarray-safe-s1]: Start processing: automation-editor
+[2023-05-02 11:43:20] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1] error
+[2023-05-02 11:43:20] INFO root fetch - processPackages [atatus]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [delphix-dct-api]: New version: [7.0.0rc1] Old Version: [6.0.0rc1]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [mumott]: New version: [0.3] Old Version: [0.2.1]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ibkr-report-parser]: New version: [2023.5.2] Old Version: [2022.8.8]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-02 11:43:20] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.5.3.tar.gz tmp/sfctools-1.0.5.4.tar.gz --markdown 20230502/s/sfctools/1.0.5.3-1.0.5.4/diff.md --exclude *.pyd
+[2023-05-02 11:43:20] INFO root fetch - processPackages [climify-api]: Downloading https://files.pythonhosted.org/packages/6a/3c/fc9af85e82c3b7b65a6a6c14e4d50283fd435594c8c158d7e0c3dac1a5b2/climify_api-1.0.4.tar.gz
+[2023-05-02 11:43:20] INFO root fetch - processPackages [automation-editor]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 11:43:20] INFO root fetch - processPackages [mumott]: Downloading https://files.pythonhosted.org/packages/85/2a/5d15c2b3bb7509600db3b1652aedf722b0e896f0e25e8086df1d5e66b208/mumott-0.2.1.tar.gz
+[2023-05-02 11:43:20] INFO root fetch - processPackages [atatus]: Downloading https://files.pythonhosted.org/packages/6c/bc/d01256d8cb0d18cb45aa8e39bf03fab56ce43ccbf920419474cb54430e92/atatus-1.4.0.tar.gz
+[2023-05-02 11:43:20] INFO root fetch - processPackages [climify-api]: executing diffoscope
+[2023-05-02 11:43:20] INFO root fetch - processPackages [climify-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climify_api-1.0.3.tar.gz tmp/climify_api-1.0.4.tar.gz --markdown 20230502/c/climify-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 11:43:20] INFO root fetch - processPackages [ibkr-report-parser]: Downloading https://files.pythonhosted.org/packages/f8/8d/589c9659277e29a82fc0a309ecf759a96522f6665e1a6fd210b1804b730d/ibkr-report-parser-2022.8.8.tar.gz
+[2023-05-02 11:43:20] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/e0/b9/f558ed887c7de8466bfcf9b3dfc0c7fb652bf75e9eac026924fdad0cc365/delphix-dct-api-6.0.0rc1.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [django-filter-autotools]: Downloading https://files.pythonhosted.org/packages/1c/8e/30963ff379f21b946ef7d9e23a0f33f59ca8250a2fdbfe9aa34da3f89545/django-filter-autotools-0.0.5.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230502/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [django-filter-autotools]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [django-filter-autotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filter-autotools-0.0.4.tar.gz tmp/django-filter-autotools-0.0.5.tar.gz --markdown 20230502/d/django-filter-autotools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230502/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [automation-editor]: Downloading https://files.pythonhosted.org/packages/b1/90/e2fd605d411b19c5ec1ce0b0ea9286394c3355c32d1091bcbfbbdb5104d5/automation_editor-0.0.4.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [atatus]: Downloading https://files.pythonhosted.org/packages/4e/52/bf3e8bfb046aa725844154826e8225cc101173bc43045b8e26b5e35eecbe/atatus-1.5.0.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [ibkr-report-parser]: Downloading https://files.pythonhosted.org/packages/39/16/a33dccd2632ca53aafd332c2ec0fd3a93560acfc8bf65924bd246d187fb3/ibkr-report-parser-2023.5.2.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/2d/d3/518ca0dd531235db45a33744cb9aea4bb3a86208dd9cd0fdcfc935fe0a51/delphix-dct-api-7.0.0rc1.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [automation-editor]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [automation-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor-0.0.3.tar.gz tmp/automation_editor-0.0.4.tar.gz --markdown 20230502/a/automation-editor/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [mumott]: Downloading https://files.pythonhosted.org/packages/8d/22/36fc2c17b12db228a34a024acaa5aa734e1a0e62bb26f011bc75343abe92/mumott-0.3.tar.gz
+[2023-05-02 11:43:21] INFO root fetch - processPackages [atatus]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [atatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atatus-1.4.0.tar.gz tmp/atatus-1.5.0.tar.gz --markdown 20230502/a/atatus/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [ibkr-report-parser]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [ibkr-report-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibkr-report-parser-2022.8.8.tar.gz tmp/ibkr-report-parser-2023.5.2.tar.gz --markdown 20230502/i/ibkr-report-parser/2022.8.8-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-6.0.0rc1.tar.gz tmp/delphix-dct-api-7.0.0rc1.tar.gz --markdown 20230502/d/delphix-dct-api/6.0.0rc1-7.0.0rc1/diff.md --exclude *.pyd
+[2023-05-02 11:43:21] INFO root fetch - processPackages [mumott]: executing diffoscope
+[2023-05-02 11:43:21] INFO root fetch - processPackages [mumott]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mumott-0.2.1.tar.gz tmp/mumott-0.3.tar.gz --markdown 20230502/m/mumott/0.2.1-0.3/diff.md --exclude *.pyd
+[2023-05-02 11:43:22] INFO root fetch - processPackages [Pequena]: Start processing: automation-editor-dev
+[2023-05-02 11:43:22] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-02 11:43:22] INFO root fetch - processPackages [automation-editor-dev]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 11:43:22] INFO root fetch - processPackages [django-filter-autotools]: Start processing: aim-ui
+[2023-05-02 11:43:22] INFO root fetch - main [MainThread]: End processing [django-filter-autotools]: success
+[2023-05-02 11:43:22] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 11:43:22] INFO root fetch - processPackages [aiofauna]: Start processing: voprov
+[2023-05-02 11:43:22] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-02 11:43:22] INFO root fetch - processPackages [voprov]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 11:43:22] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-02 11:43:23] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-02 11:43:23] INFO root fetch - processPackages [aim-ui]: Start processing: robotControl
+[2023-05-02 11:43:23] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-02 11:43:23] INFO root fetch - processPackages [automation-editor-dev]: Downloading https://files.pythonhosted.org/packages/83/f3/94f2ace324e6cdb170bca6e65d07f3b9953fad88d9341178bf4cc40a22b0/automation_editor_dev-0.0.4.tar.gz
+[2023-05-02 11:43:23] INFO root fetch - processPackages [robotControl]: New version: [0.4] Old Version: [0.3]
+[2023-05-02 11:43:23] INFO root fetch - processPackages [automation-editor]: Start processing: sphere-base
+[2023-05-02 11:43:23] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
+[2023-05-02 11:43:23] INFO root fetch - processPackages [voprov]: Downloading https://files.pythonhosted.org/packages/fa/d1/cda72fbc5e502eafcf80b5ddb7acba599eb9d6023e9e638dff2131597dad/voprov-0.0.2.tar.gz
+[2023-05-02 11:43:23] INFO root fetch - processPackages [climify-api]: Start processing: pyarrow
+[2023-05-02 11:43:23] INFO root fetch - main [MainThread]: End processing [climify-api]: success
+[2023-05-02 11:43:23] INFO root fetch - processPackages [automation-editor-dev]: executing diffoscope
+[2023-05-02 11:43:23] INFO root fetch - processPackages [automation-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_editor_dev-0.0.3.tar.gz tmp/automation_editor_dev-0.0.4.tar.gz --markdown 20230502/a/automation-editor-dev/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 11:43:23] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 11:43:23] INFO root fetch - processPackages [pyarrow]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-05-02 11:43:23] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/49/58/216f3d865cdb4c4dc4e8c28b0b05c18604f934c4ba8087238b95ad27a6f5/robotControl-0.3.tar.gz
+[2023-05-02 11:43:23] INFO root fetch - processPackages [ibkr-report-parser]: Start processing: Functions-Main
+[2023-05-02 11:43:23] INFO root fetch - main [MainThread]: End processing [ibkr-report-parser]: success
+[2023-05-02 11:43:23] INFO root fetch - processPackages [pyarrow]: Downloading https://files.pythonhosted.org/packages/e2/3e/fe46e9b9bae7f8268693c5d963fb37f88a59798d0ff041dd8452d5bbf9c2/pyarrow-8.0.0.tar.gz
+[2023-05-02 11:43:23] INFO root fetch - processPackages [voprov]: Downloading https://files.pythonhosted.org/packages/69/d6/382692245a272346130f8450cae5d529ca95f0ed9a4b062b7930205a3766/voprov-0.0.3.tar.gz
+[2023-05-02 11:43:23] WARNING root fetch - processPackages [Functions-Main]: Skipping, unable to determine old version
+[2023-05-02 11:43:23] INFO root fetch - main [MainThread]: End processing [Functions-Main] error
+[2023-05-02 11:43:23] INFO root fetch - processPackages [voprov]: executing diffoscope
+[2023-05-02 11:43:23] INFO root fetch - processPackages [voprov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voprov-0.0.2.tar.gz tmp/voprov-0.0.3.tar.gz --markdown 20230502/v/voprov/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 11:43:23] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/53/d9/6b8ecce29521e7f62e92ce1673b92464126dbcb943e0c732f2e9f6aeb0e6/robotControl-0.4.tar.gz
+[2023-05-02 11:43:23] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-05-02 11:43:23] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230502/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 11:43:23] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 11:43:23] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-0.3.tar.gz tmp/robotControl-0.4.tar.gz --markdown 20230502/r/robotControl/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-02 11:43:23] INFO root fetch - processPackages [pyarrow]: Downloading https://files.pythonhosted.org/packages/80/2e/22fb489b4be6bc5c7202b7afd4ea3e941f9b1d79c0e3f59f64be8e92160d/pyarrow-9.0.0.tar.gz
+[2023-05-02 11:43:23] INFO root fetch - processPackages [pyarrow]: executing diffoscope
+[2023-05-02 11:43:23] INFO root fetch - processPackages [pyarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarrow-8.0.0.tar.gz tmp/pyarrow-9.0.0.tar.gz --markdown 20230502/p/pyarrow/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-02 11:43:24] INFO root fetch - main [MainThread]: End processing [voprov]: success
+[2023-05-02 11:43:24] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 11:43:24] INFO root fetch - main [MainThread]: End processing [automation-editor-dev]: success
+[2023-05-02 11:43:27] INFO root fetch - main [MainThread]: End processing [atatus]: success
+[2023-05-02 11:43:28] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-02 11:43:28] INFO root fetch - main [MainThread]: End processing [mumott]: success
+[2023-05-02 11:43:28] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-05-02 11:43:28] INFO root fetch - main [MainThread]: End processing [pyarrow]: success
+[2023-05-02 11:43:38] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-05-02 11:43:38] INFO root fetch - main [MainThread]: Store serial: [17938725]
