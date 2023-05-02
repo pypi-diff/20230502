@@ -9036,3 +9036,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 10:49:18] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-02 10:49:27] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
 [2023-05-02 10:49:27] INFO root fetch - main [MainThread]: Store serial: [17938180]
+[2023-05-02 10:54:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938180]
+[2023-05-02 10:54:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncany
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncanysql
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ztfidr
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sonicparanoid
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuNet
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Jlab
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spectralib
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.8.49.893354] Old Version: [20230502.8.16.36864]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncany]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncanysql]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230502.8.50.797734] Old Version: [20230502.8.13.343856]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230502.8.50.718721] Old Version: [20230502.8.20.696303]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ztfidr]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [sonicparanoid]: New version: [2.0.0] Old Version: [1.3.8]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [sonicparanoid]: Downloading https://files.pythonhosted.org/packages/1c/5f/f3efef470b7285f6b5eb66192afbc545bfcddb9b23d3e6cfad8dd3153765/sonicparanoid-1.3.8.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 10:54:38] WARNING root fetch - processPackages [sonicparanoid]: Skipping package: exceeds size limit 81178771>=10485760
+[2023-05-02 10:54:38] INFO root fetch - processPackages [sonicparanoid]: Start processing: maus
+[2023-05-02 10:54:38] INFO root fetch - main [MainThread]: End processing [sonicparanoid] error
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/d0/26/afa44fac38ad442755926ee3f7e83f8aa8e723bafb4ec1639659666b129a/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230502.8.16.36864.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/81/2e/c670e2321bd16cb28fc43dc45280c621fece12632eed1bb5b1a2539fdb5b/certora-cli-alpha-roy-CERT-1844-usage-20230502.8.13.343856.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230502/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fd/76/c85ada7495459c02a00b895ceb3d3fbe6476bf3467446e2b696d3c449217/certora-cli-alpha-master-20230502.8.20.696303.tar.gz
+[2023-05-02 10:54:38] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38368260>=10485760
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: jhub-swarmspawner
+[2023-05-02 10:54:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-02 10:54:38] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38365099>=10485760
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: marshmallow-peewee
+[2023-05-02 10:54:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 10:54:38] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38364666>=10485760
+[2023-05-02 10:54:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: reana-client
+[2023-05-02 10:54:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/22/43/8be2ba90c63a9921556fb05e620226dceba58a0b335e549a40a584d7c651/ztfidr-0.8.2.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [jhub-swarmspawner]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncanysql]: Downloading https://files.pythonhosted.org/packages/5c/49/c504805677ac1ba23450b4efeaf5b4b3d93e5c7a78895fc139d5e6e1f3be/syncanysql-0.1.2.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [marshmallow-peewee]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncany]: Downloading https://files.pythonhosted.org/packages/85/1d/e34ca990cfd2aa917c8e8cb81c7b87f2e9271ed379fbf4fa3e525b4fc3bf/syncany-0.2.8.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [reana-client]: New version: [0.9.1a1] Old Version: [0.9.0a8]
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.8.1.tar.gz tmp/ztfidr-0.8.2.tar.gz --markdown 20230502/z/ztfidr/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncanysql]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncanysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncanysql-0.1.1.tar.gz tmp/syncanysql-0.1.2.tar.gz --markdown 20230502/s/syncanysql/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncany]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [syncany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncany-0.2.7.tar.gz tmp/syncany-0.2.8.tar.gz --markdown 20230502/s/syncany/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230502/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-05-02 10:54:38] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230502/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:54:38] INFO root fetch - processPackages [jhub-swarmspawner]: Downloading https://files.pythonhosted.org/packages/c5/0c/15df2c0157886a92d9dea1cf1ae8efabfcd0ef357052d774b7deab8a0e7b/jhub-swarmspawner-0.4.1.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [marshmallow-peewee]: Downloading https://files.pythonhosted.org/packages/cb/d9/ed99a470846a212bfacef3fc99065eb92a490538647929794fcc04ccffba/marshmallow_peewee-4.2.1.tar.gz
+[2023-05-02 10:54:38] INFO root fetch - processPackages [reana-client]: Downloading https://files.pythonhosted.org/packages/e2/3b/5fce47524b2bd9633a443d372cfbb641407fed8a48f42601ed9f7dadc924/reana-client-0.9.0a8.tar.gz
+[2023-05-02 10:54:39] INFO root fetch - processPackages [jhub-swarmspawner]: Downloading https://files.pythonhosted.org/packages/79/53/1611e5b6768f8d12bb5332b145572a571e8fbd400e045d5df8ea0339736f/jhub-swarmspawner-0.4.2.tar.gz
+[2023-05-02 10:54:39] INFO root fetch - processPackages [jhub-swarmspawner]: executing diffoscope
+[2023-05-02 10:54:39] INFO root fetch - processPackages [jhub-swarmspawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhub-swarmspawner-0.4.1.tar.gz tmp/jhub-swarmspawner-0.4.2.tar.gz --markdown 20230502/j/jhub-swarmspawner/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-02 10:54:39] INFO root fetch - processPackages [marshmallow-peewee]: Downloading https://files.pythonhosted.org/packages/bb/72/522004e117fcab9c3167ebcaaf9c371492869033a6857258dddba0ab3007/marshmallow_peewee-4.2.2.tar.gz
+[2023-05-02 10:54:39] INFO root fetch - processPackages [reana-client]: Downloading https://files.pythonhosted.org/packages/fb/87/9e2fd873b13e35a7f08d854cabea47f4eaef937c3aa741e06e62e617e7c8/reana-client-0.9.1a1.tar.gz
+[2023-05-02 10:54:39] INFO root fetch - processPackages [marshmallow-peewee]: executing diffoscope
+[2023-05-02 10:54:39] INFO root fetch - processPackages [marshmallow-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marshmallow_peewee-4.2.1.tar.gz tmp/marshmallow_peewee-4.2.2.tar.gz --markdown 20230502/m/marshmallow-peewee/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-05-02 10:54:39] INFO root fetch - processPackages [reana-client]: executing diffoscope
+[2023-05-02 10:54:39] INFO root fetch - processPackages [reana-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reana-client-0.9.0a8.tar.gz tmp/reana-client-0.9.1a1.tar.gz --markdown 20230502/r/reana-client/0.9.0a8-0.9.1a1/diff.md --exclude *.pyd
+[2023-05-02 10:54:40] INFO root fetch - processPackages [QuNet]: Start processing: onnx-clip
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-02 10:54:40] INFO root fetch - processPackages [onnx-clip]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [syncanysql]: success
+[2023-05-02 10:54:40] INFO root fetch - processPackages [onnx-clip]: Downloading https://files.pythonhosted.org/packages/b7/bf/0319345d47cf9a037376fda14de6dfe941d37238e1ef2f74681d92c693cb/onnx_clip-2.3.0.tar.gz
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [jhub-swarmspawner]: success
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [marshmallow-peewee]: success
+[2023-05-02 10:54:40] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-05-02 10:54:40] INFO root fetch - processPackages [onnx-clip]: executing diffoscope
+[2023-05-02 10:54:40] INFO root fetch - processPackages [onnx-clip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx_clip-2.2.0.tar.gz tmp/onnx_clip-2.3.0.tar.gz --markdown 20230502/o/onnx-clip/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-02 10:54:41] INFO root fetch - main [MainThread]: End processing [reana-client]: success
+[2023-05-02 10:54:41] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 10:54:42] INFO root fetch - main [MainThread]: End processing [onnx-clip]: success
+[2023-05-02 10:54:42] INFO root fetch - main [MainThread]: End processing [syncany]: success
+[2023-05-02 10:54:42] INFO root fetch - main [MainThread]: Store serial: [17938221]
