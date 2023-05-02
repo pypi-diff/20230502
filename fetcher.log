@@ -21904,3 +21904,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 22:09:17] ERROR root fetch - processPackages [pythran]: Timeout during execution of pkgdiff
 [2023-05-02 22:09:17] INFO root fetch - main [MainThread]: End processing [pythran] error
 [2023-05-02 22:09:17] INFO root fetch - main [MainThread]: Store serial: [17946571]
+[2023-05-02 22:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17946571]
+[2023-05-02 22:14:27] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-embeddings-builder
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-pennylane-plugin
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: el-decko-backend-obs-ws
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micropython-stubber
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jamstats-nogui
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinx-embeddings-builder
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-02 22:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autoprof
+[2023-05-02 22:14:27] INFO root fetch - processPackages [sphinx-embeddings-builder]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [llama-index]: New version: [0.6.0a7] Old Version: [0.6.0a6]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [micropython-stubber]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [sphinx-embeddings-builder]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [jamstats-nogui]: New version: [1.2.1.5] Old Version: [1.2.1.4]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [autoprof]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230502.8.49.893354] Old Version: [20230502.8.16.36864]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [el-decko-backend-obs-ws]: New version: [2023.5.2] Old Version: [2022.12.28.1]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/d0/26/afa44fac38ad442755926ee3f7e83f8aa8e723bafb4ec1639659666b129a/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230502.8.16.36864.tar.gz
+[2023-05-02 22:14:27] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-02 22:14:27] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230502/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-02 22:14:27] INFO root fetch - processPackages [sphinx-embeddings-builder]: Downloading https://files.pythonhosted.org/packages/d8/7e/aad3f33b40206488f12775538aa25508f2dc8ddddcf5e7a249274fb3c0d5/sphinx-embeddings-builder-0.0.4.tar.gz
+[2023-05-02 22:14:27] INFO root fetch - processPackages [sphinx-embeddings-builder]: Downloading https://files.pythonhosted.org/packages/d8/7e/aad3f33b40206488f12775538aa25508f2dc8ddddcf5e7a249274fb3c0d5/sphinx-embeddings-builder-0.0.4.tar.gz
+[2023-05-02 22:14:27] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38365099>=10485760
+[2023-05-02 22:14:27] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: pulp-glue
+[2023-05-02 22:14:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-02 22:14:27] INFO root fetch - processPackages [pulp-glue]: New version: [0.19.1] Old Version: [0.19.0]
+[2023-05-02 22:14:27] INFO root fetch - processPackages [el-decko-backend-obs-ws]: Downloading https://files.pythonhosted.org/packages/e7/5a/4e683d3a8b23f57abc49483bfb8a0b4ae4748a675a228562fae3b8c1296c/el_decko_backend_obs_ws-2022.12.28.1.tar.gz
+[2023-05-02 22:14:27] INFO root fetch - processPackages [jamstats-nogui]: Downloading https://files.pythonhosted.org/packages/6a/f3/a53318ca67477701ddc3881afbff5ad387ac46d848e69416cb384dcc49b3/jamstats-nogui-1.2.1.5.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/45/2a/0f7dc131be1f35dac5acb4e457c9f97f58de3bed5c99addbd5f8c1bf9aa5/llama_index-0.6.0a7.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [jamstats-nogui]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [jamstats-nogui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamstats-nogui-1.2.1.4.tar.gz tmp/jamstats-nogui-1.2.1.5.tar.gz --markdown 20230502/j/jamstats-nogui/1.2.1.4-1.2.1.5/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [autoprof]: Downloading https://files.pythonhosted.org/packages/1c/df/34ed7bd83cca278535f248917b33eb6a28182033177ab2ffae46e50f307a/autoprof-0.7.0-py2.py3-none-any.whl
+[2023-05-02 22:14:28] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/38/60/47f955125a58c58e7c7366661209215ec2932638b1f0c900e2be1aa979b2/pulp-glue-0.19.0.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.0a6.tar.gz tmp/llama_index-0.6.0a7.tar.gz --markdown 20230502/l/llama-index/0.6.0a6-0.6.0a7/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [sphinx-embeddings-builder]: Downloading https://files.pythonhosted.org/packages/fd/04/e6a523bc354437be61b15ed8000968baede4d71a23b003e32cd3630df669/sphinx-embeddings-builder-0.0.5.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [sphinx-embeddings-builder]: Downloading https://files.pythonhosted.org/packages/fd/04/e6a523bc354437be61b15ed8000968baede4d71a23b003e32cd3630df669/sphinx-embeddings-builder-0.0.5.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz --markdown 20230502/a/amazon-braket-pennylane-plugin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [micropython-stubber]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [micropython-stubber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-stubber-1.9.8.tar.gz tmp/micropython-stubber-1.9.9.tar.gz --markdown 20230502/m/micropython-stubber/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [sphinx-embeddings-builder]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [sphinx-embeddings-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-embeddings-builder-0.0.4.tar.gz tmp/sphinx-embeddings-builder-0.0.5.tar.gz --markdown 20230502/s/sphinx-embeddings-builder/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [sphinx-embeddings-builder]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [sphinx-embeddings-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-embeddings-builder-0.0.4.tar.gz tmp/sphinx-embeddings-builder-0.0.5.tar.gz --markdown 20230502/s/sphinx-embeddings-builder/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [el-decko-backend-obs-ws]: Downloading https://files.pythonhosted.org/packages/89/ef/5d7956497e97a7ff6b9d1b85ea22dc4b0808c797fc48f29a3ffbf4c9f087/el_decko_backend_obs_ws-2023.5.2.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [el-decko-backend-obs-ws]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [el-decko-backend-obs-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/el_decko_backend_obs_ws-2022.12.28.1.tar.gz tmp/el_decko_backend_obs_ws-2023.5.2.tar.gz --markdown 20230502/e/el-decko-backend-obs-ws/2022.12.28.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/2e/29/0e8bc0a5246a71f35123745afbe8c7cacac7b90f31065badce9cd25e8f9c/pulp-glue-0.19.1.tar.gz
+[2023-05-02 22:14:28] INFO root fetch - processPackages [autoprof]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [autoprof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoprof-0.6.3-py2.py3-none-any.whl.zip tmp/autoprof-0.7.0-py2.py3-none-any.whl.zip --markdown 20230502/a/autoprof/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2023-05-02 22:14:28] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2023-05-02 22:14:28] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.19.0.tar.gz tmp/pulp-glue-0.19.1.tar.gz --markdown 20230502/p/pulp-glue/0.19.0-0.19.1/diff.md --exclude *.pyd
+[2023-05-02 22:14:29] INFO root fetch - processPackages [sphinx-embeddings-builder]: Start processing: pulp-cli
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [sphinx-embeddings-builder]: success
+[2023-05-02 22:14:29] INFO root fetch - processPackages [sphinx-embeddings-builder]: Start processing: aim-ui
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [sphinx-embeddings-builder]: success
+[2023-05-02 22:14:29] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 22:14:29] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 22:14:29] INFO root fetch - processPackages [el-decko-backend-obs-ws]: Start processing: neurotechdevkit
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [el-decko-backend-obs-ws]: success
+[2023-05-02 22:14:29] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-02 22:14:29] WARNING root fetch - processPackages [neurotechdevkit]: Skipping, unable to determine old version
+[2023-05-02 22:14:29] INFO root fetch - processPackages [neurotechdevkit]: Start processing: metabeaver
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [neurotechdevkit] error
+[2023-05-02 22:14:29] WARNING root fetch - processPackages [metabeaver]: Skipping, unable to determine old version
+[2023-05-02 22:14:29] INFO root fetch - processPackages [metabeaver]: Start processing: cuellartensorflow
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [metabeaver] error
+[2023-05-02 22:14:29] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-02 22:14:29] INFO root fetch - processPackages [aim-ui]: Start processing: discoger
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-02 22:14:29] INFO root fetch - processPackages [cuellartensorflow]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 22:14:29] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Start processing: qwak-core
+[2023-05-02 22:14:29] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
+[2023-05-02 22:14:29] INFO root fetch - processPackages [discoger]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-02 22:14:29] INFO root fetch - processPackages [qwak-core]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-05-02 22:14:29] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [cuellartensorflow]: Downloading https://files.pythonhosted.org/packages/7c/b4/427ef1005bfc80c027d4c43c3e5cd81afd7931ee2609cbcbfaed8fdd8f66/cuellartensorflow-1.0.2.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/89/d0/8625dcc1229a4265522d5ef4cea3c75d17f116a9501602ab95b5490d54ce/qwak_core-0.0.41.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [discoger]: Downloading https://files.pythonhosted.org/packages/da/12/1c735abcdd5015593ea1da4447887c4bbbaeb0d20ba0913328d7bb8d4973/discoger-1.1.2.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [jamstats-nogui]: Start processing: aim
+[2023-05-02 22:14:30] INFO root fetch - main [MainThread]: End processing [jamstats-nogui]: success
+[2023-05-02 22:14:30] INFO root fetch - processPackages [discoger]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [discoger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discoger-1.1.1.tar.gz tmp/discoger-1.1.2.tar.gz --markdown 20230502/d/discoger/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-02 22:14:30] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-02 22:14:30] INFO root fetch - processPackages [cuellartensorflow]: Downloading https://files.pythonhosted.org/packages/cc/9d/f53967cc934c2cde6ecbee206c389c48c1fd6e66d7783f98caa4504bff8c/cuellartensorflow-1.0.3.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/52/0f/8b870fb73253edb0a6f96a7fc858d23794d4fd12a0d266f95be58fff7c1f/qwak_core-0.0.42.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [cuellartensorflow]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [cuellartensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuellartensorflow-1.0.2.tar.gz tmp/cuellartensorflow-1.0.3.tar.gz --markdown 20230502/c/cuellartensorflow/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 22:14:30] INFO root fetch - processPackages [autoprof]: Start processing: nme
+[2023-05-02 22:14:30] INFO root fetch - main [MainThread]: End processing [autoprof]: success
+[2023-05-02 22:14:30] INFO root fetch - processPackages [nme]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 22:14:30] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.41.tar.gz tmp/qwak_core-0.0.42.tar.gz --markdown 20230502/q/qwak-core/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-05-02 22:14:30] INFO root fetch - processPackages [pulp-glue]: Start processing: botocore-stubs
+[2023-05-02 22:14:30] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2023-05-02 22:14:30] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-02 22:14:30] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230502/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-02 22:14:30] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20230502/p/pulp-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 22:14:30] INFO root fetch - processPackages [nme]: Downloading https://files.pythonhosted.org/packages/02/db/8df4a5a1c3b304ff8162594387aa08ebffa06dc73b4a678f4230de063cb5/nme-0.1.8.tar.gz
+[2023-05-02 22:14:30] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230502/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-02 22:14:30] INFO root fetch - processPackages [nme]: executing diffoscope
+[2023-05-02 22:14:30] INFO root fetch - processPackages [nme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nme-0.1.7.tar.gz tmp/nme-0.1.8.tar.gz --markdown 20230502/n/nme/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 22:14:31] INFO root fetch - processPackages [micropython-stubber]: Start processing: pygpt4all
+[2023-05-02 22:14:31] INFO root fetch - main [MainThread]: End processing [micropython-stubber]: success
+[2023-05-02 22:14:31] INFO root fetch - processPackages [pygpt4all]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-02 22:14:31] INFO root fetch - processPackages [pygpt4all]: Downloading https://files.pythonhosted.org/packages/18/53/9dcbefa4cc29d8035b70f3f026c36637ffaf02e6a13e32d5746634eccd5d/pygpt4all-1.0.1.tar.gz
+[2023-05-02 22:14:31] INFO root fetch - processPackages [discoger]: Start processing: ssapi
+[2023-05-02 22:14:31] INFO root fetch - main [MainThread]: End processing [discoger]: success
+[2023-05-02 22:14:31] INFO root fetch - processPackages [ssapi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-02 22:14:31] INFO root fetch - processPackages [pygpt4all]: Downloading https://files.pythonhosted.org/packages/9f/57/fe1203e28b8fa7d5ce3f3eecb415932084326a98c03430d200f0897ba316/pygpt4all-1.1.0.tar.gz
+[2023-05-02 22:14:31] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/55/78/c68b3a8c0fa7f59a26cb8596df75f23f6d2a9a18077360f3d4a861bafb39/ssapi-0.1.0.tar.gz
+[2023-05-02 22:14:31] INFO root fetch - processPackages [pygpt4all]: executing diffoscope
+[2023-05-02 22:14:31] INFO root fetch - processPackages [pygpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt4all-1.0.1.tar.gz tmp/pygpt4all-1.1.0.tar.gz --markdown 20230502/p/pygpt4all/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 22:14:31] INFO root fetch - processPackages [coiled]: Start processing: dreamai-dl
+[2023-05-02 22:14:31] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-02 22:14:32] INFO root fetch - processPackages [cuellartensorflow]: Start processing: pyaf
+[2023-05-02 22:14:32] INFO root fetch - main [MainThread]: End processing [cuellartensorflow]: success
+[2023-05-02 22:14:32] WARNING root fetch - processPackages [dreamai-dl]: Skipping, unable to determine old version
+[2023-05-02 22:14:32] INFO root fetch - main [MainThread]: End processing [dreamai-dl] error
+[2023-05-02 22:14:32] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/84/d3/a24bb0c706cbd0d5073bc2a7dd5759057121b8faf7dc547172150df206cb/ssapi-0.2.0.tar.gz
+[2023-05-02 22:14:32] INFO root fetch - processPackages [pyaf]: New version: [5.0rc3] Old Version: [5.0rc2]
+[2023-05-02 22:14:32] INFO root fetch - main [MainThread]: End processing [nme]: success
+[2023-05-02 22:14:32] INFO root fetch - processPackages [ssapi]: executing diffoscope
+[2023-05-02 22:14:32] INFO root fetch - processPackages [ssapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssapi-0.1.0.tar.gz tmp/ssapi-0.2.0.tar.gz --markdown 20230502/s/ssapi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 22:14:32] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-02 22:14:32] INFO root fetch - processPackages [pyaf]: Downloading https://files.pythonhosted.org/packages/19/7f/1f428380cc49d66be871451c23a591213d4d1b43172e80cb592590290a99/pyaf-5.0rc2-py2.py3-none-any.whl
+[2023-05-02 22:14:32] INFO root fetch - processPackages [pyaf]: Downloading https://files.pythonhosted.org/packages/63/83/c52282020f726cbbbc5a50cc2cc388b3068315f19ae560a2488afcafe270/pyaf-5.0rc3-py2.py3-none-any.whl
+[2023-05-02 22:14:32] INFO root fetch - processPackages [pyaf]: executing diffoscope
+[2023-05-02 22:14:32] INFO root fetch - processPackages [pyaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaf-5.0rc2-py2.py3-none-any.whl.zip tmp/pyaf-5.0rc3-py2.py3-none-any.whl.zip --markdown 20230502/p/pyaf/5.0rc2-5.0rc3/diff.md --exclude *.pyd
+[2023-05-02 22:14:33] INFO root fetch - main [MainThread]: End processing [pygpt4all]: success
+[2023-05-02 22:14:33] INFO root fetch - main [MainThread]: End processing [ssapi]: success
+[2023-05-02 22:14:34] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2023-05-02 22:14:34] INFO root fetch - main [MainThread]: End processing [pyaf]: success
+[2023-05-02 22:14:34] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-02 22:14:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-02 22:14:38] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-02 22:14:38] INFO root fetch - main [MainThread]: Store serial: [17946652]
