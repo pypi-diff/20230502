@@ -11175,3 +11175,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:08:28] INFO root fetch - main [MainThread]: End processing [wbpNamespace]: success
 [2023-05-02 13:08:30] INFO root fetch - main [MainThread]: End processing [langtable]: success
 [2023-05-02 13:08:30] INFO root fetch - main [MainThread]: Store serial: [17939515]
+[2023-05-02 13:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17939515]
+[2023-05-02 13:13:39] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: questdb-connect
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guify
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuvla-cli
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvc
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymultigit
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdsr-fewspy
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: goatl
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-private-bucket
+[2023-05-02 13:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: luminesce-sdk-preview
+[2023-05-02 13:13:39] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [guify]: New version: [0.2.5a0] Old Version: [0.2.4a0]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [hdsr-fewspy]: New version: [1.4] Old Version: [1.3]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [goatl]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [pymultigit]: New version: [0.0.84] Old Version: [0.0.83]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [nuvla-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [dvc]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 13:13:39] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-02 13:13:39] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230502/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 13:13:39] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-02 13:13:39] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230502/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-02 13:13:39] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/74/e7/e1833a879411f3cda9964c4b15e95d992c2ceac2df3ce9f2f82b42777df5/guify-0.2.4a0.tar.gz
+[2023-05-02 13:13:39] INFO root fetch - processPackages [nuvla-cli]: Downloading https://files.pythonhosted.org/packages/26/5e/83b137c88d766dc16e2eea8fda05ccd32ed56e889669f1498199f2bd630a/nuvla_cli-1.0.1.tar.gz
+[2023-05-02 13:13:39] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/25/dd/dcd527ab77f9227220d051e2e27a76a29aecdf262212e46a79a383308090/dvc-2.9.4.tar.gz
+[2023-05-02 13:13:39] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/54/35/23550fa0c6401a7fd39da226c9f781d97b85f6faa5b69052fdb80ff9db78/questdb-connect-0.0.32.tar.gz
+[2023-05-02 13:13:39] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/4c/f0/cd0042084fed2080637b4a491add2b6700d3fd7218b627fe55a325c03c6d/goatl-0.5.5.tar.gz
+[2023-05-02 13:13:39] INFO root fetch - processPackages [nuvla-cli]: executing diffoscope
+[2023-05-02 13:13:39] INFO root fetch - processPackages [nuvla-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvla_cli-1.0.0.tar.gz tmp/nuvla_cli-1.0.1.tar.gz --markdown 20230502/n/nuvla-cli/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 13:13:39] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/68/d5/134eb1aa54cb836d5a80fe4bc26d610313ab314f962b1a8724508dc5fde6/pymultigit-0.0.84.tar.gz
+[2023-05-02 13:13:39] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/8f/20/9c539b234710d727d18fd6b419c447bdc90c0484af4af0120feb65aa56f5/hdsr_fewspy-1.4.tar.gz
+[2023-05-02 13:13:40] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.5.4.tar.gz tmp/goatl-0.5.5.tar.gz --markdown 20230502/g/goatl/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-02 13:13:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 13:13:40] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.83.tar.gz tmp/pymultigit-0.0.84.tar.gz --markdown 20230502/p/pymultigit/0.0.83-0.0.84/diff.md --exclude *.pyd
+[2023-05-02 13:13:40] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/1c/75/35718a2c05d82e34ef7751209242ec34410a4a004aea882e30069cde7a93/guify-0.2.5a0.tar.gz
+[2023-05-02 13:13:40] INFO root fetch - processPackages [hdsr-fewspy]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [hdsr-fewspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_fewspy-1.3.tar.gz tmp/hdsr_fewspy-1.4.tar.gz --markdown 20230502/h/hdsr-fewspy/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-02 13:13:40] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.31.tar.gz tmp/questdb-connect-0.0.32.tar.gz --markdown 20230502/q/questdb-connect/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-02 13:13:40] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.4a0.tar.gz tmp/guify-0.2.5a0.tar.gz --markdown 20230502/g/guify/0.2.4a0-0.2.5a0/diff.md --exclude *.pyd
+[2023-05-02 13:13:40] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/e9/46/33ac44445fd6974fe6b52f01ab4794c5b5dda927cfb520ac64382e629905/dvc-2.9.5.tar.gz
+[2023-05-02 13:13:40] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-05-02 13:13:40] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-2.9.4.tar.gz tmp/dvc-2.9.5.tar.gz --markdown 20230502/d/dvc/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-02 13:13:41] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: echolocator
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-02 13:13:41] INFO root fetch - processPackages [echolocator]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-02 13:13:41] INFO root fetch - processPackages [goatl]: Start processing: mpopt-lulav
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-02 13:13:41] WARNING root fetch - processPackages [mpopt-lulav]: Skipping, unable to determine old version
+[2023-05-02 13:13:41] INFO root fetch - processPackages [mpopt-lulav]: Start processing: guify
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [mpopt-lulav] error
+[2023-05-02 13:13:41] INFO root fetch - processPackages [guify]: New version: [0.2.5a0] Old Version: [0.2.4a0]
+[2023-05-02 13:13:41] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/79/23/9de0a6e7b58b24f6c6459f9a8f792106e9cd8d8481737427f4122682d83b/echolocator-1.1.0.tar.gz
+[2023-05-02 13:13:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: vigilant-kit
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-02 13:13:41] INFO root fetch - processPackages [vigilant-kit]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-02 13:13:41] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-02 13:13:41] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.4a0.tar.gz tmp/guify-0.2.5a0.tar.gz --markdown 20230502/g/guify/0.2.4a0-0.2.5a0/diff.md --exclude *.pyd
+[2023-05-02 13:13:41] INFO root fetch - processPackages [echolocator]: executing diffoscope
+[2023-05-02 13:13:41] INFO root fetch - processPackages [echolocator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolocator-1.0.2.tar.gz tmp/echolocator-1.1.0.tar.gz --markdown 20230502/e/echolocator/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 13:13:41] INFO root fetch - processPackages [guify]: Start processing: clophfit
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-02 13:13:41] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/96/ee/bf5b8752494c0761018f637ad09a43b3a2003edf37eab78b9c15498682d4/vigilant_kit-1.1.1.tar.gz
+[2023-05-02 13:13:41] INFO root fetch - processPackages [clophfit]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-02 13:13:41] INFO root fetch - processPackages [questdb-connect]: Start processing: bgdiscovery
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-02 13:13:41] WARNING root fetch - processPackages [bgdiscovery]: Skipping, unable to determine old version
+[2023-05-02 13:13:41] INFO root fetch - main [MainThread]: End processing [bgdiscovery] error
+[2023-05-02 13:13:42] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/3d/7a/e23894bfb9cb3ef8f278cc1f8502c2c7983a6e3e679b13f86dcd99386d48/clophfit-0.4.7.tar.gz
+[2023-05-02 13:13:42] INFO root fetch - main [MainThread]: End processing [nuvla-cli]: success
+[2023-05-02 13:13:42] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-05-02 13:13:42] INFO root fetch - processPackages [vigilant-kit]: Downloading https://files.pythonhosted.org/packages/ce/e8/8ae4bfc17caed469b8650b9e6c110d357bb27abd96d82856db9943a8722c/vigilant_kit-1.2.0.tar.gz
+[2023-05-02 13:13:42] INFO root fetch - processPackages [vigilant-kit]: executing diffoscope
+[2023-05-02 13:13:42] INFO root fetch - processPackages [vigilant-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vigilant_kit-1.1.1.tar.gz tmp/vigilant_kit-1.2.0.tar.gz --markdown 20230502/v/vigilant-kit/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 13:13:42] INFO root fetch - main [MainThread]: End processing [hdsr-fewspy]: success
+[2023-05-02 13:13:43] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-02 13:13:43] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/c5/18/11e212278d703ff1baaaa93d8f6b4e3b21db3bc9fdbc398bbda74786cf57/clophfit-0.4.8.tar.gz
+[2023-05-02 13:13:43] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-05-02 13:13:43] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.4.7.tar.gz tmp/clophfit-0.4.8.tar.gz --markdown 20230502/c/clophfit/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-02 13:13:43] INFO root fetch - main [MainThread]: End processing [vigilant-kit]: success
+[2023-05-02 13:13:43] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-02 13:13:45] INFO root fetch - main [MainThread]: End processing [echolocator]: success
+[2023-05-02 13:13:45] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-05-02 13:13:46] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-05-02 13:13:46] INFO root fetch - main [MainThread]: Store serial: [17939569]
