@@ -15099,3 +15099,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 16:37:59] INFO root fetch - main [MainThread]: End processing [quantify-core]: success
 [2023-05-02 16:37:59] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
 [2023-05-02 16:37:59] INFO root fetch - main [MainThread]: Store serial: [17942195]
+[2023-05-02 16:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17942195]
+[2023-05-02 16:43:08] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-traefiklabs
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secml
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotControl
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonschema-gentypes
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypesto
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-upsolver
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4free
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maus
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mdyx
+[2023-05-02 16:43:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightweight-mmm
+[2023-05-02 16:43:08] INFO root fetch - processPackages [gpt4free]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-05-02 16:43:08] INFO root fetch - processPackages [pypesto]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 16:43:08] WARNING root fetch - processPackages [robotControl]: Skipping, unable to determine old version
+[2023-05-02 16:43:08] INFO root fetch - processPackages [robotControl]: Start processing: xbrl-orchestrator-api
+[2023-05-02 16:43:08] INFO root fetch - main [MainThread]: End processing [robotControl] error
+[2023-05-02 16:43:08] INFO root fetch - processPackages [mkdocs-traefiklabs]: New version: [100.0.9] Old Version: [100.0.8]
+[2023-05-02 16:43:08] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 16:43:08] INFO root fetch - processPackages [secml]: New version: [0.9rc2] Old Version: [0.9]
+[2023-05-02 16:43:08] INFO root fetch - processPackages [jsonschema-gentypes]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-02 16:43:08] INFO root fetch - processPackages [dbt-upsolver]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-02 16:43:08] WARNING root fetch - processPackages [mdyx]: Skipping, unable to determine old version
+[2023-05-02 16:43:08] INFO root fetch - processPackages [mkdocs-traefiklabs]: executing diffoscope
+[2023-05-02 16:43:08] INFO root fetch - processPackages [mdyx]: Start processing: glyphsLib
+[2023-05-02 16:43:08] INFO root fetch - main [MainThread]: End processing [mdyx] error
+[2023-05-02 16:43:08] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 16:43:08] INFO root fetch - processPackages [mkdocs-traefiklabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-traefiklabs-100.0.8.tar.gz tmp/mkdocs-traefiklabs-100.0.9.tar.gz --markdown 20230502/m/mkdocs-traefiklabs/100.0.8-100.0.9/diff.md --exclude *.pyd
+[2023-05-02 16:43:08] INFO root fetch - processPackages [pypesto]: executing diffoscope
+[2023-05-02 16:43:08] INFO root fetch - processPackages [lightweight-mmm]: New version: [0.1.8] Old Version: [0.1.7.1]
+[2023-05-02 16:43:08] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 16:43:08] INFO root fetch - processPackages [pypesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypesto-0.2.8.tar.gz tmp/pypesto-0.2.9.tar.gz --markdown 20230502/p/pypesto/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 16:43:08] WARNING root fetch - processPackages [xbrl-orchestrator-api]: Skipping, unable to determine old version
+[2023-05-02 16:43:08] INFO root fetch - processPackages [xbrl-orchestrator-api]: Start processing: idptools-parrot
+[2023-05-02 16:43:08] INFO root fetch - main [MainThread]: End processing [xbrl-orchestrator-api] error
+[2023-05-02 16:43:08] INFO root fetch - processPackages [gpt4free]: executing diffoscope
+[2023-05-02 16:43:08] INFO root fetch - processPackages [gpt4free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4free-0.1.5.tar.gz tmp/gpt4free-1.0.0.tar.gz --markdown 20230502/g/gpt4free/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 16:43:09] INFO root fetch - processPackages [glyphsLib]: New version: [6.2.2] Old Version: [6.2.1]
+[2023-05-02 16:43:09] INFO root fetch - processPackages [idptools-parrot]: New version: [1.7.4] Old Version: [1.7.0]
+[2023-05-02 16:43:09] INFO root fetch - processPackages [jsonschema-gentypes]: Downloading https://files.pythonhosted.org/packages/72/19/8984d45face2e9f86a3fb7084ef9c21b938dbc753934f2b1809398c86180/jsonschema_gentypes-2.0.0.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [secml]: Downloading https://files.pythonhosted.org/packages/b0/0b/2ff6c96d71aa270e42f247827ac074a407cf1d623d247b7cb5c24d665b76/secml-0.9.zip
+[2023-05-02 16:43:09] INFO root fetch - processPackages [lightweight-mmm]: Downloading https://files.pythonhosted.org/packages/c5/b9/aa910e632653ba1e3521be46902a7fb0eef0bff81cfc6c43ced071cb61d7/lightweight_mmm-0.1.7.1.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [glyphsLib]: Downloading https://files.pythonhosted.org/packages/94/ae/f661e6afef14892e8ee5d03ec8d2a921978d0fbc7e38f97cad3cf2ca8a4e/glyphsLib-6.2.1.tar.gz
+[2023-05-02 16:43:09] WARNING root fetch - processPackages [glyphsLib]: Skipping package: exceeds size limit 25794216>=10485760
+[2023-05-02 16:43:09] INFO root fetch - processPackages [glyphsLib]: Start processing: speechtotext-python
+[2023-05-02 16:43:09] INFO root fetch - main [MainThread]: End processing [glyphsLib] error
+[2023-05-02 16:43:09] INFO root fetch - processPackages [idptools-parrot]: Downloading https://files.pythonhosted.org/packages/89/31/90b56eb5103366629b1b130488ff0c0f0eb034368ad400a5cb01e065edfe/idptools-parrot-1.7.0.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 16:43:09] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/8d/08/acb8a971a4909568d7639fb0462d07930fa86f0a0b42067afe5ec17dfce9/dbt-upsolver-0.2.0.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [lightweight-mmm]: Downloading https://files.pythonhosted.org/packages/ec/57/4a021a51f097a1383bcf15cb639cb818276d6e3972d38213bce16438b4e4/lightweight_mmm-0.1.8.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [dbt-upsolver]: executing diffoscope
+[2023-05-02 16:43:09] INFO root fetch - processPackages [dbt-upsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-upsolver-0.1.9.tar.gz tmp/dbt-upsolver-0.2.0.tar.gz --markdown 20230502/d/dbt-upsolver/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-02 16:43:09] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-05-02 16:43:09] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.8.tar.gz tmp/speechtotext-python-0.3.9.tar.gz --markdown 20230502/s/speechtotext-python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 16:43:09] INFO root fetch - processPackages [jsonschema-gentypes]: Downloading https://files.pythonhosted.org/packages/26/20/214e5115407e536ff86b8ce8309e928e65f85a15ca0396404ccb857dbfd3/jsonschema_gentypes-2.1.0.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [lightweight-mmm]: executing diffoscope
+[2023-05-02 16:43:09] INFO root fetch - processPackages [lightweight-mmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_mmm-0.1.7.1.tar.gz tmp/lightweight_mmm-0.1.8.tar.gz --markdown 20230502/l/lightweight-mmm/0.1.7.1-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 16:43:09] INFO root fetch - processPackages [jsonschema-gentypes]: executing diffoscope
+[2023-05-02 16:43:09] INFO root fetch - processPackages [jsonschema-gentypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_gentypes-2.0.0.tar.gz tmp/jsonschema_gentypes-2.1.0.tar.gz --markdown 20230502/j/jsonschema-gentypes/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-02 16:43:09] INFO root fetch - processPackages [idptools-parrot]: Downloading https://files.pythonhosted.org/packages/0e/e1/efa3021ddc2fef363dcc0aee30aaa3c7eeda130ed64889c4e73d6712e042/idptools-parrot-1.7.4.tar.gz
+[2023-05-02 16:43:09] INFO root fetch - processPackages [secml]: Downloading https://files.pythonhosted.org/packages/96/b3/5deac191270ead524f53a1601892b3bc768d25cc882c3adb5c508d851df6/secml-0.9rc2.zip
+[2023-05-02 16:43:09] INFO root fetch - processPackages [idptools-parrot]: executing diffoscope
+[2023-05-02 16:43:09] INFO root fetch - processPackages [idptools-parrot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idptools-parrot-1.7.0.tar.gz tmp/idptools-parrot-1.7.4.tar.gz --markdown 20230502/i/idptools-parrot/1.7.0-1.7.4/diff.md --exclude *.pyd
+[2023-05-02 16:43:09] INFO root fetch - processPackages [secml]: executing diffoscope
+[2023-05-02 16:43:09] INFO root fetch - processPackages [secml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secml-0.9.zip tmp/secml-0.9rc2.zip --markdown 20230502/s/secml/0.9-0.9rc2/diff.md --exclude *.pyd
+[2023-05-02 16:43:10] INFO root fetch - processPackages [gpt4free]: Start processing: managedtenants-cli
+[2023-05-02 16:43:10] INFO root fetch - main [MainThread]: End processing [gpt4free]: success
+[2023-05-02 16:43:10] INFO root fetch - processPackages [maus]: Start processing: jojo-ai
+[2023-05-02 16:43:10] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 16:43:10] INFO root fetch - processPackages [managedtenants-cli]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-02 16:43:10] INFO root fetch - processPackages [jojo-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 16:43:11] INFO root fetch - processPackages [speechtotext-python]: Start processing: traceUts
+[2023-05-02 16:43:11] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-05-02 16:43:11] INFO root fetch - processPackages [managedtenants-cli]: Downloading https://files.pythonhosted.org/packages/39/b7/356ec51e479aaf8176f8128af98feb4cf21b31a039a2109612d473bf5730/managedtenants_cli-1.8.3-py3-none-any.whl
+[2023-05-02 16:43:11] INFO root fetch - processPackages [jojo-ai]: Downloading https://files.pythonhosted.org/packages/7e/b8/81ac67d24aa6f11da2857f25fe2ccd5375ff6983fb2698648ccbc514affd/jojo-ai-0.1.1.tar.gz
+[2023-05-02 16:43:11] INFO root fetch - processPackages [dbt-upsolver]: Start processing: sfctools
+[2023-05-02 16:43:11] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
+[2023-05-02 16:43:11] INFO root fetch - processPackages [sfctools]: New version: [1.0.5.5] Old Version: [1.0.5.4]
+[2023-05-02 16:43:11] INFO root fetch - processPackages [traceUts]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 16:43:11] INFO root fetch - processPackages [jojo-ai]: Downloading https://files.pythonhosted.org/packages/e1/d3/737fe20922be3e7752fbd87d22ffff807dec3f57f5b0151875726b93b05f/jojo-ai-0.1.2.tar.gz
+[2023-05-02 16:43:11] INFO root fetch - processPackages [traceUts]: Downloading https://files.pythonhosted.org/packages/6e/80/498dfa6b5112996f8cce46ab224e36ad37c15e1372f9a61a4386cefaca9e/traceUts-0.0.3.tar.gz
+[2023-05-02 16:43:11] INFO root fetch - processPackages [lightweight-mmm]: Start processing: Flask
+[2023-05-02 16:43:11] INFO root fetch - main [MainThread]: End processing [lightweight-mmm]: success
+[2023-05-02 16:43:11] INFO root fetch - processPackages [sfctools]: Downloading https://files.pythonhosted.org/packages/ba/85/c7ec2ff3c0bcabd2c3632aa1c4a85a741e0ab3c0994163baf33dfdb1b303/sfctools-1.0.5.5.tar.gz
+[2023-05-02 16:43:11] INFO root fetch - processPackages [Flask]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-02 16:43:11] INFO root fetch - processPackages [managedtenants-cli]: Downloading https://files.pythonhosted.org/packages/ce/54/b1f5f0ed4231802571740849976b7e34b1f8e33895238e0c4c80f6358e36/managedtenants_cli-1.9.0-py3-none-any.whl
+[2023-05-02 16:43:11] INFO root fetch - processPackages [jojo-ai]: executing diffoscope
+[2023-05-02 16:43:11] INFO root fetch - processPackages [jojo-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jojo-ai-0.1.1.tar.gz tmp/jojo-ai-0.1.2.tar.gz --markdown 20230502/j/jojo-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 16:43:11] INFO root fetch - processPackages [sfctools]: executing diffoscope
+[2023-05-02 16:43:11] INFO root fetch - processPackages [sfctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfctools-1.0.5.4.tar.gz tmp/sfctools-1.0.5.5.tar.gz --markdown 20230502/s/sfctools/1.0.5.4-1.0.5.5/diff.md --exclude *.pyd
+[2023-05-02 16:43:11] INFO root fetch - processPackages [Flask]: executing diffoscope
+[2023-05-02 16:43:11] INFO root fetch - processPackages [Flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-2.3.1.tar.gz tmp/Flask-2.3.2.tar.gz --markdown 20230502/F/Flask/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-02 16:43:11] INFO root fetch - processPackages [jsonschema-gentypes]: Start processing: pyixexplorer
+[2023-05-02 16:43:11] INFO root fetch - main [MainThread]: End processing [jsonschema-gentypes]: success
+[2023-05-02 16:43:11] INFO root fetch - processPackages [managedtenants-cli]: executing diffoscope
+[2023-05-02 16:43:11] INFO root fetch - processPackages [managedtenants-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/managedtenants_cli-1.8.3-py3-none-any.whl.zip tmp/managedtenants_cli-1.9.0-py3-none-any.whl.zip --markdown 20230502/m/managedtenants-cli/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 16:43:11] INFO root fetch - processPackages [traceUts]: Downloading https://files.pythonhosted.org/packages/5b/8b/442f9ac8aab481430542ba734cae1fe1f2fde8ed984e72452d3e2a5d9038/TraceUts-0.0.4.tar.gz
+[2023-05-02 16:43:11] INFO root fetch - processPackages [pyixexplorer]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-05-02 16:43:11] INFO root fetch - processPackages [traceUts]: executing diffoscope
+[2023-05-02 16:43:11] INFO root fetch - processPackages [traceUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceUts-0.0.3.tar.gz tmp/TraceUts-0.0.4.tar.gz --markdown 20230502/t/traceUts/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 16:43:11] INFO root fetch - processPackages [pyixexplorer]: Downloading https://files.pythonhosted.org/packages/ad/b5/6480e049eecc9962cab6d819379a6ee9a256ac42d9ee7d8f4f89db9ffcc0/pyixexplorer-3.1.2-py3-none-any.whl
+[2023-05-02 16:43:12] INFO root fetch - processPackages [pyixexplorer]: Downloading https://files.pythonhosted.org/packages/76/57/a6e8f89a7e04813a37a9f447de0afc2607a380b75dca55c702945f4ab373/pyixexplorer-3.1.3-py3-none-any.whl
+[2023-05-02 16:43:12] INFO root fetch - main [MainThread]: End processing [pypesto]: success
+[2023-05-02 16:43:12] INFO root fetch - processPackages [pyixexplorer]: executing diffoscope
+[2023-05-02 16:43:12] INFO root fetch - processPackages [pyixexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyixexplorer-3.1.2-py3-none-any.whl.zip tmp/pyixexplorer-3.1.3-py3-none-any.whl.zip --markdown 20230502/p/pyixexplorer/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-05-02 16:43:12] INFO root fetch - main [MainThread]: End processing [idptools-parrot]: success
+[2023-05-02 16:43:13] INFO root fetch - main [MainThread]: End processing [secml]: success
+[2023-05-02 16:43:13] INFO root fetch - main [MainThread]: End processing [traceUts]: success
+[2023-05-02 16:43:13] INFO root fetch - main [MainThread]: End processing [jojo-ai]: success
+[2023-05-02 16:43:13] INFO root fetch - main [MainThread]: End processing [managedtenants-cli]: success
+[2023-05-02 16:43:14] INFO root fetch - main [MainThread]: End processing [pyixexplorer]: success
+[2023-05-02 16:43:14] INFO root fetch - main [MainThread]: End processing [sfctools]: success
+[2023-05-02 16:43:15] INFO root fetch - main [MainThread]: End processing [Flask]: success
+[2023-05-02 16:46:09] ERROR root fetch - processPackages [mkdocs-traefiklabs]: Timeout during execution of pkgdiff
+[2023-05-02 16:46:09] INFO root fetch - main [MainThread]: End processing [mkdocs-traefiklabs] error
+[2023-05-02 16:46:09] INFO root fetch - main [MainThread]: Store serial: [17942258]
