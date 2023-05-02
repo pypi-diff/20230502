@@ -7012,3 +7012,68 @@
 [2023-05-02 08:19:44] INFO root fetch - main [MainThread]: End processing [ruamel.yaml]: success
 [2023-05-02 08:19:48] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-02 08:19:48] INFO root fetch - main [MainThread]: Store serial: [17936903]
+[2023-05-02 08:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936903]
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mylib-014
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes-soatra
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EverLoguru
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mylib-044
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mylib-040
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mylib007
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepdriver
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huluquests
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cherryblossom
+[2023-05-02 08:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fractal-server
+[2023-05-02 08:24:56] INFO root fetch - processPackages [EverLoguru]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [mylib-040]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] INFO root fetch - processPackages [mylib-040]: Start processing: graph-envs
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [mylib-014]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [mylib-040] error
+[2023-05-02 08:24:56] INFO root fetch - processPackages [mylib-014]: Start processing: fake-bpy-module-latest
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [mylib-014] error
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [mylib007]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [huluquests]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:24:56] INFO root fetch - processPackages [mylib007]: Start processing: mylib003
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [mylib007] error
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [mylib-044]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] INFO root fetch - processPackages [huluquests]: Start processing: mylib033
+[2023-05-02 08:24:56] INFO root fetch - processPackages [cherryblossom]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [huluquests] error
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [mylib-044] error
+[2023-05-02 08:24:56] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-02 08:24:56] INFO root fetch - processPackages [fractal-server]: New version: [1.2.4a0] Old Version: [1.2.4]
+[2023-05-02 08:24:56] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230501] Old Version: [20230430]
+[2023-05-02 08:24:56] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:24:56] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-02 08:24:56] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.8.tar.gz tmp/eyes_soatra-0.0.9.tar.gz --markdown 20230502/e/eyes-soatra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [mylib003]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [mylib003] error
+[2023-05-02 08:24:56] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-05-02 08:24:56] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230502/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-02 08:24:56] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/b1/dc/320c1c804235ef9b3c78a4a9c66c96f888a483ea14aeae1f2b6b6a997425/EverLoguru-1.0.0-py3-none-any.whl
+[2023-05-02 08:24:56] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/e8/06/92fa8ba4ec4cb2d211330744558d2562585e2aac725c8d1b3e15c01db391/fractal_server-1.2.4.tar.gz
+[2023-05-02 08:24:56] INFO root fetch - processPackages [cherryblossom]: Downloading https://files.pythonhosted.org/packages/d6/a2/28d0d6f7261ddfd5f79bafba9e9f57af114153862acfb91a8887d4739a89/cherryblossom-0.1.2.tar.gz
+[2023-05-02 08:24:56] WARNING root fetch - processPackages [mylib033]: Skipping, unable to determine old version
+[2023-05-02 08:24:56] INFO root fetch - main [MainThread]: End processing [mylib033] error
+[2023-05-02 08:24:56] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/29/ef/5cb31315f021d283c159928aa3ff425e98536302d38f2cc6a7fa8eb5220a/fake-bpy-module-latest-20230501.tar.gz
+[2023-05-02 08:24:57] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-05-02 08:24:57] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230502/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:24:57] INFO root fetch - processPackages [cherryblossom]: executing diffoscope
+[2023-05-02 08:24:57] INFO root fetch - processPackages [cherryblossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherryblossom-0.1.1.tar.gz tmp/cherryblossom-0.1.2.tar.gz --markdown 20230502/c/cherryblossom/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 08:24:57] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/51/63/798d2ee728d2da177f4ca6fea42e4200d97d8d5633da47c8f35770b90501/EverLoguru-1.0.1.tar.gz
+[2023-05-02 08:24:57] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-02 08:24:57] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230430.tar.gz tmp/fake-bpy-module-latest-20230501.tar.gz --markdown 20230502/f/fake-bpy-module-latest/20230430-20230501/diff.md --exclude *.pyd
+[2023-05-02 08:24:57] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/25/61/d540e694a14ecce20fd0183bf8692c02c0f9a73ba58e0a772d87cbbab77d/fractal_server-1.2.4a0.tar.gz
+[2023-05-02 08:24:57] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-02 08:24:57] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.0.0-py3-none-any.whl.zip tmp/EverLoguru-1.0.1.tar.gz --markdown 20230502/E/EverLoguru/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 08:24:57] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2023-05-02 08:24:57] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-1.2.4.tar.gz tmp/fractal_server-1.2.4a0.tar.gz --markdown 20230502/f/fractal-server/1.2.4-1.2.4a0/diff.md --exclude *.pyd
+[2023-05-02 08:24:58] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-02 08:24:58] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-05-02 08:24:58] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-02 08:24:58] INFO root fetch - main [MainThread]: End processing [cherryblossom]: success
+[2023-05-02 08:24:58] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-05-02 08:24:59] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2023-05-02 08:25:03] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-02 08:25:03] INFO root fetch - main [MainThread]: Store serial: [17936953]
