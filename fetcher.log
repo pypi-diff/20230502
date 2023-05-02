@@ -5278,3 +5278,48 @@
 [2023-05-02 05:26:44] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
 [2023-05-02 05:26:44] INFO root fetch - main [MainThread]: End processing [pulp-rpm-client]: success
 [2023-05-02 05:26:44] INFO root fetch - main [MainThread]: Store serial: [17935650]
+[2023-05-02 05:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935650]
+[2023-05-02 05:31:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arraykit
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fire-opal
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello-soatra
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmutt
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazycsv
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystools
+[2023-05-02 05:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencmiss2cmlibs
+[2023-05-02 05:31:54] INFO root fetch - processPackages [fire-opal]: New version: [5.2.0] Old Version: [5.1.1]
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 05:31:54] WARNING root fetch - processPackages [hello-soatra]: Skipping, unable to determine old version
+[2023-05-02 05:31:54] INFO root fetch - main [MainThread]: End processing [hello-soatra] error
+[2023-05-02 05:31:54] INFO root fetch - processPackages [lazycsv]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-02 05:31:54] INFO root fetch - processPackages [opencmiss2cmlibs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pmutt]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-02 05:31:54] INFO root fetch - processPackages [arraykit]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 05:31:54] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/93/9e/aa484fd1561faa277bbab132431e668f4ab2f1db02984460ece9bd187c61/lazycsv-1.0.3.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [opencmiss2cmlibs]: Downloading https://files.pythonhosted.org/packages/24/ac/5da190a297836894690ebc492b0e28d7d69d714dd141d0b14a5c1304d60e/opencmiss2cmlibs-0.1.1.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pmutt]: Downloading https://files.pythonhosted.org/packages/f0/05/69bdbd5848d010b7c8a36e7ba3402e5e21b0a1cc84a5bb7ad6bfa6046e11/pmutt-1.4.3.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [fire-opal]: Downloading https://files.pythonhosted.org/packages/f8/14/bd879a30f76a96d598562cb2eaaf4659a2215a273dac7df4578f530c1ac8/fire_opal-5.2.0.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/3e/c5/66ed0391d26e56e305dd8283278bbf5bba88e6410cb5305da860145770e3/lazycsv-1.1.0.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [arraykit]: Downloading https://files.pythonhosted.org/packages/d9/9b/b2ecb93b608fb93419251498ee40521dea1205ef15b707d029fdd715d96d/arraykit-0.3.3.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [fire-opal]: executing diffoscope
+[2023-05-02 05:31:54] INFO root fetch - processPackages [fire-opal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fire_opal-5.1.1.tar.gz tmp/fire_opal-5.2.0.tar.gz --markdown 20230502/f/fire-opal/5.1.1-5.2.0/diff.md --exclude *.pyd
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230502/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pmutt]: Downloading https://files.pythonhosted.org/packages/0c/06/0ef9fa687168906908d625bf30c7ef392a25f390373428f6a23897127c0b/pmutt-1.4.4.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [lazycsv]: executing diffoscope
+[2023-05-02 05:31:54] INFO root fetch - processPackages [lazycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazycsv-1.0.3.tar.gz tmp/lazycsv-1.1.0.tar.gz --markdown 20230502/l/lazycsv/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 05:31:54] INFO root fetch - processPackages [opencmiss2cmlibs]: Downloading https://files.pythonhosted.org/packages/d0/9c/d5544021b939e87a8c5289e61d31e364b2a76afd532ff7a3798e0f2193d0/opencmiss2cmlibs-0.1.2.tar.gz
+[2023-05-02 05:31:54] INFO root fetch - processPackages [arraykit]: executing diffoscope
+[2023-05-02 05:31:54] INFO root fetch - processPackages [arraykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraykit-0.3.2.tar.gz tmp/arraykit-0.3.3.tar.gz --markdown 20230502/a/arraykit/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 05:31:54] INFO root fetch - processPackages [opencmiss2cmlibs]: executing diffoscope
+[2023-05-02 05:31:54] INFO root fetch - processPackages [opencmiss2cmlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencmiss2cmlibs-0.1.1.tar.gz tmp/opencmiss2cmlibs-0.1.2.tar.gz --markdown 20230502/o/opencmiss2cmlibs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pmutt]: executing diffoscope
+[2023-05-02 05:31:54] INFO root fetch - processPackages [pmutt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmutt-1.4.3.tar.gz tmp/pmutt-1.4.4.tar.gz --markdown 20230502/p/pmutt/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-02 05:31:55] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-05-02 05:31:55] INFO root fetch - main [MainThread]: End processing [fire-opal]: success
+[2023-05-02 05:31:55] INFO root fetch - main [MainThread]: End processing [lazycsv]: success
+[2023-05-02 05:31:56] INFO root fetch - main [MainThread]: End processing [opencmiss2cmlibs]: success
+[2023-05-02 05:31:56] INFO root fetch - main [MainThread]: End processing [arraykit]: success
+[2023-05-02 05:31:56] INFO root fetch - main [MainThread]: End processing [pmutt]: success
+[2023-05-02 05:31:56] INFO root fetch - main [MainThread]: Store serial: [17935724]
