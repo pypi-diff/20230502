@@ -7406,3 +7406,44 @@
 [2023-05-02 08:56:41] INFO root fetch - main [MainThread]: End processing [GptCode]: success
 [2023-05-02 08:56:41] INFO root fetch - main [MainThread]: End processing [sarus]: success
 [2023-05-02 08:56:41] INFO root fetch - main [MainThread]: Store serial: [17937193]
+[2023-05-02 09:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937193]
+[2023-05-02 09:01:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fonemas
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rktellolib
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docker-sand
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mylib-026
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebyte-lora-e32
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyadtpulse
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-models-nightly
+[2023-05-02 09:01:50] WARNING root fetch - processPackages [docker-sand]: Skipping, unable to determine old version
+[2023-05-02 09:01:50] INFO root fetch - main [MainThread]: End processing [docker-sand] error
+[2023-05-02 09:01:50] INFO root fetch - processPackages [rktellolib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 09:01:50] WARNING root fetch - processPackages [mylib-026]: Skipping, unable to determine old version
+[2023-05-02 09:01:50] INFO root fetch - main [MainThread]: End processing [mylib-026] error
+[2023-05-02 09:01:50] INFO root fetch - processPackages [fonemas]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ebyte-lora-e32]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 09:01:50] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-02 09:01:50] INFO root fetch - processPackages [pyadtpulse]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ebyte-lora-e32]: Downloading https://files.pythonhosted.org/packages/3e/d9/38724c4d4df8c5205093b6bc15f7542035cc90a383c97e5fd9158126a626/ebyte-lora-e32-0.0.3.tar.gz
+[2023-05-02 09:01:50] INFO root fetch - processPackages [rktellolib]: Downloading https://files.pythonhosted.org/packages/f7/64/b1fec17e4a4ef292b2cc18bd14f96260772699919ea3b1e67629b7872ba9/rktellolib-1.0.3.tar.gz
+[2023-05-02 09:01:50] INFO root fetch - processPackages [fonemas]: Downloading https://files.pythonhosted.org/packages/e3/4e/ea0554f2a671ef07143c200631e67304fe523ad714c6f8962f2fa316a6ba/fonemas-2.0.7.tar.gz
+[2023-05-02 09:01:50] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-02 09:01:50] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230502/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-02 09:01:50] INFO root fetch - processPackages [ebyte-lora-e32]: Downloading https://files.pythonhosted.org/packages/e5/b3/376be442219ed74fe2be473eccd0a066f4d2716c81e363e49e70f752d026/ebyte-lora-e32-0.0.4.tar.gz
+[2023-05-02 09:01:50] INFO root fetch - processPackages [pyadtpulse]: Downloading https://files.pythonhosted.org/packages/d1/c2/8f6f835165f00f9018e72737ecb93109bc437156b2ae9eb90bb26b536f9b/pyadtpulse-1.0.4-py3-none-any.whl
+[2023-05-02 09:01:50] INFO root fetch - processPackages [rktellolib]: Downloading https://files.pythonhosted.org/packages/3b/db/d4609cb15908d39c70bf6fe48025d427dc37dda4b6046f9f11dafb53cba0/rktellolib-1.0.4.tar.gz
+[2023-05-02 09:01:51] INFO root fetch - processPackages [pyadtpulse]: executing diffoscope
+[2023-05-02 09:01:51] INFO root fetch - processPackages [rktellolib]: executing diffoscope
+[2023-05-02 09:01:51] INFO root fetch - processPackages [pyadtpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadtpulse-1.0.3-py3-none-any.whl.zip tmp/pyadtpulse-1.0.4-py3-none-any.whl.zip --markdown 20230502/p/pyadtpulse/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 09:01:51] INFO root fetch - processPackages [rktellolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rktellolib-1.0.3.tar.gz tmp/rktellolib-1.0.4.tar.gz --markdown 20230502/r/rktellolib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-02 09:01:51] INFO root fetch - processPackages [ebyte-lora-e32]: executing diffoscope
+[2023-05-02 09:01:51] INFO root fetch - processPackages [ebyte-lora-e32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebyte-lora-e32-0.0.3.tar.gz tmp/ebyte-lora-e32-0.0.4.tar.gz --markdown 20230502/e/ebyte-lora-e32/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 09:01:51] INFO root fetch - processPackages [fonemas]: Downloading https://files.pythonhosted.org/packages/1d/5b/80c6cdb7d0dfb4b3063593d97ec4c80c3a8c48a6b004922e6400b701147f/fonemas-2.0.9.tar.gz
+[2023-05-02 09:01:51] INFO root fetch - processPackages [fonemas]: executing diffoscope
+[2023-05-02 09:01:51] INFO root fetch - processPackages [fonemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonemas-2.0.7.tar.gz tmp/fonemas-2.0.9.tar.gz --markdown 20230502/f/fonemas/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-05-02 09:01:52] INFO root fetch - main [MainThread]: End processing [rktellolib]: success
+[2023-05-02 09:01:52] INFO root fetch - main [MainThread]: End processing [pyadtpulse]: success
+[2023-05-02 09:01:52] INFO root fetch - main [MainThread]: End processing [ebyte-lora-e32]: success
+[2023-05-02 09:01:52] INFO root fetch - main [MainThread]: End processing [fonemas]: success
+[2023-05-02 09:02:09] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-02 09:02:09] INFO root fetch - main [MainThread]: Store serial: [17937215]
