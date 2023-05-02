@@ -18001,3 +18001,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 18:55:38] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-02 18:56:00] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-05-02 18:56:00] INFO root fetch - main [MainThread]: Store serial: [17944038]
+[2023-05-02 19:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17944038]
+[2023-05-02 19:01:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deeplcretrainer
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaco2
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ConcurrentDatabase
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chat-magics
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chat-magics-openai
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hassle
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: se-lib
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buildington
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pkr
+[2023-05-02 19:01:22] INFO root fetch - processPackages [deeplcretrainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [se-lib]: New version: [0.26.4] Old Version: [0.26.3]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ConcurrentDatabase]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [chat-magics]: Skipping, unable to determine old version
+[2023-05-02 19:01:22] INFO root fetch - processPackages [jaco2]: New version: [2.4] Old Version: [2.3]
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [chat-magics-openai]: Skipping, unable to determine old version
+[2023-05-02 19:01:22] INFO root fetch - processPackages [chat-magics]: Start processing: deployfish
+[2023-05-02 19:01:22] INFO root fetch - main [MainThread]: End processing [chat-magics] error
+[2023-05-02 19:01:22] INFO root fetch - processPackages [hassle]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [chat-magics-openai]: Start processing: fbnlab-preview
+[2023-05-02 19:01:22] INFO root fetch - main [MainThread]: End processing [chat-magics-openai] error
+[2023-05-02 19:01:22] INFO root fetch - processPackages [buildington]: New version: [1.6] Old Version: [1.5.2]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [pkr]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [ConcurrentDatabase]: fallback to get urls: [0.0.1]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/91/ff/b41c86fd457ba7056f4d3719b80fe041966f372d8f437c2803cbd9a9708e/jaco2-2.3.tar.gz
+[2023-05-02 19:01:22] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [ConcurrentDatabase]: None
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [ConcurrentDatabase]: None
+[2023-05-02 19:01:22] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-02 19:01:22] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230502/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-02 19:01:22] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/ba/bf/f1b2c1134a54a65a6643ec65f4a4743c49b62ed6b2b6f3216a021af2e48a/se_lib-0.26.3.tar.gz
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [ConcurrentDatabase]: unable to get url for both version [0.0.1]
+[2023-05-02 19:01:22] WARNING root fetch - processPackages [ConcurrentDatabase]: None
+[2023-05-02 19:01:22] INFO root fetch - processPackages [ConcurrentDatabase]: Start processing: jaco2
+[2023-05-02 19:01:22] INFO root fetch - main [MainThread]: End processing [ConcurrentDatabase] error
+[2023-05-02 19:01:22] INFO root fetch - processPackages [jaco2]: New version: [2.4] Old Version: [2.3]
+[2023-05-02 19:01:22] INFO root fetch - processPackages [pkr]: Downloading https://files.pythonhosted.org/packages/8b/25/e70052a22cea8a6accece949560b0e7079a2646858a296304630d25a0179/pkr-1.4.8-py3-none-any.whl
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/91/ff/b41c86fd457ba7056f4d3719b80fe041966f372d8f437c2803cbd9a9708e/jaco2-2.3.tar.gz
+[2023-05-02 19:01:23] INFO root fetch - processPackages [deeplcretrainer]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [deeplcretrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplcretrainer-0.1.8.tar.gz tmp/deeplcretrainer-0.1.9.tar.gz --markdown 20230502/d/deeplcretrainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d8/60/c5c01d43a500736a986b39889e2d6388bc9cc4cfc133f03e2faf98be773f/fbnlab_preview-0.1.6-py3-none-any.whl
+[2023-05-02 19:01:23] INFO root fetch - processPackages [buildington]: Downloading https://files.pythonhosted.org/packages/7d/2b/31b017427b65ed09d94bde3f4ad6790f8b54817dc117e2977f4fa4309e7a/buildington-1.6.tar.gz
+[2023-05-02 19:01:23] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/15/b5/d87e2b8d0f3739c5292be54d7141729736b0c707e6f3af814f83a0334b32/hassle-2.7.1.tar.gz
+[2023-05-02 19:01:23] INFO root fetch - processPackages [se-lib]: Downloading https://files.pythonhosted.org/packages/ac/6e/37b2f38406b42b3f196b44b3ab37d47730eb5b14c3546fa841ebef78c259/se_lib-0.26.4.tar.gz
+[2023-05-02 19:01:23] INFO root fetch - processPackages [buildington]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [buildington]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildington-1.5.2.tar.gz tmp/buildington-1.6.tar.gz --markdown 20230502/b/buildington/1.5.2-1.6/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/6e/46/820685c0ff42d255dbce3803233c48f6a3fd15113d716959304ead2ae0b4/jaco2-2.4.tar.gz
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: Downloading https://files.pythonhosted.org/packages/6e/46/820685c0ff42d255dbce3803233c48f6a3fd15113d716959304ead2ae0b4/jaco2-2.4.tar.gz
+[2023-05-02 19:01:23] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.7.0.tar.gz tmp/hassle-2.7.1.tar.gz --markdown 20230502/h/hassle/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.3.tar.gz tmp/jaco2-2.4.tar.gz --markdown 20230502/j/jaco2/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20230502/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [se-lib]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [se-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/se_lib-0.26.3.tar.gz tmp/se_lib-0.26.4.tar.gz --markdown 20230502/s/se-lib/0.26.3-0.26.4/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [jaco2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaco2-2.3.tar.gz tmp/jaco2-2.4.tar.gz --markdown 20230502/j/jaco2/2.3-2.4/diff.md --exclude *.pyd
+[2023-05-02 19:01:23] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-05-02 19:01:23] INFO root fetch - processPackages [pkr]: Downloading https://files.pythonhosted.org/packages/49/ba/33acec6b2bbea1ee44ef1640cd8de83dbf2dcbc94ad160a7d9d41ae113c1/pkr-1.4.9-py3-none-any.whl
+[2023-05-02 19:01:23] INFO root fetch - processPackages [pkr]: executing diffoscope
+[2023-05-02 19:01:23] INFO root fetch - processPackages [pkr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkr-1.4.8-py3-none-any.whl.zip tmp/pkr-1.4.9-py3-none-any.whl.zip --markdown 20230502/p/pkr/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-02 19:01:24] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-05-02 19:01:24] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230502/f/fbnlab-preview/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 19:01:24] INFO root fetch - processPackages [deeplcretrainer]: Start processing: clear-skies
+[2023-05-02 19:01:24] INFO root fetch - main [MainThread]: End processing [deeplcretrainer]: success
+[2023-05-02 19:01:24] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-02 19:01:24] INFO root fetch - processPackages [buildington]: Start processing: InvPyplot
+[2023-05-02 19:01:24] INFO root fetch - main [MainThread]: End processing [buildington]: success
+[2023-05-02 19:01:24] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-05-02 19:01:24] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230502/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 19:01:24] INFO root fetch - processPackages [jaco2]: Start processing: clear-skies-aws
+[2023-05-02 19:01:24] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 19:01:24] INFO root fetch - processPackages [InvPyplot]: New version: [1.0] Old Version: [0.0.6]
+[2023-05-02 19:01:24] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-02 19:01:24] INFO root fetch - processPackages [InvPyplot]: Downloading https://files.pythonhosted.org/packages/74/a4/b6f9f0da65ae96db1405b5feb007c739a16246b224eae650dcbca6fc7a1a/InvPyplot-0.0.6.tar.gz
+[2023-05-02 19:01:24] INFO root fetch - main [MainThread]: End processing [jaco2]: success
+[2023-05-02 19:01:24] INFO root fetch - main [MainThread]: End processing [se-lib]: success
+[2023-05-02 19:01:25] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/1a/af/f46f9716a9e5eab575da25e70c10d7d808d47fdfb219882cacd0187c07ac/clear-skies-aws-1.2.5.tar.gz
+[2023-05-02 19:01:25] INFO root fetch - processPackages [InvPyplot]: Downloading https://files.pythonhosted.org/packages/76/41/7ac7c72beff02bf2798b5bc3b106c1a30dbea6898439f3c3df2687aa2e2c/InvPyplot-1.0.tar.gz
+[2023-05-02 19:01:25] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-05-02 19:01:25] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-aws-1.2.4.tar.gz tmp/clear-skies-aws-1.2.5.tar.gz --markdown 20230502/c/clear-skies-aws/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-02 19:01:25] INFO root fetch - processPackages [InvPyplot]: executing diffoscope
+[2023-05-02 19:01:25] INFO root fetch - processPackages [InvPyplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvPyplot-0.0.6.tar.gz tmp/InvPyplot-1.0.tar.gz --markdown 20230502/I/InvPyplot/0.0.6-1.0/diff.md --exclude *.pyd
+[2023-05-02 19:01:25] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-02 19:01:25] INFO root fetch - main [MainThread]: End processing [pkr]: success
+[2023-05-02 19:01:25] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2023-05-02 19:01:25] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-05-02 19:01:26] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-05-02 19:01:26] INFO root fetch - main [MainThread]: End processing [InvPyplot]: success
+[2023-05-02 19:01:27] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-05-02 19:01:27] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-02 19:01:28] INFO root fetch - main [MainThread]: Store serial: [17944087]
