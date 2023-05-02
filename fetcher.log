@@ -22856,3 +22856,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 23:08:08] INFO root fetch - main [MainThread]: End processing [preemo-worker-sdk]: success
 [2023-05-02 23:08:11] INFO root fetch - main [MainThread]: End processing [clarifai-grpc]: success
 [2023-05-02 23:08:11] INFO root fetch - main [MainThread]: Store serial: [17947102]
+[2023-05-02 23:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947102]
+[2023-05-02 23:13:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aij-news-publisher
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalarztools
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apf-base
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: admem
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ConcurrentDatabase
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databricks-feature-store
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-thomas-fix-address
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-monitor
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaaql-monitor
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: helix.catalog-sdk
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ConcurrentDatabase]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [admem]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-02 23:13:22] WARNING root fetch - processPackages [certora-cli-alpha-thomas-fix-address]: Skipping, unable to determine old version
+[2023-05-02 23:13:22] INFO root fetch - processPackages [certora-cli-alpha-thomas-fix-address]: Start processing: jaaql-middleware-python
+[2023-05-02 23:13:22] INFO root fetch - processPackages [databricks-feature-store]: New version: [0.9.1a2] Old Version: [0.9.1a1]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [aij-news-publisher]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-02 23:13:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-fix-address] error
+[2023-05-02 23:13:22] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [apf-base]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.18] Old Version: [1.2.17]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.18] Old Version: [1.2.17]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.8.7] Old Version: [4.8.5]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [helix.catalog-sdk]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 23:13:22] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-05-02 23:13:22] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230502/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.8.5.tar.gz tmp/jaaql-middleware-python-4.8.7.tar.gz --markdown 20230502/j/jaaql-middleware-python/4.8.5-4.8.7/diff.md --exclude *.pyd
+[2023-05-02 23:13:22] INFO root fetch - processPackages [aij-news-publisher]: Downloading https://files.pythonhosted.org/packages/e4/f7/6d6d2c9f7c0613a3e71fcd12851022dd54c3ec2780cacd462e04901b2287/aij-news-publisher-1.0.0.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ConcurrentDatabase]: Downloading https://files.pythonhosted.org/packages/00/7c/8ff46ea777f6764d9952cce68f0c1b2d8e433b6368f03f7fa5ca1ec8a175/ConcurrentDatabase-0.0.4.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [databricks-feature-store]: Downloading https://files.pythonhosted.org/packages/30/59/aed8ee28be2ed6205b016482ae801c804dfde835d2383f7ca75e200ba787/databricks-feature-store-0.9.1a1.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [admem]: Downloading https://files.pythonhosted.org/packages/91/1b/cd7b755468646e4c508962471431ebb880d5c4f7595cc8cc2591d63e00d3/admem-2.3.2.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [helix.catalog-sdk]: Downloading https://files.pythonhosted.org/packages/86/70/958ba10bd5e3034a77178ad3d07c133e0e90625c5c98160c9e680213fab1/helix.catalog-sdk-0.2.8.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/ff/f5/24f890324be09725d7a1be0d45861a4b8208a135c064a821dff504b4ca9f/jaaql-monitor-1.2.18.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/ff/f5/24f890324be09725d7a1be0d45861a4b8208a135c064a821dff504b4ca9f/jaaql-monitor-1.2.18.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.17.tar.gz tmp/jaaql-monitor-1.2.18.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.17-1.2.18/diff.md --exclude *.pyd
+[2023-05-02 23:13:22] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.17.tar.gz tmp/jaaql-monitor-1.2.18.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.17-1.2.18/diff.md --exclude *.pyd
+[2023-05-02 23:13:22] INFO root fetch - processPackages [apf-base]: Downloading https://files.pythonhosted.org/packages/02/39/5b79e167bf5f3fbd010f24cca9e7b7c9b0c5eb9b505dc2de857a87572bcc/apf_base-2.1.6.tar.gz
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ConcurrentDatabase]: executing diffoscope
+[2023-05-02 23:13:22] INFO root fetch - processPackages [ConcurrentDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConcurrentDatabase-0.0.3.tar.gz tmp/ConcurrentDatabase-0.0.4.tar.gz --markdown 20230502/C/ConcurrentDatabase/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 23:13:22] INFO root fetch - processPackages [admem]: executing diffoscope
+[2023-05-02 23:13:22] INFO root fetch - processPackages [admem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admem-2.3.1.tar.gz tmp/admem-2.3.2.tar.gz --markdown 20230502/a/admem/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-02 23:13:23] INFO root fetch - processPackages [apf-base]: executing diffoscope
+[2023-05-02 23:13:23] INFO root fetch - processPackages [apf-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apf_base-2.1.5.tar.gz tmp/apf_base-2.1.6.tar.gz --markdown 20230502/a/apf-base/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-02 23:13:23] INFO root fetch - processPackages [aij-news-publisher]: Downloading https://files.pythonhosted.org/packages/41/f9/a5104d591c3dca8e2918d2b70e05de78e2f3803f6660f8b66ed3d3b5a1ea/aij-news-publisher-1.0.1.tar.gz
+[2023-05-02 23:13:23] INFO root fetch - processPackages [aij-news-publisher]: executing diffoscope
+[2023-05-02 23:13:23] INFO root fetch - processPackages [aij-news-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-publisher-1.0.0.tar.gz tmp/aij-news-publisher-1.0.1.tar.gz --markdown 20230502/a/aij-news-publisher/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 23:13:23] INFO root fetch - processPackages [databricks-feature-store]: Downloading https://files.pythonhosted.org/packages/70/3f/1bb6ad64ce3ee786bb2d7b2e20f4d24f7f531359d90f0769b532ca553e4a/databricks-feature-store-0.9.1a2.tar.gz
+[2023-05-02 23:13:23] INFO root fetch - processPackages [helix.catalog-sdk]: Downloading https://files.pythonhosted.org/packages/62/b2/4643b6ff42e12454f04b0cf8c3a547e8b5d6b149eaa71d49bccdbf596ebe/helix.catalog-sdk-0.2.9.tar.gz
+[2023-05-02 23:13:23] INFO root fetch - processPackages [helix.catalog-sdk]: executing diffoscope
+[2023-05-02 23:13:23] INFO root fetch - processPackages [helix.catalog-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helix.catalog-sdk-0.2.8.tar.gz tmp/helix.catalog-sdk-0.2.9.tar.gz --markdown 20230502/h/helix.catalog-sdk/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 23:13:23] INFO root fetch - processPackages [databricks-feature-store]: executing diffoscope
+[2023-05-02 23:13:23] INFO root fetch - processPackages [databricks-feature-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-feature-store-0.9.1a1.tar.gz tmp/databricks-feature-store-0.9.1a2.tar.gz --markdown 20230502/d/databricks-feature-store/0.9.1a1-0.9.1a2/diff.md --exclude *.pyd
+[2023-05-02 23:13:24] INFO root fetch - processPackages [admem]: Start processing: digitalarztools
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [admem]: success
+[2023-05-02 23:13:24] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 23:13:24] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-05-02 23:13:24] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230502/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:13:24] INFO root fetch - processPackages [ConcurrentDatabase]: Start processing: django-tree-model
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [ConcurrentDatabase]: success
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 23:13:24] WARNING root fetch - processPackages [django-tree-model]: Skipping, unable to determine old version
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [apf-base]: success
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [django-tree-model] error
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [aij-news-publisher]: success
+[2023-05-02 23:13:24] INFO root fetch - main [MainThread]: End processing [helix.catalog-sdk]: success
+[2023-05-02 23:13:25] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-02 23:13:25] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-05-02 23:13:26] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-05-02 23:13:27] INFO root fetch - main [MainThread]: End processing [databricks-feature-store]: success
+[2023-05-02 23:13:27] INFO root fetch - main [MainThread]: Store serial: [17947141]
