@@ -4365,3 +4365,65 @@
 [2023-05-02 03:49:22] INFO root fetch - main [MainThread]: End processing [bugbug]: success
 [2023-05-02 03:50:08] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-05-02 03:50:08] INFO root fetch - main [MainThread]: Store serial: [17935077]
+[2023-05-02 03:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935077]
+[2023-05-02 03:55:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thirdai
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-star-rail-calendar
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: packagelister
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proceso
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zillion
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-ai-magics
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-ai
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: h2o-pysparkling-3.1
+[2023-05-02 03:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h2o-pysparkling-scoring-3.1
+[2023-05-02 03:55:17] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [thirdai]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [proceso]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [zillion]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [packagelister]: New version: [1.5.0] Old Version: [1.3.1]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [jupyter-ai]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [h2o-pysparkling-3.1]: New version: [3.40.0.3.post1] Old Version: [3.40.0.2.post1]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: New version: [3.40.0.3.post1] Old Version: [3.40.0.2.post1]
+[2023-05-02 03:55:17] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Downloading https://files.pythonhosted.org/packages/eb/a6/d3d66e5ceed64f1c9f1f43c17e1b725aa6ad032d5d2fcd2b6cee8b3d5dca/nonebot_plugin_star_rail_calendar-0.0.1.tar.gz
+[2023-05-02 03:55:17] INFO root fetch - processPackages [proceso]: Downloading https://files.pythonhosted.org/packages/53/e0/da6bc3f7c92591e7cbd590055933274f14548b1eea3314b4a41a8f3b86e7/proceso-0.0.1.tar.gz
+[2023-05-02 03:55:17] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/15/05/60cade222cd47c361ddac433f296eb1c326e5212fdfba32e7c9d50f7b5f5/jupyter_ai_magics-0.6.0.tar.gz
+[2023-05-02 03:55:17] INFO root fetch - processPackages [zillion]: Downloading https://files.pythonhosted.org/packages/a5/c5/79361c96c0be5072f8f841738fd1e08a0bd56290c70b7d70302500993379/zillion-0.9.8.tar.gz
+[2023-05-02 03:55:17] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/eb/4d/fab27fa99708b1ed0707601656e27e01f7308c4042eb911681aeee3988dd/jupyter_ai-0.6.0.tar.gz
+[2023-05-02 03:55:17] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Downloading https://files.pythonhosted.org/packages/09/f0/b8be54eb819253f2501321bd119c2e2f243954e24253a0fe6e5a1c082d72/h2o_pysparkling_scoring_3.1-3.40.0.2-1.tar.gz
+[2023-05-02 03:55:17] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/7d/51/d804eaa7c2359e89ac1a5c4cdd1d53eba80c74a06bb7511eed04d122bab9/thirdai-0.7.1-cp39-cp39-win_amd64.whl
+[2023-05-02 03:55:17] INFO root fetch - processPackages [h2o-pysparkling-3.1]: Downloading https://files.pythonhosted.org/packages/4d/94/5a30d14a31894f04d86e49b1bae216e78395825ab239238ce804e835c092/h2o_pysparkling_3.1-3.40.0.2-1.tar.gz
+[2023-05-02 03:55:17] WARNING root fetch - processPackages [h2o-pysparkling-3.1]: Skipping package: exceeds size limit 162216020>=10485760
+[2023-05-02 03:55:17] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-3.1] error
+[2023-05-02 03:55:18] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Downloading https://files.pythonhosted.org/packages/29/18/ba4891e6234c04112eceb6bfcdca91cf93df444532c193637de7c6c2b060/nonebot_plugin_star_rail_calendar-1.0.1.tar.gz
+[2023-05-02 03:55:18] INFO root fetch - processPackages [packagelister]: Downloading https://files.pythonhosted.org/packages/9a/4a/155ec6d8c0adb5b16d621fa484a703417a67bfcb0471ff07c22a42bc18e1/packagelister-1.5.0.tar.gz
+[2023-05-02 03:55:18] INFO root fetch - processPackages [proceso]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [proceso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proceso-0.0.1.tar.gz tmp/proceso-0.0.2.tar.gz --markdown 20230502/p/proceso/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.0-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.1-cp39-cp39-win_amd64.whl.zip --markdown 20230502/t/thirdai/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [packagelister]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [packagelister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagelister-1.3.1.tar.gz tmp/packagelister-1.5.0.tar.gz --markdown 20230502/p/packagelister/1.3.1-1.5.0/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_star_rail_calendar-0.0.1.tar.gz tmp/nonebot_plugin_star_rail_calendar-1.0.1.tar.gz --markdown 20230502/n/nonebot-plugin-star-rail-calendar/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [zillion]: Downloading https://files.pythonhosted.org/packages/d6/a2/e83dea3be4b39ed3376b78681ceaabfa74c819b0fa0d546b761c97baf276/zillion-0.9.9.tar.gz
+[2023-05-02 03:55:18] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/0d/97/82c22b0b785bb895e4dcd0d6b64e09378a92a9e222218250ef5d9974857f/jupyter_ai_magics-0.6.1.tar.gz
+[2023-05-02 03:55:18] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-0.6.0.tar.gz tmp/jupyter_ai_magics-0.6.1.tar.gz --markdown 20230502/j/jupyter-ai-magics/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [zillion]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [zillion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zillion-0.9.8.tar.gz tmp/zillion-0.9.9.tar.gz --markdown 20230502/z/zillion/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/c4/24/942a63a92ea92542ad54c5aa139b3633e0e805ab195efd463ba50c233fe7/jupyter_ai-0.6.1.tar.gz
+[2023-05-02 03:55:18] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-0.6.0.tar.gz tmp/jupyter_ai-0.6.1.tar.gz --markdown 20230502/j/jupyter-ai/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-02 03:55:18] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Downloading https://files.pythonhosted.org/packages/87/2f/94923b61f5359767e79ace41273fa1ba588bd086ca7cac54066c6f6694cf/h2o_pysparkling_scoring_3.1-3.40.0.3-1.tar.gz
+[2023-05-02 03:55:18] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: executing diffoscope
+[2023-05-02 03:55:18] INFO root fetch - processPackages [h2o-pysparkling-scoring-3.1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_pysparkling_scoring_3.1-3.40.0.2-1.tar.gz tmp/h2o_pysparkling_scoring_3.1-3.40.0.3-1.tar.gz --markdown 20230502/h/h2o-pysparkling-scoring-3.1/3.40.0.2.post1-3.40.0.3.post1/diff.md --exclude *.pyd
+[2023-05-02 03:55:19] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-05-02 03:55:19] INFO root fetch - main [MainThread]: End processing [zillion]: success
+[2023-05-02 03:55:19] INFO root fetch - main [MainThread]: End processing [proceso]: success
+[2023-05-02 03:55:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-star-rail-calendar]: success
+[2023-05-02 03:55:20] INFO root fetch - main [MainThread]: End processing [packagelister]: success
+[2023-05-02 03:55:21] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-05-02 03:55:21] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-05-02 03:58:19] ERROR root fetch - processPackages [h2o-pysparkling-scoring-3.1]: Timeout during execution of pkgdiff
+[2023-05-02 03:58:19] INFO root fetch - main [MainThread]: End processing [h2o-pysparkling-scoring-3.1] error
+[2023-05-02 03:58:19] INFO root fetch - main [MainThread]: Store serial: [17935115]
