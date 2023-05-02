@@ -2162,3 +2162,21 @@
 [2023-05-02 03:01:27] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-05-02 03:01:28] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-05-02 03:01:28] INFO root fetch - main [MainThread]: Store serial: [17933738]
+[2023-05-02 03:06:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17933738]
+[2023-05-02 03:06:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hume
+[2023-05-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyTerm-Shell
+[2023-05-02 03:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luau
+[2023-05-02 03:06:37] INFO root fetch - processPackages [hume]: New version: [0.3.20b0] Old Version: [0.3.1b0]
+[2023-05-02 03:06:37] WARNING root fetch - processPackages [PyTerm-Shell]: Skipping, unable to determine old version
+[2023-05-02 03:06:37] INFO root fetch - main [MainThread]: End processing [PyTerm-Shell] error
+[2023-05-02 03:06:37] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/cb/5e/b422f0b3ab6a4aa5a350d3c7430422feb8893bb241e71f50fb5c506198e3/hume-0.3.1b0.tar.gz
+[2023-05-02 03:06:37] INFO root fetch - processPackages [hume]: Downloading https://files.pythonhosted.org/packages/6d/3b/8ab4d6aa0a12dc9009d813a9ed9f857b246abaf7817534690614896e060e/hume-0.3.20b0.tar.gz
+[2023-05-02 03:06:37] INFO root fetch - processPackages [luau]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-02 03:06:37] INFO root fetch - processPackages [hume]: executing diffoscope
+[2023-05-02 03:06:37] INFO root fetch - processPackages [hume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hume-0.3.1b0.tar.gz tmp/hume-0.3.20b0.tar.gz --markdown 20230502/h/hume/0.3.1b0-0.3.20b0/diff.md --exclude *.pyd
+[2023-05-02 03:06:38] INFO root fetch - processPackages [luau]: Downloading https://files.pythonhosted.org/packages/bf/a6/53629f4c39798477f9dac667fc2b401715ce709b59b767e3320f46472eb7/luau-0.4.9.tar.gz
+[2023-05-02 03:06:38] WARNING root fetch - processPackages [luau]: Skipping package: exceeds size limit 36993103>=10485760
+[2023-05-02 03:06:38] INFO root fetch - main [MainThread]: End processing [luau] error
+[2023-05-02 03:06:39] INFO root fetch - main [MainThread]: End processing [hume]: success
+[2023-05-02 03:06:39] INFO root fetch - main [MainThread]: Store serial: [17933748]
