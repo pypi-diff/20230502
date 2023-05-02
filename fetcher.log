@@ -5323,3 +5323,19 @@
 [2023-05-02 05:31:56] INFO root fetch - main [MainThread]: End processing [arraykit]: success
 [2023-05-02 05:31:56] INFO root fetch - main [MainThread]: End processing [pmutt]: success
 [2023-05-02 05:31:56] INFO root fetch - main [MainThread]: Store serial: [17935724]
+[2023-05-02 05:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17935724]
+[2023-05-02 05:37:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-02 05:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hello-soatra
+[2023-05-02 05:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiofauna
+[2023-05-02 05:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhtcc
+[2023-05-02 05:37:05] WARNING root fetch - processPackages [hello-soatra]: Skipping, unable to determine old version
+[2023-05-02 05:37:05] INFO root fetch - main [MainThread]: End processing [hello-soatra] error
+[2023-05-02 05:37:05] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 05:37:05] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 05:37:05] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2023-05-02 05:37:05] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20230502/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 05:37:05] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-05-02 05:37:05] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230502/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 05:37:06] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-05-02 05:37:30] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2023-05-02 05:37:30] INFO root fetch - main [MainThread]: Store serial: [17935733]
