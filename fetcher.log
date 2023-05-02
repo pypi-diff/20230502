@@ -8175,3 +8175,139 @@
 [2023-05-02 09:58:33] ERROR root fetch - processPackages [zarr]: Timeout during execution of pkgdiff
 [2023-05-02 09:58:33] INFO root fetch - main [MainThread]: End processing [zarr] error
 [2023-05-02 09:58:33] INFO root fetch - main [MainThread]: Store serial: [17937674]
+[2023-05-02 10:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937674]
+[2023-05-02 10:03:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resotoclient
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GptCode
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EverLoguru
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ucall
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkpipelineframework
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dongwha-datalab
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: knx-frontend
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GptCode
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ytsaurus-spyt
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-testmon
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [EverLoguru]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [resotoclient]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [knx-frontend]: New version: [2023.5.2.73247] Old Version: [2023.3.21.60232]
+[2023-05-02 10:03:42] WARNING root fetch - processPackages [ucall]: Skipping, unable to determine old version
+[2023-05-02 10:03:42] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ucall]: Start processing: je-editor
+[2023-05-02 10:03:42] INFO root fetch - main [MainThread]: End processing [ucall] error
+[2023-05-02 10:03:42] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.69.4b442.post5753496.dev2] Old Version: [1.69.4b442.post5286684.dev1]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [pytest-testmon]: New version: [2.0.7b1] Old Version: [2.0.6]
+[2023-05-02 10:03:42] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.88.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230502/j/je-editor/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.69.4b442.post5286684.dev1.tar.gz tmp/ytsaurus-spyt-1.69.4b442.post5753496.dev2.tar.gz --markdown 20230502/y/ytsaurus-spyt/1.69.4b442.post5286684.dev1-1.69.4b442.post5753496.dev2/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/8b/e6/759b17c148daf634278f4276d3026f98173a8515f4ff4bf7bfef122af566/EverLoguru-1.1.3.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/d7/9b/f04fde8f6367d623f9506b6796a7dfea8ace926d42329d361b4781e928a0/GptCode-1.0.5.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/d7/9b/f04fde8f6367d623f9506b6796a7dfea8ace926d42329d361b4781e928a0/GptCode-1.0.5.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/23/3e/b6de5fdf32c31286d3b89bf7c8a889ce9acefec418115d8299d8d7c686d4/resotoclient-1.2.1.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [knx-frontend]: Downloading https://files.pythonhosted.org/packages/7d/97/cb7d98ecff942b3084e95f0aed5c5cda3da19bb242a040776538237ba9c9/knx_frontend-2023.3.21.60232.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/fc/d8/1e58709080d9b0d9e51b4e638429a41d97f3ea7983e06aaadcdeb5223a3a/pytest-testmon-2.0.6.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/a5/26/df4ab7c630ced47072d6b6825fff35a0c4fcef8370af38962952fd986903/dongwha_datalab-0.0.0.9-py3-none-any.whl
+[2023-05-02 10:03:42] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230502/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/d5/66/11d05481cc8590f058cd18aa66d7574f408a5abb96d5051b4a090236908f/GptCode-1.0.6.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/d5/66/11d05481cc8590f058cd18aa66d7574f408a5abb96d5051b4a090236908f/GptCode-1.0.6.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [EverLoguru]: Downloading https://files.pythonhosted.org/packages/95/3e/88af0ca2311861ff68a594f46ae3ec61ffdff2b3c34ddfbb60a87e32d874/EverLoguru-1.1.4.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/1d/39/6846efb978ec3c86b002a93da8f4b75c5afd924a3939b49de6b25b2c87e5/resotoclient-1.3.0.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.5.tar.gz tmp/GptCode-1.0.6.tar.gz --markdown 20230502/G/GptCode/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.8-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.9-py3-none-any.whl.zip --markdown 20230502/d/dongwha-datalab/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.5.tar.gz tmp/GptCode-1.0.6.tar.gz --markdown 20230502/G/GptCode/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [EverLoguru]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [EverLoguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EverLoguru-1.1.3.tar.gz tmp/EverLoguru-1.1.4.tar.gz --markdown 20230502/E/EverLoguru/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-02 10:03:42] INFO root fetch - processPackages [pytest-testmon]: Downloading https://files.pythonhosted.org/packages/52/18/f4bc7fd9555220dc089fd0a0616713cd9e09d63c54ad9927254123bbccd7/pytest-testmon-2.0.7b1.tar.gz
+[2023-05-02 10:03:42] INFO root fetch - processPackages [resotoclient]: executing diffoscope
+[2023-05-02 10:03:42] INFO root fetch - processPackages [resotoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoclient-1.2.1.tar.gz tmp/resotoclient-1.3.0.tar.gz --markdown 20230502/r/resotoclient/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 10:03:43] INFO root fetch - processPackages [pytest-testmon]: executing diffoscope
+[2023-05-02 10:03:43] INFO root fetch - processPackages [pytest-testmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-testmon-2.0.6.tar.gz tmp/pytest-testmon-2.0.7b1.tar.gz --markdown 20230502/p/pytest-testmon/2.0.6-2.0.7b1/diff.md --exclude *.pyd
+[2023-05-02 10:03:43] INFO root fetch - processPackages [knx-frontend]: Downloading https://files.pythonhosted.org/packages/43/4e/6213d3408d02658eac33ff8439112d8c36b17138a166439615ae6435e24a/knx_frontend-2023.5.2.73247.tar.gz
+[2023-05-02 10:03:43] INFO root fetch - processPackages [knx-frontend]: executing diffoscope
+[2023-05-02 10:03:43] INFO root fetch - processPackages [knx-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knx_frontend-2023.3.21.60232.tar.gz tmp/knx_frontend-2023.5.2.73247.tar.gz --markdown 20230502/k/knx-frontend/2023.3.21.60232-2023.5.2.73247/diff.md --exclude *.pyd
+[2023-05-02 10:03:44] INFO root fetch - processPackages [ytsaurus-spyt]: Start processing: polymatica-api
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-02 10:03:44] INFO root fetch - processPackages [polymatica-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 10:03:44] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/44/69/6aef427212fe0d509ef0ff01a4d6a68cff33d6c08408a2c36a787ccf0f25/polymatica_api-0.0.2.tar.gz
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-02 10:03:44] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-05-02 10:03:44] INFO root fetch - processPackages [polymatica-api]: Downloading https://files.pythonhosted.org/packages/1c/41/8d44ec4c83853a42318b5412b1b2e985f9697a324852b906a53b9e4975b3/polymatica_api-0.0.3.tar.gz
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [EverLoguru]: success
+[2023-05-02 10:03:44] INFO root fetch - processPackages [polymatica-api]: executing diffoscope
+[2023-05-02 10:03:44] INFO root fetch - processPackages [polymatica-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymatica_api-0.0.2.tar.gz tmp/polymatica_api-0.0.3.tar.gz --markdown 20230502/p/polymatica-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [pytest-testmon]: success
+[2023-05-02 10:03:44] INFO root fetch - main [MainThread]: End processing [resotoclient]: success
+[2023-05-02 10:03:45] INFO root fetch - main [MainThread]: End processing [polymatica-api]: success
+[2023-05-02 10:03:46] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-05-02 10:04:09] INFO root fetch - main [MainThread]: End processing [knx-frontend]: success
+[2023-05-02 10:04:09] INFO root fetch - main [MainThread]: Store serial: [17937729]
