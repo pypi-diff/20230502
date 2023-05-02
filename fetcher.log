@@ -6799,3 +6799,80 @@
 [2023-05-02 08:04:01] INFO root fetch - main [MainThread]: End processing [twb-project]: success
 [2023-05-02 08:04:01] INFO root fetch - main [MainThread]: End processing [act-scio]: success
 [2023-05-02 08:04:01] INFO root fetch - main [MainThread]: Store serial: [17936760]
+[2023-05-02 08:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936760]
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-connect
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telos
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiyobot
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mylib049
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyg-nightly
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visualpython
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valmi-connector-lib
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-visualpython
+[2023-05-02 08:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-partner-contact
+[2023-05-02 08:09:11] WARNING root fetch - processPackages [telos]: Skipping, unable to determine old version
+[2023-05-02 08:09:11] WARNING root fetch - processPackages [Mylib049]: Skipping, unable to determine old version
+[2023-05-02 08:09:11] INFO root fetch - processPackages [telos]: Start processing: je-api-testka
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: End processing [telos] error
+[2023-05-02 08:09:11] INFO root fetch - processPackages [Mylib049]: Start processing: je-api-testka-dev
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: End processing [Mylib049] error
+[2023-05-02 08:09:11] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.38] Old Version: [9.1.37]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [hiyobot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20230501.0] Old Version: [16.0.20230422.0]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc291.post1] Old Version: [0.2.3rc287.post1]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [visualpython]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-05-02 08:09:11] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230502/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 08:09:11] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230502] Old Version: [2.4.0.dev20230501]
+[2023-05-02 08:09:11] INFO root fetch - processPackages [hiyobot]: Downloading https://files.pythonhosted.org/packages/9a/10/a0ed6284fe3fb9ec4f5470e6108da1ce66e48064f239e1818738b2244e75/hiyobot-0.1.4.tar.gz
+[2023-05-02 08:09:11] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/ed/22/d7d160e5e22e73394414d510f900a08d878d04948cc80b43141e83c68fda/je_api_testka_dev-0.0.87.tar.gz
+[2023-05-02 08:09:11] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/2f/b1/a45dbd780c81150661bc2d5d330179fc20e5d983a487c0c346cb310899b1/databricks-connect-9.1.37.tar.gz
+[2023-05-02 08:09:11] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/6d/ff/1983f6af0147c167659228edce69f2d731bdd66c08a93f750b1b311554b6/odoo_addons_oca_partner_contact-16.0.20230422.0-py3-none-any.whl
+[2023-05-02 08:09:11] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/17/78/d224e1d9e181ead0d2afff0cc3fe2a4e5e24b50b39ba0a4068c59bf31b79/gpt-review-0.2.3rc291.post1.tar.gz
+[2023-05-02 08:09:11] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/53/83/f9461ec6669b9012c7abc7be4e51994ce3916dbee68309c91b3d2f3b0420/jupyterlab_visualpython-2.3.5.tar.gz
+[2023-05-02 08:09:11] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/c7/1e/dfca3c37160c0d0ed48138c9184593a2d09e8c0ac0200fd173483835eca8/visualpython-2.3.5.tar.gz
+[2023-05-02 08:09:11] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/c7/ba/3097e47eb609895c5b00f4f87a6cecf3e6b3168c04a52f3afae597ffd636/pyg-nightly-2.4.0.dev20230501.tar.gz
+[2023-05-02 08:09:11] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257171613>=10485760
+[2023-05-02 08:09:11] INFO root fetch - processPackages [databricks-connect]: Start processing: drdroid-sdk
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-05-02 08:09:11] INFO root fetch - processPackages [drdroid-sdk]: New version: [2.0.0] Old Version: [0.1.0]
+[2023-05-02 08:09:11] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 18896454>=10485760
+[2023-05-02 08:09:11] INFO root fetch - processPackages [jupyterlab-visualpython]: Start processing: mylib041
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-05-02 08:09:11] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14851234>=10485760
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-05-02 08:09:11] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-02 08:09:11] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3rc287.post1.tar.gz tmp/gpt-review-0.2.3rc291.post1.tar.gz --markdown 20230502/g/gpt-review/0.2.3rc287.post1-0.2.3rc291.post1/diff.md --exclude *.pyd
+[2023-05-02 08:09:11] WARNING root fetch - processPackages [mylib041]: Skipping, unable to determine old version
+[2023-05-02 08:09:11] INFO root fetch - main [MainThread]: End processing [mylib041] error
+[2023-05-02 08:09:11] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/8e/28/61e46feaca7a58e61722f1389b5523fa03a25a19e5b680cc224b97fc50c1/odoo_addons_oca_partner_contact-16.0.20230501.0-py3-none-any.whl
+[2023-05-02 08:09:12] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-05-02 08:09:12] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230502/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 08:09:12] INFO root fetch - processPackages [hiyobot]: Downloading https://files.pythonhosted.org/packages/29/5e/58aa39a379bc2fcd02c03574cfe71d308fe069682edda9c9722e1d6f8b65/hiyobot-0.1.5.tar.gz
+[2023-05-02 08:09:12] INFO root fetch - processPackages [hiyobot]: executing diffoscope
+[2023-05-02 08:09:12] INFO root fetch - processPackages [hiyobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiyobot-0.1.4.tar.gz tmp/hiyobot-0.1.5.tar.gz --markdown 20230502/h/hiyobot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 08:09:12] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-05-02 08:09:12] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.87.tar.gz tmp/je_api_testka_dev-0.0.9.tar.gz --markdown 20230502/j/je-api-testka-dev/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:09:12] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2023-05-02 08:09:12] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20230422.0-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20230501.0-py3-none-any.whl.zip --markdown 20230502/o/odoo-addons-oca-partner-contact/16.0.20230422.0-16.0.20230501.0/diff.md --exclude *.pyd
+[2023-05-02 08:09:12] INFO root fetch - processPackages [drdroid-sdk]: Downloading https://files.pythonhosted.org/packages/cf/85/3c868ea611ea7ff0a087759a8aa8c1c44b8e0279703c4cb8e613156b7e21/drdroid-sdk-0.1.0.tar.gz
+[2023-05-02 08:09:12] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/28/0b/73b7ddc8be95d3d8d875bd5abb10581c39041d414984118d81ede29b2e53/pyg-nightly-2.4.0.dev20230502.tar.gz
+[2023-05-02 08:09:12] INFO root fetch - processPackages [drdroid-sdk]: Downloading https://files.pythonhosted.org/packages/5d/49/a0121b3fb7b58877c6e3fb4f052174f985c5da22167f8bdb67b89577caf4/drdroid-sdk-2.0.0.tar.gz
+[2023-05-02 08:09:12] INFO root fetch - processPackages [drdroid-sdk]: executing diffoscope
+[2023-05-02 08:09:12] INFO root fetch - processPackages [drdroid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drdroid-sdk-0.1.0.tar.gz tmp/drdroid-sdk-2.0.0.tar.gz --markdown 20230502/d/drdroid-sdk/0.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-02 08:09:12] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-02 08:09:12] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230501.tar.gz tmp/pyg-nightly-2.4.0.dev20230502.tar.gz --markdown 20230502/p/pyg-nightly/2.4.0.dev20230501-2.4.0.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [hiyobot]: success
+[2023-05-02 08:09:13] INFO root fetch - main [MainThread]: End processing [drdroid-sdk]: success
+[2023-05-02 08:09:19] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-02 08:09:19] INFO root fetch - main [MainThread]: Store serial: [17936804]
