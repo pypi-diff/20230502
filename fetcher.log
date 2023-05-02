@@ -13433,3 +13433,119 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:11:04] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-02 15:11:53] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-02 15:11:53] INFO root fetch - main [MainThread]: Store serial: [17940972]
+[2023-05-02 15:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940972]
+[2023-05-02 15:17:11] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abba-python
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-braincube-dev
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysnid
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: goatl
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-braincube-dev
+[2023-05-02 15:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TuoTuo
+[2023-05-02 15:17:11] INFO root fetch - processPackages [pysnid]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [goatl]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [TuoTuo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [abba-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 15:17:11] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.8.tar.gz tmp/core-braincube-dev-0.0.9.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 15:17:11] INFO root fetch - processPackages [pysnid]: executing diffoscope
+[2023-05-02 15:17:11] INFO root fetch - processPackages [pysnid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnid-0.4.2.tar.gz tmp/pysnid-0.4.3.tar.gz --markdown 20230502/p/pysnid/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-02 15:17:11] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 15:17:11] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.1.3.tar.gz tmp/TuoTuo-0.1.4.tar.gz --markdown 20230502/T/TuoTuo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 15:17:11] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 15:17:11] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.8.tar.gz tmp/core-braincube-dev-0.0.9.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 15:17:11] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-02 15:17:11] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-02 15:17:11] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.5.4.tar.gz tmp/goatl-0.5.5.tar.gz --markdown 20230502/g/goatl/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-02 15:17:11] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:17:12] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-02 15:17:12] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230502/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:17:12] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-02 15:17:12] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230502/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:17:12] INFO root fetch - processPackages [abba-python]: Downloading https://files.pythonhosted.org/packages/08/2c/748b83f48190473687c21f4339ff818e0fdeca97d0203f4c2b4a07eaf9c9/abba_python-0.1.9.tar.gz
+[2023-05-02 15:17:12] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-02 15:17:12] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230502/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:17:12] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-02 15:17:12] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230502/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-02 15:17:12] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-02 15:17:12] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.8.tar.gz tmp/abba_python-0.1.9.tar.gz --markdown 20230502/a/abba-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 15:17:13] INFO root fetch - processPackages [pysnid]: Start processing: abba-python
+[2023-05-02 15:17:13] INFO root fetch - main [MainThread]: End processing [pysnid]: success
+[2023-05-02 15:17:13] INFO root fetch - processPackages [abba-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 15:17:13] INFO root fetch - processPackages [core-braincube-dev]: Start processing: nbdev-sphinx
+[2023-05-02 15:17:13] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 15:17:13] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-02 15:17:13] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.8.tar.gz tmp/abba_python-0.1.9.tar.gz --markdown 20230502/a/abba-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 15:17:13] INFO root fetch - processPackages [goatl]: Start processing: power-grid-model
+[2023-05-02 15:17:13] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-02 15:17:13] INFO root fetch - processPackages [core-braincube-dev]: Start processing: openworld-sdk-python-core
+[2023-05-02 15:17:13] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 15:17:13] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:17:13] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9166510100968] Old Version: [1.5.0rc9165501361799]
+[2023-05-02 15:17:13] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-02 15:17:13] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230502/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:17:13] INFO root fetch - processPackages [openworld-sdk-python-core]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-02 15:17:13] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-05-02 15:17:13] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9165501361799-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip --markdown 20230502/p/power-grid-model/1.5.0rc9165501361799-1.5.0rc9166510100968/diff.md --exclude *.pyd
+[2023-05-02 15:17:13] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/a4/4d/766ff44b18fd01e88bfa44936c6dbedb94d4b85ea9121458847657a414a2/openworld-sdk-python-core-0.5.0.tar.gz
+[2023-05-02 15:17:14] INFO root fetch - processPackages [abba-python]: Start processing: nbdev-django
+[2023-05-02 15:17:14] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-02 15:17:14] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:17:14] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-02 15:17:14] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230502/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:17:14] INFO root fetch - processPackages [openworld-sdk-python-core]: Downloading https://files.pythonhosted.org/packages/fa/98/cbcbbb2d0ea4f69f74ede774dacec70f5e7009944f6672bbc953acb4a591/openworld-sdk-python-core-0.6.0.tar.gz
+[2023-05-02 15:17:14] INFO root fetch - processPackages [openworld-sdk-python-core]: executing diffoscope
+[2023-05-02 15:17:14] INFO root fetch - processPackages [openworld-sdk-python-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-core-0.5.0.tar.gz tmp/openworld-sdk-python-core-0.6.0.tar.gz --markdown 20230502/o/openworld-sdk-python-core/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 15:17:14] INFO root fetch - processPackages [abba-python]: Start processing: granular-engine
+[2023-05-02 15:17:14] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-02 15:17:14] INFO root fetch - processPackages [granular-engine]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-02 15:17:14] INFO root fetch - processPackages [nbdev-scipy]: Start processing: oking
+[2023-05-02 15:17:14] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-02 15:17:14] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-02 15:17:14] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: aligned
+[2023-05-02 15:17:14] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-02 15:17:14] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-02 15:17:14] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-02 15:17:14] INFO root fetch - processPackages [oking]: Start processing: drb-driver-zarr
+[2023-05-02 15:17:14] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-02 15:17:15] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: atlite
+[2023-05-02 15:17:15] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-02 15:17:15] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-05-02 15:17:15] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-02 15:17:15] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.2.tar.gz tmp/granular_engine-0.2.3.tar.gz --markdown 20230502/g/granular-engine/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-02 15:17:15] INFO root fetch - processPackages [drb-driver-zarr]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-02 15:17:15] INFO root fetch - processPackages [atlite]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 15:17:15] INFO root fetch - processPackages [drb-driver-zarr]: Downloading https://files.pythonhosted.org/packages/45/41/6711e240cb6f3a3225d847d99cda9eaf72ad703451d37405c6458d5c29cb/drb-driver-zarr-1.1.0.tar.gz
+[2023-05-02 15:17:15] INFO root fetch - processPackages [atlite]: Downloading https://files.pythonhosted.org/packages/57/2b/103b427e3f61a023c5cbf7fb8fc774202f12f848bb758943c9f47c2292d5/atlite-0.2.8-py2.py3-none-any.whl
+[2023-05-02 15:17:15] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-05-02 15:17:15] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230502/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-05-02 15:17:15] INFO root fetch - processPackages [openworld-sdk-python-core]: Start processing: nonebot-plugin-zyk-lightNVL
+[2023-05-02 15:17:15] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-core]: success
+[2023-05-02 15:17:15] INFO root fetch - processPackages [atlite]: Downloading https://files.pythonhosted.org/packages/b8/9b/a6a430b97b831ee72a82bb6833016a7249bcca5fa8a147ff803a26d63255/atlite-0.2.9.tar.gz
+[2023-05-02 15:17:15] INFO root fetch - processPackages [drb-driver-zarr]: Downloading https://files.pythonhosted.org/packages/97/33/8d316f87c2b92dcb6ff35067257795d9834c760e89cc1b93600c42d4d701/drb-driver-zarr-1.2.0.tar.gz
+[2023-05-02 15:17:15] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: New version: [0.3.0] Old Version: [0.2]
+[2023-05-02 15:17:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-02 15:17:16] INFO root fetch - processPackages [drb-driver-zarr]: executing diffoscope
+[2023-05-02 15:17:16] INFO root fetch - processPackages [drb-driver-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-zarr-1.1.0.tar.gz tmp/drb-driver-zarr-1.2.0.tar.gz --markdown 20230502/d/drb-driver-zarr/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 15:17:16] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-02 15:17:16] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-02 15:17:16] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 15:17:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: Downloading https://files.pythonhosted.org/packages/5d/30/7add931a71c91df9c68f491f2af7cacfb73ec7175c602ac783990fc8aad1/nonebot_plugin_zyk_lightNVL-0.3.0.tar.gz
+[2023-05-02 15:17:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: executing diffoscope
+[2023-05-02 15:17:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zyk_lightNVL-0.2.tar.gz tmp/nonebot_plugin_zyk_lightNVL-0.3.0.tar.gz --markdown 20230502/n/nonebot-plugin-zyk-lightNVL/0.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 15:17:17] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-05-02 15:17:17] INFO root fetch - main [MainThread]: End processing [drb-driver-zarr]: success
+[2023-05-02 15:17:17] INFO root fetch - processPackages [atlite]: executing diffoscope
+[2023-05-02 15:17:17] INFO root fetch - processPackages [atlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlite-0.2.8-py2.py3-none-any.whl.zip tmp/atlite-0.2.9.tar.gz --markdown 20230502/a/atlite/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 15:17:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-02 15:17:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zyk-lightNVL]: success
+[2023-05-02 15:17:20] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-05-02 15:17:21] INFO root fetch - main [MainThread]: End processing [atlite]: success
+[2023-05-02 15:17:21] INFO root fetch - main [MainThread]: Store serial: [17941038]
