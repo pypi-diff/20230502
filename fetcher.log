@@ -5922,3 +5922,47 @@
 [2023-05-02 06:51:43] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-05-02 06:51:57] INFO root fetch - main [MainThread]: End processing [twigs]: success
 [2023-05-02 06:51:57] INFO root fetch - main [MainThread]: Store serial: [17936276]
+[2023-05-02 06:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936276]
+[2023-05-02 06:57:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chia-blockchain
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coconut-develop
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo10-addon-l10n-it-sdi-channel
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-plotly-wagtail
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unit-syntax
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-l10n-it-sdi-channel
+[2023-05-02 06:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beartype
+[2023-05-02 06:57:07] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.0rc5] Old Version: [1.8.0rc4]
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo11-addon-l10n-it-sdi-channel]: New version: [11.0.1.0.0.99.dev5] Old Version: [11.0.1.0.0.99.dev4]
+[2023-05-02 06:57:07] WARNING root fetch - processPackages [django-plotly-wagtail]: Skipping, unable to determine old version
+[2023-05-02 06:57:07] INFO root fetch - main [MainThread]: End processing [django-plotly-wagtail] error
+[2023-05-02 06:57:07] INFO root fetch - processPackages [unit-syntax]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo10-addon-l10n-it-sdi-channel]: New version: [10.0.1.2.0.99.dev9] Old Version: [10.0.1.2.0.99.dev8]
+[2023-05-02 06:57:07] INFO root fetch - processPackages [beartype]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 06:57:07] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-05-02 06:57:07] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/e8/ff/2c2d413858988941991d63d1d1e94f3b1edfa56a375d89d7560624622c67/unit_syntax-0.1.0.tar.gz
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo10-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/e8/28/f255c18bb6e364161cb1d7fba1a0c41b4987094e2df305e66d99779dc94e/odoo10_addon_l10n_it_sdi_channel-10.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-05-02 06:57:07] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/6b/c7/a73fbaa2f2abc1120e6d16cfb89cdb6f7ea3ba8e715dbc324ac1aafe7b4b/beartype-0.9.0.tar.gz
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo11-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/8e/5d/e9f72e1066aedd8285749811b9aa66a13cad58c275c16ad9c6f4df08916d/odoo11_addon_l10n_it_sdi_channel-11.0.1.0.0.99.dev5-py2.py3-none-any.whl
+[2023-05-02 06:57:07] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/91/c1/dfc97137e1d64d021cfb75f641070b87458c428881d25a5bcdcd27f73554/chia-blockchain-1.8.0rc5.tar.gz
+[2023-05-02 06:57:07] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-05-02 06:57:07] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230502/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo11-addon-l10n-it-sdi-channel]: executing diffoscope
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo11-addon-l10n-it-sdi-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_sdi_channel-11.0.1.0.0.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_sdi_channel-11.0.1.0.0.99.dev5-py2.py3-none-any.whl.zip --markdown 20230502/o/odoo11-addon-l10n-it-sdi-channel/11.0.1.0.0.99.dev4-11.0.1.0.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-02 06:57:07] INFO root fetch - processPackages [unit-syntax]: Downloading https://files.pythonhosted.org/packages/7a/4c/3ff787d93bd95edc2b8c14eb7788cc4cb0cf12a61e74eb06269e5d419e3d/unit_syntax-0.1.1.tar.gz
+[2023-05-02 06:57:07] INFO root fetch - processPackages [odoo10-addon-l10n-it-sdi-channel]: Downloading https://files.pythonhosted.org/packages/f8/da/d777157d1d8db989fd049adf30f3a7d6cb5a40a0585f7ee74d6000d09873/odoo10_addon_l10n_it_sdi_channel-10.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-05-02 06:57:08] INFO root fetch - processPackages [unit-syntax]: executing diffoscope
+[2023-05-02 06:57:08] INFO root fetch - processPackages [unit-syntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit_syntax-0.1.0.tar.gz tmp/unit_syntax-0.1.1.tar.gz --markdown 20230502/u/unit-syntax/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 06:57:08] INFO root fetch - processPackages [odoo10-addon-l10n-it-sdi-channel]: executing diffoscope
+[2023-05-02 06:57:08] INFO root fetch - processPackages [odoo10-addon-l10n-it-sdi-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_sdi_channel-10.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_sdi_channel-10.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230502/o/odoo10-addon-l10n-it-sdi-channel/10.0.1.2.0.99.dev8-10.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-02 06:57:08] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/ef/16/11a1509d5cd7f3760101edda30f66b28367f2793178bea57745733e92076/beartype-0.9.1.tar.gz
+[2023-05-02 06:57:08] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-05-02 06:57:08] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0rc4.tar.gz tmp/chia-blockchain-1.8.0rc5.tar.gz --markdown 20230502/c/chia-blockchain/1.8.0rc4-1.8.0rc5/diff.md --exclude *.pyd
+[2023-05-02 06:57:08] INFO root fetch - processPackages [beartype]: executing diffoscope
+[2023-05-02 06:57:08] INFO root fetch - processPackages [beartype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beartype-0.9.0.tar.gz tmp/beartype-0.9.1.tar.gz --markdown 20230502/b/beartype/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 06:57:09] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-sdi-channel]: success
+[2023-05-02 06:57:09] INFO root fetch - main [MainThread]: End processing [unit-syntax]: success
+[2023-05-02 06:57:09] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-sdi-channel]: success
+[2023-05-02 06:57:09] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-05-02 06:57:12] INFO root fetch - main [MainThread]: End processing [beartype]: success
+[2023-05-02 06:57:20] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-05-02 06:57:20] INFO root fetch - main [MainThread]: Store serial: [17936298]
