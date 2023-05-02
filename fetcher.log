@@ -19868,3 +19868,148 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 20:38:58] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
 [2023-05-02 20:39:03] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-02 20:39:03] INFO root fetch - main [MainThread]: Store serial: [17945404]
+[2023-05-02 20:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17945404]
+[2023-05-02 20:44:12] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-02 20:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syntheval
+[2023-05-02 20:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qp-prob
+[2023-05-02 20:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-utilities
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdsr-fewspy
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-github
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: happydomain
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptwatch
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-okta
+[2023-05-02 20:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-engine-terraform
+[2023-05-02 20:44:13] INFO root fetch - processPackages [google-cloud-utilities]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [qp-prob]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 20:44:13] WARNING root fetch - processPackages [syntheval]: Skipping, unable to determine old version
+[2023-05-02 20:44:13] INFO root fetch - processPackages [promptwatch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [happydomain]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [syntheval]: Start processing: secure-pickle
+[2023-05-02 20:44:13] INFO root fetch - main [MainThread]: End processing [syntheval] error
+[2023-05-02 20:44:13] INFO root fetch - processPackages [hdsr-fewspy]: New version: [1.6] Old Version: [1.5]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.0a1683051638] Old Version: [5.9.0a1682375936]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-okta]: New version: [3.9.0a1652715097] Old Version: [3.9.0a1650909822]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [secure-pickle]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 20:44:13] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230502/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [google-cloud-utilities]: Downloading https://files.pythonhosted.org/packages/49/e0/8a41e5b868758b968ce34a7f115e336b66bd5395c765d1ec30ec460dc922/google_cloud_utilities-0.0.3.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [secure-pickle]: Downloading https://files.pythonhosted.org/packages/95/a7/381fb030a0a19912b9d8008dc6fb683dfe8100e5eee261a76f1be5c08adc/secure_pickle-0.0.2.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [happydomain]: Downloading https://files.pythonhosted.org/packages/86/6f/66b2efdf4010237e90aa711f2caa94ced925d8bd19f9a1321f38e8b0f0b4/happydomain-0.0.7.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/68/31/17afe20e90d5d7f849b5c2f8e9fdaea58b077fb3c83e866ea0e84c694d50/hdsr_fewspy-1.6.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/f5/a4/2f4087cfeedaf6c2e5db7486ef05c0f2ac7ff8223bdb8b12027e4ea02112/pulumi_okta-3.9.0a1650909822.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [qp-prob]: Downloading https://files.pythonhosted.org/packages/83/1b/8c24d53a09ab2865574f83b876aa0e04572d77376f556ad369ec3d9c8336/qp-prob-0.8.3.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230502/x/xia-engine-terraform/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/f7/0c/c7ca66825d349d49d3614ade8246834e7ea921c44c07f4ad0e4617d0427b/promptwatch-0.0.3.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/84/15/27855aa900ae459e54689448760ea42cb34a3ea089b57e668bc92cb9f131/pulumi_github-5.9.0a1683051638.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [google-cloud-utilities]: Downloading https://files.pythonhosted.org/packages/8d/7c/0eb5c8bf56621f5017bf456446d60ec702a76035f54a326557fcfdc1a5c7/google_cloud_utilities-0.0.4.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [qp-prob]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [qp-prob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qp-prob-0.8.2.tar.gz tmp/qp-prob-0.8.3.tar.gz --markdown 20230502/q/qp-prob/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.0.2.tar.gz tmp/promptwatch-0.0.3.tar.gz --markdown 20230502/p/promptwatch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1682375936.tar.gz tmp/pulumi_github-5.9.0a1683051638.tar.gz --markdown 20230502/p/pulumi-github/5.9.0a1682375936-5.9.0a1683051638/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [google-cloud-utilities]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [google-cloud-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_utilities-0.0.3.tar.gz tmp/google_cloud_utilities-0.0.4.tar.gz --markdown 20230502/g/google-cloud-utilities/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [secure-pickle]: Downloading https://files.pythonhosted.org/packages/89/a4/f4f31d8220641118821b11241c2285ae8f8d6011a77d72990ae15bd18e28/secure_pickle-0.0.3.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [happydomain]: Downloading https://files.pythonhosted.org/packages/00/9c/7b42a4c9efe0b0a309ed40f84ec29630d418a9c127ef1aef922e6599caf9/happydomain-0.1.0.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/d8/2c/5d5f7005f00e1dba3bd8b51ceaca9a35c45e1f1b54574d0a70abc34b825a/pulumi_okta-3.9.0a1652715097.tar.gz
+[2023-05-02 20:44:13] INFO root fetch - processPackages [happydomain]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [happydomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happydomain-0.0.7.tar.gz tmp/happydomain-0.1.0.tar.gz --markdown 20230502/h/happydomain/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [hdsr-fewspy]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [hdsr-fewspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_fewspy-1.5.tar.gz tmp/hdsr_fewspy-1.6.tar.gz --markdown 20230502/h/hdsr-fewspy/1.5-1.6/diff.md --exclude *.pyd
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-05-02 20:44:13] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-3.9.0a1650909822.tar.gz tmp/pulumi_okta-3.9.0a1652715097.tar.gz --markdown 20230502/p/pulumi-okta/3.9.0a1650909822-3.9.0a1652715097/diff.md --exclude *.pyd
+[2023-05-02 20:44:14] INFO root fetch - processPackages [secure-pickle]: executing diffoscope
+[2023-05-02 20:44:14] INFO root fetch - processPackages [secure-pickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_pickle-0.0.2.tar.gz tmp/secure_pickle-0.0.3.tar.gz --markdown 20230502/s/secure-pickle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 20:44:14] INFO root fetch - processPackages [xia-engine-terraform]: Start processing: hakai-api
+[2023-05-02 20:44:14] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-05-02 20:44:14] INFO root fetch - processPackages [hakai-api]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-02 20:44:14] INFO root fetch - processPackages [hakai-api]: Downloading https://files.pythonhosted.org/packages/54/36/b0703c9fb955878f542977152910ee90f4a6be56655aa378536fb2123d10/hakai_api-1.2.0.tar.gz
+[2023-05-02 20:44:14] INFO root fetch - processPackages [google-cloud-utilities]: Start processing: hdcms
+[2023-05-02 20:44:14] INFO root fetch - main [MainThread]: End processing [google-cloud-utilities]: success
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.19]
+[2023-05-02 20:44:15] INFO root fetch - processPackages [promptwatch]: Start processing: flipside
+[2023-05-02 20:44:15] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-05-02 20:44:15] INFO root fetch - processPackages [flipside]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/90/aa/af4fb0ce6d0e240e06a26ab018c10c5a0ec55e3154618bd83577bbaa48b4/hdcms-0.1.19.tar.gz
+[2023-05-02 20:44:15] INFO root fetch - processPackages [happydomain]: Start processing: pynchon
+[2023-05-02 20:44:15] INFO root fetch - main [MainThread]: End processing [happydomain]: success
+[2023-05-02 20:44:15] INFO root fetch - processPackages [pynchon]: New version: [2023.5.2.14.42] Old Version: [2022.12.6.18.30]
+[2023-05-02 20:44:15] INFO root fetch - processPackages [flipside]: Downloading https://files.pythonhosted.org/packages/71/0d/a86acc09be17e37fc1c9854a0ace5f955b4b2a5e18f2e1d8b6c93955bd13/flipside-2.0.2.tar.gz
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hakai-api]: Downloading https://files.pythonhosted.org/packages/7d/67/524180756f42986758c9c79d997dc94ace3a4b1ee23661d7e413ca307660/hakai_api-1.3.0.tar.gz
+[2023-05-02 20:44:15] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/a4/5a/6a97093b23c7c33e193aa6a69780ff07bb26859f0c107fc359efc1c092b5/pynchon-2022.12.6.18.30.tar.gz
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hakai-api]: executing diffoscope
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hakai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakai_api-1.2.0.tar.gz tmp/hakai_api-1.3.0.tar.gz --markdown 20230502/h/hakai-api/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-02 20:44:15] INFO root fetch - processPackages [flipside]: executing diffoscope
+[2023-05-02 20:44:15] INFO root fetch - processPackages [flipside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flipside-2.0.1.tar.gz tmp/flipside-2.0.2.tar.gz --markdown 20230502/f/flipside/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-05-02 20:44:15] INFO root fetch - processPackages [pulumi-github]: Start processing: shroomdk
+[2023-05-02 20:44:15] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-05-02 20:44:15] INFO root fetch - processPackages [pynchon]: Downloading https://files.pythonhosted.org/packages/92/85/d514f94e58fd8100d1c52ca45a7824fbe81b2475173fb96e3ee894a42cff/pynchon-2023.5.2.14.42.tar.gz
+[2023-05-02 20:44:15] INFO root fetch - processPackages [shroomdk]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-05-02 20:44:15] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.19.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230502/h/hdcms/0.1.19-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 20:44:15] INFO root fetch - processPackages [pynchon]: executing diffoscope
+[2023-05-02 20:44:15] INFO root fetch - processPackages [pynchon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynchon-2022.12.6.18.30.tar.gz tmp/pynchon-2023.5.2.14.42.tar.gz --markdown 20230502/p/pynchon/2022.12.6.18.30-2023.5.2.14.42/diff.md --exclude *.pyd
+[2023-05-02 20:44:15] INFO root fetch - processPackages [shroomdk]: Downloading https://files.pythonhosted.org/packages/83/11/85d74a804c4348a1479df2933854f8e9cadbb887006ba4c0ee1ad0ec867c/shroomdk-2.0.2.tar.gz
+[2023-05-02 20:44:16] INFO root fetch - processPackages [shroomdk]: executing diffoscope
+[2023-05-02 20:44:16] INFO root fetch - processPackages [shroomdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shroomdk-2.0.1.tar.gz tmp/shroomdk-2.0.2.tar.gz --markdown 20230502/s/shroomdk/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-02 20:44:16] INFO root fetch - processPackages [hdsr-fewspy]: Start processing: srtlst
+[2023-05-02 20:44:16] INFO root fetch - main [MainThread]: End processing [hdsr-fewspy]: success
+[2023-05-02 20:44:16] INFO root fetch - processPackages [srtlst]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-02 20:44:16] INFO root fetch - processPackages [srtlst]: executing diffoscope
+[2023-05-02 20:44:16] INFO root fetch - processPackages [srtlst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srtlst-0.1.0.tar.gz tmp/srtlst-0.1.1.tar.gz --markdown 20230502/s/srtlst/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 20:44:16] INFO root fetch - processPackages [hakai-api]: Start processing: pulumi-fastly
+[2023-05-02 20:44:16] INFO root fetch - main [MainThread]: End processing [hakai-api]: success
+[2023-05-02 20:44:16] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.4.0a1683051704] Old Version: [7.4.0a1682378133]
+[2023-05-02 20:44:16] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/71/7a/7e1e97b5edda27c2a84ff64788bee7f0b30370dfd5c00777de2350c0e2cf/pulumi_fastly-7.4.0a1683051704.tar.gz
+[2023-05-02 20:44:16] INFO root fetch - processPackages [flipside]: Start processing: pulumi-spotinst
+[2023-05-02 20:44:16] INFO root fetch - main [MainThread]: End processing [flipside]: success
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.4.0a1682378133.tar.gz tmp/pulumi_fastly-7.4.0a1683051704.tar.gz --markdown 20230502/p/pulumi-fastly/7.4.0a1682378133-7.4.0a1683051704/diff.md --exclude *.pyd
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pynchon]: Start processing: dask-sphinx-theme
+[2023-05-02 20:44:17] INFO root fetch - main [MainThread]: End processing [pynchon]: success
+[2023-05-02 20:44:17] INFO root fetch - processPackages [dask-sphinx-theme]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230502/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-05-02 20:44:17] INFO root fetch - processPackages [dask-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/78/eb/a5195ca45badaaeb4ec45a7bb94e24a126e084958f0585be2fa3d6acc5db/dask_sphinx_theme-3.0.3.tar.gz
+[2023-05-02 20:44:17] INFO root fetch - processPackages [srtlst]: Start processing: spotipy-playlists2excel
+[2023-05-02 20:44:17] INFO root fetch - main [MainThread]: End processing [srtlst]: success
+[2023-05-02 20:44:17] INFO root fetch - processPackages [shroomdk]: Start processing: pulumi-auth0
+[2023-05-02 20:44:17] INFO root fetch - main [MainThread]: End processing [shroomdk]: success
+[2023-05-02 20:44:17] WARNING root fetch - processPackages [spotipy-playlists2excel]: Skipping, unable to determine old version
+[2023-05-02 20:44:17] INFO root fetch - processPackages [spotipy-playlists2excel]: Start processing: titan-iris
+[2023-05-02 20:44:17] INFO root fetch - main [MainThread]: End processing [spotipy-playlists2excel] error
+[2023-05-02 20:44:17] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-02 20:44:17] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-05-02 20:44:17] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-02 20:44:17] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230502/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-02 20:44:17] INFO root fetch - processPackages [dask-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/37/a1/8b9c8e1937e074df35a072c8daea431c43dc0cd27d7812ac861c704e01f3/dask_sphinx_theme-3.0.4.tar.gz
+[2023-05-02 20:44:18] INFO root fetch - processPackages [dask-sphinx-theme]: executing diffoscope
+[2023-05-02 20:44:18] INFO root fetch - processPackages [dask-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_sphinx_theme-3.0.3.tar.gz tmp/dask_sphinx_theme-3.0.4.tar.gz --markdown 20230502/d/dask-sphinx-theme/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-05-02 20:44:18] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-05-02 20:44:18] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230502/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-05-02 20:44:18] INFO root fetch - processPackages [qp-prob]: Start processing: enough
+[2023-05-02 20:44:18] INFO root fetch - main [MainThread]: End processing [qp-prob]: success
+[2023-05-02 20:44:18] INFO root fetch - processPackages [enough]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-02 20:44:18] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-05-02 20:44:18] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-05-02 20:44:18] INFO root fetch - processPackages [enough]: Downloading https://files.pythonhosted.org/packages/50/9b/6ea82fdea9b2845e199d7fad429c0d59e5051c584d2ebc8dd1bc8994d024/enough-2.2.8.tar.gz
+[2023-05-02 20:44:19] INFO root fetch - main [MainThread]: End processing [dask-sphinx-theme]: success
+[2023-05-02 20:44:19] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-02 20:44:19] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-05-02 20:44:19] INFO root fetch - main [MainThread]: End processing [secure-pickle]: success
+[2023-05-02 20:44:20] INFO root fetch - processPackages [enough]: Downloading https://files.pythonhosted.org/packages/4f/81/999139ff303999e3aaee84084e050f5640abeea079d6f770bd3997370e16/enough-2.2.9.tar.gz
+[2023-05-02 20:44:21] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-05-02 20:44:22] INFO root fetch - processPackages [enough]: executing diffoscope
+[2023-05-02 20:44:22] INFO root fetch - processPackages [enough]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enough-2.2.8.tar.gz tmp/enough-2.2.9.tar.gz --markdown 20230502/e/enough/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-02 20:44:22] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-05-02 20:44:22] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-05-02 20:47:22] ERROR root fetch - processPackages [enough]: Timeout during execution of pkgdiff
+[2023-05-02 20:47:22] INFO root fetch - main [MainThread]: End processing [enough] error
+[2023-05-02 20:47:22] INFO root fetch - main [MainThread]: Store serial: [17945477]
