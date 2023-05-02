@@ -9586,3 +9586,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 11:21:43] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
 [2023-05-02 11:21:44] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-05-02 11:21:44] INFO root fetch - main [MainThread]: Store serial: [17938469]
+[2023-05-02 11:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938469]
+[2023-05-02 11:26:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: issue-db-api
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tksheet
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recon-lw
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cz-conventional-gitmoji
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-traefiklabs
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanolayer
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Products.MeetingLalouviere
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-eks-karpenter
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udps
+[2023-05-02 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Jlab
+[2023-05-02 11:26:53] INFO root fetch - processPackages [issue-db-api]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4859014312] Old Version: [2.0.0.dev4851718718]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-02 11:26:53] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230502/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Products.MeetingLalouviere]: New version: [4.2.1] Old Version: [4.2.0rc4]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [cz-conventional-gitmoji]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [mkdocs-traefiklabs]: New version: [100.0.9] Old Version: [100.0.8]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-05-02 11:26:53] WARNING root fetch - processPackages [udps]: Skipping, unable to determine old version
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230502/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-02 11:26:53] INFO root fetch - processPackages [udps]: Start processing: dsw-database
+[2023-05-02 11:26:53] INFO root fetch - main [MainThread]: End processing [udps] error
+[2023-05-02 11:26:53] INFO root fetch - processPackages [cdk-eks-karpenter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [tksheet]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-02 11:26:53] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-02 11:26:53] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4851718718.tar.gz tmp/recon_lw-2.0.0.dev4859014312.tar.gz --markdown 20230502/r/recon-lw/2.0.0.dev4851718718-2.0.0.dev4859014312/diff.md --exclude *.pyd
+[2023-05-02 11:26:53] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.6.2.tar.gz tmp/issue_db_api-0.6.3.tar.gz --markdown 20230502/i/issue-db-api/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-02 11:26:53] INFO root fetch - processPackages [cz-conventional-gitmoji]: Downloading https://files.pythonhosted.org/packages/8a/57/ebeeeaf77efb5d326baf26982913ec3d5c3ea3e42bbf516b966c1963d423/cz_conventional_gitmoji-0.1.2.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [dsw-database]: New version: [3.23.0] Old Version: [3.22.1]
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/b9/66/f554067c1fdcee87c81c70898a14ef0ae4e462e9d82e1d65598b2d0a2002/Products.MeetingLalouviere-4.2.1.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/25/22/3cd0001147dde7e28df6625053eead4e2cd59fcc37d39100dd51a87604a6/cdk-eks-karpenter-0.0.7.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [mkdocs-traefiklabs]: Downloading https://files.pythonhosted.org/packages/ad/17/8bd14a394939cc4a03eda06a40097006500d6491111f67ba0e42fd9e4b49/mkdocs-traefiklabs-100.0.8.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/a4/18/4ab649c061d4705270949e369da8b41226b044fffcfbf909018ff19930e0/dsw-database-3.22.1.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/b7/3f/283001f5c8d032ab85b4141760e44b324b58834a49ca8ac321d73e780219/tksheet-6.0.4.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [cz-conventional-gitmoji]: Downloading https://files.pythonhosted.org/packages/b6/59/adfab84e9276bc47e607ba04ea52916332be804f2975c6541416a5243a53/cz_conventional_gitmoji-0.1.3.tar.gz
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Products.MeetingLalouviere]: executing diffoscope
+[2023-05-02 11:26:53] INFO root fetch - processPackages [Products.MeetingLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingLalouviere-4.2.0rc4.tar.gz tmp/Products.MeetingLalouviere-4.2.1.tar.gz --markdown 20230502/P/Products.MeetingLalouviere/4.2.0rc4-4.2.1/diff.md --exclude *.pyd
+[2023-05-02 11:26:53] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2023-05-02 11:26:53] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-6.0.3.tar.gz tmp/tksheet-6.0.4.tar.gz --markdown 20230502/t/tksheet/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-05-02 11:26:54] INFO root fetch - processPackages [cz-conventional-gitmoji]: executing diffoscope
+[2023-05-02 11:26:54] INFO root fetch - processPackages [cz-conventional-gitmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_conventional_gitmoji-0.1.2.tar.gz tmp/cz_conventional_gitmoji-0.1.3.tar.gz --markdown 20230502/c/cz-conventional-gitmoji/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 11:26:54] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/35/cb/6a31105ff93bfdea63be488fac398e74b4181bc434bae88969d67829f592/dsw-database-3.23.0.tar.gz
+[2023-05-02 11:26:54] INFO root fetch - processPackages [dsw-database]: executing diffoscope
+[2023-05-02 11:26:54] INFO root fetch - processPackages [dsw-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-database-3.22.1.tar.gz tmp/dsw-database-3.23.0.tar.gz --markdown 20230502/d/dsw-database/3.22.1-3.23.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:54] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/f0/f5/e0e7d6df216e8c13dd208a660f9c67d945ce533f249211e96610b87c1c67/cdk-eks-karpenter-0.0.8.tar.gz
+[2023-05-02 11:26:54] INFO root fetch - processPackages [cdk-eks-karpenter]: executing diffoscope
+[2023-05-02 11:26:54] INFO root fetch - processPackages [cdk-eks-karpenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-karpenter-0.0.7.tar.gz tmp/cdk-eks-karpenter-0.0.8.tar.gz --markdown 20230502/c/cdk-eks-karpenter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 11:26:54] INFO root fetch - processPackages [recon-lw]: Start processing: dsw-config
+[2023-05-02 11:26:54] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-02 11:26:54] INFO root fetch - processPackages [Jlab]: Start processing: dsw-command-queue
+[2023-05-02 11:26:54] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-05-02 11:26:54] INFO root fetch - processPackages [nanolayer]: Start processing: dsw-models
+[2023-05-02 11:26:54] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-02 11:26:54] INFO root fetch - processPackages [dsw-config]: New version: [3.23.0] Old Version: [3.22.1]
+[2023-05-02 11:26:54] INFO root fetch - processPackages [dsw-command-queue]: New version: [3.23.0] Old Version: [3.22.1]
+[2023-05-02 11:26:54] INFO root fetch - processPackages [dsw-models]: New version: [3.23.0] Old Version: [3.22.1]
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/cb/db/d018d43f0bd2045a85ff20e5d644dcfe304e73b28e78894dca0bf88609ac/dsw-config-3.22.1.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/3e/f6/47522b48c73cdcf230724a325246ed3ececdc1779312667f207982ec92d1/dsw-command-queue-3.22.1.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/25/b0/c9051d97cb5c1da758ca6be5ab6f104e0172d1de4a348527930d38b12e42/dsw-models-3.22.1.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [mkdocs-traefiklabs]: Downloading https://files.pythonhosted.org/packages/46/f4/43b7f9fe2039cd63f400a71969aca934f97e9f96829cd31e928f2718c2cd/mkdocs-traefiklabs-100.0.9.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/40/f3/d1d72119e8dca38b2429b6aa5a234ccbb8bbfcf7a768af89201643bb46ea/dsw-config-3.23.0.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/ca/c5/4ef446974eb5840098468846f5db363b5dc44854c423ed09a744d139b89c/dsw-command-queue-3.23.0.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/c9/9e/6e87bb5894f2a2a88f34b8cb2ebe4e955140d9becaf1d3dd0aee51cdbf3f/dsw-models-3.23.0.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-database]: Start processing: dsw-tdk
+[2023-05-02 11:26:55] INFO root fetch - main [MainThread]: End processing [dsw-database]: success
+[2023-05-02 11:26:55] INFO root fetch - processPackages [cz-conventional-gitmoji]: Start processing: dsw-storage
+[2023-05-02 11:26:55] INFO root fetch - main [MainThread]: End processing [cz-conventional-gitmoji]: success
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-config]: executing diffoscope
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-config-3.22.1.tar.gz tmp/dsw-config-3.23.0.tar.gz --markdown 20230502/d/dsw-config/3.22.1-3.23.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-command-queue]: executing diffoscope
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-command-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-command-queue-3.22.1.tar.gz tmp/dsw-command-queue-3.23.0.tar.gz --markdown 20230502/d/dsw-command-queue/3.22.1-3.23.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-models]: executing diffoscope
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-models-3.22.1.tar.gz tmp/dsw-models-3.23.0.tar.gz --markdown 20230502/d/dsw-models/3.22.1-3.23.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-tdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-storage]: New version: [3.23.0] Old Version: [3.22.1]
+[2023-05-02 11:26:55] INFO root fetch - processPackages [tksheet]: Start processing: django-bootstrap-modal-forms
+[2023-05-02 11:26:55] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2023-05-02 11:26:55] INFO root fetch - processPackages [django-bootstrap-modal-forms]: New version: [3.0.0] Old Version: [2.2.1]
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/49/a5/97e62ad725a08a351055c0dec289369428ed8405344fa96af05e8d02e5ea/dsw-tdk-3.8.0.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/a4/97/69569cc061de86de217848a84a2c0300993de66564ac484bfb6b4cde6907/dsw-storage-3.22.1.tar.gz
+[2023-05-02 11:26:55] INFO root fetch - processPackages [cdk-eks-karpenter]: Start processing: ratsnlp
+[2023-05-02 11:26:55] INFO root fetch - main [MainThread]: End processing [cdk-eks-karpenter]: success
+[2023-05-02 11:26:55] INFO root fetch - processPackages [issue-db-api]: Start processing: OctoBot-Services
+[2023-05-02 11:26:55] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-02 11:26:55] INFO root fetch - processPackages [ratsnlp]: New version: [1.0.53] Old Version: [1.0.52]
+[2023-05-02 11:26:56] INFO root fetch - processPackages [OctoBot-Services]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-05-02 11:26:56] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/a3/a0/3e8b72319d80c9850ef7913acdfa4cd3be27f56b02999c4feeae76f1b281/dsw-storage-3.23.0.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/e6/22/1df5f0817ea3b3e038995c9fd42ba3152c3cef9595e173d161482976f698/dsw-tdk-3.9.0.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Downloading https://files.pythonhosted.org/packages/5a/c3/41fd115510ffee8c6958e314c9900137dc2452e862e5cb59beabd41c8dba/django-bootstrap-modal-forms-2.2.1.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [ratsnlp]: Downloading https://files.pythonhosted.org/packages/30/3f/91120c706f82699aaa0cdd0f17eae31bb1e55b55a83975b0396eb243c280/ratsnlp-1.0.52.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [dsw-storage]: executing diffoscope
+[2023-05-02 11:26:56] INFO root fetch - processPackages [dsw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-storage-3.22.1.tar.gz tmp/dsw-storage-3.23.0.tar.gz --markdown 20230502/d/dsw-storage/3.22.1-3.23.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:56] INFO root fetch - processPackages [OctoBot-Services]: Downloading https://files.pythonhosted.org/packages/4f/45/7f6437fb5746a083630236fe3bee8505b73b71243f0653eaca0fbc160927/OctoBot-Services-1.5.5.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Downloading https://files.pythonhosted.org/packages/12/be/139fdb84e83d1ee7938857d599efab5fbd2ad4e8b72c623ca6be2e612c22/django-bootstrap-modal-forms-3.0.0.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [ratsnlp]: Downloading https://files.pythonhosted.org/packages/44/42/f0ee303799e5e8f2d52e4c7dffafe066bb4a99e98e581c7a7d49b562e568/ratsnlp-1.0.53.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [OctoBot-Services]: Downloading https://files.pythonhosted.org/packages/b5/1b/fb8469838d728da1bcaf8f480193be3f9672acf08d97290a1947b585ea9f/OctoBot-Services-1.5.6.tar.gz
+[2023-05-02 11:26:56] INFO root fetch - processPackages [dsw-tdk]: executing diffoscope
+[2023-05-02 11:26:56] INFO root fetch - processPackages [dsw-tdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-tdk-3.8.0.tar.gz tmp/dsw-tdk-3.9.0.tar.gz --markdown 20230502/d/dsw-tdk/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:56] INFO root fetch - processPackages [mkdocs-traefiklabs]: executing diffoscope
+[2023-05-02 11:26:56] INFO root fetch - processPackages [mkdocs-traefiklabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-traefiklabs-100.0.8.tar.gz tmp/mkdocs-traefiklabs-100.0.9.tar.gz --markdown 20230502/m/mkdocs-traefiklabs/100.0.8-100.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:26:56] INFO root fetch - processPackages [ratsnlp]: executing diffoscope
+[2023-05-02 11:26:56] INFO root fetch - processPackages [ratsnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratsnlp-1.0.52.tar.gz tmp/ratsnlp-1.0.53.tar.gz --markdown 20230502/r/ratsnlp/1.0.52-1.0.53/diff.md --exclude *.pyd
+[2023-05-02 11:26:56] INFO root fetch - processPackages [django-bootstrap-modal-forms]: executing diffoscope
+[2023-05-02 11:26:56] INFO root fetch - processPackages [django-bootstrap-modal-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap-modal-forms-2.2.1.tar.gz tmp/django-bootstrap-modal-forms-3.0.0.tar.gz --markdown 20230502/d/django-bootstrap-modal-forms/2.2.1-3.0.0/diff.md --exclude *.pyd
+[2023-05-02 11:26:56] INFO root fetch - processPackages [OctoBot-Services]: executing diffoscope
+[2023-05-02 11:26:56] INFO root fetch - processPackages [OctoBot-Services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Services-1.5.5.tar.gz tmp/OctoBot-Services-1.5.6.tar.gz --markdown 20230502/O/OctoBot-Services/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-05-02 11:26:56] INFO root fetch - main [MainThread]: End processing [dsw-config]: success
+[2023-05-02 11:26:56] INFO root fetch - main [MainThread]: End processing [dsw-command-queue]: success
+[2023-05-02 11:26:56] INFO root fetch - main [MainThread]: End processing [dsw-models]: success
+[2023-05-02 11:26:57] INFO root fetch - main [MainThread]: End processing [dsw-storage]: success
+[2023-05-02 11:26:57] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
+[2023-05-02 11:26:58] INFO root fetch - main [MainThread]: End processing [ratsnlp]: success
+[2023-05-02 11:26:58] INFO root fetch - main [MainThread]: End processing [OctoBot-Services]: success
+[2023-05-02 11:26:58] INFO root fetch - main [MainThread]: End processing [django-bootstrap-modal-forms]: success
+[2023-05-02 11:26:59] INFO root fetch - main [MainThread]: End processing [Products.MeetingLalouviere]: success
+[2023-05-02 11:29:56] ERROR root fetch - processPackages [mkdocs-traefiklabs]: Timeout during execution of pkgdiff
+[2023-05-02 11:29:56] INFO root fetch - main [MainThread]: End processing [mkdocs-traefiklabs] error
+[2023-05-02 11:29:56] INFO root fetch - main [MainThread]: Store serial: [17938528]
