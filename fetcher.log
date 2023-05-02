@@ -23508,3 +23508,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 23:49:50] INFO root fetch - main [MainThread]: End processing [sfkit]: success
 [2023-05-02 23:50:00] INFO root fetch - main [MainThread]: End processing [pyccel]: success
 [2023-05-02 23:50:00] INFO root fetch - main [MainThread]: Store serial: [17947502]
+[2023-05-02 23:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17947502]
+[2023-05-02 23:55:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybravia
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ghanashops-scraper
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aij-news-publisher
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extr
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Coquille
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt4free
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: felupe
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbcmgr
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: 360monitoringcli
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ix-aims
+[2023-05-02 23:55:09] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ghanashops-scraper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [pybravia]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [aij-news-publisher]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [Coquille]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [gpt4free]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [ix-aims]: New version: [0.1.1rc1] Old Version: [0.1.0]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [360monitoringcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [cbcmgr]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [felupe]: New version: [7.4.1] Old Version: [7.4.0]
+[2023-05-02 23:55:09] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-05-02 23:55:09] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230502/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [gpt4free]: Downloading https://files.pythonhosted.org/packages/1c/ec/bad71a1d62734b593dcb3ae18dec035ed1918a78fb1834918c266542604d/gpt4free-1.0.1.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ghanashops-scraper]: Downloading https://files.pythonhosted.org/packages/35/ef/084a063e5467160c504c802daa5c5222b8a50c502af758c06ab0e84d8859/ghanashops-scraper-0.0.3.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/c4/ba/51688cea6b20ec31767ddf084012e637ebc0129996f7cc1c01204a403e82/Coquille-0.1.3.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/b7/0a/7f936769c05f423ec4a046617ae9c5d5256b349dfa2bd0d6861009301ce7/ix_aims-0.1.0.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [aij-news-publisher]: Downloading https://files.pythonhosted.org/packages/12/1f/8f99b440d4342f02bff6e50f5cfcc0cb34b60d2f58577251625ed1fede94/aij-news-publisher-1.0.3.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/3d/ee/f312adcc3cae8adb254c4252789964e18506b9a64d30b34f49b308edfa18/cbcmgr-1.1.9.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [pybravia]: Downloading https://files.pythonhosted.org/packages/d4/76/dbbfe87fc2092e5cf0a94c25f38c2e001d48950907aa71d67188bd9e1ac2/pybravia-0.3.2.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ghanashops-scraper]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ghanashops-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghanashops-scraper-0.0.2.tar.gz tmp/ghanashops-scraper-0.0.3.tar.gz --markdown 20230502/g/ghanashops-scraper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-0.1.2.tar.gz tmp/Coquille-0.1.3.tar.gz --markdown 20230502/C/Coquille/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [aij-news-publisher]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [aij-news-publisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aij-news-publisher-1.0.2.tar.gz tmp/aij-news-publisher-1.0.3.tar.gz --markdown 20230502/a/aij-news-publisher/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [gpt4free]: Downloading https://files.pythonhosted.org/packages/06/e4/8e26b78a429e5afe97699e90c3af45f4fca792c0f499e45c620e66b66930/gpt4free-1.0.2.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/b1/66/50c21e5b82cbab86d5b4126b5dc3c025562d64bfd6998e61703aafaf0e65/felupe-7.4.1.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/6e/8f/254046d3a92fb000709eae6213b670dffab65ca41dd8095b716e514d2de2/ix_aims-0.1.1rc1.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [360monitoringcli]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [360monitoringcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/360monitoringcli-1.0.8.tar.gz tmp/360monitoringcli-1.0.9.tar.gz --markdown 20230502/3/360monitoringcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [felupe]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [felupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felupe-7.4.0.tar.gz tmp/felupe-7.4.1.tar.gz --markdown 20230502/f/felupe/7.4.0-7.4.1/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [gpt4free]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [gpt4free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4free-1.0.1.tar.gz tmp/gpt4free-1.0.2.tar.gz --markdown 20230502/g/gpt4free/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [pybravia]: Downloading https://files.pythonhosted.org/packages/12/43/fd81712606851288cf85a0811efca6f09ee5dd375cf4d116477048ac8dbd/pybravia-0.3.3.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/91/25/feefe0d35bbb2fb958a458c7c5f7cb6cf883cf0ab1622552fadad3cfc302/cbcmgr-1.2.0.tar.gz
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.0.tar.gz tmp/ix_aims-0.1.1rc1.tar.gz --markdown 20230502/i/ix-aims/0.1.0-0.1.1rc1/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.1.9.tar.gz tmp/cbcmgr-1.2.0.tar.gz --markdown 20230502/c/cbcmgr/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 23:55:10] INFO root fetch - processPackages [pybravia]: executing diffoscope
+[2023-05-02 23:55:10] INFO root fetch - processPackages [pybravia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybravia-0.3.2.tar.gz tmp/pybravia-0.3.3.tar.gz --markdown 20230502/p/pybravia/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-02 23:55:11] INFO root fetch - processPackages [ghanashops-scraper]: Start processing: CoLT5-attention
+[2023-05-02 23:55:11] INFO root fetch - main [MainThread]: End processing [ghanashops-scraper]: success
+[2023-05-02 23:55:11] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-02 23:55:11] INFO root fetch - processPackages [extr]: Start processing: dkist-processing-vbi
+[2023-05-02 23:55:11] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-05-02 23:55:11] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-02 23:55:11] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/f1/db/d90447b836922fd5e9c6ae1ee0a2dad1819603e06506bc2e3e9ffa15a47b/CoLT5-attention-0.4.4.tar.gz
+[2023-05-02 23:55:11] INFO root fetch - processPackages [aij-news-publisher]: Start processing: telegpt
+[2023-05-02 23:55:11] INFO root fetch - main [MainThread]: End processing [aij-news-publisher]: success
+[2023-05-02 23:55:11] WARNING root fetch - processPackages [telegpt]: Skipping, unable to determine old version
+[2023-05-02 23:55:11] INFO root fetch - processPackages [telegpt]: Start processing: phot2lc
+[2023-05-02 23:55:11] INFO root fetch - main [MainThread]: End processing [telegpt] error
+[2023-05-02 23:55:11] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-05-02 23:55:11] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.4.3.tar.gz tmp/CoLT5-attention-0.4.4.tar.gz --markdown 20230502/C/CoLT5-attention/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-02 23:55:11] INFO root fetch - processPackages [phot2lc]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-05-02 23:55:11] INFO root fetch - processPackages [gpt4free]: Start processing: forecast-weather
+[2023-05-02 23:55:11] INFO root fetch - main [MainThread]: End processing [gpt4free]: success
+[2023-05-02 23:55:11] INFO root fetch - processPackages [forecast-weather]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 23:55:12] INFO root fetch - processPackages [ix-aims]: Start processing: rattail
+[2023-05-02 23:55:12] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-02 23:55:12] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/69/52/ca06bfe09029e6d47d24248ff375cab514180208f48f32c5b90647d4265e/dkist_processing_vbi-1.2.0.tar.gz
+[2023-05-02 23:55:12] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-02 23:55:12] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-05-02 23:55:12] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2023-05-02 23:55:12] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.1.9.tar.gz tmp/dkist_processing_vbi-1.2.0.tar.gz --markdown 20230502/d/dkist-processing-vbi/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 23:55:12] INFO root fetch - processPackages [phot2lc]: Downloading https://files.pythonhosted.org/packages/1c/28/e5565f7ea76d02dcbcd989f880cd804ce9f03b86b435f3dfe5339d509b75/phot2lc-1.7.6.tar.gz
+[2023-05-02 23:55:12] INFO root fetch - processPackages [forecast-weather]: Downloading https://files.pythonhosted.org/packages/c8/e6/3fa36e9901ecd395aceb9e5b619012b6e61b64137e90d4e9b744991faef4/forecast-weather-0.1.1.tar.gz
+[2023-05-02 23:55:12] INFO root fetch - main [MainThread]: End processing [pybravia]: success
+[2023-05-02 23:55:12] INFO root fetch - processPackages [phot2lc]: executing diffoscope
+[2023-05-02 23:55:12] INFO root fetch - processPackages [phot2lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phot2lc-1.7.5.tar.gz tmp/phot2lc-1.7.6.tar.gz --markdown 20230502/p/phot2lc/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-05-02 23:55:12] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-05-02 23:55:12] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230502/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-02 23:55:12] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-05-02 23:55:12] INFO root fetch - main [MainThread]: End processing [360monitoringcli]: success
+[2023-05-02 23:55:12] INFO root fetch - processPackages [forecast-weather]: Downloading https://files.pythonhosted.org/packages/49/ec/6c8c94712ce5bfc61937f9e0b9df0c2147c7f04f5d20243d57fa7081cf2b/forecast-weather-0.1.2.tar.gz
+[2023-05-02 23:55:12] INFO root fetch - processPackages [forecast-weather]: executing diffoscope
+[2023-05-02 23:55:12] INFO root fetch - processPackages [forecast-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecast-weather-0.1.1.tar.gz tmp/forecast-weather-0.1.2.tar.gz --markdown 20230502/f/forecast-weather/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 23:55:12] INFO root fetch - main [MainThread]: End processing [felupe]: success
+[2023-05-02 23:55:13] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-05-02 23:55:13] INFO root fetch - main [MainThread]: End processing [phot2lc]: success
+[2023-05-02 23:55:13] INFO root fetch - main [MainThread]: End processing [forecast-weather]: success
+[2023-05-02 23:55:16] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-05-02 23:55:37] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2023-05-02 23:55:37] INFO root fetch - main [MainThread]: Store serial: [17947546]
