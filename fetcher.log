@@ -11987,3 +11987,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 13:54:14] INFO root fetch - main [MainThread]: End processing [variation-normalizer]: success
 [2023-05-02 13:54:21] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-02 13:54:21] INFO root fetch - main [MainThread]: Store serial: [17940011]
+[2023-05-02 13:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940011]
+[2023-05-02 13:59:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResponsePrediction
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TuoTuo
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sarus-data-spec-public
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmlc-testapp
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swh.loader.bzr
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: core-braincube-dev
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-braincube-dev
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oking
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: landingzone-organization
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ftrixminer
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ResponsePrediction]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [tmlc-testapp]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [swh.loader.bzr]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.2.1.dev0] Old Version: [3.0.3.dev0]
+[2023-05-02 13:59:31] WARNING root fetch - processPackages [landingzone-organization]: Skipping, unable to determine old version
+[2023-05-02 13:59:31] INFO root fetch - processPackages [landingzone-organization]: Start processing: ephysiopy
+[2023-05-02 13:59:31] INFO root fetch - main [MainThread]: End processing [landingzone-organization] error
+[2023-05-02 13:59:31] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 13:59:31] WARNING root fetch - processPackages [TuoTuo]: Skipping, unable to determine old version
+[2023-05-02 13:59:31] INFO root fetch - processPackages [TuoTuo]: Start processing: pydeps
+[2023-05-02 13:59:31] INFO root fetch - main [MainThread]: End processing [TuoTuo] error
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ftrixminer]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.15] Old Version: [1.9.13]
+[2023-05-02 13:59:31] INFO root fetch - processPackages [swh.loader.bzr]: Downloading https://files.pythonhosted.org/packages/e8/31/e895310f63e9cfa60b95bddf3cd42c0c8709e136498d89bf20fede16432a/swh.loader.bzr-1.3.2.tar.gz
+[2023-05-02 13:59:31] INFO root fetch - processPackages [core-braincube-dev]: Downloading https://files.pythonhosted.org/packages/5f/9e/ffc3a903e7a084e40b987458c2bb45218cb2b40da01511fb705d37ed2f79/core-braincube-dev-0.0.5.tar.gz
+[2023-05-02 13:59:31] INFO root fetch - processPackages [ResponsePrediction]: Downloading https://files.pythonhosted.org/packages/a4/df/373d1134aa592d65edfa008c49ccc3013da25aa3a8fcea7a9c8335cbcfc3/ResponsePrediction-0.0.3.tar.gz
+[2023-05-02 13:59:31] INFO root fetch - processPackages [core-braincube-dev]: Downloading https://files.pythonhosted.org/packages/5f/9e/ffc3a903e7a084e40b987458c2bb45218cb2b40da01511fb705d37ed2f79/core-braincube-dev-0.0.5.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.4.tar.gz tmp/core-braincube-dev-0.0.5.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.4.tar.gz tmp/core-braincube-dev-0.0.5.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [tmlc-testapp]: Downloading https://files.pythonhosted.org/packages/1c/b9/c4a7ffb970666fa6220fb25ef2bebe6e3b2ba5a59293fe2aaecd197a4abd/tmlc-testapp-0.0.3.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [pydeps]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/0e/15/dda909306dbf3fc4454d50dfbaf730bd206a15ce9b7a6ac6d81f41025b84/ephysiopy-1.9.13.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/96/df/f0e9486b8d7304a2720e8eb336b5ebf8b3b677a93f1040b0bbda4c42e1bf/sarus_data_spec_public-3.2.1.dev0.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [tmlc-testapp]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [tmlc-testapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlc-testapp-0.0.1.tar.gz tmp/tmlc-testapp-0.0.3.tar.gz --markdown 20230502/t/tmlc-testapp/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.0.3.dev0.tar.gz tmp/sarus_data_spec_public-3.2.1.dev0.tar.gz --markdown 20230502/s/sarus-data-spec-public/3.0.3.dev0-3.2.1.dev0/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [swh.loader.bzr]: Downloading https://files.pythonhosted.org/packages/fb/f0/a057f5cac4163483bf0884648516d3e0e4080c30191c40c050489921f0bf/swh.loader.bzr-1.3.3.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ResponsePrediction]: Downloading https://files.pythonhosted.org/packages/29/75/68035794501364db2200089a238052b20bba837d5a735ae8a92a15f7830b/ResponsePrediction-0.0.4.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ResponsePrediction]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ResponsePrediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ResponsePrediction-0.0.3.tar.gz tmp/ResponsePrediction-0.0.4.tar.gz --markdown 20230502/R/ResponsePrediction/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [swh.loader.bzr]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [swh.loader.bzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.loader.bzr-1.3.2.tar.gz tmp/swh.loader.bzr-1.3.3.tar.gz --markdown 20230502/s/swh.loader.bzr/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ftrixminer]: Downloading https://files.pythonhosted.org/packages/6b/cb/ea37c06482754ed74648b696b191ef4767143cf1fb3631b313192e527b8d/ftrixminer-1.2.0.tar.gz
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/06/10/a084a4e3dbd43ea2a3a7777d14427f71705a2fba30da2e3bff70cf01769b/ephysiopy-1.9.15.tar.gz
+[2023-05-02 13:59:32] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-02 13:59:32] INFO root fetch - processPackages [pydeps]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-02 13:59:32] INFO root fetch - processPackages [pydeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeps-1.9.8.tar.gz tmp/pydeps-1.9.9.tar.gz --markdown 20230502/p/pydeps/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ftrixminer]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ftrixminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrixminer-1.1.1.tar.gz tmp/ftrixminer-1.2.0.tar.gz --markdown 20230502/f/ftrixminer/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-05-02 13:59:32] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.13.tar.gz tmp/ephysiopy-1.9.15.tar.gz --markdown 20230502/e/ephysiopy/1.9.13-1.9.15/diff.md --exclude *.pyd
+[2023-05-02 13:59:33] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 13:59:33] INFO root fetch - main [MainThread]: End processing [tmlc-testapp]: success
+[2023-05-02 13:59:33] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 13:59:33] INFO root fetch - main [MainThread]: End processing [pydeps]: success
+[2023-05-02 13:59:33] INFO root fetch - main [MainThread]: End processing [ResponsePrediction]: success
+[2023-05-02 13:59:34] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-05-02 13:59:34] INFO root fetch - main [MainThread]: End processing [swh.loader.bzr]: success
+[2023-05-02 13:59:34] INFO root fetch - main [MainThread]: End processing [ftrixminer]: success
+[2023-05-02 13:59:36] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-02 13:59:36] INFO root fetch - main [MainThread]: Store serial: [17940050]
