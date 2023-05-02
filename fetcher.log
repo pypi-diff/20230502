@@ -17380,3 +17380,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 18:25:55] INFO root fetch - main [MainThread]: End processing [scooby]: success
 [2023-05-02 18:25:55] INFO root fetch - main [MainThread]: End processing [cs-models]: success
 [2023-05-02 18:25:55] INFO root fetch - main [MainThread]: Store serial: [17943575]
+[2023-05-02 18:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943575]
+[2023-05-02 18:31:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytamer
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-client
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-models
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-protos
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-sdk
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nvidia-dali-nightly-cuda110
+[2023-05-02 18:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twitter-api-py
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [pytamer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [twitter-api-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] WARNING root fetch - processPackages [nvidia-dali-nightly-cuda110]: Skipping, unable to determine old version
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: pqam-dparamhu2021
+[2023-05-02 18:31:05] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110] error
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.4.post234] Old Version: [2.8.4.post233]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [pqam-dparamhu2021]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/42/21/2cfe154484515e56930dcd3c1c775b3360e401d3ca3c87459b0e6ef60fff/nucliadb-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/37/3a/a0b0299f71fc78e913577ea58521ebe8172d729d914a7b8dcf4029b5a751/nucliadb_dataset-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/95/8b/5f61f55f8c2a713e3e9001466c1019343ad2fcf6a53ffba9b0d387f2ea89/nucliadb_sdk-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/25/22/8cba55e63fa84bb9e233f6809d7a1f4cf5b14528a58e842d8327ad6004ba/nucliadb_models-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/e3/c3/b9b622d31a05f6c3ba82a1a46695102328443303462684a60f9bdb4c6493/nucliadb_client-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/d1/8c/394785eeae61d04e43da998b854db80d00aef35b4817aa17ad0c9c446597/pqam_dparamhu2021-0.1.4.tar.gz
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/be/3a/0702b6e20d3f51efe45a9ad6f73a7240403769b95b8c1073a935bb2aec9e/nucliadb_protos-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [pytamer]: Downloading https://files.pythonhosted.org/packages/b8/5b/e874027aaecbfd99dd298c2233d835fc8c62ededc6d8380608360da146f4/pytamer-0.1.8-cp39-cp39-win_amd64.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/62/69/7879f3545bbc5bcbe5f58f843f782670be6a360a227be2e2dabb1066070b/twitter_api_py-0.3.1.tar.gz
+[2023-05-02 18:31:05] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/61/95/5d0445d48ae89c8669188aa7340e78f56d8b08343862bb27166bc2399368/nucliadb_utils-2.8.4.post233-py3-none-any.whl
+[2023-05-02 18:31:05] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-02 18:31:05] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.3.0.tar.gz tmp/twitter_api_py-0.3.1.tar.gz --markdown 20230502/t/twitter-api-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/60/9f/d413a5fb94fda28f133d897f0ae4ca1d11c280387ecefbd2305dc2255082/nucliadb-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/cf/14/0511d9f42804689d68431af218f0cd1368f8fb2852838c115e86a4a0cda1/nucliadb_sdk-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/a0/ce/b466bfc265aafdbec5fb7ac0f66a2ab522af2527e92de83a127f41ad609b/nucliadb_dataset-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/d1/85/ffd593b9a9d6011a114b73c35b1fbbc6a7cc21bb21e44034c49c2326c5a4/nucliadb_client-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9d/06/29025bbe9801398fdbf0f2ef05d5368091196d8ecd2337c28847c184368e/nucliadb_models-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a5/77/0a537b97a81e1417c257f1909aff13400aa867a3034e5faa8ead425dcd36/nucliadb_utils-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-sdk/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-dataset/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb_client-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-client/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/67/9d/e181790adacc8cecfe77cab122c77c22553f531720efe5232f29ccf17665/nucliadb_protos-2.8.4.post234-py3-none-any.whl
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb_models-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-models/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-utils/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-02 18:31:06] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.4.post233-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.4.post234-py3-none-any.whl.zip --markdown 20230502/n/nucliadb-protos/2.8.4.post233-2.8.4.post234/diff.md --exclude *.pyd
+[2023-05-02 18:31:07] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/db/83/04fa85f425aafd8cad6a05a6cb604184c02a69be8ca4d4698d4a3a8a1be8/pqam_dparamhu2021-0.1.5.tar.gz
+[2023-05-02 18:31:07] INFO root fetch - processPackages [pytamer]: Downloading https://files.pythonhosted.org/packages/bd/75/c64c1686792601a958eedba4a55d17cac6b9affff863b88cf013a2a0db2d/pytamer-0.1.9-cp39-cp39-win_amd64.whl
+[2023-05-02 18:31:07] INFO root fetch - processPackages [pqam-dparamhu2021]: executing diffoscope
+[2023-05-02 18:31:07] INFO root fetch - processPackages [pqam-dparamhu2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqam_dparamhu2021-0.1.4.tar.gz tmp/pqam_dparamhu2021-0.1.5.tar.gz --markdown 20230502/p/pqam-dparamhu2021/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 18:31:07] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: pycof
+[2023-05-02 18:31:07] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-02 18:31:07] INFO root fetch - processPackages [pycof]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-02 18:31:07] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: firefly
+[2023-05-02 18:31:07] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-02 18:31:07] INFO root fetch - processPackages [firefly]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-05-02 18:31:07] INFO root fetch - processPackages [nucliadb-client]: Start processing: fortigate-api
+[2023-05-02 18:31:07] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-02 18:31:07] INFO root fetch - processPackages [fortigate-api]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-02 18:31:07] INFO root fetch - processPackages [nucliadb-models]: Start processing: berteley
+[2023-05-02 18:31:07] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-02 18:31:07] INFO root fetch - processPackages [firefly]: Downloading https://files.pythonhosted.org/packages/df/34/ed8ba86dd097658ed6732c51dda6b091887f5d434e59b90dc3b4fe4a885b/firefly-3.2.2.tar.gz
+[2023-05-02 18:31:07] INFO root fetch - processPackages [pycof]: Downloading https://files.pythonhosted.org/packages/3a/3b/1085f827a625b5b0683f3966a65f2c73ef8bca375f11ca4de818b90e8eb2/pycof-1.5.3.tar.gz
+[2023-05-02 18:31:07] INFO root fetch - processPackages [nucliadb-protos]: Start processing: statinf
+[2023-05-02 18:31:07] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-02 18:31:07] INFO root fetch - processPackages [berteley]: New version: [0.0.8] Old Version: [0.0.3]
+[2023-05-02 18:31:08] INFO root fetch - processPackages [statinf]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-02 18:31:08] INFO root fetch - processPackages [fortigate-api]: Downloading https://files.pythonhosted.org/packages/e8/7c/8a5874b4c33c5d79dde57561a31d17572258dd0555c1aac7e278b6c46c68/fortigate_api-1.2.4.tar.gz
+[2023-05-02 18:31:08] INFO root fetch - processPackages [nucliadb-utils]: Start processing: lesscode-tool
+[2023-05-02 18:31:08] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-02 18:31:08] WARNING root fetch - processPackages [lesscode-tool]: Skipping, unable to determine old version
+[2023-05-02 18:31:08] INFO root fetch - processPackages [lesscode-tool]: Start processing: singer-sdk
+[2023-05-02 18:31:08] INFO root fetch - main [MainThread]: End processing [lesscode-tool] error
+[2023-05-02 18:31:08] INFO root fetch - processPackages [pycof]: Downloading https://files.pythonhosted.org/packages/89/cd/0f4b1c8373288b4c9f88596c785dac1b8ae7d584cadfcd0d7c26dc9008c4/pycof-1.5.4.tar.gz
+[2023-05-02 18:31:08] INFO root fetch - processPackages [fortigate-api]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [fortigate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortigate_api-1.2.3.tar.gz tmp/fortigate_api-1.2.4.tar.gz --markdown 20230502/f/fortigate-api/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-02 18:31:08] INFO root fetch - processPackages [pycof]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [pycof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycof-1.5.3.tar.gz tmp/pycof-1.5.4.tar.gz --markdown 20230502/p/pycof/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-02 18:31:08] INFO root fetch - processPackages [singer-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-02 18:31:08] INFO root fetch - processPackages [berteley]: Downloading https://files.pythonhosted.org/packages/37/32/0511ab847c3793b650f7539f2826f85df85711f7959e72fb7e2defd1902f/berteley-0.0.8.tar.gz
+[2023-05-02 18:31:08] INFO root fetch - processPackages [statinf]: Downloading https://files.pythonhosted.org/packages/86/a2/8f863e9517ffab81474732349c0c09118d934b2f15ff39f811e4e1c47de0/statinf-1.2.4.tar.gz
+[2023-05-02 18:31:08] INFO root fetch - processPackages [berteley]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [berteley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berteley-0.0.3.tar.gz tmp/berteley-0.0.8.tar.gz --markdown 20230502/b/berteley/0.0.3-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 18:31:08] INFO root fetch - processPackages [pytamer]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [pytamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytamer-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/pytamer-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230502/p/pytamer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-02 18:31:08] INFO root fetch - processPackages [statinf]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [statinf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statinf-1.2.3.tar.gz tmp/statinf-1.2.4.tar.gz --markdown 20230502/s/statinf/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-02 18:31:08] INFO root fetch - processPackages [singer-sdk]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [singer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singer-sdk-0.8.0.tar.gz tmp/singer-sdk-0.9.0.tar.gz --markdown 20230502/s/singer-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:31:08] INFO root fetch - processPackages [firefly]: Downloading https://files.pythonhosted.org/packages/bd/2f/98b7501a528e79fa31c29ca0a310a80446c5837bc49a9a58495d84294291/firefly-3.2.3.tar.gz
+[2023-05-02 18:31:08] INFO root fetch - processPackages [firefly]: executing diffoscope
+[2023-05-02 18:31:08] INFO root fetch - processPackages [firefly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefly-3.2.2.tar.gz tmp/firefly-3.2.3.tar.gz --markdown 20230502/f/firefly/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2023-05-02 18:31:09] INFO root fetch - processPackages [pqam-dparamhu2021]: Start processing: OctoBot-Commons
+[2023-05-02 18:31:09] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
+[2023-05-02 18:31:09] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-05-02 18:31:09] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
+[2023-05-02 18:31:09] INFO root fetch - main [MainThread]: End processing [pycof]: success
+[2023-05-02 18:31:09] INFO root fetch - main [MainThread]: End processing [berteley]: success
+[2023-05-02 18:31:09] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/b2/a8/f40c5ed5d09fa7ab66c43565e05cf62019f389679c52ed361dbe161db2c2/OctoBot-Commons-1.9.0.tar.gz
+[2023-05-02 18:31:09] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-05-02 18:31:09] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.8.9.tar.gz tmp/OctoBot-Commons-1.9.0.tar.gz --markdown 20230502/O/OctoBot-Commons/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:31:10] INFO root fetch - main [MainThread]: End processing [pytamer]: success
+[2023-05-02 18:31:10] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-02 18:31:10] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-02 18:31:11] INFO root fetch - main [MainThread]: End processing [statinf]: success
+[2023-05-02 18:31:11] INFO root fetch - main [MainThread]: End processing [firefly]: success
+[2023-05-02 18:31:12] INFO root fetch - main [MainThread]: End processing [singer-sdk]: success
+[2023-05-02 18:31:12] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-05-02 18:31:12] INFO root fetch - main [MainThread]: Store serial: [17943642]
