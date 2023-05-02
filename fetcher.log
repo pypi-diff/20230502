@@ -17501,3 +17501,142 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 18:31:12] INFO root fetch - main [MainThread]: End processing [singer-sdk]: success
 [2023-05-02 18:31:12] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
 [2023-05-02 18:31:12] INFO root fetch - main [MainThread]: Store serial: [17943642]
+[2023-05-02 18:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943642]
+[2023-05-02 18:36:21] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nalyst
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfg-argparser
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytlab
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feathub-nightly
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceano-algos
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upgini
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hnsqlite
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trove-classifiers
+[2023-05-02 18:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: startgg
+[2023-05-02 18:36:21] WARNING root fetch - processPackages [pytlab]: Skipping, unable to determine old version
+[2023-05-02 18:36:21] INFO root fetch - processPackages [pytlab]: Start processing: netcontrol
+[2023-05-02 18:36:21] INFO root fetch - processPackages [nalyst]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-02 18:36:21] INFO root fetch - main [MainThread]: End processing [pytlab] error
+[2023-05-02 18:36:21] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [cfg-argparser]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [hnsqlite]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-02 18:36:21] WARNING root fetch - processPackages [startgg]: Skipping, unable to determine old version
+[2023-05-02 18:36:21] INFO root fetch - processPackages [startgg]: Start processing: syscryptolibV1
+[2023-05-02 18:36:21] INFO root fetch - main [MainThread]: End processing [startgg] error
+[2023-05-02 18:36:21] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230501] Old Version: [0.1.dev20230430]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [trove-classifiers]: New version: [2023.5.2] Old Version: [2023.4.29]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [netcontrol]: New version: [1.94] Old Version: [1.93]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [cg]: New version: [29.5.4] Old Version: [29.5.3]
+[2023-05-02 18:36:21] WARNING root fetch - processPackages [syscryptolibV1]: Skipping, unable to determine old version
+[2023-05-02 18:36:21] INFO root fetch - processPackages [syscryptolibV1]: Start processing: hdsr-fewspy
+[2023-05-02 18:36:21] INFO root fetch - main [MainThread]: End processing [syscryptolibV1] error
+[2023-05-02 18:36:21] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-02 18:36:21] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230502/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 18:36:21] INFO root fetch - processPackages [hdsr-fewspy]: New version: [1.5] Old Version: [1.4]
+[2023-05-02 18:36:21] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-05-02 18:36:21] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230502/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-02 18:36:21] INFO root fetch - processPackages [netcontrol]: Downloading https://files.pythonhosted.org/packages/cd/e2/27300d660e9481e514c8c6612f71259c7f87306cbf31d18bc55273495e14/netcontrol-1.93.tar.gz
+[2023-05-02 18:36:21] INFO root fetch - processPackages [hnsqlite]: Downloading https://files.pythonhosted.org/packages/29/f1/d20ccac61804fc97226235afce7184eebec7cbed226ac0938871f8554f51/hnsqlite-0.2.0.tar.gz
+[2023-05-02 18:36:21] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/45/9a/8eca272c1525df06f2a566b57368df5f418f80442807b6afad7b172581e2/feathub_nightly-0.1.dev20230501-py3-none-any.whl
+[2023-05-02 18:36:21] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/51/6a/56d7958cf6bba43299142bb9b09a178a27080d620464f5190d48c6cd5290/cg-29.5.3.tar.gz
+[2023-05-02 18:36:21] INFO root fetch - processPackages [nalyst]: Downloading https://files.pythonhosted.org/packages/d0/ae/97f5668f63ae042eaadc380e8933b292250604e929ea3237790f1e9a2bb1/nalyst-0.2.7.tar.gz
+[2023-05-02 18:36:21] INFO root fetch - processPackages [cfg-argparser]: Downloading https://files.pythonhosted.org/packages/64/8a/c6c351bea802ec80b703f965f1ad4d11fe6f6cf26a3a3935a5484d40a43d/cfg-argparser-1.1.1.tar.gz
+[2023-05-02 18:36:21] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/33/75/4e87c5021949ece4171eddebb11ef30d7e787a99c4d24c7dc383dd306a6c/trove-classifiers-2023.5.2.tar.gz
+[2023-05-02 18:36:22] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/ce/ca/a6aafe1ae909699c295a57373c6320fa210843dcfb0ea0b7fe2de391b721/hdsr_fewspy-1.5.tar.gz
+[2023-05-02 18:36:22] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230430-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230501-py3-none-any.whl.zip --markdown 20230502/f/feathub-nightly/0.1.dev20230430-0.1.dev20230501/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [cfg-argparser]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [cfg-argparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfg-argparser-1.1.0.tar.gz tmp/cfg-argparser-1.1.1.tar.gz --markdown 20230502/c/cfg-argparser/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [netcontrol]: Downloading https://files.pythonhosted.org/packages/de/29/420a10a7e4e84d5f9fbafb80c71e980e61816e56ec31b6129b5a52d13071/netcontrol-1.94.tar.gz
+[2023-05-02 18:36:22] INFO root fetch - processPackages [nalyst]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [nalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalyst-0.2.6.tar.gz tmp/nalyst-0.2.7.tar.gz --markdown 20230502/n/nalyst/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [trove-classifiers]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [trove-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-classifiers-2023.4.29.tar.gz tmp/trove-classifiers-2023.5.2.tar.gz --markdown 20230502/t/trove-classifiers/2023.4.29-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [hnsqlite]: Downloading https://files.pythonhosted.org/packages/ac/25/8f573f704ac5547a92919fdfab2d5d5895827251eea46ea4dda593a54499/hnsqlite-0.2.1.tar.gz
+[2023-05-02 18:36:22] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/35/ce/e48ca8ea4a6975b932b7a7dbc22178e9bab314c01e27bcad88af79fa9752/cg-29.5.4.tar.gz
+[2023-05-02 18:36:22] INFO root fetch - processPackages [netcontrol]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [netcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcontrol-1.93.tar.gz tmp/netcontrol-1.94.tar.gz --markdown 20230502/n/netcontrol/1.93-1.94/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [hnsqlite]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [hnsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnsqlite-0.2.0.tar.gz tmp/hnsqlite-0.2.1.tar.gz --markdown 20230502/h/hnsqlite/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [hdsr-fewspy]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [hdsr-fewspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_fewspy-1.4.tar.gz tmp/hdsr_fewspy-1.5.tar.gz --markdown 20230502/h/hdsr-fewspy/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-02 18:36:22] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-02 18:36:22] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.5.3.tar.gz tmp/cg-29.5.4.tar.gz --markdown 20230502/c/cg/29.5.3-29.5.4/diff.md --exclude *.pyd
+[2023-05-02 18:36:23] INFO root fetch - processPackages [oceano-algos]: Start processing: meltano
+[2023-05-02 18:36:23] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-02 18:36:23] INFO root fetch - processPackages [meltano]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-02 18:36:23] INFO root fetch - processPackages [cfg-argparser]: Start processing: chalk-harness
+[2023-05-02 18:36:23] INFO root fetch - main [MainThread]: End processing [cfg-argparser]: success
+[2023-05-02 18:36:23] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 18:36:23] INFO root fetch - processPackages [netcontrol]: Start processing: twitter-api-py
+[2023-05-02 18:36:23] INFO root fetch - main [MainThread]: End processing [netcontrol]: success
+[2023-05-02 18:36:23] INFO root fetch - processPackages [twitter-api-py]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-02 18:36:23] INFO root fetch - processPackages [hnsqlite]: Start processing: netcontrol
+[2023-05-02 18:36:23] INFO root fetch - main [MainThread]: End processing [hnsqlite]: success
+[2023-05-02 18:36:23] INFO root fetch - processPackages [meltano]: executing diffoscope
+[2023-05-02 18:36:23] INFO root fetch - processPackages [meltano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meltano-2.8.0.tar.gz tmp/meltano-2.9.0.tar.gz --markdown 20230502/m/meltano/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:36:23] INFO root fetch - processPackages [netcontrol]: New version: [1.94] Old Version: [1.93]
+[2023-05-02 18:36:23] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/aa/d8/61b146014c466c7101eaf1e069010843abaa4c6fdd0ac0b3cbcf5b4593cc/twitter_api_py-0.3.2.tar.gz
+[2023-05-02 18:36:23] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-05-02 18:36:23] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230502/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 18:36:23] INFO root fetch - processPackages [trove-classifiers]: Start processing: xia-engine
+[2023-05-02 18:36:23] INFO root fetch - main [MainThread]: End processing [trove-classifiers]: success
+[2023-05-02 18:36:23] INFO root fetch - processPackages [netcontrol]: executing diffoscope
+[2023-05-02 18:36:23] INFO root fetch - processPackages [netcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcontrol-1.93.tar.gz tmp/netcontrol-1.94.tar.gz --markdown 20230502/n/netcontrol/1.93-1.94/diff.md --exclude *.pyd
+[2023-05-02 18:36:23] INFO root fetch - processPackages [xia-engine]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-02 18:36:23] INFO root fetch - processPackages [hdsr-fewspy]: Start processing: lesscode-tool
+[2023-05-02 18:36:23] INFO root fetch - main [MainThread]: End processing [hdsr-fewspy]: success
+[2023-05-02 18:36:23] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-02 18:36:23] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.3.1.tar.gz tmp/twitter_api_py-0.3.2.tar.gz --markdown 20230502/t/twitter-api-py/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-02 18:36:23] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 18:36:24] INFO root fetch - processPackages [nalyst]: Start processing: pulpcore
+[2023-05-02 18:36:24] INFO root fetch - main [MainThread]: End processing [nalyst]: success
+[2023-05-02 18:36:24] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/9f/92/80041b4c67acbbf90ed04bf292d59f0ce014dc89862a7f0abda6cfaa02b3/xia_engine-0.8.8-cp39-none-win_amd64.whl
+[2023-05-02 18:36:24] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-02 18:36:24] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/78/ba/2cc7a4f3965ca5043cc78cbc44d56fc58c193e8798239f632cadffd13252/lesscode_tool-0.0.2.tar.gz
+[2023-05-02 18:36:24] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-05-02 18:36:24] INFO root fetch - processPackages [lesscode-tool]: Downloading https://files.pythonhosted.org/packages/ac/64/1090a723e2f829fe705cfa526eb1abda4ee1f36fc95c0dba592788eb8abf/lesscode_tool-0.0.3.tar.gz
+[2023-05-02 18:36:24] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/45/65/3bb06f8c50bf8c5cfd7d4043a68efa9bc6091ada72dd26e8a012cafcea08/xia_engine-0.8.9-cp39-none-macosx_11_0_x86_64.whl
+[2023-05-02 18:36:24] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-02 18:36:24] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.2.tar.gz tmp/lesscode_tool-0.0.3.tar.gz --markdown 20230502/l/lesscode-tool/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 18:36:24] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-05-02 18:36:24] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.8-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.9-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230502/x/xia-engine/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-02 18:36:24] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-05-02 18:36:24] INFO root fetch - processPackages [upgini]: Start processing: moleculekit
+[2023-05-02 18:36:24] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-05-02 18:36:24] INFO root fetch - processPackages [moleculekit]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-02 18:36:24] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-02 18:36:24] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230502/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 18:36:25] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/75/c9/3ed46001d1cc28d02ee2ee30de3377bc39f9545ea0a7b7932b6c31770879/moleculekit-1.6.6.tar.gz
+[2023-05-02 18:36:25] INFO root fetch - processPackages [chalk-harness]: Start processing: pulpcore-client
+[2023-05-02 18:36:25] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-05-02 18:36:25] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-02 18:36:25] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-05-02 18:36:25] INFO root fetch - processPackages [feathub-nightly]: Start processing: hat-drivers
+[2023-05-02 18:36:25] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-05-02 18:36:25] INFO root fetch - processPackages [hat-drivers]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-02 18:36:25] INFO root fetch - processPackages [lesscode-tool]: Start processing: cbra
+[2023-05-02 18:36:25] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-02 18:36:25] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-05-02 18:36:25] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-05-02 18:36:25] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2023-05-02 18:36:25] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.6.5.tar.gz tmp/moleculekit-1.6.6.tar.gz --markdown 20230502/m/moleculekit/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-05-02 18:36:25] INFO root fetch - processPackages [hat-drivers]: executing diffoscope
+[2023-05-02 18:36:25] INFO root fetch - processPackages [hat-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_drivers-0.6.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_drivers-0.6.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230502/h/hat-drivers/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-02 18:36:26] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-05-02 18:36:26] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-02 18:36:26] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230502/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-02 18:36:26] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-02 18:36:26] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-02 18:36:26] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230502/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-02 18:36:26] INFO root fetch - main [MainThread]: End processing [netcontrol]: success
+[2023-05-02 18:36:27] INFO root fetch - main [MainThread]: End processing [hat-drivers]: success
+[2023-05-02 18:36:27] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-02 18:36:28] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-02 18:36:30] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-02 18:36:34] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-02 18:36:34] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2023-05-02 18:39:23] ERROR root fetch - processPackages [meltano]: Timeout during execution of pkgdiff
+[2023-05-02 18:39:23] INFO root fetch - main [MainThread]: End processing [meltano] error
+[2023-05-02 18:39:23] INFO root fetch - main [MainThread]: Store serial: [17943717]
