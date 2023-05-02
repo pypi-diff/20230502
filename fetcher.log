@@ -6561,3 +6561,71 @@
 [2023-05-02 07:48:13] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
 [2023-05-02 07:48:13] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
 [2023-05-02 07:48:13] INFO root fetch - main [MainThread]: Store serial: [17936598]
+[2023-05-02 07:53:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17936598]
+[2023-05-02 07:53:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-extension-functions
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: widecity-image-downloader
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: widecity-image-downloader
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: widecity-image-downloader
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: widecity-image-downloader
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: widecity-image-downloader
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ape-ai
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: code_genie
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SDTcloud
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: misura
+[2023-05-02 07:53:22] INFO root fetch - processPackages [py-extension-functions]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ape-ai]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [SDTcloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.0.8.tar.gz tmp/SDTcloud-0.0.9.tar.gz --markdown 20230502/S/SDTcloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/66/80/59418a19423039912f43dae59b4c952ddb15425fd32719120181db48c06b/widecity_image_downloader-0.0.4.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [code_genie]: New version: [0.2.1.dev0] Old Version: [0.2.0]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/66/80/59418a19423039912f43dae59b4c952ddb15425fd32719120181db48c06b/widecity_image_downloader-0.0.4.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [misura]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/66/80/59418a19423039912f43dae59b4c952ddb15425fd32719120181db48c06b/widecity_image_downloader-0.0.4.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/66/80/59418a19423039912f43dae59b4c952ddb15425fd32719120181db48c06b/widecity_image_downloader-0.0.4.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ape-ai]: Downloading https://files.pythonhosted.org/packages/31/78/9cf8567beb2a5c1067cd69f383fb1156fa065a8c7d80579449e3feea8ec8/ape-ai-0.1.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/66/80/59418a19423039912f43dae59b4c952ddb15425fd32719120181db48c06b/widecity_image_downloader-0.0.4.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [py-extension-functions]: Downloading https://files.pythonhosted.org/packages/c3/18/7c7ae232248723b20d8901cad5615e8c194c8d1a76d8c239da02a4193ae8/py_extension_functions-0.0.7.tar.gz
+[2023-05-02 07:53:22] WARNING root fetch - processPackages [py-extension-functions]: Skipping package: exceeds size limit 18345672>=10485760
+[2023-05-02 07:53:22] INFO root fetch - main [MainThread]: End processing [py-extension-functions] error
+[2023-05-02 07:53:22] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/bb/79/13eee61681db7679ea97b51ca1b3aa4348b44f0775187607086c2bfb3a3e/misura-1.0.0.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/54/8c/25bc3e914c350f56741dca39728b1e5d1e687ffbc52bc7057bbe5af61677/widecity_image_downloader-0.0.5.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/54/8c/25bc3e914c350f56741dca39728b1e5d1e687ffbc52bc7057bbe5af61677/widecity_image_downloader-0.0.5.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/54/8c/25bc3e914c350f56741dca39728b1e5d1e687ffbc52bc7057bbe5af61677/widecity_image_downloader-0.0.5.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/54/8c/25bc3e914c350f56741dca39728b1e5d1e687ffbc52bc7057bbe5af61677/widecity_image_downloader-0.0.5.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: Downloading https://files.pythonhosted.org/packages/54/8c/25bc3e914c350f56741dca39728b1e5d1e687ffbc52bc7057bbe5af61677/widecity_image_downloader-0.0.5.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ape-ai]: Downloading https://files.pythonhosted.org/packages/dd/11/d6d9d9af7195f25512060e9b8b4a9563f8cb2458147c85625bd33b9a7289/ape-ai-0.1.1.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.4.tar.gz tmp/widecity_image_downloader-0.0.5.tar.gz --markdown 20230502/w/widecity-image-downloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.4.tar.gz tmp/widecity_image_downloader-0.0.5.tar.gz --markdown 20230502/w/widecity-image-downloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.4.tar.gz tmp/widecity_image_downloader-0.0.5.tar.gz --markdown 20230502/w/widecity-image-downloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.4.tar.gz tmp/widecity_image_downloader-0.0.5.tar.gz --markdown 20230502/w/widecity-image-downloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [widecity-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widecity_image_downloader-0.0.4.tar.gz tmp/widecity_image_downloader-0.0.5.tar.gz --markdown 20230502/w/widecity-image-downloader/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ape-ai]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [ape-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-ai-0.1.tar.gz tmp/ape-ai-0.1.1.tar.gz --markdown 20230502/a/ape-ai/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-02 07:53:22] INFO root fetch - processPackages [code_genie]: Downloading https://files.pythonhosted.org/packages/2d/2f/58dd6b355063191e9ac804fdf3be63971708bed589cc9395e67906292941/code_genie-0.2.1.dev0.tar.gz
+[2023-05-02 07:53:22] INFO root fetch - processPackages [code_genie]: executing diffoscope
+[2023-05-02 07:53:22] INFO root fetch - processPackages [code_genie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_genie-0.2.0.tar.gz tmp/code_genie-0.2.1.dev0.tar.gz --markdown 20230502/c/code_genie/0.2.0-0.2.1.dev0/diff.md --exclude *.pyd
+[2023-05-02 07:53:23] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/b3/15/005b9ff0e595fe34a42d405c1dd7a83ace7802a2803800e617e6ec26927b/misura-1.1.0.tar.gz
+[2023-05-02 07:53:23] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-05-02 07:53:23] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.0.0.tar.gz tmp/misura-1.1.0.tar.gz --markdown 20230502/m/misura/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 07:53:23] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [ape-ai]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [widecity-image-downloader]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: End processing [code_genie]: success
+[2023-05-02 07:53:24] INFO root fetch - main [MainThread]: Store serial: [17936628]
