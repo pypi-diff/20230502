@@ -16872,3 +16872,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 17:57:11] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-02 17:57:13] INFO root fetch - main [MainThread]: End processing [super-gradients]: success
 [2023-05-02 17:57:13] INFO root fetch - main [MainThread]: Store serial: [17943252]
+[2023-05-02 18:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943252]
+[2023-05-02 18:02:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gemclus
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prince
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neugs-utils
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-prometheus
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rebotics-sdk
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wolfcrypt
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JupyterPiDAQ
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geode-ml
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ratelimitx
+[2023-05-02 18:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataclay
+[2023-05-02 18:02:23] INFO root fetch - processPackages [django-prometheus]: New version: [2.4.0.dev1] Old Version: [2.3.0.dev46]
+[2023-05-02 18:02:23] INFO root fetch - processPackages [JupyterPiDAQ]: New version: [0.8.1.dev0] Old Version: [0.8.0a0]
+[2023-05-02 18:02:23] INFO root fetch - processPackages [geode-ml]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [neugs-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [gemclus]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [prince]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-02 18:02:24] WARNING root fetch - processPackages [ratelimitx]: Skipping, unable to determine old version
+[2023-05-02 18:02:24] INFO root fetch - processPackages [django-prometheus]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [ratelimitx]: Start processing: syssqlite2package
+[2023-05-02 18:02:24] INFO root fetch - main [MainThread]: End processing [ratelimitx] error
+[2023-05-02 18:02:24] INFO root fetch - processPackages [django-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-prometheus-2.3.0.dev46.tar.gz tmp/django-prometheus-2.4.0.dev1.tar.gz --markdown 20230502/d/django-prometheus/2.3.0.dev46-2.4.0.dev1/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [wolfcrypt]: New version: [5.6.0.post0] Old Version: [5.5.4.post0]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [geode-ml]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [geode-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geode-ml-2.6.5.tar.gz tmp/geode-ml-2.6.6.tar.gz --markdown 20230502/g/geode-ml/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [dataclay]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [JupyterPiDAQ]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [JupyterPiDAQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JupyterPiDAQ-0.8.0a0.tar.gz tmp/JupyterPiDAQ-0.8.1.dev0.tar.gz --markdown 20230502/J/JupyterPiDAQ/0.8.0a0-0.8.1.dev0/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] WARNING root fetch - processPackages [syssqlite2package]: Skipping, unable to determine old version
+[2023-05-02 18:02:24] INFO root fetch - processPackages [syssqlite2package]: Start processing: aplr
+[2023-05-02 18:02:24] INFO root fetch - main [MainThread]: End processing [syssqlite2package] error
+[2023-05-02 18:02:24] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/20/7d/52da375fe09db5d8d44708f57d6f3e5c60f6aa30e952f7c6d83c85446460/prince-0.8.3.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [gemclus]: Downloading https://files.pythonhosted.org/packages/d3/4b/945ff9a2d9b1c1ba98eda7eb1d46a1e1658e5998cd05bc2c3f04b1d4f8e0/gemclus-0.0.1.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [wolfcrypt]: Downloading https://files.pythonhosted.org/packages/64/6a/0956e95df36ac42299a3a3d4d41403ac1a7c76b36c31f0c3043c459c1fec/wolfcrypt-5.5.4.post0.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [neugs-utils]: Downloading https://files.pythonhosted.org/packages/36/26/83c0bbd8694b4c08c2ee50d06480d565ad38e8e64b7d51cf511d2bd4bd1e/neugs_utils-0.0.7.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [dataclay]: Downloading https://files.pythonhosted.org/packages/ec/c6/809dffed690dc6e84fed2a3c6bd66ec04e3aa8c02a4bd0d8a254adad6a8f/dataClay-3.0.0a2.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [aplr]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-05-02 18:02:24] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/c8/41/89f84303c51d32f9e88fec8511e7e3d45a80bc4ccd319c0ce15b68aa8136/aplr-2.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-02 18:02:24] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230502/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [wolfcrypt]: Downloading https://files.pythonhosted.org/packages/cb/35/e49e72743735712e5c898b0469be7ae7c5c031fc63217b4dd1ea7e8a29cf/wolfcrypt-5.6.0.post0.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [gemclus]: Downloading https://files.pythonhosted.org/packages/94/0c/f79a951b9fd1b202c15a3018de01ef664a30ecf0592a4ac1241b679b3603/gemclus-0.0.2.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [prince]: Downloading https://files.pythonhosted.org/packages/6b/b3/f75ebfb9886bcbb05ca47cb403dd13dc064d168f15a6f3d7e0cd3b6861c4/prince-0.9.0.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [neugs-utils]: Downloading https://files.pythonhosted.org/packages/73/d8/340e23d5e02dac03df06168d0920b8c0e901de0aa32fa364fcfbd753ca54/neugs_utils-0.0.8.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [dataclay]: Downloading https://files.pythonhosted.org/packages/8c/34/e25d8f44a34b749fdf0151878dc9f2491b984b0a080f8c25c3fc9bab2a0e/dataClay-3.0.0a3.tar.gz
+[2023-05-02 18:02:24] INFO root fetch - processPackages [wolfcrypt]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [wolfcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfcrypt-5.5.4.post0.tar.gz tmp/wolfcrypt-5.6.0.post0.tar.gz --markdown 20230502/w/wolfcrypt/5.5.4.post0-5.6.0.post0/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [gemclus]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [gemclus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemclus-0.0.1.tar.gz tmp/gemclus-0.0.2.tar.gz --markdown 20230502/g/gemclus/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [prince]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [prince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prince-0.8.3.tar.gz tmp/prince-0.9.0.tar.gz --markdown 20230502/p/prince/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [dataclay]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [dataclay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataClay-3.0.0a2.tar.gz tmp/dataClay-3.0.0a3.tar.gz --markdown 20230502/d/dataclay/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/d2/30/37356b824919ea39fa0d60aa28947da6c2c55f712c2fba9d25188d755608/aplr-2.6.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-02 18:02:24] INFO root fetch - processPackages [neugs-utils]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [neugs-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neugs_utils-0.0.7.tar.gz tmp/neugs_utils-0.0.8.tar.gz --markdown 20230502/n/neugs-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-02 18:02:24] INFO root fetch - processPackages [aplr]: executing diffoscope
+[2023-05-02 18:02:24] INFO root fetch - processPackages [aplr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplr-2.5.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aplr-2.6.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230502/a/aplr/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-05-02 18:02:25] INFO root fetch - processPackages [django-prometheus]: Start processing: nvidia-dali-weekly-cuda110
+[2023-05-02 18:02:25] INFO root fetch - main [MainThread]: End processing [django-prometheus]: success
+[2023-05-02 18:02:25] WARNING root fetch - processPackages [nvidia-dali-weekly-cuda110]: Skipping, unable to determine old version
+[2023-05-02 18:02:25] INFO root fetch - processPackages [nvidia-dali-weekly-cuda110]: Start processing: os-brick
+[2023-05-02 18:02:25] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda110] error
+[2023-05-02 18:02:25] INFO root fetch - processPackages [os-brick]: New version: [6.2.1] Old Version: [6.2.0]
+[2023-05-02 18:02:25] INFO root fetch - processPackages [os-brick]: Downloading https://files.pythonhosted.org/packages/e1/56/3af85f0d8b4dfc3bd71d6e1ae0b284c19ca1f5f3aba898c8d54f097cb36c/os-brick-6.2.0.tar.gz
+[2023-05-02 18:02:25] INFO root fetch - processPackages [geode-ml]: Start processing: geode-ml
+[2023-05-02 18:02:25] INFO root fetch - main [MainThread]: End processing [geode-ml]: success
+[2023-05-02 18:02:25] INFO root fetch - processPackages [geode-ml]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-05-02 18:02:25] INFO root fetch - processPackages [JupyterPiDAQ]: Start processing: cinder
+[2023-05-02 18:02:25] INFO root fetch - main [MainThread]: End processing [JupyterPiDAQ]: success
+[2023-05-02 18:02:26] INFO root fetch - processPackages [geode-ml]: Downloading https://files.pythonhosted.org/packages/3b/f7/3b565dbdf175897e39449500590c21e03a757ae9683699048d49a916dc3a/geode-ml-2.6.7.tar.gz
+[2023-05-02 18:02:26] INFO root fetch - processPackages [cinder]: New version: [22.0.0.0rc2] Old Version: [22.0.0.0rc1]
+[2023-05-02 18:02:26] INFO root fetch - processPackages [os-brick]: Downloading https://files.pythonhosted.org/packages/59/65/be611e7aa4d62b4a9ec41afe091b9bc7fb29d01d8a4fd482301234db3620/os-brick-6.2.1.tar.gz
+[2023-05-02 18:02:26] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2023-05-02 18:02:26] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-22.0.0.0rc1.tar.gz tmp/cinder-22.0.0.0rc2.tar.gz --markdown 20230502/c/cinder/22.0.0.0rc1-22.0.0.0rc2/diff.md --exclude *.pyd
+[2023-05-02 18:02:26] INFO root fetch - processPackages [rebotics-sdk]: Start processing: docker-sand
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [prince]: success
+[2023-05-02 18:02:26] INFO root fetch - processPackages [os-brick]: executing diffoscope
+[2023-05-02 18:02:26] INFO root fetch - processPackages [os-brick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os-brick-6.2.0.tar.gz tmp/os-brick-6.2.1.tar.gz --markdown 20230502/o/os-brick/6.2.0-6.2.1/diff.md --exclude *.pyd
+[2023-05-02 18:02:26] INFO root fetch - processPackages [geode-ml]: Downloading https://files.pythonhosted.org/packages/fe/0d/74561a362f0b27f983efbd438c4e8d85198160e01bea0b2791a7bbfd1021/geode-ml-2.6.8.tar.gz
+[2023-05-02 18:02:26] INFO root fetch - processPackages [docker-sand]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [neugs-utils]: success
+[2023-05-02 18:02:26] INFO root fetch - processPackages [geode-ml]: executing diffoscope
+[2023-05-02 18:02:26] INFO root fetch - processPackages [geode-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geode-ml-2.6.7.tar.gz tmp/geode-ml-2.6.8.tar.gz --markdown 20230502/g/geode-ml/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [gemclus]: success
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [aplr]: success
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [wolfcrypt]: success
+[2023-05-02 18:02:26] INFO root fetch - processPackages [docker-sand]: Downloading https://files.pythonhosted.org/packages/ba/ed/296f3a6536f6e2fb020357bf402b329223f0ed97d7ba0a3e7dff754ddc48/docker-sand-0.0.3.tar.gz
+[2023-05-02 18:02:26] INFO root fetch - processPackages [docker-sand]: executing diffoscope
+[2023-05-02 18:02:26] INFO root fetch - processPackages [docker-sand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker-sand-0.0.2.tar.gz tmp/docker-sand-0.0.3.tar.gz --markdown 20230502/d/docker-sand/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-02 18:02:26] INFO root fetch - main [MainThread]: End processing [dataclay]: success
+[2023-05-02 18:02:27] INFO root fetch - main [MainThread]: End processing [geode-ml]: success
+[2023-05-02 18:02:28] INFO root fetch - main [MainThread]: End processing [docker-sand]: success
+[2023-05-02 18:02:28] INFO root fetch - main [MainThread]: End processing [os-brick]: success
+[2023-05-02 18:03:57] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2023-05-02 18:03:57] INFO root fetch - main [MainThread]: Store serial: [17943321]
