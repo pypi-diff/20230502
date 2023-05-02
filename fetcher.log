@@ -13310,3 +13310,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:05:41] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
 [2023-05-02 15:05:41] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
 [2023-05-02 15:05:41] INFO root fetch - main [MainThread]: Store serial: [17940903]
+[2023-05-02 15:10:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940903]
+[2023-05-02 15:10:50] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaaql-monitor
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpa-cooperativa
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abba-python
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SPyOD
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MazgaDB
+[2023-05-02 15:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: halborn-ctf
+[2023-05-02 15:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peak-mas
+[2023-05-02 15:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-bootstrap-modal-forms
+[2023-05-02 15:10:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fedml
+[2023-05-02 15:10:51] INFO root fetch - processPackages [abba-python]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [peak-mas]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [SPyOD]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.17] Old Version: [1.2.16]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [django-bootstrap-modal-forms]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.47] Old Version: [1.0.46]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [MazgaDB]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [halborn-ctf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [fedml]: New version: [0.8.4a9] Old Version: [0.8.4a8]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.2] Old Version: [2023.5.1]
+[2023-05-02 15:10:51] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a8.tar.gz tmp/fedml-0.8.4a9.tar.gz --markdown 20230502/f/fedml/0.8.4a8-0.8.4a9/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/17/a6/fe6d0026602e7428445f3171f74e43b1a19630f494927c1da526234f3492/MazgaDB-1.0.0.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/44/e1/0ec172f9ab0e38cab2a5c29e472e89aa99453c880f2538f3c4f4e93c2b55/halborn_ctf-0.1.1.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/75/89/72a2741ad243fb58d8ae57642a1404a084551ab860e8930055b3b3a2e349/jaaql-monitor-1.2.16.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [SPyOD]: Downloading https://files.pythonhosted.org/packages/8f/12/86e190cc230dacbb332b989229cf316511d39bf0ba6918524838107dce7c/SPyOD-0.1.4.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [peak-mas]: Downloading https://files.pythonhosted.org/packages/77/04/290f48f0a78cc7268eb0f97a596628e2d60fe46c5cd5138fcfb1256fa8a1/peak-mas-1.0.5.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Downloading https://files.pythonhosted.org/packages/17/e8/6f16e28e420283e9521ffaafe5f69a26e32eac2b64c1a8d2dfc1d494f7bb/django-bootstrap-modal-forms-3.0.1.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [abba-python]: Downloading https://files.pythonhosted.org/packages/0b/22/67811f91cc23cc0f9122dd74540e989843060d1c45389087c0bf3c32cdc6/abba_python-0.1.7.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [django-bootstrap-modal-forms]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [django-bootstrap-modal-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap-modal-forms-3.0.0.tar.gz tmp/django-bootstrap-modal-forms-3.0.1.tar.gz --markdown 20230502/d/django-bootstrap-modal-forms/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/ab/4a/fd2b128aee6aa466d61cda323636d896983b7fcf48161720f0faba6f006a/jaaql-monitor-1.2.17.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [MazgaDB]: Downloading https://files.pythonhosted.org/packages/6d/53/e58cbd204f82779fc25cb90acd4c251d5e49c59cdf7573225e84e44963a2/MazgaDB-1.1.0.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.16.tar.gz tmp/jaaql-monitor-1.2.17.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.16-1.2.17/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [halborn-ctf]: Downloading https://files.pythonhosted.org/packages/ad/7a/efadfcd00d7f72d8600ebb8b9782ed5c6cc262ef234af2ae97f548199eed/halborn_ctf-0.1.2.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/1a/62/057283b3261834b4c672bcbd37a5c54b86adf4d947e6e18484ed59260032/rpa_cooperativa-1.0.47.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [MazgaDB]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [MazgaDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MazgaDB-1.0.0.tar.gz tmp/MazgaDB-1.1.0.tar.gz --markdown 20230502/M/MazgaDB/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [SPyOD]: Downloading https://files.pythonhosted.org/packages/ad/e1/ddee57095cfb7f5f06c29ea3e810a88d59fef3a3933d7ff77fdf1e5fe715/SPyOD-0.1.5.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ac/9e/99e1e108aed9a865c68b4d26535fe5c16504c5850e9c9a6b0748e2ae0fbf/fbgemm_gpu_nightly_cpu-2023.5.2-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-02 15:10:51] INFO root fetch - processPackages [halborn-ctf]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [halborn-ctf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halborn_ctf-0.1.1.tar.gz tmp/halborn_ctf-0.1.2.tar.gz --markdown 20230502/h/halborn-ctf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.46.tar.gz tmp/rpa_cooperativa-1.0.47.tar.gz --markdown 20230502/r/rpa-cooperativa/1.0.46-1.0.47/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [SPyOD]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [SPyOD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPyOD-0.1.4.tar.gz tmp/SPyOD-0.1.5.tar.gz --markdown 20230502/S/SPyOD/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [peak-mas]: Downloading https://files.pythonhosted.org/packages/15/ae/663c230ff3b247a4e7657b5e7eb0251dc884036100aa465ea9a58ed475aa/peak-mas-1.0.6.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [peak-mas]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [peak-mas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peak-mas-1.0.5.tar.gz tmp/peak-mas-1.0.6.tar.gz --markdown 20230502/p/peak-mas/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 15:10:51] INFO root fetch - processPackages [abba-python]: Downloading https://files.pythonhosted.org/packages/e0/31/a8fb5afe92354829f7a6478c9a43e63fe997c869510c67d6789567d6bfb3/abba_python-0.1.8.tar.gz
+[2023-05-02 15:10:51] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-02 15:10:51] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.7.tar.gz tmp/abba_python-0.1.8.tar.gz --markdown 20230502/a/abba-python/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-02 15:10:52] INFO root fetch - processPackages [jaaql-monitor]: Start processing: nbdev-stdlib
+[2023-05-02 15:10:52] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 15:10:53] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [MazgaDB]: Start processing: ralf-jhuapl
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [MazgaDB]: success
+[2023-05-02 15:10:53] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-02 15:10:53] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230502/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:10:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-02 15:10:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.1-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230502/f/fbgemm-gpu-nightly-cpu/2023.5.1-2023.5.2/diff.md --exclude *.pyd
+[2023-05-02 15:10:53] INFO root fetch - processPackages [rpa-cooperativa]: Start processing: nbdev-numpy
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-05-02 15:10:53] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [SPyOD]: Start processing: TuoTuo
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [SPyOD]: success
+[2023-05-02 15:10:53] WARNING root fetch - processPackages [ralf-jhuapl]: Skipping, unable to determine old version
+[2023-05-02 15:10:53] INFO root fetch - processPackages [ralf-jhuapl]: Start processing: zope.security
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [ralf-jhuapl] error
+[2023-05-02 15:10:53] INFO root fetch - processPackages [TuoTuo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [peak-mas]: Start processing: toollib
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [peak-mas]: success
+[2023-05-02 15:10:53] INFO root fetch - processPackages [halborn-ctf]: Start processing: bomf
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [halborn-ctf]: success
+[2023-05-02 15:10:53] INFO root fetch - processPackages [toollib]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [bomf]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [zope.security]: New version: [6.2a1.dev0] Old Version: [6.1]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [abba-python]: Start processing: fold-core
+[2023-05-02 15:10:53] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-02 15:10:53] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-02 15:10:53] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230502/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:10:53] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-05-02 15:10:53] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.2.0.tar.gz tmp/bomf-0.3.0.tar.gz --markdown 20230502/b/bomf/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 15:10:53] INFO root fetch - processPackages [fold-core]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-02 15:10:53] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/7c/74/c60ceb2604d47a38d0b92377ec49cad9f5bfd279df07871503912903e508/toollib-1.3.9-py3-none-any.whl
+[2023-05-02 15:10:53] INFO root fetch - processPackages [zope.security]: Downloading https://files.pythonhosted.org/packages/b5/c9/8f4d997d11047d10709f6352d48b7dfc82d4f39352523d9e80fd13a77981/zope.security-6.1.tar.gz
+[2023-05-02 15:10:53] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/b1/13/a6ec3dd000d38560707fd098d5c5676beb66205132944d474515de8823ab/TuoTuo-0.1.2.tar.gz
+[2023-05-02 15:10:54] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 15:10:54] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.1.1.tar.gz tmp/TuoTuo-0.1.2.tar.gz --markdown 20230502/T/TuoTuo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-02 15:10:54] INFO root fetch - processPackages [fold-core]: Downloading https://files.pythonhosted.org/packages/be/9c/42058deb2bc16457e2e8662c50a7c9f7743ff1756c4a8c3c41ef0fc5d893/fold_core-0.1.7.tar.gz
+[2023-05-02 15:10:54] INFO root fetch - processPackages [zope.security]: Downloading https://files.pythonhosted.org/packages/af/8a/de398c12d7e0301c02695990f12ca9bd72e85f88b063bfd7a36dca6addb8/zope.security-6.2a1.dev0.tar.gz
+[2023-05-02 15:10:54] INFO root fetch - processPackages [zope.security]: executing diffoscope
+[2023-05-02 15:10:54] INFO root fetch - processPackages [zope.security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.security-6.1.tar.gz tmp/zope.security-6.2a1.dev0.tar.gz --markdown 20230502/z/zope.security/6.1-6.2a1.dev0/diff.md --exclude *.pyd
+[2023-05-02 15:10:54] INFO root fetch - processPackages [fold-core]: executing diffoscope
+[2023-05-02 15:10:54] INFO root fetch - processPackages [fold-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fold_core-0.1.4.tar.gz tmp/fold_core-0.1.7.tar.gz --markdown 20230502/f/fold-core/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-02 15:10:54] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2023-05-02 15:10:54] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.3.8-py3-none-any.whl.zip tmp/toollib-1.3.9-py3-none-any.whl.zip --markdown 20230502/t/toollib/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-02 15:10:54] INFO root fetch - processPackages [django-bootstrap-modal-forms]: Start processing: nbdev-pandas
+[2023-05-02 15:10:54] INFO root fetch - main [MainThread]: End processing [django-bootstrap-modal-forms]: success
+[2023-05-02 15:10:54] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-02 15:10:54] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-02 15:10:54] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230502/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-02 15:10:54] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: TuoTuo
+[2023-05-02 15:10:54] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-02 15:10:54] INFO root fetch - processPackages [TuoTuo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-02 15:10:55] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/6f/6f/025dbd1a770db81ae6d27fb43607418e28f4028007f0ededc055f4abc6e5/TuoTuo-0.1.3.tar.gz
+[2023-05-02 15:10:55] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/77/05/ef8e8332d37f3fa41695425587d47404f33dd151cf1a33d7ba2b5c6402fc/TuoTuo-0.1.4.tar.gz
+[2023-05-02 15:10:55] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 15:10:55] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-05-02 15:10:55] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-02 15:10:55] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-02 15:10:56] INFO root fetch - main [MainThread]: End processing [fold-core]: success
+[2023-05-02 15:10:56] INFO root fetch - main [MainThread]: End processing [zope.security]: success
+[2023-05-02 15:10:56] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2023-05-02 15:10:57] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 15:10:57] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.1.3.tar.gz tmp/TuoTuo-0.1.4.tar.gz --markdown 20230502/T/TuoTuo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-02 15:10:58] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 15:11:04] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-05-02 15:11:53] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-02 15:11:53] INFO root fetch - main [MainThread]: Store serial: [17940972]
