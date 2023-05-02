@@ -10064,3 +10064,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 11:49:00] INFO root fetch - main [MainThread]: End processing [PyCBC]: success
 [2023-05-02 11:49:01] INFO root fetch - main [MainThread]: End processing [ete3]: success
 [2023-05-02 11:49:01] INFO root fetch - main [MainThread]: Store serial: [17938816]
+[2023-05-02 11:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17938816]
+[2023-05-02 11:54:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invopt
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zero-3rdparty
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wbBase
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-lib
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ixcom
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: power-grid-model
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: megadata
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotControl
+[2023-05-02 11:54:10] WARNING root fetch - processPackages [invopt]: Skipping, unable to determine old version
+[2023-05-02 11:54:10] INFO root fetch - main [MainThread]: End processing [invopt] error
+[2023-05-02 11:54:10] INFO root fetch - processPackages [zero-3rdparty]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [wbBase]: New version: [0.1.56] Old Version: [0.1.55]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [robotControl]: New version: [0.5] Old Version: [0.4]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [model-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ixcom]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9166510100968] Old Version: [1.5.0rc9165501361799]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: New version: [20230502.9.51.50645] Old Version: [20230501.13.46.98174]
+[2023-05-02 11:54:10] INFO root fetch - processPackages [model-lib]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_lib-0.0.8-py3-none-any.whl.zip tmp/model_lib-0.0.9-py3-none-any.whl.zip --markdown 20230502/m/model-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:54:10] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230502/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:54:10] INFO root fetch - processPackages [zero-3rdparty]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [zero-3rdparty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zero_3rdparty-0.0.8-py3-none-any.whl.zip tmp/zero_3rdparty-0.0.9-py3-none-any.whl.zip --markdown 20230502/z/zero-3rdparty/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 11:54:10] INFO root fetch - processPackages [robotControl]: Downloading https://files.pythonhosted.org/packages/06/76/5e1ea0f2cc11f6a6f0e74664ffb35cea49cc5d3ae7180f99a6a1e63b3d2e/robotControl-0.5.tar.gz
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ixcom]: Downloading https://files.pythonhosted.org/packages/a6/e8/a986838eebbd891c26fc5a7a629d0fda0b8ca011c0aa16b773c626cf6778/ixcom-1.3.4.tar.gz
+[2023-05-02 11:54:10] INFO root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Downloading https://files.pythonhosted.org/packages/df/c1/a1dddf38a599c498e3783b07b2cbe349be4e59819b46e14ddaf09ec32089/certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support-20230501.13.46.98174.tar.gz
+[2023-05-02 11:54:10] WARNING root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Skipping package: exceeds size limit 38298086>=10485760
+[2023-05-02 11:54:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support] error
+[2023-05-02 11:54:10] INFO root fetch - processPackages [wbBase]: Downloading https://files.pythonhosted.org/packages/fd/c9/0a71132ca81db4f5a9df90e72bc123345c0d670e40a894a0645527b63613/wbBase-0.1.56.tar.gz
+[2023-05-02 11:54:10] INFO root fetch - processPackages [robotControl]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ixcom]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [robotControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotControl-0.4.tar.gz tmp/robotControl-0.5.tar.gz --markdown 20230502/r/robotControl/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-02 11:54:10] INFO root fetch - processPackages [ixcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixcom-1.3.3.tar.gz tmp/ixcom-1.3.4.tar.gz --markdown 20230502/i/ixcom/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-02 11:54:10] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9165501361799-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip --markdown 20230502/p/power-grid-model/1.5.0rc9165501361799-1.5.0rc9166510100968/diff.md --exclude *.pyd
+[2023-05-02 11:54:10] INFO root fetch - processPackages [wbBase]: executing diffoscope
+[2023-05-02 11:54:10] INFO root fetch - processPackages [wbBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbBase-0.1.55.tar.gz tmp/wbBase-0.1.56.tar.gz --markdown 20230502/w/wbBase/0.1.55-0.1.56/diff.md --exclude *.pyd
+[2023-05-02 11:54:11] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-05-02 11:54:11] INFO root fetch - main [MainThread]: End processing [zero-3rdparty]: success
+[2023-05-02 11:54:11] INFO root fetch - main [MainThread]: End processing [model-lib]: success
+[2023-05-02 11:54:12] INFO root fetch - main [MainThread]: End processing [ixcom]: success
+[2023-05-02 11:54:12] INFO root fetch - main [MainThread]: End processing [robotControl]: success
+[2023-05-02 11:54:12] INFO root fetch - main [MainThread]: End processing [wbBase]: success
+[2023-05-02 11:54:15] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-05-02 11:54:15] INFO root fetch - main [MainThread]: Store serial: [17938852]
