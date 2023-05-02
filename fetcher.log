@@ -12679,3 +12679,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 14:31:05] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
 [2023-05-02 14:31:05] INFO root fetch - main [MainThread]: End processing [pyconverters-pubmedfetcher]: success
 [2023-05-02 14:31:05] INFO root fetch - main [MainThread]: Store serial: [17940399]
+[2023-05-02 14:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940399]
+[2023-05-02 14:36:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-altinn3-util
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-coves
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trawler-on-lake
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ztfidr
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bemserver-core
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmssl-pyx
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ephysiopy
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agent-link
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-jobs
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyconverters-pubmedfetcher
+[2023-05-02 14:36:16] WARNING root fetch - processPackages [agent-link]: Skipping, unable to determine old version
+[2023-05-02 14:36:16] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [agent-link]: Start processing: django-visit-count
+[2023-05-02 14:36:16] INFO root fetch - main [MainThread]: End processing [agent-link] error
+[2023-05-02 14:36:16] WARNING root fetch - processPackages [gmssl-pyx]: Skipping, unable to determine old version
+[2023-05-02 14:36:16] INFO root fetch - main [MainThread]: End processing [gmssl-pyx] error
+[2023-05-02 14:36:16] INFO root fetch - processPackages [pyconverters-pubmedfetcher]: New version: [0.5.95] Old Version: [0.5.93]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [bemserver-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [trawler-on-lake]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.17] Old Version: [1.9.16]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ztfidr]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [trawler-on-lake]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [trawler-on-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trawler-on-lake-1.0.8.tar.gz tmp/trawler-on-lake-1.0.9.tar.gz --markdown 20230502/t/trawler-on-lake/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230502/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [django-visit-count]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-02 14:36:16] INFO root fetch - processPackages [pyconverters-pubmedfetcher]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [pyconverters-pubmedfetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconverters-pubmedfetcher-0.5.93.tar.gz tmp/pyconverters-pubmedfetcher-0.5.95.tar.gz --markdown 20230502/p/pyconverters-pubmedfetcher/0.5.93-0.5.95/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [bemserver-core]: Downloading https://files.pythonhosted.org/packages/b1/66/c49551bc5f9270b1b2cac0cd22528e42994131401b0de6395bed23e31a22/bemserver-core-0.9.0.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/84/2b/a8095076b8734c3e654a4a471c3adb1842fa4b95a1b215c4914bb3df1bd8/ztfidr-0.8.3.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [dbt-coves]: Downloading https://files.pythonhosted.org/packages/57/f9/354acea034439bc75dbe7c6416f44722a0fb6d7c26c22101efd01edb8dc2/dbt_coves-1.4.9.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/77/c7/a05ab91094c09e65f5cadffd39bb9318f58bc3fe8ac86a3c31760bbbe0f8/ephysiopy-1.9.17.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230502/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [django-visit-count]: Downloading https://files.pythonhosted.org/packages/64/de/c379d671a7f09e50099812e7379aaf5bfdbbb320186358be805271861c0e/django-visit-count-1.1.0.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.8.2.tar.gz tmp/ztfidr-0.8.3.tar.gz --markdown 20230502/z/ztfidr/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.8.tar.gz tmp/dbt_coves-1.4.9.tar.gz --markdown 20230502/d/dbt-coves/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.16.tar.gz tmp/ephysiopy-1.9.17.tar.gz --markdown 20230502/e/ephysiopy/1.9.16-1.9.17/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [bemserver-core]: Downloading https://files.pythonhosted.org/packages/11/12/23087979f0bc92dc55a84583d2e12a7deb66597ba67cf684e53dd196c8f2/bemserver-core-0.9.1.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [django-visit-count]: Downloading https://files.pythonhosted.org/packages/b3/b3/19792cfb055146f79acc4618f68de9e60f58fc64cd8b1e68489ff1be25b7/django-visit-count-1.1.1.tar.gz
+[2023-05-02 14:36:16] INFO root fetch - processPackages [bemserver-core]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [bemserver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-core-0.9.0.tar.gz tmp/bemserver-core-0.9.1.tar.gz --markdown 20230502/b/bemserver-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-02 14:36:16] INFO root fetch - processPackages [django-visit-count]: executing diffoscope
+[2023-05-02 14:36:16] INFO root fetch - processPackages [django-visit-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-visit-count-1.1.0.tar.gz tmp/django-visit-count-1.1.1.tar.gz --markdown 20230502/d/django-visit-count/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-02 14:36:17] INFO root fetch - main [MainThread]: End processing [trawler-on-lake]: success
+[2023-05-02 14:36:18] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-05-02 14:36:18] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-02 14:36:18] INFO root fetch - main [MainThread]: End processing [django-visit-count]: success
+[2023-05-02 14:36:19] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-05-02 14:36:19] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-05-02 14:36:20] INFO root fetch - main [MainThread]: End processing [bemserver-core]: success
+[2023-05-02 14:36:20] INFO root fetch - main [MainThread]: End processing [pyconverters-pubmedfetcher]: success
+[2023-05-02 14:36:20] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-05-02 14:36:20] INFO root fetch - main [MainThread]: Store serial: [17940446]
