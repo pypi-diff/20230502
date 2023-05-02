@@ -12846,3 +12846,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 14:41:39] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-02 14:41:40] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
 [2023-05-02 14:41:40] INFO root fetch - main [MainThread]: Store serial: [17940508]
+[2023-05-02 14:46:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17940508]
+[2023-05-02 14:46:49] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-braincube-dev
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ethpm-types
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resotoclient
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsps
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saxonche
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TuoTuo
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GptCode
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webui2
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-organization-python
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: glue-helper-lib
+[2023-05-02 14:46:49] INFO root fetch - processPackages [ethpm-types]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [core-braincube-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [dsps]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [saxonche]: New version: [12.1.0] Old Version: [12.0.0]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [GptCode]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [resotoclient]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [TuoTuo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [glue-helper-lib]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [webui2]: New version: [2.2.0.2] Old Version: [2.2.0.1]
+[2023-05-02 14:46:49] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-02 14:46:49] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.5.tar.gz tmp/GptCode-1.0.6.tar.gz --markdown 20230502/G/GptCode/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [dsps]: Downloading https://files.pythonhosted.org/packages/33/c6/f29636db88d6d9fc1cb2bcc871c18392cbc3dde75fd220a26544ddb34c88/dsps-0.3.1.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [resotoclient]: Downloading https://files.pythonhosted.org/packages/c9/46/d28774d6a68c4b197a45d212291ea5e8b89538a956ff6db8c8b41853d7bd/resotoclient-1.3.1.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [TuoTuo]: Downloading https://files.pythonhosted.org/packages/10/9a/f70e1d645da45b97f3bfd4332a311b9f422349a4c17936d2b2c22b7eef4b/TuoTuo-0.0.9.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [saxonche]: Downloading https://files.pythonhosted.org/packages/8d/7e/4bcbabfd5d7d545682f62307c942a4440dd713bc693d55f2e5c18c9fc474/saxonche-12.0.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-02 14:46:50] INFO root fetch - processPackages [resotoclient]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [resotoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoclient-1.3.0.tar.gz tmp/resotoclient-1.3.1.tar.gz --markdown 20230502/r/resotoclient/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [dsps]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [dsps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsps-0.3.0.tar.gz tmp/dsps-0.3.1.tar.gz --markdown 20230502/d/dsps/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [TuoTuo]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [TuoTuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TuoTuo-0.0.8.tar.gz tmp/TuoTuo-0.0.9.tar.gz --markdown 20230502/T/TuoTuo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [ethpm-types]: Downloading https://files.pythonhosted.org/packages/25/6d/7f7ba738f7563f81bc6e721bdbe346e4bba92cf2041abd56b20d59074f01/ethpm-types-0.4.5.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [core-braincube-dev]: Downloading https://files.pythonhosted.org/packages/91/e7/ea2112225a1ea03d90750b09cb10c67e402b69ac603a1f6a71bbaae62460/core-braincube-dev-0.0.9.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [webui2]: Downloading https://files.pythonhosted.org/packages/df/8d/0deb1f84529974fb62430017014c1b83edeb98bd0fe49de72d170eea73e4/webui2-2.2.0.2.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [glue-helper-lib]: Downloading https://files.pythonhosted.org/packages/78/37/34f5fe99d8bd2aee929dbe6bc233718c04b67b1c3bcbeaa8e83bc3a9707a/glue_helper_lib-0.3.0.tar.gz
+[2023-05-02 14:46:50] INFO root fetch - processPackages [ethpm-types]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [ethpm-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethpm-types-0.4.4.tar.gz tmp/ethpm-types-0.4.5.tar.gz --markdown 20230502/e/ethpm-types/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [core-braincube-dev]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [core-braincube-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core-braincube-dev-0.0.8.tar.gz tmp/core-braincube-dev-0.0.9.tar.gz --markdown 20230502/c/core-braincube-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [webui2]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [webui2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webui2-2.2.0.1.tar.gz tmp/webui2-2.2.0.2.tar.gz --markdown 20230502/w/webui2/2.2.0.1-2.2.0.2/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] INFO root fetch - processPackages [glue-helper-lib]: executing diffoscope
+[2023-05-02 14:46:50] INFO root fetch - processPackages [glue-helper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_helper_lib-0.2.0.tar.gz tmp/glue_helper_lib-0.3.0.tar.gz --markdown 20230502/g/glue-helper-lib/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-02 14:46:50] WARNING root fetch - processPackages [saxonche]: Skipping package: exceeds size limit 16785032>=10485760
+[2023-05-02 14:46:50] INFO root fetch - processPackages [saxonche]: Start processing: manticore
+[2023-05-02 14:46:50] INFO root fetch - main [MainThread]: End processing [saxonche] error
+[2023-05-02 14:46:50] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230502] Old Version: [0.3.8.dev230428]
+[2023-05-02 14:46:50] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/76/36/cb7db5f905605d7fdca654e03e950cd0db6c4a0a509c976102b9dc9e6248/manticore-0.3.8.dev230502.tar.gz
+[2023-05-02 14:46:51] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-02 14:46:51] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230428.tar.gz tmp/manticore-0.3.8.dev230502.tar.gz --markdown 20230502/m/manticore/0.3.8.dev230428-0.3.8.dev230502/diff.md --exclude *.pyd
+[2023-05-02 14:46:51] INFO root fetch - processPackages [GptCode]: Start processing: cybrid-api-bank-python
+[2023-05-02 14:46:51] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-02 14:46:51] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 14:46:52] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-02 14:46:52] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 14:46:52] INFO root fetch - processPackages [resotoclient]: Start processing: mpopt-lulav
+[2023-05-02 14:46:52] INFO root fetch - main [MainThread]: End processing [resotoclient]: success
+[2023-05-02 14:46:52] INFO root fetch - processPackages [mpopt-lulav]: New version: [0.6] Old Version: [0.4]
+[2023-05-02 14:46:52] INFO root fetch - processPackages [core-braincube-dev]: Start processing: cybrid-api-id-python
+[2023-05-02 14:46:52] INFO root fetch - main [MainThread]: End processing [core-braincube-dev]: success
+[2023-05-02 14:46:52] INFO root fetch - processPackages [glue-helper-lib]: Start processing: saxoncpe
+[2023-05-02 14:46:52] INFO root fetch - main [MainThread]: End processing [glue-helper-lib]: success
+[2023-05-02 14:46:52] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-02 14:46:52] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-02 14:46:52] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230502/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-02 14:46:52] INFO root fetch - processPackages [saxoncpe]: New version: [12.2.0] Old Version: [12.1.0]
+[2023-05-02 14:46:52] INFO root fetch - processPackages [mpopt-lulav]: Downloading https://files.pythonhosted.org/packages/84/d3/af01ab92407c9dbab4a5fd2197f646c919a5b5b42a0946c7e61e51b37c78/mpopt_lulav-0.6.tar.gz
+[2023-05-02 14:46:52] INFO root fetch - processPackages [saxoncpe]: Downloading https://files.pythonhosted.org/packages/13/41/a806a3e9dc6b4b8fcb43e4a843cf8423e4d169c52a05e25d0fe60dd59868/saxoncpe-12.1.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-05-02 14:46:52] INFO root fetch - processPackages [mpopt-lulav]: executing diffoscope
+[2023-05-02 14:46:52] INFO root fetch - processPackages [mpopt-lulav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpopt_lulav-0.4.tar.gz tmp/mpopt_lulav-0.6.tar.gz --markdown 20230502/m/mpopt-lulav/0.4-0.6/diff.md --exclude *.pyd
+[2023-05-02 14:46:52] WARNING root fetch - processPackages [saxoncpe]: Skipping package: exceeds size limit 17841564>=10485760
+[2023-05-02 14:46:52] INFO root fetch - processPackages [saxoncpe]: Start processing: jaaql-monitor
+[2023-05-02 14:46:52] INFO root fetch - main [MainThread]: End processing [saxoncpe] error
+[2023-05-02 14:46:52] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.14] Old Version: [1.2.13]
+[2023-05-02 14:46:52] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-05-02 14:46:52] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.13.tar.gz tmp/jaaql-monitor-1.2.14.tar.gz --markdown 20230502/j/jaaql-monitor/1.2.13-1.2.14/diff.md --exclude *.pyd
+[2023-05-02 14:46:53] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: ytsaurus-spyt
+[2023-05-02 14:46:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-02 14:46:53] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.69.4b442.post9097999.dev4] Old Version: [1.69.4b442.post5753496.dev2]
+[2023-05-02 14:46:53] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-02 14:46:53] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.69.4b442.post5753496.dev2.tar.gz tmp/ytsaurus-spyt-1.69.4b442.post9097999.dev4.tar.gz --markdown 20230502/y/ytsaurus-spyt/1.69.4b442.post5753496.dev2-1.69.4b442.post9097999.dev4/diff.md --exclude *.pyd
+[2023-05-02 14:46:53] INFO root fetch - processPackages [mpopt-lulav]: Start processing: acquire
+[2023-05-02 14:46:53] INFO root fetch - main [MainThread]: End processing [mpopt-lulav]: success
+[2023-05-02 14:46:53] INFO root fetch - processPackages [acquire]: New version: [3.6.dev7] Old Version: [3.6.dev6]
+[2023-05-02 14:46:54] INFO root fetch - processPackages [webui2]: Start processing: xata
+[2023-05-02 14:46:54] INFO root fetch - main [MainThread]: End processing [webui2]: success
+[2023-05-02 14:46:54] INFO root fetch - processPackages [jaaql-monitor]: Start processing: blaster-server
+[2023-05-02 14:46:54] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-05-02 14:46:54] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/8a/a2/f8cb988743b94d08dbeb6381b0a763c8ccb0ed6cd0ec8330cfe59c995b87/acquire-3.6.dev7.tar.gz
+[2023-05-02 14:46:54] INFO root fetch - processPackages [xata]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-02 14:46:54] INFO root fetch - processPackages [blaster-server]: New version: [0.0.427] Old Version: [0.0.426b0]
+[2023-05-02 14:46:54] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-05-02 14:46:54] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.6.dev6.tar.gz tmp/acquire-3.6.dev7.tar.gz --markdown 20230502/a/acquire/3.6.dev6-3.6.dev7/diff.md --exclude *.pyd
+[2023-05-02 14:46:54] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/dd/36/5111d93861adb6a45b2a6b420dab8257eb5fddf6c618ac8a429bc941b63b/blaster-server-0.0.426b0.tar.gz
+[2023-05-02 14:46:54] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/42/69/2646d6b3144a5f36812a0f6f7c09718c6742ffb7d482115dcdc7de874585/xata-0.9.3.tar.gz
+[2023-05-02 14:46:54] INFO root fetch - processPackages [ytsaurus-spyt]: Start processing: devapps
+[2023-05-02 14:46:54] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-02 14:46:54] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/c0/69/364c6960beb7cb947334afa1e1405cfa8985fbf3adfd47ba7d996db2f155/blaster-server-0.0.427.tar.gz
+[2023-05-02 14:46:54] INFO root fetch - processPackages [xata]: executing diffoscope
+[2023-05-02 14:46:54] INFO root fetch - processPackages [xata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xata-0.9.2.tar.gz tmp/xata-0.9.3.tar.gz --markdown 20230502/x/xata/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-02 14:46:54] INFO root fetch - processPackages [devapps]: New version: [2023.5.1] Old Version: [2023.4.28]
+[2023-05-02 14:46:54] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-05-02 14:46:54] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.426b0.tar.gz tmp/blaster-server-0.0.427.tar.gz --markdown 20230502/b/blaster-server/0.0.426b0-0.0.427/diff.md --exclude *.pyd
+[2023-05-02 14:46:55] INFO root fetch - processPackages [devapps]: Downloading https://files.pythonhosted.org/packages/8a/17/d9af041b568720fd41adb8349a0029112bdb5d2b22d0170f86361699a0a9/devapps-2023.5.1.tar.gz
+[2023-05-02 14:46:55] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-02 14:46:55] INFO root fetch - processPackages [devapps]: executing diffoscope
+[2023-05-02 14:46:55] INFO root fetch - processPackages [devapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devapps-2023.4.28.tar.gz tmp/devapps-2023.5.1.tar.gz --markdown 20230502/d/devapps/2023.4.28-2023.5.1/diff.md --exclude *.pyd
+[2023-05-02 14:46:55] INFO root fetch - main [MainThread]: End processing [ethpm-types]: success
+[2023-05-02 14:46:55] INFO root fetch - main [MainThread]: End processing [dsps]: success
+[2023-05-02 14:46:55] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
+[2023-05-02 14:46:56] INFO root fetch - main [MainThread]: End processing [xata]: success
+[2023-05-02 14:46:56] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-02 14:46:56] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-02 14:46:56] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-05-02 14:46:58] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-05-02 14:46:59] INFO root fetch - main [MainThread]: End processing [devapps]: success
+[2023-05-02 14:46:59] INFO root fetch - main [MainThread]: Store serial: [17940623]
