@@ -7258,3 +7258,67 @@
 [2023-05-02 08:41:02] INFO root fetch - main [MainThread]: End processing [netdoc]: success
 [2023-05-02 08:41:03] INFO root fetch - main [MainThread]: End processing [sfctools]: success
 [2023-05-02 08:41:03] INFO root fetch - main [MainThread]: Store serial: [17937082]
+[2023-05-02 08:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937082]
+[2023-05-02 08:46:12] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-web-runner-dev
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylib029
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sam4onnx
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eyes-soatra
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geo-espresso
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vgd-counterfactuals
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pawnlib
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-sam
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mylib006
+[2023-05-02 08:46:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypsha
+[2023-05-02 08:46:12] WARNING root fetch - processPackages [mylib029]: Skipping, unable to determine old version
+[2023-05-02 08:46:12] WARNING root fetch - processPackages [vgd-counterfactuals]: Skipping, unable to determine old version
+[2023-05-02 08:46:12] INFO root fetch - processPackages [mylib029]: Start processing: mylib-009
+[2023-05-02 08:46:12] INFO root fetch - main [MainThread]: End processing [mylib029] error
+[2023-05-02 08:46:12] INFO root fetch - processPackages [vgd-counterfactuals]: Start processing: graph-attention-student
+[2023-05-02 08:46:12] INFO root fetch - processPackages [sam4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-02 08:46:12] INFO root fetch - main [MainThread]: End processing [vgd-counterfactuals] error
+[2023-05-02 08:46:12] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-02 08:46:12] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pypsha]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-05-02 08:46:12] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 08:46:12] WARNING root fetch - processPackages [mylib006]: Skipping, unable to determine old version
+[2023-05-02 08:46:12] INFO root fetch - main [MainThread]: End processing [mylib006] error
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pawnlib]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-02 08:46:12] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 08:46:12] WARNING root fetch - processPackages [mylib-009]: Skipping, unable to determine old version
+[2023-05-02 08:46:12] INFO root fetch - main [MainThread]: End processing [mylib-009] error
+[2023-05-02 08:46:12] INFO root fetch - processPackages [graph-attention-student]: New version: [0.9.0] Old Version: [0.7.2]
+[2023-05-02 08:46:12] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/de/69/461969bbacea407d2d84b104a9d6837c4009604b67260803f8b31a33d468/geo-espresso-0.3.3.tar.gz
+[2023-05-02 08:46:12] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-02 08:46:12] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.8.tar.gz tmp/eyes_soatra-0.0.9.tar.gz --markdown 20230502/e/eyes-soatra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:46:12] INFO root fetch - processPackages [sam4onnx]: Downloading https://files.pythonhosted.org/packages/62/fe/65bf7fc7312a22be157ada8d5bb04f2a0061dd317521147720641a9e5063/sam4onnx-1.0.8.tar.gz
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pypsha]: Downloading https://files.pythonhosted.org/packages/e9/fa/38d790959470c4f1cd83d855799c573b8c590e516beca930744da0b0dc4e/pypsha-0.0.1.tar.gz
+[2023-05-02 08:46:12] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/16/df/289df10f64e026971eb163a334b3e13458cf86d8a23ae4cb0aeb2d46f56e/napari-sam-0.3.8.tar.gz
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/eb/d2/8c8e7968249590161f7612b5d4fe26a7c46f9fb13363f68e7ab16860f926/pawnlib-1.0.6-py3-none-any.whl
+[2023-05-02 08:46:12] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/83/2c/3e866b3163939390060e8ca85c8d5488363b42b7fee4e536c8a0d753ee79/geo-espresso-0.3.4.tar.gz
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.5-py3-none-any.whl.zip tmp/pawnlib-1.0.6-py3-none-any.whl.zip --markdown 20230502/p/pawnlib/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-02 08:46:12] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-05-02 08:46:12] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230502/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:46:12] INFO root fetch - processPackages [pypsha]: Downloading https://files.pythonhosted.org/packages/ac/5f/03296f9f2c38508b65cc89c083f152c233f732cc9adb5f7694c01d1740fa/pypsha-0.0.3.tar.gz
+[2023-05-02 08:46:12] INFO root fetch - processPackages [graph-attention-student]: Downloading https://files.pythonhosted.org/packages/f6/af/03d655f11e0bb93ad8111eafae9bc42e3da6529c716a97511dd8ff1fd673/graph_attention_student-0.9.0.tar.gz
+[2023-05-02 08:46:13] INFO root fetch - processPackages [sam4onnx]: Downloading https://files.pythonhosted.org/packages/10/e9/d7102432ee743cb8f6557fe18fb36b24de7c8b0073f09b2df4de688465f1/sam4onnx-1.0.9.tar.gz
+[2023-05-02 08:46:13] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/8f/44/c76e81af1572c1d95ce0b70eb89131db9d15cfee7437d9b5ec93c5c2268a/napari-sam-0.3.9.tar.gz
+[2023-05-02 08:46:13] WARNING root fetch - processPackages [pypsha]: Skipping package: exceeds size limit 58634036>=10485760
+[2023-05-02 08:46:13] INFO root fetch - main [MainThread]: End processing [pypsha] error
+[2023-05-02 08:46:13] INFO root fetch - processPackages [geo-espresso]: executing diffoscope
+[2023-05-02 08:46:13] INFO root fetch - processPackages [geo-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo-espresso-0.3.3.tar.gz tmp/geo-espresso-0.3.4.tar.gz --markdown 20230502/g/geo-espresso/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-02 08:46:13] INFO root fetch - processPackages [graph-attention-student]: executing diffoscope
+[2023-05-02 08:46:13] INFO root fetch - processPackages [graph-attention-student]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_attention_student-0.7.2.tar.gz tmp/graph_attention_student-0.9.0.tar.gz --markdown 20230502/g/graph-attention-student/0.7.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-02 08:46:13] INFO root fetch - processPackages [sam4onnx]: executing diffoscope
+[2023-05-02 08:46:13] INFO root fetch - processPackages [sam4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam4onnx-1.0.8.tar.gz tmp/sam4onnx-1.0.9.tar.gz --markdown 20230502/s/sam4onnx/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-02 08:46:13] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-05-02 08:46:13] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230502/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 08:46:14] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-02 08:46:14] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-02 08:46:14] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-05-02 08:46:14] INFO root fetch - main [MainThread]: End processing [sam4onnx]: success
+[2023-05-02 08:46:14] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-05-02 08:46:15] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
+[2023-05-02 08:46:16] INFO root fetch - main [MainThread]: End processing [graph-attention-student]: success
+[2023-05-02 08:46:16] INFO root fetch - main [MainThread]: Store serial: [17937151]
