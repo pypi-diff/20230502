@@ -8097,3 +8097,81 @@
 [2023-05-02 09:50:19] INFO root fetch - main [MainThread]: End processing [audiomentations]: success
 [2023-05-02 09:50:21] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-05-02 09:50:21] INFO root fetch - main [MainThread]: Store serial: [17937634]
+[2023-05-02 09:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17937634]
+[2023-05-02 09:55:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yams-cli
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leap-model-parser
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zarr
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bonus
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nightly
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-jtoman-cert-1920
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerbos
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dongwha-datalab
+[2023-05-02 09:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataligo
+[2023-05-02 09:55:30] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.93.dev1] Old Version: [0.1.93]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [yams-cli]: New version: [3.3.0] Old Version: [3.2.8]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [zarr]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [bonus]: New version: [0.6.3] Old Version: [0.6.22]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-05-02 09:55:30] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.7-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.8-py3-none-any.whl.zip --markdown 20230502/d/dongwha-datalab/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-05-02 09:55:30] INFO root fetch - processPackages [cerbos]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-02 09:55:30] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-cert-1920]: Skipping, unable to determine old version
+[2023-05-02 09:55:30] INFO root fetch - processPackages [certora-cli-alpha-jtoman-cert-1920]: Start processing: vue2img
+[2023-05-02 09:55:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-cert-1920] error
+[2023-05-02 09:55:30] INFO root fetch - processPackages [dataligo]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [vue2img]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-02 09:55:30] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/75/de/ac292057976c10ba489be7fe84aaec191c65e2a5126bc0ec0f57a4291137/leap_model_parser-0.1.93.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [vue2img]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [vue2img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vue2img-0.0.6.tar.gz tmp/vue2img-0.0.7.tar.gz --markdown 20230502/v/vue2img/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230502] Old Version: [2.13.0.dev20230501]
+[2023-05-02 09:55:31] INFO root fetch - processPackages [bonus]: Downloading https://files.pythonhosted.org/packages/f4/b9/be8cc61aebb5a1c6b22b7b2e97ff8d68684b43e373cf6fd5cb920cd680eb/bonus-0.6.22.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.93.tar.gz tmp/leap_model_parser-0.1.93.dev1.tar.gz --markdown 20230502/l/leap-model-parser/0.1.93-0.1.93.dev1/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/4a/da/74d6580255656b797a4b217ff11cb1c3f2f29d1a3b0797ae9839d65e53be/cerbos-0.5.0.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [zarr]: Downloading https://files.pythonhosted.org/packages/e1/2a/5ff78005e06a0ba3648013ba012d73479cc1a6924bf1ac2ad1a27814f15f/zarr-2.9.4.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [yams-cli]: Downloading https://files.pythonhosted.org/packages/95/75/9128182c89fee509cb42b117de096bf15a500ef49949856e344e0e89b4bc/yams_cli-3.2.8-py3-none-any.whl
+[2023-05-02 09:55:31] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230502/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [dataligo]: Downloading https://files.pythonhosted.org/packages/49/7b/afc9dea7103b57bf78c65fd331716f6a8af123295fa1a4d9acd1a248c4fb/dataligo-0.7.3.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/78/58/3a0617e61927015dc5cdbd3cf8027beb691b683c400748011c5be841c936/tf_nightly_cpu-2.14.0.dev20230502-cp39-cp39-win_amd64.whl
+[2023-05-02 09:55:31] INFO root fetch - processPackages [cerbos]: Downloading https://files.pythonhosted.org/packages/ed/cb/864bdd7592ab02e367fb2a3d48ff4b12af64e42da145152b892b5ab78d3e/cerbos-0.6.0.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [bonus]: Downloading https://files.pythonhosted.org/packages/bd/c3/b92b59defde44c5201b6529709f9d16b3500a4948308db967288ccff0ff8/bonus-0.6.3.tar.gz
+[2023-05-02 09:55:31] INFO root fetch - processPackages [yams-cli]: Downloading https://files.pythonhosted.org/packages/9f/f6/76c0d91aa5e50d067986221170fa626c6070cfb8195c3190dbab9a3c9afa/yams_cli-3.3.0-py3-none-any.whl
+[2023-05-02 09:55:31] INFO root fetch - processPackages [dataligo]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [dataligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataligo-0.7.2.tar.gz tmp/dataligo-0.7.3.tar.gz --markdown 20230502/d/dataligo/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230501-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230502-cp39-cp39-win_amd64.whl.zip --markdown 20230502/t/tf-nightly-cpu/2.13.0.dev20230501-2.14.0.dev20230502/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [cerbos]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [cerbos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbos-0.5.0.tar.gz tmp/cerbos-0.6.0.tar.gz --markdown 20230502/c/cerbos/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [bonus]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [bonus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bonus-0.6.22.tar.gz tmp/bonus-0.6.3.tar.gz --markdown 20230502/b/bonus/0.6.22-0.6.3/diff.md --exclude *.pyd
+[2023-05-02 09:55:31] INFO root fetch - processPackages [yams-cli]: executing diffoscope
+[2023-05-02 09:55:31] INFO root fetch - processPackages [yams-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yams_cli-3.2.8-py3-none-any.whl.zip tmp/yams_cli-3.3.0-py3-none-any.whl.zip --markdown 20230502/y/yams-cli/3.2.8-3.3.0/diff.md --exclude *.pyd
+[2023-05-02 09:55:32] INFO root fetch - processPackages [dongwha-datalab]: Start processing: python-supporter
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [dongwha-datalab]: success
+[2023-05-02 09:55:32] INFO root fetch - processPackages [zarr]: Downloading https://files.pythonhosted.org/packages/d6/5c/79d0837d512a3f74c1a04ef9cd036fcf7872d3fa698aad3d68416a35c444/zarr-2.9.5.tar.gz
+[2023-05-02 09:55:32] INFO root fetch - processPackages [python-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-02 09:55:32] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/7b/6f/98c23a37675c8704d9b0b2bb757ff68a237bf1233e54456d2f47b8f60fc5/python-supporter-0.0.8.tar.gz
+[2023-05-02 09:55:32] INFO root fetch - processPackages [vue2img]: Start processing: polymatica-api
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [vue2img]: success
+[2023-05-02 09:55:32] WARNING root fetch - processPackages [polymatica-api]: Skipping, unable to determine old version
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [polymatica-api] error
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [bonus]: success
+[2023-05-02 09:55:32] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/46/5a/b86299eadff25b47d4094f9437467e39ed8b1b422fdc8c0b0bfcd6f5770e/python-supporter-0.0.9.tar.gz
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [dataligo]: success
+[2023-05-02 09:55:32] INFO root fetch - processPackages [python-supporter]: executing diffoscope
+[2023-05-02 09:55:32] INFO root fetch - processPackages [python-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-supporter-0.0.8.tar.gz tmp/python-supporter-0.0.9.tar.gz --markdown 20230502/p/python-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [yams-cli]: success
+[2023-05-02 09:55:32] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-02 09:55:33] INFO root fetch - processPackages [zarr]: executing diffoscope
+[2023-05-02 09:55:33] INFO root fetch - processPackages [zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarr-2.9.4.tar.gz tmp/zarr-2.9.5.tar.gz --markdown 20230502/z/zarr/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-05-02 09:55:33] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-05-02 09:55:33] INFO root fetch - main [MainThread]: End processing [cerbos]: success
+[2023-05-02 09:55:33] INFO root fetch - main [MainThread]: End processing [python-supporter]: success
+[2023-05-02 09:55:39] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-02 09:58:33] ERROR root fetch - processPackages [zarr]: Timeout during execution of pkgdiff
+[2023-05-02 09:58:33] INFO root fetch - main [MainThread]: End processing [zarr] error
+[2023-05-02 09:58:33] INFO root fetch - main [MainThread]: Store serial: [17937674]
