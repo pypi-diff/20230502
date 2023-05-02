@@ -13997,3 +13997,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 15:39:05] INFO root fetch - main [MainThread]: End processing [pyridy]: success
 [2023-05-02 15:39:07] INFO root fetch - main [MainThread]: End processing [TuoTuo]: success
 [2023-05-02 15:39:07] INFO root fetch - main [MainThread]: Store serial: [17941300]
+[2023-05-02 15:44:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17941300]
+[2023-05-02 15:44:16] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyridy
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-DragDrop
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mell
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keyword-explorer
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mell
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oking
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiida-phonopy
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datarobot-drum
+[2023-05-02 15:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-insights-sdk-preview
+[2023-05-02 15:44:16] WARNING root fetch - processPackages [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick]: Skipping, unable to determine old version
+[2023-05-02 15:44:16] INFO root fetch - processPackages [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick]: Start processing: FanFicFare
+[2023-05-02 15:44:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-yuvalbd-merge-3661-hash-families-cherry-pick] error
+[2023-05-02 15:44:16] INFO root fetch - processPackages [aiida-phonopy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [mell]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [mell]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.583] Old Version: [0.0.543]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [keyword-explorer]: New version: [0.5a0] Old Version: [0.4a0]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [pyridy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [FanFicFare]: New version: [4.9.0] Old Version: [4.8.0]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-02 15:44:16] ERROR root fetch - processPackages [streamlit-DragDrop]: Unable to get metadata: No such project 'streamlit-DragDrop'
+[2023-05-02 15:44:16] INFO root fetch - processPackages [streamlit-DragDrop]: Start processing: guify
+[2023-05-02 15:44:16] INFO root fetch - main [MainThread]: End processing [streamlit-DragDrop] error
+[2023-05-02 15:44:16] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-02 15:44:16] INFO root fetch - processPackages [oking]: Start processing: maus
+[2023-05-02 15:44:16] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-02 15:44:16] INFO root fetch - processPackages [guify]: New version: [0.2.6] Old Version: [0.2.5a5]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/bb/18/fa42b7d3cf768cac1da52ad929c3aa2deeb7b72c041b15bc589c0ac6ba33/mell-2.0.5.tar.gz
+[2023-05-02 15:44:16] INFO root fetch - processPackages [maus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-02 15:44:16] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/bb/18/fa42b7d3cf768cac1da52ad929c3aa2deeb7b72c041b15bc589c0ac6ba33/mell-2.0.5.tar.gz
+[2023-05-02 15:44:16] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-05-02 15:44:16] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230502/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-05-02 15:44:16] INFO root fetch - processPackages [aiida-phonopy]: Downloading https://files.pythonhosted.org/packages/02/fe/91073e5490486c1a3897553b2c8954b5c949b49380f575f44f6c8d318a5e/aiida-phonopy-1.0.0.tar.gz
+[2023-05-02 15:44:16] INFO root fetch - processPackages [FanFicFare]: Downloading https://files.pythonhosted.org/packages/65/3c/613804b633302b19386d97264f6bf5dbe92d582179d73817ac7f423da8ee/FanFicFare-4.8.0.tar.gz
+[2023-05-02 15:44:16] INFO root fetch - processPackages [maus]: executing diffoscope
+[2023-05-02 15:44:16] INFO root fetch - processPackages [maus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maus-0.3.8.tar.gz tmp/maus-0.3.9.tar.gz --markdown 20230502/m/maus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-02 15:44:16] INFO root fetch - processPackages [keyword-explorer]: Downloading https://files.pythonhosted.org/packages/cf/ff/601fdc3e7c3409a7ba0b3f8093f37b2f3674a95559fa46d5d7e21c454935/keyword_explorer-0.4a0.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/36/76/7c04e8f6cd55f01f4492d3c7e9722356740b5fd93fb58a63f97afeb28fe1/guify-0.2.6.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ab/ae/bc18c071dfd490ca773f7da94961e3800a261ef09c51b043e5fca826f404/finbourne-insights-sdk-preview-0.0.583.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [aiida-phonopy]: Downloading https://files.pythonhosted.org/packages/61/68/d96854a3da9b0e5247bb465c1b7b4a9a467a5167ea18811fd30facce2d45/aiida-phonopy-1.1.0.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/82/ac/2018c2f752d9895509accaa278b4811eb9298eff1f911b5528eff22bec00/mell-2.0.6.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/c0/c9/6c9696dddf445f6b0c8275106942c5db1c30ca80a42746e7f76902dc154d/pyridy-1.0.2.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/82/ac/2018c2f752d9895509accaa278b4811eb9298eff1f911b5528eff22bec00/mell-2.0.6.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.2.5a5.tar.gz tmp/guify-0.2.6.tar.gz --markdown 20230502/g/guify/0.2.5a5-0.2.6/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.543.tar.gz tmp/finbourne-insights-sdk-preview-0.0.583.tar.gz --markdown 20230502/f/finbourne-insights-sdk-preview/0.0.543-0.0.583/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [aiida-phonopy]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [aiida-phonopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-phonopy-1.0.0.tar.gz tmp/aiida-phonopy-1.1.0.tar.gz --markdown 20230502/a/aiida-phonopy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [mell]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [mell]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [mell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mell-2.0.5.tar.gz tmp/mell-2.0.6.tar.gz --markdown 20230502/m/mell/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [mell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mell-2.0.5.tar.gz tmp/mell-2.0.6.tar.gz --markdown 20230502/m/mell/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [pyridy]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [pyridy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyridy-1.0.1.tar.gz tmp/pyridy-1.0.2.tar.gz --markdown 20230502/p/pyridy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [keyword-explorer]: Downloading https://files.pythonhosted.org/packages/87/37/12e1bd589ef654bc464d276904c6f1975d879edee1811420b9e96cfd0f6a/keyword_explorer-0.5a0.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [FanFicFare]: Downloading https://files.pythonhosted.org/packages/90/9e/67fd90f648717f76346e4199615d175d1315a0901c081b90a79401b8a818/FanFicFare-4.9.0.tar.gz
+[2023-05-02 15:44:17] INFO root fetch - processPackages [keyword-explorer]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [keyword-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyword_explorer-0.4a0.tar.gz tmp/keyword_explorer-0.5a0.tar.gz --markdown 20230502/k/keyword-explorer/0.4a0-0.5a0/diff.md --exclude *.pyd
+[2023-05-02 15:44:17] INFO root fetch - processPackages [FanFicFare]: executing diffoscope
+[2023-05-02 15:44:17] INFO root fetch - processPackages [FanFicFare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FanFicFare-4.8.0.tar.gz tmp/FanFicFare-4.9.0.tar.gz --markdown 20230502/F/FanFicFare/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-02 15:44:18] INFO root fetch - processPackages [maus]: Start processing: ds2g
+[2023-05-02 15:44:18] INFO root fetch - main [MainThread]: End processing [maus]: success
+[2023-05-02 15:44:18] INFO root fetch - processPackages [ds2g]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-02 15:44:19] INFO root fetch - processPackages [ds2g]: Downloading https://files.pythonhosted.org/packages/e3/ec/1798c6348e897d9973711be7e9da08077b1ca3a29e485a1af36c57df86b6/ds2g-1.0.1.tar.gz
+[2023-05-02 15:44:19] INFO root fetch - processPackages [aiida-phonopy]: Start processing: MediaLib
+[2023-05-02 15:44:19] INFO root fetch - main [MainThread]: End processing [aiida-phonopy]: success
+[2023-05-02 15:44:19] WARNING root fetch - processPackages [MediaLib]: Skipping, unable to determine old version
+[2023-05-02 15:44:19] INFO root fetch - processPackages [MediaLib]: Start processing: quarchpy
+[2023-05-02 15:44:19] INFO root fetch - main [MainThread]: End processing [MediaLib] error
+[2023-05-02 15:44:19] INFO root fetch - processPackages [mell]: Start processing: nanomock
+[2023-05-02 15:44:19] INFO root fetch - main [MainThread]: End processing [mell]: success
+[2023-05-02 15:44:19] INFO root fetch - processPackages [mell]: Start processing: text2term
+[2023-05-02 15:44:19] INFO root fetch - main [MainThread]: End processing [mell]: success
+[2023-05-02 15:44:19] INFO root fetch - processPackages [ds2g]: Downloading https://files.pythonhosted.org/packages/12/ce/7076b80edd8bb82d53ee01311cf0b9893e079f452a2eb0951ed3a31609b4/ds2g-1.0.2.tar.gz
+[2023-05-02 15:44:19] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2023-05-02 15:44:19] WARNING root fetch - processPackages [nanomock]: Skipping, unable to determine old version
+[2023-05-02 15:44:19] INFO root fetch - processPackages [nanomock]: Start processing: bitfount
+[2023-05-02 15:44:19] INFO root fetch - main [MainThread]: End processing [nanomock] error
+[2023-05-02 15:44:19] INFO root fetch - processPackages [text2term]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-02 15:44:19] INFO root fetch - processPackages [ds2g]: executing diffoscope
+[2023-05-02 15:44:19] INFO root fetch - processPackages [ds2g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds2g-1.0.1.tar.gz tmp/ds2g-1.0.2.tar.gz --markdown 20230502/d/ds2g/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-02 15:44:19] INFO root fetch - processPackages [bitfount]: New version: [0.5.9] Old Version: [0.5.66]
+[2023-05-02 15:44:19] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2023-05-02 15:44:19] INFO root fetch - processPackages [text2term]: Downloading https://files.pythonhosted.org/packages/89/04/27eed873b9e45f8d34a3c7a0fea8b1de153a5632892c0414125128f36e9d/text2term-2.1.0.tar.gz
+[2023-05-02 15:44:19] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/f4/6a/60f75845c864d8c5650da03e9e4953eeee7844360feff152504ebd525c8c/bitfount-0.5.66.tar.gz
+[2023-05-02 15:44:19] INFO root fetch - processPackages [text2term]: Downloading https://files.pythonhosted.org/packages/04/10/2eef0851ada1cafd01943405c751eef983fe2fc0b803e14ad3b8b394b48d/text2term-2.2.0.tar.gz
+[2023-05-02 15:44:19] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/6f/29/8f4206e615fc20a41a45ee646f360c3c10572297cf6c08f1b52fcab30b97/bitfount-0.5.9.tar.gz
+[2023-05-02 15:44:20] INFO root fetch - processPackages [text2term]: executing diffoscope
+[2023-05-02 15:44:20] INFO root fetch - processPackages [text2term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2term-2.1.0.tar.gz tmp/text2term-2.2.0.tar.gz --markdown 20230502/t/text2term/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-02 15:44:20] INFO root fetch - main [MainThread]: End processing [keyword-explorer]: success
+[2023-05-02 15:44:20] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2023-05-02 15:44:20] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2023-05-02 15:44:20] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2023-05-02 15:44:20] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.5.66.tar.gz tmp/bitfount-0.5.9.tar.gz --markdown 20230502/b/bitfount/0.5.66-0.5.9/diff.md --exclude *.pyd
+[2023-05-02 15:44:20] INFO root fetch - main [MainThread]: End processing [FanFicFare]: success
+[2023-05-02 15:44:20] INFO root fetch - main [MainThread]: End processing [pyridy]: success
+[2023-05-02 15:44:20] INFO root fetch - main [MainThread]: End processing [ds2g]: success
+[2023-05-02 15:44:20] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-05-02 15:44:21] INFO root fetch - main [MainThread]: End processing [text2term]: success
+[2023-05-02 15:44:21] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-02 15:44:26] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2023-05-02 15:47:16] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
+[2023-05-02 15:47:16] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
+[2023-05-02 15:47:16] INFO root fetch - main [MainThread]: Store serial: [17941366]
