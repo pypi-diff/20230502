@@ -16462,3 +16462,73 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-05-02 17:34:29] INFO root fetch - main [MainThread]: End processing [nomenclature-iamc]: success
 [2023-05-02 17:34:30] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-02 17:34:30] INFO root fetch - main [MainThread]: Store serial: [17943032]
+[2023-05-02 17:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17943032]
+[2023-05-02 17:39:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchplite
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkist-processing-test
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nepali
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-parted
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpccm
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: turbine-py
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jamstats-nogui
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ms3
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fixieai
+[2023-05-02 17:39:40] INFO root fetch - processPackages [python-parted]: New version: [1.0.14] Old Version: [1.0.13]
+[2023-05-02 17:39:40] WARNING root fetch - processPackages [jamstats-nogui]: Skipping, unable to determine old version
+[2023-05-02 17:39:40] INFO root fetch - processPackages [jamstats-nogui]: Start processing: django-sekizai
+[2023-05-02 17:39:40] INFO root fetch - main [MainThread]: End processing [jamstats-nogui] error
+[2023-05-02 17:39:40] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [python-parted]: executing diffoscope
+[2023-05-02 17:39:40] INFO root fetch - processPackages [python-parted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-parted-1.0.13.tar.gz tmp/python_parted-1.0.14.tar.gz --markdown 20230502/p/python-parted/1.0.13-1.0.14/diff.md --exclude *.pyd
+[2023-05-02 17:39:40] WARNING root fetch - processPackages [torchplite]: Skipping, unable to determine old version
+[2023-05-02 17:39:40] INFO root fetch - processPackages [torchplite]: Start processing: pipecheck
+[2023-05-02 17:39:40] INFO root fetch - main [MainThread]: End processing [torchplite] error
+[2023-05-02 17:39:40] INFO root fetch - processPackages [fixieai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [hpccm]: New version: [23.5.0] Old Version: [23.3.0]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ms3]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [nepali]: New version: [1.0.0] Old Version: [0.5.6]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.0.9rc3] Old Version: [1.0.9rc2]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [django-sekizai]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [turbine-py]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-02 17:39:40] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230502/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-02 17:39:40] INFO root fetch - processPackages [pipecheck]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-02 17:39:40] INFO root fetch - processPackages [nepali]: Downloading https://files.pythonhosted.org/packages/c2/37/70c9f69865256ce2e8a5424a11d26bcb8cab0791a0564cfda312bf4b42f8/nepali-0.5.6.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [hpccm]: Downloading https://files.pythonhosted.org/packages/21/2e/7cd5e859555849e8559ed3f150fbd593cb5b88e52faadd22ec4843e0c0c2/hpccm-23.3.0.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [django-sekizai]: Downloading https://files.pythonhosted.org/packages/31/9e/707867ef4bb3ce64332afac4e2888e843937b2cfb60ba3e83ab824f9b235/django-sekizai-4.0.0.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [turbine-py]: Downloading https://files.pythonhosted.org/packages/65/eb/487a3f13489bcbeac4d9203652b649d7729d94e11a82b3127db6c46f9f5f/turbine-py-1.7.2.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [pipecheck]: Downloading https://files.pythonhosted.org/packages/df/67/66c5d5502d7af7e0f84d7cbf8bb815b41f5bdf73ae3d2a5be0f65afae9eb/pipecheck-0.4.1.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [fixieai]: executing diffoscope
+[2023-05-02 17:39:40] INFO root fetch - processPackages [fixieai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixieai-0.2.8.tar.gz tmp/fixieai-0.2.9.tar.gz --markdown 20230502/f/fixieai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-02 17:39:40] INFO root fetch - processPackages [ms3]: Downloading https://files.pythonhosted.org/packages/31/cf/83b591e0b23ae6b992dae2702cee130e9452ee36c5f87c64bdf6c2787780/ms3-1.2.8.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2023-05-02 17:39:40] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.0.9rc2.tar.gz tmp/dkist-processing-test-1.0.9rc3.tar.gz --markdown 20230502/d/dkist-processing-test/1.0.9rc2-1.0.9rc3/diff.md --exclude *.pyd
+[2023-05-02 17:39:40] INFO root fetch - processPackages [nepali]: Downloading https://files.pythonhosted.org/packages/fe/3b/218c565a7151d7080cfa0d147c68a29055337f033658d4da0d0b691bf778/nepali-1.0.0.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [turbine-py]: Downloading https://files.pythonhosted.org/packages/cb/6e/79e0502c86142433cf4811f85540fc2631ba2aa45a988bc48d79886addda/turbine-py-1.8.0.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [django-sekizai]: Downloading https://files.pythonhosted.org/packages/be/b7/399f7d84fa34c67e7c8e1da39744c9a2f83b61fa600c854cbe43bf6aab56/django-sekizai-4.1.0.tar.gz
+[2023-05-02 17:39:40] INFO root fetch - processPackages [nepali]: executing diffoscope
+[2023-05-02 17:39:40] INFO root fetch - processPackages [nepali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepali-0.5.6.tar.gz tmp/nepali-1.0.0.tar.gz --markdown 20230502/n/nepali/0.5.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-02 17:39:41] INFO root fetch - processPackages [turbine-py]: executing diffoscope
+[2023-05-02 17:39:41] INFO root fetch - processPackages [turbine-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbine-py-1.7.2.tar.gz tmp/turbine-py-1.8.0.tar.gz --markdown 20230502/t/turbine-py/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-05-02 17:39:41] INFO root fetch - processPackages [hpccm]: Downloading https://files.pythonhosted.org/packages/66/40/389a4e7c0bc3e18b1928df828bcfee9b87b2ba59f5227d814d94816cede5/hpccm-23.5.0.tar.gz
+[2023-05-02 17:39:41] INFO root fetch - processPackages [ms3]: executing diffoscope
+[2023-05-02 17:39:41] INFO root fetch - processPackages [ms3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms3-1.2.7.tar.gz tmp/ms3-1.2.8.tar.gz --markdown 20230502/m/ms3/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-02 17:39:41] INFO root fetch - processPackages [pipecheck]: Downloading https://files.pythonhosted.org/packages/fa/33/462b5a296de6f220498782f49de9c693b9e40cc91677701564e48c6d36b4/pipecheck-0.4.2.tar.gz
+[2023-05-02 17:39:41] INFO root fetch - processPackages [django-sekizai]: executing diffoscope
+[2023-05-02 17:39:41] INFO root fetch - processPackages [django-sekizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sekizai-4.0.0.tar.gz tmp/django-sekizai-4.1.0.tar.gz --markdown 20230502/d/django-sekizai/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-05-02 17:39:41] INFO root fetch - processPackages [hpccm]: executing diffoscope
+[2023-05-02 17:39:41] INFO root fetch - processPackages [hpccm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpccm-23.3.0.tar.gz tmp/hpccm-23.5.0.tar.gz --markdown 20230502/h/hpccm/23.3.0-23.5.0/diff.md --exclude *.pyd
+[2023-05-02 17:39:41] INFO root fetch - processPackages [pipecheck]: executing diffoscope
+[2023-05-02 17:39:41] INFO root fetch - processPackages [pipecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230502:/home/abi/fetcher/20230502:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipecheck-0.4.1.tar.gz tmp/pipecheck-0.4.2.tar.gz --markdown 20230502/p/pipecheck/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-02 17:39:42] INFO root fetch - main [MainThread]: End processing [python-parted]: success
+[2023-05-02 17:39:42] INFO root fetch - main [MainThread]: End processing [pipecheck]: success
+[2023-05-02 17:39:42] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2023-05-02 17:39:43] INFO root fetch - main [MainThread]: End processing [django-sekizai]: success
+[2023-05-02 17:39:43] INFO root fetch - main [MainThread]: End processing [turbine-py]: success
+[2023-05-02 17:39:43] INFO root fetch - main [MainThread]: End processing [fixieai]: success
+[2023-05-02 17:39:43] INFO root fetch - main [MainThread]: End processing [nepali]: success
+[2023-05-02 17:39:45] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-02 17:39:46] INFO root fetch - main [MainThread]: End processing [hpccm]: success
+[2023-05-02 17:39:52] INFO root fetch - main [MainThread]: End processing [ms3]: success
+[2023-05-02 17:39:52] INFO root fetch - main [MainThread]: Store serial: [17943072]
